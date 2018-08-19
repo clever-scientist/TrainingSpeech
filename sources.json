@@ -1,0 +1,14 @@
+{
+  "LeComteDeMonteCristoChap1": {
+    "audio_licence": "Creative Commons",
+    "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
+    "audio_src": "https://ia801409.us.archive.org/0/items/Le-Comte-de-Monte-Cristo/Le-Comte-de-Monte-Cristo_vbr_mp3.zip",
+    "ebook_licence": "Public domain",
+    "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
+    "ebook_parts": [
+      "part1.xhtml"
+    ],
+    "ebook_src": "https://www.atramenta.net/download_work/f017fd1da4/oeuvre6318.epub",
+    "transcript": "./.tmp/LeComteDeMonteCristoChap1.txt"
+  }
+}

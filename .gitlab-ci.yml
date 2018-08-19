@@ -1,0 +1,17 @@
+stages:
+  - test
+
+cache:
+  paths:
+    - .pip
+
+test:
+  image: python:3.6.6
+  script:
+   - apt-get update -qq && apt-get install -y -qq ffmpeg espeak libespeak-dev python3-numpy python-numpy
+   - mkdir -p .pip
+   - pip install --cache-dir .pip -Ur requirements.txt
+   - python -c "import nltk; nltk.download('punkt')"
+   - pytest --cov
+  coverage: '/TOTAL.*(\d{2}\.?(?:\d+)?)%/'
+
