@@ -27,51 +27,46 @@ def process_source(source_name, epub, mp3):
     pass
 
 
-
 @cli.command()
 @click.argument('source_name')
 @click.argument('epub', type=click.Path(exists=True))
-def build_transcript_from_epub(source_name, epub):
+@click.argument('path_to_transcript')
+def build_transcript(source_name, epub, path_to_transcript):
     sources = utils.read_sources()
     if source_name not in sources:
         click.echo(f'source "{source_name}" not found', err=True)
         return
 
     source = sources[source_name]
-    if source.get('transcript') and os.path.isfile(source['transcript']):
-        click.echo(f'transcript already exists for source "{source_name}", see {source["transcript"]}', err=True)
-        return
-    path_to_transcript = f'./.tmp/{source_name}.txt'
+
     res = click.edit(utils.read_epub(epub, path_to_xhtmls=source['ebook_parts']))
     if not res:
         return
     with open(path_to_transcript, 'w') as f:
         f.writelines(res)
-    source['transcript'] = path_to_transcript
-    utils.update_sources(sources)
 
 
-play_audio_f = None
+
+play_audio_p = None
 
 
 def check_alignment(fragment: dict, path_to_audio: str):
-    global play_audio_f
+
     todo = set()
     pool = ThreadPoolExecutor()
 
     def play_audio():
+        global play_audio_p
         try:
             print(f'playing {" ".join(fragment["lines"])}')
-            subprocess.call(f'play -q {path_to_audio} tempo 1.5'.split(' '))
+            play_audio_p = subprocess.call(f'play -q {path_to_audio} tempo 1.5'.split(' '))
         except Exception as e:
             print(e)
             raise e
 
-    play_audio_f = pool.submit(play_audio)
-    todo.add(play_audio_f)
+    todo.add(pool.submit(play_audio))
 
     def ask_what_next():
-        global play_audio_f
         try:
             answers = inquirer.prompt([
                 inquirer.List(
@@ -83,10 +78,15 @@ def check_alignment(fragment: dict, path_to_audio: str):
         except Exception:
             answers = {'next': 'quit'}
 
+        global play_audio_p
+        try:
+            play_audio_p.kill()
+        except:
+            pass
+
         if answers['next'] == 'repeat':
-            play_audio_f.cancel()
-            play_audio_f = pool.submit(play_audio)
-            todo.add(play_audio_f)
+
+            todo.add(pool.submit(play_audio))
             todo.add(pool.submit(ask_what_next))
         elif answers['next'] == 'continue':
             pass
@@ -111,33 +111,39 @@ def check_alignment(fragment: dict, path_to_audio: str):
 
 @cli.command()
 @click.argument('source_name')
+@click.argument('transcript', type=click.Path(exists=True))
 @click.argument('mp3', type=click.Path(exists=True))
-def align(source_name, mp3):
+@click.argument('path_to_alignment', type=click.Path(exists=False))
+def build_alignment(source_name, transcript, mp3, path_to_alignment):
     assert utils.file_extension(mp3) == '.mp3', 'expect file to have `.mp3` extension'
     mp3 = os.path.abspath(mp3)
-
     sources = utils.read_sources()
     if source_name not in sources:
         click.echo(f'source "{source_name}" not found', err=True)
         return
 
-    source = sources[source_name]
-    if not source.get('transcript'):
-        click.echo(f'transcript not found', err=True)
-        return
-    path_to_alignment = f'/tmp/{source_name}.json'
-    if not os.path.isfile(path_to_alignment):
-        # build alignment
-        task = Task('task_language=fra|os_task_file_format=json|is_text_type=plain')
-        task.audio_file_path_absolute = os.path.abspath(mp3)
-        task.text_file_path_absolute = source["transcript"]
-        task.sync_map_file_path_absolute = path_to_alignment
-        executor = ExecuteTask(task=task)
-        executor.execute()
-        task.output_sync_map_file()
+    # build alignment
+    task = Task('task_language=fra|os_task_file_format=json|is_text_type=plain')
+    task.audio_file_path_absolute = os.path.abspath(mp3)
+    task.text_file_path_absolute = os.path.abspath(transcript)
+    task.sync_map_file_path_absolute = path_to_alignment
+    executor = ExecuteTask(task=task)
+    executor.execute()
+    task.output_sync_map_file()
 
+
+@cli.command()
+@click.argument('source_name')
+@click.argument('path_to_alignment', type=click.Path(exists=True))
+@click.argument('mp3', type=click.Path(exists=True))
+def check_alignments(source_name, path_to_alignment, mp3):
     with open(path_to_alignment, 'r') as f:
         alignment = json.load(f)
+
+    sources = utils.read_sources()
+    if source_name not in sources:
+        click.echo(f'source "{source_name}" not found', err=True)
+        return
 
     fragments = alignment['fragments']
 
@@ -164,7 +170,8 @@ def align(source_name, mp3):
 
     with click.progressbar(length=len(fragments), show_eta=True) as bar:
         for i, fragment in enumerate(fragments):
-            bar.update(1 if i > 0 else 0)
+            if i > 0:
+                bar.update(1)
             bar.label = f'playing {" ".join(fragment["lines"])}'
             path_to_audio = f'/tmp/{source_name}.{fragment["id"]}.wav'
             check_alignment(fragment, path_to_audio)
