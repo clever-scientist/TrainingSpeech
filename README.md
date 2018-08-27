@@ -1,13 +1,21 @@
 # AudioCorpFR
 
 
-# New source workflow
 
-1. add source to `./sources.json` for both epub and mp3 files
-2. build transcript
-   `$ python cli.py build_transcript_from_epub <source-name> <path-to-epub>`
-   NB: this generate a new txt file with all
-3. 
+## Common workflows
+
+### 1. Add New source workflow (contributors only)
+
+1. retrieve epub and corresponding mp3 file from [atramenta](atramenta.net/audiobooks) and store them into `./data/epubs` and `./data/mp3` (respectively)
+2. create new source into `./sources.json`
+
+
+### 2. Generate transcript for an existing source
+
+```sh
+python cli.py build_transcript <source-name>`
+```
+
 
 ## Dev setup 
 
