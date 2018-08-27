@@ -62,3 +62,13 @@ def test_cleanup_document(paragraph, expected_sentences):
 def test_validate_source_ko(source: dict, expected_errors: dict):
     data, errors = utils.SourceSchema().load(source, many=False)
     assert expected_errors == errors
+
+
+@pytest.mark.parametrize('input_, expected_output', [
+    ('1', True),
+    ('abc', False),
+    ('1.1', True),
+    ('1,1', True),
+])
+def test_is_float(input_, expected_output):
+    assert expected_output == utils.is_float(input_)

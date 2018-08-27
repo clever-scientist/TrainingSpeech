@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED, as_com
 import click
 
 from audiocorpfr import utils
-
+from audiocorpfr.exceptions import GoBackException, QuitException, MergeException
 
 CURRENT_DIR = os.path.dirname(__file__)
 
@@ -79,9 +79,9 @@ def check_alignment(source_name, restart):
     import inquirer
     source = utils.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
-    path_to_mp3 = source['audio']
+    path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
     if not os.path.isfile(path_to_alignment):
-        raise Exception(f'alignment file missing for source {source_name}. see `python cli.py build_alignment --help`')
+        raise FileNotFoundError(f'alignment file missing for {source_name}. see `python cli.py build_alignment --help`')
 
     with open(path_to_alignment, 'r') as f:
         fragments = json.load(f)
@@ -99,27 +99,32 @@ def check_alignment(source_name, restart):
     path_to_recordings = os.path.join(CURRENT_DIR,  f'data/recordings/{source_name}/')
     subprocess.call(f'rm -f {path_to_recordings}*.wav'.split(' '))
 
+    def cut_fragment_audio(fragment: dict):
+        path_to_fragment_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
+        utils.cut_audio(path_to_wav, fragment['begin'], fragment['end'], path_to_fragment_audio)
+
     # generate fragments
     with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
         if not os.path.isdir(path_to_recordings):
             os.mkdir(path_to_recordings)
 
-        def cut_fragment_audio(fragment):
-            path_to_fragment_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
-            utils.cut_audio(path_to_wav, fragment['begin'], fragment['end'], path_to_fragment_audio)
+        def _cut(f: dict):
+            cut_fragment_audio(f)
             bar.update(1)
 
         with ThreadPoolExecutor() as executor:
-            executor.map(cut_fragment_audio, fragments)
+            executor.map(_cut, fragments)
 
-    def check_alignment(fragment: dict, path_to_audio: str):
+    def _check_alignment(index: int, path_to_audio: str, fragments):
+        fragment = fragments[index]
+        is_last_fragment = index == len(fragments) - 1
         todo = set()
         pool = ThreadPoolExecutor()
 
         def play_audio():
             global play_audio_p
             try:
-                play_audio_p = subprocess.Popen(f'play -q {path_to_audio} tempo 1.5'.split(' '))
+                play_audio_p = subprocess.Popen(f'play -q {path_to_audio} tempo 1.25'.split(' '))
                 play_audio_p.wait()
             except Exception as e:
                 print(e)
@@ -127,17 +132,54 @@ def check_alignment(source_name, restart):
 
         todo.add(pool.submit(play_audio))
 
+        def ask_right_end():
+            try:
+                right_end: str = inquirer.prompt([
+                    inquirer.Text(
+                        'end',
+                        message="\nWhat is the right end ?",
+                        default=str(fragment['end']),
+                        validate=lambda _,x: utils.is_float(x),
+                    ),
+                ])['end']
+            except TypeError:
+                return fragment['end']
+            return float(right_end)
+
+        def ask_right_text():
+            try:
+                right_text: str = inquirer.prompt([
+                    inquirer.Text(
+                        'text',
+                        message="\nWhat is the right text ?",
+                        default=str(fragment['text']),
+                        validate=lambda _,x: bool(x),
+                    ),
+                ])['text']
+            except TypeError:
+                return fragment['text']
+            return right_text
+
         def ask_what_next():
             try:
-                answers = inquirer.prompt([
+                next_: str = inquirer.prompt([
                     inquirer.List(
                         'next',
                         message="\nWhat should I do ?",
-                        choices=['continue', 'repeat'] + (['enable'] if fragment.get('disabled') else ['disable']) + ['quit'],
+                        choices=(
+                                ['continue', 'repeat'] +
+                                (['go_back'] if index > 0 else []) +
+                                ['wrong_end'] +
+                                (['merge_previous'] if index > 0 else []) +
+                                ['wrong_text'] +
+                                (['enable'] if fragment.get('disabled') else ['disable']) +
+                                ['quit']),
                     ),
-                ])
+                ])['next']
+            except TypeError:
+                raise QuitException
             except Exception:
-                answers = {'next': 'continue'}
+                next_ = 'continue'
 
             global play_audio_p
             try:
@@ -145,19 +187,40 @@ def check_alignment(source_name, restart):
             except:
                 pass
 
-            if answers['next'] == 'repeat':
+            if next_ == 'repeat':
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
-            elif answers['next'] == 'continue':
+            elif next_ == 'go_back':
+                prev_fragment = fragments[index - 1]
+                prev_fragment.pop('disabled', None)
+                prev_fragment.pop('approved', None)
+                raise GoBackException
+            elif next_ == 'wrong_text':
+                fragment['text'] = ask_right_text()
+            elif next_ == 'wrong_end':
+                new_end = ask_right_end()
+                fragment['end'] = new_end
+                fragment['duration'] = fragment['end'] - fragment['begin']
+                cut_fragment_audio(fragment)
+                if not is_last_fragment:
+                    next_fragment = fragments[index + 1]
+                    next_fragment['begin'] = new_end - 0.1
+                    next_fragment['duration'] = next_fragment['end'] - next_fragment['begin']
+                    cut_fragment_audio(next_fragment)
+                todo.add(pool.submit(play_audio))
+                todo.add(pool.submit(ask_what_next))
+            elif next_ == 'continue':
                 fragment['approved'] = True
-            elif answers['next'] == 'disable':
+            elif next_ == 'disable':
                 fragment['disabled'] = True
                 fragment.pop('approved', None)
-            elif answers['next'] == 'enabled':
+            elif next_ == 'enabled':
                 fragment['approved'] = True
                 fragment.pop('disabled', None)
-            elif answers['next'] == 'quit':
-                raise Exception('interrupted')
+            elif next_ == 'quit':
+                raise QuitException
+            elif next_ == 'merge_previous':
+                raise MergeException
             else:
                 raise NotImplementedError
 
@@ -171,15 +234,35 @@ def check_alignment(source_name, restart):
         pool.shutdown(wait=True)
 
     with click.progressbar(length=len(fragments), show_eta=True, label=f'playing #{0}: {fragments[0]["text"]}') as bar:
-        for i, fragment in enumerate(fragments):
+        i = 0
+        done = False
+        while i < len(fragments) and not done:
+            fragment = fragments[i]
             bar.label = f'\nplaying #{i}: {fragment["text"]}'
             if i > 0:
                 bar.update(1)
+
             if not restart and (fragment.get('approved') or fragment.get('disabled')):
-                click.echo(f'skip fragment#{i}')
+                click.echo(f'skip fragment#{i} {fragment["text"]}')
+                i += 1
                 continue
+
             path_to_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
-            check_alignment(fragment, path_to_audio)
+            try:
+                _check_alignment(index=i, path_to_audio=path_to_audio, fragments=fragments)
+            except GoBackException:
+                i -= 1
+                continue
+            except QuitException:
+                break
+            except MergeException:
+                prev_fragment = fragments[i - 1]
+                fragment['begin'] = prev_fragment['begin']
+                fragment['text'] = f'{prev_fragment["text"]} {fragment["text"]}'
+                fragment['duration'] = fragment['end'] - fragment['begin']
+                cut_fragment_audio(fragment)
+                fragments = fragments[:i-1] + fragments[i:]
+                i -= 2
 
             # save progress
             with open(path_to_alignment, 'w') as dest:
@@ -189,6 +272,7 @@ def check_alignment(source_name, restart):
                     sort_keys=True,
                     indent=2,
                 )
+            i += 1
 
 
 MAPPINGS = [

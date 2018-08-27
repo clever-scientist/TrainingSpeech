@@ -223,8 +223,8 @@ def cleanup_fragment(original: dict) -> dict:
     lines = data.pop('lines')
     data.pop('children')
     data.pop('language')
-    begin = max(float(data['begin']) - 0.2, 0)
-    end = float(data['end']) - 0.2
+    begin = max(float(data['begin']) - 0.1, 0)
+    end = float(data['end'])
     duration = end - begin
     data.update(
         begin=begin,
@@ -242,3 +242,13 @@ def sha1_file(file_obj, blocksize=65536):
         hasher.update(buf)
         buf = file_obj.read(blocksize)
     return hasher.hexdigest()
+
+
+def is_float(x: str):
+    if isinstance(x, str):
+        x = x.replace(',', '.').replace(' ', '')
+    try:
+        float(x)
+        return True
+    except ValueError:
+        return False
