@@ -8,7 +8,7 @@ cache:
 test:
   image: python:3.6.6
   script:
-   - apt-get update -qq && apt-get install -y -qq ffmpeg espeak libespeak-dev python3-numpy python-numpy
+   - apt-get update -qq && apt-get install -y -qq ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox
    - mkdir -p .pip
    - pip install --cache-dir .pip -Ur requirements.txt
    - python -c "import nltk; nltk.download('punkt')"

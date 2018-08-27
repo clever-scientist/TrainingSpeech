@@ -104,5 +104,7 @@ ENV/
 # Jetbrains
 .idea
 
-# data
-.tmp
+# data (stored on s3://audiocorpfr)
+data/epubs/
+data/mp3/
+data/recordings/

@@ -2,15 +2,18 @@ import json
 import os
 import re
 import subprocess
+from _sha1 import sha1
+from copy import deepcopy
 from zipfile import ZipFile
 import roman
 from bs4 import BeautifulSoup
 from typing import Pattern
-
+from marshmallow import Schema, fields, ValidationError
 from num2words import num2words
 from nltk.tokenize import sent_tokenize
 
 
+CURRENT_DIR = os.path.dirname(__file__)
 NORMALIZATIONS = [
     ['M.\u00a0', 'Monsieur '],
     ['M. ', 'Monsieur '],
@@ -29,6 +32,7 @@ NORMALIZATIONS = [
     [re.compile(r'^\s?(-|—|–)\s?'), ''],
     [re.compile(r'("|«)\s?'), ''],
     [re.compile(r'\s?("|»)'), ''],
+    [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
 ]
 ROMAN_CHARS = 'XVI'
 NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")
@@ -161,6 +165,18 @@ def read_sources() -> dict:
         return json.load(f)
 
 
+def get_source(name: str) -> dict:
+    sources = read_sources()
+    if name not in sources:
+        raise Exception(f'source "{name}" not found')
+    source = sources[name]
+    data, errors = SourceSchema().load(source, many=False)
+
+    if errors:
+        raise Exception(f'source "{name}" misconfigured: {errors}')
+    return source
+
+
 def update_sources(value: dict) -> dict:
     with open(os.path.join(os.path.dirname(__file__), '../sources.json'), 'w') as f:
         return json.dump(value, f, indent=2, sort_keys=True)
@@ -178,3 +194,51 @@ def read_epub(path_to_epub, path_to_xhtmls=None):
             html_txt += '\n' + soup.body.get_text(separator='\n')
 
     return cleanup_document(html_txt)
+
+
+class LocalFileField(fields.Str):
+    def _deserialize(self, value, attr, data):
+        value = super()._deserialize(value, attr, data)
+        if self.metadata.get('extension') and file_extension(value) != self.metadata['extension']:
+            raise ValidationError(f'expect extension to be {self.metadata["extension"]}')
+        if self.metadata.get('dirname'):
+            value = os.path.join(self.metadata['dirname'], value)
+        if not os.path.isfile(value):
+            raise ValidationError(f'file not found')
+        return os.path.abspath(value)
+
+
+class SourceSchema(Schema):
+    audio_licence = fields.String(required=True)
+    audio_page = fields.Url(required=True)
+    audio = LocalFileField(required=True, extension='.mp3', dirname=os.path.join(CURRENT_DIR, '../data/mp3/'))
+    ebook_licence = fields.String(required=True)
+    ebook_page = fields.Url(required=True)
+    ebook_parts = fields.List(fields.String, required=True)
+    ebook = LocalFileField(required=True, extension='.epub', dirname=os.path.join(CURRENT_DIR, '../data/epubs/'))
+
+
+def cleanup_fragment(original: dict) -> dict:
+    data = deepcopy(original)
+    lines = data.pop('lines')
+    data.pop('children')
+    data.pop('language')
+    begin = max(float(data['begin']) - 0.2, 0)
+    end = float(data['end']) - 0.2
+    duration = end - begin
+    data.update(
+        begin=begin,
+        end=end,
+        duration=duration,
+        text=' '.join(lines),
+    )
+    return data
+
+
+def sha1_file(file_obj, blocksize=65536):
+    hasher = sha1()
+    buf = file_obj.read(blocksize)
+    while len(buf) > 0:
+        hasher.update(buf)
+        buf = file_obj.read(blocksize)
+    return hasher.hexdigest()
