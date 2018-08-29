@@ -3,9 +3,12 @@ import os
 import re
 import subprocess
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED, as_completed
+from datetime import timedelta
 
 import click
+from tabulate import tabulate
 
+import audiocorpfr
 from audiocorpfr import utils
 from audiocorpfr.exceptions import GoBackException, QuitException, MergeException
 
@@ -313,6 +316,32 @@ def upload(source_name):
         sync_cmd = f'aws s3 sync {options}{local} {s3}'
         print(sync_cmd)
         subprocess.call(sync_cmd.split(' '))
+
+
+@cli.command()
+def stats():
+    sources = utils.read_sources()
+    sources_data = []
+    total_dur = timedelta(seconds=0)
+    total_count = 0
+    for name, _ in sources.items():
+        info = audiocorpfr.source_info(name)
+        sources_data.append([
+            name,
+            info['status'],
+            f'{int(info["progress"] * 100)} %',
+            info['approved_duration'],
+            info['approved_count'],
+        ])
+        total_dur += info['approved_duration']
+        total_count += info['approved_count']
+
+    print(tabulate(
+        sources_data,
+        headers=['Source', 'Status', 'Progress', 'Approved Duration', 'Approved Count'],
+        tablefmt='pipe',
+    ))
+    print(f'\nTotal: {total_dur} with {total_count} fragments')
 
 
 if __name__ == '__main__':
