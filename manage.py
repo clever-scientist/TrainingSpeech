@@ -1,15 +1,14 @@
 import json
 import os
-import re
 import subprocess
-from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta
 
 import click
 from tabulate import tabulate
 
 import audiocorpfr
-from audiocorpfr import utils
+from audiocorpfr import utils, ffmpeg
 from audiocorpfr.exceptions import GoBackException, QuitException, MergeException
 
 CURRENT_DIR = os.path.dirname(__file__)
@@ -95,8 +94,7 @@ def check_alignment(source_name, restart):
     path_to_wav = f'/tmp/{f_hash}.wav'
     # create wav from mp3 if do not exists yet
     if not os.path.exists(path_to_wav):
-        retcode = subprocess.call(f'ffmpeg -loglevel quiet -y -i {path_to_mp3} -ac 1 -ar 16000 /tmp/{f_hash}.wav'.split(' '))
-        assert retcode == 0
+        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{f_hash}.wav', rate=16000, channels=1)
 
     # delete existing fragments if any
     path_to_recordings = os.path.join(CURRENT_DIR,  f'data/recordings/{source_name}/')
