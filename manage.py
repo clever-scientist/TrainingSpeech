@@ -8,7 +8,7 @@ import click
 from tabulate import tabulate
 
 import audiocorpfr
-from audiocorpfr import utils, ffmpeg
+from audiocorpfr import utils, ffmpeg, sox
 from audiocorpfr.exceptions import GoBackException, QuitException, MergeException
 
 CURRENT_DIR = os.path.dirname(__file__)
@@ -71,7 +71,7 @@ def build_alignment(source_name):
         )
 
 
-play_audio_p = None
+audio_player = None
 
 
 @cli.command()
@@ -102,7 +102,7 @@ def check_alignment(source_name, restart):
 
     def cut_fragment_audio(fragment: dict):
         path_to_fragment_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
-        utils.cut_audio(path_to_wav, fragment['begin'], fragment['end'], path_to_fragment_audio)
+        ffmpeg.cut(path_to_wav, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
 
     # generate fragments
     with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
@@ -123,13 +123,9 @@ def check_alignment(source_name, restart):
         pool = ThreadPoolExecutor()
 
         def play_audio():
-            global play_audio_p
-            try:
-                play_audio_p = subprocess.Popen(f'play -q {path_to_audio} tempo 1.25'.split(' '))
-                play_audio_p.wait()
-            except Exception as e:
-                print(e)
-                raise e
+            global audio_player
+            with sox.play(path_to_audio, speed=1.25) as player:
+                audio_player = player
 
         todo.add(pool.submit(play_audio))
 
@@ -140,7 +136,7 @@ def check_alignment(source_name, restart):
                         'end',
                         message="\nWhat is the right end ?",
                         default=str(fragment['end']),
-                        validate=lambda _,x: utils.is_float(x),
+                        validate=lambda _, x: utils.is_float(x),
                     ),
                 ])['end']
             except TypeError:
@@ -182,9 +178,9 @@ def check_alignment(source_name, restart):
             except Exception:
                 next_ = 'continue'
 
-            global play_audio_p
+            global audio_player
             try:
-                play_audio_p.kill()
+                audio_player.kill()
             except:
                 pass
 
@@ -340,6 +336,28 @@ def stats():
         tablefmt='pipe',
     ))
     print(f'\nTotal: {total_dur} with {total_count} fragments')
+
+
+@cli.command()
+@click.argument('source_name')
+def generate_labels(source_name: str):
+    source = utils.get_source(source_name)
+    path_to_audio = os.path.join(CURRENT_DIR, 'data/mp3/', source['audio'])
+    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+    if not os.path.isfile(path_to_alignment):
+        raise FileNotFoundError(f'alignment file missing for {source_name}. see `python cli.py build_alignment --help`')
+    print(f'detecting silences from {path_to_audio}')
+    silences = ffmpeg.list_silences(input_path=path_to_audio)
+    print('done')
+    path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
+    with open(path_to_silences_labels, 'w') as f:
+        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
+
+    path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
+    with open(path_to_alignment) as alignments_f, open(path_to_alignment_labels, 'w') as labels_f:
+        alignments = json.load(alignments_f)
+        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
+    print(f'labels availables at\n{path_to_alignment_labels}\n{path_to_silences_labels}')
 
 
 if __name__ == '__main__':

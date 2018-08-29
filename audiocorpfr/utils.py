@@ -67,11 +67,6 @@ def get_numbers(text):
     return NUMS_REGEX.split(text)
 
 
-def cut_audio(input_path: str, from_: float, to: float, output_path: str):
-    assert to > from_
-    subprocess.call(f'ffmpeg -loglevel quiet -y -i {input_path} -ss {from_} -to {to} -c copy {output_path}'.split(' '))
-
-
 def maybe_normalize(value, mapping=NORMALIZATIONS):
     for norm in mapping:
         if type(norm[0]) == str:
