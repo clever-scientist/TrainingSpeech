@@ -1,28 +1,33 @@
 # AudioCorpFR
+> automate and simplify text forced-alignment from audio-books
 
+## Common workflow
 
-
-## Common workflows
-
-### 1. Add New source workflow (contributors only)
+### 1. Add New source (contributors only)
 
 1. retrieve epub and corresponding mp3 file from [atramenta](atramenta.net/audiobooks) and store them into `./data/epubs` and `./data/mp3` (respectively)
-2. create new source into `./sources.json`
+2. create new source into `./sources.json` (NB: all fields are mandatory)
+3. generate initial transcript build_transcript
 
 
-### 2. Generate transcript for an existing source
+### 2. Generate and validate alignment on existing source
 
-```sh
-python cli.py build_transcript <source-name>`
-```
-
+1. pick a source that have NOT been validated yet: see `python manage.py stats` and `./sources.json` for more info
+2. download assets (ie epub and mp3 files): `manage.py download -s <SOURCE_NAME>`
+3. build initial transcript: `manage.py build_transcript <SOURCE_NAME>`
+4. build alignment: `manage.py build_alignment <SOURCE_NAME>`
+5. check alignment: `manage.py check_alignment [OPTIONS] <SOURCE_NAME>`
+6. iterate between 4. and 5.
+7. send a pull request with generated transcript and alignment
 
 ## Dev setup 
 
 ```sh
-$ git clone git@gitlab.com:<your-fork>/AudioCorpFR.git
+$ git clone git@gitlab.com:nicolaspanel/AudioCorpFR.git
+$ pip3 install --user pipenv
 $ cd AudioCorpFR
-$ pyenv virtualenv 3.6.6 audiocorpfr # OPTIONNAL 
-$ pip install -r requirements.txt
+$ pipenv install --python=3.6.6
+$ pipenv sync
+$ pipenv shell
 $ pytest
 ```

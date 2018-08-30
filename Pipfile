@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+aeneas = {editable = true, ref = "4525d84f30d374f4078b84234e5ee49db104b52f", git = "git://github.com/readbeyond/aeneas.git"}
+click = "*"
+typing = "*"
+"num2words" = "*"
+roman = "*"
+nltk = "*"
+inquirer = "*"
+marshmallow = "*"
+"beautifulsoup4" = "*"
+lxml = "*"
+tabulate = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
