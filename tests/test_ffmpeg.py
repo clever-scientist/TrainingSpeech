@@ -21,7 +21,7 @@ def test_convert(kwargs, expected_call, mocker):
 @pytest.mark.parametrize('kwargs, expected_call', [
     (
             dict(input_path='input.wav', output_path='output.wav', from_=1, to=10),
-            'ffmpeg -y -i input.wav -ss 1 -to 10 -loglevel quiet -c copy output.wav',
+            'sox input.wav output.wav trim 1 9',
     ),
     (
             dict(input_path='input.wav', output_path='output.wav', from_=1),
@@ -40,17 +40,25 @@ def test_cut(kwargs, expected_call, mocker):
     assert ' '.join(call_args[0]) == expected_call
 
 
-def test_list_silences():
-    path_to_wav = os.path.join(CURRENT_DIR, './assets/test.wav')
-    silences = ffmpeg.list_silences(path_to_wav)
-    with open('/tmp/labels.txt', 'w') as f:
-        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
-    assert silences == [
+@pytest.mark.parametrize('input_file, expected_silences', [
+    ('test.wav', [
         (0, 0.178),
         (1.024, 1.458),
         (2.048, 2.61),
         (3.072, 4.864),
-    ]
+    ]),
+    ('silence.wav', [
+        (0.0, 1.108),
+    ]),
+    ('silence2.wav', [
+        (0.462, 0.896),
+        (0.974, 2.0),
+    ])
+])
+def test_list_silences(input_file, expected_silences):
+    path_to_wav = os.path.join(CURRENT_DIR, f'./assets/{input_file}')
+    silences = ffmpeg.list_silences(path_to_wav)
+    assert expected_silences == silences
 
 
 def test_audio_duration():

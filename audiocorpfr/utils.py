@@ -261,8 +261,8 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
 
             if len(overlaps) == 1:
                 silence_start, silence_end = overlaps[0]
-                fragment['end'] = min(silence_start + 0.5, silence_end)
-                alignment[i + 1]['begin'] = max(silence_end - 0.5, silence_start)
+                fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
+                alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 done = True
                 break
             elif len(overlaps) > 1:

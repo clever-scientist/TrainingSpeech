@@ -3,6 +3,8 @@ import re
 import subprocess
 from typing import List, Tuple, Iterator
 
+from audiocorpfr import sox
+
 
 def convert(from_: str, to: str, rate: int=None, channels: int=None, loglevel='quiet'):
     options = ' '
@@ -19,7 +21,9 @@ def convert(from_: str, to: str, rate: int=None, channels: int=None, loglevel='q
 def cut(input_path: str, output_path: str, from_: float=None, to: float=None, loglevel='quiet'):
     assert os.path.abspath(input_path) != os.path.abspath(output_path)
     if from_ is not None and to is not None:
-        assert to > from_
+        # NB: use sox.trim since ffmpeg do not perform very well...
+        return sox.trim(input_path, output_path, from_, to)
+
     options = ' '
     if from_ is not None:
         options += f'-ss {from_} '
@@ -63,7 +67,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             if match_start:
                 silence_start = float(match_start.group(1))
                 if first_silence_start is None:
-                    first_silence_start = silence_start
+                    first_silence_start = min(silence_start, 0)
                 last_silence_start = silence_start
             match_end_dur = SILENCE_END_DUR_REG.match(line_s)
             if match_end_dur:
@@ -83,7 +87,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             i_s, i_e = item
             assert cg_s < cg_e
             assert i_s < i_e
-            assert i_s > cg_s
+            assert i_s >= cg_s, f'{i_s} not gt {cg_s}'
             if i_s - cg_e <= 0.06:
                 current_group = cg_s, max(cg_e, i_e)
                 continue
