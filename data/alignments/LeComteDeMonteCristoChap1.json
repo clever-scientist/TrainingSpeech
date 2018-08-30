@@ -1,1929 +1,1410 @@
 [
   {
-    "approved": true,
     "begin": 0,
-    "duration": 4.76,
-    "end": 4.76,
+    "end": 3.609,
     "id": "f000001",
     "text": "Chapitre un, Marseille. L\u2019arriv\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 4.76,
-    "duration": 11.320000000000002,
-    "end": 16.080000000000002,
+    "begin": 4.409,
+    "end": 16.147,
     "id": "f000002",
     "text": "Le vingt-quatre f\u00e9vrier mille huit cent quinze, la vigie de Notre-Dame de la Garde signala le trois-m\u00e2ts le Pharaon, venant de Smyrne, Trieste et Naples."
   },
   {
-    "approved": true,
-    "begin": 16.080000000000002,
-    "duration": 10.48,
-    "end": 26.560000000000002,
+    "begin": 15.771999999999998,
+    "end": 26.1,
     "id": "f000003",
     "text": "Comme d\u2019habitude, un pilote c\u00f4tier partit aussit\u00f4t du port, rasa le ch\u00e2teau d\u2019If, et alla aborder le navire entre le cap de Morgion et l\u2019\u00eele de Rion."
   },
   {
-    "approved": true,
-    "begin": 26.560000000000002,
-    "duration": 5.839999999999996,
-    "end": 32.6,
+    "begin": 26.247,
+    "end": 33.101,
     "id": "f000004",
     "text": "Aussit\u00f4t, comme d\u2019habitude encore, la plate-forme du fort Saint-Jean s\u2019\u00e9tait couverte de curieux."
   },
   {
-    "approved": true,
-    "begin": 32.6,
-    "duration": 16.6,
-    "end": 49.0,
+    "begin": 32.987,
+    "end": 48.618,
     "id": "f000005",
-    "text": "Car c\u2019est toujours une grande affaire \u00e0 Marseille que l\u2019arriv\u00e9e d\u2019un b\u00e2timent, surtout quand ce b\u00e2timent, comme le Pharaon, a \u00e9t\u00e9 construit, gr\u00e9\u00e9, arrim\u00e9 sur les chantiers de la vieille Phoc\u00e9e, et appartient \u00e0 un armateur de la ville."
+    "text": "Car c\u2019\u00e9tait toujours une grande affaire \u00e0 Marseille que l\u2019arriv\u00e9e d\u2019un b\u00e2timent, surtout quand ce b\u00e2timent, comme le Pharaon, a \u00e9t\u00e9 construit, gr\u00e9\u00e9, arrim\u00e9 sur les chantiers de la vieille Phoc\u00e9e, et appartient \u00e0 un armateur de la ville."
   },
   {
-    "approved": true,
-    "begin": 49.0,
-    "duration": 3.1199999999999974,
-    "end": 52.12,
+    "begin": 48.686,
+    "end": 52.013,
     "id": "f000006",
     "text": "Cependant ce b\u00e2timent s\u2019avan\u00e7ait."
   },
   {
-    "approved": true,
-    "begin": 52.12,
-    "duration": 8.600000000000001,
-    "end": 60.72,
+    "begin": 51.795,
+    "end": 60.608,
     "id": "f000007",
     "text": "Il avait heureusement franchi le d\u00e9troit que quelque secousse volcanique a creus\u00e9 entre l\u2019\u00eele de Calasareigne et l\u2019\u00eele de Jaros."
   },
   {
-    "approved": true,
-    "begin": 60.72,
-    "duration": 18.679999999999993,
-    "end": 79.39999999999999,
+    "begin": 60.415,
+    "end": 78.815,
     "id": "f000008",
     "text": "Il avait doubl\u00e9 Pom\u00e8gue, et il s\u2019avan\u00e7ait sous ses trois huniers, son grand foc et sa brigantine, mais si lentement et d\u2019une allure si triste, que les curieux, avec cet instinct qui pressent un malheur, se demandaient quel accident pouvait \u00eatre arriv\u00e9 \u00e0 bord."
   },
   {
-    "approved": true,
-    "begin": 79.39999999999999,
-    "duration": 7.400000000000006,
-    "end": 86.8,
+    "begin": 79.067,
+    "end": 87.488,
     "id": "f000009",
     "text": "N\u00e9anmoins les experts en navigation reconnaissaient que si un accident \u00e9tait arriv\u00e9, ce ne pouvait \u00eatre au b\u00e2timent lui-m\u00eame."
   },
   {
-    "approved": true,
-    "begin": 86.8,
-    "duration": 5.680000000000007,
-    "end": 92.48,
+    "begin": 87.269,
+    "end": 92.164,
     "id": "f000010",
     "text": "Car il s\u2019avan\u00e7ait dans toutes les conditions d\u2019un navire parfaitement gouvern\u00e9."
   },
   {
-    "approved": true,
-    "begin": 92.48,
-    "duration": 5.0,
-    "end": 97.48,
+    "begin": 92.18,
+    "end": 97.414,
     "id": "f000011",
     "text": "son ancre \u00e9tait en mouillage, ses haubans de beaupr\u00e9 d\u00e9croch\u00e9s."
   },
   {
-    "approved": true,
-    "begin": 97.48,
-    "duration": 16.519999999999996,
-    "end": 114.0,
+    "begin": 97.17,
+    "end": 113.401,
     "id": "f000012",
     "text": "Et pr\u00e8s du pilote, qui s\u2019appr\u00eatait \u00e0 diriger le Pharaon par l\u2019\u00e9troite entr\u00e9e du port de Marseille, \u00e9tait un jeune homme au geste rapide et \u00e0 l\u2019\u0153il actif, qui surveillait chaque mouvement du navire et r\u00e9p\u00e9tait chaque ordre du pilote."
   },
   {
-    "approved": true,
-    "begin": 114.0,
-    "duration": 11.799999999999997,
-    "end": 125.8,
+    "begin": 113.679,
+    "end": 125.679,
     "id": "f000013",
     "text": "La vague inqui\u00e9tude qui planait sur la foule avait particuli\u00e8rement atteint un des spectateurs de l\u2019esplanade de Saint-Jean, de sorte qu\u2019il ne put attendre l\u2019entr\u00e9e du b\u00e2timent dans le port."
   },
   {
-    "approved": true,
-    "begin": 125.8,
-    "duration": 9.560000000000016,
-    "end": 135.36,
+    "begin": 125.46,
+    "end": 133.411,
     "id": "f000014",
     "text": "Il sauta dans une petite barque et ordonna de ramer au-devant du Pharaon, qu\u2019il atteignit en face de l\u2019anse de la R\u00e9serve."
   },
   {
-    "approved": true,
-    "begin": 135.36,
-    "duration": 9.800000000000011,
-    "end": 145.16000000000003,
+    "begin": 135.047,
+    "end": 144.696,
     "id": "f000015",
     "text": "En voyant venir cet homme, le jeune marin quitta son poste \u00e0 c\u00f4t\u00e9 du pilote, et vint, le chapeau \u00e0 la main, s\u2019appuyer \u00e0 la muraille du b\u00e2timent."
   },
   {
-    "approved": true,
-    "begin": 145.16000000000003,
-    "duration": 6.8799999999999955,
-    "end": 152.04000000000002,
+    "begin": 144.713,
+    "end": 151.775,
     "id": "f000016",
     "text": "C\u2019\u00e9tait un jeune homme de dix-huit \u00e0 vingt ans, grand, svelte, avec de beaux yeux noirs et des cheveux d\u2019\u00e9b\u00e8ne."
   },
   {
-    "approved": true,
-    "begin": 152.04000000000002,
-    "duration": 10.159999999999997,
-    "end": 162.20000000000002,
+    "begin": 151.74,
+    "end": 161.571,
     "id": "f000017",
     "text": "Il y avait dans toute sa personne cet air calme et de r\u00e9solution particulier aux hommes habitu\u00e9s depuis leur enfance \u00e0 lutter avec le danger."
   },
   {
-    "approved": true,
-    "begin": 162.20000000000002,
-    "duration": 3.1200000000000045,
-    "end": 165.32000000000002,
+    "begin": 161.17,
+    "end": 165.51,
     "id": "f000018",
     "text": "Ah\u00a0! c\u2019est vous, Dant\u00e8s\u00a0! cria l\u2019homme \u00e0 la barque."
   },
   {
-    "approved": true,
-    "begin": 165.32000000000002,
-    "duration": 5.319999999999993,
-    "end": 170.64000000000001,
+    "begin": 165.094,
+    "end": 170.139,
     "id": "f000019",
     "text": "Qu\u2019est-il donc arriv\u00e9, et pourquoi cet air de tristesse r\u00e9pandu sur tout votre bord\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 170.64000000000001,
-    "duration": 1.960000000000008,
-    "end": 172.60000000000002,
+    "begin": 170.208,
+    "end": 172.772,
     "id": "f000020",
     "text": "Un grand malheur, monsieur Morrel\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 172.60000000000002,
-    "duration": 4.319999999999993,
-    "end": 176.92000000000002,
+    "begin": 172.487,
+    "end": 176.539,
     "id": "f000021",
     "text": "r\u00e9pondit le jeune homme, un grand malheur, pour moi surtout."
   },
   {
-    "approved": true,
-    "begin": 176.92000000000002,
-    "duration": 5.319999999999993,
-    "end": 182.24,
+    "begin": 176.582,
+    "end": 181.894,
     "id": "f000022",
     "text": "\u00e0 la hauteur de Civita-Vecchia, nous avons perdu ce brave capitaine Lecl\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 182.24,
-    "duration": 3.960000000000008,
-    "end": 186.20000000000002,
+    "begin": 181.885,
+    "end": 185.865,
     "id": "f000023",
     "text": "Et le chargement\u00a0? demanda vivement l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 186.20000000000002,
-    "duration": 5.159999999999997,
-    "end": 191.36,
+    "begin": 185.882,
+    "end": 191.325,
     "id": "f000024",
     "text": "Il est arriv\u00e9 \u00e0 bon port, monsieur Morrel, et je crois que vous serez content sous ce rapport."
   },
   {
-    "approved": true,
-    "begin": 191.36,
-    "duration": 2.719999999999999,
-    "end": 194.08,
+    "begin": 191.028,
+    "end": 194.067,
     "id": "f000025",
     "text": "Mais ce pauvre capitaine Lecl\u00e8re\u2026."
   },
   {
-    "approved": true,
-    "begin": 194.08,
-    "duration": 4.599999999999994,
-    "end": 198.68,
+    "begin": 193.692,
+    "end": 199.344,
     "id": "f000026",
     "text": "Que lui est-il donc arriv\u00e9\u00a0? demanda l\u2019armateur d\u2019un air visiblement soulag\u00e9."
   },
   {
-    "approved": true,
-    "begin": 198.68,
-    "duration": 4.200000000000017,
-    "end": 202.88000000000002,
+    "begin": 199.126,
+    "end": 202.609,
     "id": "f000027",
     "text": "Que lui est-il donc arriv\u00e9, \u00e0 ce brave capitaine\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 202.88000000000002,
-    "duration": 2.319999999999993,
-    "end": 205.20000000000002,
+    "begin": 202.522,
+    "end": 204.072,
     "id": "f000028",
     "text": "Il est mort ?"
   },
   {
-    "approved": true,
-    "begin": 205.20000000000002,
-    "duration": 0.5199999999999818,
-    "end": 205.92,
+    "begin": 204.873,
+    "end": 206.424,
     "id": "f000029",
     "text": "Il est mort."
   },
   {
-    "approved": true,
-    "begin": 205.92,
-    "duration": 2.680000000000007,
-    "end": 208.4,
+    "begin": 206.466,
+    "end": 208.252,
     "id": "f000030",
     "text": "Tomb\u00e9 \u00e0 la mer\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 208.4,
-    "duration": 5.0800000000000125,
-    "end": 213.7,
+    "begin": 208.086,
+    "end": 214.39,
     "id": "f000031",
     "text": "Non, monsieur. Mort d\u2019une fi\u00e8vre c\u00e9r\u00e9brale, au milieu d\u2019horribles souffrances."
   },
   {
-    "approved": true,
-    "begin": 213.7,
-    "duration": 3.319999999999993,
-    "end": 216.8,
+    "begin": 214.407,
+    "end": 216.768,
     "id": "f000032",
     "text": "Puis, se retournant vers ses hommes."
   },
   {
-    "approved": true,
-    "begin": 216.8,
-    "duration": 6.1200000000000045,
-    "end": 222.92000000000002,
+    "begin": 216.471,
+    "end": 222.593,
     "id": "f000033",
     "text": "Hol\u00e0 h\u00e9\u00a0! dit-il, chacun \u00e0 son poste pour le mouillage\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 222.92000000000002,
-    "duration": 1.8400000000000034,
-    "end": 224.76000000000002,
+    "begin": 222.61,
+    "end": 224.422,
     "id": "f000034",
     "text": "L\u2019\u00e9quipage ob\u00e9it."
   },
   {
-    "approved": true,
-    "begin": 224.76000000000002,
-    "duration": 13.679999999999978,
-    "end": 238.44,
+    "begin": 224.491,
+    "end": 238.6,
     "id": "f000035",
     "text": "Au m\u00eame instant, les huit ou dix matelots qui le composaient s\u2019\u00e9lanc\u00e8rent les uns sur les \u00e9coutes, les autres sur les bras, les autres aux drisses, les autres aux hallebas des focs, enfin les autres aux cargues des voiles."
   },
   {
-    "approved": true,
-    "begin": 238.44,
-    "duration": 9.400000000000006,
-    "end": 247.84,
+    "begin": 238.159,
+    "end": 247.305,
     "id": "f000036",
     "text": "Le jeune marin jeta un coup d\u2019\u0153il nonchalant sur ce commencement de manoeuvre, et, voyant que ses ordres allaient s\u2019ex\u00e9cuter, il revint \u00e0 son interlocuteur."
   },
   {
-    "approved": true,
-    "begin": 247.84,
-    "duration": 1.7199999999999989,
-    "end": 249.56,
+    "begin": 247.583,
+    "end": 250.257,
     "id": "f000037",
     "text": "Et comment ce malheur est-il donc arriv\u00e9\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 249.56,
-    "duration": 6.439999999999998,
-    "end": 256.0,
+    "begin": 250.117,
+    "end": 255.821,
     "id": "f000038",
     "text": "continua l\u2019armateur, reprenant la conversation o\u00f9 le jeune marin l\u2019avait quitt\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 256.0,
-    "duration": 4.1200000000000045,
-    "end": 260.12,
+    "begin": 255.707,
+    "end": 259.583,
     "id": "f000039",
     "text": "Mon Dieu, monsieur, de la fa\u00e7on la plus impr\u00e9vue."
   },
   {
-    "approved": true,
-    "begin": 260.12,
-    "duration": 6.28000000000003,
-    "end": 266.40000000000003,
+    "begin": 259.704,
+    "end": 266.139,
     "id": "f000040",
     "text": "apr\u00e8s une longue conversation avec le commandant du port, le capitaine Lecl\u00e8re quitta Naples fort agit\u00e9."
   },
   {
-    "approved": true,
-    "begin": 266.40000000000003,
-    "duration": 2.159999999999968,
-    "end": 268.56,
+    "begin": 265.973,
+    "end": 269.19,
     "id": "f000041",
     "text": "Au bout de vingt-quatre heures, la fi\u00e8vre le prit."
   },
   {
-    "approved": true,
-    "begin": 268.56,
-    "duration": 2.840000000000032,
-    "end": 271.40000000000003,
+    "begin": 268.747,
+    "end": 270.972,
     "id": "f000042",
     "text": "Trois jours apr\u00e8s, il \u00e9tait mort\u2026."
   },
   {
-    "approved": true,
-    "begin": 271.40000000000003,
-    "duration": 12.439999999999998,
-    "end": 283.84000000000003,
+    "begin": 271.093,
+    "end": 283.432,
     "id": "f000043",
     "text": "Nous lui avons fait les fun\u00e9railles ordinaires, et il repose, d\u00e9cemment envelopp\u00e9 dans un hamac, avec un boulet de trente-six aux pieds et un \u00e0 la t\u00eate, \u00e0 la hauteur de l\u2019\u00eele d\u2019El Giglio."
   },
   {
-    "approved": true,
-    "begin": 283.84000000000003,
-    "duration": 3.1200000000000045,
-    "end": 286.96000000000004,
+    "begin": 283.527,
+    "end": 286.75,
     "id": "f000044",
     "text": "Nous rapportons \u00e0 sa veuve sa croix d\u2019honneur et son \u00e9p\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 286.96000000000004,
-    "duration": 11.199999999999989,
-    "end": 298.16,
+    "begin": 286.636,
+    "end": 297.486,
     "id": "f000045",
     "text": "C\u2019\u00e9tait bien la peine, continua le jeune homme avec un sourire m\u00e9lancolique, de faire dix ans la guerre aux Anglais pour en arriver \u00e0 mourir, comme tout le monde, dans son lit."
   },
   {
-    "approved": true,
-    "begin": 298.16,
-    "duration": 12.800000000000011,
-    "end": 310.2,
+    "begin": 297.79,
+    "end": 311.221,
     "id": "f000046",
     "text": "Dame\u00a0! que voulez-vous, monsieur Edmond, reprit l\u2019armateur qui paraissait se consoler de plus en plus, nous sommes tous mortels, et il faut bien que les anciens fassent place aux nouveaux, sans cela il n\u2019y aurait pas d\u2019avancement."
   },
   {
-    "begin": 310.2,
-    "disabled": true,
-    "duration": 5.439999999999998,
-    "end": 316.2,
+    "begin": 310.753,
+    "end": 317.104,
     "id": "f000047",
     "text": "Et du moment que vous m\u2019assurez que la cargaison\u2026. Est en bon \u00e9tat, monsieur Morrel, je vous en r\u00e9ponds."
   },
   {
-    "approved": true,
-    "begin": 316.6,
-    "duration": 8.239999999999952,
-    "end": 324.64,
+    "begin": 317.539,
+    "end": 323.687,
     "id": "f000048",
     "text": "Voici un voyage que je vous donne le conseil de ne point escompter pour vingt-cinq mille francs de b\u00e9n\u00e9fice."
   },
   {
-    "approved": true,
-    "begin": 324.64,
-    "duration": 3.8000000000000114,
-    "end": 328.44,
+    "begin": 324.305,
+    "end": 327.997,
     "id": "f000049",
     "text": "Puis, comme on venait de d\u00e9passer la tour ronde."
   },
   {
-    "approved": true,
-    "begin": 328.44,
-    "duration": 4.520000000000039,
-    "end": 333.1,
+    "begin": 328.066,
+    "end": 333.666,
     "id": "f000050",
     "text": "Range \u00e0 carguer les voiles de hune, le foc et la brigantine\u00a0! cria le jeune marin."
   },
   {
-    "approved": true,
-    "begin": 333.1,
-    "duration": 2.7199999999999704,
-    "end": 335.68,
+    "begin": 333.265,
+    "end": 335.024,
     "id": "f000051",
     "text": "Faites penaud\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 335.68,
-    "duration": 5.399999999999977,
-    "end": 341.08,
+    "begin": 335.38,
+    "end": 340.718,
     "id": "f000052",
     "text": "L\u2019ordre s\u2019ex\u00e9cuta avec presque autant de promptitude que sur un b\u00e2timent de guerre."
   },
   {
-    "approved": true,
-    "begin": 341.08,
-    "duration": 3.5200000000000387,
-    "end": 344.6,
+    "begin": 340.762,
+    "end": 342.913,
     "id": "f000053",
     "text": "Am\u00e8ne et cargue partout\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 344.6,
-    "duration": 10.479999999999961,
-    "end": 355.08,
+    "begin": 344.236,
+    "end": 354.511,
     "id": "f000054",
     "text": "Au dernier commandement, toutes les voiles s\u2019abaiss\u00e8rent, et le navire s\u2019avan\u00e7a d\u2019une fa\u00e7on presque insensible, ne marchant plus que par l\u2019impulsion donn\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 355.08,
-    "duration": 13.0,
-    "end": 368.08,
+    "begin": 354.737,
+    "end": 367.781,
     "id": "f000055",
     "text": "Et maintenant, si vous voulez monter, monsieur Morrel, dit Dant\u00e8s voyant l\u2019impatience de l\u2019armateur, voici votre comptable, Monsieur Danglars, qui sort de sa cabine, et qui vous donnera tous les renseignements que vous pouvez d\u00e9sirer."
   },
   {
-    "approved": true,
-    "begin": 368.08,
-    "duration": 5.440000000000055,
-    "end": 373.52000000000004,
+    "begin": 367.772,
+    "end": 373.007,
     "id": "f000056",
     "text": "Quant \u00e0 moi, il faut que je veille au mouillage et que je mette le navire en deuil."
   },
   {
-    "approved": true,
-    "begin": 373.52000000000004,
-    "duration": 2.4399999999999977,
-    "end": 375.96000000000004,
+    "begin": 373.206,
+    "end": 376.135,
     "id": "f000057",
     "text": "L\u2019armateur ne se le fit pas dire deux fois."
   },
   {
-    "approved": true,
-    "begin": 375.96000000000004,
-    "duration": 24.75999999999999,
-    "end": 400.72,
+    "begin": 375.797,
+    "end": 399.572,
     "id": "f000058",
     "text": "Il saisit un c\u00e2ble que lui jeta Dant\u00e8s, et, avec une dext\u00e9rit\u00e9 qui e\u00fbt fait honneur \u00e0 un homme de mer, il gravit les \u00e9chelons clou\u00e9s sur le flanc rebondi du b\u00e2timent, tandis que celui-ci, retournant \u00e0 son poste de second, c\u00e9dait la conversation \u00e0 celui qu\u2019il avait annonc\u00e9 sous le nom de Danglars, et qui, sortant de sa cabine, s\u2019avan\u00e7ait effectivement au-devant de l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 400.72,
-    "duration": 9.879999999999995,
-    "end": 410.6,
+    "begin": 400.399,
+    "end": 410.774,
     "id": "f000059",
     "text": "Le nouveau venu \u00e9tait un homme de vingt-cinq \u00e0 vingt-six ans, d\u2019une figure assez sombre, obs\u00e9quieux envers ses sup\u00e9rieurs, insolent envers ses subordonn\u00e9s."
   },
   {
-    "approved": true,
-    "begin": 410.6,
-    "duration": 10.560000000000002,
-    "end": 421.16,
+    "begin": 410.462,
+    "end": 422.743,
     "id": "f000060",
     "text": "aussi, outre son titre d\u2019agent comptable, qui est toujours un motif de r\u00e9pulsion pour les matelots, \u00e9tait-il g\u00e9n\u00e9ralement aussi mal vu de l\u2019\u00e9quipage qu\u2019Edmond Dant\u00e8s au contraire en \u00e9tait aim\u00e9."
   },
   {
-    "approved": true,
-    "begin": 421.16,
-    "duration": 6.279999999999973,
-    "end": 427.44,
+    "begin": 422.943,
+    "end": 427.288,
     "id": "f000061",
     "text": "Eh bien, monsieur Morrel, dit Danglars, vous savez le malheur, n\u2019est-ce pas\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 427.44,
-    "duration": 2.0400000000000205,
-    "end": 429.48,
+    "begin": 427.122,
+    "end": 429.974,
     "id": "f000062",
     "text": "Oui, oui, pauvre capitaine Lecl\u00e8re\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 429.48,
-    "duration": 2.599999999999966,
-    "end": 432.08,
+    "begin": 429.689,
+    "end": 431.938,
     "id": "f000063",
     "text": "c\u2019\u00e9tait un brave et honn\u00eate homme\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 432.08,
-    "duration": 11.600000000000023,
-    "end": 443.68,
+    "begin": 431.746,
+    "end": 443.406,
     "id": "f000064",
     "text": "Et un excellent marin surtout, vieilli entre le ciel et l\u2019eau, comme il convient \u00e0 un homme charg\u00e9 des int\u00e9r\u00eats d\u2019une maison aussi importante que maison Morrel et fils, r\u00e9pondit Danglars."
   },
   {
-    "approved": true,
-    "begin": 443.68,
-    "duration": 19.720000000000027,
-    "end": 463.40000000000003,
-    "id": "f000065",
-    "text": "Mais, dit l\u2019armateur, suivant des yeux Dant\u00e8s qui cherchait son mouillage, mais il me semble qu\u2019il n\u2019y a pas besoin d\u2019\u00eatre si vieux marin que vous le dites, Danglars, pour conna\u00eetre son m\u00e9tier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n\u2019a besoin de demander des conseils \u00e0 personne."
-  },
-  {
-    "approved": true,
-    "begin": 463.40000000000003,
-    "duration": 9.839999999999975,
-    "end": 473.24,
+    "begin": 443.397,
+    "end": 472.846,
     "id": "f000066",
-    "text": "Oui, dit Danglars en jetant sur Dant\u00e8s un regard oblique o\u00f9 brilla un \u00e9clair de haine, oui, c\u2019est jeune, et cela ne doute de rien."
+    "text": "Mais, dit l\u2019armateur, suivant des yeux Dant\u00e8s qui cherchait son mouillage, mais il me semble qu\u2019il n\u2019y a pas besoin d\u2019\u00eatre si vieux marin que vous le dites, Danglars, pour conna\u00eetre son m\u00e9tier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n\u2019a besoin de demander des conseils \u00e0 personne. Oui, dit Danglars en jetant sur Dant\u00e8s un regard oblique o\u00f9 brilla un \u00e9clair de haine, oui, c\u2019est jeune, et cela ne doute de rien."
   },
   {
-    "approved": true,
-    "begin": 473.24,
-    "duration": 9.04000000000002,
-    "end": 482.5,
-    "id": "f000067",
-    "text": "\u00c0 peine le capitaine a-t-il \u00e9t\u00e9 mort qu\u2019il a pris le commandement sans consulter personne, et qu\u2019il nous a fait perdre un jour et demi \u00e0 l\u2019\u00eele d\u2019Elbe au lieu de revenir directement \u00e0 Marseille."
-  },
-  {
-    "approved": true,
-    "begin": 482.5,
-    "duration": 5.479999999999961,
-    "end": 487.9,
+    "begin": 472.863,
+    "end": 487.85999999999996,
     "id": "f000068",
-    "text": "Quant \u00e0 prendre le commandement du navire, dit l\u2019armateur, c\u2019\u00e9tait son devoir comme second."
+    "text": "\u00c0 peine le capitaine a-t-il \u00e9t\u00e9 mort qu\u2019il a pris le commandement sans consulter personne, et qu\u2019il nous a fait perdre un jour et demi \u00e0 l\u2019\u00eele d\u2019Elbe au lieu de revenir directement \u00e0 Marseille. Quant \u00e0 prendre le commandement du navire, dit l\u2019armateur, c\u2019\u00e9tait son devoir comme second."
   },
   {
-    "approved": true,
-    "begin": 487.9,
-    "duration": 4.080000000000041,
-    "end": 491.84000000000003,
+    "begin": 487.85999999999996,
+    "end": 491.863,
+    "fix_conflict": true,
     "id": "f000069",
     "text": "Quant \u00e0 perdre un jour et demi \u00e0 l\u2019\u00eele d\u2019Elbe, il a eu tort."
   },
   {
-    "approved": true,
-    "begin": 491.84000000000003,
-    "duration": 3.4799999999999613,
-    "end": 495.32,
+    "begin": 491.54,
+    "end": 494.92,
     "id": "f000070",
     "text": "\u00c0 moins que le navire n\u2019ait eu quelque avarie \u00e0 r\u00e9parer."
   },
   {
-    "approved": true,
-    "begin": 495.32,
-    "duration": 4.980000000000018,
-    "end": 500.3,
+    "begin": 495.015,
+    "end": 500.275,
     "id": "f000071",
     "text": "Le navire se portait comme je me porte, et comme je d\u00e9sire que vous vous portiez, monsieur Morrel."
   },
   {
-    "approved": true,
-    "begin": 500.3,
-    "duration": 5.0,
-    "end": 505.3,
+    "begin": 500.03,
+    "end": 505.812,
     "id": "f000072",
     "text": "Et cette journ\u00e9e et demie a \u00e9t\u00e9 perdue par pur caprice, pour le plaisir d\u2019aller \u00e0 terre, voil\u00e0 tout."
   },
   {
-    "approved": true,
-    "begin": 505.3,
-    "duration": 5.300000000000011,
-    "end": 510.6,
+    "begin": 505.803,
+    "end": 511.168,
     "id": "f000073",
     "text": "Dant\u00e8s, dit l\u2019armateur se retournant vers le jeune homme, venez donc ici."
   },
   {
-    "approved": true,
-    "begin": 510.6,
-    "duration": 4.2999999999999545,
-    "end": 514.9,
+    "begin": 511.263,
+    "end": 515.373,
     "id": "f000074",
     "text": "Pardon, monsieur, dit Dant\u00e8s, je suis \u00e0 vous dans un instant."
   },
   {
-    "approved": true,
-    "begin": 514.9,
-    "duration": 2.3999999999999773,
-    "end": 517.3,
+    "begin": 515.625,
+    "end": 517.64,
     "id": "f000075",
     "text": "Puis s\u2019adressant \u00e0 l\u2019\u00e9quipage."
   },
   {
-    "approved": true,
-    "begin": 517.3,
-    "duration": 2.8600000000000136,
-    "end": 520.16,
+    "begin": 517.302,
+    "end": 519.866,
     "id": "f000076",
     "text": "Mouille\u00a0! dit-il."
   },
   {
-    "approved": true,
-    "begin": 520.16,
-    "duration": 4.840000000000032,
-    "end": 525.0,
+    "begin": 519.857,
+    "end": 526.182,
     "id": "f000077",
     "text": "Aussit\u00f4t l\u2019ancre tomba, et la cha\u00eene fila avec bruit."
   },
   {
-    "approved": true,
-    "begin": 525.0,
-    "duration": 6.7999999999999545,
-    "end": 531.8,
+    "begin": 525.924,
+    "end": 532.275,
     "id": "f000078",
     "text": "Dant\u00e8s resta \u00e0 son poste, malgr\u00e9 la pr\u00e9sence du pilote, jusqu\u2019\u00e0 ce que cette derni\u00e8re manoeuvre f\u00fbt termin\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 531.8,
-    "duration": 1.3000000000000682,
-    "end": 533.1,
+    "begin": 532.03,
+    "end": 533.502,
     "id": "f000079",
     "text": "Puis alors."
   },
   {
-    "approved": true,
-    "begin": 533.1,
-    "duration": 6.0,
-    "end": 539.1,
+    "begin": 533.911,
+    "end": 539.615,
     "id": "f000080",
     "text": "Abaissez la flamme \u00e0 mi-m\u00e2t, mettez le pavillon en berne, croisez les vergues\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 539.1,
-    "duration": 5.139999999999986,
-    "end": 544.24,
+    "begin": 539.736,
+    "end": 543.952,
     "id": "f000081",
     "text": "Vous voyez, dit Danglars, il se croit d\u00e9j\u00e0 capitaine, sur ma parole."
   },
   {
-    "approved": true,
-    "begin": 544.24,
-    "duration": 2.5599999999999454,
-    "end": 546.8,
+    "begin": 543.89,
+    "end": 546.747,
     "id": "f000082",
     "text": "Et il l\u2019est de fait, dit l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 546.8,
-    "duration": 3.800000000000068,
-    "end": 550.6,
+    "begin": 546.528,
+    "end": 551.109,
     "id": "f000083",
     "text": "Oui, sauf votre signature et celle de votre associ\u00e9, monsieur Morrel."
   },
   {
-    "approved": true,
-    "begin": 550.6,
-    "duration": 5.3599999999999,
-    "end": 555.9599999999999,
+    "begin": 550.943,
+    "end": 556.093,
     "id": "f000084",
     "text": "Dame\u00a0! pourquoi ne le laisserions-nous pas \u00e0 ce poste\u00a0? dit l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 555.9599999999999,
-    "duration": 6.840000000000032,
-    "end": 562.8,
+    "begin": 555.834,
+    "end": 561.715,
     "id": "f000085",
     "text": "Il est jeune, je le sais bien, mais il me para\u00eet tout \u00e0 la chose, et fort exp\u00e9riment\u00e9 dans son \u00e9tat."
   },
   {
-    "approved": true,
-    "begin": 562.8,
-    "duration": 2.3500000000000227,
-    "end": 565.15,
+    "begin": 562.411,
+    "end": 565.763,
     "id": "f000086",
     "text": "Un nuage passa sur le front de Danglars."
   },
   {
-    "approved": true,
-    "begin": 565.15,
-    "duration": 3.9700000000000273,
-    "end": 569.12,
+    "begin": 565.989,
+    "end": 569.363,
     "id": "f000087",
     "text": "Pardon, monsieur Morrel, dit Dant\u00e8s en s\u2019approchant."
   },
   {
-    "approved": true,
-    "begin": 569.12,
-    "duration": 2.759999999999991,
-    "end": 571.88,
+    "begin": 569.104,
+    "end": 572.054,
     "id": "f000088",
     "text": "Maintenant que le navire est mouill\u00e9, me voil\u00e0 tout \u00e0 vous."
   },
   {
-    "approved": true,
-    "begin": 571.88,
-    "duration": 1.2200000000000273,
-    "end": 573.1,
+    "begin": 571.664,
+    "end": 573.914,
     "id": "f000089",
     "text": "vous m\u2019avez appel\u00e9, je crois\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 573.1,
-    "duration": 2.5399999999999636,
-    "end": 575.64,
+    "begin": 573.696,
+    "end": 576.265,
     "id": "f000090",
     "text": "Danglars fit un pas en arri\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 575.64,
-    "duration": 4.060000000000059,
-    "end": 579.7,
+    "begin": 576.491,
+    "end": 580.261,
     "id": "f000091",
     "text": "Je voulais vous demander pourquoi vous vous \u00e9tiez arr\u00eat\u00e9 \u00e0 l\u2019\u00eele d\u2019Elbe\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 579.7,
-    "duration": 2.2199999999999136,
-    "end": 581.92,
+    "begin": 580.069,
+    "end": 582.111,
     "id": "f000092",
     "text": "Je l\u2019ignore, monsieur."
   },
   {
-    "approved": true,
-    "begin": 581.92,
-    "duration": 6.280000000000086,
-    "end": 588.2,
+    "begin": 581.643,
+    "end": 588.673,
     "id": "f000093",
     "text": "C\u2019\u00e9tait pour accomplir un dernier ordre du capitaine Lecl\u00e8re, qui, en mourant, m\u2019avait remis un paquet pour le grand mar\u00e9chal Bertrand."
   },
   {
-    "approved": true,
-    "begin": 588.2,
-    "duration": 2.699999999999932,
-    "end": 590.9,
+    "begin": 589.212,
+    "end": 591.442,
     "id": "f000094",
     "text": "L\u2019avez-vous donc vu, Edmond\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 590.9,
-    "duration": 3.5399999999999636,
-    "end": 594.4399999999999,
+    "begin": 591.224,
+    "end": 594.446,
     "id": "f000095",
     "text": "Qui\u00a0? Le grand mar\u00e9chal\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 594.4399999999999,
-    "duration": 0.7600000000001046,
-    "end": 595.2,
+    "begin": 594.097,
+    "end": 595.439,
     "id": "f000096",
     "text": "Oui."
   },
   {
-    "approved": true,
-    "begin": 595.2,
-    "duration": 5.039999999999964,
-    "end": 600.24,
+    "begin": 595.874,
+    "end": 599.802,
     "id": "f000097",
     "text": "Morrel regarda autour de lui, et tira Dant\u00e8s \u00e0 part."
   },
   {
-    "approved": true,
-    "begin": 600.24,
-    "duration": 2.9600000000000364,
-    "end": 603.2,
+    "begin": 599.949,
+    "end": 603.615,
     "id": "f000098",
     "text": "Et comment va l\u2019Empereur\u00a0? demanda-t-il vivement."
   },
   {
-    "approved": true,
-    "begin": 603.2,
-    "duration": 2.8999999999999773,
-    "end": 606.1,
+    "begin": 603.266,
+    "end": 606.645,
     "id": "f000099",
     "text": "Bien, autant que j\u2019aie pu en juger par mes yeux."
   },
   {
-    "approved": true,
-    "begin": 606.1,
-    "duration": 2.5799999999999272,
-    "end": 608.68,
+    "begin": 606.662,
+    "end": 609.336,
     "id": "f000100",
     "text": "Vous avez donc vu l\u2019Empereur aussi\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 608.68,
-    "duration": 3.519999999999982,
-    "end": 612.1999999999999,
+    "begin": 609.196,
+    "end": 612.105,
     "id": "f000101",
     "text": "Il est entr\u00e9 chez le mar\u00e9chal pendant que j\u2019y \u00e9tais."
   },
   {
-    "approved": true,
-    "begin": 612.1999999999999,
-    "duration": 1.2500000000001137,
-    "end": 613.45,
+    "begin": 611.887,
+    "end": 613.986,
     "id": "f000102",
     "text": "Et vous lui avez parl\u00e9\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 613.45,
-    "duration": 3.7999999999999545,
-    "end": 617.25,
+    "begin": 613.976,
+    "end": 617.825,
     "id": "f000103",
     "text": "C\u2019est-\u00e0-dire que c\u2019est lui qui m\u2019a parl\u00e9, monsieur, dit Dant\u00e8s en souriant."
   },
   {
-    "approved": true,
-    "begin": 617.25,
-    "duration": 2.2000000000000455,
-    "end": 619.45,
+    "begin": 618.13,
+    "end": 620.02,
     "id": "f000104",
     "text": "Et que vous a-t-il dit\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 619.45,
-    "duration": 8.149999999999977,
-    "end": 627.6,
+    "begin": 619.776,
+    "end": 628.222,
     "id": "f000105",
     "text": "Il m\u2019a fait des questions sur le b\u00e2timent, sur l\u2019\u00e9poque de son d\u00e9part pour Marseille, sur la route qu\u2019il avait suivie et sur la cargaison qu\u2019il portait."
   },
   {
-    "approved": true,
-    "begin": 627.6,
-    "duration": 6.279999999999973,
-    "end": 633.88,
+    "begin": 627.978,
+    "end": 633.865,
     "id": "f000106",
     "text": "Je crois que s\u2019il e\u00fbt \u00e9t\u00e9 vide, et que j\u2019en eusse \u00e9t\u00e9 le ma\u00eetre, son intention e\u00fbt \u00e9t\u00e9 de l\u2019acheter."
   },
   {
-    "approved": true,
-    "begin": 633.88,
-    "duration": 5.019999999999982,
-    "end": 638.9,
+    "begin": 633.594,
+    "end": 639.482,
     "id": "f000107",
     "text": "Mais je lui ai dit que je n\u2019\u00e9tais que simple second, et que le b\u00e2timent appartenait \u00e0 la maison Morrel et fils."
   },
   {
-    "approved": true,
-    "begin": 638.9,
-    "duration": 2.0599999999999454,
-    "end": 640.9599999999999,
+    "begin": 639.341,
+    "end": 640.945,
     "id": "f000109",
     "text": "Ah\u00a0! ah\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 640.9599999999999,
-    "duration": 2.1400000000001,
-    "end": 643.1,
+    "begin": 641.06,
+    "end": 643.661,
     "id": "f000110",
     "text": "a-t-il dit, je la connais."
   },
   {
-    "approved": true,
-    "begin": 643.1,
-    "duration": 8.100000000000023,
-    "end": 651.2,
+    "begin": 644.017,
+    "end": 651.602,
     "id": "f000111",
     "text": "Les Morrel sont armateurs de p\u00e8re en fils, et il y avait un Morrel qui servait dans le m\u00eame r\u00e9giment que moi lorsque j\u2019\u00e9tais en garnison \u00e0 Valence."
   },
   {
-    "approved": true,
-    "begin": 651.2,
-    "duration": 1.4399999999999409,
-    "end": 652.64,
-    "id": "f000112",
-    "text": "C\u2019est pardieu vrai\u00a0!"
-  },
-  {
-    "approved": true,
-    "begin": 652.64,
-    "duration": 1.4600000000000364,
-    "end": 654.1,
+    "begin": 651.253,
+    "end": 654.365,
     "id": "f000113",
-    "text": "s\u2019\u00e9cria l\u2019armateur tout joyeux."
+    "text": "C\u2019est pardieu vrai\u00a0! s\u2019\u00e9cria l\u2019armateur tout joyeux."
   },
   {
-    "approved": true,
-    "begin": 654.1,
-    "duration": 3.3999999999999773,
-    "end": 657.5,
+    "begin": 654.289,
+    "end": 658.002,
     "id": "f000114",
     "text": "C\u2019\u00e9tait Policar Morrel, mon oncle, qui est devenu capitaine."
   },
   {
-    "approved": true,
-    "begin": 657.5,
-    "duration": 6.149999999999977,
-    "end": 663.65,
-    "id": "f000115",
-    "text": "Dant\u00e8s, vous direz \u00e0 mon oncle que l\u2019Empereur s\u2019est souvenu de lui, et vous le verrez pleurer, le vieux grognard."
-  },
-  {
-    "approved": true,
-    "begin": 663.65,
-    "duration": 18.300000000000068,
-    "end": 681.95,
-    "id": "f000116",
-    "text": "Allons, allons, continua l\u2019armateur en frappant amicalement sur l\u2019\u00e9paule du jeune homme, vous avez bien fait, Dant\u00e8s, de suivre les instructions du capitaine Lecl\u00e8re et de vous arr\u00eater \u00e0 l\u2019\u00eele d\u2019Elbe, quoique, si l\u2019on savait que vous avez remis un paquet au mar\u00e9chal et caus\u00e9 avec l\u2019Empereur, cela pourrait vous compromettre."
-  },
-  {
-    "approved": true,
-    "begin": 681.95,
-    "duration": 4.449999999999932,
-    "end": 686.4,
+    "begin": 657.705,
+    "end": 686.627,
     "id": "f000117",
-    "text": "En quoi voulez-vous, monsieur, que cela me compromette\u00a0? dit Dant\u00e8s."
+    "text": "Dant\u00e8s, vous direz \u00e0 mon oncle que l\u2019Empereur s\u2019est souvenu de lui, et vous le verrez pleurer, le vieux grognard. Allons, allons, continua l\u2019armateur en frappant amicalement sur l\u2019\u00e9paule du jeune homme, vous avez bien fait, Dant\u00e8s, de suivre les instructions du capitaine Lecl\u00e8re et de vous arr\u00eater \u00e0 l\u2019\u00eele d\u2019Elbe, quoique, si l\u2019on savait que vous avez remis un paquet au mar\u00e9chal et caus\u00e9 avec l\u2019Empereur, cela pourrait vous compromettre. En quoi voulez-vous, monsieur, que cela me compromette\u00a0? dit Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 686.4,
-    "duration": 5.2000000000000455,
-    "end": 691.6,
+    "begin": 686.394,
+    "end": 692.197,
     "id": "f000118",
     "text": "je ne sais pas m\u00eame ce que je portais, et l\u2019Empereur ne m\u2019a fait que les questions qu\u2019il e\u00fbt faites au premier venu."
   },
   {
-    "approved": true,
-    "begin": 691.6,
-    "duration": 5.699999999999932,
-    "end": 697.3,
+    "begin": 692.03,
+    "end": 697.729,
     "id": "f000119",
     "text": "Mais, pardon, reprit Dant\u00e8s, voici la sant\u00e9 et la douane qui nous arrivent."
   },
   {
-    "approved": true,
-    "begin": 697.3,
-    "duration": 1.5,
-    "end": 698.8,
+    "begin": 697.365,
+    "end": 699.302,
     "id": "f000120",
     "text": "Vous permettez, n\u2019est-ce pas\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 698.8,
-    "duration": 2.919999999999959,
-    "end": 701.7199999999999,
+    "begin": 698.822,
+    "end": 701.47,
     "id": "f000121",
     "text": "Faites, faites, mon cher Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 701.7199999999999,
-    "duration": 4.480000000000132,
-    "end": 706.2,
+    "begin": 701.408,
+    "end": 706.747,
     "id": "f000122",
     "text": "Le jeune homme s\u2019\u00e9loigna, et, comme il s\u2019\u00e9loignait, Danglars se rapprocha."
   },
   {
-    "approved": true,
-    "begin": 706.2,
-    "duration": 6.099999999999909,
-    "end": 712.3,
+    "begin": 706.607,
+    "end": 712.859,
     "id": "f000123",
     "text": "Eh bien, demanda-t-il, il para\u00eet qu\u2019il vous a donn\u00e9 de bonnes raisons de son mouillage \u00e0 Porto-Ferrajo\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 712.3,
-    "duration": 3.5399999999999636,
-    "end": 715.8399999999999,
+    "begin": 712.562,
+    "end": 715.471,
     "id": "f000124",
-    "text": "D\u2019excellentes, mon cher Danglars."
+    "text": "D\u2019excellentes, mon cher monsieur Danglars."
   },
   {
-    "begin": 715.8399999999999,
-    "disabled": true,
-    "duration": 0.8600000000001273,
-    "end": 716.7,
+    "begin": 715.54,
+    "end": 716.902,
     "id": "f000125",
     "text": "Ah\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 716.7,
-    "duration": 5.849999999999909,
-    "end": 722.55,
+    "begin": 716.539,
+    "end": 722.994,
     "id": "f000126",
     "text": "tant mieux, r\u00e9pondit celui-ci, car c\u2019est toujours p\u00e9nible de voir un camarade qui ne fait pas son devoir."
   },
   {
-    "approved": true,
-    "begin": 722.55,
-    "duration": 5.050000000000068,
-    "end": 727.6,
+    "begin": 723.22,
+    "end": 728.141,
     "id": "f000127",
     "text": "Dant\u00e8s a fait le sien, r\u00e9pondit l\u2019armateur, et il n\u2019y a rien \u00e0 dire."
   },
   {
-    "approved": true,
-    "begin": 727.6,
-    "duration": 5.519999999999982,
-    "end": 733.12,
+    "begin": 727.74,
+    "end": 731.72,
     "id": "f000128",
     "text": "C\u2019\u00e9tait le capitaine Lecl\u00e8re qui lui avait ordonn\u00e9 cette rel\u00e2che."
   },
   {
-    "approved": true,
-    "begin": 733.12,
-    "duration": 3.840000000000032,
-    "end": 736.96,
+    "begin": 732.807,
+    "end": 737.519,
     "id": "f000129",
     "text": "\u00c0 propos du capitaine Lecl\u00e8re, ne vous a-t-il pas remis une lettre de lui\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 736.96,
-    "duration": 1.240000000000009,
-    "end": 738.2,
+    "begin": 737.353,
+    "end": 738.06,
     "id": "f000130",
     "text": "Qui\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 738.2,
-    "duration": 1.599999999999909,
-    "end": 739.8,
+    "begin": 738.06,
+    "end": 740.288,
+    "fix_conflict": true,
     "id": "f000131",
     "text": "Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 739.8,
-    "duration": 1.7200000000000273,
-    "end": 741.52,
+    "begin": 740.331,
+    "end": 742.169,
     "id": "f000132",
     "text": "\u00c0 moi, non\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 741.52,
-    "duration": 1.6800000000000637,
-    "end": 743.2,
+    "begin": 741.794,
+    "end": 743.84,
     "id": "f000133",
     "text": "En avait-il donc une\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 743.2,
-    "duration": 4.449999999999932,
-    "end": 747.65,
+    "begin": 743.413,
+    "end": 748.176,
     "id": "f000134",
     "text": "Je croyais qu\u2019outre le paquet, le capitaine Lecl\u00e8re lui avait confi\u00e9 une lettre."
   },
   {
-    "approved": true,
-    "begin": 747.65,
-    "duration": 3.0,
-    "end": 750.65,
+    "begin": 748.402,
+    "end": 751.259,
     "id": "f000135",
     "text": "De quel paquet voulez-vous parler, Danglars\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 750.65,
-    "duration": 4.050000000000068,
-    "end": 754.7,
+    "begin": 751.119,
+    "end": 755.256,
     "id": "f000136",
     "text": "Mais de celui que Dant\u00e8s a d\u00e9pos\u00e9 en passant \u00e0 Porto-Ferrajo\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 754.7,
-    "duration": 4.0,
-    "end": 758.7,
+    "begin": 755.612,
+    "end": 759.331,
     "id": "f000137",
     "text": "Comment savez-vous qu\u2019il avait un paquet \u00e0 d\u00e9poser \u00e0 Porto-Ferrajo\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 758.7,
-    "duration": 2.449999999999932,
-    "end": 761.15,
+    "begin": 759.949,
+    "end": 761.734,
     "id": "f000138",
     "text": "Danglars rougit."
   },
   {
-    "approved": true,
-    "begin": 761.15,
-    "duration": 8.809999999999945,
-    "end": 769.9599999999999,
+    "begin": 761.751,
+    "end": 769.597,
     "id": "f000139",
     "text": "Je passais devant la porte du capitaine qui \u00e9tait entrouverte, et je lui ai vu remettre ce paquet et cette lettre \u00e0 Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 769.9599999999999,
-    "duration": 2.490000000000123,
-    "end": 772.45,
+    "begin": 769.692,
+    "end": 772.889,
     "id": "f000140",
     "text": "Il ne m\u2019en a point parl\u00e9, dit l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 772.45,
-    "duration": 2.5499999999999545,
-    "end": 775.0,
+    "begin": 772.566,
+    "end": 775.579,
     "id": "f000141",
     "text": "Mais s\u2019il a cette lettre, il me la remettra."
   },
   {
-    "approved": true,
-    "begin": 775.0,
-    "duration": 2.8999999999999773,
-    "end": 777.9,
+    "begin": 775.857,
+    "end": 778.165,
     "id": "f000142",
     "text": "Danglars r\u00e9fl\u00e9chit un instant."
   },
   {
-    "approved": true,
-    "begin": 777.8,
-    "duration": 6.5,
-    "end": 784.3,
-    "id": "f000143",
-    "text": "Alors, monsieur Morrel, je vous prie, dit-il, ne parlez point de cela \u00e0 Dant\u00e8s."
-  },
-  {
-    "approved": true,
-    "begin": 784.1999999999999,
-    "duration": 1.400000000000091,
-    "end": 785.6,
+    "begin": 779.227,
+    "end": 786.028,
     "id": "f000144",
-    "text": "Je me serai tromp\u00e9."
+    "text": "Alors, monsieur Morrel, je vous prie, dit-il, ne parlez point de cela \u00e0 Dant\u00e8s. Je me serai tromp\u00e9."
   },
   {
-    "approved": true,
-    "begin": 785.5,
-    "duration": 3.3999999999999773,
-    "end": 788.9,
+    "begin": 786.567,
+    "end": 789.371,
     "id": "f000145",
     "text": "En ce moment, le jeune homme revenait."
   },
   {
-    "approved": true,
-    "begin": 788.8,
-    "duration": 1.900000000000091,
-    "end": 790.7,
+    "begin": 789.154,
+    "end": 791.096,
     "id": "f000146",
     "text": "Danglars s\u2019\u00e9loigna."
   },
   {
-    "approved": true,
-    "begin": 790.6,
-    "duration": 2.8999999999999773,
-    "end": 793.5,
+    "begin": 791.478,
+    "end": 793.729,
     "id": "f000147",
     "text": "Eh bien, mon cher Dant\u00e8s, \u00eates-vous libre\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 793.4,
-    "duration": 1.2000000000000455,
-    "end": 794.6,
+    "begin": 793.47,
+    "end": 795.067,
     "id": "f000148",
     "text": "demanda l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 794.5,
-    "duration": 1.2000000000000455,
-    "end": 795.7,
+    "begin": 794.665,
+    "end": 796.163,
     "id": "f000149",
     "text": "Oui, monsieur."
   },
   {
-    "approved": true,
-    "begin": 795.6,
-    "duration": 2.0,
-    "end": 797.6,
+    "begin": 795.971,
+    "end": 798.039,
     "id": "f000150",
     "text": "La chose n\u2019a pas \u00e9t\u00e9 longue."
   },
   {
-    "approved": true,
-    "begin": 797.5,
-    "duration": 3.7999999999999545,
-    "end": 801.3,
-    "id": "f000151",
-    "text": "Non, j\u2019ai donn\u00e9 aux douaniers la liste de nos marchandises."
-  },
-  {
-    "approved": true,
-    "begin": 801.1999999999999,
-    "duration": 5.400000000000091,
-    "end": 806.6,
+    "begin": 797.597,
+    "end": 807.031,
     "id": "f000152",
-    "text": "Et quant \u00e0 la consigne, elle avait envoy\u00e9 avec le pilote c\u00f4tier un homme \u00e0 qui j\u2019ai remis nos papiers."
+    "text": "Non, j\u2019ai donn\u00e9 aux douaniers la liste de marchandises. Et quant \u00e0 la consigne, elle avait envoy\u00e9 avec le pilote c\u00f4tier un homme \u00e0 qui j\u2019ai remis nos papiers."
   },
   {
-    "approved": true,
-    "begin": 806.5,
-    "duration": 2.6499999999999773,
-    "end": 809.15,
+    "begin": 806.917,
+    "end": 809.617,
     "id": "f000153",
     "text": "Alors, vous n\u2019avez plus rien \u00e0 faire ici\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 809.05,
-    "duration": 3.150000000000091,
-    "end": 812.2,
+    "begin": 809.294,
+    "end": 812.673,
     "id": "f000154",
     "text": "Dant\u00e8s jeta un regard rapide autour de lui."
   },
   {
-    "approved": true,
-    "begin": 812.1,
-    "duration": 2.8999999999999773,
-    "end": 815.0,
+    "begin": 812.324,
+    "end": 815.416,
     "id": "f000155",
     "text": "Non, tout est en ordre, dit-il."
   },
   {
-    "approved": true,
-    "begin": 814.9,
-    "duration": 2.9500000000000455,
-    "end": 817.85,
+    "begin": 815.433,
+    "end": 818.315,
     "id": "f000156",
     "text": "Vous pouvez donc alors venir d\u00eener avec nous\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 817.75,
-    "duration": 5.399999999999977,
-    "end": 823.15,
+    "begin": 817.888,
+    "end": 823.618,
     "id": "f000157",
     "text": "Excusez-moi, monsieur Morrel, excusez-moi, je vous prie, mais je dois ma premi\u00e8re visite \u00e0 mon p\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 823.05,
-    "duration": 3.5,
-    "end": 826.55,
+    "begin": 823.74,
+    "end": 827.041,
     "id": "f000158",
     "text": "Je n\u2019en suis pas moins reconnaissant de l\u2019honneur que vous me faites."
   },
   {
-    "approved": true,
-    "begin": 826.4499999999999,
-    "duration": 2.550000000000068,
-    "end": 829.0,
+    "begin": 826.874,
+    "end": 829.339,
     "id": "f000159",
     "text": "C\u2019est juste, Dant\u00e8s, c\u2019est juste."
   },
   {
-    "approved": true,
-    "begin": 828.9,
-    "duration": 1.9400000000000546,
-    "end": 830.84,
+    "begin": 828.886,
+    "end": 831.351,
     "id": "f000160",
     "text": "Je sais que vous \u00eates bon fils."
   },
   {
-    "approved": true,
-    "begin": 830.74,
-    "duration": 7.610000000000014,
-    "end": 838.35,
+    "begin": 831.498,
+    "end": 838.796,
     "id": "f000161",
     "text": "Et\u2026 demanda Dant\u00e8s avec une certaine h\u00e9sitation, et il se porte bien, que vous sachiez, mon p\u00e8re\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 838.25,
-    "duration": 4.75,
-    "end": 843.0,
+    "begin": 838.551,
+    "end": 843.471,
     "id": "f000162",
     "text": "Mais je crois que oui, mon cher Edmond, quoique je ne l\u2019aie pas aper\u00e7u."
   },
   {
-    "approved": true,
-    "begin": 842.9,
-    "duration": 3.5,
-    "end": 846.4,
+    "begin": 843.358,
+    "end": 846.391,
     "id": "f000163",
     "text": "Oui, il se tient enferm\u00e9 dans sa petite chambre."
   },
   {
-    "approved": true,
-    "begin": 846.3,
-    "duration": 3.550000000000068,
-    "end": 849.85,
+    "begin": 846.315,
+    "end": 850.316,
     "id": "f000164",
     "text": "Cela prouve au moins qu\u2019il n\u2019a manqu\u00e9 de rien pendant votre absence."
   },
   {
-    "approved": true,
-    "begin": 849.75,
-    "duration": 1.75,
-    "end": 851.5,
+    "begin": 850.045,
+    "end": 851.648,
     "id": "f000165",
     "text": "Dant\u00e8s sourit."
   },
   {
-    "approved": true,
-    "begin": 851.4,
-    "duration": 7.75,
-    "end": 859.15,
+    "begin": 851.325,
+    "end": 859.407,
     "id": "f000166",
     "text": "Mon p\u00e8re est fier, monsieur, et, e\u00fbt-il manqu\u00e9 de tout, je doute qu\u2019il e\u00fbt demand\u00e9 quelque chose \u00e0 qui que ce soit au monde, except\u00e9 \u00e0 Dieu."
   },
   {
-    "approved": true,
-    "begin": 859.05,
-    "duration": 3.4500000000000455,
-    "end": 862.5,
+    "begin": 859.397,
+    "end": 862.958,
     "id": "f000167",
     "text": "Eh bien, apr\u00e8s cette premi\u00e8re visite, nous comptons sur vous."
   },
   {
-    "approved": true,
-    "begin": 862.4,
-    "duration": 7.399999999999977,
-    "end": 869.8,
+    "begin": 862.819,
+    "end": 870.273,
     "id": "f000168",
     "text": "Excusez-moi encore, monsieur Morrel, mais apr\u00e8s cette premi\u00e8re visite, j\u2019en ai une seconde qui ne me tient pas moins au c\u0153ur."
   },
   {
-    "approved": true,
-    "begin": 869.6999999999999,
-    "duration": 1.5500000000000682,
-    "end": 871.25,
+    "begin": 870.316,
+    "end": 871.704,
     "id": "f000169",
     "text": "Ah\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 871.15,
-    "duration": 1.8000000000000682,
-    "end": 872.95,
+    "begin": 871.21,
+    "end": 873.193,
     "id": "f000170",
     "text": "c\u2019est vrai, Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 872.85,
-    "duration": 5.600000000000023,
-    "end": 878.45,
+    "begin": 872.934,
+    "end": 878.653,
     "id": "f000171",
     "text": "J\u2019oubliais qu\u2019il y a aux Catalans quelqu\u2019un qui doit vous attendre avec non moins d\u2019impatience que votre p\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 878.35,
-    "duration": 1.3500000000000227,
-    "end": 879.7,
+    "begin": 878.341,
+    "end": 880.2,
     "id": "f000172",
     "text": "c\u2019est la belle Merc\u00e9d\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 879.6,
-    "duration": 1.7999999999999545,
-    "end": 881.4,
+    "begin": 880.034,
+    "end": 881.74,
     "id": "f000173",
     "text": "Dant\u00e8s sourit."
   },
   {
-    "approved": true,
-    "begin": 881.3,
-    "duration": 5.900000000000091,
-    "end": 887.2,
-    "id": "f000176",
-    "text": "Ah\u00a0! ah\u00a0! dit l\u2019armateur, cela ne m\u2019\u00e9tonne plus, qu\u2019elle soit venue trois fois me demander des nouvelles du Pharaon."
+    "begin": 881.287,
+    "end": 881.74,
+    "id": "f000174",
+    "text": "Ah\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 887.1,
-    "duration": 1.1000000000000227,
-    "end": 888.2,
+    "begin": 881.287,
+    "end": 887.592,
+    "id": "f000176",
+    "text": "ah\u00a0! dit l\u2019armateur, cela ne m\u2019\u00e9tonne plus, qu\u2019elle soit venue trois fois me demander des nouvelles du Pharaon."
+  },
+  {
+    "begin": 887.191,
+    "end": 888.14,
     "id": "f000177",
     "text": "Peste\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 888.1,
-    "duration": 4.449999999999932,
-    "end": 892.55,
+    "begin": 888.14,
+    "end": 892.973,
+    "fix_conflict": true,
     "id": "f000178",
     "text": "Edmond, vous n\u2019\u00eates point \u00e0 plaindre, et vous avez l\u00e0 une jolie ma\u00eetresse\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 892.4499999999999,
-    "duration": 4.150000000000091,
-    "end": 896.6,
+    "begin": 892.625,
+    "end": 896.651,
     "id": "f000179",
     "text": "Ce n\u2019est point ma ma\u00eetresse, monsieur, dit gravement le jeune marin."
   },
   {
-    "approved": true,
-    "begin": 896.5,
-    "duration": 1.2000000000000455,
-    "end": 897.7,
+    "begin": 896.575,
+    "end": 898.146,
     "id": "f000180",
     "text": "c\u2019est ma fianc\u00e9e."
   },
   {
-    "approved": true,
-    "begin": 897.6,
-    "duration": 4.0,
-    "end": 901.6,
+    "begin": 898.032,
+    "end": 901.614,
     "id": "f000181",
     "text": "C\u2019est quelquefois tout un, dit l\u2019armateur en riant."
   },
   {
-    "approved": true,
-    "begin": 901.5,
-    "duration": 3.4500000000000455,
-    "end": 904.95,
+    "begin": 901.538,
+    "end": 905.324,
     "id": "f000182",
     "text": "Pas pour nous, monsieur, r\u00e9pondit Dant\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 904.85,
-    "duration": 4.75,
-    "end": 909.6,
+    "begin": 904.934,
+    "end": 909.947,
     "id": "f000183",
     "text": "Allons, allons, mon cher Edmond, continua l\u2019armateur, que je ne vous retienne pas."
   },
   {
-    "approved": true,
-    "begin": 909.5,
-    "duration": 4.2999999999999545,
-    "end": 913.8,
+    "begin": 909.48,
+    "end": 914.238,
     "id": "f000184",
     "text": "Vous avez assez bien fait mes affaires pour que je vous donne tout loisir de faire les v\u00f4tres."
   },
   {
-    "approved": true,
-    "begin": 913.6999999999999,
-    "duration": 1.7500000000001137,
-    "end": 915.45,
+    "begin": 913.888,
+    "end": 915.909,
     "id": "f000185",
     "text": "Avez-vous besoin d\u2019argent\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 915.35,
-    "duration": 1.6499999999999773,
-    "end": 917.0,
+    "begin": 915.821,
+    "end": 917.183,
     "id": "f000186",
     "text": "Non, monsieur."
   },
   {
-    "approved": true,
-    "begin": 916.9,
-    "duration": 4.399999999999977,
-    "end": 921.3,
+    "begin": 917.028,
+    "end": 920.84,
     "id": "f000187",
     "text": "J\u2019ai tous mes appointements du voyage, c\u2019est-\u00e0-dire pr\u00e8s de trois mois de solde."
   },
   {
-    "approved": true,
-    "begin": 921.1999999999999,
-    "duration": 1.7000000000000455,
-    "end": 922.9,
+    "begin": 920.685,
+    "end": 923.4,
     "id": "f000188",
     "text": "Vous \u00eates un gar\u00e7on rang\u00e9, Edmond."
   },
   {
-    "approved": true,
-    "begin": 922.8,
-    "duration": 2.919999999999959,
-    "end": 925.7199999999999,
+    "begin": 922.906,
+    "end": 926.41,
     "id": "f000189",
     "text": "Ajoutez que j\u2019ai un p\u00e8re pauvre, monsieur Morrel."
   },
   {
-    "approved": true,
-    "begin": 925.7199999999999,
-    "duration": 2.630000000000109,
-    "end": 928.35,
+    "begin": 926.035,
+    "end": 928.788,
     "id": "f000190",
     "text": "Oui, oui, je sais que vous \u00eates un bon fils."
   },
   {
-    "approved": true,
-    "begin": 928.25,
-    "duration": 1.9500000000000455,
-    "end": 930.2,
+    "begin": 928.308,
+    "end": 930.486,
     "id": "f000191",
     "text": "Allez donc voir votre p\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 930.1,
-    "duration": 5.899999999999977,
-    "end": 936.0,
+    "begin": 930.006,
+    "end": 936.311,
     "id": "f000192",
     "text": "j\u2019ai un fils aussi, et j\u2019en voudrais fort \u00e0 celui qui, apr\u00e8s un voyage de trois mois, le retiendrait loin de moi."
   },
   {
-    "approved": true,
-    "begin": 935.9,
-    "duration": 2.1000000000000227,
-    "end": 938.0,
+    "begin": 936.171,
+    "end": 938.238,
     "id": "f000193",
     "text": "Alors, vous permettez\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 937.9,
-    "duration": 1.3000000000000682,
-    "end": 939.2,
+    "begin": 937.874,
+    "end": 939.205,
     "id": "f000194",
     "text": "dit le jeune homme en saluant."
   },
   {
-    "approved": true,
-    "begin": 939.1,
-    "duration": 3.1000000000000227,
-    "end": 942.2,
+    "begin": 939.155,
+    "end": 942.737,
     "id": "f000195",
     "text": "Oui, si vous n\u2019avez rien de plus \u00e0 me dire."
   },
   {
-    "approved": true,
-    "begin": 942.1,
-    "duration": 1.6000000000000227,
-    "end": 943.7,
+    "begin": 942.388,
+    "end": 943.991,
     "id": "f000196",
     "text": "Non."
   },
   {
-    "approved": true,
-    "begin": 943.6,
-    "duration": 4.5,
-    "end": 948.1,
+    "begin": 943.981,
+    "end": 948.536,
     "id": "f000197",
     "text": "Le capitaine Lecl\u00e8re ne vous a pas, en mourant, donn\u00e9 une lettre pour moi\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 948.0,
-    "duration": 3.3999999999999773,
-    "end": 951.4,
+    "begin": 948.657,
+    "end": 951.822,
     "id": "f000198",
-    "text": "Il lui e\u00fbt \u00e9t\u00e9 impossible d\u2019\u00e9crire, monsieur mais."
+    "text": "Il lui e\u00fbt \u00e9t\u00e9 impossible d\u2019\u00e9crire, monsieur."
   },
   {
-    "approved": true,
-    "begin": 951.3,
-    "duration": 3.400000000000091,
-    "end": 954.7,
+    "begin": 951.641,
+    "end": 955.119,
     "id": "f000199",
-    "text": "Cela me rappelle que j\u2019aurai un cong\u00e9 de quinze jours \u00e0 vous demander."
+    "text": "Mais cela me rappelle que j\u2019aurai un cong\u00e9 de quinze jours \u00e0 vous demander."
   },
   {
-    "approved": true,
-    "begin": 954.6,
-    "duration": 1.2999999999999545,
-    "end": 955.9,
+    "begin": 954.874,
+    "end": 956.451,
     "id": "f000200",
     "text": "Pour vous marier\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 955.8,
-    "duration": 2.3500000000000227,
-    "end": 958.15,
+    "begin": 956.363,
+    "end": 958.352,
     "id": "f000201",
-    "text": "D\u2019abord euh\u2026"
+    "text": "D\u2019abord."
   },
   {
-    "approved": true,
-    "begin": 958.05,
-    "duration": 1.8500000000000227,
-    "end": 959.9,
+    "begin": 958.171,
+    "end": 959.34,
     "id": "f000202",
     "text": "Puis pour aller \u00e0 Paris."
   },
   {
-    "approved": true,
-    "begin": 959.8,
-    "duration": 4.9500000000000455,
-    "end": 964.75,
-    "id": "f000204",
-    "text": "Bon, bon\u00a0! vous prendrez le temps que vous voudrez, Dant\u00e8s."
+    "begin": 959.34,
+    "end": 960.186,
+    "fix_conflict": true,
+    "id": "f000203",
+    "text": "Bon, bon\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 964.65,
-    "duration": 6.4500000000000455,
-    "end": 971.1,
+    "begin": 960.569,
+    "end": 965.196,
+    "id": "f000204",
+    "text": "vous prendrez le temps que vous voudrez, Dant\u00e8s."
+  },
+  {
+    "begin": 965.094,
+    "end": 971.55,
     "id": "f000205",
     "text": "Le temps de d\u00e9charger le b\u00e2timent nous prendra bien six semaines, et nous ne nous remettrons gu\u00e8re en mer avant trois mois\u2026."
   },
   {
-    "approved": true,
-    "begin": 971.0,
-    "duration": 3.0,
-    "end": 974.0,
+    "begin": 971.227,
+    "end": 974.553,
     "id": "f000206",
     "text": "Seulement, dans trois mois, il faudra que vous soyez l\u00e0."
   },
   {
-    "approved": true,
-    "begin": 973.9,
-    "duration": 6.7000000000000455,
-    "end": 980.6,
+    "begin": 974.1,
+    "end": 981.085,
     "id": "f000207",
     "text": "Le Pharaon, continua l\u2019armateur en frappant sur l\u2019\u00e9paule du jeune marin, ne pourrait pas repartir sans son capitaine."
   },
   {
-    "approved": true,
-    "begin": 980.5,
-    "duration": 2.2000000000000455,
-    "end": 982.7,
+    "begin": 980.814,
+    "end": 983.123,
     "id": "f000208",
     "text": "Sans son capitaine\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 982.6,
-    "duration": 2.8500000000000227,
-    "end": 985.45,
+    "begin": 982.799,
+    "end": 985.944,
     "id": "f000209",
     "text": "s\u2019\u00e9cria Dant\u00e8s les yeux brillants de joie."
   },
   {
-    "approved": true,
-    "begin": 985.35,
-    "duration": 5.649999999999977,
-    "end": 991.0,
+    "begin": 985.594,
+    "end": 990.927,
     "id": "f000210",
     "text": "Faites bien attention \u00e0 ce que vous dites l\u00e0, monsieur, car vous venez de r\u00e9pondre aux plus secr\u00e8tes esp\u00e9rances de mon c\u0153ur."
   },
   {
-    "approved": true,
-    "begin": 990.9,
-    "duration": 3.8999999999999773,
-    "end": 994.8,
+    "begin": 990.877,
+    "end": 995.217,
     "id": "f000211",
     "text": "Votre intention serait-elle de me nommer capitaine du Pharaon\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 994.6999999999999,
-    "duration": 4.150000000000091,
-    "end": 998.85,
-    "id": "f000212",
-    "text": "Si j\u2019\u00e9tais seul, je vous tendrais la main, mon cher Dant\u00e8s, et je vous dirais."
-  },
-  {
-    "approved": true,
-    "begin": 998.75,
-    "duration": 0.7000000000000455,
-    "end": 999.45,
+    "begin": 995.416,
+    "end": 999.893,
     "id": "f000213",
-    "text": "C\u2019est fait."
+    "text": "Si j\u2019\u00e9tais seul, je vous tendrais la main, mon cher Dant\u00e8s, et je vous dirais. C\u2019est fait."
   },
   {
-    "approved": true,
-    "begin": 999.35,
-    "duration": 3.25,
-    "end": 1002.6,
+    "begin": 999.6,
+    "end": 1003.078,
     "id": "f000214",
     "text": "Mais j\u2019ai un associ\u00e9, et vous savez le proverbe italien."
   },
   {
-    "begin": 1002.5,
-    "disabled": true,
-    "duration": 2.0599999999999454,
-    "end": 1004.56,
+    "begin": 1002.86,
+    "end": 1005.217,
     "id": "f000215",
     "text": "Che a compagne a padrone."
   },
   {
-    "approved": true,
-    "begin": 1004.56,
-    "duration": 4.840000000000032,
-    "end": 1009.4,
+    "begin": 1004.92,
+    "end": 1009.87,
     "id": "f000216",
     "text": "Mais la moiti\u00e9 de la besogne est faite au moins, puisque sur deux voix vous en avez d\u00e9j\u00e0 une."
   },
   {
-    "approved": true,
-    "begin": 1009.3,
-    "duration": 4.2000000000000455,
-    "end": 1013.5,
+    "begin": 1010.04,
+    "end": 1013.869,
     "id": "f000217",
     "text": "Rapportez-vous-en \u00e0 moi pour avoir l\u2019autre, et je ferai de mon mieux."
   },
   {
-    "approved": true,
-    "begin": 1013.4,
-    "duration": 6.050000000000068,
-    "end": 1019.45,
+    "begin": 1013.44,
+    "end": 1020.01,
     "id": "f000218",
     "text": "Oh\u00a0! monsieur Morrel, s\u2019\u00e9cria le jeune marin, saisissant, les larmes aux yeux, les mains de l\u2019armateur."
   },
   {
-    "approved": true,
-    "begin": 1019.35,
-    "duration": 4.25,
-    "end": 1023.6,
+    "begin": 1019.61,
+    "end": 1024.133,
     "id": "f000219",
     "text": "Monsieur Morrel, je vous remercie, au nom de mon p\u00e8re et de Merc\u00e9d\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 1023.5,
-    "duration": 4.379999999999882,
-    "end": 1027.8799999999999,
+    "begin": 1023.6800000000001,
+    "end": 1028.28,
     "id": "f000220",
     "text": "C\u2019est bien, c\u2019est bien, Edmond, il y a un Dieu a ciel pour les braves gens, que diable\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 1027.8799999999999,
-    "duration": 3.6200000000001182,
-    "end": 1031.5,
+    "begin": 1028.15,
+    "end": 1032.42,
     "id": "f000221",
     "text": "Allez voir votre p\u00e8re, allez voir Merc\u00e9d\u00e8s, et revenez me trouver apr\u00e8s."
   },
   {
-    "approved": true,
-    "begin": 1031.4,
-    "duration": 3.849999999999909,
-    "end": 1035.25,
+    "begin": 1032.42,
+    "end": 1035.49,
+    "fix_conflict": true,
     "id": "f000222",
     "text": "Mais vous ne voulez pas que je vous ram\u00e8ne \u00e0 terre\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 1035.15,
-    "duration": 1.1899999999998272,
-    "end": 1036.34,
+    "begin": 1035.128,
+    "end": 1036.704,
     "id": "f000223",
     "text": "Non, merci."
   },
   {
-    "approved": true,
-    "begin": 1036.24,
-    "duration": 2.2100000000000364,
-    "end": 1038.45,
+    "begin": 1036.25,
+    "end": 1038.55,
     "id": "f000224",
     "text": "Je reste \u00e0 r\u00e9gler mes comptes avec Danglars."
   },
   {
-    "approved": true,
-    "begin": 1038.3500000000001,
-    "duration": 2.6499999999998636,
-    "end": 1041.0,
+    "begin": 1038.5,
+    "end": 1041.34,
     "id": "f000225",
     "text": "Avez-vous \u00e9t\u00e9 content de lui pendant le voyage\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 1040.9,
-    "duration": 4.199999999999818,
-    "end": 1045.1,
-    "id": "f000226",
-    "text": "C\u2019est selon le sens que vous attachez \u00e0 cette question, monsieur."
-  },
-  {
-    "approved": true,
-    "begin": 1045.0,
-    "duration": 13.75,
-    "end": 1058.75,
+    "begin": 1041.264,
+    "end": 1059.21,
     "id": "f000227",
-    "text": "Si c\u2019est comme bon camarade, non, car je crois qu\u2019il ne m\u2019aime pas depuis le jour o\u00f9 j\u2019ai eu la b\u00eatise, \u00e0 la suite d\u2019une petite querelle que nous avions eue ensemble, de lui proposer de nous arr\u00eater dix minutes \u00e0 l\u2019\u00eele de Monte-Cristo pour vider cette querelle."
+    "text": "C\u2019est selon le sens que vous attachez \u00e0 cette question, monsieur. Si c\u2019est comme bon camarade, non, car je crois qu\u2019il ne m\u2019aime pas depuis le jour o\u00f9 j\u2019ai eu la b\u00eatise, \u00e0 la suite d\u2019une petite querelle que nous avions eue ensemble, de lui proposer de nous arr\u00eater dix minutes \u00e0 l\u2019\u00eele de Monte-Cristo pour vider cette querelle."
   },
   {
-    "approved": true,
-    "begin": 1058.65,
-    "duration": 4.649999999999864,
-    "end": 1063.3,
+    "begin": 1058.719,
+    "end": 1063.761,
     "id": "f000228",
     "text": "Proposition que j\u2019avais eu tort de lui faire, et qu\u2019il avait eu, lui, raison de refuser."
   },
   {
-    "approved": true,
-    "begin": 1063.2,
-    "duration": 7.599999999999909,
-    "end": 1070.8,
+    "begin": 1063.62,
+    "end": 1071.184,
     "id": "f000229",
     "text": "Si c\u2019est comme comptable que vous me faites cette question je crois qu\u2019il n\u2019y a rien \u00e0 dire et que vous serez content de la fa\u00e7on dont sa besogne est faite."
   },
   {
-    "approved": true,
-    "begin": 1070.7,
-    "duration": 9.099999999999909,
-    "end": 1079.8,
+    "begin": 1071.54,
+    "end": 1080.32,
     "id": "f000230",
     "text": "Mais, demanda l\u2019armateur, voyons, Dant\u00e8s, si vous \u00e9tiez capitaine du Pharaon, garderiez-vous Danglars avec plaisir\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 1079.7,
-    "duration": 9.0,
-    "end": 1088.7,
+    "begin": 1079.822,
+    "end": 1089.156,
     "id": "f000231",
     "text": "Capitaine ou second, monsieur Morrel, r\u00e9pondit dit Dant\u00e8s, j\u2019aurai toujours les plus grands \u00e9gards pour ceux qui poss\u00e9deront la confiance de mes armateurs."
   },
   {
-    "approved": true,
-    "begin": 1088.6000000000001,
-    "duration": 4.959999999999809,
-    "end": 1093.56,
+    "begin": 1089.33,
+    "end": 1094.08,
     "id": "f000232",
     "text": "Allons, allons, Dant\u00e8s, je vois qu\u2019en tout point vous \u00eates un brave gar\u00e7on."
   },
   {
-    "approved": true,
-    "begin": 1093.56,
-    "duration": 1.5399999999999636,
-    "end": 1095.1,
+    "begin": 1093.742,
+    "end": 1095.26,
     "id": "f000233",
     "text": "Que je ne vous retienne plus."
   },
   {
-    "approved": true,
-    "begin": 1095.0,
-    "duration": 2.349999999999909,
-    "end": 1097.35,
+    "begin": 1095.027,
+    "end": 1097.849,
     "id": "f000234",
     "text": "allez, car je vois que vous \u00eates sur des charbons."
   },
   {
-    "approved": true,
-    "begin": 1097.25,
-    "duration": 2.25,
-    "end": 1099.5,
+    "begin": 1098.13,
+    "end": 1099.78,
     "id": "f000235",
     "text": "J\u2019ai donc mon cong\u00e9\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 1099.4,
-    "duration": 2.2999999999999545,
-    "end": 1101.7,
+    "begin": 1099.495,
+    "end": 1102.217,
     "id": "f000236",
     "text": "demanda Dant\u00e8s. Allez, vous dis-je."
   },
   {
-    "approved": true,
-    "begin": 1101.6000000000001,
-    "duration": 2.2799999999997453,
-    "end": 1103.8799999999999,
+    "begin": 1101.92,
+    "end": 1104.48,
     "id": "f000237",
     "text": "Vous permettez que je prenne votre canot\u00a0?"
   },
   {
-    "approved": true,
-    "begin": 1103.8799999999999,
-    "duration": 3.9700000000000273,
-    "end": 1107.85,
+    "begin": 1104.069,
+    "end": 1108.402,
     "id": "f000238",
     "text": "Prenez. Au revoir, monsieur Morrel, et mille fois merci."
   },
   {
-    "approved": true,
-    "begin": 1107.75,
-    "duration": 2.9500000000000455,
-    "end": 1110.7,
+    "begin": 1108.21,
+    "end": 1111.169,
     "id": "f000239",
     "text": "Au revoir, mon cher Edmond, bonne chance\u00a0!"
   },
   {
-    "approved": true,
-    "begin": 1110.6000000000001,
-    "duration": 6.999999999999773,
-    "end": 1117.6,
+    "begin": 1111.16,
+    "end": 1117.944,
     "id": "f000240",
     "text": "Le jeune marin sauta dans le canot, alla s\u2019asseoir \u00e0 la poupe, et donna l\u2019ordre d\u2019aborder \u00e0 la Canebi\u00e8re."
   },
   {
-    "approved": true,
-    "begin": 1117.5,
-    "duration": 15.299999999999955,
-    "end": 1132.8,
+    "begin": 1117.93,
+    "end": 1133.298,
     "id": "f000241",
     "text": "Deux matelots se pench\u00e8rent aussit\u00f4t sur leurs rames, et l\u2019embarcation glissa aussi rapidement qu\u2019il est possible de le faire, au milieu des mille barques qui obstruent l\u2019esp\u00e8ce de rue \u00e9troite qui conduit, entre deux rang\u00e9es de navires, de l\u2019entr\u00e9e du port au quai d\u2019Orl\u00e9ans."
   },
   {
-    "approved": true,
-    "begin": 1132.7,
-    "duration": 23.799999999999955,
-    "end": 1156.5,
+    "begin": 1133.4,
+    "end": 1156.886,
     "id": "f000242",
     "text": "L\u2019armateur le suivit des yeux en souriant, jusqu\u2019au bord, le vit sauter sur les dalles du quai, et se perdre aussit\u00f4t au milieu de la foule bariol\u00e9e qui, de cinq heures du matin \u00e0 neuf heures du soir, encombre cette fameuse rue de la Canebi\u00e8re, dont les Phoc\u00e9ens modernes sont si fiers, qu\u2019ils disent avec le plus grand s\u00e9rieux du monde et avec cet accent qui donne tant de caract\u00e8re \u00e0 ce qu\u2019ils disent."
   },
   {
-    "approved": true,
-    "begin": 1156.4,
-    "duration": 4.599999999999909,
-    "end": 1161.0,
+    "begin": 1156.88,
+    "end": 1161.539,
     "id": "f000243",
     "text": "Si Paris avait la Canebi\u00e8re, Paris serait un petit Marseille."
   },
   {
-    "approved": true,
-    "begin": 1160.9,
-    "duration": 13.799999999999955,
-    "end": 1174.7,
+    "begin": 1162.0,
+    "end": 1175.171,
     "id": "f000244",
     "text": "En se retournant, l\u2019armateur vit derri\u00e8re lui Danglars, qui, en apparence, semblait attendre ses ordres, mais qui, en r\u00e9alit\u00e9, suivait comme lui le jeune marin du regard."
   },
   {
-    "approved": true,
-    "begin": 1174.6000000000001,
-    "duration": 12.399999999999864,
-    "end": 1187.0,
+    "begin": 1175.24,
+    "end": 1187.1000000000001,
     "id": "f000245",
     "text": "Seulement, il y avait une grande diff\u00e9rence dans l\u2019expression de ce double regard qui suivait le m\u00eame homme."
   }

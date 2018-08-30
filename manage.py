@@ -71,6 +71,18 @@ def build_alignment(source_name):
             sort_keys=True,
             indent=2,
         )
+    with open(path_to_transcript, 'w') as f:
+        f.writelines('\n'.join(f['text'] for f in alignment) + '\n')
+
+    # Generate Audacity labels for DEBUG purpose
+    path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
+    with open(path_to_silences_labels, 'w') as f:
+        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
+    path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
+    with open(path_to_alignment) as alignments_f, open(path_to_alignment_labels, 'w') as labels_f:
+        alignments = json.load(alignments_f)
+        labels_f.writelines(
+            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
 
 
 audio_player = None
@@ -338,28 +350,6 @@ def stats():
         tablefmt='pipe',
     ))
     print(f'\nTotal: {total_dur} with {total_count} fragments')
-
-
-@cli.command()
-@click.argument('source_name')
-def generate_labels(source_name: str):
-    source = utils.get_source(source_name)
-    path_to_audio = os.path.join(CURRENT_DIR, 'data/mp3/', source['audio'])
-    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
-    if not os.path.isfile(path_to_alignment):
-        raise FileNotFoundError(f'alignment file missing for {source_name}. see `python cli.py build_alignment --help`')
-    print(f'detecting silences from {path_to_audio}')
-    silences = ffmpeg.list_silences(input_path=path_to_audio)
-    print('done')
-    path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
-    with open(path_to_silences_labels, 'w') as f:
-        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
-
-    path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
-    with open(path_to_alignment) as alignments_f, open(path_to_alignment_labels, 'w') as labels_f:
-        alignments = json.load(alignments_f)
-        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
-    print(f'labels availables at\n{path_to_alignment_labels}\n{path_to_silences_labels}')
 
 
 if __name__ == '__main__':
