@@ -43,8 +43,9 @@ Trois jours après, il était mort….
 Nous lui avons fait les funérailles ordinaires, et il repose, décemment enveloppé dans un hamac, avec un boulet de trente-six aux pieds et un à la tête, à la hauteur de l’île d’El Giglio.
 Nous rapportons à sa veuve sa croix d’honneur et son épée.
 C’était bien la peine, continua le jeune homme avec un sourire mélancolique, de faire dix ans la guerre aux Anglais pour en arriver à mourir, comme tout le monde, dans son lit.
-Dame ! que voulez-vous, monsieur Edmond, reprit l’armateur qui paraissait se consoler de plus en plus, nous sommes tous mortels, et il faut bien que les anciens fassent place aux nouveaux, sans cela il n’y aurait pas d’avancement.
-Et du moment que vous m’assurez que la cargaison…. Est en bon état, monsieur Morrel, je vous en réponds.
+Dame ! que voulez-vous, monsieur Edmond, reprit l’armateur qui paraissait se consoler de plus en plus, nous sommes tous mortels, et il faut bien que les anciens fassent place aux nouveaux, sans cela il n’y aurait pas d’avancement et…
+du moment que vous m’assurez que la cargaison….
+Est en bon état, monsieur Morrel, je vous en réponds.
 Voici un voyage que je vous donne le conseil de ne point escompter pour vingt-cinq mille francs de bénéfice.
 Puis, comme on venait de dépasser la tour ronde.
 Range à carguer les voiles de hune, le foc et la brigantine ! cria le jeune marin.
@@ -62,7 +63,8 @@ Eh bien, monsieur Morrel, dit Danglars, vous savez le malheur, n’est-ce pas ?
 Oui, oui, pauvre capitaine Leclère !
 c’était un brave et honnête homme !
 Et un excellent marin surtout, vieilli entre le ciel et l’eau, comme il convient à un homme chargé des intérêts d’une maison aussi importante que maison Morrel et fils, répondit Danglars.
-Mais, dit l’armateur, suivant des yeux Dantès qui cherchait son mouillage, mais il me semble qu’il n’y a pas besoin d’être si vieux marin que vous le dites, Danglars, pour connaître son métier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n’a besoin de demander des conseils à personne. Oui, dit Danglars en jetant sur Dantès un regard oblique où brilla un éclair de haine, oui, c’est jeune, et cela ne doute de rien.
+Mais, dit l’armateur, suivant des yeux Dantès qui cherchait son mouillage, mais il me semble qu’il n’y a pas besoin d’être si vieux marin que vous le dites, Danglars, pour connaître son métier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n’a besoin de demander des conseils à personne.
+Oui, dit Danglars en jetant sur Dantès un regard oblique où brilla un éclair de haine, oui, c’est jeune, et cela ne doute de rien.
 À peine le capitaine a-t-il été mort qu’il a pris le commandement sans consulter personne, et qu’il nous a fait perdre un jour et demi à l’île d’Elbe au lieu de revenir directement à Marseille. Quant à prendre le commandement du navire, dit l’armateur, c’était son devoir comme second.
 Quant à perdre un jour et demi à l’île d’Elbe, il a eu tort.
 À moins que le navire n’ait eu quelque avarie à réparer.
@@ -108,16 +110,19 @@ a-t-il dit, je la connais.
 Les Morrel sont armateurs de père en fils, et il y avait un Morrel qui servait dans le même régiment que moi lorsque j’étais en garnison à Valence.
 C’est pardieu vrai ! s’écria l’armateur tout joyeux.
 C’était Policar Morrel, mon oncle, qui est devenu capitaine.
-Dantès, vous direz à mon oncle que l’Empereur s’est souvenu de lui, et vous le verrez pleurer, le vieux grognard. Allons, allons, continua l’armateur en frappant amicalement sur l’épaule du jeune homme, vous avez bien fait, Dantès, de suivre les instructions du capitaine Leclère et de vous arrêter à l’île d’Elbe, quoique, si l’on savait que vous avez remis un paquet au maréchal et causé avec l’Empereur, cela pourrait vous compromettre. En quoi voulez-vous, monsieur, que cela me compromette ? dit Dantès.
+Dantès, vous direz à mon oncle que l’Empereur s’est souvenu de lui, et vous le verrez pleurer, le vieux grognard.
+Allons, allons, continua l’armateur en frappant amicalement sur l’épaule du jeune homme,
+vous avez bien fait, Dantès, de suivre les instructions du capitaine Leclère et de vous arrêter à l’île d’Elbe,
+quoique, si l’on savait que vous avez remis un paquet au maréchal et causé avec l’Empereur, cela pourrait vous compromettre.
+En quoi voulez-vous, monsieur, que cela me compromette ? dit Dantès.
 je ne sais pas même ce que je portais, et l’Empereur ne m’a fait que les questions qu’il eût faites au premier venu.
 Mais, pardon, reprit Dantès, voici la santé et la douane qui nous arrivent.
 Vous permettez, n’est-ce pas ?
 Faites, faites, mon cher Dantès.
 Le jeune homme s’éloigna, et, comme il s’éloignait, Danglars se rapprocha.
 Eh bien, demanda-t-il, il paraît qu’il vous a donné de bonnes raisons de son mouillage à Porto-Ferrajo ?
-D’excellentes, mon cher monsieur Danglars.
-Ah !
-tant mieux, répondit celui-ci, car c’est toujours pénible de voir un camarade qui ne fait pas son devoir.
+D’excellentes, mon cher Danglars.
+Ah ! tant mieux, répondit celui-ci, car c’est toujours pénible de voir un camarade qui ne fait pas son devoir.
 Dantès a fait le sien, répondit l’armateur, et il n’y a rien à dire.
 C’était le capitaine Leclère qui lui avait ordonné cette relâche.
 À propos du capitaine Leclère, ne vous a-t-il pas remis une lettre de lui ?
@@ -141,7 +146,7 @@ Eh bien, mon cher Dantès, êtes-vous libre ?
 demanda l’armateur.
 Oui, monsieur.
 La chose n’a pas été longue.
-Non, j’ai donné aux douaniers la liste de marchandises. Et quant à la consigne, elle avait envoyé avec le pilote côtier un homme à qui j’ai remis nos papiers.
+Non, j’ai donné aux douaniers la liste de nos marchandises. Et quant à la consigne, elle avait envoyé avec le pilote côtier un homme à qui j’ai remis nos papiers.
 Alors, vous n’avez plus rien à faire ici ?
 Dantès jeta un regard rapide autour de lui.
 Non, tout est en ordre, dit-il.
@@ -162,8 +167,7 @@ Ah !
 c’est vrai, Dantès.
 J’oubliais qu’il y a aux Catalans quelqu’un qui doit vous attendre avec non moins d’impatience que votre père.
 c’est la belle Mercédès.
-Dantès sourit. Ah ! ah !
-dit l’armateur, cela ne m’étonne plus, qu’elle soit venue trois fois me demander des nouvelles du Pharaon.
+Dantès sourit. Ah ! ah ! dit l’armateur, cela ne m’étonne plus, qu’elle soit venue trois fois me demander des nouvelles du Pharaon.
 Peste !
 Edmond, vous n’êtes point à plaindre, et vous avez là une jolie maîtresse !
 Ce n’est point ma maîtresse, monsieur, dit gravement le jeune marin.
@@ -185,11 +189,10 @@ dit le jeune homme en saluant.
 Oui, si vous n’avez rien de plus à me dire.
 Non.
 Le capitaine Leclère ne vous a pas, en mourant, donné une lettre pour moi ?
-Il lui eût été impossible d’écrire, monsieur.
-Mais cela me rappelle que j’aurai un congé de quinze jours à vous demander.
+Il lui eût été impossible d’écrire, monsieur mais…
+cela me rappelle que j’aurai un congé de quinze jours à vous demander.
 Pour vous marier ?
-D’abord.
-Puis pour aller à Paris.
+D’abord Puis pour aller à Paris.
 Bon, bon !
 vous prendrez le temps que vous voudrez, Dantès.
 Le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois….
@@ -220,8 +223,8 @@ Capitaine ou second, monsieur Morrel, répondit dit Dantès, j’aurai toujours 
 Allons, allons, Dantès, je vois qu’en tout point vous êtes un brave garçon.
 Que je ne vous retienne plus.
 allez, car je vois que vous êtes sur des charbons.
-J’ai donc mon congé ?
-demanda Dantès. Allez, vous dis-je.
+J’ai donc mon congé ? demanda Dantès.
+Allez, vous dis-je.
 Vous permettez que je prenne votre canot ?
 Prenez. Au revoir, monsieur Morrel, et mille fois merci.
 Au revoir, mon cher Edmond, bonne chance !
