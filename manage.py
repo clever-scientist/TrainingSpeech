@@ -64,9 +64,15 @@ def build_alignment(source_name):
         lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] == 0])
         raise Exception(f'lines {lines} led to empty alignment')
 
+    if os.path.exists(path_to_alignment):
+        with open(path_to_alignment) as curr_f:
+            current_alignment = json.load(curr_f)
+    else:
+        current_alignment = []
+
     with open(path_to_alignment, 'w') as dest:
         json.dump(
-            obj=alignment,
+            obj=utils.merge_alignments(current_alignment, alignment),
             fp=dest,
             sort_keys=True,
             indent=2,
@@ -95,6 +101,7 @@ def check_alignment(source_name, restart):
     import inquirer
     source = utils.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+    path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
     if not os.path.isfile(path_to_alignment):
         raise FileNotFoundError(f'alignment file missing for {source_name}. see `python cli.py build_alignment --help`')
@@ -111,8 +118,7 @@ def check_alignment(source_name, restart):
         ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{f_hash}.wav', rate=16000, channels=1)
 
     # delete existing fragments if any
-    path_to_recordings = os.path.join(CURRENT_DIR,  f'data/recordings/{source_name}/')
-    subprocess.call(f'rm -f {path_to_recordings}*.wav'.split(' '))
+    path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
 
     def cut_fragment_audio(fragment: dict):
         path_to_fragment_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
@@ -138,7 +144,7 @@ def check_alignment(source_name, restart):
 
         def play_audio():
             global audio_player
-            with sox.play(path_to_audio, speed=1.25) as player:
+            with sox.play(path_to_audio, speed=1.3) as player:
                 audio_player = player
 
         todo.add(pool.submit(play_audio))
@@ -283,13 +289,14 @@ def check_alignment(source_name, restart):
                     sort_keys=True,
                     indent=2,
                 )
+            with open(path_to_transcript, 'w') as f:
+                f.writelines('\n'.join(f['text'] for f in fragments) + '\n')
             i += 1
 
 
 MAPPINGS = [
     (os.path.join(CURRENT_DIR, 's3://audiocorpfr/epubs/'), os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
     (os.path.join(CURRENT_DIR, 's3://audiocorpfr/mp3/'), os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
-    (os.path.join(CURRENT_DIR, 's3://audiocorpfr/recordings/'), os.path.join(CURRENT_DIR, 'data/recordings/'), 'recordings'),
 ]
 
 
@@ -316,11 +323,8 @@ def upload(source_name):
         options = ''
         if source_name:
             source = utils.get_source(source_name)
-            if key != 'recordings':
-                options += f'--exclude \'*\' --include \'{source[key]}\' '
-            else:
-                s3 += f'{source_name}/'
-                local += f'{source_name}/'
+            options += f'--exclude \'*\' --include \'{source[key]}\' '
+
         sync_cmd = f'aws s3 sync {options}{local} {s3}'
         print(sync_cmd)
         subprocess.call(sync_cmd.split(' '))

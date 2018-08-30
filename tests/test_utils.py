@@ -144,3 +144,56 @@ def test_is_float(input_, expected_output):
 ])
 def test_fix_alignment(alignment, silences, fixed_alignment):
     assert fixed_alignment == utils.fix_alignment(alignment, silences)
+
+
+@pytest.mark.parametrize('old, new_, merged', [
+    # exactly the same
+    ([
+        dict(begin=1, end=2, text='a', approved=True, id=1),
+    ], [
+        dict(begin=1, end=2, text='a', id=1),
+    ], [
+        dict(begin=1, end=2, text='a', approved=True, id=1),
+    ]),
+    # small change
+    ([
+        dict(begin=1, end=2, text='a', approved=True, id=1),
+    ], [
+        dict(begin=1.01, end=2, text='a', id=1),
+    ], [
+        dict(begin=1.01, end=2, text='a', id=1),
+    ]),
+    # split
+    ([
+        dict(begin=0, end=1, text='a', approved=True, id=0),
+        dict(begin=1, end=3, text='b c', approved=True, id=1),
+        dict(begin=3, end=4, text='d', approved=True, id=2),
+    ], [
+        dict(begin=0, end=1, text='a', id=0),
+        dict(begin=1, end=2, text='b', id=1),
+        dict(begin=2, end=3, text='c', id=2),
+        dict(begin=3, end=4, text='d', id=3),
+    ], [
+        dict(begin=0, end=1, text='a', id=0, approved=True),
+        dict(begin=1, end=2, text='b', id=1),
+        dict(begin=2, end=3, text='c', id=2),
+        dict(begin=3, end=4, text='d', id=3, approved=True),
+    ]),
+    # merge
+    ([
+        dict(begin=0, end=1, text='a', id=0, approved=True),
+        dict(begin=1, end=2, text='b', id=1, approved=True),
+        dict(begin=2, end=3, text='c', id=2, approved=True),
+        dict(begin=3, end=4, text='d', id=3, approved=True),
+    ], [
+        dict(begin=0, end=1, text='a', id=0),
+        dict(begin=1, end=3, text='b c', id=1),
+        dict(begin=3, end=4, text='d', id=2),
+    ], [
+        dict(begin=0, end=1, text='a', id=0, approved=True),
+        dict(begin=1, end=3, text='b c', id=1),
+        dict(begin=3, end=4, text='d', id=2, approved=True),
+    ]),
+])
+def test_merge_alignments(old, new_, merged):
+    assert merged == utils.merge_alignments(old, new_)

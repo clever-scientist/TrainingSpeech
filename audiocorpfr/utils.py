@@ -276,6 +276,28 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
     return [f for f in alignment if not f.get('merged')]
 
 
+def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> List[dict]:
+    o_i = n_i = 0
+
+    def are_almost_equal(o, n):
+        return all(o.get(p) == n.get(p) for p in {'begin', 'end', 'text'})
+
+    while o_i < len(old_alignment) and n_i < len(new_alignment):
+        o = old_alignment[o_i]
+        n = new_alignment[n_i]
+        if are_almost_equal(o, n):
+            # update all but id
+            n.update(**{k: v for k, v in o.items() if k != 'id'})
+            o_i += 1
+            n_i += 1
+            continue
+        if o['begin'] < n['begin']:
+            o_i += 1
+        else:
+            n_i += 1
+    return new_alignment
+
+
 def sha1_file(file_obj, blocksize=65536):
     hasher = sha1()
     buf = file_obj.read(blocksize)
