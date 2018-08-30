@@ -1,17 +1,20 @@
 stages:
   - test
 
+variables:
+  PIPENV_CACHE_DIR: "$CI_PROJECT_DIR/pip-cache"
+
 cache:
   paths:
-    - .pip
+    - "$CI_PROJECT_DIR/pipenv-cache"
+    - "$CI_PROJECT_DIR/.venv"
 
 test:
   image: python:3.6.6
   script:
    - apt-get update -qq && apt-get install -y -qq ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox
-   - mkdir -p .pip
-   - pip install --cache-dir .pip -Ur requirements.txt
-   - python -c "import nltk; nltk.download('punkt')"
-   - pytest --cov
+   - pip install pipenv
+   - pipenv install --dev --deploy
+   - pipenv run pytest --cov audiocorpfr
   coverage: '/TOTAL.*(\d{2}\.?(?:\d+)?)%/'
 
