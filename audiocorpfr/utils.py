@@ -280,7 +280,15 @@ def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> Li
     o_i = n_i = 0
 
     def are_almost_equal(o, n):
-        return all(o.get(p) == n.get(p) for p in {'begin', 'end', 'text'})
+        if all(o.get(p) == n.get(p) for p in {'begin', 'end', 'text'}):
+            return True
+        elif o.get('end_forced') and all(o.get(p) == n.get(p) for p in {'begin', 'text'}):
+            return True
+        elif o.get('begin_forced') and all(o.get(p) == n.get(p) for p in {'end', 'text'}):
+            return True
+        elif o.get('begin_forced') and o.get('end_forced') and o['text'] == n['text']:
+            return True
+        return False
 
     while o_i < len(old_alignment) and n_i < len(new_alignment):
         o = old_alignment[o_i]

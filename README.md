@@ -15,10 +15,8 @@
 1. pick a source that have NOT been validated yet: see `python manage.py stats` and `./sources.json` for more info
 2. download assets (ie epub and mp3 files): `manage.py download -s <SOURCE_NAME>`
 3. build initial transcript: `manage.py build_transcript <SOURCE_NAME>`
-4. build alignment: `manage.py build_alignment <SOURCE_NAME>`
-5. check alignment: `manage.py check_alignment [OPTIONS] <SOURCE_NAME>`
-6. iterate between 4. and 5.
-7. send a pull request with generated transcript and alignment
+4. check alignment: `manage.py check_alignment [OPTIONS] <SOURCE_NAME>`
+5. send a pull request with generated transcript and alignment
 
 ## Dev setup 
 

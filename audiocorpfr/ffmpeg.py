@@ -87,8 +87,8 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             i_s, i_e = item
             assert cg_s < cg_e
             assert i_s < i_e
-            assert i_s >= cg_s, f'{i_s} not gt {cg_s}'
-            if i_s - cg_e <= 0.06:
+            assert i_s >= cg_s, f'{i_s} not gte {cg_s}'
+            if i_s - cg_e <= 0.05:
                 current_group = cg_s, max(cg_e, i_e)
                 continue
             yield current_group
@@ -98,6 +98,5 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             yield current_group
 
     result = [(round(s, 3), round(e, 3)) for s, e in merge_overlaps(parse_lines(p.stderr.readlines()))]
-    # retcode = p.wait()
-    # assert retcode == 0
+    # result = [(round(s, 3), round(e, 3)) for s, e in parse_lines(p.stderr.readlines())]
     return result
