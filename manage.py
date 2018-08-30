@@ -57,9 +57,11 @@ def build_alignment(source_name):
     with open(path_to_alignment_tmp) as source:
         original_alignment = json.load(source)
     alignment = [utils.cleanup_fragment(f) for f in original_alignment['fragments']]
+    silences = ffmpeg.list_silences(input_path=mp3)
+    alignment = utils.fix_alignment(alignment, silences)
 
-    if any(f['duration'] == 0 for f in alignment):
-        lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['duration'] == 0])
+    if any(f['end'] - f['begin'] == 0 for f in alignment):
+        lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] == 0])
         raise Exception(f'lines {lines} led to empty alignment')
 
     with open(path_to_alignment, 'w') as dest:
@@ -356,7 +358,7 @@ def generate_labels(source_name: str):
     path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
     with open(path_to_alignment) as alignments_f, open(path_to_alignment_labels, 'w') as labels_f:
         alignments = json.load(alignments_f)
-        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
+        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
     print(f'labels availables at\n{path_to_alignment_labels}\n{path_to_silences_labels}')
 
 

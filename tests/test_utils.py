@@ -55,9 +55,9 @@ def test_cleanup_document(paragraph, expected_sentences):
          'ebook': 'do_not_exists.epub',
          'ebook_parts': ['part1.xhtml'],
      }, {
-        'audio': ['expect extension to be .mp3'],
-        'ebook': ['file not found'],
-    }),
+         'audio': ['expect extension to be .mp3'],
+         'ebook': ['file not found'],
+     }),
 ])
 def test_validate_source_ko(source: dict, expected_errors: dict):
     data, errors = utils.SourceSchema().load(source, many=False)
@@ -72,3 +72,75 @@ def test_validate_source_ko(source: dict, expected_errors: dict):
 ])
 def test_is_float(input_, expected_output):
     assert expected_output == utils.is_float(input_)
+
+
+@pytest.mark.parametrize('alignment, silences, fixed_alignment', [
+    ([{
+        "begin": 0,
+        "end": 4.86,
+    }, {
+        "begin": 4.86,
+        "end": 16.28,
+    }], [(3.109, 4.909)], [{
+        "begin": 0,
+        "end": 3.609,
+    }, {
+        "begin": 4.409,
+        "end": 16.28,
+    }]),
+    ([{
+        "begin": 26.247,
+        "end": 32.5,
+    }, {
+        "begin": 32.5,
+        "end": 48.618,
+    }], [(32.601, 33.487)], [{
+        "begin": 26.247,
+        "end": 33.101,
+    }, {
+        "begin": 32.987,
+        "end": 48.618,
+    }]),
+    # Test no silent => merge
+    ([{
+        "begin": 26.247,
+        "end": 32.5,
+        "text": 'foo'
+    }, {
+        "begin": 32.5,
+        "end": 48.618,
+        "text": 'bar'
+    }], [], [{
+        "begin": 26.247,
+        "end": 48.618,
+        "text": 'foo bar'
+    }]),
+    # Test fragment in silent
+    ([{
+        "begin": 639.341,
+        "end": 640.945,
+        "text": "Ah\u00a0!"
+    }, {
+        "begin": 640.674,
+        "end": 640.945,
+        "text": "ah\u00a0!"
+    }, {
+        "begin": 640.674,
+        "end": 643.661,
+        "text": "a-t-il dit, je la connais."
+    }], [
+        (638.982, 639.841),
+        (640.445, 641.174),
+        (641.803, 642.375),
+    ], [{
+        "begin": 639.341,
+        "end": 640.945,
+        "text": 'Ah\u00a0! ah\u00a0!'
+    }, {
+        "begin": 640.674,
+        "end": 643.661,
+        "text": "a-t-il dit, je la connais."
+    }]),
+])
+def test_fix_alignment(alignment, silences, fixed_alignment):
+    assert fixed_alignment == utils.fix_alignment(alignment, silences)

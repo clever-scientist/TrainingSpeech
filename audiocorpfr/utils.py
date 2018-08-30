@@ -7,11 +7,12 @@ from copy import deepcopy
 from zipfile import ZipFile
 import roman
 from bs4 import BeautifulSoup
-from typing import Pattern
+from typing import Pattern, List, Tuple
 from marshmallow import Schema, fields, ValidationError
 from num2words import num2words
 from nltk.tokenize import sent_tokenize
 
+from audiocorpfr.exceptions import WrongCutException
 
 CURRENT_DIR = os.path.dirname(__file__)
 NORMALIZATIONS = [
@@ -218,16 +219,61 @@ def cleanup_fragment(original: dict) -> dict:
     lines = data.pop('lines')
     data.pop('children')
     data.pop('language')
+    data.pop('duration', None)
     begin = max(float(data['begin']) - 0.1, 0)
-    end = float(data['end'])
-    duration = end - begin
+    end = float(data['end']) - 0.1
     data.update(
         begin=begin,
         end=end,
-        duration=duration,
         text=' '.join(lines),
     )
     return data
+
+
+def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) -> List[dict]:
+    alignment = deepcopy(alignment)
+
+    def get_silences(fragment, margin=0):
+        for silence_start, silence_end in silences:
+            if fragment['begin'] > silence_start and fragment['end'] < silence_end:
+                # wrong cut: a fragment cannot be contained in a silent => merge
+                raise WrongCutException
+            if silence_start - margin < fragment['end'] < silence_end + margin:
+                yield (silence_start, silence_end)
+            if silence_start - margin > fragment['end']:
+                break
+
+    for i, fragment in enumerate(alignment[:-1]):
+        # check for exact silent
+        done = False
+        possible_conflict = False
+        for margin in [0, 0.1, 0.3, 0.6]:
+            try:
+                overlaps = list(get_silences(fragment, margin=margin))
+            except WrongCutException:
+                if i != 0:
+                    alignment[i - 1]['merged'] = True
+                    fragment['begin'] = alignment[i - 1]['begin']
+                    fragment['end'] = alignment[i - 1]['end']
+                    fragment['text'] = alignment[i - 1]['text'] + ' ' + fragment['text']
+                    done = True
+                break
+
+            if len(overlaps) == 1:
+                silence_start, silence_end = overlaps[0]
+                fragment['end'] = min(silence_start + 0.5, silence_end)
+                alignment[i + 1]['begin'] = max(silence_end - 0.5, silence_start)
+                done = True
+                break
+            elif len(overlaps) > 1:
+                alignment[i + 1]['fix_conflict'] = True
+                possible_conflict = True
+                break
+        if not done and not possible_conflict:
+            fragment['merged'] = True
+            alignment[i + 1]['begin'] = fragment['begin']
+            alignment[i + 1]['text'] = fragment['text'] + ' ' + alignment[i + 1]['text']
+    return [f for f in alignment if not f.get('merged')]
 
 
 def sha1_file(file_obj, blocksize=65536):

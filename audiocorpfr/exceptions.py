@@ -8,3 +8,7 @@ class QuitException(Exception):
 
 class MergeException(Exception):
     pass
+
+
+class WrongCutException(Exception):
+    pass

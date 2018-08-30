@@ -18,10 +18,10 @@ def source_info(name: str) -> dict:
         )
     with open(alignment_file) as f:
         fragments = json.load(f)
-    todo_dur = sum(f['duration'] for f in fragments)
+    todo_dur = sum(f['end'] - f['begin'] for f in fragments)
     approved = [f for f in fragments if f.get('approved')]
-    approved_dur = sum(f['duration'] for f in approved)
-    disabled_dur = sum(f['duration'] for f in fragments if f.get('disabled'))
+    approved_dur = sum(f['end'] - f['begin'] for f in approved)
+    disabled_dur = sum(f['end'] - f['begin'] for f in fragments if f.get('disabled'))
 
     remaining_dur = todo_dur - approved_dur - disabled_dur
     if remaining_dur > 0:
