@@ -55,15 +55,17 @@ def build_alignment(source_name):
     executor = ExecuteTask(task=task)
     executor.execute()
     task.output_sync_map_file()
+
     with open(path_to_alignment_tmp) as source:
-        original_alignment = json.load(source)
-    alignment = [utils.cleanup_fragment(f) for f in original_alignment['fragments']]
+        original_alignment = [utils.cleanup_fragment(f) for f in json.load(source)['fragments']]
+
     silences = ffmpeg.list_silences(
         input_path=mp3,
         min_duration=DEFAULT_SILENCE_MIN_DURATION,
         noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
     )
-    alignment = utils.fix_alignment(alignment, silences)
+
+    alignment = utils.fix_alignment(original_alignment, silences)
 
     if any(f['end'] - f['begin'] == 0 for f in alignment):
         lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] == 0])
@@ -75,9 +77,10 @@ def build_alignment(source_name):
     else:
         current_alignment = []
 
+    merged_alignment = utils.merge_alignments(current_alignment, alignment)
     with open(path_to_alignment, 'w') as dest:
         json.dump(
-            obj=utils.merge_alignments(current_alignment, alignment),
+            obj=merged_alignment,
             fp=dest,
             sort_keys=True,
             indent=2,
@@ -89,11 +92,15 @@ def build_alignment(source_name):
     path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
     with open(path_to_silences_labels, 'w') as f:
         f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
+
     path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
-    with open(path_to_alignment) as alignments_f, open(path_to_alignment_labels, 'w') as labels_f:
-        alignments = json.load(alignments_f)
+    with open(path_to_alignment_labels, 'w') as labels_f:
         labels_f.writelines(
-            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(alignments)]) + '\n')
+            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(merged_alignment)]) + '\n')
+
+    path_to_original_alignment_labels = f'/tmp/{source_name}_original_alignments_labels.txt'
+    with open(path_to_original_alignment_labels, 'w') as labels_f:
+        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(original_alignment)]) + '\n')
 
 
 audio_player = None

@@ -1,7 +1,6 @@
 import json
 import os
 import re
-import subprocess
 from _sha1 import sha1
 from copy import deepcopy
 from zipfile import ZipFile
@@ -14,7 +13,7 @@ from nltk.tokenize import sent_tokenize
 
 from audiocorpfr.exceptions import WrongCutException
 
-EPS = 5e-4
+EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
 NORMALIZATIONS = [
     ['M.\u00a0', 'Monsieur '],
@@ -262,6 +261,13 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
 
             if len(overlaps) == 1:
                 silence_start, silence_end = overlaps[0]
+                fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
+                alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
+                done = True
+                break
+            elif len(overlaps) == 2:
+                # take the second
+                silence_start, silence_end = overlaps[1]
                 fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 done = True
