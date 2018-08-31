@@ -21,6 +21,7 @@ pytest-cov = "*"
 pytest-mock = "*"
 
 [dev-packages]
+ipython = "*"
 
 [requires]
 python_version = "3.6"
