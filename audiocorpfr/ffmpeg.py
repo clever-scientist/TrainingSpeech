@@ -1,9 +1,10 @@
+import json
 import os
 import re
 import subprocess
 from typing import List, Tuple, Iterator
 
-from audiocorpfr import sox
+from audiocorpfr import sox, utils
 
 
 def convert(from_: str, to: str, rate: int=None, channels: int=None, loglevel='quiet'):
@@ -50,7 +51,14 @@ def audio_duration(input_path: str) -> float:
     return float(duration)
 
 
-def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.05) -> List[Tuple[float, float]]:
+def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.05, force=False) -> List[Tuple[float, float]]:
+    with open(input_path, 'rb') as f:
+        audio_hash = utils.hash_file(f)
+    cached_path = f'/tmp/{audio_hash}_{noise_level}_{min_duration}.json'
+    if not force and os.path.isfile(cached_path):
+        with open(cached_path) as f:
+            return json.load(f)
+
     p = subprocess.Popen(
         f'ffmpeg -i {input_path} -af silencedetect=noise={noise_level}dB:d={min_duration} -f null -'.split(' '),
         stderr=subprocess.PIPE,
@@ -97,6 +105,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
         if current_group:
             yield current_group
 
-    result = [(round(s, 3), round(e, 3)) for s, e in merge_overlaps(parse_lines(p.stderr.readlines()))]
-    # result = [(round(s, 3), round(e, 3)) for s, e in parse_lines(p.stderr.readlines())]
+    result = [[round(s, 3), round(e, 3)] for s, e in merge_overlaps(parse_lines(p.stderr.readlines()))]
+    with open(cached_path, 'w') as f:
+        json.dump(result, f)
     return result

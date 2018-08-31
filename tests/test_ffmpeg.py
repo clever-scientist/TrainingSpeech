@@ -41,14 +41,14 @@ def test_cut(kwargs, expected_call, mocker):
 
 
 @pytest.mark.parametrize('input_file, noise_level, min_duration, expected_silences', [
-    ('test.wav', -50, 0.05, [(0, 0.178), (1.024, 1.458), (2.048, 2.61), (3.072, 4.864)]),
-    ('silence.wav', -50, 0.05, [(0.0, 1.108)]),
-    ('silence2.wav', -50, 0.05, [(0.462, 0.896), (0.974, 2.0)]),
-    ('silence3.wav', -45, 0.07, [(0.0, 0.454), (1.21, 1.467)]),
+    ('test.wav', -50, 0.05, [[0, 0.178], [1.024, 1.458], [2.048, 2.61], [3.072, 4.864]]),
+    ('silence.wav', -50, 0.05, [[0.0, 1.108]]),
+    ('silence2.wav', -50, 0.05, [[0.462, 0.896], [0.974, 2.0]]),
+    ('silence3.wav', -45, 0.07, [[0.0, 0.454], [1.21, 1.467]]),
 ])
 def test_list_silences(input_file, noise_level, min_duration, expected_silences):
     path_to_wav = os.path.join(CURRENT_DIR, f'./assets/{input_file}')
-    silences = ffmpeg.list_silences(path_to_wav, noise_level=noise_level, min_duration=min_duration)
+    silences = ffmpeg.list_silences(path_to_wav, noise_level=noise_level, min_duration=min_duration, force=True)
     with open('/tmp/labels.txt', 'w') as f:
         f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
     assert expected_silences == silences

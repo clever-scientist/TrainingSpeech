@@ -9,8 +9,7 @@ import click
 from tabulate import tabulate
 
 import audiocorpfr
-from audiocorpfr import utils, ffmpeg, sox
-from audiocorpfr.exceptions import GoBackException, QuitException, MergeException, RebuildRequiredException
+from audiocorpfr import utils, ffmpeg, sox, exceptions
 
 CURRENT_DIR = os.path.dirname(__file__)
 DEFAULT_SILENCE_MIN_DURATION = 0.07
@@ -38,32 +37,23 @@ def build_transcript(source_name):
 
 
 def build_alignment(source_name):
-    from aeneas.executetask import ExecuteTask
-    from aeneas.task import Task
     source = utils.get_source(source_name)
     mp3 = os.path.join(CURRENT_DIR, 'data/mp3/', source['audio'])
 
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
-    path_to_alignment_tmp = os.path.join(CURRENT_DIR, f'/tmp/{source_name}.json')
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
 
-    # build alignment
-    task = Task('task_language=fra|os_task_file_format=json|is_text_type=plain')
-    task.audio_file_path_absolute = mp3
-    task.text_file_path_absolute = os.path.abspath(path_to_transcript)
-    task.sync_map_file_path_absolute = path_to_alignment_tmp
-    executor = ExecuteTask(task=task)
-    executor.execute()
-    task.output_sync_map_file()
-
-    with open(path_to_alignment_tmp) as source:
-        original_alignment = [utils.cleanup_fragment(f) for f in json.load(source)['fragments']]
+    with open(path_to_transcript) as f:
+        transcript = [l.strip() for l in f.readlines()]
+    transcript = [l for l in transcript if l]
 
     silences = ffmpeg.list_silences(
         input_path=mp3,
         min_duration=DEFAULT_SILENCE_MIN_DURATION,
         noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
     )
+
+    original_alignment = utils.get_alignment(path_to_audio_file=mp3, transcript=transcript)
 
     alignment = utils.fix_alignment(original_alignment, silences)
 
@@ -85,6 +75,7 @@ def build_alignment(source_name):
             sort_keys=True,
             indent=2,
         )
+
     with open(path_to_transcript, 'w') as f:
         f.writelines('\n'.join(f['text'] for f in alignment) + '\n')
 
@@ -107,15 +98,18 @@ audio_player = None
 
 
 def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
-    path_to_fragment_audio = os.path.join(output_dir, f'{fragment["id"]}.wav')
-    ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
+    if not os.path.isdir(output_dir):
+        os.mkdir(output_dir)
+
+    fragment_hash = utils.get_fragment_hash(fragment)
+    path_to_fragment_audio = os.path.join(output_dir, f'{fragment_hash}.wav')
+    if not os.path.isfile(path_to_fragment_audio):
+        ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
 
 
 def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str):
     # generate fragments
     with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
-        if not os.path.isdir(output_dir):
-            os.mkdir(output_dir)
 
         def _cut(f: dict):
             cut_fragment_audio(f, input_file, output_dir)
@@ -127,28 +121,26 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 
 @cli.command()
 @click.argument('source_name')
-@click.option('--restart', default=False, help='ignore already checked fragments')
-@click.option('-r', '--rebuild', is_flag=True, default=False, help='recompute speeches boundaries from transcript while preserving already approved speeches')  # noqa
-def check_alignment(source_name, restart, rebuild):
+@click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
+def check_alignment(source_name, restart):
     import inquirer
     source = utils.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
 
-    if not os.path.isfile(path_to_alignment) or rebuild:
-        build_alignment(source_name)
+    build_alignment(source_name)
 
     with open(path_to_alignment, 'r') as f:
         fragments = json.load(f)
 
     # generate wav
     with open(path_to_mp3, 'rb') as f:
-        f_hash = utils.sha1_file(f)
-    path_to_wav = f'/tmp/{f_hash}.wav'
+        file_hash = utils.hash_file(f)
+    path_to_wav = f'/tmp/{file_hash}.wav'
     # create wav from mp3 if do not exists yet
     if not os.path.exists(path_to_wav):
-        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{f_hash}.wav', rate=16000, channels=1)
+        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=16000, channels=1)
 
     # delete existing fragments if any
     path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
@@ -178,7 +170,9 @@ def check_alignment(source_name, restart, rebuild):
         def ask_right_text():
             new_text = click.edit(text=fragment['text'], require_save=False)
             new_text = new_text or fragment['text']
-            return new_text.strip()
+            new_text = new_text.strip()
+            new_text = '\n'.join(l.strip() for l in new_text.split('\n') if l.strip())
+            return new_text
 
         def ask_what_next():
             try:
@@ -198,7 +192,7 @@ def check_alignment(source_name, restart, rebuild):
                     ),
                 ])['next']
             except TypeError:
-                raise QuitException
+                raise exceptions.QuitException
             except Exception:
                 next_ = 'continue'
 
@@ -214,12 +208,12 @@ def check_alignment(source_name, restart, rebuild):
             elif next_ == 'go_back':
                 prev_fragment.pop('disabled', None)
                 prev_fragment.pop('approved', None)
-                raise GoBackException
+                raise exceptions.GoBackException
             elif next_ == 'wrong_text':
                 new_text = ask_right_text()
                 fragment['text'] = new_text
                 if len(new_text.split('\n')) > 1:
-                    raise RebuildRequiredException(len(new_text.split('\n')))
+                    raise exceptions.SplitException
             elif next_ == 'wrong_end__cut_on_previous_silence':
                 current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
                 if current_silence:
@@ -259,9 +253,9 @@ def check_alignment(source_name, restart, rebuild):
                 fragment['approved'] = True
                 fragment.pop('disabled', None)
             elif next_ == 'quit':
-                raise QuitException
+                raise exceptions.QuitException
             elif next_ == 'merge_previous':
-                raise MergeException
+                raise exceptions.MergeException
             else:
                 raise NotImplementedError
 
@@ -287,16 +281,18 @@ def check_alignment(source_name, restart, rebuild):
             i += 1
             continue
 
-        path_to_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
-        rebuild_required = False
+        fragment_hash = utils.get_fragment_hash(fragment)
+        path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
+
         try:
             _check_alignment(index=i, path_to_audio=path_to_audio, fragments=fragments)
-        except GoBackException:
+        except exceptions.GoBackException:
             i -= 1
             continue
-        except QuitException:
+        except exceptions.QuitException:
+            audio_player.kill()
             break
-        except MergeException:
+        except exceptions.MergeException:
             prev_fragment = fragments[i - 1]
             fragment['begin'] = prev_fragment['begin']
             fragment['text'] = f'{prev_fragment["text"]} {fragment["text"]}'
@@ -304,9 +300,24 @@ def check_alignment(source_name, restart, rebuild):
             cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
             fragments = fragments[:i-1] + fragments[i:]
             i -= 2
-        except RebuildRequiredException as e:
-            i -= e.n
-            rebuild_required = True
+        except exceptions.SplitException:
+            new_fragments = utils.get_alignment(
+                path_to_audio,
+                transcript=fragment['text'].split('\n'),
+            )
+            for nf in new_fragments:
+                nf["begin"] += fragment["begin"]
+                nf["end"] += fragment["begin"]
+            fragments = (
+                fragments[:i] +
+                new_fragments +
+                fragments[i+1:]
+            )
+            cut_fragments_audio(
+                fragments[i:],
+                input_file=path_to_wav,
+                output_dir=path_to_recordings
+            )
 
         # save progress
         with open(path_to_alignment, 'w') as dest:
@@ -319,14 +330,7 @@ def check_alignment(source_name, restart, rebuild):
         with open(path_to_transcript, 'w') as f:
             f.writelines('\n'.join(f['text'] for f in fragments) + '\n')
 
-        if rebuild_required:
-            print('rebuilding alignment, may take a few seconds...')
-            build_alignment(source_name)
-            with open(path_to_alignment, 'r') as f:
-                fragments = json.load(f)
-            cut_fragments_audio(fragments[i:], input_file=path_to_wav, output_dir=path_to_recordings)
-        else:
-            i += 1
+        i += 1
 
 
 MAPPINGS = [

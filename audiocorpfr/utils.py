@@ -10,6 +10,8 @@ from typing import Pattern, List, Tuple
 from marshmallow import Schema, fields, ValidationError
 from num2words import num2words
 from nltk.tokenize import sent_tokenize
+from aeneas.executetask import ExecuteTask
+from aeneas.task import Task
 
 from audiocorpfr.exceptions import WrongCutException
 
@@ -220,11 +222,12 @@ def cleanup_fragment(original: dict) -> dict:
     data.pop('children')
     data.pop('language')
     data.pop('duration', None)
+    data.pop('id', None)
     begin = max(float(data['begin']) - 0.1, 0)
     end = float(data['end']) - 0.1
     data.update(
-        begin=begin,
-        end=end,
+        begin=round(begin, 3),
+        end=round(end, 3),
         text=' '.join(lines),
     )
     return data
@@ -312,7 +315,7 @@ def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> Li
     return new_alignment
 
 
-def sha1_file(file_obj, blocksize=65536):
+def hash_file(file_obj, blocksize=65536):
     hasher = sha1()
     buf = file_obj.read(blocksize)
     while len(buf) > 0:
@@ -329,3 +332,35 @@ def is_float(x: str):
         return True
     except ValueError:
         return False
+
+
+def get_alignment(path_to_audio_file: str, transcript: List[str], force=False) -> List[dict]:
+    full_transcript = ' '.join(transcript)
+    full_transcript_hash = sha1(full_transcript.encode()).hexdigest()
+    path_to_transcript = os.path.join(CURRENT_DIR, f'/tmp/{full_transcript_hash}.txt')
+
+    with open(path_to_audio_file, 'rb') as f:
+        audio_file_hash = hash_file(f)
+
+    with open(path_to_transcript, 'w') as f:
+        f.writelines('\n'.join(transcript))
+
+    path_to_alignment_tmp = os.path.join(CURRENT_DIR, f'/tmp/{full_transcript_hash}_{audio_file_hash}.json')
+
+    if force or not os.path.isfile(path_to_alignment_tmp):
+        # build alignment
+        task = Task('task_language=fra|os_task_file_format=json|is_text_type=plain')
+        task.audio_file_path_absolute = os.path.abspath(path_to_audio_file)
+        task.text_file_path_absolute = path_to_transcript
+        task.sync_map_file_path_absolute = path_to_alignment_tmp
+        executor = ExecuteTask(task=task)
+        executor.execute()
+        task.output_sync_map_file()
+
+    with open(path_to_alignment_tmp) as source:
+        return [cleanup_fragment(f) for f in json.load(source)['fragments']]
+
+
+def get_fragment_hash(fragment: dict):
+    hash_ = sha1(fragment['text'].encode()).hexdigest()
+    return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'

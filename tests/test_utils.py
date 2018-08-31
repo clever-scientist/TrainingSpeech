@@ -1,5 +1,10 @@
+import os
+
 import pytest
 from audiocorpfr import utils
+
+
+CURRENT_DIR = os.path.dirname(__file__)
 
 
 @pytest.mark.parametrize('filename, expected', [
@@ -168,33 +173,33 @@ def test_fix_alignment(alignment, silences, fixed_alignment):
          dict(begin=0, end=1, text='a', approved=True, id=0),
          dict(begin=1, end=3, text='b c', approved=True, id=1),
          dict(begin=3, end=4, text='d', approved=True, id=2),
-    ], [
+     ], [
          dict(begin=0, end=1, text='a', id=0),
          dict(begin=1, end=2, text='b', id=1),
          dict(begin=2, end=3, text='c', id=2),
          dict(begin=3, end=4, text='d', id=3),
-    ], [
+     ], [
          dict(begin=0, end=1, text='a', id=0, approved=True),
          dict(begin=1, end=2, text='b', id=1),
          dict(begin=2, end=3, text='c', id=2),
          dict(begin=3, end=4, text='d', id=3, approved=True),
-    ]),
+     ]),
     # merge
     ([
          dict(begin=0, end=1, text='a', id=0, approved=True),
          dict(begin=1, end=2, text='b', id=1, approved=True),
          dict(begin=2, end=3, text='c', id=2, approved=True),
          dict(begin=3, end=4, text='d', id=3, approved=True),
-    ], [
+     ], [
          dict(begin=0, end=1, text='a', id=0),
          dict(begin=1, end=3, text='b c', id=1),
          dict(begin=3, end=4, text='d', id=2),
-    ], [
+     ], [
          dict(begin=0, end=1, text='a', id=0, approved=True),
          dict(begin=1, end=3, text='b c', id=1),
          dict(begin=3, end=4, text='d', id=2, approved=True),
-    ]),
-     # leave "forced" alignments untouched
+     ]),
+    # leave "forced" alignments untouched
     ([
          dict(begin=0, end=1, text='a', approved=True, end_forced=True, id=0),
          dict(begin=2, end=3, text='b', approved=True, begin_forced=True, end_forced=True, id=1),
@@ -211,3 +216,17 @@ def test_fix_alignment(alignment, silences, fixed_alignment):
 ])
 def test_merge_alignments(old, new_, merged):
     assert merged == utils.merge_alignments(old, new_)
+
+
+@pytest.mark.parametrize('filename', ['speech.mp3', 'speech.wav'])
+def test_get_alignment(filename):
+    path_to_mp3 = os.path.join(CURRENT_DIR, f'./assets/{filename}')
+    transcript = [
+        'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
+        'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
+    ]
+    assert utils.get_alignment(path_to_mp3, transcript, force=True) == [
+        dict(begin=0, end=6.22, text=transcript[0]),
+        dict(begin=6.22, end=9.22, text=transcript[1]),
+    ]
+
