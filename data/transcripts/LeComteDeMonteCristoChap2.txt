@@ -153,8 +153,7 @@ Ce qui veut dire, reprit Dantès avec un sourire qui dissimulait mal son inquié
 Eh ! eh ! fit Caderousse.
 Allons, allons, dit le jeune homme, j’ai meilleure opinion que vous des femmes en général, et de Mercédès en particulier, et, j’en suis convaincu, que je sois capitaine ou non, elle me restera fidèle.
 Tant mieux !
-tant mieux !
-dit Caderousse, c’est toujours, quand on va se marier, une bonne chose que d’avoir la foi, mais, n’importe.
+tant mieux ! dit Caderousse, c’est toujours, quand on va se marier, une bonne chose que d’avoir la foi, mais, n’importe.
 Crois-moi, garçon, ne perds pas de temps à aller lui annoncer ton arrivée et à lui faire part de tes espérances.
 J’y vais, dit Edmond.
 Il embrassa son père, salua Caderousse d’un signe et sortit.
@@ -178,11 +177,9 @@ Bah ! dit Danglars, il ne l’est pas encore.
 Ma foi, ce serait bien fait qu’il ne le fût pas, dit Caderousse, ou sans cela il n’y aura plus moyen de lui parler.
 Que si nous le voulons bien, dit Danglars, il restera ce qu’il est, et peut-être même deviendra moins qu’il n’est.
 Que dis-tu ?
-Rien, je me parle à moi-même.
-Et il est toujours amoureux de la belle Catalane ?
+Rien, je me parle à moi-même. Et il est toujours amoureux de la belle Catalane ?
 Amoureux fou.
-Il y est allé.
-Mais ou je me trompe fort, ou il aura du désagrément de ce côté-là.
+Il y est allé. Mais ou je me trompe fort, ou il aura du désagrément de ce côté-là.
 Explique-toi.
 À quoi bon ?
 C’est plus important que tu ne crois.
@@ -204,4 +201,5 @@ Nous serons sur la route, et nous verrons sur le visage de Dantès ce qui se ser
 Allons, dit Caderousse. Mais c’est toi qui paies ?
 Certainement, répondit Danglars.
 Et tous deux s’acheminèrent d’un pas rapide vers l’endroit indiqué. Arrivés là, ils se firent apporter une bouteille et deux verres.
-Le père Pamphile venait de voir passer Dantès il n’y avait pas dix minutes. Certains que Dantès était aux Catalans, ils s’assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d’oiseaux chantaient un des premiers beaux jours de printemps.
+Le père Pamphile venait de voir passer Dantès il n’y avait pas dix minutes.
+Certains que Dantès était aux Catalans, ils s’assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d’oiseaux chantaient un des premiers beaux jours de printemps.
