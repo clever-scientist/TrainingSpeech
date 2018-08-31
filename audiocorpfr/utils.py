@@ -14,6 +14,7 @@ from nltk.tokenize import sent_tokenize
 
 from audiocorpfr.exceptions import WrongCutException
 
+EPS = 5e-4
 CURRENT_DIR = os.path.dirname(__file__)
 NORMALIZATIONS = [
     ['M.\u00a0', 'Monsieur '],
@@ -246,7 +247,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
     for i, fragment in enumerate(alignment[:-1]):
         # check for exact silent
         done = False
-        possible_conflict = False
+
         for margin in [0, 0.1, 0.3, 0.6]:
             try:
                 overlaps = list(get_silences(fragment, margin=margin))
@@ -265,11 +266,8 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 done = True
                 break
-            elif len(overlaps) > 1:
-                alignment[i + 1]['fix_conflict'] = True
-                possible_conflict = True
-                break
-        if not done and not possible_conflict:
+
+        if not done:
             fragment['merged'] = True
             alignment[i + 1]['begin'] = fragment['begin']
             alignment[i + 1]['text'] = fragment['text'] + ' ' + alignment[i + 1]['text']
@@ -280,13 +278,15 @@ def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> Li
     o_i = n_i = 0
 
     def are_almost_equal(o, n):
-        if all(o.get(p) == n.get(p) for p in {'begin', 'end', 'text'}):
+        if o['text'] != n['text']:
+            return False
+        if all(abs(o[p] - n[p]) < EPS for p in {'begin', 'end'}):
             return True
-        elif o.get('end_forced') and all(o.get(p) == n.get(p) for p in {'begin', 'text'}):
+        elif o.get('end_forced') and abs(o['begin'] - n['begin']) < EPS:
             return True
-        elif o.get('begin_forced') and all(o.get(p) == n.get(p) for p in {'end', 'text'}):
+        elif o.get('begin_forced') and abs(o['end'] - n['end']) < EPS:
             return True
-        elif o.get('begin_forced') and o.get('end_forced') and o['text'] == n['text']:
+        elif o.get('begin_forced') and o.get('end_forced'):
             return True
         return False
 

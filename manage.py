@@ -3,13 +3,14 @@ import os
 import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta
+from typing import List
 
 import click
 from tabulate import tabulate
 
 import audiocorpfr
 from audiocorpfr import utils, ffmpeg, sox
-from audiocorpfr.exceptions import GoBackException, QuitException, MergeException
+from audiocorpfr.exceptions import GoBackException, QuitException, MergeException, RebuildRequiredException
 
 CURRENT_DIR = os.path.dirname(__file__)
 DEFAULT_SILENCE_MIN_DURATION = 0.07
@@ -98,6 +99,25 @@ def build_alignment(source_name):
 audio_player = None
 
 
+def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
+    path_to_fragment_audio = os.path.join(output_dir, f'{fragment["id"]}.wav')
+    ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
+
+
+def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str):
+    # generate fragments
+    with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
+        if not os.path.isdir(output_dir):
+            os.mkdir(output_dir)
+
+        def _cut(f: dict):
+            cut_fragment_audio(f, input_file, output_dir)
+            bar.update(1)
+
+        with ThreadPoolExecutor() as executor:
+            executor.map(_cut, fragments)
+
+
 @cli.command()
 @click.argument('source_name')
 @click.option('--restart', default=False, help='ignore already checked fragments')
@@ -126,22 +146,6 @@ def check_alignment(source_name, restart, rebuild):
     # delete existing fragments if any
     path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
 
-    def cut_fragment_audio(fragment: dict):
-        path_to_fragment_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
-        ffmpeg.cut(path_to_wav, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
-
-    # generate fragments
-    with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
-        if not os.path.isdir(path_to_recordings):
-            os.mkdir(path_to_recordings)
-
-        def _cut(f: dict):
-            cut_fragment_audio(f)
-            bar.update(1)
-
-        with ThreadPoolExecutor() as executor:
-            executor.map(_cut, fragments)
-
     silences = ffmpeg.list_silences(
         input_path=path_to_mp3,
         min_duration=DEFAULT_SILENCE_MIN_DURATION,
@@ -165,18 +169,9 @@ def check_alignment(source_name, restart, rebuild):
         todo.add(pool.submit(play_audio))
 
         def ask_right_text():
-            try:
-                right_text: str = inquirer.prompt([
-                    inquirer.Text(
-                        'text',
-                        message="\nWhat is the right text ?",
-                        default=str(fragment['text']),
-                        validate=lambda _, x: bool(x),
-                    ),
-                ])['text']
-            except TypeError:
-                return fragment['text']
-            return right_text
+            new_text = click.edit(text=fragment['text'], require_save=False)
+            new_text = new_text or fragment['text']
+            return new_text.strip()
 
         def ask_what_next():
             try:
@@ -186,8 +181,9 @@ def check_alignment(source_name, restart, rebuild):
                         message="\nWhat should I do ?",
                         choices=(
                                 ['continue', 'repeat'] +
-                                (['go_back'] if index > 0 else []) +
-                                ['wrong_end__cut_on_previous_silence'] +
+                                (['go_back'] if prev_fragment else []) +
+                                (['wrong_end__cut_on_previous_silence'] if prev_fragment else []) +
+                                (['wrong_end__cut_on_next_silence'] if next_fragment else []) +
                                 (['merge_previous'] if index > 0 else []) +
                                 ['wrong_text'] +
                                 (['enable'] if fragment.get('disabled') else ['disable']) +
@@ -213,7 +209,10 @@ def check_alignment(source_name, restart, rebuild):
                 prev_fragment.pop('approved', None)
                 raise GoBackException
             elif next_ == 'wrong_text':
-                fragment['text'] = ask_right_text()
+                new_text = ask_right_text()
+                fragment['text'] = new_text
+                if len(new_text.split('\n')) > 1:
+                    raise RebuildRequiredException(len(new_text.split('\n')))
             elif next_ == 'wrong_end__cut_on_previous_silence':
                 current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
                 if current_silence:
@@ -222,11 +221,26 @@ def check_alignment(source_name, restart, rebuild):
                     prev_silence_start, prev_silence_end = next((s for s in reversed(silences) if s[1] <= fragment['end']))
                 fragment['end'] = round(min(prev_silence_start + 0.5, prev_silence_end), 3)
                 fragment['end_forced'] = True
-                cut_fragment_audio(fragment)
+                cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
                 if next_fragment:
                     next_fragment['begin'] = round(max(prev_silence_end - 0.5, prev_silence_start), 3)
                     next_fragment['begin_forced'] = True
-                    cut_fragment_audio(next_fragment)
+                    cut_fragment_audio(next_fragment, input_file=path_to_wav, output_dir=path_to_recordings)
+                todo.add(pool.submit(play_audio))
+                todo.add(pool.submit(ask_what_next))
+            elif next_ == 'wrong_end__cut_on_next_silence':
+                current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
+                if current_silence:
+                    next_silence_start, next_silence_end = silences[silences.index(current_silence) + 1]
+                else:
+                    next_silence_start, next_silence_end = next((s for s in silences if s[0] >= fragment['end']))
+                fragment['end'] = round(min(next_silence_start + 0.5, next_silence_end), 3)
+                fragment['end_forced'] = True
+                cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
+                if next_fragment:
+                    next_fragment['begin'] = round(max(next_silence_end - 0.5, next_silence_start), 3)
+                    next_fragment['begin_forced'] = True
+                    cut_fragment_audio(next_fragment, input_file=path_to_wav, output_dir=path_to_recordings)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'continue':
@@ -253,6 +267,8 @@ def check_alignment(source_name, restart, rebuild):
 
         pool.shutdown(wait=True)
 
+    cut_fragments_audio(fragments, input_file=path_to_wav, output_dir=path_to_recordings)
+
     # iterate over successive fragments
     i = 0
     done = False
@@ -265,6 +281,7 @@ def check_alignment(source_name, restart, rebuild):
             continue
 
         path_to_audio = os.path.join(path_to_recordings, f'{fragment["id"]}.wav')
+        rebuild_required = False
         try:
             _check_alignment(index=i, path_to_audio=path_to_audio, fragments=fragments)
         except GoBackException:
@@ -277,9 +294,12 @@ def check_alignment(source_name, restart, rebuild):
             fragment['begin'] = prev_fragment['begin']
             fragment['text'] = f'{prev_fragment["text"]} {fragment["text"]}'
             fragment['duration'] = fragment['end'] - fragment['begin']
-            cut_fragment_audio(fragment)
+            cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
             fragments = fragments[:i-1] + fragments[i:]
             i -= 2
+        except RebuildRequiredException as e:
+            i -= e.n
+            rebuild_required = True
 
         # save progress
         with open(path_to_alignment, 'w') as dest:
@@ -291,7 +311,15 @@ def check_alignment(source_name, restart, rebuild):
             )
         with open(path_to_transcript, 'w') as f:
             f.writelines('\n'.join(f['text'] for f in fragments) + '\n')
-        i += 1
+
+        if rebuild_required:
+            print('rebuilding alignment, may take a few seconds...')
+            build_alignment(source_name)
+            with open(path_to_alignment, 'r') as f:
+                fragments = json.load(f)
+            cut_fragments_audio(fragments[i:], input_file=path_to_wav, output_dir=path_to_recordings)
+        else:
+            i += 1
 
 
 MAPPINGS = [
