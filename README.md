@@ -13,9 +13,9 @@
 ### 2. Generate and validate alignment on existing source
 
 1. pick a source that have NOT been validated yet: see `python manage.py stats` and `./sources.json` for more info
-2. download assets (ie epub and mp3 files): `manage.py download -s <SOURCE_NAME>`
-3. build initial transcript: `manage.py build_transcript <SOURCE_NAME>`
-4. check alignment: `manage.py check_alignment [OPTIONS] <SOURCE_NAME>`
+2. download assets (ie epub and mp3 files): `python manage.py download -s <SOURCE_NAME>`
+3. build initial transcript: `python manage.py build_transcript <SOURCE_NAME>`
+4. check alignment: `python manage.py check_alignment [OPTIONS] <SOURCE_NAME>` (require multiple iterations)
 5. send a pull request with generated transcript and alignment
 
 ## Dev setup 
