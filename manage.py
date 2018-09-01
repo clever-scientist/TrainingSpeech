@@ -7,6 +7,7 @@ from typing import List
 
 import click
 from tabulate import tabulate
+from termcolor import colored
 
 import audiocorpfr
 from audiocorpfr import utils, ffmpeg, sox, exceptions
@@ -82,16 +83,16 @@ def build_alignment(source_name):
     # Generate Audacity labels for DEBUG purpose
     path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
     with open(path_to_silences_labels, 'w') as f:
-        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1}' for i, (s, e) in enumerate(silences)]) + '\n')
+        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1:03d}' for i, (s, e) in enumerate(silences)]) + '\n')
 
     path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
     with open(path_to_alignment_labels, 'w') as labels_f:
         labels_f.writelines(
-            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(merged_alignment)]) + '\n')
+            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}' for i, f in enumerate(merged_alignment)]) + '\n')
 
     path_to_original_alignment_labels = f'/tmp/{source_name}_original_alignments_labels.txt'
     with open(path_to_original_alignment_labels, 'w') as labels_f:
-        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1}:{f["text"]}' for i, f in enumerate(original_alignment)]) + '\n')
+        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}' for i, f in enumerate(original_alignment)]) + '\n')
 
 
 audio_player = None
@@ -151,17 +152,32 @@ def check_alignment(source_name, restart):
         noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
     )
 
-    def _check_alignment(index: int, path_to_audio: str, fragments):
+    def _check_alignment(index: int, fragments):
         fragment = fragments[index]
-        print(f'\nplaying #{i + 1}: {fragment["text"]}')
-
         prev_fragment = fragments[index - 1] if i > 0 else None
         next_fragment = None if index == len(fragments) - 1 else fragments[index + 1]
+
+        print(colored(
+            f'\nplaying #{i + 1:03d}: @@ {timedelta(seconds=fragment["begin"])}  {timedelta(seconds=fragment["end"])} @@',
+            'yellow',
+            attrs=['bold']
+        ))
+        if prev_fragment:
+            print('   ' + colored(prev_fragment['text'], 'grey'))
+        print('-> ' + colored(fragment['text'], 'green', attrs=['bold']))
+        if next_fragment:
+            print('   ' + colored(next_fragment['text'], 'grey'))
+
         todo = set()
         pool = ThreadPoolExecutor()
 
         def play_audio():
+            fragment_hash = utils.get_fragment_hash(fragment)
+            path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
+            if not os.path.isfile(path_to_audio):
+                cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
             global audio_player
+
             with sox.play(path_to_audio, speed=1.3) as player:
                 audio_player = player
 
@@ -285,7 +301,7 @@ def check_alignment(source_name, restart):
         path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
 
         try:
-            _check_alignment(index=i, path_to_audio=path_to_audio, fragments=fragments)
+            _check_alignment(index=i, fragments=fragments)
         except exceptions.GoBackException:
             i -= 1
             continue
