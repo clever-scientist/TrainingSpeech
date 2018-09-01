@@ -34,7 +34,9 @@ def build_transcript(source_name):
 
     with open(path_to_transcript, 'w') as f:
         f.writelines(utils.read_epub(path_to_epub, path_to_xhtmls=source.get('ebook_parts', ['part1.xhtml'])))
-    click.echo(f'transcript has been saved into {path_to_transcript}')
+
+    subprocess.call(f'git add {path_to_transcript}'.split(' '))
+    click.echo(f'transcript {path_to_transcript} added to git')
 
 
 def build_alignment(source_name):
@@ -153,6 +155,7 @@ def check_alignment(source_name, restart):
     )
 
     def _check_alignment(index: int, fragments):
+        click.clear()
         fragment = fragments[index]
         prev_fragment = fragments[index - 1] if i > 0 else None
         next_fragment = None if index == len(fragments) - 1 else fragments[index + 1]
@@ -307,7 +310,7 @@ def check_alignment(source_name, restart):
             continue
         except exceptions.QuitException:
             audio_player.kill()
-            break
+            exit(1)
         except exceptions.MergeException:
             prev_fragment = fragments[i - 1]
             fragment['begin'] = prev_fragment['begin']
@@ -347,6 +350,17 @@ def check_alignment(source_name, restart):
             f.writelines('\n'.join(f['text'] for f in fragments) + '\n')
 
         i += 1
+    click.confirm(
+        text=colored(
+            text=f'Done with {source_name}. Add changes to git ?',
+            color='yellow',
+            attrs=['bold'],
+        ),
+        default=True,
+        abort=True
+    )
+    subprocess.call(f'git add {path_to_alignment} {path_to_transcript}'.split(' '))
+
 
 
 MAPPINGS = [
