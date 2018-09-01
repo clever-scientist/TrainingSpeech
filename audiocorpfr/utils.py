@@ -1,8 +1,11 @@
 import json
 import os
 import re
+import tempfile
 from _sha1 import sha1
+from collections import defaultdict
 from copy import deepcopy
+from itertools import groupby
 from zipfile import ZipFile
 import roman
 from bs4 import BeautifulSoup
@@ -12,7 +15,9 @@ from num2words import num2words
 from nltk.tokenize import sent_tokenize
 from aeneas.executetask import ExecuteTask
 from aeneas.task import Task
+from datadiff import diff
 
+from audiocorpfr import sox
 from audiocorpfr.exceptions import WrongCutException
 
 EPS = 1e-3
@@ -246,16 +251,23 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
             if silence_start - margin > fragment['end']:
                 break
 
+    def merge_fragments(left, right):
+        left['merged'] = True  # may have been `right`
+        left['end'] = right['end']
+        right['begin'] = left['begin']
+        full_text = left['text'] + ' ' + right['text']
+        right['text'] = left['text'] = full_text
+
     for i, fragment in enumerate(alignment[:-1]):
         for margin in [0, 0.1, 0.3, 0.6]:
             try:
                 overlaps = list(get_silences(fragment, margin=margin))
             except WrongCutException:
-                if i != 0:
-                    alignment[i - 1]['merged'] = True
-                    fragment['begin'] = alignment[i - 1]['begin']
-                    fragment['end'] = alignment[i - 1]['end']
-                    fragment['text'] = alignment[i - 1]['text'] + ' ' + fragment['text']
+                if i == 0:
+                    # merge with next
+                    merge_fragments(fragment, alignment[i+1])
+                else:
+                    merge_fragments(alignment[i - 1], fragment)
                 break
 
             if len(overlaps) == 1:
@@ -270,66 +282,30 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 break
 
+        if fragment['begin'] >= fragment['end']:
+            # impossible => merge with closest
+            closest = get_closest_fragment(fragment, alignment[i-1:i] + alignment[i+1:i+2])
+            closest_index = alignment.index(closest)
+            if closest_index < i:
+                merge_fragments(closest, fragment)
+            else:
+                merge_fragments(fragment, closest)
+
     return [f for f in alignment if not f.get('merged')]
 
 
-def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> List[dict]:
-    o_i = n_i = 0
-
-    def are_almost_equal(o, n):
-        if o['text'] != n['text']:
-            return False
-        if all(abs(o[p] - n[p]) < EPS for p in {'begin', 'end'}):
-            return True
-        elif o.get('end_forced') and abs(o['begin'] - n['begin']) < EPS:
-            return True
-        elif o.get('begin_forced') and abs(o['end'] - n['end']) < EPS:
-            return True
-        elif o.get('begin_forced') and o.get('end_forced'):
-            return True
-        return False
-
-    pos = 0
-    merged_alignment = []
-    while o_i < len(old_alignment) or n_i < len(new_alignment):
-        o = n = None
-        if o_i < len(old_alignment):
-            o = old_alignment[o_i]
-        if n_i < len(new_alignment):
-            n = new_alignment[n_i]
-
-        if not o:
-            merged_alignment.append(n)
-            n_i += 1
-            continue
-        if not n:
-            merged_alignment.append(o)
-            o_i += 1
-            continue
-
-        if (o['text'] == n['text'] and o.get('approved')) or are_almost_equal(o, n):
-            merged_alignment.append(o)
-            o_i += 1
-            n_i += 1
-            pos = o['end']
-            continue
-
-        merged_alignment.append(n)
-        pos = o['end']
-        n_i += 1
-        while o_i < len(old_alignment) and old_alignment[o_i]['end'] <= n['end']:
-            o_i += 1
-
-    return merged_alignment
+def get_closest_fragment(target, others):
+    target_center = target['end'] - target['begin']
+    return sorted(others, key=lambda x: min(abs(x['begin'] - target_center), abs(x['end'] - target_center)))[0]
 
 
 def hash_file(file_obj, blocksize=65536):
-    hasher = sha1()
+    hash_ = sha1()
     buf = file_obj.read(blocksize)
     while len(buf) > 0:
-        hasher.update(buf)
+        hash_.update(buf)
         buf = file_obj.read(blocksize)
-    return hasher.hexdigest()
+    return hash_.hexdigest()
 
 
 def is_float(x: str):
@@ -372,3 +348,120 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False) -
 def get_fragment_hash(fragment: dict):
     hash_ = sha1(fragment['text'].encode()).hexdigest()
     return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'
+
+
+def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False):
+
+    if any(f.get('approved') or f.get('disabled') for f in existing_alignment):
+        # remove approved but deprecated alignments
+        transcript_diff = diff([f['text'] for f in existing_alignment], transcript)
+        t_i = f_i = 0
+        last_deleted_fragment_index = None
+        alignment_transcript_mapping = defaultdict(list)
+        for change, items in transcript_diff.diffs:
+            if change == 'context':
+                f_i = items[0]
+                t_i = items[2]
+                continue
+            elif change == 'equal':
+                for item in items:
+                    alignment_transcript_mapping[f_i].append(t_i)
+                    t_i += 1
+                    f_i += 1
+                continue
+            elif change == 'delete':
+                for item in items:
+                    if existing_alignment[f_i]['text'] != item:
+                        f_i += 1
+                    assert existing_alignment[f_i]['text'] == item
+                    existing_alignment[f_i].pop('approved', None)
+                    existing_alignment[f_i].pop('disabled', None)
+                    last_deleted_fragment_index = f_i
+                    if f_i not in alignment_transcript_mapping:
+                        alignment_transcript_mapping[f_i] = []
+                    f_i += 1
+                continue
+            elif change == 'insert':
+                for item in items:
+                    if transcript[t_i] != item:
+                        t_i += 1
+                    assert transcript[t_i] == item
+                    alignment_transcript_mapping[last_deleted_fragment_index].append(t_i)
+                    t_i += 1
+                continue
+            elif change == 'context_end_container':
+                continue
+            raise NotImplementedError
+
+        alignment = []
+        current_index = 0
+        for approved, group in groupby(existing_alignment, key=lambda f: f.get('approved') or f.get('disabled')):
+            group = list(group)
+            if approved:
+                current_index += len(group)
+                alignment += group
+                continue
+
+            group_start = group[0]['begin']
+            group_end = group[-1]['end']
+
+            with tempfile.NamedTemporaryFile(suffix='.wav') as file_:
+                sox.trim(path_to_audio, file_.name, from_=group_start, to=group_end)
+                sub_alignment_transcript = []
+                for fragment in group:
+                    if current_index in alignment_transcript_mapping:
+                        sub_alignment_transcript += [
+                            transcript[i]
+                            for i in alignment_transcript_mapping[current_index]
+                        ]
+                    else:
+                        sub_alignment_transcript += [fragment['text']]
+                    current_index += 1
+                sub_alignment = build_alignment(
+                    transcript=sub_alignment_transcript,
+                    path_to_audio=file_.name,
+                    existing_alignment=[],
+                    silences=[
+                        [max(s - group_start, 0), e - group_start]
+                        for s, e in silences
+                        if e > group_start and s < group_end
+                    ],
+                    generate_labels=False,
+                )
+            for fragment in sub_alignment:
+                fragment['begin'] = round(fragment['begin'] + group_start, 3)
+                fragment['end'] = round(fragment['end'] + group_start, 3)
+            alignment += sub_alignment
+    else:
+        existing_alignment = get_alignment(path_to_audio_file=path_to_audio, transcript=transcript)
+
+        alignment = fix_alignment(existing_alignment, silences)
+
+        if any(f['end'] - f['begin'] <= 0 for f in alignment):
+            lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] <= 0])
+            raise Exception(f'lines {lines} led to empty or negative alignment')
+
+    if generate_labels:
+        # Generate Audacity labels for DEBUG purpose
+        path_to_silences_labels = f'/tmp/silences_labels.txt'
+        with open(path_to_silences_labels, 'w') as fragment:
+            fragment.writelines('\n'.join([
+                f'{s}\t{e}\tsilence{i+1:03d}'
+                for i, (s, e) in enumerate(silences)
+            ]) + '\n')
+
+        path_to_alignment_labels = f'/tmp/alignments_labels.txt'
+        with open(path_to_alignment_labels, 'w') as labels_f:
+            labels_f.writelines('\n'.join([
+                f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'
+                for i, f in enumerate(alignment)
+            ]) + '\n')
+
+        path_to_original_alignment_labels = f'/tmp/original_alignments_labels.txt'
+        with open(path_to_original_alignment_labels, 'w') as labels_f:
+            labels_f.writelines('\n'.join([
+                f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'
+                for i, f in enumerate(existing_alignment)
+            ]) + '\n')
+
+    return alignment

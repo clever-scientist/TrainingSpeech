@@ -39,64 +39,6 @@ def build_transcript(source_name):
     click.echo(f'transcript {path_to_transcript} added to git')
 
 
-def build_alignment(source_name):
-    source = utils.get_source(source_name)
-    mp3 = os.path.join(CURRENT_DIR, 'data/mp3/', source['audio'])
-
-    path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
-    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
-
-    with open(path_to_transcript) as f:
-        transcript = [l.strip() for l in f.readlines()]
-    transcript = [l for l in transcript if l]
-
-    silences = ffmpeg.list_silences(
-        input_path=mp3,
-        min_duration=DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
-    )
-
-    original_alignment = utils.get_alignment(path_to_audio_file=mp3, transcript=transcript)
-
-    alignment = utils.fix_alignment(original_alignment, silences)
-
-    if any(f['end'] - f['begin'] == 0 for f in alignment):
-        lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] == 0])
-        raise Exception(f'lines {lines} led to empty alignment')
-
-    if os.path.exists(path_to_alignment):
-        with open(path_to_alignment) as curr_f:
-            current_alignment = json.load(curr_f)
-    else:
-        current_alignment = []
-
-    merged_alignment = utils.merge_alignments(current_alignment, alignment)
-    with open(path_to_alignment, 'w') as dest:
-        json.dump(
-            obj=merged_alignment,
-            fp=dest,
-            sort_keys=True,
-            indent=2,
-        )
-
-    with open(path_to_transcript, 'w') as f:
-        f.writelines('\n'.join(f['text'] for f in alignment) + '\n')
-
-    # Generate Audacity labels for DEBUG purpose
-    path_to_silences_labels = f'/tmp/{source_name}_silences_labels.txt'
-    with open(path_to_silences_labels, 'w') as f:
-        f.writelines('\n'.join([f'{s}\t{e}\tsilence{i+1:03d}' for i, (s, e) in enumerate(silences)]) + '\n')
-
-    path_to_alignment_labels = f'/tmp/{source_name}_alignments_labels.txt'
-    with open(path_to_alignment_labels, 'w') as labels_f:
-        labels_f.writelines(
-            '\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}' for i, f in enumerate(merged_alignment)]) + '\n')
-
-    path_to_original_alignment_labels = f'/tmp/{source_name}_original_alignments_labels.txt'
-    with open(path_to_original_alignment_labels, 'w') as labels_f:
-        labels_f.writelines('\n'.join([f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}' for i, f in enumerate(original_alignment)]) + '\n')
-
-
 audio_player = None
 
 
@@ -113,7 +55,6 @@ def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
 def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str):
     # generate fragments
     with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
-
         def _cut(f: dict):
             cut_fragment_audio(f, input_file, output_dir)
             bar.update(1)
@@ -132,33 +73,47 @@ def check_alignment(source_name, restart):
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
 
-    build_alignment(source_name)
-
-    with open(path_to_alignment, 'r') as f:
-        fragments = json.load(f)
-
-    # generate wav
+    # generate wav if do not exists yet
     with open(path_to_mp3, 'rb') as f:
         file_hash = utils.hash_file(f)
     path_to_wav = f'/tmp/{file_hash}.wav'
-    # create wav from mp3 if do not exists yet
     if not os.path.exists(path_to_wav):
         ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=16000, channels=1)
 
-    # delete existing fragments if any
-    path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
+    # retrieve transcript
+    with open(path_to_transcript) as f:
+        transcript = [l.strip() for l in f.readlines()]
+    transcript = [l for l in transcript if l]  # rm empty lines
 
+    # detect silences
     silences = ffmpeg.list_silences(
-        input_path=path_to_mp3,
+        input_path=path_to_wav,
         min_duration=DEFAULT_SILENCE_MIN_DURATION,
         noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
     )
 
-    def _check_alignment(index: int, fragments):
+    if not restart and os.path.isfile(path_to_alignment):
+        with open(path_to_alignment) as f:
+            existing_alignment = json.load(f)
+    else:
+        existing_alignment = []
+
+    alignment = utils.build_alignment(
+        transcript=transcript,
+        path_to_audio=path_to_wav,
+        existing_alignment=existing_alignment,
+        silences=silences,
+        generate_labels=True,
+    )
+
+    # delete existing fragments if any
+    path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
+
+    def _check_alignment(index: int, alignment):
         click.clear()
-        fragment = fragments[index]
-        prev_fragment = fragments[index - 1] if i > 0 else None
-        next_fragment = None if index == len(fragments) - 1 else fragments[index + 1]
+        fragment = alignment[index]
+        prev_fragment = alignment[index - 1] if i > 0 else None
+        next_fragment = None if index == len(alignment) - 1 else alignment[index + 1]
 
         print(colored(
             f'\nplaying #{i + 1:03d}: @@ {timedelta(seconds=fragment["begin"])}  {timedelta(seconds=fragment["end"])} @@',
@@ -182,6 +137,16 @@ def check_alignment(source_name, restart):
             global audio_player
 
             with sox.play(path_to_audio, speed=1.3) as player:
+                audio_player = player
+
+        def play_audio_slow():
+            fragment_hash = utils.get_fragment_hash(fragment)
+            path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
+            if not os.path.isfile(path_to_audio):
+                cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
+            global audio_player
+
+            with sox.play(path_to_audio, speed=1.) as player:
                 audio_player = player
 
         todo.add(pool.submit(play_audio))
@@ -222,7 +187,7 @@ def check_alignment(source_name, restart):
                 pass
 
             if next_ == 'repeat':
-                todo.add(pool.submit(play_audio))
+                todo.add(pool.submit(play_audio_slow))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'go_back':
                 prev_fragment.pop('disabled', None)
@@ -233,6 +198,19 @@ def check_alignment(source_name, restart):
                 fragment['text'] = new_text
                 if len(new_text.split('\n')) > 1:
                     raise exceptions.SplitException
+                else:
+                    print(colored(
+                        f'playing #{i + 1:03d}: @@ {timedelta(seconds=fragment["begin"])} {timedelta(seconds=fragment["end"])} @@',
+                        'yellow',
+                        attrs=['bold']
+                    ))
+                    if prev_fragment:
+                        print('   ' + colored(prev_fragment['text'], 'grey'))
+                    print('-> ' + colored(fragment['text'], 'green', attrs=['bold']))
+                    if next_fragment:
+                        print('   ' + colored(next_fragment['text'], 'grey'))
+                    todo.add(pool.submit(play_audio))
+                    todo.add(pool.submit(ask_what_next))
             elif next_ == 'wrong_end__cut_on_previous_silence':
                 current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
                 if current_silence:
@@ -287,13 +265,13 @@ def check_alignment(source_name, restart):
 
         pool.shutdown(wait=True)
 
-    cut_fragments_audio(fragments, input_file=path_to_wav, output_dir=path_to_recordings)
+    cut_fragments_audio(alignment, input_file=path_to_wav, output_dir=path_to_recordings)
 
     # iterate over successive fragments
     i = 0
     done = False
-    while i < len(fragments) and not done:
-        fragment = fragments[i]
+    while i < len(alignment) and not done:
+        fragment = alignment[i]
 
         if not restart and (fragment.get('approved') or fragment.get('disabled')):
             click.echo(f'skip fragment#{i} {fragment["text"]}')
@@ -304,7 +282,7 @@ def check_alignment(source_name, restart):
         path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
 
         try:
-            _check_alignment(index=i, fragments=fragments)
+            _check_alignment(index=i, alignment=alignment)
         except exceptions.GoBackException:
             i -= 1
             continue
@@ -312,42 +290,43 @@ def check_alignment(source_name, restart):
             audio_player.kill()
             exit(1)
         except exceptions.MergeException:
-            prev_fragment = fragments[i - 1]
+            prev_fragment = alignment[i - 1]
             fragment['begin'] = prev_fragment['begin']
             fragment['text'] = f'{prev_fragment["text"]} {fragment["text"]}'
             fragment['duration'] = fragment['end'] - fragment['begin']
             cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
-            fragments = fragments[:i-1] + fragments[i:]
+            alignment = alignment[:i-1] + alignment[i:]
             i -= 2
         except exceptions.SplitException:
-            new_fragments = utils.get_alignment(
+            new_alignment = utils.get_alignment(
                 path_to_audio,
                 transcript=fragment['text'].split('\n'),
             )
-            for nf in new_fragments:
+            for nf in new_alignment:
                 nf["begin"] += fragment["begin"]
                 nf["end"] += fragment["begin"]
-            fragments = (
-                fragments[:i] +
-                new_fragments +
-                fragments[i+1:]
+            alignment = (
+                alignment[:i] +
+                new_alignment +
+                alignment[i+1:]
             )
             cut_fragments_audio(
-                fragments[i:],
+                alignment[i:],
                 input_file=path_to_wav,
                 output_dir=path_to_recordings
             )
+            i -= len(new_alignment) + 1
 
         # save progress
         with open(path_to_alignment, 'w') as dest:
             json.dump(
-                obj=fragments,
+                obj=alignment,
                 fp=dest,
                 sort_keys=True,
                 indent=2,
             )
         with open(path_to_transcript, 'w') as f:
-            f.writelines('\n'.join(f['text'] for f in fragments) + '\n')
+            f.writelines('\n'.join(f['text'] for f in alignment) + '\n')
 
         i += 1
     click.confirm(
@@ -422,7 +401,7 @@ def stats():
         headers=['Source', 'Status', 'Progress', 'Approved Duration', 'Approved Count'],
         tablefmt='pipe',
     ))
-    print(f'\nTotal: {total_dur} with {total_count} fragments')
+    print(f'\nTotal: {total_dur} with {total_count} speeches')
 
 
 if __name__ == '__main__':

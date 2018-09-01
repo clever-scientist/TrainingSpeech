@@ -54,6 +54,13 @@ def audio_duration(input_path: str) -> float:
 def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.05, force=False) -> List[Tuple[float, float]]:
     with open(input_path, 'rb') as f:
         audio_hash = utils.hash_file(f)
+
+    from audiocorpfr.utils import file_extension
+    if file_extension(input_path) == '.mp3':
+        path_to_wav = f'/tmp/{audio_hash}.wav'
+        convert(input_path, path_to_wav)
+        input_path = path_to_wav
+
     cached_path = f'/tmp/{audio_hash}_{noise_level}_{min_duration}.json'
     if not force and os.path.isfile(cached_path):
         with open(cached_path) as f:
@@ -87,20 +94,20 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
 
     def merge_overlaps(silences: Iterator[Tuple[float, float]]) -> Iterator[Tuple[float, float]]:
         current_group = None
-        for item in silences:
+        for silence in silences:
             if current_group is None:
-                current_group = item
+                current_group = silence
                 continue
-            cg_s, cg_e = current_group
-            i_s, i_e = item
-            assert cg_s < cg_e
-            assert i_s < i_e
-            assert i_s >= cg_s, f'{i_s} not gte {cg_s}'
-            if i_s - cg_e <= 0.05:
-                current_group = cg_s, max(cg_e, i_e)
+            current_group_start, current_group_end = current_group
+            silence_start, silence_end = silence
+            assert current_group_start < current_group_end
+            assert silence_start < silence_end
+            assert silence_start >= current_group_start, f'{silence_start} not gte {current_group_start}'
+            if silence_start - current_group_end <= 0.05:
+                current_group = current_group_start, max(current_group_end, silence_end)
                 continue
             yield current_group
-            current_group = item
+            current_group = silence
 
         if current_group:
             yield current_group
