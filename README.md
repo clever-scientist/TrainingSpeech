@@ -15,7 +15,7 @@
 1. pick a source that have NOT been validated yet: see `python manage.py stats` and `./sources.json` for more info
 2. download assets (ie epub and mp3 files): `python manage.py download -s <SOURCE_NAME>`
 3. build initial transcript: `python manage.py build_transcript <SOURCE_NAME>`
-4. check alignment: `python manage.py check_alignment [OPTIONS] <SOURCE_NAME>` (require multiple iterations)
+4. check alignment: `python manage.py check_alignment <SOURCE_NAME>` (may require multiple iterations)
 5. send a pull request with generated transcript and alignment
 
 ## Dev setup 

@@ -247,9 +247,6 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 break
 
     for i, fragment in enumerate(alignment[:-1]):
-        # check for exact silent
-        done = False
-
         for margin in [0, 0.1, 0.3, 0.6]:
             try:
                 overlaps = list(get_silences(fragment, margin=margin))
@@ -259,27 +256,20 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                     fragment['begin'] = alignment[i - 1]['begin']
                     fragment['end'] = alignment[i - 1]['end']
                     fragment['text'] = alignment[i - 1]['text'] + ' ' + fragment['text']
-                    done = True
                 break
 
             if len(overlaps) == 1:
                 silence_start, silence_end = overlaps[0]
                 fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
-                done = True
                 break
             elif len(overlaps) == 2:
                 # take the second
                 silence_start, silence_end = overlaps[1]
                 fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
-                done = True
                 break
 
-        if not done:
-            fragment['merged'] = True
-            alignment[i + 1]['begin'] = fragment['begin']
-            alignment[i + 1]['text'] = fragment['text'] + ' ' + alignment[i + 1]['text']
     return [f for f in alignment if not f.get('merged')]
 
 
@@ -299,20 +289,38 @@ def merge_alignments(old_alignment: List[dict], new_alignment: List[dict]) -> Li
             return True
         return False
 
-    while o_i < len(old_alignment) and n_i < len(new_alignment):
-        o = old_alignment[o_i]
-        n = new_alignment[n_i]
-        if are_almost_equal(o, n):
-            # update all but id
-            n.update(**{k: v for k, v in o.items() if k != 'id'})
-            o_i += 1
+    pos = 0
+    merged_alignment = []
+    while o_i < len(old_alignment) or n_i < len(new_alignment):
+        o = n = None
+        if o_i < len(old_alignment):
+            o = old_alignment[o_i]
+        if n_i < len(new_alignment):
+            n = new_alignment[n_i]
+
+        if not o:
+            merged_alignment.append(n)
             n_i += 1
             continue
-        if o['begin'] < n['begin']:
+        if not n:
+            merged_alignment.append(o)
             o_i += 1
-        else:
+            continue
+
+        if (o['text'] == n['text'] and o.get('approved')) or are_almost_equal(o, n):
+            merged_alignment.append(o)
+            o_i += 1
             n_i += 1
-    return new_alignment
+            pos = o['end']
+            continue
+
+        merged_alignment.append(n)
+        pos = o['end']
+        n_i += 1
+        while o_i < len(old_alignment) and old_alignment[o_i]['end'] <= n['end']:
+            o_i += 1
+
+    return merged_alignment
 
 
 def hash_file(file_obj, blocksize=65536):

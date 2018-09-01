@@ -106,20 +106,6 @@ def test_is_float(input_, expected_output):
         "begin": 32.987,
         "end": 48.618,
     }]),
-    # Test no silent => merge
-    ([{
-        "begin": 26.247,
-        "end": 32.5,
-        "text": 'foo'
-    }, {
-        "begin": 32.5,
-        "end": 48.618,
-        "text": 'bar'
-    }], [], [{
-        "begin": 26.247,
-        "end": 48.618,
-        "text": 'foo bar'
-    }]),
     # Test fragment in silent
     ([{
         "begin": 639.341,
@@ -153,66 +139,74 @@ def test_fix_alignment(alignment, silences, fixed_alignment):
 
 @pytest.mark.parametrize('old, new_, merged', [
     # exactly the same
-    ([
-         dict(begin=1, end=2, text='a', approved=True, id=1),
-     ], [
-         dict(begin=1, end=2, text='a', id=1),
-     ], [
-         dict(begin=1, end=2, text='a', approved=True, id=1),
-     ]),
+    (
+            [dict(begin=1, end=2, text='a', approved=True)],
+            [dict(begin=1, end=2, text='a')],
+            [dict(begin=1, end=2, text='a', approved=True)],
+    ),
     # small change
-    ([
-         dict(begin=1, end=2, text='a', approved=True, id=1),
-     ], [
-         dict(begin=1.01, end=2, text='a', id=1),
-     ], [
-         dict(begin=1.01, end=2, text='a', id=1),
-     ]),
+    (
+            [dict(begin=1, end=2, text='a', approved=True)],
+            [dict(begin=1.01, end=2, text='a')],
+            [dict(begin=1, end=2, text='a', approved=True)],
+    ),
     # split
-    ([
-         dict(begin=0, end=1, text='a', approved=True, id=0),
-         dict(begin=1, end=3, text='b c', approved=True, id=1),
-         dict(begin=3, end=4, text='d', approved=True, id=2),
-     ], [
-         dict(begin=0, end=1, text='a', id=0),
-         dict(begin=1, end=2, text='b', id=1),
-         dict(begin=2, end=3, text='c', id=2),
-         dict(begin=3, end=4, text='d', id=3),
-     ], [
-         dict(begin=0, end=1, text='a', id=0, approved=True),
-         dict(begin=1, end=2, text='b', id=1),
-         dict(begin=2, end=3, text='c', id=2),
-         dict(begin=3, end=4, text='d', id=3, approved=True),
-     ]),
+    (
+            [
+                dict(begin=0, end=1, text='a', approved=True),
+                dict(begin=1, end=3, text='b c', approved=True),
+                dict(begin=3, end=4, text='d', approved=True),
+            ], [
+                dict(begin=0, end=1, text='a'),
+                dict(begin=1, end=2, text='b'),
+                dict(begin=2, end=3, text='c'),
+                dict(begin=3, end=4, text='d'),
+            ], [
+                dict(begin=0, end=1, text='a', approved=True),
+                dict(begin=1, end=2, text='b'),
+                dict(begin=2, end=3, text='c'),
+                dict(begin=3, end=4, text='d', approved=True),
+            ],
+    ),
     # merge
-    ([
-         dict(begin=0, end=1, text='a', id=0, approved=True),
-         dict(begin=1, end=2, text='b', id=1, approved=True),
-         dict(begin=2, end=3, text='c', id=2, approved=True),
-         dict(begin=3, end=4, text='d', id=3, approved=True),
-     ], [
-         dict(begin=0, end=1, text='a', id=0),
-         dict(begin=1, end=3, text='b c', id=1),
-         dict(begin=3, end=4, text='d', id=2),
-     ], [
-         dict(begin=0, end=1, text='a', id=0, approved=True),
-         dict(begin=1, end=3, text='b c', id=1),
-         dict(begin=3, end=4, text='d', id=2, approved=True),
-     ]),
+    (
+            [
+                dict(begin=0, end=1, text='a', approved=True),
+                dict(begin=1, end=2, text='b', approved=True),
+                dict(begin=2, end=3, text='c', approved=True),
+                dict(begin=3, end=4, text='d', approved=True),
+            ], [
+                dict(begin=0, end=1, text='a'),
+                dict(begin=1, end=3, text='b c'),
+                dict(begin=3, end=4, text='d'),
+            ], [
+                dict(begin=0, end=1, text='a', approved=True),
+                dict(begin=1, end=3, text='b c'),
+                dict(begin=3, end=4, text='d', approved=True),
+            ],
+    ),
     # leave "forced" alignments untouched
-    ([
-         dict(begin=0, end=1, text='a', approved=True, end_forced=True, id=0),
-         dict(begin=2, end=3, text='b', approved=True, begin_forced=True, end_forced=True, id=1),
-         dict(begin=3, end=4, text='c', approved=True, begin_forced=True, id=2),
-     ], [
-         dict(begin=0, end=1.1, text='a', id=1),
-         dict(begin=2.2, end=3.1, text='b', id=2),
-         dict(begin=3.1, end=4, text='c', id=3),
-     ], [
-         dict(begin=0, end=1, text='a', approved=True, end_forced=True, id=1),
-         dict(begin=2, end=3, text='b', approved=True, begin_forced=True, end_forced=True, id=2),
-         dict(begin=3, end=4, text='c', approved=True, begin_forced=True, id=3),
-     ]),
+    (
+            [
+                dict(begin=0, end=1, text='a', approved=True, end_forced=True),
+                dict(begin=2, end=3, text='b', approved=True, begin_forced=True, end_forced=True),
+                dict(begin=3, end=4, text='c', approved=True, begin_forced=True),
+            ], [
+                dict(begin=0, end=1.1, text='a'),
+                dict(begin=2.2, end=3.1, text='b'),
+                dict(begin=3.1, end=4, text='c'),
+            ], [
+                dict(begin=0, end=1, text='a', approved=True, end_forced=True),
+                dict(begin=2, end=3, text='b', approved=True, begin_forced=True, end_forced=True),
+                dict(begin=3, end=4, text='c', approved=True, begin_forced=True),
+            ],
+    ),
+    # no current alignment
+    (
+            [],
+            [dict(begin=1, end=2, text='a')],
+            [dict(begin=1, end=2, text='a')],
+    ),
 ])
 def test_merge_alignments(old, new_, merged):
     assert merged == utils.merge_alignments(old, new_)
