@@ -3,35 +3,30 @@
     "approved": true,
     "begin": 0,
     "end": 5.239,
-    "id": "f000001",
-    "text": "Tome 1 chapitre deux, Le p\u00e8re et le fils."
+    "text": "Tome un chapitre deux, Le p\u00e8re et le fils."
   },
   {
     "approved": true,
     "begin": 4.751,
     "end": 14.591,
-    "id": "f000002",
     "text": "Laissons Danglars, aux prises avec le g\u00e9nie de la haine, essayer de souffler contre son camarade quelque maligne supposition \u00e0 l\u2019oreille de l\u2019armateur,"
   },
   {
     "approved": true,
     "begin": 14.207,
     "end": 43.102,
-    "id": "f000003",
     "text": "et suivons Dant\u00e8s, qui, apr\u00e8s avoir parcouru la Canebi\u00e8re dans toute sa longueur, prend la rue de Noailles, entre dans une petite maison situ\u00e9e du c\u00f4t\u00e9 gauche des All\u00e9es de Meilhan, monte vivement les quatre \u00e9tages d\u2019un escalier obscur, et, se retenant \u00e0 la rampe d\u2019une main, comprimant de l\u2019autre les battements de son c\u0153ur, s\u2019arr\u00eate devant une porte entre baill\u00e9e, qui laisse voir jusqu\u2019au fond d\u2019une petite chambre."
   },
   {
     "approved": true,
     "begin": 44.131,
     "end": 48.379,
-    "id": "f000004",
     "text": "Cette chambre \u00e9tait celle qu\u2019habitait le p\u00e8re de Dant\u00e8s."
   },
   {
     "approved": true,
     "begin": 48.572,
     "end": 60.761,
-    "id": "f000005",
     "text": "La nouvelle de l\u2019arriv\u00e9e du Pharaon n\u2019\u00e9tait encore parvenue au vieillard, qui s\u2019occupait, mont\u00e9 sur une chaise, \u00e0 palissader d\u2019une main tremblante quelques capucines m\u00eal\u00e9es de cl\u00e9matites."
   },
   {
@@ -39,7 +34,6 @@
     "begin": 60.406,
     "end": 64.392,
     "end_forced": true,
-    "id": "f000006",
     "text": "qui montaient en grimpant le long du treillage de sa fen\u00eatre."
   },
   {
@@ -47,84 +41,72 @@
     "begin": 64.794,
     "begin_forced": true,
     "end": 71.288,
-    "id": "f000007",
     "text": "Tout \u00e0 coup il se sentit prendre \u00e0 bras-le-corps, et une voix bien connue s\u2019\u00e9cria derri\u00e8re lui."
   },
   {
     "approved": true,
     "begin": 70.828,
     "end": 73.456,
-    "id": "f000008",
     "text": "Mon p\u00e8re, mon bon p\u00e8re\u00a0!"
   },
   {
     "approved": true,
     "begin": 73.754,
     "end": 76.696,
-    "id": "f000009",
     "text": "Le vieillard jeta un cri et se retourna."
   },
   {
     "approved": true,
     "begin": 76.706,
     "end": 82.887,
-    "id": "f000010",
     "text": "Puis, voyant son fils, il se laissa aller dans ses bras, tout tremblant et tout p\u00e2le."
   },
   {
     "approved": true,
     "begin": 82.975,
     "end": 86.936,
-    "id": "f000011",
     "text": "Qu\u2019as-tu donc, p\u00e8re\u00a0? s\u2019\u00e9cria le jeune homme inquiet."
   },
   {
     "approved": true,
     "begin": 86.58,
     "end": 88.477,
-    "id": "f000012",
     "text": "Serais-tu malade\u00a0?"
   },
   {
     "approved": true,
     "begin": 88.644,
     "end": 94.511,
-    "id": "f000013",
     "text": "Non, non, mon cher Edmond, mon fils, mon enfant, non."
   },
   {
     "approved": true,
     "begin": 94.234,
     "end": 100.127,
-    "id": "f000014",
     "text": "Mais je ne t\u2019attendais pas, et la joie, le saisissement de te revoir ainsi \u00e0 l\u2019improviste\u2026"
   },
   {
     "approved": true,
     "begin": 99.903,
     "end": 103.524,
-    "id": "f000015",
     "text": "mon Dieu\u00a0! il me semble que je vais mourir\u00a0!"
   },
   {
     "approved": true,
     "begin": 103.952,
     "end": 105.993,
-    "id": "f000016",
     "text": "Eh bien, remets-toi donc, p\u00e8re\u00a0!"
   },
   {
     "approved": true,
     "begin": 105.792,
     "end": 108.226,
-    "id": "f000017",
     "text": "c\u2019est moi, c'est bien moi\u00a0!"
   },
   {
     "approved": true,
     "begin": 107.975,
     "end": 113.684,
-    "id": "f000018",
     "text": "On dit toujours que la joie ne fait pas mal, et voil\u00e0 pourquoi je suis entr\u00e9 ici sans pr\u00e9paration."
   },
   {
@@ -132,7 +114,6 @@
     "begin": 113.512,
     "end": 117.577,
     "end_forced": true,
-    "id": "f000019",
     "text": "Voyons, souris-moi, au lieu de me regarder comme tu le fais, avec des yeux \u00e9gar\u00e9s."
   },
   {
@@ -140,462 +121,396 @@
     "begin": 117.352,
     "begin_forced": true,
     "end": 120.607,
-    "id": "f000020",
     "text": "Je reviens et nous allons \u00eatre heureux."
   },
   {
     "approved": true,
     "begin": 120.539,
     "end": 125.858,
-    "id": "f000021",
     "text": "Ah\u00a0! tant mieux, gar\u00e7on\u00a0! reprit le vieillard, mais comment allons-nous \u00eatre heureux\u00a0?"
   },
   {
     "approved": true,
     "begin": 125.529,
     "end": 127.53,
-    "id": "f000022",
     "text": "tu ne me quittes donc plus\u00a0?"
   },
   {
     "approved": true,
     "begin": 127.384,
     "end": 130.272,
-    "id": "f000023",
     "text": "Voyons, conte-moi ton bonheur."
   },
   {
     "approved": true,
     "begin": 130.518,
     "end": 140.565,
-    "id": "f000024",
     "text": "Que le Seigneur me pardonne, dit le jeune homme, de me r\u00e9jouir d\u2019un bonheur fait avec le deuil d\u2019une famille\u00a0! Mais Dieu sait que je n\u2019eusse pas d\u00e9sir\u00e9 ce bonheur."
   },
   {
     "approved": true,
     "begin": 140.863,
     "end": 144.013,
-    "id": "f000025",
     "text": "Il arrive, et je n\u2019ai pas la force de m\u2019en affliger."
   },
   {
     "approved": true,
     "begin": 144.154,
     "end": 153.547,
-    "id": "f000026",
     "text": "le brave capitaine Lecl\u00e8re est mort, mon p\u00e8re, et il est probable que, par la protection de Monsieur Morrel, je vais avoir sa place. Comprenez-vous, mon p\u00e8re\u00a0?"
   },
   {
     "approved": true,
     "begin": 153.192,
     "end": 155.533,
-    "id": "f000027",
     "text": "capitaine \u00e0 vingt ans\u00a0!"
   },
   {
     "approved": true,
     "begin": 155.413,
     "end": 158.798,
-    "id": "f000028",
     "text": "avec cent louis d\u2019appointements et une part des b\u00e9n\u00e9fices\u00a0!"
   },
   {
     "approved": true,
     "begin": 158.521,
     "end": 162.299,
-    "id": "f000029",
     "text": "n\u2019est-ce pas plus que ne pouvait vraiment l\u2019esp\u00e9rer un pauvre matelot comme moi\u00a0?"
   },
   {
     "approved": true,
     "begin": 162.335,
     "end": 167.236,
-    "id": "f000030",
     "text": "Oui, mon fils, oui, en effet, dit le vieillard, c\u2019est heureux."
   },
   {
     "approved": true,
     "begin": 167.508,
     "end": 176.666,
-    "id": "f000031",
     "text": "Aussi je veux que du premier argent que je toucherai vous ayez une petite maison, avec un jardin pour planter vos cl\u00e9matites, vos capucines et vos ch\u00e8vrefeuilles\u2026."
   },
   {
     "approved": true,
     "begin": 176.415,
     "end": 180.166,
-    "id": "f000032",
     "text": "Mais, qu\u2019as-tu donc, p\u00e8re, on dirait que tu te trouves mal\u00a0?"
   },
   {
     "approved": true,
     "begin": 180.464,
     "end": 183.327,
-    "id": "f000033",
     "text": "Patience, patience\u00a0! ce n'est rien."
   },
   {
     "approved": true,
     "begin": 183.442,
     "end": 187.429,
-    "id": "f000034",
     "text": "Et, les forces manquant au vieillard, il se renversa en arri\u00e8re."
   },
   {
     "approved": true,
     "begin": 187.387,
     "end": 192.209,
-    "id": "f000035",
     "text": "Voyons\u00a0! dit le jeune homme, un verre de vin, mon p\u00e8re. Cela vous ranimera."
   },
   {
     "approved": true,
     "begin": 191.854,
     "end": 193.802,
-    "id": "f000036",
     "text": "O\u00f9 mettez-vous votre vin\u00a0?"
   },
   {
     "approved": true,
     "begin": 193.891,
     "end": 196.35,
-    "id": "f000037",
     "text": "Non, merci, ne cherche pas."
   },
   {
     "approved": true,
     "begin": 196.124,
-    "end": 199.903,
-    "id": "f000038",
+    "end": 200.164,
     "text": "Je n\u2019en ai pas besoin, dit le vieillard essayant de retenir son fils."
   },
   {
     "approved": true,
-    "begin": 199.755,
+    "begin": 200.068,
     "end": 203.364,
-    "id": "f000039",
     "text": "Si fait, si fait, p\u00e8re, indiquez-moi l\u2019endroit."
   },
   {
     "approved": true,
     "begin": 203.348,
     "end": 205.845,
-    "id": "f000040",
     "text": "Et il ouvrit deux ou trois armoires."
   },
   {
     "approved": true,
     "begin": 205.542,
     "end": 208.484,
-    "id": "f000041",
     "text": "Inutile\u2026 dit le vieillard,"
   },
   {
     "approved": true,
     "begin": 208.389,
     "end": 210.077,
-    "id": "f000042",
     "text": "il n\u2019y a plus de vin."
   },
   {
     "approved": true,
     "begin": 209.878,
     "end": 211.775,
-    "id": "f000043",
     "text": "Comment, il n\u2019y a plus de vin\u00a0!"
   },
   {
     "approved": true,
     "begin": 211.681,
     "end": 222.432,
-    "id": "f000044",
     "text": "dit en p\u00e2lissant \u00e0 son tour Dant\u00e8s, regardant alternativement les joues creuses et bl\u00eames du vieillard et les armoires vides, comment, il n\u2019y a plus de vin\u00a0!"
   },
   {
     "approved": true,
     "begin": 222.678,
     "end": 225.15,
-    "id": "f000045",
     "text": "Auriez-vous manqu\u00e9 d\u2019argent, mon p\u00e8re\u00a0?"
   },
   {
     "approved": true,
     "begin": 225.134,
     "end": 229.042,
-    "id": "f000046",
     "text": "Je n\u2019ai manqu\u00e9 de rien, puisque te voil\u00e0, dit le vieillard."
   },
   {
     "approved": true,
     "begin": 229.183,
     "end": 235.128,
-    "id": "f000047",
     "text": "Cependant, balbutia Dant\u00e8s en essuyant la sueur qui coulait de son front,"
   },
   {
     "approved": true,
     "begin": 235.06,
     "end": 239.046,
-    "id": "f000048",
     "text": "cependant je vous avais laiss\u00e9 deux cents francs, il y a trois mois, en partant."
   },
   {
     "approved": true,
     "begin": 239.161,
     "end": 242.285,
-    "id": "f000049",
     "text": "Oui, oui, Edmond, c\u2019est vrai mais\u2026"
   },
   {
     "approved": true,
     "begin": 241.904,
     "end": 246.204,
-    "id": "f000050",
     "text": "tu avais oubli\u00e9 en partant une petite dette chez le voisin Caderousse."
   },
   {
     "approved": true,
     "begin": 245.77,
-    "end": 255.648,
-    "id": "f000051",
+    "end": 255.1,
     "text": "Il me l\u2019a rappel\u00e9e, en me disant que si je ne payais pas pour toi il irait se faire payer chez Monsieur Morrel. Alors, tu comprends, de peur que cela te f\u00eet du tort\u2026."
   },
   {
     "approved": true,
-    "begin": 255.186,
+    "begin": 255.03,
     "end": 256.523,
-    "id": "f000052",
     "text": "Eh bien\u00a0?"
   },
   {
     "approved": true,
     "begin": 256.324,
     "end": 263.524,
-    "id": "f000053",
     "text": "Eh bien, j\u2019ai pay\u00e9, moi. Mais, s\u2019\u00e9cria Dant\u00e8s, c\u2019\u00e9tait cent quarante francs que je devais \u00e0 Caderousse\u00a0!"
   },
   {
     "approved": true,
     "begin": 263.769,
     "end": 267.102,
-    "id": "f000054",
     "text": "Oui, balbutia le vieillard."
   },
   {
     "approved": true,
     "begin": 267.06,
     "end": 271.099,
-    "id": "f000055",
     "text": "Et vous les avez donn\u00e9s sur les deux cent francs que je vous avais laiss\u00e9s\u00a0?"
   },
   {
     "approved": true,
     "begin": 271.449,
     "end": 273.894,
-    "id": "f000056",
     "text": "Le vieillard fit un signe de t\u00eate."
   },
   {
     "approved": true,
     "begin": 274.244,
     "end": 278.675,
-    "id": "f000057",
     "text": "De sorte que vous avez v\u00e9cu trois mois avec soixante francs\u00a0!"
   },
   {
     "approved": true,
     "begin": 278.685,
     "end": 280.581,
-    "id": "f000058",
     "text": "murmura le jeune homme."
   },
   {
     "approved": true,
     "begin": 280.644,
     "end": 284.552,
-    "id": "f000059",
     "text": "Tu sais combien il me faut peu de chose, dit le vieillard."
   },
   {
     "approved": true,
     "begin": 284.667,
     "end": 287.843,
-    "id": "f000060",
     "text": "Oh\u00a0! mon Dieu, mon Dieu, pardonnez-moi\u00a0!"
   },
   {
     "approved": true,
     "begin": 287.54,
     "end": 290.899,
-    "id": "f000061",
     "text": "s\u2019\u00e9cria Edmond en se jetant \u00e0 genoux devant le bonhomme."
   },
   {
     "approved": true,
     "begin": 290.544,
     "end": 292.467,
-    "id": "f000062",
     "text": "Que fais-tu donc\u00a0?"
   },
   {
     "approved": true,
     "begin": 292.425,
     "end": 295.053,
-    "id": "f000063",
     "text": "Oh\u00a0! vous m\u2019avez d\u00e9chir\u00e9 le c\u0153ur."
   },
   {
     "approved": true,
     "begin": 294.933,
     "end": 297.848,
-    "id": "f000064",
     "text": "Bah\u00a0! te voil\u00e0, dit le vieillard en souriant."
   },
   {
     "approved": true,
     "begin": 297.519,
     "end": 300.957,
-    "id": "f000065",
     "text": "Maintenant tout est oubli\u00e9, car tout est bien."
   },
   {
     "approved": true,
     "begin": 301.072,
     "end": 306.652,
-    "id": "f000066",
     "text": "Oui, me voil\u00e0, dit le jeune homme, me voil\u00e0 avec un bel avenir et un peu d\u2019argent."
   },
   {
     "approved": true,
     "begin": 306.427,
     "end": 312.006,
-    "id": "f000067",
     "text": "Tenez, p\u00e8re, dit-il, prenez, prenez, et envoyez chercher tout de suite quelque chose."
   },
   {
     "approved": true,
     "begin": 312.121,
     "end": 320.444,
-    "id": "f000068",
     "text": "Et il vida sur la table ses poches, qui contenaient une douzaine de pi\u00e8ces d\u2019or, cinq ou six \u00e9cus de cinq francs et de la menue monnaie."
   },
   {
     "approved": true,
     "begin": 320.376,
     "end": 323.422,
-    "id": "f000069",
     "text": "Le visage du vieux Dant\u00e8s s\u2019\u00e9panouit."
   },
   {
     "approved": true,
     "begin": 323.25,
     "end": 325.421,
-    "id": "f000070",
     "text": "\u00c0 qui cela\u00a0? dit-il."
   },
   {
     "approved": true,
     "begin": 325.325,
     "end": 328.96,
-    "id": "f000071",
     "text": "Mais, \u00e0 moi\u00a0!\u2026 \u00e0 toi\u00a0!\u2026 \u00e0 nous\u00a0!\u2026"
   },
   {
     "approved": true,
     "begin": 328.605,
     "end": 333.662,
-    "id": "f000072",
     "text": "Prends, ach\u00e8te des provisions, sois heureux, demain il y en aura d\u2019autres."
   },
   {
     "approved": true,
     "begin": 333.437,
     "end": 336.706,
-    "id": "f000073",
     "text": "Doucement, dit le vieillard en souriant."
   },
   {
     "approved": true,
     "begin": 336.296,
     "end": 339.853,
-    "id": "f000074",
     "text": "Avec ta permission, j\u2019userai mod\u00e9r\u00e9ment de ta bourse."
   },
   {
     "approved": true,
     "begin": 339.55,
     "end": 345.887,
-    "id": "f000075",
     "text": "on croirait, si l\u2019on me voyait acheter trop de choses \u00e0 la fois, que j\u2019ai \u00e9t\u00e9 oblig\u00e9 d\u2019attendre ton retour pour les acheter."
   },
   {
     "approved": true,
     "begin": 346.133,
     "end": 347.899,
-    "id": "f000076",
     "text": "Fais comme tu voudras."
   },
   {
     "approved": true,
     "begin": 347.7,
     "end": 351.4,
-    "id": "f000077",
     "text": "Mais, avant toutes choses, prends une servante, p\u00e8re."
   },
   {
     "approved": true,
     "begin": 350.966,
     "end": 353.254,
-    "id": "f000078",
     "text": "Je ne veux plus que tu restes seul."
   },
   {
     "approved": true,
     "begin": 353.186,
     "end": 359.001,
-    "id": "f000079",
     "text": "J\u2019ai du caf\u00e9 de contrebande et d\u2019excellent tabac dans un petit coffre de la cale, tu l\u2019auras d\u00e8s demain."
   },
   {
     "approved": true,
     "begin": 358.802,
     "end": 361.091,
-    "id": "f000080",
     "text": "chut\u00a0! voil\u00e0 quelqu\u2019un."
   },
   {
     "approved": true,
     "begin": 361.075,
     "end": 366.367,
-    "id": "f000081",
     "text": "C\u2019est Caderousse qui aura appris ton arriv\u00e9e, et qui vient sans doute te faire son compliment de bon retour."
   },
   {
     "approved": true,
     "begin": 366.717,
     "end": 373.826,
-    "id": "f000082",
     "text": "Bon, encore des l\u00e8vres qui disent une chose tandis que le c\u0153ur en pense une autre, murmura Edmond. Mais, n\u2019importe,"
   },
   {
     "approved": true,
     "begin": 373.73,
     "end": 378.645,
-    "id": "f000083",
     "text": "c\u2019est un voisin qui nous a rendu service autrefois, qu\u2019il soit le bienvenu."
   },
   {
     "approved": true,
     "begin": 379.413,
     "end": 391.21,
-    "id": "f000084",
     "text": "En effet, au moment o\u00f9 Edmond achevait la phrase \u00e0 voix basse, on vit appara\u00eetre encadr\u00e9e par la porte du palier, la t\u00eate noire et barbue de Caderousse."
   },
   {
     "approved": true,
     "begin": 391.351,
     "end": 394.292,
-    "id": "f000085",
     "text": "C\u2019\u00e9tait un homme de vingt-cinq \u00e0 vingt-six ans."
   },
   {
@@ -603,7 +518,6 @@
     "begin": 394.407,
     "end": 401.685,
     "end_forced": true,
-    "id": "f000086",
     "text": "Il tenait \u00e0 sa main un morceau de drap, qu\u2019en sa qualit\u00e9 de tailleur il s\u2019appr\u00eatait \u00e0 changer en un revers d\u2019habit."
   },
   {
@@ -611,140 +525,120 @@
     "begin": 401.591,
     "begin_forced": true,
     "end": 412.578,
-    "id": "f000087",
     "text": "Eh\u00a0! te voil\u00e0 donc revenu, Edmond\u00a0? dit-il avec un accent marseillais des plus prononc\u00e9s et avec un large sourire qui d\u00e9couvrait ses dents blanches comme de l\u2019ivoire."
   },
   {
     "approved": true,
     "begin": 412.876,
     "end": 418.534,
-    "id": "f000088",
     "text": "Comme vous voyez, voisin Caderousse, et pr\u00eat \u00e0 vous \u00eatre agr\u00e9able en quelque chose que ce soit,"
   },
   {
     "approved": true,
     "begin": 418.388,
     "end": 423.993,
-    "id": "f000089",
     "text": "r\u00e9pondit Dant\u00e8s en dissimulant mal sa froideur sous cette offre de service."
   },
   {
     "approved": true,
     "begin": 423.612,
     "end": 425.769,
-    "id": "f000090",
     "text": "Merci, merci."
   },
   {
     "approved": true,
     "begin": 425.388,
     "end": 431.02,
-    "id": "f000091",
     "text": "Heureusement, je n\u2019ai besoin de rien, et ce sont m\u00eame quelquefois les autres qui ont besoin de moi."
   },
   {
     "approved": true,
     "begin": 431.37,
     "end": 433.502,
-    "id": "f000092",
     "text": "Dant\u00e8s fit un mouvement."
   },
   {
     "approved": true,
     "begin": 433.93,
     "end": 436.677,
-    "id": "f000093",
     "text": "Je ne te dis pas cela pour toi, gar\u00e7on."
   },
   {
     "approved": true,
     "begin": 436.241,
     "end": 438.924,
-    "id": "f000094",
     "text": "Je t\u2019ai pr\u00eat\u00e9 de l\u2019argent, tu me l\u2019as rendu."
   },
   {
     "approved": true,
     "begin": 438.802,
     "end": 442.227,
-    "id": "f000095",
     "text": "Cela se fait entre bons voisins, et nous sommes quittes."
   },
   {
     "approved": true,
     "begin": 442.081,
     "end": 450.769,
-    "id": "f000096",
     "text": "On n\u2019est jamais quitte envers ceux qui nous ont oblig\u00e9s, dit Dant\u00e8s, car lorsqu\u2019on ne leur doit plus l\u2019argent, on leur doit la reconnaissance."
   },
   {
     "approved": true,
     "begin": 450.649,
     "end": 454.347,
-    "id": "f000097",
     "text": "\u00c0 quoi bon parler de cela\u00a0! Ce qui est pass\u00e9 est pass\u00e9."
   },
   {
     "approved": true,
     "begin": 454.201,
     "end": 456.778,
-    "id": "f000098",
     "text": "Parlons de ton heureux retour, gar\u00e7on."
   },
   {
     "approved": true,
     "begin": 456.579,
     "end": 463.046,
-    "id": "f000099",
     "text": "J\u2019\u00e9tais donc all\u00e9 comme cela sur le port pour rassortir du drap marron, lorsque je rencontrai l\u2019ami Danglars."
   },
   {
     "approved": true,
     "begin": 462.9,
     "end": 465.084,
-    "id": "f000100",
     "text": "Toi, \u00e0 Marseille\u00a0?"
   },
   {
     "approved": true,
     "begin": 465.042,
     "end": 466.666,
-    "id": "f000101",
     "text": "Eh oui, tout de m\u00eame,"
   },
   {
     "approved": true,
     "begin": 466.335,
     "end": 469.813,
-    "id": "f000102",
     "text": "me r\u00e9pondit-il. Je te croyais \u00e0 Smyrne."
   },
   {
     "approved": true,
     "begin": 469.797,
     "end": 472.947,
-    "id": "f000103",
     "text": "J\u2019y pourrais \u00eatre, car j\u2019en reviens."
   },
   {
     "approved": true,
     "begin": 473.062,
     "end": 475.913,
-    "id": "f000104",
     "text": "Et Edmond, o\u00f9 est-il donc, le petit\u00a0?"
   },
   {
     "approved": true,
     "begin": 475.477,
     "end": 478.551,
-    "id": "f000105",
     "text": "Bah chez son p\u00e8re, sans doute, r\u00e9pondit Danglars."
   },
   {
     "approved": true,
     "begin": 478.429,
     "end": 483.396,
-    "id": "f000106",
     "text": "Et alors je suis venu, continua Caderousse, pour avoir le plaisir de serrer la main \u00e0 un ami."
   },
   {
@@ -752,7 +646,6 @@
     "begin": 483.145,
     "end": 486.896,
     "end_forced": true,
-    "id": "f000107",
     "text": "Ce bon Caderousse, dit le vieillard, il nous aime tant."
   },
   {
@@ -760,175 +653,150 @@
     "begin": 486.959,
     "begin_forced": true,
     "end": 492.983,
-    "id": "f000108",
     "text": "Certainement que je vous aime, et que je vous estime encore, attendu que les honn\u00eates gens sont rares\u00a0!"
   },
   {
     "approved": true,
     "begin": 492.863,
     "end": 495.804,
-    "id": "f000109",
     "text": "Mais il para\u00eet que tu deviens riche, gar\u00e7on\u00a0?"
   },
   {
     "approved": true,
     "begin": 495.501,
     "end": 502.57,
-    "id": "f000110",
     "text": "continua le tailleur en jetant un regard oblique sur la poign\u00e9e d\u2019argent et d\u2019or que Dant\u00e8s avait d\u00e9pos\u00e9e sur la table."
   },
   {
     "approved": true,
     "begin": 502.946,
     "end": 507.742,
-    "id": "f000111",
     "text": "Le jeune homme remarqua l\u2019\u00e9clair de convoitise qui illumina les yeux noirs de son voisin."
   },
   {
     "approved": true,
     "begin": 507.726,
     "end": 509.271,
-    "id": "f000112",
     "text": "Eh\u00a0! mon Dieu\u00a0!"
   },
   {
     "approved": true,
     "begin": 509.07,
     "end": 512.471,
-    "id": "f000113",
     "text": "dit-il n\u00e9gligemment, cet argent n\u2019est pas \u00e0 moi."
   },
   {
     "approved": true,
     "begin": 512.219,
     "end": 524.121,
-    "id": "f000114",
     "text": "Je manifestais au p\u00e8re la crainte qu\u2019il n\u2019e\u00fbt manqu\u00e9 de quelque chose en mon absence, et pour me rassurer, il a vid\u00e9 sa bourse sur la table. Allons, p\u00e8re, continua Dant\u00e8s, remettez cet argent dans votre tirelire."
   },
   {
     "approved": true,
     "begin": 523.844,
     "end": 530.208,
-    "id": "f000115",
     "text": "\u00c0 moins que le voisin Caderousse n\u2019en ait besoin \u00e0 son tour, auquel cas il est bien \u00e0 son service."
   },
   {
     "approved": true,
     "begin": 529.774,
     "end": 536.816,
-    "id": "f000116",
     "text": "Non pas, gar\u00e7on, dit Caderousse, je n\u2019ai besoin de rien, et, Dieu merci l\u2019\u00e9tat nourrit son homme."
   },
   {
     "approved": true,
     "begin": 536.33,
     "end": 538.828,
-    "id": "f000117",
     "text": "Garde ton argent, garde."
   },
   {
     "approved": true,
     "begin": 538.342,
     "end": 540.148,
-    "id": "f000118",
     "text": "on n\u2019en a jamais de trop."
   },
   {
     "approved": true,
     "begin": 539.817,
     "end": 544.993,
-    "id": "f000119",
     "text": "Ce qui n\u2019emp\u00eache pas que je ne te sois oblig\u00e9 de ton offre comme si j\u2019en profitais."
   },
   {
     "approved": true,
     "begin": 545.108,
     "end": 547.906,
-    "id": "f000120",
     "text": "C\u2019\u00e9tait de bon c\u0153ur, dit Dant\u00e8s."
   },
   {
     "approved": true,
     "begin": 547.523,
     "end": 549.172,
-    "id": "f000121",
     "text": "Je n\u2019en doute pas."
   },
   {
     "approved": true,
     "begin": 549.078,
     "end": 554.501,
-    "id": "f000122",
     "text": "Eh bien, te voil\u00e0 donc au mieux avec Monsieur Morrel, c\u00e2lin que tu es\u00a0?"
   },
   {
     "approved": true,
     "begin": 554.564,
     "end": 559.282,
-    "id": "f000123",
     "text": "Monsieur Morrel a toujours eu beaucoup de bont\u00e9 pour moi, r\u00e9pondit Dant\u00e8s."
   },
   {
     "approved": true,
     "begin": 559.423,
     "end": 562.886,
-    "id": "f000124",
     "text": "En ce cas, tu as tort de refuser son d\u00eener."
   },
   {
     "approved": true,
     "begin": 562.923,
     "end": 566.126,
-    "id": "f000125",
     "text": "Comment, refuser son d\u00eener\u00a0?"
   },
   {
     "approved": true,
     "begin": 565.901,
     "end": 567.876,
-    "id": "f000126",
     "text": "reprit le vieux Dant\u00e8s."
   },
   {
     "approved": true,
     "begin": 567.416,
     "end": 569.991,
-    "id": "f000127",
     "text": "Il t\u2019avait donc invit\u00e9 \u00e0 d\u00eener\u00a0?"
   },
   {
     "approved": true,
     "begin": 569.819,
     "end": 577.045,
-    "id": "f000128",
     "text": "Oui, mon p\u00e8re, reprit Edmond en souriant de l\u2019\u00e9tonnement que causait \u00e0 son p\u00e8re l\u2019exc\u00e8s de l\u2019honneur dont il \u00e9tait l\u2019objet."
   },
   {
     "approved": true,
     "begin": 577.186,
     "end": 580.089,
-    "id": "f000129",
     "text": "Et pourquoi as-tu donc refus\u00e9, fils\u00a0?"
   },
   {
     "approved": true,
     "begin": 579.679,
     "end": 581.329,
-    "id": "f000130",
     "text": "demanda le vieillard."
   },
   {
     "approved": true,
     "begin": 581.81,
     "end": 586.135,
-    "id": "f000131",
     "text": "Pour revenir plus t\u00f4t pr\u00e8s de vous, mon p\u00e8re, r\u00e9pondit le jeune homme."
   },
   {
     "approved": true,
     "begin": 585.806,
     "end": 587.833,
-    "id": "f000132",
     "text": "J\u2019avais h\u00e2te de vous voir."
   },
   {
@@ -936,70 +804,60 @@
     "begin": 588.079,
     "duration": 8.610000000000014,
     "end": 596.689,
-    "id": "f000133",
     "text": "Cela l\u2019aura contrari\u00e9, ce bon Monsieur Morrel, reprit Caderousse. Et quand on vise \u00e0 \u00eatre capitaine, c\u2019est un tort que de contrarier son armateur."
   },
   {
     "approved": true,
     "begin": 597.013,
     "end": 603.324,
-    "id": "f000134",
     "text": "Je lui ai expliqu\u00e9 la cause de mon refus, reprit Dant\u00e8s, et il l\u2019a comprise, je l\u2019esp\u00e8re."
   },
   {
     "approved": true,
     "begin": 603.282,
     "end": 607.739,
-    "id": "f000135",
     "text": "c\u2019est que, pour \u00eatre capitaine, il faut un peu flatter ses patrons."
   },
   {
     "approved": true,
     "begin": 607.906,
     "end": 612.075,
-    "id": "f000136",
     "text": "J\u2019esp\u00e8re \u00eatre capitaine sans cela, r\u00e9pondit Dant\u00e8s."
   },
   {
     "approved": true,
     "begin": 611.72,
     "end": 613.303,
-    "id": "f000137",
     "text": "Tant mieux, tant mieux\u00a0!"
   },
   {
     "approved": true,
     "begin": 612.869,
     "end": 620.669,
-    "id": "f000138",
     "text": "cela fera plaisir \u00e0 tous les anciens amis, et je sais quelqu\u2019un l\u00e0-bas, derri\u00e8re la citadelle de Saint-Nicolas, qui n\u2019en sera pas f\u00e2ch\u00e9."
   },
   {
     "approved": true,
     "begin": 620.523,
     "end": 623.282,
-    "id": "f000139",
     "text": "Merc\u00e9d\u00e8s\u00a0? dit le vieillard."
   },
   {
     "approved": true,
     "begin": 623.214,
     "end": 636.003,
-    "id": "f000140",
     "text": "Oui, mon p\u00e8re, reprit Dant\u00e8s, et, avec votre permission, maintenant que je vous ai vu, maintenant que je sais que vous vous portez bien et que vous avez tout ce qu\u2019il vous faut, je vous demanderai la permission d\u2019aller faire visite aux Catalans."
   },
   {
     "approved": true,
     "begin": 635.726,
     "end": 638.929,
-    "id": "f000141",
     "text": "Va, mon enfant, dit le vieux Dant\u00e8s,"
   },
   {
     "approved": true,
     "begin": 638.521,
     "end": 642.9,
-    "id": "f000142",
     "text": "et que Dieu te b\u00e9nisse dans ta femme comme il m\u2019a b\u00e9ni dans mon fils."
   },
   {
@@ -1007,63 +865,54 @@
     "begin": 642.753,
     "duration": 4.339999999999918,
     "end": 647.093,
-    "id": "f000143",
     "text": "Sa femme\u00a0! dit Caderousse. Vous y allez, p\u00e8re Dant\u00e8s\u00a0!"
   },
   {
     "approved": true,
     "begin": 646.762,
     "end": 649.116,
-    "id": "f000144",
     "text": "elle ne l\u2019est pas encore, ce me semble\u00a0!"
   },
   {
     "approved": true,
     "begin": 649.388,
     "end": 655.308,
-    "id": "f000145",
     "text": "Non. Mais, selon toute probabilit\u00e9, r\u00e9pondit Edmond, elle ne tardera pas \u00e0 le devenir."
   },
   {
     "approved": true,
     "begin": 655.214,
     "end": 658.6,
-    "id": "f000146",
     "text": "N\u2019importe, n\u2019importe, dit Caderousse,"
   },
   {
     "approved": true,
     "begin": 658.192,
     "end": 660.95,
-    "id": "f000147",
     "text": "tu as bien fait de te d\u00e9p\u00eacher, gar\u00e7on."
   },
   {
     "approved": true,
     "begin": 660.726,
     "end": 667.481,
-    "id": "f000148",
     "text": "Pourquoi cela\u00a0? Parce que la Merc\u00e9d\u00e8s est une belle fille, et que les belles filles ne manquent pas d\u2019amoureux."
   },
   {
     "approved": true,
     "begin": 667.23,
     "end": 670.642,
-    "id": "f000149",
     "text": "Celle-l\u00e0 surtout, ils la suivent par douzaines."
   },
   {
     "approved": true,
     "begin": 670.6,
     "end": 676.806,
-    "id": "f000150",
     "text": "Vraiment, dit Edmond avec un sourire sous lequel per\u00e7ait une l\u00e9g\u00e8re nuance d\u2019inqui\u00e9tude."
   },
   {
     "approved": true,
     "begin": 676.347,
     "end": 685.348,
-    "id": "f000151",
     "text": "Oh\u00a0! oui, reprit Caderousse, et de beaux partis m\u00eame. Mais, tu comprends, tu vas \u00eatre capitaine, on n\u2019aura garde de te refuser, toi\u00a0!"
   },
   {
@@ -1071,7 +920,6 @@
     "begin": 685.594,
     "end": 694.648,
     "end_forced": true,
-    "id": "f000152",
     "text": "Ce qui veut dire, reprit Dant\u00e8s avec un sourire qui dissimulait mal son inqui\u00e9tude, que si je n\u2019\u00e9tais pas capitaine\u2026."
   },
   {
@@ -1079,21 +927,18 @@
     "begin": 694.267,
     "begin_forced": true,
     "end": 698.044,
-    "id": "f000153",
     "text": "Eh\u00a0! eh\u00a0! fit Caderousse."
   },
   {
     "approved": true,
     "begin": 697.793,
     "end": 709.564,
-    "id": "f000154",
     "text": "Allons, allons, dit le jeune homme, j\u2019ai meilleure opinion que vous des femmes en g\u00e9n\u00e9ral, et de Merc\u00e9d\u00e8s en particulier, et, j\u2019en suis convaincu, que je sois capitaine ou non, elle me restera fid\u00e8le."
   },
   {
     "approved": true,
     "begin": 709.339,
     "end": 710.832,
-    "id": "f000155",
     "text": "Tant mieux\u00a0!"
   },
   {
@@ -1101,168 +946,144 @@
     "begin": 710.37,
     "duration": 8.049999999999955,
     "end": 718.42,
-    "id": "f000156",
     "text": "tant mieux\u00a0! dit Caderousse, c\u2019est toujours, quand on va se marier, une bonne chose que d\u2019avoir la foi, mais, n\u2019importe."
   },
   {
     "approved": true,
     "begin": 718.064,
     "end": 724.35,
-    "id": "f000157",
     "text": "Crois-moi, gar\u00e7on, ne perds pas de temps \u00e0 aller lui annoncer ton arriv\u00e9e et \u00e0 lui faire part de tes esp\u00e9rances."
   },
   {
     "approved": true,
     "begin": 724.099,
     "end": 726.649,
-    "id": "f000158",
     "text": "J\u2019y vais, dit Edmond."
   },
   {
     "approved": true,
     "begin": 726.868,
     "end": 730.958,
-    "id": "f000159",
     "text": "Il embrassa son p\u00e8re, salua Caderousse d\u2019un signe et sortit."
   },
   {
     "approved": true,
     "begin": 731.439,
     "end": 734.511,
-    "id": "f000160",
     "text": "Caderousse resta un instant encore."
   },
   {
     "approved": true,
     "begin": 734.652,
     "end": 742.217,
-    "id": "f000161",
     "text": "Puis, prenant cong\u00e9 du vieux Dant\u00e8s, il descendit \u00e0 son tour et alla rejoindre Danglars, qui l\u2019attendait au coin de la rue Senac."
   },
   {
     "approved": true,
     "begin": 742.306,
     "end": 745.926,
-    "id": "f000162",
     "text": "Eh bien, dit Danglars, l\u2019as-tu vu\u00a0?"
   },
   {
     "approved": true,
     "begin": 745.545,
     "end": 748.513,
-    "id": "f000163",
     "text": "Je le quitte, dit Caderousse."
   },
   {
     "approved": true,
     "begin": 748.288,
     "end": 751.935,
-    "id": "f000164",
     "text": "Et t\u2019a-t-il parl\u00e9 de son esp\u00e9rance d\u2019\u00eatre capitaine\u00a0?"
   },
   {
     "approved": true,
     "begin": 751.71,
     "end": 754.495,
-    "id": "f000165",
     "text": "Il en parle comme s\u2019il l\u2019\u00e9tait d\u00e9j\u00e0."
   },
   {
     "approved": true,
     "begin": 754.505,
     "end": 758.831,
-    "id": "f000166",
     "text": "Patience\u00a0! dit Danglars, il se presse un peu trop, ce me semble."
   },
   {
     "approved": true,
     "begin": 758.476,
     "end": 762.137,
-    "id": "f000167",
     "text": "Dame\u00a0! il para\u00eet que la chose lui est promise par Monsieur Morrel."
   },
   {
     "approved": true,
     "begin": 762.015,
     "end": 764.761,
-    "id": "f000168",
     "text": "De sorte qu\u2019il est bien joyeux\u00a0?"
   },
   {
     "approved": true,
     "begin": 764.327,
     "end": 766.747,
-    "id": "f000169",
     "text": "C\u2019est-\u00e0-dire qu\u2019il en est insolent."
   },
   {
     "approved": true,
     "begin": 766.626,
     "end": 771.004,
-    "id": "f000170",
     "text": "Il m\u2019a d\u00e9j\u00e0 fait ses offres de service comme si c\u2019\u00e9tait un grand personnage."
   },
   {
     "approved": true,
     "begin": 770.727,
     "end": 774.896,
-    "id": "f000171",
     "text": "Il m\u2019a offert de me pr\u00eater de l\u2019argent comme s\u2019il \u00e9tait un banquier."
   },
   {
     "approved": true,
     "begin": 775.455,
     "end": 777.143,
-    "id": "f000172",
     "text": "Et vous avez refus\u00e9\u00a0?"
   },
   {
     "approved": true,
     "begin": 776.683,
     "end": 778.24,
-    "id": "f000173",
     "text": "Parfaitement."
   },
   {
     "approved": true,
     "begin": 778.172,
     "end": 784.771,
-    "id": "f000174",
     "text": "Quoique j\u2019eusse bien pu accepter, attendu que c\u2019est moi qui lui ai mis \u00e0 la main les premi\u00e8res pi\u00e8ces blanches qu\u2019il a mani\u00e9es."
   },
   {
     "approved": true,
     "begin": 784.99,
     "end": 789.76,
-    "id": "f000175",
     "text": "Mais maintenant Monsieur Dant\u00e8s n\u2019aura plus besoin de personne, il va \u00eatre capitaine."
   },
   {
     "approved": true,
     "begin": 789.614,
     "end": 793.914,
-    "id": "f000176",
     "text": "Bah\u00a0! dit Danglars, il ne l\u2019est pas encore."
   },
   {
     "approved": true,
     "begin": 794.264,
     "end": 801.098,
-    "id": "f000177",
     "text": "Ma foi, ce serait bien fait qu\u2019il ne le f\u00fbt pas, dit Caderousse, ou sans cela il n\u2019y aura plus moyen de lui parler."
   },
   {
     "approved": true,
     "begin": 802.1,
     "end": 810.736,
-    "id": "f000178",
     "text": "Que si nous le voulons bien, dit Danglars, il restera ce qu\u2019il est, et peut-\u00eatre m\u00eame deviendra moins qu\u2019il n\u2019est."
   },
   {
     "approved": true,
     "begin": 810.486,
     "end": 811.886,
-    "id": "f000179",
     "text": "Que dis-tu\u00a0?"
   },
   {
@@ -1270,14 +1091,12 @@
     "begin": 811.583,
     "duration": 5.646000000000072,
     "end": 817.229,
-    "id": "f000180",
     "text": "Rien, je me parle \u00e0 moi-m\u00eame. Et il est toujours amoureux de la belle Catalane\u00a0?"
   },
   {
     "approved": true,
     "begin": 816.846,
     "end": 818.3,
-    "id": "f000181",
     "text": "Amoureux fou."
   },
   {
@@ -1285,168 +1104,144 @@
     "begin": 817.838,
     "duration": 6.142000000000053,
     "end": 823.98,
-    "id": "f000182",
     "text": "Il y est all\u00e9. Mais ou je me trompe fort, ou il aura du d\u00e9sagr\u00e9ment de ce c\u00f4t\u00e9-l\u00e0."
   },
   {
     "approved": true,
     "begin": 823.677,
     "end": 825.182,
-    "id": "f000183",
     "text": "Explique-toi."
   },
   {
     "approved": true,
     "begin": 824.957,
     "end": 826.592,
-    "id": "f000184",
     "text": "\u00c0 quoi bon\u00a0?"
   },
   {
     "approved": true,
     "begin": 826.42,
     "end": 828.709,
-    "id": "f000185",
     "text": "C\u2019est plus important que tu ne crois."
   },
   {
     "approved": true,
     "begin": 828.458,
     "end": 830.485,
-    "id": "f000186",
     "text": "Tu n\u2019aimes pas Dant\u00e8s, hein\u00a0?"
   },
   {
     "approved": true,
     "begin": 830.339,
     "end": 832.314,
-    "id": "f000187",
     "text": "Je n\u2019aime pas les arrogants."
   },
   {
     "approved": true,
     "begin": 832.272,
     "end": 835.866,
-    "id": "f000188",
     "text": "Eh bien, alors\u00a0! dis-moi ce que tu sais relativement \u00e0 la Catalane."
   },
   {
     "approved": true,
     "begin": 836.138,
     "end": 839.158,
-    "id": "f000189",
     "text": "Je ne sais rien de bien positif."
   },
   {
     "approved": true,
     "begin": 838.881,
     "end": 849.241,
-    "id": "f000190",
     "text": "Seulement j\u2019ai vu des choses qui me font croire, comme je te l\u2019ai dit, que le futur capitaine aura du d\u00e9sagr\u00e9ment aux environs du chemin des Vieilles-Infirmeries."
   },
   {
     "approved": true,
     "begin": 849.33,
     "end": 852.036,
-    "id": "f000191",
     "text": "Qu\u2019as-tu vu\u00a0? allons, dis."
   },
   {
     "approved": true,
     "begin": 852.203,
     "end": 866.847,
-    "id": "f000192",
     "text": "Eh bien, j\u2019ai vu que toutes les fois que Merc\u00e9d\u00e8s vient en ville, elle y vient accompagn\u00e9e d\u2019un grand gaillard de Catalan \u00e0 l\u2019\u0153il noir, \u00e0 la peau rouge, tr\u00e8s brun, tr\u00e8s ardent, et qu\u2019elle appelle mon cousin."
   },
   {
     "approved": true,
     "begin": 866.779,
     "end": 871.915,
-    "id": "f000193",
     "text": "Ah\u00a0! vraiment\u00a0! et crois-tu que ce cousin lui fasse la cour\u00a0?"
   },
   {
     "approved": true,
     "begin": 872.265,
     "end": 874.005,
-    "id": "f000194",
     "text": "Je le suppose."
   },
   {
     "approved": true,
     "begin": 873.989,
     "end": 877.833,
-    "id": "f000195",
     "text": "que diable peut faire un grand gar\u00e7on de vingt et un ans \u00e0 une belle fille de dix-sept\u00a0?"
   },
   {
     "approved": true,
     "begin": 877.737,
     "end": 882.025,
-    "id": "f000196",
     "text": "Et tu dis que Dant\u00e8s est all\u00e9 aux Catalans\u00a0?"
   },
   {
     "approved": true,
     "begin": 881.957,
     "end": 883.775,
-    "id": "f000197",
     "text": "Il est parti devant moi."
   },
   {
     "approved": true,
     "begin": 884.229,
     "end": 892.422,
-    "id": "f000198",
     "text": "Si nous allions du m\u00eame c\u00f4t\u00e9, nous nous arr\u00eaterons \u00e0 la R\u00e9serve, et, tout en buvant un verre de vin de La Malgue, nous attendrions des nouvelles."
   },
   {
     "approved": true,
     "begin": 892.51,
     "end": 894.328,
-    "id": "f000199",
     "text": "Et qui nous en donnera\u00a0?"
   },
   {
     "approved": true,
     "begin": 894.025,
     "end": 899.317,
-    "id": "f000200",
     "text": "Nous serons sur la route, et nous verrons sur le visage de Dant\u00e8s ce qui se sera pass\u00e9."
   },
   {
     "approved": true,
     "begin": 899.432,
     "end": 903.288,
-    "id": "f000201",
     "text": "Allons, dit Caderousse. Mais c\u2019est toi qui paies\u00a0?"
   },
   {
     "approved": true,
     "begin": 903.011,
     "end": 905.927,
-    "id": "f000202",
     "text": "Certainement, r\u00e9pondit Danglars."
   },
   {
     "approved": true,
     "begin": 906.303,
     "end": 915.226,
-    "id": "f000203",
     "text": "Et tous deux s\u2019achemin\u00e8rent d\u2019un pas rapide vers l\u2019endroit indiqu\u00e9. Arriv\u00e9s l\u00e0, ils se firent apporter une bouteille et deux verres."
   },
   {
     "approved": true,
     "begin": 915.628,
     "end": 920.32,
-    "id": "f000204",
     "text": "Le p\u00e8re Pamphile venait de voir passer Dant\u00e8s il n\u2019y avait pas dix minutes."
   },
   {
     "approved": true,
     "begin": 920.513,
     "end": 937.34,
-    "id": "f000205",
     "text": "Certains que Dant\u00e8s \u00e9tait aux Catalans, ils s\u2019assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d\u2019oiseaux chantaient un des premiers beaux jours de printemps."
   }
 ]
