@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "30215bbbae6960fee1494227077d3af65e11d3ca1e01a18b02cc394a7191fa59"
+            "sha256": "9625e6879dddbd49d7702bff8522be41c9709790cb12455d3acf077adf11bb74"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -97,6 +97,13 @@
             ],
             "markers": "python_version != '3.2.*' and python_version < '4' and python_version != '3.0.*' and python_version != '3.1.*' and python_version >= '2.6'",
             "version": "==4.5.1"
+        },
+        "datadiff": {
+            "hashes": [
+                "sha256:54049440a896de5247ee2e7b7aa5425f939ac832c37edb2101f8d3036e89caa8"
+            ],
+            "index": "pypi",
+            "version": "==2.0.0"
         },
         "inquirer": {
             "hashes": [
