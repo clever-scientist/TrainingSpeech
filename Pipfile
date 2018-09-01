@@ -19,6 +19,7 @@ tabulate = "*"
 pytest = "*"
 pytest-cov = "*"
 pytest-mock = "*"
+termcolor = "*"
 
 [dev-packages]
 ipython = "*"
