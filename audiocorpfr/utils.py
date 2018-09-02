@@ -41,6 +41,7 @@ NORMALIZATIONS = [
     [re.compile(r'("|«)\s?'), ''],
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
+    [re.compile(r'^\((.*)\)$'), r'\1'],
 ]
 ROMAN_CHARS = 'XVI'
 NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")

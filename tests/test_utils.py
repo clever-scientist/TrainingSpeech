@@ -40,6 +40,7 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
         'Pas de gloire, Cesare Bordone !…',
         'Allons, c’est fini.'
     ]),
+    ('(foo bar.)', ['foo bar.']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert utils.cleanup_document(paragraph).split('\n') == expected_sentences
