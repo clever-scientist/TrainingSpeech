@@ -23,7 +23,7 @@ def source_info(name: str) -> dict:
     approved_dur = sum(f['end'] - f['begin'] for f in approved)
     disabled_dur = sum(f['end'] - f['begin'] for f in fragments if f.get('disabled'))
 
-    remaining_dur = todo_dur - approved_dur - disabled_dur
+    remaining_dur = round(todo_dur - approved_dur - disabled_dur, 3)
     if remaining_dur > 0:
         return dict(
             status='WIP',

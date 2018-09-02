@@ -88,9 +88,9 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             if match_end_dur:
                 silence_end, silence_duration = match_end_dur.groups()
                 silence_end, silence_duration = float(silence_end), float(silence_duration)
-                yield silence_end - silence_duration - first_silence_start, silence_end - first_silence_start
+                yield round(silence_end - silence_duration - first_silence_start, 3), round(silence_end - first_silence_start, 3)
         if last_silence_start:
-            yield last_silence_start, audio_duration(input_path)
+            yield round(last_silence_start, 3), round(audio_duration(input_path), 3)
 
     def merge_overlaps(silences: Iterator[Tuple[float, float]]) -> Iterator[Tuple[float, float]]:
         current_group = None
@@ -102,9 +102,9 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             silence_start, silence_end = silence
             assert current_group_start < current_group_end
             assert silence_start < silence_end
-            assert silence_start >= current_group_start, f'{silence_start} not gte {current_group_start}'
+            # assert silence_start >= current_group_start, f'{silence_start} not gte {current_group_start}'
             if silence_start - current_group_end <= 0.05:
-                current_group = current_group_start, max(current_group_end, silence_end)
+                current_group = min(silence_start, current_group_start), max(current_group_end, silence_end)
                 continue
             yield current_group
             current_group = silence

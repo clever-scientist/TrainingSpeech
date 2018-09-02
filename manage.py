@@ -66,7 +66,8 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @cli.command()
 @click.argument('source_name')
 @click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
-def check_alignment(source_name, restart):
+@click.option('-s', '--speed', default=1.3, help='set audio speed')
+def check_alignment(source_name, restart, speed):
     import inquirer
     source = utils.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
@@ -136,7 +137,7 @@ def check_alignment(source_name, restart):
                 cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
             global audio_player
 
-            with sox.play(path_to_audio, speed=1.3) as player:
+            with sox.play(path_to_audio, speed=speed) as player:
                 audio_player = player
 
         def play_audio_slow():
@@ -146,7 +147,7 @@ def check_alignment(source_name, restart):
                 cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
             global audio_player
 
-            with sox.play(path_to_audio, speed=1.) as player:
+            with sox.play(path_to_audio) as player:
                 audio_player = player
 
         todo.add(pool.submit(play_audio))
@@ -159,6 +160,16 @@ def check_alignment(source_name, restart):
             return new_text
 
         def ask_what_next():
+            current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
+            if current_silence:
+                prev_silence_start, prev_silence_end = silences[silences.index(current_silence) - 1]
+                next_silence_start, next_silence_end = silences[silences.index(current_silence) + 1]
+            else:
+                prev_silence_start, prev_silence_end = next((s for s in reversed(silences) if s[1] <= fragment['end']))
+                next_silence_start, next_silence_end = next((s for s in silences if s[0] >= fragment['end']))
+
+            can_cut_on_prev_silence = prev_silence_start > fragment['begin']
+
             try:
                 next_: str = inquirer.prompt([
                     inquirer.List(
@@ -167,7 +178,7 @@ def check_alignment(source_name, restart):
                         choices=(
                                 ['continue', 'repeat'] +
                                 (['go_back'] if prev_fragment else []) +
-                                (['wrong_end__cut_on_previous_silence'] if prev_fragment else []) +
+                                (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
                                 (['wrong_end__cut_on_next_silence'] if next_fragment else []) +
                                 (['merge_previous'] if index > 0 else []) +
                                 ['wrong_text'] +
@@ -212,11 +223,6 @@ def check_alignment(source_name, restart):
                     todo.add(pool.submit(play_audio))
                     todo.add(pool.submit(ask_what_next))
             elif next_ == 'wrong_end__cut_on_previous_silence':
-                current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
-                if current_silence:
-                    prev_silence_start, prev_silence_end = silences[silences.index(current_silence) - 1]
-                else:
-                    prev_silence_start, prev_silence_end = next((s for s in reversed(silences) if s[1] <= fragment['end']))
                 fragment['end'] = round(min(prev_silence_start + 0.5, prev_silence_end), 3)
                 fragment['end_forced'] = True
                 cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
@@ -227,11 +233,6 @@ def check_alignment(source_name, restart):
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'wrong_end__cut_on_next_silence':
-                current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
-                if current_silence:
-                    next_silence_start, next_silence_end = silences[silences.index(current_silence) + 1]
-                else:
-                    next_silence_start, next_silence_end = next((s for s in silences if s[0] >= fragment['end']))
                 fragment['end'] = round(min(next_silence_start + 0.5, next_silence_end), 3)
                 fragment['end_forced'] = True
                 cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
@@ -390,15 +391,15 @@ def stats():
             name,
             info['status'],
             f'{int(info["progress"] * 100)} %',
-            info['approved_duration'],
             info['approved_count'],
+            info['approved_duration'],
         ])
         total_dur += info['approved_duration']
         total_count += info['approved_count']
 
     print(tabulate(
         sources_data,
-        headers=['Source', 'Status', 'Progress', 'Approved Duration', 'Approved Count'],
+        headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches Duration'],
         tablefmt='pipe',
     ))
     print(f'\nTotal: {total_dur} with {total_count} speeches')

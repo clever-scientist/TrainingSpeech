@@ -124,6 +124,7 @@ def filter_numbers(inp):
 
 
 def extract_sentences(full_text):
+    full_text = full_text.replace('… ', '…\n')
     for line in full_text.split('\n'):
         line = line.strip()
         if line:

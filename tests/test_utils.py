@@ -35,6 +35,11 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
         'Car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.',
     ]),
     ('25.000', ['vingt-cinq mille']),
+    ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
+        'La postérité ne pourra lui faire justice…',
+        'Pas de gloire, Cesare Bordone !…',
+        'Allons, c’est fini.'
+    ]),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert utils.cleanup_document(paragraph).split('\n') == expected_sentences
@@ -196,41 +201,9 @@ def test_get_alignment(filename):
         dict(begin=3.922, end=06.004, text='répondit Mercédès'),
         dict(begin=5.842, end=9.1, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
     ]),
-    #
-    ([
-        'Le repas avait été préparé au premier étage de cette même Réserve, avec la tonnelle de laquelle nous avons déjà fait connaissance.',
-        'C’était une grande salle éclairée par cinq ou six fenêtres, au-dessus de chacune desquelles (explique le phénomène qui pourra !)',
-        'était écrit le nom d’une des grandes villes de France.',
-     ], [
-        dict(
-            approved=True,
-            begin=16.663,
-            end=24.543,
-            text="Le repas avait été préparé au premier étage de cette même Réserve, avec la tonnelle de laquelle nous avons déjà fait connaissance.",
-        ),
-        dict(
-            approved=True,
-            begin=24.395,
-            end=30.569,
-            text="C’était une grande salle éclairée par cinq ou six fenêtres, au-dessus de chacune desquelles",
-        ),
-        dict(
-            approved=True,
-            begin=30.15,
-            end=32.735,
-            text="explique le phénomène qui pourra !",
-        ),
-        dict(
-            approved=True,
-            begin=32.559,
-            end=36.493,
-            text="était écrit le nom d’une des grandes villes de France.",
-        ),
-    ], []),
 ])
 def test_build_alignment(transcript, existing_alignment, expected):
-    # path_to_audio = os.path.join(CURRENT_DIR, './assets/speech.wav')
-    path_to_audio = '/tmp/1d48768531d91d422ae2db0dc7d0d04441111eb3.wav'
+    path_to_audio = os.path.join(CURRENT_DIR, './assets/speech.wav')
     generated = utils.build_alignment(
         transcript=transcript,
         path_to_audio=path_to_audio,
