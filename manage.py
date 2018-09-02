@@ -459,6 +459,7 @@ def release():
         if info['status'] == 'DONE':
             per_language_sources[metadata['language']].append(name)
     today_str = datetime.now().isoformat()[:10]
+    releases_data = []
     for language, sources in per_language_sources.items():
         release_name = f'{today_str}_{language}.zip'
         path_to_release = os.path.join(CURRENT_DIR, 'data/releases', release_name)
@@ -505,6 +506,17 @@ def release():
                 for f in fragments
             ])
             zip_file.writestr('data.csv', string_buffer.getvalue())
+            releases_data.append([
+                f'[{release_name}](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/{release_name})',
+                len(fragments),
+                timedelta(seconds=round(sum(round(f['end'] - f['begin'], 3) for f in fragments))),
+                language,
+            ])
+    print('\n' + tabulate(
+        releases_data,
+        headers=['Name', '# speeches', 'Total Duration', 'Language'],
+        tablefmt='pipe',
+    ))
 
 
 if __name__ == '__main__':

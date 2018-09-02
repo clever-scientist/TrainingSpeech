@@ -33,7 +33,7 @@ $ pipenv shell
 $ pytest
 ```
 
-## Current Stats (2018-09-01)
+## Current Stats (2018-09-02)
 | Source                    | Status   | Progress   |   # speeches | Speeches Duration   | Language   |
 |:--------------------------|:---------|:-----------|-------------:|:--------------------|:-----------|
 | LeComteDeMonteCristoChap1 | DONE     | 100 %      |          235 | 0:19:57.613000      | fr_FR      |
@@ -45,3 +45,10 @@ $ pytest
 |                           |          |            |              |                     |            |
 | TOTAL                     |          |            |         2579 | 3:25:44.183000      |            |
 | TOTAL fr_FR               |          |            |         2579 | 3:25:44.183000      |            |
+
+
+## Releases
+
+| Name                                                                                               |   # speeches | Total Duration   | Language   |
+|:---------------------------------------------------------------------------------------------------|-------------:|:-----------------|:-----------|
+| [2018-09-02_fr_FR.zip](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-02_fr_FR.zip) |         2579 | 3:25:44          | fr_FR      |
