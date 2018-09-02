@@ -21,6 +21,14 @@ from audiocorp.exceptions import WrongCutException
 
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
+
+# remove chapter number
+def replace_chapter_number(match):
+    string = match.group(1)
+    num = str(roman.fromRoman(string))
+    return f'Chapitre {num}'
+
+
 NORMALIZATIONS = [
     ['M.\u00a0', 'Monsieur '],
     ['M. ', 'Monsieur '],
@@ -41,6 +49,7 @@ NORMALIZATIONS = [
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
     [re.compile(r'^\((.*)\)$'), r'\1'],
+    [re.compile(r'^((?:X|V|I)+)(\.|$)'), replace_chapter_number],
 ]
 ROMAN_CHARS = 'XVI'
 NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")
@@ -137,13 +146,8 @@ def extract_sentences(full_text):
 def cleanup_document(full_text):
     full_text = full_text.strip()
 
-    # remove chapter number
-    def replace_chapter_number(match):
-        string = match.group(1)
-        num = str(roman.fromRoman(string))
-        return f'Chapitre {num},'
 
-    full_text = re.sub(r'^((?:X|V|I)+)\.', replace_chapter_number, full_text)
+
 
     # " ; " => '. '
     def replace_semi_colons(match):
@@ -177,7 +181,6 @@ def read_epub(path_to_epub, path_to_xhtmls=None):
             html_txt += '\n' + soup.body.get_text(separator='\n')
 
     return cleanup_document(html_txt)
-
 
 
 def cleanup_fragment(original: dict) -> dict:
