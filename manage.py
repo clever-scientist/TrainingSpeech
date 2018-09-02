@@ -181,7 +181,7 @@ def check_alignment(source_name, restart, speed):
                         'next',
                         message="\nWhat should I do ?",
                         choices=(
-                                ['continue', 'repeat'] +
+                                ['approve', 'repeat'] +
                                 (['go_back'] if prev_fragment else []) +
                                 (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
                                 (['wrong_end__cut_on_next_silence'] if next_fragment else []) +
@@ -248,8 +248,10 @@ def check_alignment(source_name, restart, speed):
                     cut_fragment_audio(next_fragment, input_file=path_to_wav, output_dir=path_to_recordings)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
-            elif next_ == 'continue':
+            elif next_ == 'approve':
                 fragment['approved'] = True
+            elif next_ == 'pass':
+                fragment.pop('approved', None)
             elif next_ == 'disable':
                 fragment['disabled'] = True
                 fragment.pop('approved', None)
