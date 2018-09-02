@@ -99,8 +99,7 @@ On l’attendait.
 Il venait de déjeuner copieusement et de bon appétit.
 Parvenu à sa place, il se pencha vers moi avec un sourire.
 J’espère, me dit-il.
-N’est-ce pas ?
-répondis-je, léger et souriant aussi.
+N’est-ce pas ? répondis-je, léger et souriant aussi.
 Oui, reprit-il.
 Je ne sais rien encore de leur déclaration, mais ils auront sans doute écarté la préméditation, et alors ce ne sera que les travaux forcés à perpétuité.
 Que dites-vous là, monsieur ?
@@ -130,8 +129,7 @@ Mais l’haleine me manqua, et je ne pus que l’arrêter rudement par le bras, 
 Non !
 Le procureur général combattit l’avocat, et je l’écoutai avec une satisfaction stupide.
 Puis les juges sortirent, puis ils rentrèrent, et le président me lut mon arrêt.
-Condamné à mort !
-dit la foule.
+Condamné à mort ! dit la foule.
 Et, tandis qu’on m’emmenait, tout ce peuple se rua sur mes pas avec le fracas d’un édifice qui se démolit.
 Moi, je marchais, ivre et stupéfait.
 Une révolution venait de se faire en moi.
@@ -190,18 +188,32 @@ Ils me content leurs tours, ce serait à faire horreur, mais je sais qu’ils se
 Ils m’apprennent à parler argot, à rouscailler bigorne, comme ils disent.
 C’est toute une langue entée sur la langue générale comme une espèce d’excroissance hideuse, comme une verrue.
 Quelquefois une énergie singulière, un pittoresque effrayant.
-il y a du raisiné sur le trimar (du sang sur le chemin), épouser la veuve (être pendu), comme si la corde du gibet était veuve de tous les pendus.
+il y a du raisiné sur le trimar
+du sang sur le chemin
+épouser la veuve
+être pendu
+comme si la corde du gibet était veuve de tous les pendus.
 La tête d’un voleur a deux noms.
 la sorbonne, quand elle médite, raisonne et conseille le crime.
 La tronche, quand le bourreau la coupe.
 Quelquefois de l’esprit de vaudeville.
-un cachemire d’osier (une hotte de chiffonnier), la menteuse (la langue).
-Et puis partout, à chaque instant, des mots bizarres, mystérieux, laids et sordides, venus on ne sait d’où.
-le taule (le bourreau), la cône (la mort), la placarde (la place des exécutions).
+un cachemire d’osier
+une hotte de chiffonnier
+la menteuse
+la langue
+Et puis partout, à chaque instant, des mots bizarres, mystérieux, laids et sordides, venus d'on ne sait où.
+le taule
+le bourreau
+la cône
+la mort
+la placarde
+la place des exécutions
 On dirait des crapauds et des araignées.
 Quand on entend parler cette langue, cela fait l’effet de quelque chose de sale et de poudreux, d’une liasse de haillons que l’on secouerait devant vous.
 Du moins, ces hommes-là me plaignent, ils sont les seuls.
-Les geôliers, les guichetiers, les porte-clefs — je ne leur en veux pas — causent et rient, et parlent de moi, devant moi, comme d’une chose.
+Les geôliers, les guichetiers, les porte-clefs
+je ne leur en veux pas
+ils causent et rient, et parlent de moi, devant moi, comme d’une chose.
 Chapitre six
 Je me suis dit.
 Puisque j’ai le moyen d’écrire, pourquoi ne le ferais-je pas ?
@@ -278,8 +290,7 @@ Trois orphelines de différente espèce.
 Trois veuves du fait de la loi.
 J’admets que je sois justement puni.
 Ces innocentes, qu’ont-elles fait ?
-N’importe.
-On les déshonore, on les ruine.
+N’importe. On les déshonore, on les ruine.
 C’est la justice.
 Ce n’est pas que ma pauvre vieille mère m’inquiète.
 Elle a soixante quatre ans, elle mourra du coup.
@@ -304,7 +315,7 @@ c’est ainsi que cela s’appelle
 Du reste, pas de fenêtres, pas même de soupirail.
 Une porte où le fer cache le bois.
 Je me trompe.
-Au centre de la porte, vers le haut, une ouverture de neuf pouces carrés, coupée d’une grille en croix, et que le guichetier peut fermer la nuit.
+À cette porte, vers le haut, une ouverture de neuf pouces carrés, coupée d’une grille en croix, et que le guichetier peut fermer pour la nuit.
 Au-dehors, un assez long corridor éclairé, aéré au moyen de soupiraux étroits au haut du mur et divisé en compartiments de maçonnerie qui communiquent entre eux par une série de portes cintrées et basses.
 Chacun de ces compartiments sert en quelque sorte d’antichambre à un cachot pareil au mien.
 C’est dans ces cachots que l’on met les forçats condamnés par le directeur de la prison à des peines de discipline.
@@ -338,7 +349,7 @@ Papavoine.
 Le P majuscule est brodé d’arabesques et enjolivé avec soin.
 Un couplet d’une chanson obscène.
 Un bonnet de liberté sculpté assez profondément dans la pierre, avec ceci dessous.
-— Bories.
+Bories.
 La République.
 C’était un des quatre sous-officiers de La Rochelle.
 Pauvre jeune homme !
@@ -444,7 +455,7 @@ La plupart avaient des espèces de chapeaux tressés de leurs propres mains avec
 Ceux-là étaient plus applaudis encore.
 Un, surtout, excita des transports d’enthousiasme.
 un jeune homme de dix-sept ans, qui avait un visage de jeune fille.
-Il sortait du cachot, où il était au secret depuis huit jours.
+Il était sorti du cachot, où il était au secret depuis huit jours.
 De sa botte de paille il s’était fait un vêtement qui l’enveloppait de la tête aux pieds, et il entra dans la cour en faisant la roue sur lui-même avec l’agilité d’un serpent.
 C’était un baladin condamné pour vol.
 Il y eut une rage de battements de mains et de cris de joie.
@@ -513,14 +524,11 @@ J’observais ce spectacle étrange avec une curiosité si avide, si palpitante,
 Un profond sentiment de pitié me remuait jusqu’aux entrailles, et leurs rires me faisaient pleurer Tout à coup, à travers la rêverie profonde où j’étais tombé, je vis la ronde hurlante s’arrêter et se taire.
 Puis tous les yeux se tournèrent vers la fenêtre que j’occupais.
 Le condamné !
-le condamné !
-crièrent-ils tous en me montrant du doigt.
+le condamné ! crièrent-ils tous en me montrant du doigt.
 Et les explosions de joie redoublèrent.
 Je restai pétrifié.
 J’ignore d’où ils me connaissaient et comment ils m’avaient reconnu.
-Bonjour !
-bonsoir !
-me crièrent-ils avec leur ricanement atroce.
+Bonjour ! bonsoir ! me crièrent-ils avec leur ricanement atroce.
 Un des plus jeunes, condamné aux galères perpétuelles, face luisante et plombée, me regarda d’un air d’envie en disant.
 Il est heureux !
 il sera rogné !
@@ -589,8 +597,7 @@ Tout ce spectacle s’évanouit comme une fantasmagorie.
 On entendit s’affaiblir par degrés dans l’air le bruit lourd des roues et des pieds des chevaux sur la route pavée de Fontainebleau, le claquement des fouets, le cliquetis des chaînes, et les hurlements du peuple qui souhaitait malheur au voyage des galériens.
 Et c’est là pour eux le commencement !
 Que me disait-il donc, l’avocat ?
-Les galères !
-Ah !
+Les galères ! Ah !
 oui, plutôt mille fois la mort !
 plutôt l’échafaud que le bagne, plutôt le néant que l’enfer.
 Plutôt livrer mon cou au couteau de Guillotin qu’au carcan de la chiourme !
@@ -1080,8 +1087,7 @@ Un friauche.
 Un friauche !
 Qu’est-ce que cela veut dire ?
 Cette question a redoublé sa gaieté.
-Cela veut dire, s’est-il écrié au milieu d’un éclat de rire, que le taule jouera au panier avec ma sorbonne dans six semaines, comme il va faire avec ta tronche dans six heures.
-Ha !
+Cela veut dire, s’est-il écrié au milieu d’un éclat de rire, que le taule jouera au panier avec ma sorbonne dans six semaines, comme il va faire avec ta tronche dans six heures. Ha !
 ha !
 il paraît que tu comprends maintenant.
 En effet, j’étais pâle, et mes cheveux se dressaient.
@@ -1174,8 +1180,7 @@ Mille dieux !
 j’ai envie de ne pas me pourvoir, si l’on veut me faucher aujourd’hui avec toi.
 Le même prêtre nous servira à tous deux.
 Ça m’est égal d’avoir tes restes.
-Tu vois que je suis un bon garçon.
-Hein !
+Tu vois que je suis un bon garçon. Hein !
 dis, veux-tu ?
 d’amitié !
 Il a encore fait un pas pour s’approcher de moi.
@@ -1257,8 +1262,7 @@ Puis de ce qui restera, on en mettra plein une bière, et le tout ira à Clamart
 Voilà ce qu’ils vont faire de ton père, ces hommes dont aucun ne me hait, qui tous me plaignent et tous pourraient me sauver.
 Ils vont me tuer.
 Comprends-tu cela, Marie ?
-Me tuer de sang-froid, en cérémonie, pour le bien de la chose !
-Ah !
+Me tuer de sang-froid, en cérémonie, pour le bien de la chose ! Ah !
 grand Dieu !
 Pauvre petite !
 ton père qui t’aimait tant, ton père qui baisait ton petit cou blanc et parfumé, qui passait la main sans cesse dans les boucles de tes cheveux comme sur de la soie, qui prenait ton joli visage rond dans sa main, qui te faisait sauter sur ses genoux, et le soir joignait tes deux petites mains pour prier Dieu !
@@ -1385,8 +1389,7 @@ On l’avertit la veille qu’il y aura quelqu’un à consoler le lendemain à 
 Il demande ce que c’est, galérien ou supplicié ?
 en relit la page.
 Et puis il vient.
-De cette façon, il advient que ceux qui vont à Toulon et ceux qui vont à la Grève sont un lieu commun pour lui, et qu’il est un lieu commun pour eux.
-Oh !
+De cette façon, il advient que ceux qui vont à Toulon et ceux qui vont à la Grève sont un lieu commun pour lui, et qu’il est un lieu commun pour eux. Oh !
 qu’on m’aille donc, au lieu de cela, chercher quelque jeune vicaire, quelque vieux curé, au hasard, dans la première paroisse venue.
 Qu’on le prenne au coin de son feu, lisant son livre et ne s’attendant à rien, et qu’on lui dise.
 Il y a un homme qui va mourir, et il faut que ce soit vous qui le consoliez.
@@ -1629,8 +1632,7 @@ Les yeux me cuisent comme si j’étais dans la fumée.
 J’ai mal dans les coudes.
 Encore deux heures et quarante-cinq minutes, et je serai guéri.
 Chapitre trente-huit
-Ils disent que ce n’est rien, qu’on ne souffre pas, que c’est une fin douce, que la mort de cette façon est bien simplifiée.
-Eh !
+Ils disent que ce n’est rien, qu’on ne souffre pas, que c’est une fin douce, que la mort de cette façon est bien simplifiée. Eh !
 qu’est-ce donc que cette agonie de six semaines et ce râle de tout un jour ?
 Qu’est-ce que les angoisses de cette journée irréparable, qui s’écoule si lentement et si vite ?
 Qu’est-ce que cette échelle de tortures qui aboutit à l’échafaud ?
@@ -1822,8 +1824,7 @@ Ne vouloir de consolation que de lui, et qu’il soit le seul qui ne sache pas q
 Marie, ai-je repris, as-tu un papa ?
 Oui, monsieur, a dit l’enfant.
 Eh bien, où est-il ?
-Elle a levé ses grands yeux étonnés.
-Ah !
+Elle a levé ses grands yeux étonnés. Ah !
 vous ne savez donc pas ?
 il est mort.
 Puis elle a crié.
@@ -1874,8 +1875,7 @@ Ma violence l’avait effrayée.
 Elle pleurait presque.
 Tout à coup elle m’a dit.
 Rendez-moi donc mon papier, tiens !
-c’est pour jouer Je l’ai remise à sa bonne.
-Emportez-la.
+c’est pour jouer Je l’ai remise à sa bonne. Emportez-la.
 Et je suis retombé sur ma chaise, sombre, désert, désespéré.
 À présent ils devraient venir.
 Je ne tiens plus à rien.
@@ -1883,8 +1883,7 @@ La dernière fibre de mon cœur est brisée.
 Je suis bon pour ce qu’ils vont faire.
 XLIII
 Le prêtre est bon, le gendarme aussi.
-Je crois qu’ils ont versé une larme quand j’ai dit qu’on m’emportât mon enfant.
-C’est fait.
+Je crois qu’ils ont versé une larme quand j’ai dit qu’on m’emportât mon enfant. C’est fait.
 Maintenant il faut que je me roidisse en moi-même, et que je pense fermement au bourreau, à la charrette, aux gendarmes, à la foule sur le pont, à la foule sur le quai, à la foule aux fenêtres, et à ce qu’il y aura exprès pour moi sur cette lugubre place de Grève, qui pourrait être pavée des têtes qu’elle a vu tomber.
 Je crois que j’ai encore une heure pour m’habituer à tout cela.
 XLIV
@@ -2090,8 +2089,7 @@ Je lui ai demandé ma grâce en joignant les deux mains et en me traînant sur l
 Il m’a répondu, en souriant fatalement, si c’est là tout ce que j’avais à lui dire.
 Ma grâce !
 ma grâce !
-ai-je répété, ou, par pitié, cinq minutes encore !
-Qui sait ?
+ai-je répété, ou, par pitié, cinq minutes encore ! Qui sait ?
 elle viendra peut-être !
 Cela est si horrible à mon âge, de mourir ainsi !
 Des grâces qui arrivent au dernier moment, on l’a vu souvent.
@@ -2104,14 +2102,12 @@ ou je me défends !
 je mords !
 Le juge et le bourreau sont sortis.
 Je suis seul.
-Seul avec deux gendarmes.
-Oh !
+Seul avec deux gendarmes. Oh !
 l’horrible peuple avec ses cris d’hyène.
 Qui sait si je ne lui échapperai pas ?
 si je ne serai pas sauvé ?
 si ma grâce ?…
-Il est impossible qu’on ne me fasse pas grâce !
-Ah !
+Il est impossible qu’on ne me fasse pas grâce ! Ah !
 les misérables !
 il me semble qu’on monte l’escalier.
 QUATRE HEURES
