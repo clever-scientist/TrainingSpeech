@@ -361,8 +361,9 @@ def check_alignment(source_name, restart, speed):
 
 
 MAPPINGS = [
-    (os.path.join(CURRENT_DIR, 's3://audiocorp/epubs/'), os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
-    (os.path.join(CURRENT_DIR, 's3://audiocorp/mp3/'), os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
+    ('s3://audiocorp/epubs/', os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
+    ('s3://audiocorp/mp3/', os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
+    ('s3://audiocorp/releases/', os.path.join(CURRENT_DIR, 'data/releases/'), 'releases'),
 ]
 
 
@@ -370,9 +371,12 @@ MAPPINGS = [
 @click.option('-s', '--source_name', default=None)
 def download(source_name):
     for s3, local, key in MAPPINGS:
+        if key == 'releases':
+            continue
         local = os.path.abspath(local)
         options = ''
         if source_name:
+
             source = audiocorp.get_source(source_name)
             options += f'--exclude \'*\' --include \'{source[key]}\' '
 
@@ -386,8 +390,10 @@ def download(source_name):
 def upload(source_name):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
-        options = ''
+        options = '--exclude .gitkeep '
         if source_name:
+            if key == 'releases':
+                continue
             source = audiocorp.get_source(source_name)
             options += f'--exclude \'*\' --include \'{source[key]}\' '
 
@@ -480,16 +486,15 @@ def release():
                 bar.update(1)
 
             with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
-                def _cut(fragment: dict):
+                for fragment in fragments:
                     fragment_audio_path = cut_fragment_audio(fragment, fragment['source_file'], '/tmp/')
                     archive_audio_path = f'{fragment["name"]}.wav'
                     fragment.update(
                         path=archive_audio_path,
                     )
                     zip_file.write(fragment_audio_path, arcname=archive_audio_path)
+                    os.unlink(fragment_audio_path)
                     bar.update(1)
-                for f in fragments:
-                    _cut(f)
 
             # create CSV
             string_buffer = io.StringIO()
