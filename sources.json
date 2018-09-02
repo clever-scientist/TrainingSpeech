@@ -1,6 +1,6 @@
 {
   "LeComteDeMonteCristoChap1": {
-    "audio_licence": "Creative Commons",
+    "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
     "audio": "Le-Comte-de-Monte-Cristo-T01-Chapitre001.mp3",
     "ebook_licence": "Public domain",
@@ -9,7 +9,7 @@
     "ebook_parts": ["part1.xhtml"]
   },
   "LeComteDeMonteCristoChap2": {
-    "audio_licence": "Creative Commons",
+    "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
     "audio": "Le-Comte-de-Monte-Cristo-T01-Chapitre002.mp3",
     "ebook_licence": "Public domain",
@@ -18,7 +18,7 @@
     "ebook_parts": ["part2.xhtml"]
   },
   "LeComteDeMonteCristoChap3": {
-    "audio_licence": "Creative Commons",
+    "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
     "audio": "Le-Comte-de-Monte-Cristo-T01-Chapitre003.mp3",
     "ebook_licence": "Public domain",
@@ -27,7 +27,7 @@
     "ebook_parts": ["part3.xhtml"]
   },
   "LeComteDeMonteCristoChap4": {
-    "audio_licence": "Creative Commons",
+    "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
     "audio": "Le-Comte-de-Monte-Cristo-T01-Chapitre004.mp3",
     "ebook_licence": "Public domain",
@@ -36,12 +36,21 @@
     "ebook_parts": ["part4.xhtml"]
   },
   "LeComteDeMonteCristoChap5": {
-    "audio_licence": "Creative Commons",
+    "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/alexandre-dumas-le-comte-de-monte-cristo.html",
     "audio": "Le-Comte-de-Monte-Cristo-T01-Chapitre005.mp3",
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
     "ebook_parts": ["part5.xhtml"]
+  },
+  "LaGloireDuComacchio": {
+    "audio_licence": "CC-BY-SA|Art Libre",
+    "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/maurice-renard-la-gloire-du-comacchio.php",
+    "audio": "LaGloireDuComacchio.mp3",
+    "ebook_licence": "Public domain",
+    "ebook_page": "https://www.atramenta.net/lire/la-gloire-du-comacchio/34556",
+    "ebook": "La_gloire_du_comacchio.epub",
+    "ebook_parts": ["part1.xhtml"]
   }
 }
