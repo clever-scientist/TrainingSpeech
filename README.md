@@ -24,6 +24,7 @@
 ## Dev setup 
 
 ```sh
+$ sudo apt-get install -y ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox libsqlite3-dev
 $ git clone git@gitlab.com:nicolaspanel/AudioCorp.git
 $ pip3 install --user pipenv
 $ cd AudioCorp
