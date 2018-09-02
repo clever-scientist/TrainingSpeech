@@ -7,7 +7,9 @@ class QuitException(Exception):
 
 
 class MergeException(Exception):
-    pass
+    def __init__(self, left, right):
+        self.left = left
+        self.right = right
 
 
 class WrongCutException(Exception):

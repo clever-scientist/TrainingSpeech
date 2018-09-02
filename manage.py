@@ -180,8 +180,9 @@ def check_alignment(source_name, restart, speed):
                                 (['go_back'] if prev_fragment else []) +
                                 (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
                                 (['wrong_end__cut_on_next_silence'] if next_fragment else []) +
-                                (['merge_previous'] if index > 0 else []) +
-                                ['wrong_text'] +
+                                (['merge_with_previous'] if prev_fragment else []) +
+                                (['merge_with_next'] if next_fragment else []) +
+                                ['edit_text'] +
                                 (['enable'] if fragment.get('disabled') else ['disable']) +
                                 ['quit']),
                     ),
@@ -189,7 +190,7 @@ def check_alignment(source_name, restart, speed):
             except TypeError:
                 raise exceptions.QuitException
             except Exception:
-                next_ = 'continue'
+                next_ = 'merge_with_next'
 
             global audio_player
             try:
@@ -204,7 +205,7 @@ def check_alignment(source_name, restart, speed):
                 prev_fragment.pop('disabled', None)
                 prev_fragment.pop('approved', None)
                 raise exceptions.GoBackException
-            elif next_ == 'wrong_text':
+            elif next_ == 'edit_text':
                 new_text = ask_right_text()
                 fragment['text'] = new_text
                 if len(new_text.split('\n')) > 1:
@@ -252,8 +253,10 @@ def check_alignment(source_name, restart, speed):
                 fragment.pop('disabled', None)
             elif next_ == 'quit':
                 raise exceptions.QuitException
-            elif next_ == 'merge_previous':
-                raise exceptions.MergeException
+            elif next_ == 'merge_with_previous':
+                raise exceptions.MergeException(left=prev_fragment, right=fragment)
+            elif next_ == 'merge_with_next':
+                raise exceptions.MergeException(left=fragment, right=next_fragment)
             else:
                 raise NotImplementedError
 
@@ -290,14 +293,20 @@ def check_alignment(source_name, restart, speed):
         except exceptions.QuitException:
             audio_player.kill()
             exit(1)
-        except exceptions.MergeException:
-            prev_fragment = alignment[i - 1]
-            fragment['begin'] = prev_fragment['begin']
-            fragment['text'] = f'{prev_fragment["text"]} {fragment["text"]}'
-            fragment['duration'] = fragment['end'] - fragment['begin']
-            cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
-            alignment = alignment[:i-1] + alignment[i:]
-            i -= 2
+        except exceptions.MergeException as e:
+            left = e.left
+            right = e.right
+            right['begin'] = left['begin']
+            left['end'] = right['end']
+            left['text'] = right['text'] = f'{left["text"]} {right["text"]}'
+            cut_fragment_audio(right, input_file=path_to_wav, output_dir=path_to_recordings)
+            if fragment is right:
+                alignment = alignment[:i - 1] + alignment[i:]
+                i -= 2
+            else:
+                alignment = alignment[:i] + alignment[i + 1:]
+                i -= 1
+
         except exceptions.SplitException:
             new_alignment = utils.get_alignment(
                 path_to_audio,
