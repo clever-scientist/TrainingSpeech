@@ -1,6 +1,7 @@
 import json
 import os
 import subprocess
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta
 from typing import List
@@ -9,8 +10,8 @@ import click
 from tabulate import tabulate
 from termcolor import colored
 
-import audiocorpfr
-from audiocorpfr import utils, ffmpeg, sox, exceptions
+import audiocorp
+from audiocorp import utils, ffmpeg, sox, exceptions
 
 CURRENT_DIR = os.path.dirname(__file__)
 DEFAULT_SILENCE_MIN_DURATION = 0.07
@@ -25,7 +26,7 @@ def cli():
 @cli.command()
 @click.argument('source_name')
 def build_transcript(source_name):
-    source = audiocorpfr.get_source(source_name)
+    source = audiocorp.get_source(source_name)
     path_to_epub = os.path.join(CURRENT_DIR, 'data/epubs/', source['ebook'])
 
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
@@ -69,7 +70,7 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
 def check_alignment(source_name, restart, speed):
     import inquirer
-    source = audiocorpfr.get_source(source_name)
+    source = audiocorp.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
@@ -190,7 +191,7 @@ def check_alignment(source_name, restart, speed):
             except TypeError:
                 raise exceptions.QuitException
             except Exception:
-                next_ = 'merge_with_next'
+                next_ = 'quit'
 
             global audio_player
             try:
@@ -291,7 +292,10 @@ def check_alignment(source_name, restart, speed):
             i -= 1
             continue
         except exceptions.QuitException:
-            audio_player.kill()
+            try:
+                audio_player.kill()
+            except:
+                pass
             exit(1)
         except exceptions.MergeException as e:
             left = e.left
@@ -311,6 +315,7 @@ def check_alignment(source_name, restart, speed):
             new_alignment = utils.get_alignment(
                 path_to_audio,
                 transcript=fragment['text'].split('\n'),
+                language=source['language'],
             )
             for nf in new_alignment:
                 nf["begin"] += fragment["begin"]
@@ -353,8 +358,8 @@ def check_alignment(source_name, restart, speed):
 
 
 MAPPINGS = [
-    (os.path.join(CURRENT_DIR, 's3://audiocorpfr/epubs/'), os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
-    (os.path.join(CURRENT_DIR, 's3://audiocorpfr/mp3/'), os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
+    (os.path.join(CURRENT_DIR, 's3://audiocorp/epubs/'), os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
+    (os.path.join(CURRENT_DIR, 's3://audiocorp/mp3/'), os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
 ]
 
 
@@ -365,7 +370,7 @@ def download(source_name):
         local = os.path.abspath(local)
         options = ''
         if source_name:
-            source = audiocorpfr.get_source(source_name)
+            source = audiocorp.get_source(source_name)
             options += f'--exclude \'*\' --include \'{source[key]}\' '
 
         sync_cmd = f'aws s3 sync {options}{s3} {local}'
@@ -380,7 +385,7 @@ def upload(source_name):
         local = os.path.abspath(local)
         options = ''
         if source_name:
-            source = utils.get_source(source_name)
+            source = audiocorp.get_source(source_name)
             options += f'--exclude \'*\' --include \'{source[key]}\' '
 
         sync_cmd = f'aws s3 sync {options}{local} {s3}'
@@ -390,28 +395,50 @@ def upload(source_name):
 
 @cli.command()
 def stats():
-    sources = utils.read_sources()
+    sources = audiocorp.sources()
     sources_data = []
     total_dur = timedelta(seconds=0)
     total_count = 0
-    for name, _ in sources.items():
-        info = audiocorpfr.source_info(name)
+    per_language_count = defaultdict(float)
+    per_language_dur = defaultdict(timedelta)
+    for name, metadata in sources.items():
+        info = audiocorp.source_info(name)
         sources_data.append([
             name,
             info['status'],
             f'{int(info["progress"] * 100)} %',
             info['approved_count'],
             info['approved_duration'],
+            metadata['language'],
         ])
         total_dur += info['approved_duration']
         total_count += info['approved_count']
+        per_language_count[metadata['language']] += info['approved_count']
+        per_language_dur[metadata['language']] += info['approved_duration']
 
-    print(tabulate(
+    sources_data.append([])
+    sources_data.append([
+        'TOTAL',
+        ''
+        '',
+        '',
+        total_count,
+        total_dur,
+    ])
+    for language, count in per_language_count.items():
+        sources_data.append([
+            f'TOTAL {language}',
+            ''
+            '',
+            '',
+            count,
+            per_language_dur[language],
+        ])
+    print('\n' + tabulate(
         sources_data,
-        headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches Duration'],
+        headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches Duration', 'Language'],
         tablefmt='pipe',
     ))
-    print(f'\nTotal: {total_dur} with {total_count} speeches')
 
 
 if __name__ == '__main__':

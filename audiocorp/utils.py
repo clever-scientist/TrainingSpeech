@@ -16,8 +16,8 @@ from aeneas.executetask import ExecuteTask
 from aeneas.task import Task
 from datadiff import diff
 
-from audiocorpfr import sox
-from audiocorpfr.exceptions import WrongCutException
+from audiocorp import sox
+from audiocorp.exceptions import WrongCutException
 
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
@@ -277,7 +277,12 @@ def is_float(x: str):
         return False
 
 
-def get_alignment(path_to_audio_file: str, transcript: List[str], force=False) -> List[dict]:
+def get_alignment(path_to_audio_file: str, transcript: List[str], force=False, language='fr_FR') -> List[dict]:
+    # see https://github.com/readbeyond/aeneas/blob/9d95535ad63eef4a98530cfdff033b8c35315ee1/aeneas/ttswrappers/espeakngttswrapper.py#L45  # noqa
+    language = {
+        'fr_FR': 'fra',
+        'en_US': 'eng',
+    }[language]
     full_transcript = ' '.join(transcript)
     full_transcript_hash = sha1(full_transcript.encode()).hexdigest()
     path_to_transcript = os.path.join(CURRENT_DIR, f'/tmp/{full_transcript_hash}.txt')
@@ -292,7 +297,7 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False) -
 
     if force or not os.path.isfile(path_to_alignment_tmp):
         # build alignment
-        task = Task('task_language=fra|os_task_file_format=json|is_text_type=plain')
+        task = Task(f'task_language={language}|os_task_file_format=json|is_text_type=plain')
         task.audio_file_path_absolute = os.path.abspath(path_to_audio_file)
         task.text_file_path_absolute = path_to_transcript
         task.sync_map_file_path_absolute = path_to_alignment_tmp
@@ -309,7 +314,7 @@ def get_fragment_hash(fragment: dict):
     return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'
 
 
-def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False):
+def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR'):
 
     if any(f.get('approved') or f.get('disabled') for f in existing_alignment):
         # remove approved but deprecated alignments
@@ -392,7 +397,7 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
                 fragment['end'] = round(fragment['end'] + group_start, 3)
             alignment += sub_alignment
     else:
-        existing_alignment = get_alignment(path_to_audio_file=path_to_audio, transcript=transcript)
+        existing_alignment = get_alignment(path_to_audio_file=path_to_audio, transcript=transcript, language=language)
 
         alignment = fix_alignment(existing_alignment, silences)
 

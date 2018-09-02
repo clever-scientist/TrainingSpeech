@@ -16,6 +16,6 @@ test:
    - pip install pipenv
    - pipenv install --dev --deploy
    - pipenv run python -c "import nltk; nltk.download('punkt')"
-   - pipenv run pytest --cov audiocorpfr
+   - pipenv run pytest --cov audiocorp
   coverage: '/TOTAL.*(\d{2}\.?(?:\d+)?)%/'
 

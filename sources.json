@@ -6,7 +6,8 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
-    "ebook_parts": ["part1.xhtml"]
+    "ebook_parts": ["part1.xhtml"],
+    "language": "fr_FR"
   },
   "LeComteDeMonteCristoChap2": {
     "audio_licence": "CC|Art Libre",
@@ -15,7 +16,8 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
-    "ebook_parts": ["part2.xhtml"]
+    "ebook_parts": ["part2.xhtml"],
+    "language": "fr_FR"
   },
   "LeComteDeMonteCristoChap3": {
     "audio_licence": "CC|Art Libre",
@@ -24,7 +26,8 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
-    "ebook_parts": ["part3.xhtml"]
+    "ebook_parts": ["part3.xhtml"],
+    "language": "fr_FR"
   },
   "LeComteDeMonteCristoChap4": {
     "audio_licence": "CC|Art Libre",
@@ -33,7 +36,8 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
-    "ebook_parts": ["part4.xhtml"]
+    "ebook_parts": ["part4.xhtml"],
+    "language": "fr_FR"
   },
   "LeComteDeMonteCristoChap5": {
     "audio_licence": "CC|Art Libre",
@@ -42,7 +46,8 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318",
     "ebook": "Le_comte_de_monte-cristo_tome_i.epub",
-    "ebook_parts": ["part5.xhtml"]
+    "ebook_parts": ["part5.xhtml"],
+    "language": "fr_FR"
   },
   "LaGloireDuComacchio": {
     "audio_licence": "CC-BY-SA|Art Libre",
@@ -51,6 +56,7 @@
     "ebook_licence": "Public domain",
     "ebook_page": "https://www.atramenta.net/lire/la-gloire-du-comacchio/34556",
     "ebook": "La_gloire_du_comacchio.epub",
-    "ebook_parts": ["part1.xhtml"]
+    "ebook_parts": ["part1.xhtml"],
+    "language": "fr_FR"
   }
 }

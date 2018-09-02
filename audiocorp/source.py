@@ -3,7 +3,7 @@ import os
 from datetime import timedelta
 from marshmallow import Schema, fields, ValidationError
 
-from audiocorpfr import utils
+from audiocorp import utils
 
 CURRENT_DIR = os.path.dirname(__file__)
 
@@ -28,6 +28,9 @@ class SourceSchema(Schema):
     ebook_page = fields.Url(required=True)
     ebook_parts = fields.List(fields.String, required=True)
     ebook = LocalFileField(required=True, extension='.epub', dirname=os.path.join(CURRENT_DIR, '../data/epubs/'))
+    language = fields.String(required=True, validate=lambda x: x in ['fr_FR', 'en_US'], error_messages={
+        'validator_failed': 'expect language to be one of "fr_FR" or "en_US"',
+    })
 
 
 def read_sources() -> dict:

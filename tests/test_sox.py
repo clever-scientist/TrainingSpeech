@@ -2,7 +2,7 @@ import subprocess
 
 import pytest
 
-from audiocorpfr import sox
+from audiocorp import sox
 
 
 @pytest.mark.parametrize('kwargs, expected_call', [
