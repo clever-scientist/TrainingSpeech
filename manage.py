@@ -1,10 +1,13 @@
+import csv
+import io
 import json
 import os
 import subprocess
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import timedelta
+from datetime import timedelta, datetime
 from typing import List
+from zipfile import ZipFile
 
 import click
 from tabulate import tabulate
@@ -51,6 +54,7 @@ def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
     path_to_fragment_audio = os.path.join(output_dir, f'{fragment_hash}.wav')
     if not os.path.isfile(path_to_fragment_audio):
         ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
+    return path_to_fragment_audio
 
 
 def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str):
@@ -356,7 +360,6 @@ def check_alignment(source_name, restart, speed):
     subprocess.call(f'git add {path_to_alignment} {path_to_transcript}'.split(' '))
 
 
-
 MAPPINGS = [
     (os.path.join(CURRENT_DIR, 's3://audiocorp/epubs/'), os.path.join(CURRENT_DIR, 'data/epubs/'), 'ebook'),  # epubs
     (os.path.join(CURRENT_DIR, 's3://audiocorp/mp3/'), os.path.join(CURRENT_DIR, 'data/mp3/'), 'audio'),  # mp3
@@ -433,12 +436,70 @@ def stats():
             '',
             count,
             per_language_dur[language],
+            language,
         ])
     print('\n' + tabulate(
         sources_data,
         headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches Duration', 'Language'],
         tablefmt='pipe',
     ))
+
+
+@cli.command()
+def release():
+    per_language_sources = defaultdict(list)
+    for name, metadata in audiocorp.sources().items():
+        info = audiocorp.source_info(name)
+        if info['status'] == 'DONE':
+            per_language_sources[metadata['language']].append(name)
+    today_str = datetime.now().isoformat()[:10]
+    for language, sources in per_language_sources.items():
+        release_name = f'{today_str}_{language}.zip'
+        path_to_release = os.path.join(CURRENT_DIR, 'data/releases', release_name)
+        with ZipFile(path_to_release, 'w') as zip_file:
+            # generate fragments
+            fragments = []
+            with click.progressbar(length=len(sources), show_eta=True, label='find sources') as bar:
+                for source_name in sources:
+                    metadata = audiocorp.get_source(source_name)
+                    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+                    path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
+                    # generate wav if do not exists yet
+                    with open(path_to_mp3, 'rb') as f:
+                        file_hash = utils.hash_file(f)
+                    path_to_wav = f'/tmp/{file_hash}.wav'
+                    if not os.path.exists(path_to_wav):
+                        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=16000, channels=1)
+
+                    with open(path_to_alignment) as file_:
+                        fragments += [
+                            dict(name=f'{source_name}_{i + 1:04d}', source_file=path_to_wav, **f)
+                            for i, f in enumerate(json.load(file_))
+                            if f.get('approved')
+                        ]
+                bar.update(1)
+
+            with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
+                def _cut(fragment: dict):
+                    fragment_audio_path = cut_fragment_audio(fragment, fragment['source_file'], '/tmp/')
+                    archive_audio_path = f'{fragment["name"]}.wav'
+                    fragment.update(
+                        path=archive_audio_path,
+                    )
+                    zip_file.write(fragment_audio_path, arcname=archive_audio_path)
+                    bar.update(1)
+                for f in fragments:
+                    _cut(f)
+
+            # create CSV
+            string_buffer = io.StringIO()
+            writer = csv.DictWriter(string_buffer, delimiter=';', fieldnames=['path', 'duration', 'text'])
+            writer.writeheader()
+            writer.writerows([
+                dict(path=f['path'], duration=round(f['end'] - f['begin'], 3), text=f['text'])
+                for f in fragments
+            ])
+            zip_file.writestr('data.csv', string_buffer.getvalue())
 
 
 if __name__ == '__main__':

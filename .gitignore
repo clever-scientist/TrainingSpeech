@@ -107,4 +107,4 @@ ENV/
 # data (stored on s3://audiocorp)
 data/epubs/
 data/mp3/
-data/recordings/
+data/releases/
