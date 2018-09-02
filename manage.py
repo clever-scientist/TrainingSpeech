@@ -25,7 +25,7 @@ def cli():
 @cli.command()
 @click.argument('source_name')
 def build_transcript(source_name):
-    source = utils.get_source(source_name)
+    source = audiocorpfr.get_source(source_name)
     path_to_epub = os.path.join(CURRENT_DIR, 'data/epubs/', source['ebook'])
 
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
@@ -69,7 +69,7 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
 def check_alignment(source_name, restart, speed):
     import inquirer
-    source = utils.get_source(source_name)
+    source = audiocorpfr.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
@@ -365,7 +365,7 @@ def download(source_name):
         local = os.path.abspath(local)
         options = ''
         if source_name:
-            source = utils.get_source(source_name)
+            source = audiocorpfr.get_source(source_name)
             options += f'--exclude \'*\' --include \'{source[key]}\' '
 
         sync_cmd = f'aws s3 sync {options}{s3} {local}'
