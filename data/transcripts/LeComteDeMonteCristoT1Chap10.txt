@@ -2,8 +2,7 @@ Chapitre dix
 Le petit cabinet des Tuileries.
 Abandonnons Villefort sur la route de Paris, où, grâce aux triples guides qu’il paie, il brûle le chemin et pénétrons à travers les deux ou trois salons qui le précèdent dans ce petit cabinet des Tuileries, à la fenêtre cintrée, si bien connu pour avoir été le cabinet favori de Napoléon et de Louis dix-huit, et pour être aujourd’hui celui de Louis-Philippe.
 Là, dans ce cabinet, assis devant une table de noyer qu’il avait rapportée d’Hartwell, et que, par une de ces manies familières aux grands personnages, il affectionnait tout particulièrement, le roi Louis dix-huit écoutait assez légèrement un homme de cinquante à cinquante-deux ans, à cheveux gris, à la figure aristocratique et à la mise scrupuleuse, tout en notant à la marge un volume d’Horace, édition de Gryphias, assez incorrecte quoique estimée, et qui prêtait beaucoup aux sagaces observations philologiques de Sa Majesté.
-Vous dites donc, monsieur ?
-dit le roi.
+Vous dites donc, monsieur ? dit le roi.
 Que je suis on ne peut plus inquiet, Sire.
 Vraiment ?
 auriez-vous vu en songe sept vaches grasses et sept vaches maigres ?
@@ -32,14 +31,13 @@ Un grand péril menace le roi.
 Alors, je suis accouru Sire.
 Mala ducis agi domum, continua Louis dix-huit en annotant.
 Votre Majesté m’ordonne-t-elle de ne plus insister sur ce sujet ?
-Non, mon cher duc, mais allongez la main.
+Non, mon cher, mais allongez la main.
 Laquelle ?
 Celle que vous voudrez, là-bas, à gauche.
 Ici, Sire ?
 Je vous dis à gauche et vous cherchez à droite.
 C’est à ma gauche que je veux dire.
-là.
-Vous y êtes.
+là. Vous y êtes.
 Vous devez trouver le rapport du ministre de la police en date d’hier…
 Mais, tenez voici Monsieur Dandré lui-même…
 n’est-ce pas, vous dites Monsieur Dandré ?
@@ -49,7 +47,7 @@ C’est juste, baron, reprit Louis dix-huit avec un imperceptible sourire.
 Entrez, baron, et racontez au duc ce que vous savez de plus récent sur Monsieur de Bonaparte.
 Ne nous dissimulez rien de la situation, quelque grave qu’elle soit.
 Voyons, l’île d’Elbe est-elle un volcan, et allons-nous en voir sortir la guerre flamboyante et toute hérissée.
-belle, horrida bella ?
+bella, horrida bella ?
 Monsieur Dandré se balança fort gracieusement sur le dos d’un fauteuil auquel il appuyait ses deux mains et dit.
 Votre Majesté a-t-elle bien voulu consulter le rapport d’hier ?
 Oui, oui, mais dites au duc lui-même, qui ne peut le trouver, ce que contenait le rapport.
@@ -78,8 +76,7 @@ Monsieur de Blacas demeura rêveur entre ces deux insouciances.
 Villefort, qui n’avait pas voulu tout lui dire pour qu’un autre ne lui enlevât point le bénéfice tout entier de son secret, lui en avait dit assez, cependant, pour lui donner de graves inquiétudes.
 Allons, allons, Dandré, dit Louis dix-huit, Blacas n’est point encore convaincu, passez à la conversion de l’usurpateur.
 Le ministre de la police s’inclina.
-Conversion de l’usurpateur !
-murmura le duc, regardant le roi et Dandré, qui alternaient comme deux bergers de Virgile.
+Conversion de l’usurpateur ! murmura le duc, regardant le roi et Dandré, qui alternaient comme deux bergers de Virgile.
 L’usurpateur est-il converti ?
 Absolument, mon cher duc.
 Aux bons principes.
@@ -101,9 +98,7 @@ Non, Sire, mais j’en attendais un d’heure en heure.
 Je suis sorti depuis le matin, et peut-être depuis mon absence est-il arrivé.
 Allez à la préfecture, et s’il n’y en a pas, eh bien, eh bien, continua riant Louis dix-huit, faites-en un.
 N’est-ce pas ainsi que cela se pratique ?
-Oh !
-Sire !
-dit le ministre, Dieu merci, sous ce rapport, il n’est besoin de rien inventer.
+Oh ! Sire ! dit le ministre, Dieu merci, sous ce rapport, il n’est besoin de rien inventer.
 Chaque jour encombre nos bureaux des dénonciations les plus circonstanciées, lesquelles proviennent d’une foule de pauvres hères qui espèrent un peu de reconnaissance pour des services qu’ils ne rendent pas, mais qu’ils voudraient rendre.
 Ils tablent sur le hasard, et ils espèrent qu’un jour quelque événement inattendu donnera une espèce de réalité à leurs prédictions.
 C’est bien.
@@ -121,11 +116,9 @@ Molli fugiens anhelitu.
 Vous savez, il s’agit du cerf qui fuit devant le loup.
 N’êtes-vous pas chasseur et grand louvetier ?
 Comment trouvez-vous, à ce double titre, le molli anhelitu ?
-Admirable, Sire.
-Mais mon messager est comme le cerf dont vous parlez, car il vient de faire deux cent vingt lieues en poste, et cela en trois jours à peine.
+Admirable, Sire. Mais mon messager est comme le cerf dont vous parlez, car il vient de faire deux cent vingt lieues en poste, et cela en trois jours à peine.
 C’est prendre bien de la fatigue et bien du souci, mon cher duc, quand nous avons le télégraphe qui ne met que trois ou quatre heures, et cela sans que son haleine en souffre le moins du monde.
-Ah !
-Sire, vous récompensez bien mal ce pauvre jeune homme, qui arrive de si loin et avec tant d’ardeur pour donner à Votre Majesté un avis utile.
+Ah ! Sire, vous récompensez bien mal ce pauvre jeune homme, qui arrive de si loin et avec tant d’ardeur pour donner à Votre Majesté un avis utile.
 Ne fût-ce que pour Monsieur de Salvieux, qui me le recommande, recevez-le bien, je vous en supplie.
 Monsieur de Salvieux, le chambellan de mon frère ?
 Lui-même.
@@ -133,15 +126,14 @@ En effet, il est à Marseille.
 C’est de là qu’il m’écrit.
 Vous parle-t-il donc aussi de cette conspiration ?
 Non, mais il me recommande Monsieur de Villefort, et me charge de l’introduire près de Votre Majesté.
-Monsieur de Villefort ?
-s’écria le roi.
+Monsieur de Villefort ? s’écria le roi.
 Ce messager s’appelle-t-il donc Monsieur de Villefort ?
 Oui, Sire.
 Et c’est lui qui vient de Marseille ?
 En personne.
 Que ne me disiez-vous son nom tout de suite !
 reprit le roi, en laissant percer sur son visage un commencement d’inquiétude.
-Sire, je croyais ce nom inconnu de Votre Majesté.
+Sire, je croyais que… sire je croyais ce nom inconnu de Votre Majesté.
 Non pas, non pas, Blacas.
 C’est un esprit sérieux, élevé, ambitieux surtout.
 Et, pardieu, vous connaissez de nom son père.
@@ -197,8 +189,7 @@ Sire, ils résultent d’un interrogatoire que j’ai fait subir à un homme de 
 Cet homme, marin turbulent et d’un bonapartisme qui m’était suspect, a été secrètement à l’île d’Elbe.
 Il y a vu le grand maréchal qui l’a chargé d’une mission verbale pour un bonapartiste de Paris, dont je n’ai jamais pu lui faire dire le nom.
 Mais cette mission était de charger ce bonapartiste de préparer les esprits à un retour (remarquez que c’est l’interrogatoire qui parle, Sire), à un retour qui ne peut manquer d’être prochain.
-Et où est cet homme ?
-demanda Louis dix-huit.
+Et où est cet homme ? demanda Louis dix-huit.
 En prison, Sire.
 Et la chose vous a paru grave ?
 Si grave, Sire, que cet événement m’ayant surpris au milieu d’une fête de famille, le jour même de mes fiançailles, j’ai tout quitté, fiancée et amis, tout remis à un autre temps pour venir déposer aux pieds de Votre Majesté et les craintes dont j’étais atteint et l’assurance de mon dévouement.
@@ -215,9 +206,7 @@ S’il descendait en Toscane, il mettrait le pied en pays ennemi.
 S’il descend en France, ce sera avec une poignée d’hommes, et nous en viendrons facilement à bout, exécré comme il l’est par la population.
 Rassurez-vous donc, monsieur.
 Mais ne comptez pas moins sur notre reconnaissance royale.
-Ah !
-voici Monsieur Dandré !
-s’écria le duc de Blacas.
+Ah ! voici Monsieur Dandré ! s’écria le duc de Blacas.
 En ce moment, parut en effet sur le seuil de la porte Monsieur le ministre de la Police, pâle, tremblant, et dont le regard vacillait, comme s’il eût été frappé d’un éblouissement.
 Villefort fit un pas pour se retirer.
 Mais un serrement de main de Monsieur de Blacas le retint.
