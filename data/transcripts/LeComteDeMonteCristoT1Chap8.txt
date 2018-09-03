@@ -1,4 +1,4 @@
-Chapitre huit
+Tome un, Chapitre huit
 Le château d’If.
 En traversant l’antichambre, le commissaire de police fit un signe à deux gendarmes, lesquels se placèrent, l’un à droite l’autre à gauche de Dantès.
 On ouvrit une porte qui communiquait de l’appartement du procureur du roi au palais de justice, on suivit quelque temps un de ces grands corridors sombres qui font frissonner ceux-là qui y passent, quand même ils n’ont aucun motif de frissonner.
@@ -22,8 +22,7 @@ en effet, des pas retentirent dans le corridor et s’arrêtèrent devant sa por
 Une clef tourna dans la serrure, les verrous grincèrent, et la massive barrière de chêne s’ouvrit, laissant voir, tout à coup dans la chambre sombre l’éblouissante lumière de deux torches.
 À la lueur de ces deux torches, Dantès vit briller les sabres et les mousquetons de quatre gendarmes.
 Il avait fait deux pas en avant, il demeura immobile à sa place en voyant ce surcroît de force.
-Venez-vous me chercher ?
-demanda Dantès.
+Venez-vous me chercher ? demanda Dantès.
 Oui répondit un des gendarmes.
 De la part de Monsieur le substitut du procureur du roi ?
 Mais je le pense.
@@ -31,8 +30,7 @@ Bien, dit Dantès, je suis prêt à vous suivre.
 La conviction qu’on venait le chercher de la part de Monsieur de Villefort ôtait toute crainte au malheureux jeune homme.
 il s’avança donc, calme d’esprit, libre de démarche, et se plaça de lui-même au milieu de son escorte.
 Une voiture attendait à la porte de la rue, le cocher était sur son siège, un exempt était assis près du cocher.
-Est-ce donc pour moi que cette voiture est là ?
-demanda Dantès.
+Est-ce donc pour moi que cette voiture est là ? demanda Dantès.
 C’est pour vous, répondit un des gendarmes, montez.
 Dantès voulut faire quelques observations, mais la portière s’ouvrit, il sentit qu’on le poussait.
 Il n’avait ni la possibilité ni même l’intention de faire résistance, il se trouva en un instant assis au fond de la voiture, entre deux gendarmes.
@@ -109,8 +107,8 @@ Répondez-moi donc, de grâce !
 Mais la consigne ?
 La consigne ne vous défend pas de m’apprendre ce que je saurai dans dix minutes, dans une demi heure, dans une heure peut-être.
 Seulement vous m’épargnez d’ici là des siècles d’incertitude.
-Je vous le demande, comme si vous étiez mon ami, regardez.
-je ne veux ni me révolter ni fuir.
+Je vous le demande, comme si vous étiez mon ami,
+regardez je ne veux ni me révolter ni fuir.
 D’ailleurs je ne le puis.
 où allons-nous ?
 À moins que vous n’ayez un bandeau sur les yeux, ou que vous ne soyez jamais sorti du port de Marseille, vous devez cependant deviner où vous allez ?
@@ -118,9 +116,7 @@ Non.
 Regardez autour de vous alors.
 Dantès se leva, jeta naturellement les yeux sur le point où paraissait se diriger le bateau, et à cent toises devant lui il vit s’élever la roche noire et ardue sur laquelle monte, comme une superfétation du silex, le sombre château d’If.
 Cette forme étrange, cette prison autour de laquelle règne une si profonde terreur, cette forteresse qui fait vivre depuis trois cents ans Marseille de ses lugubre traditions, apparaissant ainsi tout à coup à Dantès qui ne songeait point à elle, lui fit l’effet que fait au condamné à mort l’aspect de l’échafaud.
-Ah !
-mon Dieu !
-s’écria-t-il, le château d’If !
+Ah ! mon Dieu ! s’écria-t-il, le château d’If !
 et qu’allons nous faire là ?
 Le gendarme sourit.
 Mais on ne me mène pas là pour être emprisonné ?
@@ -141,14 +137,12 @@ Les formalités sont remplies, l’information est faite.
 Ainsi, malgré la promesse de Monsieur de Villefort ?…
 Je ne sais si Monsieur de Villefort vous a fait une promesse, dit le gendarme, mais ce que je sais, c’est que nous allons au château d’If.
 Eh bien, que faites-vous donc ?
-Holà !
-camarades, à moi !
+Holà ! camarades, à moi !
 Par un mouvement prompt comme l’éclair, qui cependant avait été prévu par l’œil exercé du gendarme, Dantès avait voulu s’élancer à la mer.
 Mais quatre poignets vigoureux le retinrent au moment où ses pieds quittaient le plancher du bateau.
 Il retomba au fond de la barque en hurlant de rage.
-Bon !
-s’écria le gendarme en lui mettant un genou sur la poitrine, bon !
-voilà comme vous tenez votre parole de marin.
+Bon ! s’écria le gendarme en lui mettant un genou sur la poitrine,
+bon ! voilà comme vous tenez votre parole de marin.
 Fiez-vous donc aux gens doucereux !
 Eh bien, maintenant, mon cher ami, faites un mouvement, un seul, et je vous loge une balle dans la tête.
 J’ai manqué à ma première consigne, mais, je vous en réponds, je ne manquerai pas à la seconde.
@@ -174,8 +168,7 @@ Et chaque fois qu’elles passaient devant deux ou trois reflets que projetait s
 On attendit là dix minutes à peu près.
 Certains que Dantès ne pouvait plus fuir, les gendarmes l’avaient lâché.
 On semblait attendre des ordres, ces ordres arrivèrent.
-Où est le prisonnier ?
-demanda une voix.
+Où est le prisonnier ? demanda une voix.
 Le voici, répondirent les gendarmes.
 Qu’il me suive, je vais le conduire à son logement.
 Allez, dirent les gendarmes en poussant Dantès.
@@ -200,8 +193,7 @@ Il lui frappa sur l’épaule, Dantès tressaillit et secoua la tête.
 N’avez-vous donc pas dormi, demanda le geôlier.
 Je ne sais pas, répondit Dantès.
 Le geôlier le regarda avec étonnement.
-N’avez-vous pas faim ?
-continua-t-il.
+N’avez-vous pas faim ? continua-t-il.
 Je ne sais pas, répondit encore Dantès.
 Voulez-vous quelque chose ?
 Je voudrais voir le gouverneur.
@@ -209,7 +201,7 @@ Le geôlier haussa les épaules et sortit.
 Dantès le suivit des yeux, tendit les mains vers la porte entrouverte, mais la porte se referma.
 Alors sa poitrine sembla se déchirer dans un long sanglot.
 Les larmes qui gonflaient sa poitrine jaillirent comme deux ruisseaux, il se précipita le front contre terre et pria longtemps, repassant dans son esprit toute sa vie passée, et se demandant à lui-même quel crime il avait commis dans cette vie, jeune encore, qui méritât une si cruelle punition.
-La journée se passa ainsi.
+Le jour se passa ainsi.
 À peine s’il mangea quelques bouchées de pain et but quelques gouttes d’eau.
 Tantôt il restait assis et absorbé dans ses pensées.
 Tantôt il tournait tout autour de sa prison comme fait un animal sauvage enfermé dans une cage de fer.
@@ -229,12 +221,10 @@ Voyons donc, dit celui-ci, un peu de courage !
 Désirez-vous quelque chose qui soit à ma disposition ?
 voyons, dites.
 Je désire parler au gouverneur.
-Eh !
-dit le geôlier avec impatience, je vous ai déjà dit que c’est impossible.
+Eh ! dit le geôlier avec impatience, je vous ai déjà dit que c’est impossible.
 Pourquoi cela, impossible ?
 Parce que, par les règlements de la prison, il n’est point permis à un prisonnier de le demander.
-Qu’y a-t-il donc de permis ici ?
-demanda Dantès.
+Qu’y a-t-il donc de permis ici ? demanda Dantès.
 Une meilleure nourriture en payant, la promenade, et quelquefois des livres.
 Je n’ai pas besoin de livres, je n’ai aucune envie de me promener et je trouve ma nourriture bonne.
 Ainsi je ne veux qu’une chose, voir le gouverneur.
@@ -248,15 +238,11 @@ Ne le demandez donc pas davantage, car il est sans exemple que, sur sa demande, 
 Seulement, soyez bien sage, on vous permettra la promenade, et il est possible qu’un jour, pendant que vous vous promènerez, le gouverneur passera.
 alors vous l’interrogerez, et, s’il veut vous répondre, cela le regarde.
 Mais, dit Dantès, combien de temps puis-je attendre ainsi sans que ce hasard se présente ?
-Ah !
-dame, dit le geôlier, un mois, trois mois, six mois, un an peut-être.
+Ah ! dame, dit le geôlier, un mois, trois mois, six mois, un an peut-être.
 C’est trop long, dit Dantès.
 Je veux le voir tout de suite.
-Ah !
-dit le geôlier, ne vous absorbez pas ainsi dans un seul désir impossible, ou, avant quinze jours, vous serez fou.
-Ah !
-tu crois ?
-dit Dantès.
+Ah ! dit le geôlier, ne vous absorbez pas ainsi dans un seul désir impossible, ou, avant quinze jours, vous serez fou.
+Ah ! tu crois ? dit Dantès.
 Oui, fou.
 C’est toujours ainsi que commence la folie.
 Nous en avons un exemple ici.
@@ -268,8 +254,7 @@ Non.
 on l’a mis au cachot.
 Écoute !
 dit Dantès, je ne suis pas un abbé, je ne suis pas fou.
-Peut-être le deviendrai-je.
-Mais, malheureusement, à cette heure, j’ai encore tout mon bon sens.
+Peut-être le deviendrai-je mais, malheureusement, à cette heure, j’ai encore tout mon bon sens.
 je vais te faire une autre proposition.
 Laquelle ?
 Je ne t’offrirai pas un million, moi, car je ne pourrais pas te le donner.
@@ -277,23 +262,16 @@ Mais je t’offrirai cent écus si tu veux, la première fois que tu iras à Mar
 pas même une lettre, deux lignes seulement.
 Si je portais ces deux lignes et que je fusse découvert, je perdrais ma place, qui est de mille livres par an, sans compter les bénéfices et la nourriture.
 Vous voyez donc bien que je serais un grand imbécile de risquer de perdre mille livres pour en gagner trois cents.
-Eh bien !
-dit Dantès, écoute et retiens bien ceci.
-si tu refuses de prévenir le gouverneur que je désire lui parler.
-Si tu refuses de porter deux lignes à Mercédès, ou tout au moins de la prévenir que je suis ici, un jour je t’attendrai derrière ma porte, et, au moment où tu entreras, je te briserai la tête avec cet escabeau.
-Des menaces !
-s’écria le geôlier en faisant un pas en arrière et en se mettant sur la défensive.
+Eh bien ! dit Dantès, écoute et retiens bien ceci.
+Si tu refuses de porter deux lignes à Mercédès ou tout au moins de la prévenir que je suis ici, un jour je t’attendrai caché derrière ma porte, et, au moment où tu entreras, je te briserai la tête avec cet escabeau.
+Des menaces ! s’écria le geôlier en faisant un pas en arrière et en se mettant sur la défensive.
 Décidément la tête vous tourne.
 L’abbé a commencé comme vous, et dans trois jours vous serez fou à lier, comme lui.
 Heureusement que l’on a des cachots au château d’If.
 Dantès prit l’escabeau, et il le fit tournoyer autour de sa tête.
-C’est bien !
-c’est bien !
-dit le geôlier.
-Eh bien !
-puisque vous le voulez absolument, on va prévenir le gouverneur.
-À la bonne heure !
-dit Dantès en reposant son escabeau sur le sol et en s’asseyant dessus, la tête basse et les yeux hagards, comme s’il devenait réellement insensé.
+C’est bien ! c’est bien ! dit le geôlier.
+Eh bien ! puisque vous le voulez absolument, on va prévenir le gouverneur.
+À la bonne heure ! dit Dantès en reposant son escabeau sur le sol et en s’asseyant dessus, la tête basse et les yeux hagards, comme s’il devenait réellement insensé.
 Le geôlier sortit, et, un instant après, rentra avec quatre soldats et un caporal.
 Par ordre du gouverneur, dit-il, descendez le prisonnier un étage au-dessous de celui-ci.
 Au cachot, alors ?
