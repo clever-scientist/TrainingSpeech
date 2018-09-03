@@ -392,7 +392,7 @@ def download(source_name):
 def upload(source_name):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
-        options = '--exclude .gitkeep '
+        options = '--exclude .gitkeep --exclude \'*.zip\' '
         if source_name:
             if key == 'releases':
                 continue

@@ -22,6 +22,7 @@ from audiocorp.exceptions import WrongCutException
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
 
+
 # remove chapter number
 def replace_chapter_number(match):
     string = match.group(1)
@@ -49,7 +50,7 @@ NORMALIZATIONS = [
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
     [re.compile(r'^\((.*)\)$'), r'\1'],
-    [re.compile(r'^((?:X|V|I)+)(\.|$)'), replace_chapter_number],
+    [re.compile(r'^L?((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
 ]
 ROMAN_CHARS = 'XVI'
 NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")

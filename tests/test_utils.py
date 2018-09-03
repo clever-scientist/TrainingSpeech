@@ -37,7 +37,9 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
         'Allons, c’est fini.'
     ]),
     ('(foo bar.)', ['foo bar.']),
-    ('I\nBicêtre.', ['Chapitre un', 'Bicêtre.'])
+    ('I\nBicêtre.', ['Chapitre un', 'Bicêtre.']),
+    ('LXCVII.', ['Chapitre quatre-vingt-dix-sept']),
+    ('XLVI.', ['Chapitre quarante-six']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')
