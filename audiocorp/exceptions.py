@@ -1,3 +1,6 @@
+from typing import List
+
+
 class GoBackException(Exception):
     pass
 
@@ -17,4 +20,7 @@ class WrongCutException(Exception):
 
 
 class SplitException(Exception):
-    pass
+    def __init__(self, start: int, end: int, new_transcript: List[str]):
+        self.start = start
+        self.end = end
+        self.new_transcript = new_transcript

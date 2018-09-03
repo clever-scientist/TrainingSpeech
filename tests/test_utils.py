@@ -25,7 +25,7 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
         'Le vingt-quatre février mille huit cent quinze, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.',
         'Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.',
     ]),
-    ('XXIV. Éblouissement.', ['Chapitre vingt-quatre', 'Éblouissement.']),
+    ('XXIV. Éblouissement.', ['Chapitre vingt-quatre Éblouissement.']),
     ('Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.', [
         'Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux.',
         'Car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.',
@@ -40,6 +40,9 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     ('I\nBicêtre.', ['Chapitre un', 'Bicêtre.']),
     ('LXCVII.', ['Chapitre quatre-vingt-dix-sept']),
     ('XLVI.', ['Chapitre quarante-six']),
+    ('qui appartient à MM. Morrel et fils.', ['qui appartient à monsieur Morrel et fils.']),
+    ('M. Panel.', ['monsieur Panel.']),
+    ('rue Coq-Héron, nº treize', ['rue Coq-Héron, numéro treize']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')
@@ -116,6 +119,14 @@ def test_is_float(input_, expected_output):
             [0, 3],  # NB: contains first speech
             [6, 7],
         ], [
+            dict(begin=1, end=5, text='a b'),
+        ]
+    ),
+    (
+        [
+            dict(begin=1, end=2, text='a'),  # NB: in the middle of first silence
+            dict(begin=1, end=5, text='b'),
+        ], [], [
             dict(begin=1, end=5, text='a b'),
         ]
     ),

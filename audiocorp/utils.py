@@ -30,7 +30,14 @@ def replace_chapter_number(match):
     return f'Chapitre {num}'
 
 
+def replace_semi_colons(match):
+    upper_char = match.group(1).upper()
+    return f'. {upper_char}'
+
+
 NORMALIZATIONS = [
+    [re.compile(r'(^| )n(?:°|º)(\s)?'), r'\1numéro\2'],
+    [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
     ['M.\u00a0', 'Monsieur '],
     ['M. ', 'Monsieur '],
     ['Mme\u00a0', 'Madame '],
@@ -51,6 +58,7 @@ NORMALIZATIONS = [
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
     [re.compile(r'^\((.*)\)$'), r'\1'],
     [re.compile(r'^L?((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
+    [re.compile(r'\s+?;\s+?(\w)'), replace_semi_colons],
 ]
 ROMAN_CHARS = 'XVI'
 NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")
@@ -147,15 +155,7 @@ def extract_sentences(full_text):
 def cleanup_document(full_text):
     full_text = full_text.strip()
 
-
-
-
-    # " ; " => '. '
-    def replace_semi_colons(match):
-        upper_char = match.group(1).upper()
-        return f'. {upper_char}'
-
-    full_text = re.sub(r'\s+?;\s+?(\w)', replace_semi_colons, full_text)
+    full_text = maybe_normalize(full_text, mapping=NORMALIZATIONS)
 
     def normalize_line(line):
         if line:
@@ -220,6 +220,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
         right['begin'] = left['begin']
         full_text = left['text'] + ' ' + right['text']
         right['text'] = left['text'] = full_text
+        return right
 
     for i, fragment in enumerate(alignment[:-1]):
         for margin in [0, 0.1, 0.3, 0.6]:
@@ -253,6 +254,14 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 merge_fragments(closest, fragment)
             else:
                 merge_fragments(fragment, closest)
+
+    current = alignment[0]
+    for next_ in alignment[1:]:
+        if current.get('merged'):
+            continue
+        if abs(current['begin'] - next_['begin']) < EPS:
+            merge_fragments(current, next_)
+        current = next_
 
     return [f for f in alignment if not f.get('merged')]
 
@@ -395,6 +404,7 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
                         if e > group_start and s < group_end
                     ],
                     generate_labels=False,
+                    language=language,
                 )
             for fragment in sub_alignment:
                 fragment['begin'] = round(fragment['begin'] + group_start, 3)
