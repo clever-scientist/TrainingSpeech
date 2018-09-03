@@ -464,7 +464,7 @@ def release():
     per_language_sources = defaultdict(list)
     for name, metadata in audiocorp.sources().items():
         info = audiocorp.source_info(name)
-        if info['status'] == 'DONE':
+        if info['status'] in {'DONE', 'WIP'}:
             per_language_sources[metadata['language']].append(name)
     today_str = datetime.now().isoformat()[:10]
     releases_data = []
