@@ -611,14 +611,14 @@ en effet, je suis jeune, sain et fort.
 Le sang coule librement dans mes veines.
 Tous mes membres obéissent à tous mes caprices.
 Je suis robuste de corps et d’esprit, constitué pour une longue vie.
-Oui, tout cela est vrai.
+Oui,
+tout cela est vrai.
 Et cependant j’ai une maladie, une maladie mortelle, une maladie faite de la main des hommes.
 Depuis que je suis sorti de l’infirmerie, il m’est venu une idée poignante, une idée à me rendre fou, c’est que j’aurais peut-être pu m’évader si l’on m’y avait laissé.
 Ces médecins, ces sœurs de charité, semblaient prendre intérêt à moi.
 Mourir si jeune et d’une telle mort !
 On eût dit qu’ils me plaignaient, tant ils étaient empressés autour de mon chevet.
-Bah !
-curiosité !
+Bah ! curiosité !
 Et puis, ces gens qui guérissent vous guérissent bien d’une fièvre, mais non d’une sentence de mort.
 Et pourtant cela leur serait si facile !
 une porte ouverte !
@@ -626,7 +626,7 @@ Qu’est-ce que cela leur ferait ?
 Plus de chance maintenant !
 Mon pourvoi sera rejeté, parce que tout est en règle.
 Les témoins ont bien témoigné, les plaideurs ont bien plaidé, les juges ont bien jugé.
-Je n’y compte pas, à moins que…
+Je n’y compte plus, à moins que…
 Non, folie !
 plus d’espérance !
 Le pourvoi, c’est une corde qui vous tient suspendu au-dessus de l’abîme, et qu’on entend craquer à chaque instant, jusqu’à ce qu’elle se casse.
@@ -637,8 +637,7 @@ Et par qui ?
 et pourquoi ?
 et comment ?
 Il est impossible qu’on me fasse grâce.
-L’exemple !
-comme ils disent.
+L’exemple ! comme ils disent.
 Je n’ai plus que trois pas à faire.
 Bicêtre, la Conciergerie, la Grève.
 Chapitre seize
@@ -677,11 +676,9 @@ Que je suis enfourraillé,
 Lirlonfa maluré.
 Ma largue tout en colère,
 Lirlonfa malurette,
-M’dit.
-Qu’as-tu donc morfillé ?
+M’dit. Qu’as-tu donc morfillé ?
 Lirlonfa maluré.
-M’dit.
-Qu’as-tu donc morfillé ?
+M’dit. Qu’as-tu donc morfillé ?
 Maluré.
 J’ai fait suer un chêne,
 Lirlonfa malurette,
@@ -703,11 +700,8 @@ Pour tn’faire défourraille
 Lirlonfa maluré.
 Pour tn’faire défourraille
 Maluré.
-Ah !
-si j’en défourraille,
-Lirlonfa malurette,
-Ma largue j’entiferai,
-Lirlonfa maluré.
+Ah ! si j’en défourraille, Lirlonfa malurette,
+Ma largue j’entiferai, Lirlonfa maluré.
 J’ii ferai porter fontange,
 Lirlonfa malurette,
 Et souliers galuchés,
@@ -715,8 +709,7 @@ Lirlonfa maluré.
 Et souliers galuchés, Maluré.
 Maïs grand dabe qui s’fâche,
 Lirlonfa malurette,
-Dit.
-— Par mon caloquet,
+Dit. Par mon caloquet,
 Lirlonfa maluré,
 J’ii ferai danser une danse,
 Lirlonfa malurette,
@@ -733,16 +726,13 @@ Je ne saurais rendre ce que j’éprouvais.
 J’étais à la fois blessé et caressé.
 Le patois de la caverne et du bagne, cette langue ensanglantée et grotesque, ce hideux argot marié à une voix de jeune fille, gracieuse transition de la voix d’enfant à la voix de femme !
 tous ces mots difformes et mal faits, chantés, cadencés, perlés !
-Ah !
-qu’une prison est quelque chose d’infâme !
+Ah ! qu’une prison est une chose d’infâme !
 Il y a un venin qui y salit tout.
 Tout s’y flétrit, même la chanson d’une fille de quinze ans !
 Vous y trouvez un oiseau, il a de la boue sur son aile.
-Vous y cueillez une jolie fleur, vous la respirez.
-elle pue.
+Vous y cueillez une jolie fleur, vous la respirez. elle pue.
 Chapitre dix-sept
-Oh !
-si je m’évadais, comme je courrais à travers champs !
+Oh ! si je m’évadais, comme je courrais à travers champs !
 Non, il ne faudrait pas courir.
 Cela fait regarder et soupçonner.
 Au contraire, marcher lentement, tête levée, en chantant.
@@ -761,15 +751,14 @@ j’arrive à Longjumeau.
 Un gendarme passe.
 Il me demande mon passeport…
 Je suis perdu !
-Ah !
-malheureux rêveur brise donc d’abord le mur épais de trois pieds qui t’emprisonne !
+Ah ! malheureux rêveur brise donc d’abord le mur épais de trois pieds qui t’emprisonne !
 La mort !
 la mort !
 Quand je pense que je suis venu tout enfant, ici, à Bicêtre, voir le grand puits et les fous !
 Chapitre dix-huit
-Pendant que j’écrivais tout ceci, ma lampe a pâli, le jour est venu, l’horloge de la chapelle a sonné six heures.
+Pendant que j’écrivais tout cela, ma lampe a pâli, le jour est venu, l’horloge de la chapelle a sonné six heures.
 Qu’est-ce que cela veut dire ?
-Le guichetier de garde vient d’entrer dans mon cachot, il a ôté sa casquette, m’a salué, s’est excusé de me déranger et m’a demandé, en adoucissant de son mieux sa rude voix, ce que je désirais à déjeuner. …
+Le guichetier de garde vient d’entrer dans mon cachot, il a ôté sa casquette, m’a salué, s’est excusé de me déranger et m’a demandé, en adoucissant de son mieux sa rude voix, ce que je désirais à déjeuner
 Il m’a pris un frisson.
 Est-ce que ce serait pour aujourd’hui ?
 Chapitre dix-neuf
@@ -788,15 +777,14 @@ Ne dois-je pas être content ?
 Ce bon geôlier, avec son sourire bénin, ses paroles caressantes, son œil qui flatte et qui espionne, ses grosses et larges mains, c’est la prison incarnée, c’est Bicêtre qui s’est fait homme.
 Tout est prison autour de moi.
 Je retrouve la prison sous toutes les formes, sous la forme humaine comme sous la forme de grille ou de verrou.
-Ce mur, c’est de la prison en pierre.
-Cette porte, c’est de la prison en bois.
-Ces guichetiers, c’est de la prison en chair et en os.
+Ce mur, c’est la prison en pierre.
+Cette porte, c’est la prison en bois.
+Ces guichetiers, c’est la prison en chair et en os.
 La prison est une espèce d’être horrible complet, indivisible, moitié maison, moitié homme.
 Je suis sa proie.
 Elle me couve, elle m’enlace de tous ses replis.
 Elle m’enferme dans ses murailles de granit, me cadenasse sous ses serrures de fer, et me surveille avec ses yeux de geôlier.
-Ah !
-misérable !
+Ah ! misérable !
 que vais-je devenir ?
 qu’est-ce qu’ils vont faire de moi ?
 Chapitre vingt et un
@@ -814,7 +802,7 @@ Ce prêtre n’était pas l’aumônier de la prison.
 Cela était sinistre.
 Il s’est assis en face de moi avec un sourire bienveillant.
 Puis a secoué la tête et levé les yeux au ciel, c’est-à-dire à la voûte du cachot.
-Je l’ai compris.
+J’ai compris.
 Mon fils, m’a-t-il dit, êtes-vous préparé ?
 Je lui ai répondu d’une voix faible.
 Je ne suis pas préparé, mais je suis prêt.
@@ -828,7 +816,7 @@ Cet homme avait sur le visage quelque chose de la tristesse officielle des emplo
 Il tenait un rouleau de papier à la main.
 Monsieur m’a-t-il dit avec un sourire de courtoisie, je suis huissier près la cour royale de Paris.
 J’ai l’honneur de vous apporter un message de la part de monsieur le procureur général.
-La première secousse était passée.
+La première seconde était passée.
 Toute ma présence d’esprit m’était revenue.
 C’est monsieur le procureur général, lui ai-je répondu, qui a demandé si instamment ma tête ?
 Bien de l’honneur pour moi qu’il m’écrive.
@@ -843,27 +831,22 @@ Nous partons à sept heures et demie précises pour la Conciergerie.
 Mon cher monsieur aurez-vous l’extrême bonté de me suivre ?
 Depuis quelques instants je ne l’écoutais plus.
 Le directeur causait avec le prêtre.
-Lui avait l’œil fixé sur son papier.
-Je regardais la porte, qui était restée entrouverte…
-Ah !
-misérable !
-quatre fusiliers dans le corridor !
+Lui avait l’œil fixé sur son papier. Je regardais la porte, qui était restée entrouverte…
+Ah ! misérable !
+quatre fusiliers dans les couloirs !
 L’huissier a répété sa question, en me regardant cette fois.
 Quand vous voudrez, lui ai-je répondu.
 À votre aise !
 Il m’a salué en disant.
-J’aurai l’honneur de venir vous chercher dans une demi-heure.
+J’ai l’honneur de venir vous chercher dans une demi-heure.
 Alors ils m’ont laissé seul.
 Un moyen de fuir, mon Dieu !
-un moyen quelconque !
-Il faut que je m’évade !
+un moyen quelconque ! Il faut que je m’évade !
 il le faut !
 sur-le-champ !
 par les portes, par les fenêtres, par la charpente du toit !
 quand même je devrais laisser de ma chair après les poutres !
-ô rage !
-démons !
-malédiction !
+ô rage ! démons ! malédiction !
 Il faudrait des mois pour percer ce mur avec de bons outils, et je n’ai ni un clou, ni une heure !
 Chapitre vingt-deux
 De la Conciergerie.
@@ -871,8 +854,7 @@ Me voici transféré, comme dit le procès-verbal.
 Mais le voyage vaut la peine d’être conté.
 Sept heures et demie sonnaient lorsque l’huissier s’est présenté de nouveau au seuil de mon cachot.
 Monsieur m’a-t-il dit, je vous attends.
-Hélas !
-lui et d’autres !
+Hélas ! lui et d’autres !
 Je me suis levé, j’ai fait un pas.
 Il m’a semblé que je n’en pourrais faire un second, tant ma tête était lourde et mes jambes faibles.
 Cependant je me suis remis et j’ai continué d’une allure assez ferme.
@@ -933,41 +915,30 @@ Je l’ai laissé dire patiemment.
 J’avais déjà dans l’oreille le bruit des roues, le galop des chevaux, le fouet du postillon.
 C’était un bruit de plus.
 J’écoutais en silence cette chute de paroles monotones qui assoupissaient ma pensée comme le murmure d’une fontaine, et qui passaient devant moi, toujours diverses et toujours les mêmes, comme les ormeaux tortus de la grande route, lorsque la voix brève et saccadée de l’huissier, placé sur le devant, est venue subitement me secouer.
-Eh bien !
-monsieur l’abbé, disait-il avec un accent presque gai, qu’est-ce que vous savez de nouveau ?
+Eh bien ! monsieur l’abbé, disait-il avec un accent presque gai, qu’est-ce que vous savez de nouveau ?
 C’est vers le prêtre qu’il se retournait en parlant ainsi.
 L’aumônier, qui me parlait sans relâche, et que la voiture assourdissait, n’a pas répondu.
-Hé !
-hé !
-a repris l’huissier en haussant la voix pour avoir le dessus sur le bruit des roues.
+Hé ! hé ! a repris l’huissier en haussant la voix pour avoir le dessus sur le bruit des roues.
 Infernale voiture !
-Infernale !
-En effet.
+Infernale ! En effet.
 Il a continué.
 Sans doute, c’est le cahot.
 On ne s’entend pas.
 Qu’est-ce que je voulais donc dire ?
 Faites-moi le plaisir de m’apprendre ce que je voulais dire, monsieur l’abbé !
-Ah !
-savez-vous la grande nouvelle de Paris, aujourd’hui ?
+Ah ! savez-vous la grande nouvelle de Paris, aujourd’hui ?
 J’ai tressailli, comme s’il parlait de moi.
 Non, a dit le prêtre, qui avait enfin entendu, je n’ai pas eu le temps de lire les journaux ce matin.
 Je verrai cela ce soir.
 Quand je suis occupé comme cela toute la journée, je recommande au portier de me garder mes journaux, et je les lis en rentrant.
-Bah !
-a repris l’huissier, il est impossible que vous ne sachiez pas cela.
-La nouvelle de Paris !
+Bah ! a repris l’huissier, il est impossible que vous ne sachiez pas cela. La nouvelle de Paris !
 la nouvelle de ce matin !
 J’ai pris la parole.
 Je crois la savoir.
 L’huissier m’a regardé.
-Vous !
-vraiment !
-En ce cas, qu’en dites-vous ?
-Vous êtes curieux !
-lui ai-je dit.
-Pourquoi, monsieur ?
-a répliqué l’huissier Chacun a son opinion politique.
+Vous ! vraiment ! En ce cas, qu’en dites-vous ?
+Vous êtes curieux ! lui ai-je dit.
+Pourquoi, monsieur ? a répliqué l’huissier Chacun a son opinion politique.
 Je vous estime trop pour croire que vous n’avez pas la vôtre.
 Quant à moi, je suis tout à fait d’avis du rétablissement de la garde nationale.
 J’étais sergent de ma compagnie, et, ma foi, c’était fort agréable.
@@ -978,8 +949,7 @@ Vous disiez savoir la nouvelle…
 Je parlais d’une autre, dont Paris s’occupe aussi aujourd’hui.
 L’imbécile n’a pas compris.
 Sa curiosité s’est éveillée.
-Une autre nouvelle ?
-Où diable avez-vous pu apprendre des nouvelles ?
+Une autre nouvelle ? Où diable avez-vous pu apprendre des nouvelles ?
 Laquelle, de grâce, mon cher monsieur ?
 Savez-vous ce que c’est, monsieur l’abbé ?
 Etes-vous plus au courant que moi ?
@@ -989,28 +959,22 @@ Voyez-vous, j’aime les nouvelles.
 Je les conte à monsieur le président, et cela l’amuse.
 Et mille billevesées.
 Il se tournait tour à tour vers le prêtre et vers moi, et je ne répondais qu’en haussant les épaules.
-Eh bien !
-m’a-t-il dit, à quoi pensez-vous donc ?
+Eh bien ! m’a-t-il dit, à quoi pensez-vous donc ?
 Je pense, ai-je répondu, que je ne penserai plus ce soir
-Ah !
-c’est cela !
-a-t-il répliqué.
+Ah ! c’est cela ! a-t-il répliqué.
 Allons, vous êtes trop triste !
 Monsieur Castaing causait.
 Puis, après un silence.
 J’ai conduit Monsieur Papavoine.
 Il avait sa casquette de loutre et fumait son cigare.
-Quant aux jeunes gens de La Rochelle, ils ne parlaient qu’entre eux.
-Mais ils parlaient.
-Il a fait encore une pause, et a poursuivi.
-Des fous !
-des enthousiastes !
+Quant aux jeunes gens de La Rochelle, ils ne parlaient qu’entre eux. Mais ils parlaient.
+Il a encore fait une pause, et a poursuivi.
+Des fous ! des enthousiastes !
 Ils avaient l’air de mépriser tout le monde.
 Pour ce qui est de vous, je vous trouve vraiment bien pensif, jeune homme.
-Jeune homme !
-lui ai-je dit, je suis plus vieux que vous.
+Jeune homme ! lui ai-je dit, je suis plus vieux que vous.
 Chaque quart d’heure qui s’écoule me vieillit d’une année.
-Il s’est retourné, m’a regardé quelques minutes avec un étonnement inepte, puis s’est mis à ricaner lourdement.
+Il s’est tourné, m’a regardé quelques minutes avec un étonnement inepte, puis s’est mis à ricaner lourdement.
 Allons, vous voulez rire, plus vieux que moi !
 je serais votre grand-père.
 Je ne veux pas rire, lui ai-je répondu gravement.
@@ -1021,15 +985,13 @@ N’ayez pas peur.
 Je n’aurai pas longtemps à vous la garder.
 En ce moment sa tabatière, qu’il me tendait, a rencontré le grillage qui nous séparait.
 Un cahot a fait qu’elle l’a heurté assez violemment et est tombée tout ouverte sous les pieds du gendarme.
-Maudit grillage !
-s’est écrié l’huissier Il s’est tourné vers moi.
+Maudit grillage ! s’est écrié l’huissier Il s’est tourné vers moi.
 Eh bien !
 ne suis-je pas malheureux ?
 tout mon tabac est perdu !
 Je perds plus que vous, ai-je répondu en souriant.
-Il a essayé de ramasser son tabac, en grommelant entre ses dents.
-Plus que moi !
-cela est facile à dire.
+Il a essayé de ramasser son tabac, en grommelant entre ses dents. Plus que moi !
+c'est facile à dire.
 Pas de tabac jusqu’à Paris !
 c’est terrible !
 L’aumônier alors lui a adressé quelques paroles de consolation, et je ne sais si j’étais préoccupé, mais il m’a semblé que c’était la suite de l’exhortation dont j’avais eu le commencement.
@@ -1048,8 +1010,7 @@ Il m’a semblé aussi voir de temps en temps dans les carrefours ça et là un 
 Huit heures et demie sonnaient à l’horloge du Palais au moment où nous sommes arrivés dans la cour de la Conciergerie.
 La vue de ce grand escalier, de cette noire chapelle, de ces guichets sinistres, m’a glacé.
 Quand la voiture s’est arrêtée, j’ai cru que les battements de mon cœur allaient s’arrêter aussi.
-J’ai recueilli mes forces.
-La porte s’est ouverte avec la rapidité de l’éclair.
+J’ai recueilli mes forces. La porte s’est ouverte avec la rapidité de l’éclair.
 J’ai sauté à bas du cachot roulant, et je me suis enfoncé à grands pas sous la voûte entre deux haies de soldats.
 Il s’était déjà formé une foule sur mon passage.
 Chapitre vingt-trois
@@ -1064,31 +1025,21 @@ Le directeur l’a prié d’attendre un instant, lui annonçant qu’il allait 
 Sans doute le condamné d’aujourd’hui, celui qui doit coucher ce soir sur la botte de paille que je n’ai pas eu le temps d’user
 C’est bon, a dit l’huissier au directeur je vais attendre un moment.
 Nous ferons les deux procès verbaux à la fois, cela s’arrange bien.
-En attendant, on m’a déposé dans un petit cabinet attenant à celui du directeur.
-Là, on m’a laissé seul, bien verrouillé.
+En attendant, on m’a déposé dans un petit cabinet attenant à celui du directeur. Là, on m’a laissé seul, bien verrouillé.
 Je ne sais à quoi je pensais, ni depuis combien de temps j’étais là, quand un brusque et violent éclat de rire à mon oreille m’a réveillé de ma rêverie.
 J’ai levé les yeux en tressaillant.
-Je n’étais plus seul dans la cellule.
-Un homme s’y trouvait avec moi, un homme d’environ cinquante-cinq ans, de moyenne taille.
-Ridé, voûté, grisonnant.
-À membres trapus.
-Avec un regard louche dans des yeux gris, un rire amer sur le visage.
+Je n’étais plus seul dans la cellule. Un homme s’y trouvait avec moi, un homme d’environ cinquante-cinq ans, de moyenne taille.
+Ridé, voûté, grisonnant. À membres trapus. Avec un regard louche dans des yeux gris, un rire amer sur le visage.
 Sale, en guenilles, demi-nu, repoussant à voir.
 Il paraît que la porte s’était ouverte, l’avait vomi, puis s’était refermée sans que je m’en fusse aperçu.
 Si la mort pouvait venir ainsi !
 Nous nous sommes regardés quelques secondes fixement, l’homme et moi.
-Lui, prolongeant son rire qui ressemblait à un râle.
-Moi, demi-étonné, demi-effrayé.
-Qui êtes-vous ?
-lui ai-je dit enfin.
-Drôle de demande !
-a-t-il répondu.
-Un friauche.
-Un friauche !
-Qu’est-ce que cela veut dire ?
+Lui, prolongeant son rire qui ressemblait à un râle. Moi, demi-étonné, demi-effrayé.
+Qui êtes-vous ? lui ai-je dit enfin.
+Drôle de demande ! a-t-il répondu. Un friauche.
+Un friauche ! Qu’est-ce que cela veut dire ?
 Cette question a redoublé sa gaieté.
-Cela veut dire, s’est-il écrié au milieu d’un éclat de rire, que le taule jouera au panier avec ma sorbonne dans six semaines, comme il va faire avec ta tronche dans six heures. Ha !
-ha !
+Cela veut dire, s’est-il écrié au milieu d’un éclat de rire, que le taule jouera au panier avec ma sorbonne dans six semaines, comme il va faire avec ta tronche dans six heures. Ha ! ha !
 il paraît que tu comprends maintenant.
 En effet, j’étais pâle, et mes cheveux se dressaient.
 C’était l’autre condamné, le condamné du jour, celui qu’on attendait à Bicêtre, mon héritier.
@@ -1297,8 +1248,7 @@ Chaque syllabe est comme une pièce de la machine.
 J’en construis et j’en démolis sans cesse dans mon esprit la monstrueuse charpente.
 Je n’ose faire une question là-dessus, mais il est affreux de ne savoir ce que c’est, ni comment s’y prendre.
 Il paraît qu’il y a une bascule et qu’on vous couche sur le ventre…
-Ah !
-mes cheveux blanchiront avant que ma tête ne tombe !
+Ah ! mes cheveux blanchiront avant que ma tête ne tombe !
 Chapitre vingt-huit
 Je l’ai cependant entrevue une fois.
 Je passais sur la place de Grève, en voiture, un jour vers onze heures du matin.
@@ -1483,8 +1433,7 @@ Or voici une belle occasion pour moi.
 Il paraît, pardon, criminel, que vous passez aujourd’hui.
 Il est certain que les morts qu’on fait périr comme cela voient la loterie d’avance.
 Promettez-moi de venir demain soin qu’est-ce que cela vous fait ?
-me donner trois numéros, trois bons.
-Hein ?
+me donner trois numéros, trois bons. Hein ?
 Je n’ai pas peur des revenants, soyez tranquille.
 Voici mon adresse.
 Caserne Popincourt, escalier A n° vingt-six, au fond du corridor Vous me reconnaîtrez bien, n’est-ce pas ?
@@ -1763,8 +1712,7 @@ Mettez-lui la bougie sous le menton.
 Je lui ai mis la mèche enflammée sous le menton.
 Alors elle a ouvert un œil à demi, un œil vide, terne, affreux, et qui ne regardait pas.
 J’ai ôté la flamme et j’ai dit.
-Ah !
-enfin !
+Ah ! enfin !
 répondras-tu, vieille sorcière ?
 Qui es-tu ?
 L’œil s’est refermé comme de lui-même.
@@ -1791,23 +1739,20 @@ On lui a mis une petite robe qui lui va bien.
 Je l’ai prise, je l’ai enlevée dans mes bras, je l’ai assise sur mes genoux, je l’ai baisée sur ses cheveux.
 Pourquoi pas avec sa mère ?
 Sa mère est malade, sa grand mère aussi.
-C’est bien.
-Elle me regardait d’un air étonné.
+C’est bien. Elle me regardait d’un air étonné.
 Caressée, embrassée, dévorée de baisers et se laissant faire mais jetant de temps en temps un coup d’œil inquiet sur sa bonne, qui pleurait dans le coin.
 Enfin j’ai pu parler. Marie !
 ai-je dit, ma petite Marie !
 Je la serrais violemment contre ma poitrine enflée de sanglots.
 Elle a poussé un petit cri.
-Oh !
-vous me faites du mal, monsieur m’a-t-elle dit.
+Oh ! vous me faites du mal, monsieur m’a-t-elle dit.
 Monsieur !
 il y a bientôt un an qu’elle ne m’a vu, la pauvre enfant.
 Elle m’a oublié, visage, parole, accent.
 Et puis, qui me reconnaîtrait avec cette barbe, ces habits et cette pâleur ?
 Quoi !
 déjà effacé de cette mémoire, la seule où j’eusse voulu vivre !
-Quoi !
-déjà plus père !
+Quoi ! déjà plus père !
 être condamné à ne plus entendre ce mot, ce mot de la langue des enfants, si doux qu’il ne peut rester dans celle des hommes.
 papa !
 Et pourtant l’entendre de cette bouche, encore une fois, une seule fois, voilà tout ce que j’eusse demandé pour les quarante ans de vie qu’on me prend.
@@ -1842,10 +1787,8 @@ Je ne peux pas, monsieur.
 Une prière, cela ne se dit pas dans le jour Venez ce soir dans ma maison.
 Je la dirai.
 C’était assez de cela.
-Je l’ai interrompue.
-Marie, c’est moi qui suis ton papa.
-Ah !
-m’a-t-elle dit.
+Je l’ai interrompue. Marie, c’est moi qui suis ton papa.
+Ah ! m’a-t-elle dit.
 J’ai ajouté.
 Veux-tu que je sois ton papa ?
 L’enfant s’est détournée.
@@ -1913,8 +1856,7 @@ Quand j’ai vu au-dessus des têtes ces deux bras rouges, avec leur triangle no
 J’ai demandé à faire une dernière déclaration.
 On m’a déposé ici, et l’on est allé chercher quelque procureur du roi.
 Je l’attends, c’est toujours cela de gagné.
-Voici.
-Trois heures sonnaient, on est venu m’avertir qu’il était temps.
+Voici. Trois heures sonnaient, on est venu m’avertir qu’il était temps.
 J’ai tremblé, comme si j’eusse pensé à autre chose depuis six heures, depuis six semaines, depuis six mois.
 Cela m’a fait l’effet de quelque chose d’inattendu.
 Ils m’ont fait traverser leurs corridors et descendre leurs escaliers.
@@ -1971,8 +1913,7 @@ J’ai fait trois pas, et j’ai paru sur le seuil du guichet.
 Le voilà !
 le voilà !
 a crié la foule.
-Il sort !
-enfin !
+Il sort ! enfin !
 Et les plus près de moi battaient des mains.
 Si fort qu’on aime un roi, ce serait moins de fête.
 C’était une charrette ordinaire, avec un cheval étique, et un charretier en sarrau bleu à dessins rouges, comme ceux des maraîchers des environs de Bicêtre.
@@ -2042,8 +1983,7 @@ Puis tout à coup je me suis senti un grand froid.
 La pluie avait traversé mes vêtements, et mouillait la peau de ma tête à travers mes cheveux coupés et courts.
 Vous tremblez de froid, mon fils ?
 m’a demandé le prêtre.
-Oui, ai-je répondu.
-Hélas !
+Oui, ai-je répondu. Hélas !
 pas seulement de froid.
 Au détour du pont, des femmes m’ont plaint d’être si jeune.
 Nous avons pris le fatal quai.
@@ -2080,15 +2020,13 @@ c’était la réalité !
 Je me suis arrêté, comme chancelant déjà du coup.
 J’ai une dernière déclaration à faire !
 ai-je crié faiblement.
-On m’a monté ici.
-J’ai demandé qu’on me laissât écrire mes dernières volontés.
+On m’a monté ici. J’ai demandé qu’on me laissât écrire mes dernières volontés.
 Ils m’ont délié les mains, mais la corde est ici, toute prête, et le reste est en bas.
 XLVIII
 Un juge, un commissaire, un magistrat, je ne sais de quelle espèce, vient de venir.
 Je lui ai demandé ma grâce en joignant les deux mains et en me traînant sur les deux genoux.
 Il m’a répondu, en souriant fatalement, si c’est là tout ce que j’avais à lui dire.
-Ma grâce !
-ma grâce !
+Ma grâce ! ma grâce !
 ai-je répété, ou, par pitié, cinq minutes encore ! Qui sait ?
 elle viendra peut-être !
 Cela est si horrible à mon âge, de mourir ainsi !
@@ -2099,10 +2037,8 @@ il s’est approché du juge pour lui dire que l’exécution devait être faite
 Eh, par pitié !
 une minute pour attendre ma grâce !
 ou je me défends !
-je mords !
-Le juge et le bourreau sont sortis.
-Je suis seul.
-Seul avec deux gendarmes. Oh !
+je mords ! Le juge et le bourreau sont sortis.
+Je suis seul. Seul avec deux gendarmes. Oh !
 l’horrible peuple avec ses cris d’hyène.
 Qui sait si je ne lui échapperai pas ?
 si je ne serai pas sauvé ?
