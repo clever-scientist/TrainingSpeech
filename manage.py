@@ -1,13 +1,14 @@
 import csv
 import io
 import json
+import logging
 import os
 import subprocess
 import tempfile
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta, datetime
-from typing import List
+from typing import List, Tuple
 from zipfile import ZipFile
 
 import click
@@ -20,6 +21,9 @@ from audiocorp import utils, ffmpeg, sox, exceptions
 CURRENT_DIR = os.path.dirname(__file__)
 DEFAULT_SILENCE_MIN_DURATION = 0.07
 DEFAULT_SILENCE_NOISE_LEVEL = -45
+
+
+logger = logging.getLogger()
 
 
 @click.group()
@@ -461,50 +465,75 @@ def stats():
 
 
 @cli.command()
-def release():
+@click.option('-r', '--audio_rate', default=16000)
+@click.option('-l', '--language', type=click.Choice(['fr_FR']), default=None)
+def release(audio_rate, language):
     per_language_sources = defaultdict(list)
+    per_language_speakers = defaultdict(set)
     for name, metadata in audiocorp.sources().items():
         info = audiocorp.source_info(name)
         if info['status'] in {'DONE', 'WIP'}:
-            per_language_sources[metadata['language']].append(name)
+            per_language_sources[metadata['language']].append((name, metadata, info))
+            per_language_speakers[metadata['language']].add(metadata['speaker'])
     today_str = datetime.now().isoformat()[:10]
     releases_data = []
-    for language, sources in per_language_sources.items():
-        release_name = f'{today_str}_{language}.zip'
+
+    for source_language, sources in per_language_sources.items():
+        if language and source_language != language:
+            continue
+
+        release_name = f'{today_str}_{source_language}.zip'
         path_to_release = os.path.join(CURRENT_DIR, 'data/releases', release_name)
-        with ZipFile(path_to_release, 'w') as zip_file:
-            # generate fragments
-            fragments = []
-            with click.progressbar(length=len(sources), show_eta=True, label='find sources') as bar:
-                for source_name in sources:
-                    metadata = audiocorp.get_source(source_name)
-                    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
-                    path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
-                    # generate wav if do not exists yet
-                    with open(path_to_mp3, 'rb') as f:
-                        file_hash = utils.hash_file(f)
-                    path_to_wav = f'/tmp/{file_hash}.wav'
-                    if not os.path.exists(path_to_wav):
-                        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=16000, channels=1)
+        print(f'start building {release_name}')
+        # generate fragments
+        with click.progressbar(length=len(sources), show_eta=True, label=f'convert mp3 files to mono {audio_rate}Hz wav') as bar:
+            with ThreadPoolExecutor() as executor:
+                def _process_source(source_data: Tuple[str, dict, dict]):
+                    source_name, metadata, info = source_data
+                    try:
+                        path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+                        path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
+                        # generate wav if do not exists yet
+                        with open(path_to_mp3, 'rb') as f:
+                            file_hash = utils.hash_file(f)
+                        path_to_wav = f'/tmp/{file_hash}.wav'
+                        if not os.path.exists(path_to_wav):
+                            ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=audio_rate, channels=1)
 
-                    with open(path_to_alignment) as file_:
-                        fragments += [
-                            dict(name=f'{source_name}_{i + 1:04d}', source_file=path_to_wav, **f)
-                            for i, f in enumerate(json.load(file_))
-                            if f.get('approved')
-                        ]
+                        with open(path_to_alignment) as file_:
+                            source_fragments = [
+                                dict(name=f'{source_name}_{i + 1:04d}', source_file=path_to_wav, **f)
+                                for i, f in enumerate(json.load(file_))
+                                if f.get('approved')
+                            ]
+                        bar.update(1)
+                        return source_fragments
+                    except Exception as e:
+                        print(f'cannot process source {source_name}. {e}')
+                        raise e
+
+                fragments = []
+                for source_fragments in executor.map(_process_source, sources):
+                    fragments += source_fragments
+
+        # generate fragments
+        with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar, \
+            ThreadPoolExecutor() as executor, \
+            ZipFile(path_to_release, 'w') as zip_file:
+
+            def _cut(f: dict):
+                try:
+                    tmp_audio = cut_fragment_audio(f, f['source_file'], '/tmp/')
+                    return tmp_audio
+                except Exception as e:
+                    print(f'cannot extract fragment {fragment["name"]}. {e}')
+
+            for fragment, tmp_audio in zip(fragments, executor.map(_cut, fragments)):
+                archive_audio_path = f'{fragment["name"]}.wav'
+                fragment.update(path=archive_audio_path)
+                zip_file.write(tmp_audio, arcname=archive_audio_path)
+                os.unlink(tmp_audio)
                 bar.update(1)
-
-            with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
-                for fragment in fragments:
-                    fragment_audio_path = cut_fragment_audio(fragment, fragment['source_file'], '/tmp/')
-                    archive_audio_path = f'{fragment["name"]}.wav'
-                    fragment.update(
-                        path=archive_audio_path,
-                    )
-                    zip_file.write(fragment_audio_path, arcname=archive_audio_path)
-                    os.unlink(fragment_audio_path)
-                    bar.update(1)
 
             # create CSV
             string_buffer = io.StringIO()
@@ -518,12 +547,13 @@ def release():
             releases_data.append([
                 f'[{release_name}](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/{release_name})',
                 len(fragments),
+                len(per_language_speakers[source_language]),
                 timedelta(seconds=round(sum(round(f['end'] - f['begin'], 3) for f in fragments))),
-                language,
+                source_language,
             ])
     print('\n' + tabulate(
         releases_data,
-        headers=['Name', '# speeches', 'Total Duration', 'Language'],
+        headers=['Name', '# speeches', '# speakers', 'Total Duration', 'Language'],
         tablefmt='pipe',
     ))
 

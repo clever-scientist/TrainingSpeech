@@ -31,6 +31,7 @@ class SourceSchema(Schema):
     language = fields.String(required=True, validate=lambda x: x in ['fr_FR', 'en_US'], error_messages={
         'validator_failed': 'expect language to be one of "fr_FR" or "en_US"',
     })
+    speaker = fields.String(required=True)
 
 
 def read_sources() -> dict:

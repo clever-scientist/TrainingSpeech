@@ -14,6 +14,7 @@ from audiocorp import source
         'ebook_page': ['Missing data for required field.'],
         'ebook_parts': ['Missing data for required field.'],
         'language': ['Missing data for required field.'],
+        'speaker': ['Missing data for required field.'],
     }),
     ({
          'audio_licence': 'Creative Commons',
@@ -23,12 +24,13 @@ from audiocorp import source
          'ebook_page': 'https://www.atramenta.net/lire/le-comte-de-monte-cristo-tome-i/6318',
          'ebook': 'do_not_exists.epub',
          'ebook_parts': ['part1.xhtml'],
-        'language': 'foo_BAR',
-     }, {
+         'language': 'foo_BAR',
+         'speaker': 'Foo Bar',
+    }, {
          'audio': ['expect extension to be .mp3'],
          'ebook': ['file not found'],
          'language':  ['expect language to be one of "fr_FR" or "en_US"'],
-     }),
+    }),
 ])
 def test_validate_source_ko(data: dict, expected_errors: dict):
     data, errors = source.SourceSchema().load(data, many=False)
