@@ -21,6 +21,7 @@
 3. generate initial transcript using `python manage.py build_transcript <SOURCE_NAME>`
 4. upload epub and mp3 files on S3 `python manage.py upload -s <SOURCE_NAME>` 
 
+
 ## Dev setup 
 
 ```sh
@@ -33,6 +34,16 @@ $ pipenv sync
 $ pipenv shell
 $ pytest
 ```
+
+
+## Last releases
+
+| Name                                                                                               |   # speeches | Total Duration   | Language   |
+|:---------------------------------------------------------------------------------------------------|-------------:|:-----------------|:-----------|
+| [2018-09-04_fr_FR.zip](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-04_fr_FR.zip) |         5380 | 7:31:17          | fr_FR      |
+| [2018-09-02_fr_FR.zip](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-02_fr_FR.zip) |         2579 | 3:25:44          | fr_FR      |
+
+
 
 ## Current Stats (2018-09-03)
 
@@ -59,12 +70,3 @@ $ pytest
 |                               |          |            |              |                     |            |
 | TOTAL                         |          |            |         5380 | 7:31:17.401000      |            |
 | TOTAL fr_FR                   |          |            |         5380 | 7:31:17.401000      | fr_FR      |
-
-## Releases
-
-| Name                                                                                               |   # speeches | Total Duration   | Language   |
-|:---------------------------------------------------------------------------------------------------|-------------:|:-----------------|:-----------|
-| [2018-09-04_fr_FR.zip](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-04_fr_FR.zip) |         5380 | 7:31:17          | fr_FR      |
-| [2018-09-02_fr_FR.zip](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-02_fr_FR.zip) |         2579 | 3:25:44          | fr_FR      |
-
-
