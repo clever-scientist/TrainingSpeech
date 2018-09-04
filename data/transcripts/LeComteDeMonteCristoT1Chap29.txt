@@ -1,4 +1,4 @@
-Chapitre vingt-neuf
+Chapitre vingt-neuf.
 La maison Morrel.
 Celui qui eût quitté Marseille quelques années auparavant, connaissant l’intérieur de la maison Morrel, et qui y fût entré à l’époque où nous sommes parvenus, y eût trouvé un grand changement.
 Au lieu de cet air de vie, d’aisance et de bonheur qui s’exhale, pour ainsi dire, d’une maison en voie de prospérité.
@@ -6,11 +6,11 @@ Au lieu de ces figures joyeuses se montrant derrière les rideaux des fenêtres,
 Au lieu de cette cour encombrée de ballots, retentissant des cris et des rires des facteurs.
 Il eût trouvé, dès la première vue, je ne sais quoi de triste et de mort.
 Dans ce corridor désert et dans cette cour vide, de nombreux employés qui autrefois peuplaient les bureaux, deux seuls étaient restés.
-l’un était un jeune homme de vingt-trois ou vingt-quatre ans, nommé Emmanuel Raymond, lequel était amoureux de la fille de Monsieur Morrel, et était resté dans la maison quoi qu’eussent pu faire ses parents pour l’en retirer.
+l’un était un jeune homme de vingt-trois ou vingt-quatre ans, nommé Emmanuel Raymond, lequel était amoureux de la fille de monsieur Morrel, et était resté dans la maison quoi qu’eussent pu faire ses parents pour l’en retirer.
 L’autre était un vieux garçon de caisse, borgne, nommé Coclès, sobriquet que lui avaient donné les jeunes gens qui peuplaient autrefois cette grande ruche bourdonnante, aujourd’hui presque inhabitée, et qui avait si bien et si complètement remplacé son vrai nom, que, selon toute probabilité, il ne se serait pas même retourné, si on l’eût appelé aujourd’hui de ce nom.
-Coclès était resté au service de Monsieur Morrel, et il s’était fait dans la situation du brave homme un singulier changement.
+Coclès était resté au service de monsieur Morrel, et il s’était fait dans la situation du brave homme un singulier changement.
 Il était à la fois monté au grade de caissier, et descendu au rang de domestique.
-Ce n’en était pas moins le même Coclès, bon, patient, dévoué, mais inflexible à l’endroit de l’arithmétique, le seul point sur lequel il eût tenu tête au monde entier, même à Monsieur Morrel, et ne connaissant que sa table de Pythagore, qu’il savait sur le bout du doigt, de quelque façon qu’on la retournât et dans quelque erreur qu’on tentât de le faire tomber.
+Ce n’en était pas moins le même Coclès, bon, patient, dévoué, mais inflexible à l’endroit de l’arithmétique, le seul point sur lequel il eût tenu tête au monde entier, même à monsieur Morrel, et ne connaissant que sa table de Pythagore, qu’il savait sur le bout du doigt, de quelque façon qu’on la retournât et dans quelque erreur qu’on tentât de le faire tomber.
 Au milieu de la tristesse générale qui avait envahi la maison Morrel, Coclès était d’ailleurs le seul qui fût resté impassible.
 Mais, qu’on ne s’y trompe point.
 Cette impassibilité ne venait pas d’un défaut d’affection, mais au contraire d’une inébranlable conviction.
@@ -19,11 +19,11 @@ Or, Coclès les avait vus s’éloigner tous sans songer même à se rendre comp
 Tout, comme nous l’avons dit, se réduisait pour Coclès à une question de chiffres, et depuis vingt ans qu’il était dans la maison Morrel, il avait toujours vu les paiements s’opérer à bureaux ouverts avec une telle régularité, qu’il n’admettait pas plus que cette régularité pût s’arrêter et ces paiements se suspendre, qu’un meunier qui possède un moulin alimenté par les eaux d’une riche rivière n’admet que cette rivière puisse cesser de couler.
 En effet, jusque-là rien n’était encore venu porter atteinte à la conviction de Coclès.
 La dernière fin de mois s’était effectuée avec une ponctualité rigoureuse.
-Coclès avait relevé une erreur de soixante-dix centimes commise par Monsieur Morrel à son préjudice, et le même jour il avait rapporté les quatorze sous d’excédent à Monsieur Morrel, qui, avec un sourire mélancolique, les avait pris et laissés tomber dans un tiroir à peu près vide, en disant.
+Coclès avait relevé une erreur de soixante-dix centimes commise par monsieur Morrel à son préjudice, et le même jour il avait rapporté les quatorze sous d’excédent à monsieur Morrel, qui, avec un sourire mélancolique, les avait pris et laissés tomber dans un tiroir à peu près vide, en disant.
 Bien, Coclès, vous êtes la perle des caissiers.
 Et Coclès s’était retiré on ne peut plus satisfait.
-Car un éloge de Monsieur Morrel, cette perle des honnêtes gens de Marseille, flattait plus Coclès qu’une gratification de cinquante écus.
-Mais depuis cette fin de mois si victorieusement accomplie, Monsieur Morrel avait passé de cruelles heures.
+Car un éloge de monsieur Morrel, cette perle des honnêtes gens de Marseille, flattait plus Coclès qu’une gratification de cinquante écus.
+Mais depuis cette fin de mois si victorieusement accomplie, monsieur Morrel avait passé de cruelles heures.
 Pour faire face à cette fin de mois, il avait réuni toutes ses ressources, et lui-même, craignant que le bruit de sa détresse ne se répandît dans Marseille, lorsqu’on le verrait recourir à de pareilles extrémités, avait fait un voyage à la foire de Beaucaire pour vendre quelques bijoux appartenant à sa femme et à sa fille, et une partie de son argenterie.
 Moyennant ce sacrifice, tout s’était encore cette fois passé au plus grand honneur de la maison Morrel.
 Mais la caisse était demeurée complètement vide.
@@ -31,46 +31,44 @@ Le crédit, effrayé par le bruit qui courait, s’était retiré avec son égo�
 Et pour faire face aux cent mille francs à rembourser le quinze du présent mois à Monsieur de Boville, et aux autres cent mille francs qui allaient échoir le quinze du mois suivant.
 Monsieur Morrel n’avait en réalité que l’espérance du retour du Pharaon, dont un bâtiment qui avait levé l’ancre en même temps que lui, et qui était arrivé à bon port, avait appris le départ.
 Mais déjà ce bâtiment, venant, comme le Pharaon de Calcutta, était arrivé depuis quinze jours, tandis que du Pharaon l’on n’avait aucune nouvelle.
-C’est dans cet état de choses que, le lendemain du jour où il avait terminé avec Monsieur de Boville l’importante affaire que nous avons dite, l’envoyé de la maison Thomson et French de Rome se présenta chez Monsieur Morrel.
+C’est dans cet état de choses que, le lendemain du jour où il avait terminé avec Monsieur de Boville l’importante affaire que nous avons dite, l’envoyé de la maison Thomson et French de Rome se présenta chez monsieur Morrel.
 Emmanuel le reçut.
 Le jeune homme, que chaque nouveau visage effrayait, car chaque nouveau visage annonçait un nouveau créancier, qui, dans son inquiétude, venait questionner le chef de la maison, le jeune homme, disons-nous, voulut épargner à son patron l’ennui de cette visite.
 il questionna le nouveau venu.
-Mais le nouveau venu déclara qu’il n’avait rien à dire à Monsieur Emmanuel, et que c’était à Monsieur Morrel en personne qu’il voulait parler.
+Mais le nouveau venu déclara qu’il n’avait rien à dire à monsieur Emmanuel, et que c’était à monsieur Morrel en personne qu’il voulait parler.
 Emmanuel appela en soupirant Coclès.
-Coclès parut, et le jeune homme lui ordonna de conduire l’étranger à Monsieur Morrel.
+Coclès parut, et le jeune homme lui ordonna de conduire l’étranger à monsieur Morrel.
 Coclès marcha devant, et l’étranger le suivit.
 Sur l’escalier, on rencontra une belle jeune fille de seize à dix-sept ans, qui regarda l’étranger avec inquiétude.
 Coclès ne remarqua point cette expression de visage qui cependant parut n’avoir point échappé à l’étranger.
-Monsieur Morrel est à son cabinet, n’est-ce pas, mademoiselle Julie ?
+Monsieur Morrel est à son cabinet, n’est-ce pas, mademoiselle Julie ?
 Demanda le caissier.
 Oui, du moins je le crois, dit la jeune fille en hésitant.
 Voyez d’abord, Coclès, et si mon père y est, annoncez monsieur.
-M’annoncer serait inutile, mademoiselle, répondit l’Anglais, Monsieur Morrel ne connaît pas mon nom.
-Ce brave homme n’a qu’à dire seulement, que je suis le premier commis de MM.
-Thomson et French, de Rome, avec lesquels la maison de monsieur votre père est en relations.
+M’annoncer serait inutile, mademoiselle, répondit l’Anglais, monsieur Morrel ne connaît pas mon nom.
+Ce brave homme n’a qu’à dire seulement, que je suis le premier commis de monsieur Thomson et French, de Rome, avec lesquels la maison de monsieur votre père est en relations.
 La jeune fille pâlit et continua de descendre, tandis que Coclès et l’étranger continuaient de monter.
 Elle entra dans le bureau où se tenait Emmanuel, et Coclès, à l’aide d’une clef dont il était possesseur, et qui annonçait ses grandes entrées près du maître, ouvrit une porte placée dans l’angle du palier du deuxième étage, introduisit l’étranger dans une antichambre, ouvrit une seconde porte qu’il referma derrière lui, et, après avoir laissé seul un instant l’envoyé de la maison Thomson et French, reparut en lui faisant signe qu’il pouvait entrer.
 L’Anglais entra.
-Il trouva Monsieur Morrel assis devant une table, pâlissant devant les colonnes effrayantes du registre où était inscrit son passif.
-En voyant l’étranger, Monsieur Morrel ferma le registre, se leva et avança un siège.
+Il trouva monsieur Morrel assis devant une table, pâlissant devant les colonnes effrayantes du registre où était inscrit son passif.
+En voyant l’étranger, monsieur Morrel ferma le registre, se leva et avança un siège.
 Puis, lorsqu’il eut vu l’étranger s’asseoir, il s’assit lui-même.
 Quatorze années avaient bien changé le digne négociant qui, âgé de trente-six ans au commencement de cette histoire, était sur le point d’atteindre la cinquantaine.
 ses cheveux avaient blanchi, son front s’était creusé sous des rides soucieuses.
 Enfin son regard, autrefois si ferme et si arrêté, était devenu vague et irrésolu, et semblait toujours craindre d’être forcé de s’arrêter ou sur une idée ou sur un homme.
 L’Anglais le regarda avec un sentiment de curiosité évidemment mêlé d’intérêt.
-Monsieur, dit Morrel, dont cet examen semblait redoubler le malaise, vous avez désiré me parler ?
+Monsieur, dit Morrel, dont cet examen semblait redoubler le malaise, vous avez désiré me parler ?
 Oui, monsieur.
-Vous savez de quelle part je viens, n’est-ce pas ?
+Vous savez de quelle part je viens, n’est-ce pas ?
 De la part de la maison Thomson et French, à ce que m’a dit mon caissier du moins.
 Il vous a dit la vérité, monsieur.
 La maison Thomson et French avait dans le courant de ce mois et du mois prochain trois ou quatre cent mille francs à payer en France, et connaissant votre rigoureuse exactitude, elle a réuni tout le papier qu’elle a pu trouver portant cette signature, et m’a chargé, au fur et a mesure que ces papiers écherraient, d’en toucher les fonds chez vous et de faire emploi de ces fonds.
 Morrel poussa un profond soupir, et passa la main sur son front couvert de sueur.
-Ainsi, monsieur, demanda Morrel, vous avez des traites signées par moi ?
+Ainsi, monsieur, demanda Morrel, vous avez des traites signées par moi ?
 Oui, monsieur, pour une somme assez considérable.
-Pour quelle somme ?
-demanda Morrel d’une voix qu’il tâchait de rendre assurée.
+Pour quelle somme ? demanda Morrel d’une voix qu’il tâchait de rendre assurée.
 Mais voici d’abord, dit l’Anglais en tirant une liasse de sa poche, un transport de deux cent mille francs fait à notre maison par Monsieur de Boville, l’inspecteur des prisons.
-Reconnaissez-vous devoir cette somme à Monsieur de Boville ?
+Reconnaissez-vous devoir cette somme à Monsieur de Boville ?
 Oui, monsieur, c’est un placement qu’il a fait chez moi, à quatre et demi du cent, voici bientôt cinq ans.
 Et que vous devez rembourser…
 Moitié le quinze de ce mois-ci, moitié le quinze du mois prochain.
@@ -78,7 +76,7 @@ C’est cela.
 Puis voici trente-deux mille cinq cents francs, fin courant.
 ce sont des traites signées de vous et passées à notre ordre par des tiers porteurs.
 Je le reconnais, dit Morrel, à qui le rouge de la honte montait à la figure, en songeant que pour la première fois de sa vie il ne pourrait peut-être pas faire honneur à sa signature.
-Est-ce tout ?
+Est-ce tout ?
 Non, monsieur, j’ai encore pour la fin du mois prochain ces valeurs-ci, que nous ont passées la maison Pascal et la maison Wild et Turner de Marseille, cinquante-cinq mille francs à peu près.
 en tout deux cent quatre-vingt-sept mille cinq cents francs.
 Ce que souffrait le malheureux Morrel pendant cette énumération est impossible à décrire.
@@ -89,22 +87,21 @@ Or, continua-t-il après un moment de silence, je ne vous cacherai pas, monsieur
 Monsieur, dit-il, jusqu’à présent, et il y a plus de vingt-quatre ans que j’ai reçu la maison des mains de mon père qui lui-même l’avait gérée trente-cinq ans, jusqu’à présent pas un billet signé Morrel et fils n’a été présenté à la caisse sans être payé.
 Oui, je sais cela, répondit l’Anglais.
 Mais d’homme d’honneur à homme d’honneur, parlez franchement.
-Monsieur, paierez-vous ceux-ci avec la même exactitude ?
+Monsieur, paierez-vous ceux-ci avec la même exactitude ?
 Morrel tressaillit et regarda celui qui lui parlait ainsi avec plus d’assurance qu’il ne l’avait encore fait.
 Aux questions posées avec cette franchise, dit-il, il faut faire une réponse franche.
 Oui, monsieur, je paierai si, comme je l’espère, mon bâtiment arrive à bon port, car son arrivée me rendra le crédit que les accidents successifs dont j’ai été la victime m’ont ôté.
 Mais si par malheur le Pharaon, cette dernière ressource sur laquelle je compte, me manquait…
 Les larmes montèrent aux yeux du pauvre armateur.
-Eh bien, demanda son interlocuteur, si cette dernière ressource vous manquait ?…
-Eh bien, continua Morrel, monsieur, c’est cruel à dire…
-mais, déjà habitué au malheur, il faut que je m’habitue à la honte, eh bien, je crois que je serais forcé de suspendre mes paiements.
-N’avez-vous donc point d’amis qui puissent vous aider dans cette circonstance ?
+Eh bien, demanda son interlocuteur, si cette dernière ressource vous manquait ?…
+Eh bien, continua Morrel, monsieur, c’est cruel à dire… mais, déjà habitué au malheur, il faut que je m’habitue à la honte, eh bien, je crois que je serais forcé de suspendre mes paiements.
+N’avez-vous donc point d’amis qui puissent vous aider dans cette circonstance ?
 Morrel sourit tristement.
 Dans les affaires, monsieur, dit-il, on n’a point d’amis, vous le savez bien, on n’a que des correspondants.
 C’est vrai, murmura l’Anglais.
-Ainsi vous n’avez plus qu’une espérance ?
+Ainsi vous n’avez plus qu’une espérance ?
 Une seule.
-La dernière ?
+La dernière ?
 La dernière.
 De sorte que si cette espérance vous manque…
 Je suis perdu, monsieur, complètement perdu.
@@ -112,21 +109,18 @@ Comme je venais chez vous, un navire entrait dans le port.
 Je le sais, monsieur.
 Un jeune homme qui est resté fidèle à ma mauvaise fortune passe une partie de son temps à un belvédère situé au haut de la maison, dans l’espérance de venir m’annoncer le premier une bonne nouvelle.
 J’ai su par lui l’entrée de ce navire.
-Et ce n’est pas le vôtre ?
+Et ce n’est pas le vôtre ?
 Non, c’est un navire bordelais, la Gironde.
 Il vient de l’Inde aussi, mais ce n’est pas le mien.
 Peut-être a-t-il eu connaissance du Pharaon et vous apporte-t-il quelque nouvelle.
-Faut-il que je vous le dise, monsieur !
-je crains presque autant d’apprendre des nouvelles de mon trois-mâts que de rester dans l’incertitude.
+Faut-il que je vous le dise, monsieur ! je crains presque autant d’apprendre des nouvelles de mon trois-mâts que de rester dans l’incertitude.
 L’incertitude, c’est encore l’espérance.
-Puis, Monsieur Morrel ajouta d’une voix sourde.
+Puis, monsieur Morrel ajouta d’une voix sourde.
 Ce retard n’est pas naturel.
 Le Pharaon est parti de Calcutta le cinq février.
 depuis plus d’un mois il devrait être ici.
-Qu’est cela, dit l’Anglais en prêtant l’oreille, et que veut dire ce bruit ?
-Ô mon Dieu !
-mon Dieu !
-s’écria Morrel pâlissant, qu’y a-t-il encore ?
+Qu’est cela, dit l’Anglais en prêtant l’oreille, et que veut dire ce bruit ?
+Ô mon Dieu ! mon Dieu ! s’écria Morrel pâlissant, qu’y a-t-il encore ?
 En effet, il se faisait un grand bruit dans l’escalier.
 On allait et on venait, on entendit même un cri de douleur.
 Morrel se leva pour aller ouvrir la porte, mais les forces lui manquèrent et il retomba sur son fauteuil.
@@ -141,22 +135,16 @@ Coclès et Julie.
 En même temps, la seconde porte s’ouvrit et l’on vit apparaître la jeune fille pâle et les joues baignées de larmes.
 Morrel se leva tout tremblant, et s’appuya au bras de son fauteuil, car il n’aurait pu se tenir debout.
 Sa voix voulait interroger, mais il n’avait plus de voix.
-Ô mon père !
-dit la jeune fille en joignant les mains, pardonnez à votre enfant d’être la messagère d’une mauvaise nouvelle !
+Ô mon père ! dit la jeune fille en joignant les mains, pardonnez à votre enfant d’être la messagère d’une mauvaise nouvelle !
 Morrel pâlit affreusement.
 Julie vint se jeter dans ses bras.
-Ô mon père !
-mon père !
-dit-elle, du courage !
-Ainsi le Pharaon a péri ?
-demanda Morrel d’une voix étranglée.
+Ô mon père ! mon père ! dit-elle, du courage !
+Ainsi le Pharaon a péri ? demanda Morrel d’une voix étranglée.
 La jeune fille ne répondit pas, mais elle fit un signe affirmatif avec sa tête, appuyée à la poitrine de son père.
-Et l’équipage ?
-demanda Morrel.
+Et l’équipage ? demanda Morrel.
 Sauvé, dit la jeune fille, sauvé par le navire bordelais qui vient d’entrer dans le port.
 Morrel leva les deux mains au ciel avec une expression de résignation et de reconnaissance sublime.
-Merci, mon Dieu !
-dit Morrel.
+Merci, mon Dieu ! dit Morrel.
 Au moins vous ne frappez que moi seul.
 Si flegmatique que fût l’Anglais, une larme humecta sa paupière.
 Entrez, dit Morrel, entrez, car je présume que vous êtes tous à la porte.
@@ -167,44 +155,36 @@ Au fond, dans l’antichambre, on voyait les rudes figures de sept ou huit marin
 Il fit un pas comme pour aller à eux, mais il se contint et s’effaça au contraire, dans l’angle le plus obscur et le plus éloigné du cabinet.
 Madame Morrel alla s’asseoir dans le fauteuil, prit une des mains de son mari dans les siennes, tandis que Julie demeurait appuyée à la poitrine de son père.
 Emmanuel était resté à mi-chemin de la chambre et semblait servir de lien entre le groupe de la famille Morrel et les marins qui se tenaient à la porte.
-Comment cela est-il arrivé ?
-demanda Morrel.
+Comment cela est-il arrivé ? demanda Morrel.
 Approchez, Penelon, dit le jeune homme, et racontez l’événement.
 Un vieux matelot, bronzé par le soleil de l’équateur, s’avança roulant entre ses mains les restes d’un chapeau.
 Bonjour, monsieur Morrel, dit-il, comme s’il eût quitté Marseille la veille et qu’il arrivât d’Aix ou de Toulon.
 Bonjour, mon ami, dit l’armateur, ne pouvant s’empêcher de sourire dans ses larmes.
-mais où est le capitaine ?
+mais où est le capitaine ?
 Quant à ce qui est du capitaine, monsieur Morrel, il est resté malade à Palma.
 Mais, s’il plaît à Dieu, cela ne sera rien, et vous le verrez arriver dans quelques jours aussi bien portant que vous et moi.
-C’est bien…
-maintenant parlez, Penelon, dit Monsieur Morrel.
+C’est bien… maintenant parlez, Penelon, dit monsieur Morrel.
 Penelon fit passer sa chique de la joue droite à la joue gauche, mit la main devant la bouche, se détourna, lança dans l’antichambre un long jet de salive noirâtre, avança le pied, et se balançant sur ses hanches.
 Pour lors, monsieur Morrel, dit-il, nous étions quelque chose comme cela entre le cap Blanc et le cap Boyador marchant avec une jolie brise sud-sud-ouest, après avoir bourlingué pendant huit jours de calme, quand le capitaine Gaumard s’approche de moi, il faut vous dire que j’étais au gouvernail, et me dit.
-Père Penelon, que pensez-vous de ces nuages qui s’élèvent là-bas à l’horizon ?
+Père Penelon, que pensez-vous de ces nuages qui s’élèvent là-bas à l’horizon ?
 Justement je les regardais à ce moment-là.
--Ce que j’en pense, capitaine !
-j’en pense qu’ils montent un peu plus vite qu’ils n’en ont le droit, et qu’ils sont plus noirs qu’il ne convient à des nuages qui n’auraient pas de mauvaises intentions.
--C’est mon avis aussi, dit le capitaine, et je m’en vais toujours prendre mes précautions.
+Ce que j’en pense, capitaine ! j’en pense qu’ils montent un peu plus vite qu’ils n’en ont le droit, et qu’ils sont plus noirs qu’il ne convient à des nuages qui n’auraient pas de mauvaises intentions.
+C’est mon avis aussi, dit le capitaine, et je m’en vais toujours prendre mes précautions.
 Nous avons trop de voiles pour le vent qu’il va faire tout à l’heure…
-Holà !
-hé !
-range à serrer les cacatois et à haler bas de clinfoc !
+Holà ! hé ! range à serrer les cacatois et à haler bas de clinfoc !
 Il était temps.
 L’ordre n’était pas exécuté, que le vent était à nos trousses et que le bâtiment donnait de la bande.
--Bon !
-dit le capitaine, nous avons encore trop de toile, range à carguer la grande voile !
+Bon ! dit le capitaine, nous avons encore trop de toile, range à carguer la grande voile !
 Cinq minutes après, la grande voile était carguée, et nous marchions avec la misaine, les huniers et les perroquets.
--Eh bien, père Penelon, me dit le capitaine, qu’avez-vous donc à secouer la tête ?
--J’ai qu’à votre place, voyez-vous, je ne resterais pas en si beau chemin.
--Je crois que tu as raison, vieux, dit-il, nous allons avoir un coup de vent.
--Ah !
-par exemple, capitaine, que je lui réponds, celui qui achèterait ce qui se passe là-bas pour un coup de vent gagnerait quelque chose dessus.
-C’est une belle et bonne tempête, ou je ne m’y connais pas !
+Eh bien, père Penelon, me dit le capitaine, qu’avez-vous donc à secouer la tête ?
+J’ai qu’à votre place, voyez-vous, je ne resterais pas en si beau chemin.
+Je crois que tu as raison, vieux, dit-il, nous allons avoir un coup de vent.
+Ah ! par exemple, capitaine, que je lui réponds, celui qui achèterait ce qui se passe là-bas pour un coup de vent gagnerait quelque chose dessus.
+C’est une belle et bonne tempête, ou je ne m’y connais pas !
 C’est-à-dire qu’on voyait venir le vent comme on voit venir la poussière à Montredon.
 Heureusement qu’il avait affaire à un homme qui le connaissait.
--Range à prendre deux ris dans les huniers !
-cria le capitaine.
-Largue les boulines, brasse au vent, amène les huniers, pèse les palanquins sur les vergues !
+Range à prendre deux ris dans les huniers ! cria le capitaine.
+Largue les boulines, brasse au vent, amène les huniers, pèse les palanquins sur les vergues !
 Ce n’était pas assez dans ces parages-là, dit l’Anglais.
 J’aurais pris quatre ris et je me serais débarrassé de la misaine.
 Cette voix ferme, sonore et inattendue, fit tressaillir tout monde.
@@ -212,27 +192,22 @@ Penelon mit sa main sur ses yeux et regarda celui qui contrôlait avec tant d’
 Nous fîmes mieux que cela encore, monsieur, dit le vieux marin avec un certain respect, car nous carguâmes la brigantine et nous mîmes la barre au vent pour courir devant la tempête.
 Dix minutes après, nous carguions les huniers et nous nous en allions à sec de voiles.
 Le bâtiment était bien vieux pour risquer cela, dit l’Anglais.
-Eh bien, justement !
-c’est ce qui nous perdit.
+Eh bien, justement ! c’est ce qui nous perdit.
 Au bout de douze heures que nous étions ballottés que le diable en aurait pris les armes, il se déclara une voie d’eau.
 Penelon, me dit le capitaine, je crois que nous coulons, mon vieux.
 Donne-moi donc la barre et descends à la cale.
 Je lui donne la barre, je descends.
 Il y avait déjà trois pieds d’eau.
 Je remonte en criant.
-Aux pompes !
-aux pompes !
-Ah !
-bien oui, il était déjà trop tard !
+Aux pompes ! aux pompes !
+Ah ! bien oui, il était déjà trop tard !
 On se mit à l’ouvrage.
 Mais je crois que plus nous en tirions, plus il y en avait.
--Ah !
-ma foi, que je dis au bout de quatre heures de travail, puisque nous coulons, laissons-nous couler, on ne meurt qu’une fois !
--C’est comme cela que tu donnes l’exemple maître Penelon ?
-dit le capitaine.
-Eh bien, attends, attends !
+Ah ! ma foi, que je dis au bout de quatre heures de travail, puisque nous coulons, laissons-nous couler, on ne meurt qu’une fois !
+C’est comme cela que tu donnes l’exemple maître Penelon ? dit le capitaine.
+Eh bien, attends, attends !
 Il alla prendre une paire de pistolets dans sa cabine.
--Le premier qui quitte la pompe, dit-il, je lui brûle la cervelle !
+Le premier qui quitte la pompe, dit-il, je lui brûle la cervelle !
 Bien, dit l’Anglais.
 Il n’y a rien qui donne du courage comme les bonnes raisons, continua le marin, d’autant plus que pendant ce temps-là le temps s’était éclairci et que le vent était tombé.
 Mais il n’en est pas moins vrai que l’eau montait toujours, pas de beaucoup, de deux pouces peut-être par heure, mais enfin elle montait.
@@ -240,39 +215,34 @@ Deux pouces par heure, voyez-vous, ça n’a l’air de rien.
 Mais en douze heures ça ne fait pas moins de vingt-quatre pouces, et vingt-quatre pouces font deux pieds.
 Deux pieds et trois que nous avions déjà, ça nous en fait cinq.
 Or, quand un bâtiment a cinq pieds d’eau dans le ventre, il peut passer pour hydropique.
--Allons dit le capitaine, c’est assez comme cela et Monsieur Morrel n’aura rien à nous reprocher.
+Allons dit le capitaine, c’est assez comme cela et monsieur Morrel n’aura rien à nous reprocher.
 nous avons fait ce que nous avons pu pour sauver le bâtiment.
 Maintenant, il faut tâcher de sauver les hommes.
-À la chaloupe, enfants, et plus vite que cela !
+À la chaloupe, enfants, et plus vite que cela !
 Écoutez, monsieur Morrel, continua Penelon, nous aimions bien le Pharaon, mais si fort que le marin aime son navire, il aime encore mieux sa peau.
 Aussi nous ne nous le fîmes pas dire à deux fois.
 Avec cela, voyez-vous, que le bâtiment se plaignait et semblait nous dire.
-Allez-vous-en donc, mais allez-vous-en donc !
+Allez-vous-en donc, mais allez-vous-en donc !
 Et il ne mentait pas, le pauvre Pharaon, nous le sentions littéralement s’enfoncer sous nos pieds.
 Tant il y a qu’en un tour de main la chaloupe était à la mer, et que nous étions tous les huit dedans.
 Le capitaine descendit le dernier, ou plutôt, non il ne descendit pas, car il ne voulait pas quitter le navire, c’est moi qui le pris à bras-le-corps et le jetai aux camarades, après quoi je sautai à mon tour.
 Il était temps.
 Comme je venais de sauter le pont creva avec un bruit qu’on aurait dit la bordée d’un vaisseau de quarante-huit.
 Dix minutes après, il plongea de l’avant, puis de l’arrière, puis il se mit à tourner sur lui-même comme un chien qui court après sa queue.
-Et puis, bonsoir la compagnie, brrou !…
-tout a été dit, plus de Pharaon !
+Et puis, bonsoir la compagnie, brrou !… tout a été dit, plus de Pharaon !
 Quant à nous, nous sommes restés trois jours sans boire ni manger.
 Si bien que nous parlions de tirer au sort pour savoir celui qui alimenterait les autres, quand nous aperçûmes la Gironde.
 nous lui fîmes des signaux, elle nous vit, mit le cap sur nous, nous envoya sa chaloupe et nous recueillit.
-Voilà comme ça s’est passé, monsieur Morrel, parole d’honneur !
-foi de marin !
-N’est-ce pas, les autres ?
+Voilà comme ça s’est passé, monsieur Morrel, parole d’honneur ! foi de marin !
+N’est-ce pas, les autres ?
 Un murmure général d’approbation indiqua que le narrateur avait réuni tous les suffrages par la vérité du fonds et le pittoresque des détails.
-Bien, mes amis, dit Monsieur Morrel, vous êtes de braves gens, et je savais d’avance que dans le malheur qui m’arrivait il n’y avait pas d’autre coupable que ma destinée.
+Bien, mes amis, dit monsieur Morrel, vous êtes de braves gens, et je savais d’avance que dans le malheur qui m’arrivait il n’y avait pas d’autre coupable que ma destinée.
 C’est la volonté de Dieu et non la faute des hommes.
 Adorons la volonté de Dieu.
-Maintenant combien vous est-il dû de solde ?
-Oh !
-bah !
-ne parlons pas de cela, monsieur Morrel.
+Maintenant combien vous est-il dû de solde ?
+Oh ! bah ! ne parlons pas de cela, monsieur Morrel.
 Au contraire, parlons-en, dit l’armateur avec un sourire triste.
-Eh bien, on nous doit trois mois…
-dit Penelon.
+Eh bien, on nous doit trois mois… dit Penelon.
 Coclès, payez deux cents francs à chacun de ces braves gens.
 Dans une autre époque, mes amis, continua Morrel, j’eusse ajouté.
 Donnez-leur à chacun deux cents francs de gratification.
@@ -280,38 +250,33 @@ Mais les temps sont malheureux, mes amis, et le peu d’argent qui me reste ne m
 Excusez-moi donc, et ne m’en aimez pas moins pour cela.
 Penelon fit une grimace d’attendrissement, se retourna vers ses compagnons, échangea quelques mots avec eux et revint.
 Pour ce qui est de cela, monsieur Morrel, dit-il en passant sa chique de l’autre côté de sa bouche et en lançant dans l’antichambre un second jet de salive qui alla faire le pendant au premier, pour ce qui est de cela…
-De quoi ?
+De quoi ?
 De l’argent…
-Eh bien ?
+Eh bien ?
 Eh bien, monsieur Morrel, les camarades disent que pour le moment ils auront assez avec cinquante francs chacun et qu’ils attendront pour le reste.
-Merci, mes amis, merci !
-s’écria Monsieur Morrel, touché jusqu’au cœur.
+Merci, mes amis, merci ! s’écria monsieur Morrel, touché jusqu’au cœur.
 vous êtes tous de braves cœurs.
 Mais prenez, prenez, et si vous trouvez un bon service, entrez-y, vous êtes libres.
 Cette dernière partie de la phrase produisit un effet prodigieux sur les dignes marins.
 Ils se regardèrent les uns les autres d’un air effaré.
 Penelon, à qui la respiration manqua, faillit en avaler sa chique.
 Heureusement, il porta à temps la main à son gosier.
-Comment, monsieur Morrel, dit-il d’une voix étranglée, comment, vous nous renvoyez !
-vous êtes donc mécontent de nous ?
+Comment, monsieur Morrel, dit-il d’une voix étranglée, comment, vous nous renvoyez ! vous êtes donc mécontent de nous ?
 Non, mes enfants, dit l’armateur.
 Non, je ne suis pas mécontent de vous, tout au contraire.
 Non, je ne vous renvoie pas.
-Mais, que voulez-vous ?
-je n’ai plus de bâtiments, je n’ai plus besoin de marins.
-Comment vous n’avez plus de bâtiments !
-dit Penelon.
+Mais, que voulez-vous ? je n’ai plus de bâtiments, je n’ai plus besoin de marins.
+Comment vous n’avez plus de bâtiments ! dit Penelon.
 Eh bien, vous en ferez construire d’autres, nous attendrons.
 Dieu merci, nous savons ce que c’est que de bourlinguer.
 Je n’ai plus d’argent pour faire construire des bâtiments, Penelon, dit l’armateur avec un triste sourire, je ne puis donc pas accepter votre offre, toute obligeante qu’elle est.
 Eh bien, si vous n’avez pas d’argent il ne faut pas nous payer.
-Alors, nous ferons comme a fait ce pauvre Pharaon, nous courrons à sec, voilà tout !
+Alors, nous ferons comme a fait ce pauvre Pharaon, nous courrons à sec, voilà tout !
 Assez, assez, mes amis, dit Morrel étouffant d’émotion.
 Allez, je vous en prie.
 Nous nous retrouverons dans un temps meilleur.
 Emmanuel, ajouta l’armateur, accompagnez-les, et veillez à ce que mes désirs soient accomplis.
-Au moins c’est au revoir, n’est-ce pas, monsieur Morrel ?
-dit Penelon.
+Au moins c’est au revoir, n’est-ce pas, monsieur Morrel ? dit Penelon.
 Oui, mes amis, je l’espère, au moins.
 Allez.
 Et il fit un signe à Coclès, qui marcha devant.
@@ -324,14 +289,13 @@ Mais, en se retirant, la jeune fille lança à cet homme un coup d’œil sublim
 Les deux hommes restèrent seuls.
 Eh bien, monsieur, dit Morrel en se laissant retomber sur son fauteuil, vous avez tout vu, tout entendu, et je n’ai plus rien à vous apprendre.
 J’ai vu, monsieur, dit l’Anglais, qu’il vous était arrivé un nouveau malheur immérité comme les autres, et cela m’a confirmé dans le désir que j’ai de vous être agréable.
-Ô monsieur !
-dit Morrel.
+Ô monsieur ! dit Morrel.
 Voyons, continua l’étranger.
-Je suis un de vos principaux créanciers, n’est-ce pas ?
+Je suis un de vos principaux créanciers, n’est-ce pas ?
 Vous êtes du moins celui qui possède des valeurs à plus courte échéance.
-Vous désirez un délai pour me payer ?
+Vous désirez un délai pour me payer ?
 Un délai pourrait me sauver l’honneur, et par conséquent la vie.
-Combien demandez-vous ?
+Combien demandez-vous ?
 Morrel hésita.
 Deux mois, dit-il.
 Bien, dit l’étranger, je vous en donne trois.
@@ -347,15 +311,14 @@ Les billets furent renouvelés, on déchira les anciens, et le pauvre armateur s
 L’Anglais reçut ses remerciements avec le flegme particulier à sa nation, et prit congé de Morrel, qui le reconduisit en le bénissant jusqu’à la porte.
 Sur l’escalier, il rencontra Julie.
 La jeune fille faisait semblant de descendre, mais en réalité elle l’attendait.
-Ô monsieur !
-dit-elle en joignant les mains.
+Ô monsieur ! dit-elle en joignant les mains.
 Mademoiselle, dit l’étranger, vous recevrez un jour une lettre signée…
 Simbad le marin…
 Faites de point en point ce que vous dira cette lettre, si étrange que vous paraisse la recommandation.
 Oui, monsieur, répondit Julie.
-Me promettez-vous de le faire ?
+Me promettez-vous de le faire ?
 Je vous le jure.
-Bien !
+Bien !
 Adieu, mademoiselle.
 Demeurez toujours une bonne et sainte fille comme vous êtes, et j’ai bon espoir que Dieu vous récompensera en vous donnant Emmanuel pour mari.
 Julie poussa un petit cri, devint rouge comme une cerise et se retint à la rampe pour ne pas tomber.

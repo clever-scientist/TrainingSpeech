@@ -1,4 +1,4 @@
-Chapitre vingt-quatre
+Chapitre vingt-quatre.
 Éblouissement.
 Le soleil était arrivé au tiers de sa course à peu près, et ses rayons de mai donnaient, chauds et vivants, sur ces rochers, qui eux-mêmes semblaient sensibles à sa chaleur.
 Des milliers de cigales, invisibles dans les bruyères, faisaient entendre leur murmure monotone et continu.
@@ -27,7 +27,7 @@ Cette crique était assez large à son ouverture et assez profonde à son centre
 Alors, en suivant le fil des inductions, ce fil qu’aux mains de l’abbé Faria il avait vu guider l’esprit d’une façon si ingénieuse dans le dédale des probabilités, il songea que le cardinal Spada, dans son intérêt à ne pas être vu, avait abordé à cette crique, y avait caché son petit bâtiment, avait suivi la ligne indiquée par des entailles, et avait, à l’extrémité de cette ligne, enfoui son trésor.
 C’était cette supposition qui avait ramené Dantès près du rocher circulaire.
 Seulement, cette chose inquiétait Edmond et bouleversait toutes les idées qu’il avait en dynamique.
-comment avait-on pu, sans employer des forces considérables, hisser ce rocher, qui pesait peut-être cinq ou six milliers, sur l’espèce de base où il reposait ?
+comment avait-on pu, sans employer des forces considérables, hisser ce rocher, qui pesait peut-être cinq ou six milliers, sur l’espèce de base où il reposait ?
 Tout à coup, une idée vint à Dantès.
 Au lieu de le faire monter, se dit-il, on l’aura fait descendre.
 Et lui-même s’élança au-dessus du rocher, afin de chercher la place de sa base première.
@@ -42,7 +42,7 @@ Après un travail de dix minutes, la muraille céda, et un trou à y fourrer le 
 Dantès alla couper l’olivier le plus fort qu’il put trouver, le dégarnit de ses branches, l’introduisit dans le trou et en fit un levier.
 Mais le roc était à la fois trop lourd et calé trop solidement par le rocher inférieur, pour qu’une force humaine, fût-ce celle d’Hercule lui-même, pût l’ébranler.
 Dantès réfléchit alors que c’était cette cale elle-même qu’il fallait attaquer.
-Mais par quel moyen ?
+Mais par quel moyen ?
 Dantès jeta les yeux autour de lui, comme font les hommes embarrassés.
 Et son regard tomba sur une corne de mouflon pleine de poudre que lui avait laissée son ami Jacopo.
 Il sourit.
@@ -69,10 +69,9 @@ Ce moment d’hésitation eut la durée de l’éclair.
 Edmond passa son levier dans l’anneau, leva vigoureusement, et la dalle descellée s’ouvrit, découvrant la pente rapide d’une sorte d’escalier qui allait s’enfonçant dans l’ombre d’une grotte de plus en plus obscure.
 Un autre se fût précipité, eût poussé des exclamations de joie.
 Dantès s’arrêta, pâlit, douta.
-Voyons, se dit-il, soyons homme !
-accoutumé à l’adversité, ne nous laissons pas abattre par une déception.
-Ou sans cela ce serait donc pour rien que j’aurais souffert !
-Le cœur se brise, lorsque après avoir été dilaté outre mesure par l’espérance à la tiède haleine il rentre et se renferme dans la froide réalité !
+Voyons, se dit-il, soyons homme ! accoutumé à l’adversité, ne nous laissons pas abattre par une déception.
+Ou sans cela ce serait donc pour rien que j’aurais souffert !
+Le cœur se brise, lorsque après avoir été dilaté outre mesure par l’espérance à la tiède haleine il rentre et se renferme dans la froide réalité !
 Faria a fait un rêve.
 le cardinal Spada n’a rien enfoui dans cette grotte, peut-être même n’y est-il jamais venu, ou, s’il y est venu, César Borgia l’intrépide aventurier, l’infatigable et sombre larron, y est venu après lui, a découvert sa trace, a suivi les mêmes brisées que moi, comme moi a soulevé cette pierre, et, descendu avant moi, ne m’a rien laissé à prendre après lui.
 Il resta un moment immobile, pensif, les yeux fixés sur cette ouverture sombre et continue.
@@ -82,20 +81,18 @@ Oui, oui, ceci est une aventure à trouver sa place dans la vie mêlée d’ombr
 Ce fabuleux événement a dû s’enchaîner invinciblement aux autres choses.
 Oui, Borgia est venu quelque nuit ici, un flambeau d’une main, une épée de l’autre, tandis qu’à vingt pas de lui, au pied de cette roche peut-être, se tenaient, sombres et menaçants, deux sbires interrogeant la terre, l’air et la mer, pendant que leur maître entrait comme je vais le faire, secouant les ténèbres de son bras redoutable et flamboyant.
 Oui.
-Mais des sbires auxquels il aura livré ainsi son secret, qu’en aura fait César ?
-se demanda Dantès.
+Mais des sbires auxquels il aura livré ainsi son secret, qu’en aura fait César ? se demanda Dantès.
 Ce qu’on fit, se répondit-il en souriant, des ensevelisseurs d’Alaric, que l’on enterra avec l’enseveli.
 Cependant s’il y était venu, reprit Dantès, il eût retrouvé et pris le trésor.
 Borgia, l’homme qui comparait l’Italie à un artichaut et qui la mangeait feuille à feuille, Borgia savait trop bien l’emploi du temps pour avoir perdu le sien à replacer ce rocher sur sa base.
 Descendons.
 Alors il descendit, le sourire du doute sur les lèvres, en murmurant ce dernier mot de la sagesse humaine.
-Peut-être !…
+Peut-être !…
 Mais, au lieu des ténèbres qu’il s’était attendu trouver, au lieu d’une atmosphère opaque et viciée, Dantès ne vit qu’une douce lueur décomposée en jour bleuâtre.
 L’air et la lumière filtraient non seulement par l’ouverture qui venait d’être pratiquée, mais encore par des gerçures de rochers invisibles du sol extérieur, et à travers lesquels on voyait l’azur du ciel où se jouaient les branches tremblotantes des chênes verts et des ligaments épineux et rampants des ronces.
 Après quelques secondes de séjour dans cette grotte, dont l’atmosphère plutôt tiède qu’humide, plutôt odorante que fade, était à la température de l’île ce que la lueur bleue était au soleil, le regard de Dantès, habitué, comme nous l’avons dit, aux ténèbres, put sonder les angles les plus reculés de la caverne.
 elle était de granit dont les facettes pailletées étincelaient comme des diamants.
-Hélas !
-se dit Edmond en souriant, voilà sans doute tous les trésors qu’aura laissés le cardinal.
+Hélas ! se dit Edmond en souriant, voilà sans doute tous les trésors qu’aura laissés le cardinal.
 Et ce bon abbé, en voyant en rêve ces murs tout resplendissants, se sera entretenu dans ses riches espérances.
 Mais Dantès se rappela les termes du testament, qu’il savait par cœur.
 Dans l’angle le plus éloigné de la seconde ouverture, disait ce testament.
@@ -158,7 +155,7 @@ Il planta sa torche dans la terre et se remit à l’oeuvre.
 En un instant, un emplacement de trois pieds de long sur deux pieds de large à peu près fut déblayé, et Dantès put reconnaître un coffre de bois de chêne cerclé de fer ciselé.
 Au milieu du couvercle resplendissaient, sur une plaque d’argent que la terre n’avait pu ternir, les armes de la famille Spada, c’est-à-dire une épée posée en pal sur un écusson ovale, comme sont les écussons italiens, et surmonté d’un chapeau de cardinal.
 Dantès les reconnut facilement.
-l’abbé Faria les lui avait tant de fois dessinées !
+l’abbé Faria les lui avait tant de fois dessinées !
 Dès lors, il n’y avait plus de doute, le trésor était bien là.
 On n’eût pas pris tant de précautions pour remettre à cette place un coffre vide.
 En un instant, tous les alentours du coffre furent déblayés, et Dantès vit tour à tour apparaître la serrure du milieu, placée entre deux cadenas, et les anses des faces latérales.
@@ -180,8 +177,7 @@ Dans le troisième enfin, à demi plein, Edmond remua à poignée les diamants, 
 Après avoir touché, palpé, enfoncé ses mains frémissantes dans l’or et les pierreries, Edmond se releva et prit sa course à travers les cavernes avec la tremblante exaltation d’un homme qui touche à la folie.
 Il sauta sur un rocher d’où il pouvait découvrir la mer, et n’aperçut rien.
 Il était seul, bien seul, avec ces richesses incalculables, inouïes, fabuleuses, qui lui appartenaient.
-seulement rêvait-il ou était-il éveillé ?
-faisait-il un songe fugitif ou étreignait-il corps à corps une réalité ?
+seulement rêvait-il ou était-il éveillé ? faisait-il un songe fugitif ou étreignait-il corps à corps une réalité ?
 Il avait besoin de revoir son or, et cependant il sentait qu’il n’aurait pas la force, en ce moment, d’en soutenir la vue.
 Un instant, il appuya ses deux mains sur le haut de sa tête, comme pour empêcher sa raison de s’enfuir.
 Puis il s’élança tout au travers de l’île, sans suivre, non pas de chemin, il n’y en a pas dans l’île de Monte-Cristo, mais de ligne arrêtée, faisant fuir les chèvres sauvages et effrayant les oiseaux de mer par ses cris et ses gesticulations.
