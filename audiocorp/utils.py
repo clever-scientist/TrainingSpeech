@@ -64,7 +64,7 @@ NORMALIZATIONS = [
     [re.compile(r'\s+?;\s+?(\w)'), replace_semi_colons],
 ]
 ROMAN_CHARS = 'XVI'
-NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)*")
+NUMS_REGEX = re.compile("(\d+,?\u00A0?\d+)|(\d+\w+)|(\d)+")
 ORDINAL_REGEX = re.compile("(\d+)([ieme|ier|iere]+)")
 
 
