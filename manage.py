@@ -80,7 +80,8 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @click.argument('source_name')
 @click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
-def check_alignment(source_name, restart, speed):
+@click.option('-ra', '--audio-rate', default=16000)
+def check_alignment(source_name, restart, speed, audio_rate):
     import inquirer
     source = audiocorp.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
@@ -92,7 +93,7 @@ def check_alignment(source_name, restart, speed):
         file_hash = utils.hash_file(f)
     path_to_wav = f'/tmp/{file_hash}.wav'
     if not os.path.exists(path_to_wav):
-        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=16000, channels=1)
+        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=audio_rate, channels=1)
 
     # retrieve transcript
     with open(path_to_transcript) as f:
@@ -467,7 +468,7 @@ def stats():
 
 
 @cli.command()
-@click.option('-r', '--audio_rate', default=16000)
+@click.option('-r', '--audio-rate', default=16000)
 @click.option('-l', '--language', type=click.Choice(['fr_FR']), default=None)
 def release(audio_rate, language):
     per_language_sources = defaultdict(list)
