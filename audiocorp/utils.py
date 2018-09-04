@@ -42,6 +42,7 @@ NORMALIZATIONS = [
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
     [re.compile(r'^No '), 'Numéro '],
     ['M.\u00a0', 'Monsieur '],
+    [re.compile(r'(^| )M\.([A-Z])'), r'\1Monsieur \2'],
     ['M. ', 'Monsieur '],
     ['Mme\u00a0', 'Madame '],
     ['Mme ', 'Madame '],
@@ -60,7 +61,7 @@ NORMALIZATIONS = [
     [re.compile(r'("|«)\s?'), ''],
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
-    [re.compile(r'^\((.*)\)$'), r'\1'],
+    [re.compile(r'^\((.*)\)\.?$'), r'\1'],
     [re.compile(r'\s+?;\s+?(\w)'), replace_semi_colons],
 ]
 ROMAN_CHARS = 'XVI'
@@ -158,7 +159,11 @@ def extract_sentences(full_text):
 
                 if prev_sentence and (
                         prev_sentence in NO_SPLIT_TOKENS or
-                        prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0]
+                        prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0] or
+                        sentence.startswith('Mais ') or
+                        sentence.startswith('Voilà tout.') or
+                        prev_sentence.endswith('….') or
+                        prev_sentence.endswith('…')
                 ):
                     prev_sentence = f'{prev_sentence} {sentence}'
                     continue

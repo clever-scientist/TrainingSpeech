@@ -80,7 +80,7 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @click.argument('source_name')
 @click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
-@click.option('-ra', '--audio-rate', default=16000)
+@click.option('-ar', '--audio-rate', default=16000)
 def check_alignment(source_name, restart, speed, audio_rate):
     import inquirer
     source = audiocorp.get_source(source_name)
@@ -202,6 +202,7 @@ def check_alignment(source_name, restart, speed, audio_rate):
                                 (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
                                 (['wrong_end__cut_on_next_silence'] if can_cut_on_next_silence else []) +
                                 (['enable'] if fragment.get('disabled') else ['disable']) +
+                                (['rebuild_remaining'] if next_fragments else []) +
                                 ['quit']),
                     ),
                 ])['next']
@@ -229,6 +230,12 @@ def check_alignment(source_name, restart, speed, audio_rate):
                     start=i-len(prev_fragments),
                     end=i+len(next_fragments),
                     new_transcript=new_transcript,
+                )
+            elif next_ == 'rebuild_remaining':
+                raise exceptions.SplitException(
+                    start=i,
+                    end=len(alignment) - 1,
+                    new_transcript=[f['text'] for f in alignment[i:]],
                 )
             elif next_ == 'wrong_end__cut_on_previous_silence':
                 fragment['end'] = round(min(prev_silence_start + 0.5, prev_silence_end), 3)
@@ -350,6 +357,7 @@ def check_alignment(source_name, restart, speed, audio_rate):
                 sub_alignment +
                 alignment[e.end+1:]
             )
+            cut_fragments_audio(alignment, input_file=path_to_wav, output_dir=path_to_recordings)
             i -= e.start
 
         # save progress
