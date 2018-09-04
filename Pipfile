@@ -25,6 +25,7 @@ datadiff = "*"
 [dev-packages]
 ipython = "*"
 ipdb = "*"
+diff-highlight = "*"
 
 [requires]
 python_version = "3.6"

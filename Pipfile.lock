@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a541362b4862b189378d238e87cd7b5d26d7b840330106e1f0edac20f4340519"
+            "sha256": "1eb24b5a7b5322a2b8cc168c4a423ef36da8e1ceef056b387498ac58ebb23236"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -238,11 +238,11 @@
         },
         "pytest-cov": {
             "hashes": [
-                "sha256:03aa752cf11db41d281ea1d807d954c4eda35cfa1b21d6971966cc041bbf6e2d",
-                "sha256:890fe5565400902b0c78b5357004aab1c814115894f4f21370e2433256a3eeec"
+                "sha256:513c425e931a0344944f84ea47f3956be0e416d95acbd897a44970c8d926d5d7",
+                "sha256:e360f048b7dae3f2f2a9a4d067b2dd6b6a015d384d1577c994a43f3f7cbad762"
             ],
             "index": "pypi",
-            "version": "==2.5.1"
+            "version": "==2.6.0"
         },
         "pytest-mock": {
             "hashes": [
@@ -311,6 +311,14 @@
                 "sha256:c39efa13fbdeb4506c476c9b3babf6a718da943dab7811c206005a4a956c080c"
             ],
             "version": "==4.3.0"
+        },
+        "diff-highlight": {
+            "hashes": [
+                "sha256:8e179aec4f9af984bc12bfef3d371ed0d1f96fa33b51827a81579f4b02d53d28",
+                "sha256:b33321384e7bbee569b1ac0f4f3d09efef843befc3233a5ef899cf887650a4dc"
+            ],
+            "index": "pypi",
+            "version": "==1.2.0"
         },
         "ipdb": {
             "hashes": [
