@@ -265,8 +265,14 @@
   {
     "begin": 255.826,
     "disabled": true,
-    "end": 273.406,
-    "text": "Ce tr\u00e9sor qui peut monter \u00e0 deux d\u2019\u00e9cus romains dans l\u2019angle le plus \u00e9l de la seconde ouverture, lequel d\u00e9clare lui appartenir en toute protier vingt-cinq avril cent quarante-neuf"
+    "end": 270.324,
+    "text": "Ce tr\u00e9sor qui peut monter \u00e0 deux d\u2019\u00e9cus romains dans l\u2019angle le plus \u00e9l de la seconde ouverture, lequel d\u00e9clare lui appartenir en toute protier"
+  },
+  {
+    "begin": 271.186,
+    "disabled": true,
+    "end": 273.286,
+    "text": "vingt-cinq avril cent quarante-neuf"
   },
   {
     "approved": true,
@@ -319,18 +325,20 @@
   {
     "approved": true,
     "begin": 309.76,
+    "disabled": false,
     "end": 311.028,
     "text": "Des pas !\u2026"
   },
   {
     "approved": true,
     "begin": 311.122,
-    "end": 314.82,
+    "end": 314.582,
     "text": "On approche\u2026 je pars\u2026 Adieu !"
   },
   {
     "approved": true,
     "begin": 314.82,
+    "disabled": false,
     "end": 335.86,
     "text": "Et Dant\u00e8s, heureux d\u2019\u00e9chapper \u00e0 l\u2019histoire et \u00e0 l\u2019explication qui n\u2019eussent pas manqu\u00e9 de lui confirmer le malheur de son ami, se glissa comme une couleuvre par l\u2019\u00e9troit couloir, tandis que Faria rendu \u00e0 une sorte d\u2019activit\u00e9 par la terreur, repoussait du pied la dalle qu\u2019il recouvrait d\u2019une natte afin de cacher aux yeux la solution de continuit\u00e9 qu\u2019il n\u2019avait pas eu le temps de faire dispara\u00eetre."
   },
@@ -1324,18 +1332,20 @@
   {
     "approved": true,
     "begin": 1390.4199999999998,
-    "end": 1392.08,
+    "end": 1391.84,
     "text": "Deux ouvertures"
   },
   {
     "approved": true,
     "begin": 1391.874,
+    "disabled": false,
     "end": 1393.396,
     "text": "dans ces grottes."
   },
   {
     "approved": true,
     "begin": 1393.49,
+    "disabled": false,
     "end": 1395.8139999999999,
     "text": "le tr\u00e9sor est dans l\u2019angle le plus \u00e9"
   },
@@ -1356,9 +1366,14 @@
   {
     "approved": true,
     "begin": 1402.71,
-    "end": 1407.22,
-    "end_forced": true,
-    "text": "vingt-cinq avril mille quatre cent quatre-vingt-dix-huit CES"
+    "end": 1405.94,
+    "text": "vingt-cinq avril mille quatre cent quatre-vingt-dix-huit"
+  },
+  {
+    "approved": true,
+    "begin": 1405.78,
+    "end": 1407.09,
+    "text": "CES"
   },
   {
     "approved": true,
@@ -1400,39 +1415,21 @@
   {
     "approved": true,
     "begin": 1428.56,
+    "disabled": false,
     "end": 1431.544,
     "text": "je d\u00e9clare \u00e0 mon neveu Guido Spada,"
   },
   {
-    "approved": true,
-    "begin": 1432.15,
-    "end": 1434.87,
-    "text": "oui dans un endroit qu\u2019il conna\u00eet"
-  },
-  {
-    "approved": true,
-    "begin": 1435.22,
-    "end": 1437.424,
-    "text": "les grottes de la petite"
-  },
-  {
-    "approved": true,
-    "begin": 1438.55,
-    "end": 1442.8,
-    "text": "s\u00e9dais de lingots, d\u2019or monnay\u00e9, de pier"
-  },
-  {
-    "begin": 1443.15,
+    "begin": 1432.1499999999999,
     "disabled": true,
-    "end": 1455.73,
-    "text": "je connais l\u2019existence de ce tr\u00e9sor, qui lions d\u2019\u00e9cus romains, et qu\u2019il e, \u00e0 partir de la petite res ont \u00e9t\u00e9 pratiqu\u00e9es"
+    "end": 1462.4099999999999,
+    "text": "oui dans un endroit qu\u2019il conna\u00eet les grottes de la petite s\u00e9dais de lingots, d\u2019or monnay\u00e9, de pier je connais l\u2019existence de ce tr\u00e9sor, qui lions d\u2019\u00e9cus romains, et qu\u2019il e, \u00e0 partir de la petite res ont \u00e9t\u00e9 pratiqu\u00e9es loign\u00e9 de la deuxi\u00e8me, te propri\u00e9t\u00e9 comme \u00e0 mon AR-SPADA"
   },
   {
-    "begin": 1455.95,
-    "disabled": true,
-    "end": 1465.332,
-    "end_forced": true,
-    "text": "loign\u00e9 de la deuxi\u00e8me, te propri\u00e9t\u00e9 comme \u00e0 mon AR-SPADA Faria le suivait d\u2019un \u0153il ardent."
+    "approved": true,
+    "begin": 1462.87,
+    "end": 1465.21,
+    "text": "Faria le suivait d\u2019un \u0153il ardent."
   },
   {
     "approved": true,
@@ -1476,24 +1473,26 @@
     "approved": true,
     "begin": 1526.61,
     "disabled": false,
-    "end": 1530.352,
+    "end": 1530.23,
     "text": "Deux ouvertures ont \u00e9t\u00e9 pratiqu\u00e9es dans ces grottes."
   },
   {
     "approved": true,
     "begin": 1530.1899999999998,
-    "end": 1540.2099999999998,
+    "end": 1539.8899999999999,
     "text": "le tr\u00e9sor est dans l\u2019angle le plus \u00e9loign\u00e9 de la deuxi\u00e8me, lequel tr\u00e9sor je lui l\u00e8gue et c\u00e8de en tou\u2026 te propri\u00e9t\u00e9, comme \u00e0 mon seul h\u00e9ritier."
   },
   {
     "approved": true,
     "begin": 1539.9199999999998,
+    "disabled": false,
     "end": 1543.1519999999998,
     "text": "vingt-cinq avril mille quatre cent quatre-vingt-dix-huit"
   },
   {
     "approved": true,
     "begin": 1542.99,
+    "disabled": false,
     "end": 1544.6599999999999,
     "text": "CESAR\u2026"
   },
@@ -1598,8 +1597,14 @@
   {
     "approved": true,
     "begin": 1637.12,
-    "end": 1642.62,
-    "text": "En me l\u00e9guant ce br\u00e9viaire symbolique il m\u2019a l\u00e9gu\u00e9 ce qu\u2019il contenait. Non, non, tranquillisez-vous."
+    "end": 1641.2,
+    "text": "En me l\u00e9guant ce br\u00e9viaire symbolique il m\u2019a l\u00e9gu\u00e9 ce qu\u2019il contenait."
+  },
+  {
+    "approved": true,
+    "begin": 1640.79,
+    "end": 1642.5,
+    "text": "Non, non, tranquillisez-vous."
   },
   {
     "approved": true,
