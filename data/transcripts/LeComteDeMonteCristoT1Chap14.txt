@@ -1,3 +1,4 @@
+Chapitre quatorze.
 Le prisonnier furieux et le prisonnier fou.
 Un an environ après le retour de Louis dix-huit, il y eut visite de Monsieur l’inspecteur général des prisons.
 Dantès entendit rouler et grincer du fond de son cachot tous ces préparatifs, qui faisaient en haut beaucoup de fracas, mais qui, en bas, eussent été des bruits inappréciables pour toute autre oreille que pour celle d’un prisonnier, accoutumé à écouter, dans le silence de la nuit, l’araignée qui tisse sa toile, et la chute périodique de la goutte d’eau qui met une heure à se former au plafond de son cachot.
@@ -28,7 +29,8 @@ Prenez donc vos précautions, dit l’inspecteur.
 En effet, on envoya chercher deux soldats et l’on commença de descendre par un escalier si puant, si infect, si moisi, que rien que le passage dans un pareil endroit affectait désagréablement à la fois la vue, l’odorat et la respiration.
 Oh ! fit l’inspecteur en s’arrêtant à moitié de la descente, qui diable peut loger là ?
 Un conspirateur des plus dangereux, et qui nous est particulièrement recommandé comme un homme capable de tout.
-Il est seul ? Certainement.
+Il est seul ?
+Certainement.
 Depuis combien de temps est-il là ?
 Depuis un an à peu près.
 Et il a été mis dans ce cachot dès son entrée.
@@ -75,17 +77,14 @@ Je demande que l’on me donne des juges.
 Je demande que mon procès soit instruit.
 Je demande enfin que l’on me fusille si je suis coupable, mais aussi qu’on me mette en liberté si je suis innocent.
 Êtes-vous bien nourri ? demanda l’inspecteur.
-Oui, je le crois, je n’en sais rien.
-Mais cela importe peu.
+Oui, je le crois, je n’en sais rien. Mais cela importe peu.
 Ce qui doit importer, non seulement à moi, malheureux prisonnier, mais encore à tous les fonctionnaires rendant la justice, mais encore au roi qui nous gouverne, c’est qu’un innocent ne soit pas victime d’une dénonciation infâme et ne meure pas sous les verrous en maudissant ses bourreaux.
 Vous êtes bien humble aujourd’hui, dit le gouverneur.
 Vous n’avez pas toujours été comme cela.
 Vous parliez tout autrement, mon cher ami, le jour où vous vouliez assommer votre gardien.
-C’est vrai, monsieur, dit Dantès, et j’en demande bien humblement pardon à cet homme qui a toujours été bon pour moi….
-Mais, que voulez-vous ? j’étais fou, j’étais furieux.
+C’est vrai, monsieur, dit Dantès, et j’en demande bien humblement pardon à cet homme qui a toujours été bon pour moi…. Mais, que voulez-vous ? j’étais fou, j’étais furieux.
 Et vous ne l’êtes plus ?
-Non, monsieur, car la captivité m’a plié, brisé, anéanti….
-Il y a si longtemps que je suis ici !
+Non, monsieur, car la captivité m’a plié, brisé, anéanti…. Il y a si longtemps que je suis ici !
 Si longtemps ?… et à quelle époque avez-vous été arrêté ?
 Demanda l’inspecteur.
 Le vingt-huit février mille huit cent quinze, à deux heures de l’après-midi.
@@ -108,8 +107,7 @@ Puis, se retournant vers le gouverneur.
 En vérité, dit-il, le pauvre diable me fait de la peine.
 En remontant, vous me montrerez son livre d’écrou.
 Certainement, dit le gouverneur. Mais je crois que vous trouverez contre lui des notes terribles.
-Monsieur, continua Dantès, je sais que vous ne pouvez pas me faire sortir d’ici de votre propre décision Mais…
-vous pouvez transmettre ma demande à l’autorité, vous pouvez provoquer une enquête, vous pouvez, enfin, me faire mettre en jugement.
+Monsieur, continua Dantès, je sais que vous ne pouvez pas me faire sortir d’ici de votre propre décision. Mais vous pouvez transmettre ma demande à l’autorité, vous pouvez provoquer une enquête, vous pouvez, enfin, me faire mettre en jugement.
 un jugement, c’est tout ce que je demande.
 Que je sache quel crime j’ai commis, et à quelle peine je suis condamné.
 Car, voyez-vous, l’incertitude, c’est le pire de tous les supplices.
@@ -124,15 +122,15 @@ Voyez-le et entendez-vous avec lui.
 Monsieur de Villefort n’est plus à Marseille depuis un an, mais à Toulouse.
 Ah ! cela ne m’étonne plus, murmura Dantès.
 mon seul protecteur est éloigné.
-Monsieur de Villefort avait-il quelque motif de haine contre vous ? Demanda l’inspecteur.
+Monsieur de Villefort avait-il quelque motif de haine contre vous ?
+Demanda l’inspecteur.
 Aucun, monsieur.
 Et même il a été bienveillant pour moi.
 Je pourrai donc me fier aux notes qu’il a laissées sur vous ou qu’il me donnera ?
 Entièrement, monsieur.
 C’est bien, attendez.
 Dantès tomba à genoux, levant les mains vers le ciel, et murmurant une prière dans laquelle il recommandait à Dieu cet homme qui était descendu dans sa prison, pareil au Sauveur allant délivrer les âmes de l’enfer.
-La porte se referma.
-Mais l’espoir descendu avec l’inspecteur était resté enfermé dans le cachot de Dantès.
+La porte se referma. Mais l’espoir descendu avec l’inspecteur était resté enfermé dans le cachot de Dantès.
 Voulez-vous voir le registre d’écrou tout de suite, demanda le gouverneur, ou passer au cachot de l’abbé ?
 Finissons-en avec les cachots tout d’un coup, répondit l’inspecteur.
 Si je remontais au jour, je n’aurais peut-être plus le courage de continuer ma triste mission.
@@ -199,8 +197,7 @@ Cela prouve, monsieur le gouverneur, dit l’abbé, que vous êtes comme ces gen
 Mon cher monsieur, dit l’inspecteur, le gouvernement est riche et n’a, Dieu merci, pas besoin de votre argent.
 Gardez-le donc pour le jour où vous sortirez de prison.
 L’œil de l’abbé se dilata.
-Il saisit la main de l’inspecteur.
-Mais si je n’en sors pas de prison, dit-il, si, contre toute justice, on me retient dans ce cachot, si j’y meurs sans avoir légué mon secret à personne, ce trésor sera donc perdu !
+Il saisit la main de l’inspecteur. Mais si je n’en sors pas de prison, dit-il, si, contre toute justice, on me retient dans ce cachot, si j’y meurs sans avoir légué mon secret à personne, ce trésor sera donc perdu !
 Ne vaut-il pas mieux que le gouvernement en profite, et moi aussi ?
 J’irai jusqu’à six millions, monsieur.
 Oui, j’abandonnerai six millions, et je me contenterai du reste si l’on veut me rendre la liberté.
@@ -237,8 +234,7 @@ En effet, dit l’inspecteur avec la naïveté de la corruption.
 S’il eût été réellement riche, il ne serait pas en prison.
 Ainsi finit l’aventure pour l’abbé Faria.
 Il demeura prisonnier, et, à la suite de cette visite, sa réputation de fou réjouissant s’augmenta encore.
-Caligula ou Néron, ces grands chercheurs de trésors, ces désireurs de l’impossible, eussent prêté l’oreille aux paroles de ce pauvre homme et lui eussent accordé l’air qu’il désirait, l’espace qu’il estimait à un si haut prix, et la liberté qu’il offrait de payer si cher.
-Mais les rois de nos jours, maintenus dans la limite du probable, n’ont plus l’audace de la volonté.
+Caligula ou Néron, ces grands chercheurs de trésors, ces désireurs de l’impossible, eussent prêté l’oreille aux paroles de ce pauvre homme et lui eussent accordé l’air qu’il désirait, l’espace qu’il estimait à un si haut prix, et la liberté qu’il offrait de payer si cher. Mais les rois de nos jours, maintenus dans la limite du probable, n’ont plus l’audace de la volonté.
 Ils craignent l’oreille qui écoute les ordres qu’ils donnent, l’œil qui scrute leurs actions.
 Ils ne sentent plus la supériorité de leur essence divine.
 Ils sont des hommes couronnés, voilà tout.

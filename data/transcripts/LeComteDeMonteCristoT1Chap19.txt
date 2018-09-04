@@ -7,10 +7,8 @@ L’abbé ne connaissait pas l’île de Monte-Cristo mais Dantès la connaissai
 il avait souvent passé devant cette île, située à vingt-cinq milles de la Pianosa, entre la Corse et l’île d’Elbe, et une fois même il y avait relâché.
 Cette île était, avait toujours été et est encore complètement déserte.
 C’est un rocher de forme presque conique, qui semble avoir été poussé par quelque cataclysme volcanique du fond de l’abîme à la surface de la mer.
-Dantès faisait le plan de l’île à Faria, et Faria donnait des conseils à Dantès sur les moyens à employer pour retrouver le trésor.
-Mais Dantès était loin d’être aussi enthousiaste et surtout aussi confiant que le vieillard.
-Certes, il était bien certain maintenant que Faria n’était pas fou, et la façon dont il était arrivé à la découverte qui avait fait croire à sa folie redoublait encore son admiration pour lui.
-Mais aussi il ne pouvait croire que ce dépôt en supposant qu’il eût existé, existât encore, et, quand il ne regardait pas le trésor comme chimérique, il le regardait du moins comme absent.
+Dantès faisait le plan de l’île à Faria, et Faria donnait des conseils à Dantès sur les moyens à employer pour retrouver le trésor. Mais Dantès était loin d’être aussi enthousiaste et surtout aussi confiant que le vieillard.
+Certes, il était bien certain maintenant que Faria n’était pas fou, et la façon dont il était arrivé à la découverte qui avait fait croire à sa folie redoublait encore son admiration pour lui. Mais aussi il ne pouvait croire que ce dépôt en supposant qu’il eût existé, existât encore, et, quand il ne regardait pas le trésor comme chimérique, il le regardait du moins comme absent.
 Cependant, comme si le destin eût voulu ôter aux prisonniers leur dernière espérance et leur faire comprendre qu’ils étaient condamnés à une prison perpétuelle, un nouveau malheur les atteignit.
 la galerie du bord de la mer, qui depuis longtemps menaçait ruine, avait été reconstruite.
 On avait réparé les assises et bouché avec d’énormes quartiers de roc le trou déjà à demi comblé par Dantès.
@@ -28,8 +26,7 @@ celle-là n’est point chimérique.
 Je vous la dois bien véritable, et tous les souverains de la terre, fussent-ils des César Borgia, ne viendraient pas à bout de me l’enlever.
 Ainsi, ce furent pour les deux infortunés, sinon d’heureux jours, du moins des jours assez promptement écoulés que les jours qui suivirent.
 Faria, qui pendant de si longues années avait gardé le silence sur le trésor, en reparlait maintenant à toute occasion.
-Comme il l’avait prévu, il était resté paralysé du bras droit et de la jambe gauche, et avait à peu près perdu tout espoir d’en jouir lui-même.
-Mais il rêvait toujours pour son jeune compagnon une délivrance ou une évasion, et il en jouissait pour lui.
+Comme il l’avait prévu, il était resté paralysé du bras droit et de la jambe gauche, et avait à peu près perdu tout espoir d’en jouir lui-même. Mais il rêvait toujours pour son jeune compagnon une délivrance ou une évasion, et il en jouissait pour lui.
 De peur que la lettre ne fût un jour égarée ou perdue, il avait forcé Dantès de l’apprendre par cœur, et Dantès la savait depuis le premier jusqu’au dernier mot.
 Alors il avait détruit la seconde partie, certain qu’on pouvait retrouver et saisir la première sans en deviner le véritable sens.
 Quelquefois, des heures entières se passèrent pour Faria à donner des instructions à Dantès, instructions qui devaient lui servir au jour de sa liberté.
@@ -70,12 +67,12 @@ Oh ! mon ami, mon ami, taisez-vous !
 Puis reprenant sa force un instant ébranlée par ce coup imprévu et son courage plié par les paroles du vieillard.
 Oh ! dit-il, je vous ai déjà sauvé une fois, je vous sauverai bien une seconde !
 Et il souleva le pied du lit et en tira le flacon encore au tiers plein de la liqueur rouge.
-Tenez, dit-il. Il en reste encore, de ce breuvage sauveur.
+Tenez, dit-il.
+Il en reste encore, de ce breuvage sauveur.
 Vite, vite, dites-moi ce qu’il faut que je fasse cette fois.
 Y a-til des instructions nouvelles ?
 Parlez, mon ami, j’écoute.
-Il n’y a pas d’espoir, répondit Faria en secouant la tête.
-Mais n’importe.
+Il n’y a pas d’espoir, répondit Faria en secouant la tête. Mais n’importe.
 Dieu veut que l’homme qu’il a créé, et dans le cœur duquel il a si profondément enraciné l’amour de la vie, fasse tout ce qu’il pourra pour conserver cette existence si pénible parfois, si chère toujours.
 Oh ! oui, oui, s’écria Dantès, et je vous sauverai, vous dis-je !
 Eh bien, essayez donc ! le froid me gagne.
@@ -91,8 +88,7 @@ Edmond prit le vieillard dans ses bras et le déposa sur le lit.
 Maintenant ami, dit Faria, seule consolation de ma vie misérable, vous que le ciel m’a donné un peu tard, mais enfin qu’il m’a donné, présent inappréciable et dont je le remercie.
 Au moment de me séparer de vous pour jamais, je vous souhaite tout le bonheur, toute la prospérité que vous méritez.
 mon fils je vous bénis !
-Le jeune homme se jeta à genoux, appuyant sa tête contre le lit du vieillard.
-Mais surtout, écoutez bien ce que je vous dis à ce moment suprême.
+Le jeune homme se jeta à genoux, appuyant sa tête contre le lit du vieillard. Mais surtout, écoutez bien ce que je vous dis à ce moment suprême.
 le trésor des Spada existe.
 Dieu permet qu’il n’y ait plus pour moi ni distance ni obstacle.
 Je le vois au fond de la seconde grotte.
@@ -104,15 +100,13 @@ Dantès releva la tête, il vit les yeux qui s’injectaient de rouge.
 on eût dit qu’une vague de sang venait de monter de sa poitrine à son front.
 Adieu ! adieu ! murmura le vieillard en pressant convulsivement la main du jeune homme, adieu !
 Oh ! pas encore, pas encore ! s’écria celui-ci.
-Ne nous abandonnez pas, ô mon Dieu ! secourez-le… à l’aide… à moi…
-Silence ! silence ! murmura le moribond, qu’on ne nous sépare pas si vous me sauvez !
+Ne nous abandonnez pas, ô mon Dieu ! secourez-le… à l’aide… à moi… Silence ! silence ! murmura le moribond, qu’on ne nous sépare pas si vous me sauvez !
 Vous avez raison.
 Oh ! oui, oui, soyez tranquille, je vous sauverai !
 D’ailleurs, quoique vous souffriez beaucoup, vous paraissez souffrir moins que la première fois.
 Oh ! détrompez-vous ! je souffre moins, parce qu’il y a en moi moins de force pour souffrir.
 À votre âge on a foi dans la vie, c’est le privilège de la jeunesse de croire et d’espérer, mais les vieillards voient plus clairement la mort.
-Oh ! la voilà… elle vient… c’est fini… ma vue se perd… ma raison s’enfuit…
-Votre main, Dantès !… adieu !… adieu !
+Oh ! la voilà… elle vient… c’est fini… ma vue se perd… ma raison s’enfuit… Votre main, Dantès !… adieu !… adieu !
 Et se relevant par un dernier effort dans lequel il rassembla toutes ses facultés.
 Monte-Cristo ! dit-il, n’oubliez pas Monte-Cristo !
 Et il retomba sur son lit.
@@ -134,8 +128,7 @@ Enfin rien ne survécut.
 Le dernier frémissement du cœur cessa, la face devint livide, les yeux restèrent ouverts, mais le regard se ternit.
 Il était six heures du matin, le jour commençait à paraître, et son rayon blafard, envahissant le cachot, faisait pâlir la lumière mourante de la lampe.
 Des reflets étranges passaient sur le visage du cadavre, lui donnant de temps en temps des apparences de vie.
-Tant que dura cette lutte du jour et de la nuit, Dantès put douter encore.
-Mais dès que le jour eut vaincu, il comprit qu’il était seul avec un cadavre.
+Tant que dura cette lutte du jour et de la nuit, Dantès put douter encore. Mais dès que le jour eut vaincu, il comprit qu’il était seul avec un cadavre.
 Alors une terreur profonde et invincible s’empara de lui.
 Il n’osa plus presser cette main qui pendait hors du lit, il n’osa plus arrêter ses yeux sur ces yeux fixes et blancs qu’il essaya plusieurs fois mais inutilement de fermer, et qui se rouvraient toujours.
 Il éteignit la lampe, la cacha soigneusement et s’enfuit, replaçant de son mieux la dalle au-dessus de sa tête.
@@ -179,8 +172,7 @@ Il se fit un instant de silence absolu pendant lequel Dantès, toujours aux éco
 Vous pouvez être tranquille, dit alors le médecin, il est mort, c’est moi qui vous en réponds.
 Vous savez, monsieur, reprit le gouverneur en insistant, que nous ne nous contentons pas, dans les cas pareils à celui-ci, d’un simple examen.
 Malgré toutes les apparences, veuillez donc achever la besogne en remplissant les formalités prescrites par la loi.
-Que l’on fasse chauffer les fers, dit le médecin.
-Mais en vérité, c’est une précaution bien inutile.
+Que l’on fasse chauffer les fers, dit le médecin. Mais en vérité, c’est une précaution bien inutile.
 Cet ordre de chauffer les fers fit frissonner Dantès.
 On entendit des pas empressés, le grincement de la porte, quelques allées et venues intérieures, et, quelques instants après, un guichetier rentra en disant.
 Voici le brasier avec un fer.
@@ -191,8 +183,7 @@ Cette brûlure au talon est décisive.
 le pauvre fou est guéri de sa folie et délivré de sa captivité.
 Ne s’appelait-il pas Faria ? demanda un des officiers qui accompagnaient le gouverneur.
 Oui, monsieur, et, à ce qu’il prétendait, c’était un vieux nom.
-D’ailleurs, il était fort savant et assez raisonnable même sur tous les points qui ne touchaient pas à son trésor.
-Mais sur celui-là, il faut l’avouer, il était intraitable.
+D’ailleurs, il était fort savant et assez raisonnable même sur tous les points qui ne touchaient pas à son trésor. Mais sur celui-là, il faut l’avouer, il était intraitable.
 C’est l’affection que nous appelons la monomanie, dit le médecin.
 Vous n’aviez jamais eu à vous plaindre de lui ? demanda le gouverneur au geôlier chargé d’apporter les vivres de l’abbé.
 Jamais, monsieur le gouverneur, répondit le geôlier, jamais, au grand jamais ! au contraire.
@@ -217,8 +208,7 @@ Dieu aura égard à l’état, et ne donnera pas à l’enfer le méchant plaisi
 Un éclat de rire suivit cette mauvaise plaisanterie.
 Pendant ce temps, l’opération de l’ensevelissement se poursuivait.
 À ce soir ! dit le gouverneur lorsqu’elle fut finie.
-À quelle heure ? demanda le guichetier.
-Mais vers dix ou onze heures.
+À quelle heure ? demanda le guichetier. Mais vers dix ou onze heures.
 Veillera-t-on le mort ?
 Pour quoi faire ?
 On fermera le cachot comme s’il était vivant, voilà tout.
