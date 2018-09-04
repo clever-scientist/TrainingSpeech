@@ -21,6 +21,7 @@ from audiocorp.exceptions import WrongCutException
 
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
+NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
 
 
 # remove chapter number
@@ -53,6 +54,7 @@ NORMALIZATIONS = [
     [re.compile('\[\d+\]'), ''],
     ['f’ras', 'feras'],
     ['f’rez', 'ferez'],
+    [' ', ' '],  # remove non-breaking space
     [re.compile(r'\s?:\s?'), '.\n'],
     [re.compile(r'^\s?(-|—|–)\s?'), ''],
     [re.compile(r'("|«)\s?'), ''],
@@ -154,7 +156,10 @@ def extract_sentences(full_text):
                     continue
                 sentence = maybe_normalize(sentence, mapping=NORMALIZATIONS)
 
-                if prev_sentence and prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0]:
+                if prev_sentence and (
+                        prev_sentence in NO_SPLIT_TOKENS or
+                        prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0]
+                ):
                     prev_sentence = f'{prev_sentence} {sentence}'
                     continue
 

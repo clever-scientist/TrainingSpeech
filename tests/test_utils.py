@@ -27,14 +27,14 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
         'Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.',
     ]),
     ('XXIV. Éblouissement.', ['Chapitre vingt-quatre.', 'Éblouissement.']),
-    ('Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.', [
+    ('Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.', [
         'Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux.',
         'Car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.',
     ]),
     ('25.000', ['vingt-cinq mille']),
-    ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
+    ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
         'La postérité ne pourra lui faire justice…',
-        'Pas de gloire, Cesare Bordone !…',
+        'Pas de gloire, Cesare Bordone !…',
         'Allons, c’est fini.'
     ]),
     ('(foo bar.)', ['foo bar.']),
@@ -47,10 +47,11 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     ('No 10', ['Numéro dix']),
     ('rue Coq-Héron, nº treize', ['rue Coq-Héron, numéro treize']),
     # test no split
-    ('Ah ! c’est vous, Dantès ! cria l’homme à la barque.', ['Ah ! c’est vous, Dantès ! cria l’homme à la barque.']),
+    ('Ah ! c’est vous, Dantès ! cria l’homme à la barque.', ['Ah ! c’est vous, Dantès ! cria l’homme à la barque.']),
+    ('Ah ! Foo bar', ['Ah ! Foo bar']),
     ('Et… demanda', ['Et… demanda']),
     # test split
-    ('bord ?\n— Un', ['bord ?', 'Un']),
+    ('bord ?\n— Un', ['bord ?', 'Un']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')
