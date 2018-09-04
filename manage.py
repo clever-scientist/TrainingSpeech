@@ -29,12 +29,13 @@ def cli():
 
 @cli.command()
 @click.argument('source_name')
-def build_transcript(source_name):
+@click.option('-y', '--yes', is_flag=True, default=False, help='override existing transcript if any')
+def build_transcript(source_name, yes):
     source = audiocorp.get_source(source_name)
     path_to_epub = os.path.join(CURRENT_DIR, 'data/epubs/', source['ebook'])
 
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
-    if os.path.isfile(path_to_transcript):
+    if yes is False and os.path.isfile(path_to_transcript):
         click.confirm(text=f'{path_to_transcript} already exists. Override ?', default=False, abort=True)
 
     with open(path_to_transcript, 'w') as f:

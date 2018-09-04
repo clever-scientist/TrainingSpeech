@@ -27,7 +27,7 @@ CURRENT_DIR = os.path.dirname(__file__)
 def replace_chapter_number(match):
     string = match.group(1)
     num = str(roman.fromRoman(string))
-    return f'Chapitre {num}'
+    return f'Chapitre {num}.'
 
 
 def replace_semi_colons(match):
@@ -36,8 +36,10 @@ def replace_semi_colons(match):
 
 
 NORMALIZATIONS = [
+    [re.compile(r'^L?((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
     [re.compile(r'(^| )n(?:°|º)(\s)?'), r'\1numéro\2'],
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
+    [re.compile(r'^No '), 'Numéro '],
     ['M.\u00a0', 'Monsieur '],
     ['M. ', 'Monsieur '],
     ['Mme\u00a0', 'Madame '],
@@ -57,7 +59,6 @@ NORMALIZATIONS = [
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],
     [re.compile(r'^\((.*)\)$'), r'\1'],
-    [re.compile(r'^L?((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
     [re.compile(r'\s+?;\s+?(\w)'), replace_semi_colons],
 ]
 ROMAN_CHARS = 'XVI'
@@ -143,13 +144,27 @@ def filter_numbers(inp):
 
 def extract_sentences(full_text):
     full_text = full_text.replace('… ', '…\n')
+    prev_sentence = None
     for line in full_text.split('\n'):
         line = line.strip()
         if line:
             for sentence in sent_tokenize(line, language='french'):
-                sentence_txt = sentence.strip()
-                if sentence_txt:
-                    yield sentence_txt
+                sentence = sentence.strip()
+                if not sentence:
+                    continue
+                sentence = maybe_normalize(sentence, mapping=NORMALIZATIONS)
+
+                if prev_sentence and prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0]:
+                    prev_sentence = f'{prev_sentence} {sentence}'
+                    continue
+
+                if prev_sentence:
+                    yield prev_sentence
+
+                prev_sentence = sentence
+
+    if prev_sentence:
+        yield prev_sentence
 
 
 def cleanup_document(full_text):
