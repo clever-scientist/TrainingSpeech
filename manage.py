@@ -34,7 +34,8 @@ def cli():
 @cli.command()
 @click.argument('source_name')
 @click.option('-y', '--yes', is_flag=True, default=False, help='override existing transcript if any')
-def build_transcript(source_name, yes):
+@click.option('--add-to-git/--no-add-to-git', is_flag=True, default=True)
+def build_transcript(source_name, yes, add_to_git):
     source = audiocorp.get_source(source_name)
     path_to_epub = os.path.join(CURRENT_DIR, 'data/epubs/', source['ebook'])
 
@@ -45,7 +46,8 @@ def build_transcript(source_name, yes):
     with open(path_to_transcript, 'w') as f:
         f.writelines(utils.read_epub(path_to_epub, path_to_xhtmls=source.get('ebook_parts', ['part1.xhtml'])))
 
-    subprocess.call(f'git add {path_to_transcript}'.split(' '))
+    if add_to_git:
+        subprocess.call(f'git add {path_to_transcript}'.split(' '))
     click.echo(f'transcript {path_to_transcript} added to git')
 
 
