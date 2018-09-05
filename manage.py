@@ -3,6 +3,7 @@ import io
 import json
 import logging
 import os
+import shutil
 import subprocess
 import tempfile
 import zipfile
@@ -54,7 +55,7 @@ def build_transcript(source_name, yes, add_to_git):
 audio_player = None
 
 
-def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
+def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str=utils.CACHE_DIR):
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
 
@@ -65,15 +66,16 @@ def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str):
     return path_to_fragment_audio
 
 
-def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str):
+def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str=utils.CACHE_DIR):
     # generate fragments
     with click.progressbar(length=len(fragments), show_eta=True, label='cut audio into fragments') as bar:
         def _cut(f: dict):
-            cut_fragment_audio(f, input_file, output_dir)
+            p = cut_fragment_audio(f, input_file, output_dir)
             bar.update(1)
+            return p
 
         with ThreadPoolExecutor() as executor:
-            executor.map(_cut, fragments)
+            return executor.map(_cut, fragments)
 
 
 @cli.command()
@@ -81,19 +83,29 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str)
 @click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
 @click.option('-ar', '--audio-rate', default=16000)
-def check_alignment(source_name, restart, speed, audio_rate):
+@click.option('--cache/--no-cache', is_flag=True, default=True)
+def check_alignment(source_name, restart, speed, audio_rate, cache):
     import inquirer
     source = audiocorp.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
 
+    if cache is False and os.path.isdir(utils.CACHE_DIR):
+        shutil.rmtree(utils.CACHE_DIR)
+        os.mkdir(utils.CACHE_DIR)
+
     # generate wav if do not exists yet
     with open(path_to_mp3, 'rb') as f:
         file_hash = utils.hash_file(f)
-    path_to_wav = f'/tmp/{file_hash}.wav'
+    path_to_wav = os.path.join(utils.CACHE_DIR, f'{file_hash}.wav')
     if not os.path.exists(path_to_wav):
-        ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=audio_rate, channels=1)
+        ffmpeg.convert(
+            from_=path_to_mp3,
+            to=os.path.join(utils.CACHE_DIR, f'{file_hash}.wav'),
+            rate=audio_rate,
+            channels=1
+        )
 
     # retrieve transcript
     with open(path_to_transcript) as f:
@@ -121,9 +133,6 @@ def check_alignment(source_name, restart, speed, audio_rate):
         generate_labels=True,
     )
 
-    # delete existing fragments if any
-    path_to_recordings = os.path.join(CURRENT_DIR,  f'/tmp/{source_name}/')
-
     def _check_alignment(index: int, alignment: List[dict]):
         click.clear()
         fragment = alignment[index]
@@ -131,14 +140,14 @@ def check_alignment(source_name, restart, speed, audio_rate):
         next_fragments = alignment[i + 1:i + 3]
 
         print(colored(
-            f'\nplaying #{i + 1:03d}: @@ {timedelta(seconds=fragment["begin"])}  {timedelta(seconds=fragment["end"])} @@',
+            f'\nplaying #{i + 1:03d}: @@ {timedelta(seconds=fragment["begin"])}  {timedelta(seconds=fragment["end"])} ({fragment["end"] - fragment["begin"]:0.3f}) @@',  # noqa
             'yellow',
             attrs=['bold']
         ))
         if prev_fragments:
             for prev_ in prev_fragments:
                 print(colored(prev_['text'], 'grey'))
-        print(colored(fragment['text'], 'green', attrs=['bold']))
+        print(colored(fragment['text'], 'magenta' if fragment.get('warn') else 'green', attrs=['bold']))
         if next_fragments:
             for next_ in next_fragments:
                 print(colored(next_['text'], 'grey'))
@@ -147,20 +156,14 @@ def check_alignment(source_name, restart, speed, audio_rate):
         pool = ThreadPoolExecutor()
 
         def play_audio():
-            fragment_hash = utils.get_fragment_hash(fragment)
-            path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
-            if not os.path.isfile(path_to_audio):
-                cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
+            path_to_audio = cut_fragment_audio(fragment, path_to_wav)
             global audio_player
 
             with sox.play(path_to_audio, speed=speed) as player:
                 audio_player = player
 
         def play_audio_slow():
-            fragment_hash = utils.get_fragment_hash(fragment)
-            path_to_audio = os.path.join(path_to_recordings, f'{fragment_hash}.wav')
-            if not os.path.isfile(path_to_audio):
-                cut_fragment_audio(fragment, path_to_wav, path_to_recordings)
+            path_to_audio = cut_fragment_audio(fragment, path_to_wav)
             global audio_player
 
             with sox.play(path_to_audio) as player:
@@ -240,21 +243,21 @@ def check_alignment(source_name, restart, speed, audio_rate):
             elif next_ == 'wrong_end__cut_on_previous_silence':
                 fragment['end'] = round(min(prev_silence_start + 0.5, prev_silence_end), 3)
                 fragment['end_forced'] = True
-                cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
+                cut_fragment_audio(fragment, input_file=path_to_wav)
                 if next_fragments:
                     next_fragments[0]['begin'] = round(max(prev_silence_end - 0.5, prev_silence_start), 3)
                     next_fragments[0]['begin_forced'] = True
-                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav, output_dir=path_to_recordings)
+                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'wrong_end__cut_on_next_silence':
                 fragment['end'] = round(min(next_silence_start + 0.5, next_silence_end), 3)
                 fragment['end_forced'] = True
-                cut_fragment_audio(fragment, input_file=path_to_wav, output_dir=path_to_recordings)
+                cut_fragment_audio(fragment, input_file=path_to_wav)
                 if next_fragments:
                     next_fragments[0]['begin'] = round(max(next_silence_end - 0.5, next_silence_start), 3)
                     next_fragments[0]['begin_forced'] = True
-                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav, output_dir=path_to_recordings)
+                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'approve':
@@ -281,7 +284,7 @@ def check_alignment(source_name, restart, speed, audio_rate):
 
         pool.shutdown(wait=True)
 
-    cut_fragments_audio(alignment, input_file=path_to_wav, output_dir=path_to_recordings)
+    cut_fragments_audio(alignment, input_file=path_to_wav)
 
     # iterate over successive fragments
     i = 0
@@ -311,7 +314,7 @@ def check_alignment(source_name, restart, speed, audio_rate):
             right['begin'] = left['begin']
             left['end'] = right['end']
             left['text'] = right['text'] = f'{left["text"]} {right["text"]}'
-            cut_fragment_audio(right, input_file=path_to_wav, output_dir=path_to_recordings)
+            cut_fragment_audio(right, input_file=path_to_wav)
             if fragment is right:
                 alignment = alignment[:i - 1] + alignment[i:]
                 i -= 2
@@ -357,7 +360,7 @@ def check_alignment(source_name, restart, speed, audio_rate):
                 sub_alignment +
                 alignment[e.end+1:]
             )
-            cut_fragments_audio(alignment, input_file=path_to_wav, output_dir=path_to_recordings)
+            cut_fragments_audio(alignment, input_file=path_to_wav)
             i -= e.start
 
         # save progress
@@ -508,9 +511,9 @@ def release(audio_rate, language):
                         # generate wav if do not exists yet
                         with open(path_to_mp3, 'rb') as f:
                             file_hash = utils.hash_file(f)
-                        path_to_wav = f'/tmp/{file_hash}.wav'
+                        path_to_wav = os.path.join(utils.CACHE_DIR, f'{file_hash}.wav')
                         if not os.path.exists(path_to_wav):
-                            ffmpeg.convert(from_=path_to_mp3, to=f'/tmp/{file_hash}.wav', rate=audio_rate, channels=1)
+                            ffmpeg.convert(from_=path_to_mp3, to=path_to_wav, rate=audio_rate, channels=1)
 
                         with open(path_to_alignment) as file_:
                             source_fragments = [
@@ -534,9 +537,9 @@ def release(audio_rate, language):
 
             def _cut(f: dict):
                 try:
-                    tmp_audio = cut_fragment_audio(f, f['source_file'], '/tmp/')
+                    p = cut_fragment_audio(f, f['source_file'])
                     bar.update(1)
-                    return tmp_audio
+                    return p
                 except Exception as e:
                     print(f'cannot extract fragment {fragment["name"]}. {e}')
 

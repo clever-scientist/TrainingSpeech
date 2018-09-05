@@ -21,7 +21,12 @@ from audiocorp.exceptions import WrongCutException
 
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
+CACHE_DIR = '/tmp/.audiocorp/'
 NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
+
+
+if not os.path.isdir(CACHE_DIR):
+    os.mkdir(CACHE_DIR)
 
 
 # remove chapter number
@@ -70,7 +75,6 @@ ORDINAL_REGEX = re.compile("(\d+)([ieme|ier|iere]+)")
 
 
 def get_roman_numbers(ch):
-
     ro = ''
     ros = 0
     for i in range(len(ch)):
@@ -194,7 +198,6 @@ def cleanup_document(full_text):
     return '\n'.join(l for l in lines if l)
 
 
-
 def read_epub(path_to_epub, path_to_xhtmls=None):
     if not isinstance(path_to_xhtmls, list) and not isinstance(path_to_xhtmls, tuple):
         path_to_xhtmls = [path_to_xhtmls]
@@ -229,13 +232,13 @@ def cleanup_fragment(original: dict) -> dict:
 def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) -> List[dict]:
     alignment = deepcopy(alignment)
 
-    def get_silences(fragment, margin=0):
-        for silence_start, silence_end in silences:
+    def get_silences(fragment, margin=0) -> List[Tuple[float, float, int]]:
+        for i, (silence_start, silence_end) in enumerate(silences):
             if fragment['begin'] > silence_start and fragment['end'] < silence_end:
                 # wrong cut: a fragment cannot be contained in a silent => merge
                 raise WrongCutException
             if silence_start - margin < fragment['end'] < silence_end + margin:
-                yield (silence_start, silence_end)
+                yield silence_start, silence_end, i
             if silence_start - margin > fragment['end']:
                 break
 
@@ -260,13 +263,14 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 break
 
             if len(overlaps) == 1:
-                silence_start, silence_end = overlaps[0]
+                # in the middle of a silence
+                silence_start, silence_end, silence_index = overlaps[0]
                 fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 break
             elif len(overlaps) == 2:
                 # take the second
-                silence_start, silence_end = overlaps[1]
+                silence_start, silence_end, _ = overlaps[1]
                 fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
                 alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
                 break
@@ -288,10 +292,61 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
             merge_fragments(current, next_)
         current = next_
 
+    # look for warnings
+    for i, f in reversed(list(enumerate(alignment[:-1]))):
+        prev_fragment = alignment[i - 1] if i > 0 else None
+        next_fragment = alignment[i + 1]
+        silence_before_begin = next((
+            (s_begin, s_end, s_end - s_begin)
+            for s_begin, s_end in reversed(silences)
+            if s_end < f['begin']
+        ), None)
+        silence_begin = next((
+            (s_begin, s_end, s_end - s_begin)
+            for s_begin, s_end in reversed(silences)
+            if s_begin <= f['begin'] <= s_end
+        ), None)
+        silence_after_begin = next((
+            (s_begin, s_end)
+            for s_begin, s_end in silences
+            if s_begin > f['begin'] <= s_end
+        ), None)
+
+        silence_before_end = next((
+            (s_begin, s_end, s_end - s_begin)
+            for s_begin, s_end in reversed(silences)
+            if s_end < f['end']
+        ), None)
+        silence_end = next((
+            (s_begin, s_end, s_end - s_begin)
+            for s_begin, s_end in reversed(silences)
+            if s_begin <= f['end'] <= s_end
+        ), None)
+        silence_after_end = next((
+            (s_begin, s_end, s_end - s_begin)
+            for s_begin, s_end in silences
+            if s_begin > f['end'] <= s_end
+        ), None)
+
+        if (
+                (
+                        silence_before_end and
+                        silence_before_end[2] > 0.4 and
+                        f['end'] - silence_before_end[1] < 0.9
+                ) or
+                (
+                        silence_after_end and next_fragment and
+                        silence_after_end[2] > 0.4 and
+                        silence_after_end[0] - f['end'] < 0.9 and
+                        next_fragment['end'] > silence_after_end[1]
+                )
+        ):
+            f['warn'] = True
+
     return [f for f in alignment if not f.get('merged')]
 
 
-def get_closest_fragment(target, others):
+def get_closest_fragment(target: dict, others: List[dict]):
     target_center = target['end'] - target['begin']
     return sorted(others, key=lambda x: min(abs(x['begin'] - target_center), abs(x['end'] - target_center)))[0]
 
@@ -323,7 +378,7 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False, l
     }[language]
     full_transcript = ' '.join(transcript)
     full_transcript_hash = sha1(full_transcript.encode()).hexdigest()
-    path_to_transcript = os.path.join(CURRENT_DIR, f'/tmp/{full_transcript_hash}.txt')
+    path_to_transcript = os.path.join(CACHE_DIR, f'{full_transcript_hash}.txt')
 
     with open(path_to_audio_file, 'rb') as f:
         audio_file_hash = hash_file(f)
@@ -331,7 +386,7 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False, l
     with open(path_to_transcript, 'w') as f:
         f.writelines('\n'.join(transcript))
 
-    path_to_alignment_tmp = os.path.join(CURRENT_DIR, f'/tmp/{full_transcript_hash}_{audio_file_hash}.json')
+    path_to_alignment_tmp = os.path.join(CACHE_DIR, f'{full_transcript_hash}_{audio_file_hash}.json')
 
     if force or not os.path.isfile(path_to_alignment_tmp):
         # build alignment
@@ -446,21 +501,21 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
 
     if generate_labels:
         # Generate Audacity labels for DEBUG purpose
-        path_to_silences_labels = f'/tmp/silences_labels.txt'
+        path_to_silences_labels = os.path.join(CACHE_DIR, 'silences_labels.txt')
         with open(path_to_silences_labels, 'w') as fragment:
             fragment.writelines('\n'.join([
                 f'{s}\t{e}\tsilence{i+1:03d}'
                 for i, (s, e) in enumerate(silences)
             ]) + '\n')
 
-        path_to_alignment_labels = f'/tmp/alignments_labels.txt'
+        path_to_alignment_labels = os.path.join(CACHE_DIR, 'alignments_labels.txt')
         with open(path_to_alignment_labels, 'w') as labels_f:
             labels_f.writelines('\n'.join([
                 f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'
                 for i, f in enumerate(alignment)
             ]) + '\n')
 
-        path_to_original_alignment_labels = f'/tmp/original_alignments_labels.txt'
+        path_to_original_alignment_labels = os.path.join(CACHE_DIR, 'original_alignments_labels.txt')
         with open(path_to_original_alignment_labels, 'w') as labels_f:
             labels_f.writelines('\n'.join([
                 f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'

@@ -57,11 +57,11 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
 
     from audiocorp.utils import file_extension
     if file_extension(input_path) == '.mp3':
-        path_to_wav = f'/tmp/{audio_hash}.wav'
+        path_to_wav = os.path.join(utils.CACHE_DIR, f'{audio_hash}.wav')
         convert(input_path, path_to_wav)
         input_path = path_to_wav
 
-    cached_path = f'/tmp/{audio_hash}_{noise_level}_{min_duration}.json'
+    cached_path = os.path.join(utils.CACHE_DIR, f'{audio_hash}_{noise_level}_{min_duration}.json')
     if not force and os.path.isfile(cached_path):
         with open(cached_path) as f:
             return json.load(f)
@@ -102,8 +102,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             silence_start, silence_end = silence
             assert current_group_start < current_group_end
             assert silence_start < silence_end
-            # assert silence_start >= current_group_start, f'{silence_start} not gte {current_group_start}'
-            if silence_start - current_group_end <= 0.05:
+            if silence_start - current_group_end <= 0.06:
                 current_group = min(silence_start, current_group_start), max(current_group_end, silence_end)
                 continue
             yield current_group

@@ -117,30 +117,31 @@ def test_is_float(input_, expected_output):
      ], [{
         "begin": 639.341,
         "end": 640.945,
-        "text": 'Ah\u00a0! ah\u00a0!'
+        "text": 'Ah\u00a0! ah\u00a0!',
+        "warn": True,
     }, {
         "begin": 640.674,
         "end": 643.661,
         "text": "a-t-il dit, je la connais."
     }]),
     (
-        [
-            dict(begin=1, end=2, text='a'),  # NB: in the middle of first silence
-            dict(begin=4, end=5, text='b'),
-        ], [
-            [0, 3],  # NB: contains first speech
-            [6, 7],
-        ], [
-            dict(begin=1, end=5, text='a b'),
-        ]
+            [
+                dict(begin=1, end=2, text='a'),  # NB: in the middle of first silence
+                dict(begin=4, end=5, text='b'),
+            ], [
+                [0, 3],  # NB: contains first speech
+                [6, 7],
+            ], [
+                dict(begin=1, end=5, text='a b'),
+            ]
     ),
     (
-        [
-            dict(begin=1, end=2, text='a'),  # NB: in the middle of first silence
-            dict(begin=1, end=5, text='b'),
-        ], [], [
-            dict(begin=1, end=5, text='a b'),
-        ]
+            [
+                dict(begin=1, end=2, text='a'),  # NB: in the middle of first silence
+                dict(begin=1, end=5, text='b'),
+            ], [], [
+                dict(begin=1, end=5, text='a b'),
+            ]
     ),
 ])
 def test_fix_alignment(alignment, silences, fixed_alignment):
@@ -160,50 +161,69 @@ def test_get_alignment(filename):
     ]
 
 
-@pytest.mark.parametrize('transcript, existing_alignment, expected', [
+@pytest.mark.parametrize('filename, transcript, existing_alignment, expected', [
     # baseline
-    ([
+    ('speech.wav', [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [], [
-        dict(begin=0, end=6.004, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-        dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
-    ]),
+         dict(begin=0, end=6.004, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
+         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+     ]),
     # with existing alignment
-    ([
+    ('speech.wav', [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [
-        dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-        dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
-    ], [
-        dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-        dict(begin=5.842, end=9.102, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
-    ]),
+         dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
+         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+     ], [
+         dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
+         dict(begin=5.842, end=9.102, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+     ]),
     # with deprecated alignment
-    ([
+    ('speech.wav', [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir',
         'Fernand',
         'répondit Mercédès',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [
-        dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
-        dict(begin=3, end=5, approved=True, text='Fernand, répondit Mercédès.'),
-        dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
-    ], [
-        dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
-        dict(begin=3, end=4.084, text='Fernand'),
-        dict(begin=3.922, end=06.004, text='répondit Mercédès'),
-        dict(begin=5.842, end=9.1, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
-    ]),
+         dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
+         dict(begin=3, end=5, approved=True, text='Fernand, répondit Mercédès.'),
+         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+     ], [
+         dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
+         dict(begin=3, end=4.084, text='Fernand'),
+         dict(begin=3.922, end=06.004, text='répondit Mercédès'),
+         dict(begin=5.842, end=9.1, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+     ]),
+    # warnings
+    ('wrong_cut0.wav', [
+        'À dix pas en mer la barque se balançait gracieusement sur son ancre.',
+        'Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.',
+    ], [], [
+         dict(begin=0, end=6.47, warn=True, text='À dix pas en mer la barque se balançait gracieusement sur son ancre.'),
+         dict(begin=6.016, end=10.18, text='Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.'),
+     ]),
+    ('wrong_cut1.wav', [
+        'Chapitre trente-deux.',
+        'Réveil.',
+        'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.',
+        'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.',
+    ], [], [
+         {'begin': 0, 'end': 2.164, 'text': 'Chapitre trente-deux.'},
+         {'begin': 1.874, 'end': 3.444, 'text': 'Réveil.'},
+         {'begin': 3.794, 'end': 10.228, 'text': 'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.'},
+         {'begin': 10.066, 'end': 17.14, 'text': 'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.'}]
+     ),
 ])
-def test_build_alignment(transcript, existing_alignment, expected):
-    path_to_audio = os.path.join(CURRENT_DIR, './assets/speech.wav')
+def test_build_alignment(filename, transcript, existing_alignment, expected):
+    path_to_audio = os.path.join(CURRENT_DIR, './assets/', filename)
     generated = utils.build_alignment(
         transcript=transcript,
         path_to_audio=path_to_audio,
         existing_alignment=existing_alignment,
-        silences=ffmpeg.list_silences(path_to_audio, noise_level=-45, min_duration=0.07),
+        silences=ffmpeg.list_silences(path_to_audio, noise_level=-45, min_duration=0.07, force=True),
         generate_labels=True
     )
     assert generated == expected
