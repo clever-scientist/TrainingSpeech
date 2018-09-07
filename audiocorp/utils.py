@@ -219,8 +219,8 @@ def cleanup_fragment(original: dict) -> dict:
     data.pop('language')
     data.pop('duration', None)
     data.pop('id', None)
-    begin = max(float(data['begin']) - 0.1, 0)
-    end = float(data['end']) - 0.1
+    begin = float(data['begin'])
+    end = float(data['end'])
     data.update(
         begin=round(begin, 3),
         end=round(end, 3),
@@ -239,6 +239,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 raise WrongCutException
             if silence_start - margin < fragment['end'] < silence_end + margin:
                 yield silence_start, silence_end, i
+
             if silence_start - margin > fragment['end']:
                 break
 
@@ -261,7 +262,6 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 else:
                     merge_fragments(alignment[i - 1], fragment)
                 break
-
             if len(overlaps) == 1:
                 # in the middle of a silence
                 silence_start, silence_end, silence_index = overlaps[0]
@@ -293,57 +293,40 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
         current = next_
 
     # look for warnings
-    for i, f in reversed(list(enumerate(alignment[:-1]))):
-        prev_fragment = alignment[i - 1] if i > 0 else None
-        next_fragment = alignment[i + 1]
-        silence_before_begin = next((
-            (s_begin, s_end, s_end - s_begin)
-            for s_begin, s_end in reversed(silences)
-            if s_end < f['begin']
-        ), None)
-        silence_begin = next((
-            (s_begin, s_end, s_end - s_begin)
-            for s_begin, s_end in reversed(silences)
-            if s_begin <= f['begin'] <= s_end
-        ), None)
-        silence_after_begin = next((
-            (s_begin, s_end)
-            for s_begin, s_end in silences
-            if s_begin > f['begin'] <= s_end
-        ), None)
+    alignment = [f for f in alignment if not f.get('merged')]
+    for prev_fragment, next_fragment in zip(alignment[:-1], alignment[1:]):
+        if (next_fragment['begin'] - prev_fragment['end']) > 1:
+            continue
+
+        silences_between = [
+            s
+            for s in silences
+            if s[0] < prev_fragment['end'] and s[1] > next_fragment['begin']
+        ]
+        if not silences_between:
+            continue
+        if len(silences_between) > 1:
+            raise NotImplementedError
+        silence_between_start, silence_between_end = silences_between[0]
 
         silence_before_end = next((
-            (s_begin, s_end, s_end - s_begin)
-            for s_begin, s_end in reversed(silences)
-            if s_end < f['end']
+            s_end
+            for s_start, s_end in reversed(silences)
+            if s_end < silence_between_start and s_start > prev_fragment['begin']
         ), None)
-        silence_end = next((
-            (s_begin, s_end, s_end - s_begin)
-            for s_begin, s_end in reversed(silences)
-            if s_begin <= f['end'] <= s_end
-        ), None)
-        silence_after_end = next((
-            (s_begin, s_end, s_end - s_begin)
-            for s_begin, s_end in silences
-            if s_begin > f['end'] <= s_end
-        ), None)
+        if silence_before_end is not None and silence_between_start - silence_before_end < 0.5:
+            next_fragment['warn'] = True
+            continue
 
-        if (
-                (
-                        silence_before_end and
-                        silence_before_end[2] > 0.4 and
-                        f['end'] - silence_before_end[1] < 0.9
-                ) or
-                (
-                        silence_after_end and next_fragment and
-                        silence_after_end[2] > 0.4 and
-                        silence_after_end[0] - f['end'] < 0.9 and
-                        next_fragment['end'] > silence_after_end[1]
-                )
-        ):
-            f['warn'] = True
+        silence_after_begin = next((
+            s_start
+            for s_start, s_end in silences
+            if s_start > silence_between_end and s_end < next_fragment['end']
+        ), None)
+        if silence_after_begin is not None and silence_after_begin - silence_between_end < 0.5:
+            next_fragment['warn'] = True
 
-    return [f for f in alignment if not f.get('merged')]
+    return alignment
 
 
 def get_closest_fragment(target: dict, others: List[dict]):
@@ -501,24 +484,16 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
 
     if generate_labels:
         # Generate Audacity labels for DEBUG purpose
-        path_to_silences_labels = os.path.join(CACHE_DIR, 'silences_labels.txt')
-        with open(path_to_silences_labels, 'w') as fragment:
+        path_to_labels = os.path.join(CACHE_DIR, 'labels.txt')
+        with open(path_to_labels, 'w') as fragment:
             fragment.writelines('\n'.join([
-                f'{s}\t{e}\tsilence{i+1:03d}'
+                f'{s}\t{e}\tsilence#{i+1:03d}'
                 for i, (s, e) in enumerate(silences)
-            ]) + '\n')
-
-        path_to_alignment_labels = os.path.join(CACHE_DIR, 'alignments_labels.txt')
-        with open(path_to_alignment_labels, 'w') as labels_f:
-            labels_f.writelines('\n'.join([
-                f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'
+            ] + [
+                f'{f["begin"]}\t{f["end"]}\tf#{i+1:03d}:{f["text"]}'
                 for i, f in enumerate(alignment)
-            ]) + '\n')
-
-        path_to_original_alignment_labels = os.path.join(CACHE_DIR, 'original_alignments_labels.txt')
-        with open(path_to_original_alignment_labels, 'w') as labels_f:
-            labels_f.writelines('\n'.join([
-                f'{f["begin"]}\t{f["end"]}\t#{i+1:03d}:{f["text"]}'
+            ] + [
+                f'{f["begin"]}\t{f["end"]}\to#{i+1:03d}:{f["text"]}'
                 for i, f in enumerate(existing_alignment)
             ]) + '\n')
 

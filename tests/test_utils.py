@@ -118,7 +118,6 @@ def test_is_float(input_, expected_output):
         "begin": 639.341,
         "end": 640.945,
         "text": 'Ah\u00a0! ah\u00a0!',
-        "warn": True,
     }, {
         "begin": 640.674,
         "end": 643.661,
@@ -156,8 +155,8 @@ def test_get_alignment(filename):
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ]
     assert utils.get_alignment(path_to_mp3, transcript, force=True) == [
-        dict(begin=0, end=6.22, text=transcript[0]),
-        dict(begin=6.22, end=9.22, text=transcript[1]),
+        dict(begin=0, end=6.32, text=transcript[0]),
+        dict(begin=6.32, end=9.32, text=transcript[1]),
     ]
 
 
@@ -167,8 +166,8 @@ def test_get_alignment(filename):
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [], [
-         dict(begin=0, end=6.004, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=0., end=6.004, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
+         dict(begin=5.852, end=9.32, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # with existing alignment
     ('speech.wav', [
@@ -176,10 +175,10 @@ def test_get_alignment(filename):
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [
          dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=5.852, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ], [
          dict(begin=0, end=6, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-         dict(begin=5.842, end=9.102, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=5.852, end=9.212, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # with deprecated alignment
     ('speech.wav', [
@@ -190,20 +189,20 @@ def test_get_alignment(filename):
     ], [
          dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
          dict(begin=3, end=5, approved=True, text='Fernand, répondit Mercédès.'),
-         dict(begin=5.842, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=5.852, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ], [
-         dict(begin=0, end=3, approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
-         dict(begin=3, end=4.084, text='Fernand'),
-         dict(begin=3.922, end=06.004, text='répondit Mercédès'),
-         dict(begin=5.842, end=9.1, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=0, end=3., approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
+         dict(begin=3., end=4.084, text='Fernand'),
+         dict(begin=3.932, end=06.004, text='répondit Mercédès'),
+         dict(begin=5.852, end=9.2, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # warnings
     ('wrong_cut0.wav', [
         'À dix pas en mer la barque se balançait gracieusement sur son ancre.',
         'Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.',
     ], [], [
-         dict(begin=0, end=6.47, warn=True, text='À dix pas en mer la barque se balançait gracieusement sur son ancre.'),
-         dict(begin=6.016, end=10.18, text='Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.'),
+         dict(begin=0., end=6.48, text='À dix pas en mer la barque se balançait gracieusement sur son ancre.'),
+         dict(warn=True, begin=6.016, end=10.28, text='Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.'),
      ]),
     ('wrong_cut1.wav', [
         'Chapitre trente-deux.',
@@ -211,11 +210,11 @@ def test_get_alignment(filename):
         'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.',
         'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.',
     ], [], [
-         {'begin': 0, 'end': 2.164, 'text': 'Chapitre trente-deux.'},
-         {'begin': 1.874, 'end': 3.444, 'text': 'Réveil.'},
-         {'begin': 3.794, 'end': 10.228, 'text': 'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.'},
-         {'begin': 10.066, 'end': 17.14, 'text': 'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.'}]
-     ),
+         {'begin': 0., 'end': 2.084, 'text': 'Chapitre trente-deux.'},
+         {'begin': 1.804, 'end': 3.364, 'text': 'Réveil.'},
+         {'begin': 3.724, 'end': 10.148, 'text': 'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.'},
+         {'begin': 9.996, 'end': 17.24, 'text': 'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.'},
+    ]),
 ])
 def test_build_alignment(filename, transcript, existing_alignment, expected):
     path_to_audio = os.path.join(CURRENT_DIR, './assets/', filename)
@@ -223,7 +222,7 @@ def test_build_alignment(filename, transcript, existing_alignment, expected):
         transcript=transcript,
         path_to_audio=path_to_audio,
         existing_alignment=existing_alignment,
-        silences=ffmpeg.list_silences(path_to_audio, noise_level=-45, min_duration=0.07, force=True),
+        silences=ffmpeg.list_silences(path_to_audio, noise_level=-45, min_duration=0.08, force=True),
         generate_labels=True
     )
     assert generated == expected

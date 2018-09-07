@@ -202,6 +202,8 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
                                 ['approve', 'repeat'] +
                                 (['go_back'] if prev_fragments else []) +
                                 ['edit'] +
+                                (['wrong_start__cut_on_previous_silence'] if prev_fragments else []) +
+                                (['wrong_start__cut_on_next_silence'] if prev_fragments else []) +
                                 (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
                                 (['wrong_end__cut_on_next_silence'] if can_cut_on_next_silence else []) +
                                 (['enable'] if fragment.get('disabled') else ['disable']) +

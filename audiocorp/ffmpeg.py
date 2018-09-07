@@ -51,7 +51,7 @@ def audio_duration(input_path: str) -> float:
     return float(duration)
 
 
-def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.05, force=False) -> List[Tuple[float, float]]:
+def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.05, force=False, merge=True) -> List[Tuple[float, float]]:
     with open(input_path, 'rb') as f:
         audio_hash = utils.hash_file(f)
 
@@ -93,6 +93,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
             yield round(last_silence_start, 3), round(audio_duration(input_path), 3)
 
     def merge_overlaps(silences: Iterator[Tuple[float, float]]) -> Iterator[Tuple[float, float]]:
+        silences = list(silences)
         current_group = None
         for silence in silences:
             if current_group is None:
@@ -111,7 +112,12 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
         if current_group:
             yield current_group
 
-    result = [[round(s, 3), round(e, 3)] for s, e in merge_overlaps(parse_lines(p.stderr.readlines()))]
+    original = list(parse_lines(p.stderr.readlines()))
+
+    result = [
+        [round(s, 3), round(e, 3)]
+        for s, e in (merge_overlaps(original) if merge else original)
+    ]
     with open(cached_path, 'w') as f:
         json.dump(result, f)
     return result
