@@ -29,8 +29,7 @@ Cueillez vos fraises, si toutefois il vous en reste encore.
 J’en ai encore dix, dit l’homme, car en voici onze, et j’en avais vingt et une, cinq de plus que l’année dernière. Mais ce n’est pas étonnant, le printemps a été chaud cette année, et ce qu’il faut aux fraises, voyez-vous, monsieur, c’est la chaleur.
 Voilà pourquoi, au lieu de seize que j’ai eues l’année passée, j’en ai cette année, voyez-vous, onze déjà cueillies, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit.
 Oh ! mon Dieu ! il m’en manque deux, elles y étaient encore hier, monsieur, elles y étaient, j’en suis sûr, je les ai comptées.
-Il faut que ce soit le fils de la mère Simon qui me les ait soufflées, je l’ai vu rôder par ici ce matin.
-Ah ! le petit drôle, voler dans un enclos ! il ne sait pas où cela peut le mener.
+Il faut que ce soit le fils de la mère Simon qui me les ait soufflées, je l’ai vu rôder par ici ce matin. Ah ! le petit drôle, voler dans un enclos ! il ne sait pas où cela peut le mener.
 En effet, dit Monte-Cristo, c’est grave, mais vous ferez la part de la jeunesse du délinquant et de sa gourmandise.
 Certainement, dit le jardinier.
 Ce n’en est pas moins fort désagréable.
@@ -39,16 +38,14 @@ c’est peut-être un chef que je fais attendre ainsi ?
 Et il interrogeait d’un regard craintif le comte et son habit bleu.
 Rassurez-vous, mon ami, dit le comte avec ce sourire qu’il faisait, à sa volonté, si terrible et si bienveillant, et qui cette fois n’exprimait que la bienveillance, je ne suis point un chef qui vient pour vous inspecter, mais un simple voyageur conduit par la curiosité et qui commence même à se reprocher sa visite en voyant qu’il vous fait perdre votre temps.
 Oh ! mon temps n’est pas cher, répliqua le bonhomme avec un sourire mélancolique.
-Cependant c’est le temps du gouvernement, et je ne devrais pas le perdre, mais j’avais reçu le signal qui m’annonçait que je pouvais me reposer une heure (il jeta les yeux sur le cadran solaire, car il y avait de tout dans l’enclos de la tour de Montlhéry, même un cadran solaire), et, vous le voyez.
-J’avais encore dix minutes devant moi, puis mes fraises étaient mûres, et un jour de plus… D’ailleurs, croiriez-vous, monsieur, que les loirs me les mangent ?
+Cependant c’est le temps du gouvernement, et je ne devrais pas le perdre, mais j’avais reçu le signal qui m’annonçait que je pouvais me reposer une heure (il jeta les yeux sur le cadran solaire, car il y avait de tout dans l’enclos de la tour de Montlhéry, même un cadran solaire), et, vous le voyez. J’avais encore dix minutes devant moi, puis mes fraises étaient mûres, et un jour de plus… D’ailleurs, croiriez-vous, monsieur, que les loirs me les mangent ?
 Ma foi, non, je ne l’aurais pas cru, répondit gravement Monte-Cristo.
 C’est un mauvais voisinage monsieur, que celui des loirs, pour nous qui ne les mangeons pas confits dans du miel comme faisaient les Romains.
 Ah ! les Romains les mangeaient ? fit le jardinier.
 Ils mangeaient les loirs ?
 J’ai lu cela dans Pétrone, dit le comte.
 Vraiment ?
-Ça ne doit pas être bon, quoi qu’on dise.
-Gras comme un loir.
+Ça ne doit pas être bon, quoi qu’on dise. Gras comme un loir.
 Et ce n’est pas étonnant monsieur, que les loirs soient gras, attendu qu’ils dorment toute la sainte journée, et qu’ils ne se réveillent que pour ronger toute la nuit.
 Tenez, l’an dernier, j’avais quatre abricots.
 Ils m’en ont entamé un.
@@ -109,7 +106,8 @@ Je descends dans le jardin ces jours-là, et je plante, je taille, je rogne, j�
 en somme, le temps passe.
 Depuis combien de temps êtes-vous ici ?
 Depuis dix ans et cinq ans de surnumérariat, quinze.
-Vous avez ?… Cinquante-cinq ans.
+Vous avez ?…
+Cinquante-cinq ans.
 Combien de temps de service vous faut-il pour avoir la pension ?
 Oh ! monsieur, vingt-cinq ans.
 Et de combien est cette pension ?
@@ -120,8 +118,7 @@ Je dis que c’est fort intéressant.
 Quoi ?
 Tout ce que vous me montrez… Et vous ne comprenez rien absolument à vos signes ?
 Rien absolument.
-Vous n’avez jamais essayé de comprendre ?
-Jamais.
+Vous n’avez jamais essayé de comprendre ? Jamais.
 Pour quoi faire ?
 Cependant, il y a des signaux qui s’adressent à vous directement.
 Sans doute.
@@ -235,8 +232,7 @@ Qu’il les vende à quelque prix que ce soit.
 Pourquoi cela ?
 Parce que don Carlos s’est sauvé de Bourges et est rentré en Espagne.
 Comment savez-vous cela ?
-Parbleu, dit Debray en haussant les épaules, comme je sais les nouvelles.
-La baronne ne se le fit pas répéter deux fois.
+Parbleu, dit Debray en haussant les épaules, comme je sais les nouvelles. La baronne ne se le fit pas répéter deux fois.
 elle courut chez son mari, lequel courut à son tour chez son agent de change et lui ordonna de vendre à tout prix.
 Quand on vit que monsieur Danglars vendait, les fonds espagnols baissèrent aussitôt.
 Danglars y perdit cinq cent mille francs, mais il se débarrassa de tous ses coupons.

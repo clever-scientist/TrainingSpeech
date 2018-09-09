@@ -13,15 +13,13 @@ L’intendant n’eût pas été fâché, tandis qu’il y était, de faire subi
 Bertuccio s’en dédommagea en encombrant de fleurs les antichambres, les escaliers et les cheminées.
 Ce qui annonçait l’extrême habileté de l’intendant et la profonde science du maître, l’un pour servir, l’autre pour se faire servir, c’est que cette maison, déserte depuis vingt années, si sombre et si triste encore la veille, tout imprégnée qu’elle était de cette fade odeur qu’on pourrait appeler l’odeur du temps, avait pris en un jour, avec l’aspect de la vie, les parfums que préférait le maître, et jusqu’au degré de son jour favori.
 C’est que le comte, en arrivant, avait là, sous sa main, ses livres et ses armes.
-Sous ses yeux ses tableaux préférés.
-Dans les antichambres les chiens dont il aimait les caresses, les oiseaux dont il aimait le chant.
+Sous ses yeux ses tableaux préférés. Dans les antichambres les chiens dont il aimait les caresses, les oiseaux dont il aimait le chant.
 C’est que toute cette maison, réveillée de son long sommeil, comme le palais de la Belle au bois dormant, vivait, chantait, s’épanouissait, pareille à ces maisons que nous avons depuis longtemps chéries, et dans lesquelles, lorsque par malheur nous les quittons, nous laissons involontairement une partie de notre âme.
 Des domestiques allaient et venaient joyeux dans cette belle cour.
 les uns possesseurs des cuisines, et glissant comme s’ils eussent toujours habité cette maison dans des escaliers restaurés de la veille, les autres peuplant les remises, où les équipages, numérotés et casés, semblaient installés depuis cinquante ans.
 Et les écuries, où les chevaux au râtelier répondaient en hennissant aux palefreniers, qui leur parlaient avec infiniment plus de respect que beaucoup de domestiques ne parlent à leurs maîtres.
 La bibliothèque était disposée sur deux corps, aux deux côtés de la muraille, et contenait deux mille volumes à peu près.
-Tout un compartiment était destiné aux romans modernes, et celui qui avait paru la veille était déjà rangé à sa place, se pavanant dans sa reliure rouge et or.
-De l’autre côté de la maison, faisant pendant à la bibliothèque, il y avait la serre, garnie de plantes rares et s’épanouissant dans de larges potiches japonaises, et au milieu de la serre, merveille à la fois des yeux et de l’odorat, un billard que l’on eût dit abandonné depuis une heure au plus par les joueurs, qui avaient laissé mourir les billes sur le tapis.
+Tout un compartiment était destiné aux romans modernes, et celui qui avait paru la veille était déjà rangé à sa place, se pavanant dans sa reliure rouge et or. De l’autre côté de la maison, faisant pendant à la bibliothèque, il y avait la serre, garnie de plantes rares et s’épanouissant dans de larges potiches japonaises, et au milieu de la serre, merveille à la fois des yeux et de l’odorat, un billard que l’on eût dit abandonné depuis une heure au plus par les joueurs, qui avaient laissé mourir les billes sur le tapis.
 Une seule chambre avait été respectée par le magnifique Bertuccio.
 Devant cette chambre, située à l’angle gauche du premier étage, à laquelle on pouvait monter par le grand escalier, et dont on pouvait sortir par l’escalier dérobé, les domestiques passaient avec curiosité et Bertuccio avec terreur.
 À cinq heures précises, le comte arriva, suivi d’Ali, devant la maison d’Auteuil.
@@ -42,8 +40,7 @@ je l’ai fait exprès pour vous avoir un instant à moi seul avant tout le mond
 Julie et Emmanuel vous disent des millions de choses.
 Ah ! mais, savez-vous que c’est magnifique ici !
 Dites-moi, comte, est-ce que vos gens auront bien soin de mon cheval ?
-Soyez tranquille, mon cher Maximilien, ils s’y connaissent.
-C’est qu’il a besoin d’être bouchonné.
+Soyez tranquille, mon cher Maximilien, ils s’y connaissent. C’est qu’il a besoin d’être bouchonné.
 Si vous saviez de quel train il a été !
 Une véritable trombe !
 Peste, je le crois bien, un cheval de cinq mille francs !
@@ -57,8 +54,7 @@ Il est si bon, mon cher comte, que Monsieur de Château-Renaud, l’homme le plu
 Alors, ils vous suivent ? demanda Monte-Cristo.
 Tenez, les voilà.
 En effet, au moment même, un coupé à l’attelage tout fumant et deux chevaux de selle hors d’haleine arrivèrent devant la grille de la maison, qui s’ouvrit devant eux.
-Aussitôt le coupé décrivit son cercle, et vint s’arrêter au perron, suivi de deux cavaliers.
-En un instant Debray eut mis pied à terre, et se trouva à la portière.
+Aussitôt le coupé décrivit son cercle, et vint s’arrêter au perron, suivi de deux cavaliers. En un instant Debray eut mis pied à terre, et se trouva à la portière.
 Il offrit sa main à la baronne, qui lui fit en descendant un geste imperceptible pour tout autre que pour Monte-Cristo. Mais le comte ne perdait rien, et dans ce geste il vit reluire un petit billet blanc aussi imperceptible que le geste, et qui passa, avec une aisance qui indiquait l’habitude de cette manoeuvre, de la main de Madame Danglars dans celle du secrétaire du ministre.
 Derrière sa femme descendit le banquier, pâle comme s’il fût sorti du sépulcre au lieu de sortir de son coupé.
 Madame Danglars jeta autour d’elle un regard rapide et investigateur que Monte-Cristo seul put comprendre et dans lequel elle embrassa la cour, le péristyle, la façade de la maison.
@@ -105,9 +101,7 @@ Oui, on est venu le proposer au Musée.
 Qui n’en a pas, je crois ? hasarda Monte-Cristo.
 Non, et qui cependant a refusé de l’acheter.
 Pourquoi cela ? demanda Château-Renaud.
-Vous êtes charmant, vous.
-Parce que le gouvernement n’est point assez riche.
-Ah ! pardon ! dit Château-Renaud.
+Vous êtes charmant, vous. Parce que le gouvernement n’est point assez riche. Ah ! pardon ! dit Château-Renaud.
 J’entends dire cependant de ces choses-là tous les jours depuis huit ans, et je ne puis pas encore m’y habituer.
 Cela viendra, dit Debray.
 Je ne crois pas, répondit Château-Renaud.
@@ -120,8 +114,7 @@ Leurs regards se portaient du père au fils, et s’arrêtèrent tout naturellem
 Cavalcanti ! dit Debray.
 Un beau nom, fit Morrel, peste !
 Oui, dit Château-Renaud, c’est vrai, ces Italiens se nomment bien, mais ils s’habillent mal.
-Vous êtes difficile, Château-Renaud, reprit Debray.
-Ces habits sont d’un excellent faiseur, et tout neufs.
+Vous êtes difficile, Château-Renaud, reprit Debray. Ces habits sont d’un excellent faiseur, et tout neufs.
 Voilà justement ce que je leur reproche.
 Ce monsieur a l’air de s’habiller aujourd’hui pour la première fois.
 Qu’est-ce que ces messieurs ? demanda Danglars au comte de Monte-Cristo.
@@ -132,8 +125,7 @@ Belle fortune ? demanda le banquier.
 Fabuleuse.
 Que font-ils ?
 Ils essaient de la manger sans pouvoir en venir à bout.
-Ils ont d’ailleurs des crédits sur vous, à ce qu’ils m’ont dit en me venant voir avant-hier.
-Je les ai même invités à votre intention.
+Ils ont d’ailleurs des crédits sur vous, à ce qu’ils m’ont dit en me venant voir avant-hier. Je les ai même invités à votre intention.
 Je vous les présenterai. Mais il me semble qu’ils parlent très purement le français, dit Danglars.
 Le fils a été élevé dans un collège du Midi, à Marseille ou dans les environs, je crois.
 Vous le trouverez dans l’enthousiasme.

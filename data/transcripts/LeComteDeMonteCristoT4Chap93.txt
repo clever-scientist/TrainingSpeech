@@ -7,7 +7,8 @@ c’est que Morrel avait plus d’une demi-heure à lui pour faire cinq cents pa
 Mais, malgré ce temps plus que suffisant, il s’était empressé de quitter Monte-Cristo, ayant hâte d’être seul avec ses pensées.
 Il savait bien son heure, l’heure à laquelle Valentine, assistant au déjeuner de Noirtier, était sûre de ne pas être troublée dans ce pieux devoir.
 Noirtier et Valentine lui avaient accordé deux visites par semaine, et il venait profiter de son droit.
-Il arriva, Valentine l’attendait.
+Il arriva
+Valentine l’attendait.
 Inquiète, presque égarée, elle lui saisit la main, et l’amena devant son grand-père.
 Cette inquiétude, poussée, comme nous le disons, presque jusqu’à l’égarement, venait du bruit que l’aventure de Morcerf avait fait dans le monde, on savait (le monde sait toujours) l’aventure de l’Opéra.
 Chez Villefort, personne ne doutait qu’un duel ne fût la conséquence forcée de cette aventure.
@@ -30,8 +31,7 @@ Depuis quinze jours, je trouve que votre santé s’altère.
 Oui, un peu, c’est vrai, répondit Valentine.
 Aussi bon papa s’est constitué mon médecin, et comme bon papa sait tout, j’ai la plus grande confiance en lui. Mais enfin il est donc vrai que vous souffrez, Valentine ? demanda vivement Morrel.
 Oh ! mon Dieu ! cela ne s’appelle pas souffrir.
-je ressens un malaise général, voilà tout.
-J’ai perdu l’appétit, et il me semble que mon estomac soutient une lutte pour s’habituer à quelque chose.
+je ressens un malaise général, voilà tout. J’ai perdu l’appétit, et il me semble que mon estomac soutient une lutte pour s’habituer à quelque chose.
 Noirtier ne perdait pas une des paroles de Valentine.
 Et quel est le traitement que vous suivez pour cette maladie inconnue ?
 Oh ! bien simple, dit Valentine.
@@ -78,8 +78,7 @@ Noirtier fit signe qu’il voulait parler.
 Pourquoi le verre et la carafe sont-ils vides ? demanda-t-il.
 Valentine a dit qu’elle n’avait bu que la moitié du verre.
 La traduction de cette nouvelle demande prit encore cinq minutes.
-Je ne sais, dit le domestique. Mais la femme de chambre est dans l’appartement de Mademoiselle Valentine.
-c’est peut-être elle qui les a vidés.
+Je ne sais, dit le domestique. Mais la femme de chambre est dans l’appartement de Mademoiselle Valentine. c’est peut-être elle qui les a vidés.
 Demandez-le-lui, dit Morrel, traduisant cette fois la pensée de Noirtier par le regard.
 Le domestique sortit, et presque aussitôt rentra.
 Mademoiselle Valentine a passé par sa chambre pour se rendre dans celle de Madame de Villefort, dit-il.
@@ -100,8 +99,7 @@ Danglars avait maintenu le titre de prince.
 Le banquier populaire avait trouvé que cela faisait mieux que comte.
 Alors, permettez que je vous fasse mes sincères compliments, répondit Madame de Villefort.
 Monsieur le prince Cavalcanti paraît un jeune homme plein de rares qualités.
-Écoutez, dit la baronne en souriant.
-Si nous parlons comme deux amies, je dois vous dire que le prince ne nous paraît pas encore être ce qu’il sera.
+Écoutez, dit la baronne en souriant. Si nous parlons comme deux amies, je dois vous dire que le prince ne nous paraît pas encore être ce qu’il sera.
 Il a en lui un peu de cette étrangeté qui nous fait, à nous autres Français, reconnaître du premier coup d’œil un gentilhomme italien ou allemand.
 Cependant il annonce un fort bon cœur, beaucoup de finesse d’esprit, et quant aux convenances, monsieur Danglars prétend que la fortune est majestueuse.
 C’est son mot.
@@ -119,8 +117,7 @@ le général y tenait beaucoup, il était même venu pour forcer la main à mons
 Nous l’avons échappé belle.
 Mais, dit timidement Valentine, est-ce que toute cette honte du père rejaillit sur le fils ? monsieur Albert me semble bien innocent de toutes ces trahisons du général.
 Pardon, chère amie, dit l’implacable jeune fille.
-Monsieur Albert en réclame et en mérite sa part.
-il paraît qu’après avoir provoqué hier Monsieur de Monte-Cristo à l’Opéra, il lui a fait aujourd’hui des excuses sur le terrain.
+Monsieur Albert en réclame et en mérite sa part. il paraît qu’après avoir provoqué hier Monsieur de Monte-Cristo à l’Opéra, il lui a fait aujourd’hui des excuses sur le terrain.
 Impossible ! dit Madame de Villefort.
 Ah ! chère amie, dit Madame Danglars avec cette même naïveté que nous avons déjà signalée, la chose est certaine.
 Je le sais de monsieur Debray, qui était présent à l’explication.
@@ -166,14 +163,11 @@ dans huit jours, Eugénie se marie, et dans trois jours il y a une espèce de gr
 Nous sommes tous invités, mon père, Madame de Villefort et moi… à ce que j’ai cru comprendre, du moins.
 Quand sera-ce donc notre tour de nous occuper de ces détails ?
 Oh !
-Valentine, vous qui pouvez tant de choses sur notre bon papa, tâchez qu’il vous réponde.
-bientôt !
+Valentine, vous qui pouvez tant de choses sur notre bon papa, tâchez qu’il vous réponde. bientôt !
 Ainsi, demanda Valentine, vous comptez sur moi pour stimuler la lenteur et réveiller la mémoire de bon papa ?
-Oui, s’écria Morrel.
-Mon Dieu ! mon Dieu ! faites vite.
+Oui, s’écria Morrel. Mon Dieu ! mon Dieu ! faites vite.
 Tant que vous ne serez pas à moi, Valentine, il me semblera toujours que vous allez m’échapper.
-Oh ! répondit Valentine avec un mouvement convulsif, oh ! en vérité, Maximilien, vous êtes trop craintif, pour un officier, pour un soldat qui, dit-on, n’a jamais connu la peur.
-Ha ! ha ! ha !
+Oh ! répondit Valentine avec un mouvement convulsif, oh ! en vérité, Maximilien, vous êtes trop craintif, pour un officier, pour un soldat qui, dit-on, n’a jamais connu la peur. Ha ! ha ! ha !
 Et elle éclata d’un rire strident et douloureux.
 Ses bras se raidirent et se tournèrent, sa tête se renversa sur son fauteuil et elle demeura sans mouvement.
 Le cri de terreur que Dieu enchaînait aux lèvres de Noirtier jaillit de son regard.

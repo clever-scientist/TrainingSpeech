@@ -66,7 +66,7 @@ Pauvre innocente créature sortie de moi, à qui je n’ai jamais pu donner un b
 Ah ! tout mon cœur a volé au-devant du comte lorsqu’il a parlé de cette chère dépouille trouvée sous des fleurs.
 Eh bien, non, madame.
 Et voilà ce que j’avais de terrible à vous dire, répondit Villefort d’une voix sourde.
-non, il n’y a pas eu de dépouille trouvée sous les fleurs.
+il n’y a pas eu de dépouille trouvée sous les fleurs.
 Non, il n’y a pas eu d’enfant déterré.
 Non, il ne faut pas pleurer.
 Non, il ne faut pas gémir.
@@ -164,8 +164,7 @@ Car en tombant, ma main, qui venait de quitter l’ébénier, avait senti la fra
 À ma droite était le faux ébénier, derrière moi était le rocher, je tombai en me plaçant de même, je me relevai et me mis à creuser et à élargir le trou.
 rien ! toujours rien ! le coffret n’y était pas.
 Le coffret n’y était pas ? murmura Madame Danglars suffoquée par l’épouvante.
-Ne croyez pas que je me bornai à cette tentative, continua Villefort.
-Non.
+Ne croyez pas que je me bornai à cette tentative, continua Villefort. Non.
 Je fouillai tout le massif.
 Je pensai que l’assassin, ayant déterré le coffre et croyant que c’était un trésor, avait voulu s’en emparer, l’avait emporté.
 Puis s’apercevant de son erreur, avait fait à son tour un trou et l’y avait déposé.
@@ -198,15 +197,14 @@ Vous avez enterré mon enfant vivant, monsieur !
 Vous n’étiez pas sûr que mon enfant était mort, et vous l’avez enterré ! ah !… Madame Danglars s’était redressée et elle se tenait devant le procureur du roi, dont elle serrait les poignets entre ses mains délicates, debout et presque menaçante.
 Que sais-je ?
 Je vous dis cela comme je vous dirais autre chose, répondit Villefort avec une fixité de regard qui indiquait que cet homme si puissant était près d’atteindre les limites du désespoir et de la folie.
-Ah ! mon enfant, mon pauvre enfant ! s’écria la baronne, retombant sur sa chaise et étouffant ses sanglots dans son mouchoir.
+Ah ! mon pauvre enfant, mon pauvre enfant ! s’écria la baronne, retombant sur sa chaise et étouffant ses sanglots dans son mouchoir.
 Villefort revint à lui, et comprit que pour détourner l’orage maternel qui s’amassait sur sa tête, il fallait faire passer chez Madame Danglars la terreur qu’il éprouvait lui-même.
 Vous comprenez alors que si cela est ainsi, dit-il en se levant à son tour et en s’approchant de la baronne pour lui parler d’une voix plus basse, nous sommes perdus.
 cet enfant vit, et quelqu’un sait qu’il vit, quelqu’un a notre secret.
 Et puisque Monte-Cristo parle devant nous d’un enfant déterré où cet enfant n’était plus, ce secret c’est lui qui l’a.
 Dieu, Dieu juste, Dieu vengeur ! murmura Madame Danglars.
 Villefort ne répondit que par une espèce de rugissement. Mais cet enfant, cet enfant, monsieur ? reprit la mère obstinée.
-Oh ! que je l’ai cherché ! reprit Villefort en se tordant les bras.
-que de fois je l’ai appelé dans mes longues nuits sans sommeil ! que de fois j’ai désiré une richesse royale pour acheter un million de secrets à un million d’hommes, et pour trouver mon secret dans les leurs !
+Oh ! que je l’ai cherché ! reprit Villefort en se tordant les bras. que de fois je l’ai appelé dans mes longues nuits sans sommeil ! que de fois j’ai désiré une richesse royale pour acheter un million de secrets à un million d’hommes, et pour trouver mon secret dans les leurs !
 Enfin, un jour que pour la centième fois je reprenais la bêche, je me demandai pour la centième fois ce que le Corse avait pu faire de l’enfant.
 un enfant embarrasse un fugitif.
 Peut-être en s’apercevant qu’il était vivant encore, l’avait-il jeté dans la rivière.
@@ -244,13 +242,10 @@ Cependant, depuis deux ou trois ans, j’ai donné quelque relâche.
 Mais, aujourd’hui, je vais recommencer avec plus de persévérance et d’acharnement que jamais.
 Et je réussirai, voyez-vous.
 Car ce n’est plus la conscience qui me pousse, c’est la peur.
-Mais, reprit Madame Danglars, le comte de Monte-Cristo ne sait rien.
-Sans quoi, ce me semble, il ne nous rechercherait point comme il le fait.
-Oh ! la méchanceté des hommes est bien profonde, dit Villefort, puisqu’elle est plus profonde que la bonté de Dieu.
-Avez-vous remarqué les yeux de cet homme, tandis qu’il nous parlait ?
+Mais, reprit Madame Danglars, le comte de Monte-Cristo ne sait rien. Sans quoi, ce me semble, il ne nous rechercherait point comme il le fait.
+Oh ! la méchanceté des hommes est bien profonde, dit Villefort, puisqu’elle est plus profonde que la bonté de Dieu. Avez-vous remarqué les yeux de cet homme, tandis qu’il nous parlait ?
 Non. Mais l’avez-vous examiné profondément parfois ?
-Sans doute.
-Il est bizarre, mais voilà tout.
+Sans doute. Il est bizarre, mais voilà tout.
 Une chose qui m’a frappée seulement, c’est que de tout ce repas exquis qu’il nous a donné, il n’a rien touché, c’est que d’aucun plat il n’a voulu prendre sa part.
 Oui, oui ! dit Villefort, j’ai remarqué cela aussi.
 Si j’avais su ce que je sais maintenant, moi non plus je n’eusse touché à rien.

@@ -5,8 +5,7 @@ Eh bien, lui dit-il, je vous demanderai, comme le roi Charles neuf demandait à 
 Comment trouvez-vous que j’ai joué mon petit rôle ?
 À quel propos ? demanda Monte-Cristo. Mais à propos de l’installation de mon rival chez monsieur Danglars… Quel rival ?
 Parbleu ! quel rival ? votre protégé, monsieur Andrea Cavalcanti !
-Oh ! pas de mauvaises plaisanteries, vicomte.
-Je ne protège nullement monsieur Andrea, du moins près de monsieur Danglars.
+Oh ! pas de mauvaises plaisanteries, vicomte. Je ne protège nullement monsieur Andrea, du moins près de monsieur Danglars.
 Et c’est le reproche que je vous ferais si le jeune homme avait besoin de protection.
 Mais, heureusement pour moi, il peut s’en passer.
 Comment ! vous croyez qu’il fait sa cour ?
@@ -36,8 +35,7 @@ Vous vous trompez, mon cher vicomte.
 Une preuve ?
 La voulez-vous ?
 Oui.
-Je suis chargé de prier Monsieur le comte de Morcerf de faire une démarche définitive près du baron.
-Par qui ?
+Je suis chargé de prier Monsieur le comte de Morcerf de faire une démarche définitive près du baron. Par qui ?
 Par le baron lui-même.
 Oh ! dit Albert avec toute la câlinerie dont il était capable, vous ne ferez pas cela, n’est-ce pas, mon cher comte ?
 Vous vous trompez, Albert, je le ferai, puisque j’ai promis.
@@ -60,8 +58,7 @@ Ils paraissaient si bien s’entendre, dit Monte-Cristo avec un renouvellement d
 Ah ! voilà ! nous rentrons dans les mystères d’Isis, et je ne suis pas initié.
 Quand monsieur Cavalcanti fils sera de la famille, vous lui demanderez cela.
 La voiture s’arrêta.
-Nous voilà arrivés, dit Monte-Cristo.
-Il n’est que dix heures et demie, montez donc.
+Nous voilà arrivés, dit Monte-Cristo. Il n’est que dix heures et demie, montez donc.
 Bien volontiers.
 Ma voiture vous conduira.
 Non, merci, mon coupé a dû nous suivre.
@@ -137,7 +134,8 @@ Eh bien, mon cher comte, présentez-moi à votre princesse.
 Volontiers, mais à deux conditions.
 Je les accepte d’avance.
 La première, c’est que vous ne confierez jamais à personne cette présentation.
-Très bien (Morcerf étendit la main).
+Très bien
+Morcerf étendit la main.
 Je le jure.
 La seconde, c’est que vous ne lui direz pas que votre père a servi le sien.
 Je le jure encore.
@@ -203,8 +201,7 @@ Tout à l’heure j’entendais rouler des omnibus et tinter les sonnettes des m
 Ô signora !… que ne sais-je parler le grec, votre conversation jointe à cet entourage féerique, me composerait une soirée dont je me souviendrais toujours.
 Je parle assez bien l’italien pour parler avec vous, monsieur, dit tranquillement Haydée.
 Et je ferai de mon mieux, si vous aimez l’Orient, pour que vous le retrouviez ici.
-De quoi puis-je parler ? demanda tout bas Albert à Monte-Cristo. Mais de tout ce que vous voudrez.
-de son pays, de sa jeunesse, de ses souvenirs.
+De quoi puis-je parler ? demanda tout bas Albert à Monte-Cristo. Mais de tout ce que vous voudrez. de son pays, de sa jeunesse, de ses souvenirs.
 Puis, si vous l’aimez mieux, de Rome, de Naples ou de Florence.
 Oh ! dit Albert, ce ne serait pas la peine d’avoir une Grecque devant soi pour lui parler de tout ce dont on parlerait à une Parisienne.
 Laissez-moi lui parler de l’Orient.
@@ -219,18 +216,14 @@ le regard du corps et le regard de l’âme.
 Le regard du corps peut oublier parfois, mais celui de l’âme se souvient toujours.
 Et quel est le temps le plus loin dont vous puissiez vous souvenir ?
 Je marchais à peine, ma mère, que l’on appelle Vasiliki (Vasiliki veut dire royale, ajouta la jeune fille en relevant la tête), ma mère me prenait par la main, et, toutes deux couvertes d’un voile, après avoir mis au fond de la bourse tout l’or que nous possédions, nous allions demander l’aumône pour les prisonniers, en disant.
-Celui qui donne aux pauvres prête à l’Éternel.
-[Proverbe dix-neuf]
+Celui qui donne aux pauvres prête à l’Éternel. [Proverbe dix-neuf]
 Puis, quand notre bourse était pleine, nous rentrions au palais, et, sans rien dire à mon père, nous envoyions tout cet argent qu’on nous avait donné, nous prenant pour de pauvres femmes, à l’égoumenos* du couvent qui le répartissait entre les prisonniers.
-[En grec, prêtre, abbé (Note du correcteur.)]
-Et à cette époque, quel âge aviez-vous ?
-Trois ans, dit Haydée.
+[En grec, prêtre, abbé (Note du correcteur.)] Et à cette époque, quel âge aviez-vous ? Trois ans, dit Haydée.
 Alors, vous vous souvenez de tout ce qui s’est passé autour de vous depuis l’âge de trois ans ?
 De tout.
 Comte, dit tout bas Morcerf à Monte-Cristo, vous devriez permettre à la signora de nous raconter quelque chose de son histoire.
 Vous m’avez défendu de lui parler de mon père, mais peut-être m’en parlera-t-elle, et vous n’avez pas idée combien je serais heureux d’entendre sortir son nom d’une si jolie bouche.
-Monte-Cristo se tourna vers Haydée, et par un signe de sourcil qui lui indiquait d’accorder la plus grande attention à la recommandation qu’il allait lui faire, il lui dit en grec.
-Mot à mot.
+Monte-Cristo se tourna vers Haydée, et par un signe de sourcil qui lui indiquait d’accorder la plus grande attention à la recommandation qu’il allait lui faire, il lui dit en grec. Mot à mot.
 De ton père le sort, mais pas le nom du traître, ni la trahison, raconte-nous.
 Haydée poussa un long soupir, et un nuage sombre passa sur son front si pur.
 Que lui dites-vous ? demanda tout bas Morcerf.
@@ -240,8 +233,8 @@ Quel est l’autre ?
 L’autre ? je me vois sous l’ombre des sycomores, près d’un lac dont j’aperçois encore, à travers le feuillage, le miroir tremblant.
 Contre le plus vieux et le plus touffu, mon père était assis sur des coussins, et moi, faible enfant, tandis que ma mère était couchée à ses pieds, je jouais avec sa barbe blanche qui descendait sur sa poitrine, et avec le cangiar à la poignée de diamant passé à sa ceinture.
 Puis, de temps en temps venait à lui un Albanais qui lui disait quelques mots auxquels je ne faisais pas attention, et auxquels il répondait du même son de voix.
-Tuez ! ou.
-Faites grâce !
+Tuez !
+ou Faites grâce !
 C’est étrange, dit Albert, d’entendre sortir de pareilles choses de la bouche d’une jeune fille, autre part que sur un théâtre, et en se disant.
 Ceci n’est point une fiction.
 Et, demanda Albert, comment, avec cet horizon si poétique, comment, avec ce lointain merveilleux, trouvez-vous la France ?
@@ -281,8 +274,7 @@ Bientôt, continua Haydée, la marche s’arrêta.
 Nous étions au bas de l’escalier et au bord d’un lac.
 Ma mère me pressait contre sa poitrine bondissante, et je vis, à deux pas derrière, mon père qui jetait de tous côtés des regards inquiets.
 Devant nous s’étendaient quatre degrés de marbre, et au bas du dernier degré ondulait une barque.
-D’où nous étions on voyait se dresser au milieu d’un lac une masse noire.
-C’était le kiosque où nous nous rendions.
+D’où nous étions on voyait se dresser au milieu d’un lac une masse noire. C’était le kiosque où nous nous rendions.
 Ce kiosque me paraissait à une distance considérable, peut-être à cause de l’obscurité.
 Nous descendîmes dans la barque.
 Je me souviens que les rames ne faisaient aucun bruit en touchant l’eau.
@@ -394,10 +386,7 @@ Le nom du Franc qui avait été envoyé à Constantinople retentissait répété
 Il était évident qu’il rapportait la réponse du sublime empereur, et que la réponse était favorable.
 Et vous ne vous rappelez pas ce nom ? dit Morcerf, tout prêt à aider la mémoire de la narratrice.
 Monte-Cristo lui fit un signe.
-Je ne me le rappelle pas, répondit Haydée.
-Le bruit redoublait.
-Des pas plus rapprochés retentirent.
-On descendait les marches du souterrain.
+Je ne me le rappelle pas, répondit Haydée. Le bruit redoublait. Des pas plus rapprochés retentirent. On descendait les marches du souterrain.
 Sélim apprêta sa lance.
 Bientôt une ombre apparut dans le crépuscule bleuâtre que formaient les rayons du jour pénétrant jusqu’à l’entrée du souterrain.
 Qui es-tu ? cria Sélim.
@@ -413,8 +402,7 @@ Et, pour la seconde fois, Haydée s’arrêta vaincue par une émotion telle que
 Monte-Cristo versa un peu d’eau glacée dans un verre, et le lui présenta en disant avec une douceur où perçait une nuance de commandement.
 Du courage, ma fille !
 Haydée essuya ses yeux et son front, et continua.
-Pendant ce temps, nos yeux, habitués à l’obscurité avaient reconnu l’envoyé du pacha.
-c’était un ami.
+Pendant ce temps, nos yeux, habitués à l’obscurité avaient reconnu l’envoyé du pacha. c’était un ami.
 Sélim l’avait reconnu. Mais le brave jeune homme ne savait qu’une chose.
 obéir !
 En quel nom viens-tu ? dit-il.

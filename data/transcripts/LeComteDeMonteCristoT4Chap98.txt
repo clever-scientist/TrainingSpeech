@@ -32,8 +32,7 @@ pays du ratafia ?
 Justement.
 Il s’agit tout simplement de rattraper un de mes amis avec lequel je dois chasser demain à la Chapelle-en-Serval.
 Il devait m’attendre ici avec son cabriolet jusqu’à onze heures et demie.
-il est minuit.
-Il se sera fatigué de m’attendre et sera parti tout seul.
+il est minuit. Il se sera fatigué de m’attendre et sera parti tout seul.
 C’est probable.
 Eh bien, voulez-vous essayer de le rattraper ?
 Je ne demande pas mieux. Mais si nous ne le rattrapons pas d’ici au Bourget vous aurez vingt francs.
@@ -140,8 +139,7 @@ La pâleur envahit le front du jeune homme.
 Il regarda autour de lui avec anxiété.
 Sa chambre, comme toutes celles de cet étage, n’avait d’issue que sur la galerie extérieure, ouverte à tous les regards.
 Je suis perdu ! fut sa seconde pensée.
-En effet, pour un homme dans la situation d’Andrea, l’arrestation signifiait.
-les assises, le jugement, la mort, la mort sans miséricorde et sans délai.
+En effet, pour un homme dans la situation d’Andrea, l’arrestation signifiait. les assises, le jugement, la mort, la mort sans miséricorde et sans délai.
 Un instant il comprima convulsivement sa tête entre ses deux mains.
 Pendant cet instant il faillit devenir fou de peur. Mais bientôt, de ce monde de pensées s’entrechoquant dans sa tête, une pensée d’espérance jaillit.
 Un pâle sourire se dessina sur ses lèvres blêmies et sur ses joues contractées.
@@ -207,9 +205,9 @@ Celui qui sonne m’a l’air de demander autre chose que le garçon, et nous al
 Qui loge au numéro trois ?
 Le petit jeune homme arrivé avec sa sœur cette nuit en chaise de poste, et qui a demandé une chambre à deux lits.
 La sonnette retentit une troisième fois avec une intonation pleine d’angoisse.
-À moi ! monsieur le commissaire ! cria le brigadier, suivez-moi et emboîtez le pas.
+À moi ! monsieur le commissaire ! cria le brigadier, suivez-moi. À moi ! monsieur le commissaire ! cria le brigadier, suivez-moi et emboîtez le pas.
 Un instant, dit l’hôte, à la chambre numéro trois, il y a deux escaliers.
-un extérieur, un intérieur.
+un extérieur et un intérieur.
 Bon ! dit le brigadier, je prendrai l’intérieur, c’est mon département.
 Les carabines sont-elles chargées ?
 Oui, brigadier.

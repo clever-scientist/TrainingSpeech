@@ -1,7 +1,6 @@
 Chapitre cent onze.
 Expiation.
-Monsieur de Villefort avait vu s’ouvrir devant lui les rangs de la foule, si compacte qu’elle fût.
-Les grandes douleurs sont tellement vénérables, qu’il n’est pas d’exemple, même dans les temps les plus malheureux, que le premier mouvement de la foule réunie n’ait pas été un mouvement de sympathie pour une grande catastrophe.
+Monsieur de Villefort avait vu s’ouvrir devant lui les rangs de la foule, si compacte qu’elle fût. Les grandes douleurs sont tellement vénérables, qu’il n’est pas d’exemple, même dans les temps les plus malheureux, que le premier mouvement de la foule réunie n’ait pas été un mouvement de sympathie pour une grande catastrophe.
 Beaucoup de gens haïs ont été assassinés dans une émeute.
 Rarement un malheureux, fût-il criminel, a été insulté par les hommes qui assistaient à sa condamnation à mort.
 Villefort traversa donc la haie des spectateurs, des gardes, des gens du Palais, et s’éloigna, reconnu coupable de son propre aveu, mais protégé par sa douleur.
@@ -37,7 +36,12 @@ Ah ! s’écria-t-il en se roulant sur le satin de son carrosse, cette femme n�
 Je sue le crime, moi ! et elle a gagné le crime comme on gagne le typhus, comme on gagne le choléra, comme on gagne la peste !… et je la punis !… J’ai osé lui dire.
 Repentez-vous et mourez… moi ! oh ! non ! non ! elle vivra… elle me suivra… Nous allons fuir, quitter la France, aller devant nous tant que la terre pourra nous porter.
 Je lui parlais d’échafaud !… Grand Dieu ! comment ai-je osé prononcer ce mot !
-Mais, moi aussi, l’échafaud m’attend !… Nous fuirons… Oui, je me confesserai à elle ! oui, tous les jours je lui dirai, en m’humiliant, que, moi aussi, j’ai commis un crime… Oh ! alliance du tigre et du serpent ! oh ! digne femme d’un mari tel que moi !… Il faut qu’elle vive, il faut que mon infamie fasse pâlir la sienne !
+Mais, moi aussi, l’échafaud m’attend !…
+Nous fuirons… Oui, je me confesserai à elle !
+oui, tous les jours je lui dirai, en m’humiliant, que, moi aussi, j’ai commis un crime…
+Oh ! alliance du tigre et du serpent !
+oh ! digne femme d’un mari tel que moi !…
+Il faut qu’elle vive, il faut que mon infamie fasse pâlir la sienne !
 Et Villefort enfonça plutôt qu’il ne baissa la glace du devant de son coupé.
 Vite, plus vite ! s’écria-t-il d’une voix qui fit bondir le cocher sur son siège.
 Les chevaux, emportés par la peur, volèrent jusqu’à la maison.
@@ -98,14 +102,12 @@ Mon fils ! s’écria-t-il tout à coup.
 Où est mon fils ?
 Édouard !
 Édouard !
-Et il se précipita hors de l’appartement en criant.
-Édouard !
+Et il se précipita hors de l’appartement en criant. Édouard !
 Édouard !
 Ce nom était prononcé avec un tel accent d’angoisse, que les domestiques accoururent.
 Mon fils ! où est mon fils ? demanda Villefort.
 Qu’on l’éloigne de la maison, qu’il ne voie pas… Monsieur Édouard n’est point en bas, monsieur, répondit le valet de chambre.
-Il joue sans doute au jardin.
-Voyez ! voyez !
+Il joue sans doute au jardin. Voyez ! voyez !
 Non, monsieur.
 Madame a appelé son fils il y a une demi-heure à peu près.
 Monsieur Édouard est entré chez madame et n’est point descendu depuis.
@@ -149,8 +151,7 @@ Villefort ne pouvait en croire ses yeux.
 Villefort ne pouvait en croire sa raison.
 Il se traîna vers le corps d’Édouard, qu’il examina encore une fois avec cette attention minutieuse que met la lionne à regarder son lionceau mort.
 Puis un cri déchirant s’échappa de sa poitrine.
-Dieu ! murmura-t-il, toujours Dieu !
-Ces deux victimes l’épouvantaient, il sentait monter en lui l’horreur de cette solitude peuplée de deux cadavres.
+Dieu ! murmura-t-il, toujours Dieu ! Ces deux victimes l’épouvantaient, il sentait monter en lui l’horreur de cette solitude peuplée de deux cadavres.
 Tout à l’heure il était soutenu par la rage, cette immense faculté des hommes forts, par le désespoir, cette vertu suprême de l’agonie, qui poussait les Titans à escalader le ciel, Ajax à montrer le poing aux dieux.
 Villefort courba sa tête sous le poids des douleurs, il se releva sur ses genoux, secoua ses cheveux humides de sueur, hérissés d’effroi et celui-là, qui n’avait jamais eu pitié de personne s’en alla trouver le vieillard, son père, pour avoir, dans sa faiblesse, quelqu’un à qui raconter son malheur, quelqu’un près de qui pleurer.
 Il descendit l’escalier que nous connaissons et entra chez Noirtier.
@@ -183,22 +184,17 @@ Vous m’avez condamné à une mort lente et hideuse, vous avez tué mon père, 
 Qui êtes-vous ? qui êtes-vous donc ? mon Dieu !
 Je suis le spectre d’un malheureux que vous avez enseveli dans les cachots du château d’If.
 À ce spectre sorti enfin de sa tombe Dieu a mis le masque du comte de Monte-Cristo, et il l’a couvert de diamants et d’or pour que vous le reconnaissiez qu’aujourd’hui.
-Ah ! je te reconnais, je te reconnais ! dit le procureur du roi.
-Tu es… Je suis Edmond Dantès !
+Ah ! je te reconnais, je te reconnais ! dit le procureur du roi. Tu es… Je suis Edmond Dantès !
 Tu es Edmond Dantès ! s’écria le procureur du roi en saisissant le comte par le poignet.
 Alors, viens !
 Et il l’entraîna par l’escalier, dans lequel Monte-Cristo, étonné, le suivit, ignorant lui-même où le procureur du roi le conduisait, et pressentant quelque nouvelle catastrophe.
-Tiens !
-Edmond Dantès, dit-il en montrant au comte le cadavre de sa femme et le corps de son fils, tiens ! regarde, es-tu bien vengé ?… Monte-Cristo pâlit à cet effroyable spectacle.
+Tiens ! Edmond Dantès, dit-il en montrant au comte le cadavre de sa femme et le corps de son fils, tiens ! regarde, es-tu bien vengé ?… Monte-Cristo pâlit à cet effroyable spectacle.
 Il comprit qu’il venait d’outrepasser les droits de la vengeance.
-Il comprit qu’il ne pouvait plus dire.
-Dieu est pour moi et avec moi.
+Il comprit qu’il ne pouvait plus dire. Dieu est pour moi et avec moi.
 Il se jeta avec un sentiment d’angoisse inexprimable sur le corps de l’enfant, rouvrit ses yeux, tâta le pouls, et s’élança avec lui dans la chambre de Valentine, qu’il referma à double tour… Mon enfant ! s’écria Villefort.
-Il emporte le cadavre de mon enfant !
-Oh ! malédiction ! malheur ! mort sur toi !
+Il emporte le cadavre de mon enfant ! Oh ! malédiction ! malheur ! mort sur toi !
 Et il voulut s’élancer après Monte-Cristo.
-Mais, comme dans un rêve, il sentit ses pieds prendre racine, ses yeux se dilatèrent à briser leurs orbites, ses doigts recourbés sur la chair de sa poitrine s’y enfoncèrent graduellement jusqu’à ce que le sang rougît ses ongles, les veines de ses tempes se gonflèrent d’esprits bouillants qui allèrent soulever la voûte trop étroite de son crâne et noyèrent son cerveau dans un déluge de feu.
-Cette fixité dura plusieurs minutes, jusqu’à ce que l’effroyable bouleversement de la raison fût accompli.
+Mais, comme dans un rêve, il sentit ses pieds prendre racine, ses yeux se dilatèrent à briser leurs orbites, ses doigts recourbés sur la chair de sa poitrine s’y enfoncèrent graduellement jusqu’à ce que le sang rougît ses ongles, les veines de ses tempes se gonflèrent d’esprits bouillants qui allèrent soulever la voûte trop étroite de son crâne et noyèrent son cerveau dans un déluge de feu. Cette fixité dura plusieurs minutes, jusqu’à ce que l’effroyable bouleversement de la raison fût accompli.
 Alors il jeta un grand cri suivi d’un long éclat de rire et se précipita par les escaliers.
 Un quart d’heure après, la chambre de Valentine se rouvrit, et le comte de Monte-Cristo reparut.
 Pâle, l’œil morne, la poitrine oppressée, tous les traits de cette figure ordinairement si calme et si noble étaient bouleversés par la douleur.
@@ -211,7 +207,8 @@ Monte-Cristo descendit le perron, s’avança vers l’endroit désigné, et vit
 Ce n’est pas encore ici, disait-il, ce n’est pas encore ici.
 Et il fouillait plus loin.
 Monte-Cristo s’approcha de lui, et tout bas.
-Monsieur, lui dit-il d’un ton presque humble, vous avez perdu un fils, mais… Villefort l’interrompit.
+Monsieur, lui dit-il d’un ton presque humble, vous avez perdu un fils, mais…
+Villefort l’interrompit.
 Il n’avait ni écouté ni entendu.
 Oh ! je le retrouverai, dit-il.
 Vous avez beau prétendre qu’il n’y est pas, je le retrouverai, dussé-je le chercher jusqu’au jour du Jugement dernier.

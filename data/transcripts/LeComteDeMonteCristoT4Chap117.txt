@@ -83,7 +83,8 @@ j’aime ma sœur Julie, j’aime son mari Emmanuel. Mais j’ai besoin qu’on 
 Ma sœur fondrait en larmes et s’évanouirait.
 Je la verrais souffrir, et j’ai assez souffert.
 Emmanuel m’arracherait l’arme des mains et remplirait la maison de ses cris.
-Vous, comte, dont j’ai la parole, vous qui êtes plus qu’un homme, vous que j’appellerais un dieu si vous n’étiez mortel, vous, vous me conduirez doucement et avec tendresse, n’est-ce pas, jusqu’aux portes de la mort ?
+Vous, comte, dont j’ai la parole, vous qui êtes plus qu’un homme, vous que j’appellerais un dieu si vous n’étiez mortel,
+vous, vous me conduirez doucement et avec tendresse, n’est-ce pas, jusqu’aux portes de la mort ?
 Ami, dit le comte, il me reste encore un doute.
 auriez-vous si peu de force, que vous mettiez de l’orgueil à étaler votre douleur ?
 Non, voyez, je suis simple, dit Morrel en tendant la main au comte, et mon pouls ne bat ni plus fort ni plus lentement que d’habitude.
@@ -131,8 +132,7 @@ le tout est de les connaître.
 Justement, Maximilien, et vous venez de dire le grand mot.
 La mort est, selon le soin que nous prenons de nous mettre bien ou mal avec elle, ou une amie qui nous berce aussi doucement qu’une nourrice, ou une ennemie qui nous arrache violemment l’âme du corps.
 Un jour, quand notre monde aura vécu encore un millier d’années, quand on se sera rendu maître de toutes les forces destructives de la nature pour les faire servir au bien-être général de l’humanité.
-Quand l’homme saura, comme vous le disiez tout à l’heure, les secrets de la mort, la mort deviendra aussi douce et aussi voluptueuse que le sommeil goûté aux bras de notre bien-aimée.
-Et si vous vouliez mourir, comte, vous sauriez mourir ainsi, vous ?
+Quand l’homme saura, comme vous le disiez tout à l’heure, les secrets de la mort, la mort deviendra aussi douce et aussi voluptueuse que le sommeil goûté aux bras de notre bien-aimée. Et si vous vouliez mourir, comte, vous sauriez mourir ainsi, vous ?
 Oui.
 Morrel lui tendit la main.
 Je comprends maintenant, dit-il, pourquoi vous m’avez donné rendez-vous ici, dans cette île désolée au milieu d’un Océan, dans ce palais souterrain sépulcre à faire envie à un Pharaon.
@@ -151,8 +151,7 @@ Le comte crut que Morrel faiblissait.
 Cette croyance d’un instant ressuscita en lui l’horrible doute déjà terrassé une fois au château d’If.
 Je m’occupe, pensa-t-il, de rendre cet homme au bonheur.
 Je regarde cette restitution comme un poids jeté dans la balance en regard du plateau où j’ai laissé tomber le mal.
-Maintenant, si je me trompais, si cet homme n’était pas assez malheureux pour mériter le bonheur ! hélas ! qu’arriverait-il de moi qui ne puis oublier le mal qu’en me retraçant le bien ?
-Écoutez !
+Maintenant, si je me trompais, si cet homme n’était pas assez malheureux pour mériter le bonheur ! hélas ! qu’arriverait-il de moi qui ne puis oublier le mal qu’en me retraçant le bien ? Écoutez !
 Morrel, dit-il, votre douleur est immense, je le vois. Mais cependant vous croyez en Dieu, et vous ne voulez pas risquer le salut de votre âme.
 Morrel sourit tristement.
 Comte, dit-il, vous savez que je ne fais pas de la poésie à froid.
@@ -237,8 +236,7 @@ puisse Dieu me tenir compte de ces deux existences que je sauve !
 Valentine saisit la main de Monte-Cristo, et dans un élan de joie irrésistible elle la porta à ses lèvres.
 Oh ! remerciez-moi bien, dit le comte, oh ! redites-moi, sans vous lasser de me le redire, redites-moi que je vous ai rendue heureuse ! vous ne savez pas combien j’ai besoin de cette certitude.
 Oh ! oui, oui, je vous remercie de toute mon âme, dit Valentine, et si vous doutez que mes remerciements soient sincères, eh bien, demandez à Haydée, interrogez ma sœur chérie Haydée, qui depuis notre départ de France m’a fait attendre patiemment, en me parlant de vous, l’heureux jour qui luit aujourd’hui pour moi.
-Vous aimez donc Haydée ? demanda Monte-Cristo avec une émotion qu’il s’efforçait en vain de dissimuler.
-Oh ! de toute mon âme.
+Vous aimez donc Haydée ? demanda Monte-Cristo avec une émotion qu’il s’efforçait en vain de dissimuler. Oh ! de toute mon âme.
 Eh bien, écoutez, Valentine, dit le comte, j’ai une grâce à vous demander.
 À moi, grand Dieu !
 Suis-je assez heureuse pour cela ?… Oui, vous avez appelé Haydée votre sœur.
@@ -278,7 +276,8 @@ Qu’il soit donc fait ainsi que tu le veux, mon ange chéri ! dit le comte.
 Dieu, qui m’a suscité contre mes ennemis et qui m’a fait vainqueur, Dieu je le vois bien, ne veut pas mettre ce repentir au bout de ma victoire.
 Je voulais me punir, Dieu veut me pardonner.
 Aime-moi donc, Haydée !
-Qui sait ? ton amour me fera peut-être oublier ce qu’il faut que j’oublie. Mais que dis-tu donc là, mon seigneur ? demanda la jeune fille.
+Qui sait ? ton amour me fera peut-être oublier ce qu’il faut que j’oublie.
+Mais que dis-tu donc là, mon seigneur ? demanda la jeune fille.
 Je dis qu’un mot de toi, Haydée, m’a plus éclairé que vingt ans de ma lente sagesse.
 Je n’ai plus que toi au monde, Haydée.
 Par toi je me rattache à la vie, par toi je puis souffrir, par toi je puis être heureux.
@@ -290,9 +289,9 @@ Viens, Haydée, viens… Et jetant son bras autour de la taille de la jeune fill
 Une heure à peu près s’écoula, pendant laquelle haletante, sans voix, les yeux fixes, Valentine demeura près de Morrel.
 Enfin elle sentit son cœur battre, un souffle imperceptible ouvrit ses lèvres, et ce léger frissonnement qui annonce le retour de la vie courut par tout le corps du jeune homme.
 Enfin ses yeux se rouvrirent, mais fixes et comme insensés d’abord.
-Puis la vue lui revint, précise, réelle.
-Avec la vue le sentiment, avec le sentiment la douleur.
-Oh ! s’écria-t-il avec l’accent du désespoir, je vis encore ! le comte m’a trompé !
+Puis la vue lui revint, précise, réelle. Avec la vue le sentiment, avec le sentiment la douleur.
+Oh ! s’écria-t-il avec l’accent du désespoir, je vis encore !
+le comte m’a trompé !
 Et sa main s’étendit vers la table, et saisit un couteau.
 Ami, dit Valentine avec son adorable sourire, réveille-toi donc et regarde de mon côté.
 Morrel poussa un grand cri, et délirant, plein de doute, ébloui comme par une vision céleste, il tomba sur ses deux genoux… Le lendemain, aux premiers rayons du jour, Morrel et Valentine se promenaient au bras l’un de l’autre sur le rivage, Valentine racontant à Morrel comment Monte-Cristo était apparu dans sa chambre, comment il lui avait tout dévoilé, comment il lui avait fait toucher le crime du doigt, et enfin comment il l’avait miraculeusement sauvée de la mort, tout en laissant croire qu’elle était morte.
@@ -330,8 +329,7 @@ Mais, dit-il, en vérité le comte exagère sa générosité.
 Valentine se contentera de ma modeste fortune.
 Où est le comte, mon ami ? conduisez-moi vers lui.
 Jacopo étendit la main vers l’horizon.
-Quoi ! que voulez-vous dire ? demanda Valentine.
-Où est le comte ? où est Haydée ?
+Quoi ! que voulez-vous dire ? demanda Valentine. Où est le comte ? où est Haydée ?
 Regardez, dit Jacopo.
 Les yeux des deux jeunes gens se fixèrent sur la ligne indiquée par le marin, et, sur la ligne d’un bleu foncé qui séparait à l’horizon le ciel de la Méditerranée, ils aperçurent une voile blanche, grande comme l’aile d’un goéland.
 Parti ! s’écria Morrel.
@@ -342,4 +340,3 @@ Adieu, mon amie ! adieu, ma sœur !
 Qui sait si nous les reverrons jamais ? fit Morrel en essuyant une larme.
 Mon ami, dit Valentine, le comte ne vient-il pas de nous dire que l’humaine sagesse était tout entière dans ces deux mots.
 Attendre et espérer !
-FIN

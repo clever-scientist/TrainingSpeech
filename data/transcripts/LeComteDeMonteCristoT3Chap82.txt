@@ -26,11 +26,9 @@ Nous n’avons donc pas besoin de dire que c’était un esprit plein d’audace
 Par la vie qu’il avait menée, par la décision qu’il avait prise et qu’il avait tenue de ne reculer devant rien, le comte en était venu à savourer des jouissances inconnues dans les luttes qu’il entreprenait parfois contre la nature, qui est Dieu, et contre le monde qui peut bien passer pour le diable.
 Ils ne veulent pas me voler mes papiers, dit Monte-Cristo, ils veulent me tuer.
 Ce ne sont pas des voleurs, ce sont des assassins.
-Je ne veux pas que Monsieur le préfet de Police se mêle de mes affaires particulières.
-Je suis assez riche, ma foi, pour dégrever en ceci le budget de son administration.
+Je ne veux pas que Monsieur le préfet de Police se mêle de mes affaires particulières. Je suis assez riche, ma foi, pour dégrever en ceci le budget de son administration.
 Le comte rappela Baptistin, qui était sorti de la chambre après avoir apporté la lettre.
-Vous allez retourner à Paris, dit-il, vous ramènerez ici tous les domestiques qui restent.
-J’ai besoin de tout mon monde à Auteuil. Mais ne restera-t-il donc personne à la maison, monsieur le comte ? demanda Baptistin.
+Vous allez retourner à Paris, dit-il, vous ramènerez ici tous les domestiques qui restent. J’ai besoin de tout mon monde à Auteuil. Mais ne restera-t-il donc personne à la maison, monsieur le comte ? demanda Baptistin.
 Si fait, le concierge.
 Monsieur le comte réfléchira qu’il y a loin de la loge à la maison.
 Eh bien ?
@@ -42,8 +40,7 @@ Baptistin s’inclina.
 Vous m’entendez, dit le comte, ramenez vos camarades depuis le premier jusqu’au dernier. Mais que tout reste dans l’état habituel.
 Vous fermerez les volets du rez-de-chaussée, voilà tout.
 Et ceux du premier ?
-Vous savez qu’on ne les ferme jamais.
-Allez.
+Vous savez qu’on ne les ferme jamais. Allez.
 Le comte fit dire qu’il dînerait seul chez lui et ne voulait être servi que par Ali.
 Il dîna avec sa tranquillité et sa sobriété habituelles, et après le dîner, faisant signe à Ali de le suivre, il sortit par la petite porte, gagna le bois de Boulogne comme s’il se promenait, prit sans affectation le chemin de Paris, et à la nuit tombante se trouva en face de la maison des Champs-Élysées.
 Tout était sombre, seule une faible lumière brillait dans la loge du concierge, distante d’une quarantaine de pas de la maison, comme l’avait dit Baptistin.
@@ -92,8 +89,7 @@ Il se retourna.
 Ali lui montrait la fenêtre de la chambre où ils étaient, et qui donnait sur la rue.
 Monte-Cristo fit trois pas vers cette fenêtre, il connaissait l’exquise délicatesse des sens du fidèle serviteur.
 En effet, il vit un autre homme qui se détachait d’une porte, et, montant sur une borne, semblait chercher à voir ce qui se passait chez le comte.
-Bon ! dit-il, ils sont deux.
-l’un agit, l’autre guette !
+Bon ! dit-il, ils sont deux. l’un agit, l’autre guette !
 Il fit signe à Ali de ne pas perdre des yeux l’homme de la rue, et revint à celui du cabinet.
 Le coupeur de vitres était entré et s’orientait, les bras tendus en avant.
 Enfin il parut s’être rendu compte de toutes choses.
@@ -128,8 +124,7 @@ Mais, à son grand étonnement, il vit tout à coup la chambre s’éclairer.
 Il se retourna.
 Eh ! bonsoir, cher monsieur Caderousse, dit Monte-Cristo.
 Que diable venez-vous donc faire ici à une pareille heure !
-L’abbé Busoni ! s’écria Caderousse.
-Et ne sachant comment cette étrange apparition était venue jusqu’à lui, puisqu’il avait fermé les portes, il laissa tomber son trousseau de fausses clefs, et resta immobile et comme frappé de stupeur.
+L’abbé Busoni ! s’écria Caderousse. Et ne sachant comment cette étrange apparition était venue jusqu’à lui, puisqu’il avait fermé les portes, il laissa tomber son trousseau de fausses clefs, et resta immobile et comme frappé de stupeur.
 Le comte alla se placer entre Caderousse et la fenêtre, coupant ainsi au voleur terrifié son seul moyen de retraite.
 L’abbé Busoni ! répéta Caderousse en fixant sur le comte des yeux hagards.
 Eh bien, sans doute, l’abbé Busoni, reprit Monte-Cristo, lui-même en personne, et je suis bien aise que vous me reconnaissiez, mon cher monsieur Caderousse, cela prouve que nous avons bonne mémoire, car, si je ne me trompe, voilà tantôt dix ans que nous ne nous sommes vus.
@@ -245,11 +240,9 @@ Il portait le numérocinquante-neuf et moi le numérocinquante-huit.
 Il se nommait Benedetto. Mais il ignore lui-même son véritable nom, n’ayant jamais connu ses parents.
 Signe ! continua le comte. Mais vous voulez donc me perdre ?
 Si je voulais te perdre, imbécile je te traînerais jusqu’au premier corps de garde.
-D’ailleurs, à l’heure où le billet sera rendu à son adresse, il est probable que tu n’auras plus rien à craindre.
-Signe donc.
+D’ailleurs, à l’heure où le billet sera rendu à son adresse, il est probable que tu n’auras plus rien à craindre. Signe donc.
 Caderousse signa.
-L’adresse.
-À monsieur le baron Danglars, banquier, rue de la Chaussée-d’Antin.
+L’adresse. À monsieur le baron Danglars, banquier, rue de la Chaussée-d’Antin.
 Caderousse écrivit l’adresse.
 L’abbé prit le billet.
 Maintenant, dit-il, c’est bien, va-t’en.

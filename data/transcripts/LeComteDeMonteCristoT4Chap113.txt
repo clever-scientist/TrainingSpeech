@@ -27,8 +27,7 @@ Libre, retrouve le prisonnier, ressuscité, retrouve le cadavre.
 Et tout en disant cela à lui-même, Monte-Cristo suivait la rue de la Caisserie.
 C’était la même par laquelle, vingt-quatre ans auparavant, il avait été conduit par une garde silencieuse et nocturne.
 Ces maisons, à l’aspect riant et animé, elles étaient cette nuit-là sombres, muettes et fermées.
-Ce sont cependant les mêmes, murmura Monte-Cristo, seulement alors il faisait nuit, aujourd’hui il fait grand jour.
-C’est le soleil qui éclaire tout cela et qui rend tout cela joyeux.
+Ce sont cependant les mêmes, murmura Monte-Cristo, seulement alors il faisait nuit, aujourd’hui il fait grand jour. C’est le soleil qui éclaire tout cela et qui rend tout cela joyeux.
 Il descendit sur le quai par la rue Saint-Laurent, et s’avança vers la Consigne.
 c’était le point du port où il avait été embarqué.
 Un bateau de promenade passait avec son dais de coutil.
@@ -114,8 +113,7 @@ Non ! murmura-t-il, non ! ce doute que j’ai éprouvé, c’était un commencem
 Et le prisonnier, demanda-t-il, on n’en a jamais entendu parler ?
 Jamais, au grand jamais.
 Vous comprenez, de deux choses l’une, ou il est tombé à plat, et, comme il tombait d’une cinquantaine de pieds, il se sera tué sur le coup.
-Vous avez dit qu’on lui avait attaché un boulet aux pieds.
-il sera tombé debout.
+Vous avez dit qu’on lui avait attaché un boulet aux pieds. il sera tombé debout.
 Ou il est tombé debout, reprit le concierge, et alors le poids du boulet l’aura entraîné au fond, où il est resté, pauvre cher homme !
 Vous le plaignez ?
 Ma foi, oui, quoiqu’il fût dans son élément.
@@ -195,8 +193,7 @@ Non pas, monsieur, non pas.
 Quelque chose qui se rapporte à l’histoire de tout à l’heure.
 En vérité ! s’écria vivement le comte, qu’est-ce donc ?
 Écoutez, dit le concierge, voilà ce qui est arrivé.
-je me suis dit.
-On trouve toujours quelque chose dans une chambre où un prisonnier est resté quinze ans, et je me suis mis à sonder les murailles.
+je me suis dit. On trouve toujours quelque chose dans une chambre où un prisonnier est resté quinze ans, et je me suis mis à sonder les murailles.
 Ah ! s’écria Monte-Cristo en se rappelant la double cachette de l’abbé, en effet.
 À force de recherches, continua le concierge, j’ai découvert que cela sonnait le creux au chevet du lit et sous l’âtre de la cheminée.
 Oui dit Monte-Cristo, oui.
@@ -258,8 +255,7 @@ Je n’ai plus de désir, comte, mais il me semble que j’attendrai moins péni
 Tant mieux, Maximilien, car je vous quitte et j’emporte votre parole, n’est-ce pas ?
 Ah ! je l’oublierai, comte, dit Morrel, je l’oublierai !
 Non ! vous ne l’oublierez pas, parce que vous êtes homme d’honneur avant tout, Morrel, parce que vous avez juré, parce que vous allez jurer encore.
-Ô Comte, ayez pitié de moi !
-Comte, je suis si malheureux !
+Ô Comte, ayez pitié de moi ! Comte, je suis si malheureux !
 J’ai connu un homme plus malheureux que vous, Morrel.
 Impossible.
 Hélas ! dit Monte-Cristo, c’est un des orgueils de notre pauvre humanité, que chaque homme se croie plus malheureux qu’un autre malheureux qui pleure et qui gémit à côté de lui.
@@ -316,8 +312,7 @@ L’histoire de Ganymède n’est pas une fable, Maximilien, c’est une allégo
 Quand partez-vous ?
 À l’instant même.
 Le bateau à vapeur m’attend, dans une heure je serai déjà loin de vous.
-M’accompagnerez-vous jusqu’au port, Morrel ?
-Je suis tout à vous, comte.
+M’accompagnerez-vous jusqu’au port, Morrel ? Je suis tout à vous, comte.
 Embrassez-moi.
 Morrel escorta le comte jusqu’au port.
 Déjà la fumée sortait, comme un panache immense, du tube noir qui la lançait aux cieux.

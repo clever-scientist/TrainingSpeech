@@ -56,6 +56,7 @@ Quand j’aurai besoin de vous, et peut-être ce moment viendra-t-il, je m’adr
 Bien, je retiens votre parole.
 Adieu donc.
 Au revoir.
+Au revoir.
 On était arrivé à la porte de la maison des Champs-Élysées, Monte-Cristo ouvrit la portière.
 Morrel sauta sur le pavé.
 Bertuccio attendait sur le perron.
@@ -127,8 +128,7 @@ Je croyais avoir mal entendu.
 Oui c’est moi-même, dit le comte avec une effroyable contraction des lèvres qui l’empêchait d’articuler nettement.
 Il ne me reste donc qu’à savoir maintenant, dit Monte-Cristo, la cause qui me procure le plaisir de voir monsieur le comte de Morcerf de si bonne heure.
 Vous avez eu ce matin une rencontre avec mon fils, monsieur ? dit le général.
-Vous savez cela ? répondit le comte.
-Et je sais aussi que mon fils avait de bonnes raisons pour désirer se battre contre vous et faire tout ce qu’il pourrait pour vous tuer.
+Vous savez cela ? répondit le comte. Et je sais aussi que mon fils avait de bonnes raisons pour désirer se battre contre vous et faire tout ce qu’il pourrait pour vous tuer.
 En effet, monsieur, il en avait de fort bonnes ! mais vous voyez que, malgré ces raisons-là, il ne m’a pas tué, et même qu’il ne s’est pas battu.
 Et cependant il vous regardait comme la cause du déshonneur de son père, comme la cause de la ruine effroyable qui, en ce moment-ci, accable ma maison.
 C’est vrai, monsieur, dit Monte-Cristo avec son calme terrible.
@@ -169,18 +169,18 @@ Oh ! misérable, qui me reproches ma honte au moment peut-être où tu vas me tu
 Je sais bien, démon, que tu as pénétré dans la nuit du passé, et que tu y as lu, à la lueur de quel flambeau, je l’ignorais, chaque page de ma vie ! mais peut-être y a-t-il encore plus d’honneur en moi, dans mon opprobre, qu’en toi sous tes dehors pompeux.
 Non, non, je te suis connu, je le sais, mais c’est toi que je ne connais pas, aventurier cousu d’or et de pierreries !
 Tu t’es fait appeler à Paris le comte de Monte-Cristo.
-En Italie, Simbad le Marin.
-À Malte, que sais-je ? moi, je l’ai oublié. Mais c’est ton nom réel que je te demande, c’est ton vrai nom que je veux savoir, au milieu de tes cent noms, afin que je le prononce sur le terrain du combat au moment où je t’enfoncerai mon épée dans le cœur.
+En Italie, Simbad le Marin. À Malte, que sais-je ? moi, je l’ai oublié. Mais c’est ton nom réel que je te demande, c’est ton vrai nom que je veux savoir, au milieu de tes cent noms, afin que je le prononce sur le terrain du combat au moment où je t’enfoncerai mon épée dans le cœur.
 Le comte de Monte-Cristo pâlit d’une façon terrible.
 Son œil fauve s’embrasa d’un feu dévorant.
 Il fit un bond vers le cabinet attenant à sa chambre, et en moins d’une seconde, arrachant sa cravate, sa redingote et son gilet, il endossa une petite veste de marin et se coiffa d’un chapeau de matelot, sous lequel se déroulèrent ses longs cheveux noirs.
 Il revint ainsi, effrayant, implacable, marchant les bras croisés au-devant du général, qui n’avait rien compris à sa disparition, qui l’attendait, et qui, sentant ses dents claquer et ses jambes se dérober sous lui, recula d’un pas et ne s’arrêta qu’en trouvant sur une table un point d’appui pour sa main crispée.
-Fernand ! lui cria-t-il, de mes cent noms, je n’aurais besoin de t’en dire qu’un seul pour te foudroyer. Mais ce nom, tu le devines, n’est-ce pas ? ou plutôt tu te le rappelles ? car, malgré tous mes chagrins, toutes mes tortures, je te montre aujourd’hui un visage que le bonheur de la vengeance rajeunit, un visage que tu dois avoir vu bien souvent dans tes rêves depuis ton mariage… avec Mercédès, ma fiancée !
+Fernand ! de mes cent noms, je n’aurais besoin de t’en dire qu’un seul pour te foudroyer.
+Mais ce nom, tu le devines, n’est-ce pas ? ou plutôt tu te le rappelles ? car, malgré tous mes chagrins, toutes mes tortures, je te montre aujourd’hui un visage que le bonheur de la vengeance rajeunit, un visage que tu dois avoir vu bien souvent dans tes rêves depuis ton mariage… avec Mercédès, ma fiancée !
 Le général, la tête renversée en arrière, les mains étendues, le regard fixe, dévora en silence ce terrible spectacle.
 Puis, allant chercher la muraille comme point d’appui, il s’y glissa lentement jusqu’à la porte par laquelle il sortit à reculons, en laissant échapper ce seul cri lugubre, lamentable, déchirant.
 Edmond Dantès !
 Puis, avec des soupirs qui n’avaient rien d’humain, il se traîna jusqu’au péristyle de la maison, traversa la cour en homme ivre, et tomba dans les bras de son valet de chambre en murmurant seulement d’une voix inintelligible.
-À l’hôtel ! à l’hôtel !
+À l’hôtel !
 En chemin, l’air frais et la honte que lui causait l’attention de ses gens le remirent en état d’assembler ses idées. Mais le trajet fut court, et, à mesure qu’il se rapprochait de chez lui, le comte sentait se renouveler toutes ses douleurs.
 À quelques pas de la maison, le comte fit arrêter et descendit.
 La porte de l’hôtel était toute grande ouverte.

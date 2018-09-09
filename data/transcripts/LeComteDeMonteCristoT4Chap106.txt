@@ -1,5 +1,4 @@
-Chapitre cent six.
-Le partage.
+Chapitre cent six. Le partage.
 Dans cet hôtel de la rue Saint-Germain-des-Prés qu’avait choisi pour sa mère et pour lui Albert de Morcerf, le premier étage, composé d’un petit appartement complet, était loué à un personnage fort mystérieux.
 Ce personnage était un homme dont jamais le concierge lui-même n’avait pu voir la figure, soit qu’il entrât ou qu’il sortît.
 Car l’hiver il s’enfonçait le menton dans une de ces cravates rouges comme en ont les cochers de bonne maison qui attendent leurs maîtres à la sortie des spectacles, et l’été il se mouchait toujours précisément au moment où il eût pu être aperçu en passant devant la loge.
@@ -29,8 +28,7 @@ Parlez, dites.
 Mon ami, puis-je compter sur vous ?
 Certainement, et vous le savez bien. Mais qu’y a-t-il ?
 Votre billet de ce matin m’a jeté dans une perplexité terrible.
-Cette précipitation, ce désordre dans votre écriture.
-Voyons, rassurez-moi ou effrayez-moi tout à fait !
+Cette précipitation, ce désordre dans votre écriture. Voyons, rassurez-moi ou effrayez-moi tout à fait !
 Lucien, un grand événement ! dit la dame en attachant sur Lucien un regard interrogateur.
 monsieur Danglars est parti cette nuit.
 Parti ! monsieur Danglars parti !
@@ -66,15 +64,13 @@ Je l’ajourne à demain.
 aujourd’hui je pars pour éviter ce demain qui me serait trop désagréable à supporter.
 Vous comprenez cela, n’est-ce pas, madame et très précieuse épouse ?
 Je dis.
-Vous comprenez, parce que vous savez aussi bien que moi mes affaires.
-Vous les savez même mieux que moi, attendu que s’il s’agissait de dire où a passé une bonne moitié de ma fortune, naguère encore assez belle, j’en serais incapable.
+Vous comprenez, parce que vous savez aussi bien que moi mes affaires. Vous les savez même mieux que moi, attendu que s’il s’agissait de dire où a passé une bonne moitié de ma fortune, naguère encore assez belle, j’en serais incapable.
 Tandis que vous, au contraire, j’en suis certain, vous vous en acquitteriez parfaitement.
 Car les femmes ont des instincts d’une sûreté infaillible, elles expliquent par une algèbre qu’elles ont inventée le merveilleux lui-même.
 Moi qui ne connaissais que mes chiffres, je n’ai plus rien su du jour où mes chiffres m’ont trompé.
 Avez-vous quelquefois admiré la rapidité de ma chute, madame ?
 Avez-vous été un peu éblouie de cette incandescente fusion de mes lingots ?
-Moi, je l’avoue, je n’y ai vu que du feu.
-Espérons que vous avez retrouvé un peu d’or dans les cendres.
+Moi, je l’avoue, je n’y ai vu que du feu. Espérons que vous avez retrouvé un peu d’or dans les cendres.
 C’est avec ce consolant espoir que je m’éloigne, madame et très prudente épouse, sans que ma conscience me reproche le moins du monde de vous abandonner.
 Il vous reste des amis, les cendres en question, et, pour comble de bonheur, la liberté que je m’empresse de vous rendre.
 Cependant, madame, le moment est arrivé de placer dans ce paragraphe un mot d’explication intime.
@@ -95,8 +91,7 @@ Lorsqu’il eut fini, il ferma lentement le papier dans ses plis, et reprit son 
 Eh bien ? demanda Madame Danglars avec une anxiété facile à comprendre.
 Eh bien, madame ? répéta machinalement Debray.
 Quelle idée vous inspire cette lettre ?
-C’est bien simple, madame.
-Elle m’inspire l’idée que monsieur Danglars est parti avec des soupçons.
+C’est bien simple, madame. Elle m’inspire l’idée que monsieur Danglars est parti avec des soupçons.
 Sans doute. Mais est-ce tout ce que vous avez à me dire ?
 Je ne comprends pas, dit Debray avec un froid glacial.
 Il est parti ! parti tout à fait ! parti pour ne plus revenir.
@@ -125,16 +120,13 @@ Car moi seul connais votre situation financière et suis prêt à vous rendre me
 La baronne, pâle, atterrée, avait écouté ce discours avec autant d’épouvante et de désespoir que Debray avait mis de calme et d’indifférence à le prononcer.
 Abandonnée ! répéta-t-elle, oh ! bien abandonnée… Oui, vous avez raison, monsieur, et personne ne doutera de mon abandon.
 Ce furent les seules paroles que cette femme, si fière et si violemment éprise, put répondre à Debray. Mais riche, très riche même, poursuivit Debray en tirant de son portefeuille et en étalant sur la table quelques papiers qu’il renfermait.
-Madame Danglars le laissa faire, tout occupée d’étouffer les battements de son cœur et de retenir les larmes qu’elle sentait poindre au bord de ses paupières. Mais enfin le sentiment de la dignité l’emporta chez la baronne.
-Et si elle ne réussit point à comprimer son cœur, elle parvint du moins à ne pas verser une larme.
+Madame Danglars le laissa faire, tout occupée d’étouffer les battements de son cœur et de retenir les larmes qu’elle sentait poindre au bord de ses paupières. Mais enfin le sentiment de la dignité l’emporta chez la baronne. Et si elle ne réussit point à comprimer son cœur, elle parvint du moins à ne pas verser une larme.
 Madame, dit Debray, il y a six mois à peu près que nous sommes associés.
-Vous avez fourni une mise de fonds de cent mille francs.
-C’est au mois d’avril de cette année qu’a eu lieu notre association.
+Vous avez fourni une mise de fonds de cent mille francs. C’est au mois d’avril de cette année qu’a eu lieu notre association.
 En mai, nos opérations ont commencé.
 En mai, nous avons gagné quatre cent cinquante mille francs.
 En juin, le bénéfice a monté à neuf cent mille.
-En juillet, nous y avons ajouté dix-sept cent mille francs.
-C’est, vous le savez, le mois des bons d’Espagne.
+En juillet, nous y avons ajouté dix-sept cent mille francs. C’est, vous le savez, le mois des bons d’Espagne.
 En août, nous perdîmes, au commencement du mois, trois cent mille francs. Mais le quinze du mois nous nous étions rattrapés, et à la fin nous avions pris notre revanche.
 Car nos comptes, mis au net depuis le jour de notre association jusqu’à hier où je les ai arrêtés, nous donnent un actif de deux millions quatre cent mille francs, c’est-à-dire de douze cent mille francs pour chacun de nous.
 Maintenant, continua Debray, compulsant son carnet avec la méthode et la tranquillité d’un agent de change, nous trouvons quatre-vingt mille francs pour les intérêts composés de cette somme restée entre mes mains.
@@ -156,9 +148,7 @@ Madame Danglars, les yeux secs, mais la poitrine gonflée de sanglots, la ramass
 Maintenant, madame, dit Debray, vous avez une existence magnifique, quelque chose comme soixante mille livres de rente, ce qui est énorme pour une femme qui ne pourra pas tenir maison, d’ici à un an au moins.
 C’est un privilège pour toutes les fantaisies qui vous passeront par l’esprit.
 sans compter que si vous trouvez votre part insuffisante, eu égard au passé qui vous échappe, vous pouvez puiser dans la mienne, madame.
-Et je suis disposé à vous offrir, oh ! à titre de prêt, bien entendu, tout ce que je possède, c’est-à-dire un million soixante mille francs.
-Merci, monsieur, répondit la baronne, merci.
-Vous comprenez que vous me remettez là beaucoup plus qu’il ne faut à une pauvre femme qui ne compte pas, d’ici à longtemps du moins, reparaître dans le monde.
+Et je suis disposé à vous offrir, oh ! à titre de prêt, bien entendu, tout ce que je possède, c’est-à-dire un million soixante mille francs. Merci, monsieur, répondit la baronne, merci. Vous comprenez que vous me remettez là beaucoup plus qu’il ne faut à une pauvre femme qui ne compte pas, d’ici à longtemps du moins, reparaître dans le monde.
 Debray fut étonné un moment, mais il se remit et fit un geste qui pouvait se traduire par la formule la plus polie d’exprimer cette idée.
 Comme il vous plaira !
 Madame Danglars avait peut-être jusque-là espéré encore quelque chose. Mais quand elle vit le geste insouciant qui venait d’échapper à Debray, et le regard oblique dont ce geste était accompagné, ainsi que la révérence profonde et le silence significatif qui les suivirent, elle releva la tête, ouvrit la porte, et sans fureur, sans secousse, mais aussi sans hésitation, elle s’élança dans l’escalier, dédaignant même d’adresser un dernier salut à celui qui la laissait partir de cette façon.
@@ -173,8 +163,8 @@ Ce personnage diabolique que toute imagination aventureuse eût créé avec plus
 Au-dessus de cette chambre où Debray venait de partager avec Madame Danglars deux millions et demi, il y avait une autre chambre peuplée aussi d’habitants de notre connaissance, lesquels ont joué un rôle assez important dans les événements que nous venons de raconter pour que nous les retrouvions avec quelque intérêt.
 Il y avait dans cette chambre Mercédès et Albert.
 Mercédès était bien changée depuis quelques jours, non pas que, même au temps de sa plus grande fortune, elle eût jamais étalé le faste orgueilleux qui tranche visiblement avec toutes les conditions, et fait qu’on ne reconnaît plus la femme aussitôt qu’elle vous apparaît sous des habits plus simples.
-Non pas davantage qu’elle fût tombée à cet état de dépression où l’on est contraint de revêtir la livrée de la misère.
-Non, Mercédès était changée parce que son œil ne brillait plus, parce que sa bouche ne souriait plus, parce qu’enfin un perpétuel embarras arrêtait sur ses lèvres le mot rapide que lançait autrefois un esprit toujours préparé.
+Non pas davantage qu’elle fût tombée à cet état de dépression où l’on est contraint de revêtir la livrée de la misère. Non
+Mercédès était changée parce que son œil ne brillait plus, parce que sa bouche ne souriait plus, parce qu’enfin un perpétuel embarras arrêtait sur ses lèvres le mot rapide que lançait autrefois un esprit toujours préparé.
 Ce n’était pas la pauvreté qui avait flétri l’esprit de Mercédès, ce n’était pas le manque de courage qui lui rendait pesante sa pauvreté.
 Mercédès, descendue du milieu dans lequel elle vivait, perdue dans la nouvelle sphère qu’elle s’était choisie, comme ces personnes qui sortent d’un salon splendidement éclairé pour passer subitement dans les ténèbres.
 Mercédès semblait une reine descendue de son palais dans une chaumière, et qui, réduite au strict nécessaire, ne se reconnaît ni à la vaisselle d’argile qu’elle est obligée d’apporter elle-même sur sa table, ni au grabat qui a succédé à son lit.
@@ -191,8 +181,7 @@ Il voulait courir la ville à pied, et trouvait ses bottes trop bien vernies.
 Cependant ces deux créatures si nobles et si intelligentes, réunies indissolublement par le lien de l’amour maternel et filial, avaient réussi à se comprendre sans parler de rien et à économiser toutes les privations que l’on se doit entre amis pour établir cette vérité matérielle d’où dépend la vie.
 Albert avait enfin pu dire à sa mère sans la faire pâlir.
 Ma mère, nous n’avons plus d’argent.
-Jamais Mercédès n’avait connu véritablement la misère.
-Elle avait souvent, dans sa jeunesse, parlé elle-même de pauvreté, mais ce n’est point la même chose.
+Jamais Mercédès n’avait connu véritablement la misère. Elle avait souvent, dans sa jeunesse, parlé elle-même de pauvreté, mais ce n’est point la même chose.
 besoin et nécessité sont deux synonymes entre lesquels il y a tout un monde d’intervalle.
 Aux Catalans, Mercédès avait besoin de mille choses, mais elle ne manquait jamais de certaines autres.
 Tant que les filets étaient bons, on prenait du poisson.
@@ -224,17 +213,9 @@ Vous retenez vos places pour Chalon, dans le coupé.
 vous voyez, ma mère, que je vous traite en reine, trente-cinq francs.
 Albert prit une plume, et écrivit.
 Coupé, trente-cinq francs, ci.
-trente-cinq F
-De Chalon à Lyon, vous allez par le bateau à vapeur, six francs, ci.
-six F
-De Lyon à Avignon, le bateau à vapeur encore, seize francs, ci.
-seize F
-D’Avignon à Marseille, sept francs, ci.
-sept F
-Dépenses de route, cinquante francs, ci.
-cinquante F
-TOTAL.
-cent quatorze F
+trente-cinq Francs De Chalon à Lyon, vous allez par le bateau à vapeur, six francs, ci. six Francs De Lyon à Avignon, le bateau à vapeur encore, seize francs, ci. seize Francs D’Avignon à Marseille, sept francs, ci. sept Francs
+Dépenses de route, cinquante francs, ci. cinquante Francs
+TOTAL cent quatorze Francs
 Mettons cent vingt, ajouta Albert en souriant, vous voyez que je suis généreux, n’est-ce pas, ma mère ? Mais toi, mon pauvre enfant ?
 Moi ! n’avez-vous pas vu que je me réserve quatre-vingts francs ?
 Un jeune homme, ma mère, n’a pas besoin de toutes ses aises.
@@ -254,8 +235,7 @@ Et puisqu’il ne me faut à la rigueur que quatre-vingts francs pour faire ma r
 Que dites-vous de ceci, ma mère ?
 Et Albert tira d’un petit carnet à fermoir d’or, reste de ses anciennes fantaisies ou peut-être même tendre souvenir de quelqu’une de ces femmes mystérieuses et voilées qui frappaient à la petite porte, Albert tira d’un petit carnet un billet de mille francs.
 Qu’est-ce que ceci ? demanda Mercédès.
-Mille francs, ma mère.
-Oh ! il est parfaitement carré. Mais d’où te viennent ces mille francs ?
+Mille francs, ma mère. Oh ! il est parfaitement carré. Mais d’où te viennent ces mille francs ?
 Écoutez ceci, ma mère, et ne vous émotionnez pas trop.
 Et Albert, se levant, alla embrasser sa mère sur les deux joues, puis il s’arrêta à la regarder.
 Vous n’avez pas idée, ma mère, comme je vous trouve belle ! dit le jeune homme avec un profond sentiment d’amour filial, vous êtes en vérité la plus belle comme vous êtes la plus noble des femmes que j’aie jamais vues !
@@ -263,8 +243,7 @@ Cher enfant, dit Mercédès essayant en vain de retenir une larme qui pointait a
 En vérité, il ne vous manquait plus que d’être malheureuse pour changer mon amour en adoration.
 Je ne suis pas malheureuse tant que j’ai mon fils, dit Mercédès.
 Je ne serai point malheureuse tant que je l’aurai.
-Ah ! justement, dit Albert. Mais voilà où commence l’épreuve, ma mère.
-vous savez ce qui est convenu !
+Ah ! justement, dit Albert. Mais voilà où commence l’épreuve, ma mère. vous savez ce qui est convenu !
 Sommes-nous donc convenus de quelque chose ? demanda Mercédès.
 Oui, il est convenu que vous habiterez Marseille, et que, moi je partirai pour l’Afrique, où, en place du nom que j’ai quitté, je me ferai le nom que j’ai pris.
 Mercédès poussa un soupir.
@@ -273,18 +252,14 @@ Ou plutôt j’ai cru que mon corps était bien à moi et que je pouvais le vend
 Depuis hier je remplace quelqu’un.
 Je me suis vendu, comme on dit, et, ajouta-t-il en essayant de sourire, plus cher que je ne croyais valoir, c’est-à-dire deux mille francs.
 Ainsi ces mille francs ?… dit en tressaillant Mercédès.
-C’est la moitié de la somme, ma mère.
-L’autre viendra dans un an.
+C’est la moitié de la somme, ma mère. L’autre viendra dans un an.
 Mercédès leva les yeux au ciel avec une expression que rien ne saurait rendre, et les deux larmes arrêtées au coin de sa paupière, débordant sous l’émotion intérieure, coulèrent silencieusement le long de ses joues.
 Le prix de son sang ! murmura-t-elle.
 Oui, si je suis tué, dit en riant Morcerf, mais je t’assure, bonne mère, que je suis au contraire dans l’intention de défendre cruellement ma peau.
-Je ne me suis jamais senti si bonne envie de vivre que maintenant.
-Mon Dieu ! mon Dieu ! fit Mercédès.
-D’ailleurs, pourquoi donc voulez-vous que je sois tué, ma mère ?
-Est-ce que Lamoricière, cet autre Ney du Midi, a été tué ?
+Je ne me suis jamais senti si bonne envie de vivre que maintenant. Mon Dieu ! mon Dieu ! fit Mercédès.
+D’ailleurs, pourquoi donc voulez-vous que je sois tué, ma mère ? Est-ce que Lamoricière, cet autre Ney du Midi, a été tué ?
 Est-ce que Changarnier a été tué ?
-Est-ce que Bedeau a été tué ?
-Est-ce que Morrel, que nous connaissons, a été tué ?
+Est-ce que Bedeau a été tué ? Est-ce que Morrel, que nous connaissons, a été tué ?
 Songez donc à votre joie, ma mère, lorsque vous me verrez revenir avec mon uniforme brodé !
 Je vous déclare que je compte être superbe là-dessous, et que j’ai choisi ce régiment-là par coquetterie.
 Mercédès soupira, tout en essayant de sourire.
@@ -343,8 +318,7 @@ Puis, apercevant dans la demi-obscurité la tournure jeune encore et le voile no
 Oh ! pardon, ajouta-t-il avec un sourire, je vous laisse, Albert.
 Albert comprit la pensée de Debray.
 Ma mère, dit-il en se retournant vers Mercédès, c’est monsieur Debray, secrétaire du ministre de l’Intérieur, un ancien ami à moi.
-Comment ! ancien, balbutia Debray.
-Que voulez-vous dire ?
+Comment ! ancien, balbutia Debray. Que voulez-vous dire ?
 Je dis cela, monsieur Debray, reprit Albert, parce qu’aujourd’hui je n’ai plus d’amis, et que je ne dois plus en avoir.
 Je vous remercie beaucoup d’avoir bien voulu me reconnaître, monsieur.
 Debray remonta deux marches et vint donner une énergique poignée de main à son interlocuteur.
