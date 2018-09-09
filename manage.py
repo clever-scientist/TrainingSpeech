@@ -9,10 +9,12 @@ import tempfile
 import zipfile
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from copy import deepcopy
 from datetime import timedelta, datetime
 from typing import List, Tuple
 
 import click
+import numpy as np
 from tabulate import tabulate
 from termcolor import colored
 
@@ -83,15 +85,16 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str=
 @click.option('-r', '--restart', is_flag=True, default=False, help='restart validation from scratch')
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
 @click.option('-ar', '--audio-rate', default=16000)
-@click.option('--cache/--no-cache', is_flag=True, default=True)
-def check_alignment(source_name, restart, speed, audio_rate, cache):
+@click.option('-nc', '--no-cache', is_flag=True, default=None)
+@click.option('-f', '--fast', is_flag=True, default=None)
+def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
     import inquirer
     source = audiocorp.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
 
-    if cache is False and os.path.isdir(utils.CACHE_DIR):
+    if no_cache and os.path.isdir(utils.CACHE_DIR):
         shutil.rmtree(utils.CACHE_DIR)
         os.mkdir(utils.CACHE_DIR)
 
@@ -180,19 +183,28 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
             ]
 
         def ask_what_next():
-            current_silence = next((s for s in silences if s[0] <= fragment['end'] <= s[1]), None)
-            if current_silence:
-                prev_silence_start, prev_silence_end = silences[silences.index(current_silence) - 1]
-                try:
-                    next_silence_start, next_silence_end = silences[silences.index(current_silence) + 1]
-                except IndexError:
-                    next_silence_start = next_silence_end = fragment['end']
+            if prev_fragments:
+                silence_before, silence_between, silence_after = utils.transition_silences(
+                    prev_fragments[-1],
+                    fragment,
+                    silences
+                )
+                can_cut_start_on_prev_silence = silence_before is not None
+                can_cut_start_on_next_silence = silence_after is not None
             else:
-                prev_silence_start, prev_silence_end = next((s for s in reversed(silences) if s[1] <= fragment['end']))
-                next_silence_start, next_silence_end = next((s for s in silences if s[0] >= fragment['end']))
+                can_cut_start_on_prev_silence = can_cut_start_on_next_silence = False
+            if next_fragments:
+                silence_before, silence_between, silence_after = utils.transition_silences(
+                    fragment,
+                    next_fragments[0],
+                    silences
+                )
+                can_cut_end_on_prev_silence = silence_before is not None
+                can_cut_end_on_next_silence = silence_after is not None
+            else:
+                can_cut_end_on_prev_silence = can_cut_end_on_next_silence = False
 
-            can_cut_on_prev_silence = prev_silence_start > fragment['begin']
-            can_cut_on_next_silence = next_fragments and (next_fragments[0]['end'] > next_silence_start)
+
             try:
                 next_: str = inquirer.prompt([
                     inquirer.List(
@@ -202,13 +214,12 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
                                 ['approve', 'repeat'] +
                                 (['go_back'] if prev_fragments else []) +
                                 ['edit'] +
-                                (['wrong_start__cut_on_previous_silence'] if prev_fragments else []) +
-                                (['wrong_start__cut_on_next_silence'] if prev_fragments else []) +
-                                (['wrong_end__cut_on_previous_silence'] if can_cut_on_prev_silence else []) +
-                                (['wrong_end__cut_on_next_silence'] if can_cut_on_next_silence else []) +
+                                (['wrong_start__cut_on_previous_silence'] if can_cut_start_on_prev_silence else []) +
+                                (['wrong_start__cut_on_next_silence'] if can_cut_start_on_next_silence else []) +
+                                (['wrong_end__cut_on_previous_silence'] if can_cut_end_on_prev_silence else []) +
+                                (['wrong_end__cut_on_next_silence'] if can_cut_end_on_next_silence else []) +
                                 (['enable'] if fragment.get('disabled') else ['disable']) +
-                                (['rebuild_remaining'] if next_fragments else []) +
-                                ['quit']),
+                                ['toggle_fast_mode','quit']),
                     ),
                 ])['next']
             except TypeError:
@@ -225,6 +236,8 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
             if next_ == 'repeat':
                 todo.add(pool.submit(play_audio_slow))
                 todo.add(pool.submit(ask_what_next))
+            elif next_ == 'toggle_fast_mode':
+                raise exceptions.ToggleFastModeException
             elif next_ == 'go_back':
                 prev_fragments[-1].pop('disabled', None)
                 prev_fragments[-1].pop('approved', None)
@@ -236,30 +249,41 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
                     end=i+len(next_fragments),
                     new_transcript=new_transcript,
                 )
-            elif next_ == 'rebuild_remaining':
-                raise exceptions.SplitException(
-                    start=i,
-                    end=len(alignment) - 1,
-                    new_transcript=[f['text'] for f in alignment[i:]],
-                )
-            elif next_ == 'wrong_end__cut_on_previous_silence':
-                fragment['end'] = round(min(prev_silence_start + 0.5, prev_silence_end), 3)
-                fragment['end_forced'] = True
+
+            elif next_ == 'wrong_start__cut_on_previous_silence':
+                prev_fragment = prev_fragments[-1]
+                silence_before, _, _ = utils.transition_silences(prev_fragment, fragment, silences)
+                fragment['begin'] = round(max(silence_before[1] - 0.35, silence_before[1]), 3)
+                prev_fragment['end'] = round(min(silence_before[0] + 0.35, silence_before[1]), 3)
                 cut_fragment_audio(fragment, input_file=path_to_wav)
-                if next_fragments:
-                    next_fragments[0]['begin'] = round(max(prev_silence_end - 0.5, prev_silence_start), 3)
-                    next_fragments[0]['begin_forced'] = True
-                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav)
+                cut_fragment_audio(fragment, input_file=path_to_wav)
+                todo.add(pool.submit(play_audio))
+                todo.add(pool.submit(ask_what_next))
+            elif next_ == 'wrong_start__cut_on_next_silence':
+                prev_fragment = prev_fragments[-1]
+                _, _, silence_after = utils.transition_silences(prev_fragment, fragment, silences)
+                prev_fragment['end'] = round(min(silence_after[0] + 0.35, silence_after[1]), 3)
+                fragment['begin'] = round(max(silence_after[1] - 0.35, silence_after[0]), 3)
+                cut_fragment_audio(prev_fragment, input_file=path_to_wav)
+                cut_fragment_audio(fragment, input_file=path_to_wav)
+                todo.add(pool.submit(play_audio))
+                todo.add(pool.submit(ask_what_next))
+            elif next_ == 'wrong_end__cut_on_previous_silence':
+                next_fragment = next_fragments[0]
+                silence_before, _, _ = utils.transition_silences(fragment, next_fragment, silences)
+                fragment['end'] = round(min(silence_before[0] + 0.35, silence_before[1]), 3)
+                next_fragment['begin'] = round(max(silence_before[1] - 0.35, silence_before[1]), 3)
+                cut_fragment_audio(fragment, input_file=path_to_wav)
+                cut_fragment_audio(next_fragment, input_file=path_to_wav)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'wrong_end__cut_on_next_silence':
-                fragment['end'] = round(min(next_silence_start + 0.5, next_silence_end), 3)
-                fragment['end_forced'] = True
+                next_fragment = next_fragments[0]
+                _, _, silence_after = utils.transition_silences(fragment, next_fragment, silences)
+                fragment['end'] = round(min(silence_after[0] + 0.35, silence_after[1]), 3)
+                next_fragment['begin'] = round(max(silence_after[1] - 0.35, silence_after[0]), 3)
                 cut_fragment_audio(fragment, input_file=path_to_wav)
-                if next_fragments:
-                    next_fragments[0]['begin'] = round(max(next_silence_end - 0.5, next_silence_start), 3)
-                    next_fragments[0]['begin_forced'] = True
-                    cut_fragment_audio(next_fragments[0], input_file=path_to_wav)
+                cut_fragment_audio(next_fragment, input_file=path_to_wav)
                 todo.add(pool.submit(play_audio))
                 todo.add(pool.submit(ask_what_next))
             elif next_ == 'approve':
@@ -299,8 +323,20 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
             i += 1
             continue
 
+        if fast and i != 0 and i < len(alignment) - 1 and not fragment.get('warn'):
+            fragment.update(
+                approved=True,
+                approved_auto=True,
+            )
+            click.echo(f'approve fragment#{i} {fragment["text"]}')
+            i += 1
+            continue
+
         try:
             _check_alignment(index=i, alignment=alignment)
+        except exceptions.ToggleFastModeException:
+            fast = not fast
+            continue
         except exceptions.GoBackException:
             i -= 1
             continue
@@ -358,17 +394,20 @@ def check_alignment(source_name, restart, speed, audio_rate, cache):
                 nf["end"] += audio_start
 
             alignment = (
-                alignment[:e.start] +
-                sub_alignment +
-                alignment[e.end+1:]
+                    alignment[:e.start] +
+                    sub_alignment +
+                    alignment[e.end+1:]
             )
             cut_fragments_audio(alignment, input_file=path_to_wav)
             i -= e.start
 
         # save progress
         with open(path_to_alignment, 'w') as dest:
+            to_save = deepcopy(alignment)
+            for f in to_save:
+                f.pop('warn', None)
             json.dump(
-                obj=alignment,
+                obj=to_save,
                 fp=dest,
                 sort_keys=True,
                 indent=2,
@@ -461,7 +500,7 @@ def stats():
         '',
         '',
         total_count,
-        total_dur,
+        utils.format_timedelta(total_dur),
     ])
     for language, count in per_language_count.items():
         sources_data.append([
@@ -470,7 +509,7 @@ def stats():
             '',
             '',
             count,
-            per_language_dur[language],
+            utils.format_timedelta(per_language_dur[language]),
             language,
         ])
     print('\n' + tabulate(
@@ -578,6 +617,185 @@ def release(audio_rate, language):
     print('\n' + tabulate(
         releases_data,
         headers=['Name', '# speeches', '# speakers', 'Total Duration', 'Language'],
+        tablefmt='pipe',
+    ))
+
+
+@cli.command()
+@click.argument('source_name')
+@click.argument('from_id', type=int)
+@click.argument('to_id', type=int)
+@click.option('-ar', '--audio-rate', default=16000)
+def make_test(source_name, from_id, to_id, audio_rate):
+    source = audiocorp.get_source(source_name)
+    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+    path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
+    path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
+
+    # generate wav if do not exists yet
+    with open(path_to_mp3, 'rb') as f:
+        file_hash = utils.hash_file(f)
+    path_to_wav = os.path.join(utils.CACHE_DIR, f'{file_hash}.wav')
+    if not os.path.exists(path_to_wav):
+        ffmpeg.convert(
+            from_=path_to_mp3,
+            to=os.path.join(utils.CACHE_DIR, f'{file_hash}.wav'),
+            rate=audio_rate,
+            channels=1
+        )
+
+    # retrieve transcript
+    with open(path_to_transcript) as f:
+        transcript = [l.strip() for l in f.readlines()]
+    transcript = [l for l in transcript if l]  # rm empty lines
+
+    if os.path.isfile(path_to_alignment):
+        with open(path_to_alignment) as f:
+            existing_alignment = json.load(f)
+    else:
+        existing_alignment = []
+
+    # detect silences
+    silences = ffmpeg.list_silences(
+        input_path=path_to_wav,
+        min_duration=DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+    )
+
+    alignment = utils.build_alignment(
+        transcript=transcript,
+        path_to_audio=path_to_wav,
+        existing_alignment=existing_alignment,
+        silences=silences,
+        generate_labels=True,
+    )
+    remaining = alignment[from_id - 1:to_id]
+
+    with tempfile.NamedTemporaryFile(suffix='.wav') as file_:
+        ffmpeg.cut(path_to_wav, file_.name, from_=remaining[0]['begin'], to=remaining[-1]['end'])
+        with open(file_.name, 'rb') as f:
+            file_hash = utils.hash_file(f)[:8]
+        path_to_sub_audio = f'tests/assets/{file_hash}.wav'
+        shutil.copy(file_.name, os.path.join(CURRENT_DIR, path_to_sub_audio))
+
+    new_alignment = utils.build_alignment(
+        transcript=[f['text'] for f in remaining],
+        path_to_audio=path_to_sub_audio,
+        existing_alignment=[],
+        silences=ffmpeg.list_silences(
+            input_path=path_to_sub_audio,
+            min_duration=DEFAULT_SILENCE_MIN_DURATION,
+            noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+        ),
+        generate_labels=True,
+    )
+
+    print(BUILD_ALIGNMENT_TEST_TEMPLATE.format(
+        file_hash=file_hash,
+        source_name=source_name,
+        from_=timedelta(seconds=remaining[0]['begin']),
+        to=timedelta(seconds=remaining[-1]['end']),
+        transcript='\n        '.join(f"'{f['text']}'," for f in new_alignment),
+        alignment='\n        '.join("dict(begin={begin}, end={end}, text='{text}'),".format(**f) for f in new_alignment),
+        min_duration=DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+    ))
+
+
+BUILD_ALIGNMENT_TEST_TEMPLATE = """
+    # {source_name} @@ {from_} {to} @@
+    ('{file_hash}.wav', {noise_level}, {min_duration}, [
+        {transcript}
+    ], [], [
+        {alignment}
+    ]),
+"""
+
+
+@cli.command()
+@click.argument('source_name')
+def source_stats(source_name):
+    source = audiocorp.get_source(source_name)
+    path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
+    path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
+    path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
+
+    # generate wav if do not exists yet
+    with open(path_to_mp3, 'rb') as f:
+        file_hash = utils.hash_file(f)
+    path_to_wav = os.path.join(utils.CACHE_DIR, f'{file_hash}.wav')
+    if not os.path.exists(path_to_wav):
+        ffmpeg.convert(
+            from_=path_to_mp3,
+            to=os.path.join(utils.CACHE_DIR, f'{file_hash}.wav'),
+            rate=16000,
+            channels=1
+        )
+
+    # retrieve transcript
+    with open(path_to_transcript) as f:
+        transcript = [l.strip() for l in f.readlines()]
+    transcript = [l for l in transcript if l]  # rm empty lines
+
+    if os.path.isfile(path_to_alignment):
+        with open(path_to_alignment) as f:
+            existing_alignment = json.load(f)
+    else:
+        existing_alignment = []
+
+    # detect silences
+    silences = ffmpeg.list_silences(
+        input_path=path_to_wav,
+        min_duration=DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+    )
+
+    alignment = utils.build_alignment(
+        transcript=transcript,
+        path_to_audio=path_to_wav,
+        existing_alignment=existing_alignment,
+        silences=silences,
+        generate_labels=True,
+    )
+
+    transitions_durations = []
+    fragments_durations = []
+    for prev_fragment, next_fragment in zip(alignment[:-1], alignment[1:]):
+        silence_before, silence_between, silence_after = \
+            utils.transition_silences(prev_fragment, next_fragment, silences)
+        if silence_between:
+            transitions_durations.append(silence_between[1] - silence_between[0])
+        fragments_durations.append(next_fragment['end'] - next_fragment['begin'])
+    t_mean = np.array(transitions_durations).mean()
+    t_std = np.array(transitions_durations).std()
+    f_mean = np.array(fragments_durations).mean()
+    f_std = np.array(fragments_durations).std()
+    print('\n' + tabulate(
+        [
+            [
+                'transition dur (s)',
+                len(transitions_durations),
+                round(t_mean, 3),
+                round(t_std, 3),
+                f'{round(t_mean - t_std, 3)} - {round(t_mean + t_std, 3)}',
+                f'{round(t_mean - 2 * t_std, 3)} - {round(t_mean + 2 * t_std, 3)}',
+                f'{max(0, round(t_mean - 3 * t_std, 3))} - {round(t_mean + 3 * t_std, 3)}',
+                min(transitions_durations),
+                max(transitions_durations),
+            ],
+            [
+                'fragment dur (s)',
+                len(fragments_durations),
+                round(f_mean, 3),
+                round(f_std, 3),
+                f'{round(f_mean - f_std, 3)} - {round(f_mean + f_std, 3)}',
+                f'{round(f_mean - 2 * f_std, 3)} - {round(f_mean + 2 * f_std, 3)}',
+                f'{max(0, round(f_mean - 3 * f_std, 3))} - {round(f_mean + 3 * f_std, 3)}',
+                min(fragments_durations),
+                max(fragments_durations),
+            ],
+        ],
+        headers=['Metric', 'count', 'avg', 'std', '70%', '95%', '95%', 'min', 'max'],
         tablefmt='pipe',
     ))
 

@@ -5,6 +5,7 @@ import tempfile
 from _sha1 import sha1
 from collections import defaultdict
 from copy import deepcopy
+from datetime import timedelta
 from itertools import groupby
 from zipfile import ZipFile
 import roman
@@ -32,8 +33,12 @@ if not os.path.isdir(CACHE_DIR):
 # remove chapter number
 def replace_chapter_number(match):
     string = match.group(1)
-    num = str(roman.fromRoman(string))
-    return f'Chapitre {num}.'
+    try:
+        string = str(roman.fromRoman(string))
+    except roman.InvalidRomanNumeralError:
+        if string.startswith('L'):
+            string = str(roman.fromRoman(string[1:]))
+    return f'Chapitre {string}.'
 
 
 def replace_semi_colons(match):
@@ -42,7 +47,7 @@ def replace_semi_colons(match):
 
 
 NORMALIZATIONS = [
-    [re.compile(r'^L?((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
+    [re.compile(r'^((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
     [re.compile(r'(^| )n(?:°|º)(\s)?'), r'\1numéro\2'],
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
     [re.compile(r'^No '), 'Numéro '],
@@ -252,7 +257,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
         return right
 
     for i, fragment in enumerate(alignment[:-1]):
-        for margin in [0, 0.1, 0.3, 0.6]:
+        for margin in [0, 0.1, 0.3, 0.5]:
             try:
                 overlaps = list(get_silences(fragment, margin=margin))
             except WrongCutException:
@@ -265,15 +270,18 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
             if len(overlaps) == 1:
                 # in the middle of a silence
                 silence_start, silence_end, silence_index = overlaps[0]
-                fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
-                alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
+                fragment['end'] = round(min(silence_start + 0.35, silence_end), 3)
+                alignment[i + 1]['begin'] = round(max(silence_end - 0.35, silence_start), 3)
                 break
             elif len(overlaps) == 2:
                 # take the second
                 silence_start, silence_end, _ = overlaps[1]
-                fragment['end'] = round(min(silence_start + 0.5, silence_end), 3)
-                alignment[i + 1]['begin'] = round(max(silence_end - 0.5, silence_start), 3)
+                fragment['end'] = round(min(silence_start + 0.35, silence_end), 3)
+                alignment[i + 1]['begin'] = round(max(silence_end - 0.35, silence_start), 3)
                 break
+            elif margin == 0.5 and len(overlaps) == 0:
+                # No silence detected => merge with next
+                merge_fragments(fragment, alignment[i+1])
 
         if fragment['begin'] >= fragment['end']:
             # impossible => merge with closest
@@ -283,6 +291,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 merge_fragments(closest, fragment)
             else:
                 merge_fragments(fragment, closest)
+
 
     current = alignment[0]
     for next_ in alignment[1:]:
@@ -298,33 +307,29 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
         if (next_fragment['begin'] - prev_fragment['end']) > 1:
             continue
 
-        silences_between = [
-            s
-            for s in silences
-            if s[0] < prev_fragment['end'] and s[1] > next_fragment['begin']
-        ]
-        if not silences_between:
-            continue
-        if len(silences_between) > 1:
-            raise NotImplementedError
-        silence_between_start, silence_between_end = silences_between[0]
-
-        silence_before_end = next((
-            s_end
-            for s_start, s_end in reversed(silences)
-            if s_end < silence_between_start and s_start > prev_fragment['begin']
-        ), None)
-        if silence_before_end is not None and silence_between_start - silence_before_end < 0.5:
+        if next_fragment['end'] - next_fragment['begin'] > 15.5:
             next_fragment['warn'] = True
             continue
 
-        silence_after_begin = next((
-            s_start
-            for s_start, s_end in silences
-            if s_start > silence_between_end and s_end < next_fragment['end']
-        ), None)
-        if silence_after_begin is not None and silence_after_begin - silence_between_end < 0.5:
+        silence_before, silence_between, silence_after = transition_silences(prev_fragment, next_fragment, silences)
+        if not silence_between:
+            continue
+
+        if (
+                silence_before and silence_before[1] - silence_before[0] > 0.1 and
+                silence_between[0] - silence_before[1] < 0.5 and
+                silence_between[1] - silence_between[0] < 0.95
+        ):
             next_fragment['warn'] = True
+            continue
+
+        if (
+                silence_after and silence_after[1] - silence_after[0] > 0.1 and
+                silence_after[0] - silence_between[1] < 0.5 and
+                silence_between[1] - silence_between[0] < 0.95
+        ):
+            next_fragment['warn'] = True
+            continue
 
     return alignment
 
@@ -498,3 +503,47 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
             ]) + '\n')
 
     return alignment
+
+
+def transition_silences(left_fragment, right_fragment, silences):
+    silences_between = [
+        s
+        for s in silences
+        if s[0] <= left_fragment['end'] and s[1] >= right_fragment['begin']
+    ]
+
+    if len(silences_between) > 1:
+        raise NotImplementedError
+
+    silence_between = silences_between[0] if silences_between else None
+
+    silence_before = next((
+        s for s in reversed(silences)
+        if (
+            s[1] < (silence_between[0] if silence_between else left_fragment['end']) and
+            s[0] > left_fragment['begin']
+        )
+    ), None)
+
+    silence_after = next((
+        s for s in silences
+        if (
+            s[0] > (silence_between[1] if silence_between else right_fragment['begin']) and
+            s[1] < right_fragment['end']
+        )
+    ), None)
+    return silence_before, silence_between, silence_after
+
+
+def format_timedelta(td: timedelta):
+    s = td.total_seconds()
+    # hours
+    hours = int(s // 3600)
+    # remaining seconds
+    s = s - (hours * 3600)
+    # minutes
+    minutes = int(s // 60)
+    # remaining seconds
+    seconds = int(s - (minutes * 60))
+    milliseconds = int(round(td.microseconds / 1000, 3))
+    return f'{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}'

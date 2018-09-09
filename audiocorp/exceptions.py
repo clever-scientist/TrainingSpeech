@@ -24,3 +24,7 @@ class SplitException(Exception):
         self.start = start
         self.end = end
         self.new_transcript = new_transcript
+
+
+class ToggleFastModeException(Exception):
+    pass
