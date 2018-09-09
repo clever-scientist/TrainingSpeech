@@ -398,6 +398,7 @@ def test_transition_silences(left_fragment, right_fragment, silences, expected):
     (timedelta(seconds=10), '00:00:10.000'),
     (timedelta(seconds=10.123), '00:00:10.123'),
     (timedelta(days=3.141592), '75:23:53.548'),
+    (timedelta(days=10), '240:00:00.000'),
 ])
 def test_format_timedelta(td, expected):
     assert expected == utils.format_timedelta(td)

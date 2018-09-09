@@ -596,10 +596,11 @@ def release(audio_rate, language):
             for fragment, tmp_audio in zip(fragments, audio_fragments_pathes):
                 archive_audio_path = f'{fragment["name"]}.wav'
                 zip_file.write(tmp_audio, arcname=archive_audio_path, compress_type=zipfile.ZIP_DEFLATED)
-                writer.writerows([
-                    dict(path=archive_audio_path, duration=round(f['end'] - f['begin'], 3), text=f['text'])
-                    for f in fragments
-                ])
+                writer.writerow(dict(
+                    path=archive_audio_path,
+                    duration=round(fragment['end'] - fragment['begin'], 3),
+                    text=fragment['text']
+                ))
                 bar.update(1)
                 os.unlink(tmp_audio)
 
@@ -607,10 +608,10 @@ def release(audio_rate, language):
             bar.update(1)
 
         releases_data.append([
-            f'[{release_name}](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/{release_name})',
+            f'[{release_name}](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/{release_name}.zip)',
             len(fragments),
             len(per_language_speakers[source_language]),
-            timedelta(seconds=round(sum(round(f['end'] - f['begin'], 3) for f in fragments))),
+            utils.format_timedelta(timedelta(seconds=round(sum(round(f['end'] - f['begin'], 3) for f in fragments)))),
             source_language,
         ])
 
