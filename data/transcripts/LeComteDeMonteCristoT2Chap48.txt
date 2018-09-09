@@ -1,4 +1,4 @@
-Chapitre quarante-huit
+Chapitre quarante-huit.
 Idéologie.
 Si le comte de Monte-Cristo eût vécu depuis longtemps dans le monde parisien, il eût apprécié en toute sa valeur la démarche que faisait près de lui Monsieur de Villefort.
 Bien en cour, que le roi régnant fût de la branche aînée ou de la branche cadette, que le ministre gouvernant fût doctrinaire, libéral ou conservateur.
@@ -8,8 +8,7 @@ Son salon, régénéré par une jeune femme et par une fille de son premier mari
 La politesse froide, la fidélité absolue aux principes gouvernementaux, un mépris profond des théories et des théoriciens, la haine profonde des idéologues, tels étaient les éléments de la vie intérieure et publique affichés par Monsieur de Villefort.
 Monsieur de Villefort n’était pas seulement magistrat, c’était presque un diplomate.
 Ses relations avec l’ancienne cour, dont il parlait toujours avec dignité et déférence, le faisaient respecter de la nouvelle, et il savait tant de choses que non seulement on le ménageait toujours, mais encore qu’on le consultait quelquefois.
-Peut-être n’en eût-il pas été ainsi si l’on eût pu se débarrasser de Monsieur de Villefort.
-Mais il habitait, comme ces seigneurs féodaux rebelles à leur suzerain, une forteresse inexpugnable.
+Peut-être n’en eût-il pas été ainsi si l’on eût pu se débarrasser de Monsieur de Villefort. Mais il habitait, comme ces seigneurs féodaux rebelles à leur suzerain, une forteresse inexpugnable.
 Cette forteresse, c’était sa charge de procureur du roi, dont il exploitait merveilleusement tous les avantages, et qu’il n’eût quittée que pour se faire élire député et pour remplacer ainsi la neutralité par de l’opposition.
 En général, Monsieur de Villefort faisait ou rendait peu de visites.
 Sa femme visitait pour lui.
@@ -40,22 +39,18 @@ Monsieur, répliqua le comte à son tour avec une froideur glaciale, je suis for
 Villefort, étonné de cette sortie à laquelle il ne s’attendait pas, tressaillit comme un soldat qui sent le coup qu’on lui porte sous l’armure dont il est couvert, et un pli de sa lèvre dédaigneuse indiqua que dès l’abord il ne tenait pas le comte de Monte-Cristo pour un gentilhomme bien civil.
 Il jeta les yeux autour de lui pour raccrocher à quelque chose la conversation tombée, et qui semblait s’être brisée en tombant.
 Il vit la carte qu’interrogeait Monte-Cristo au moment où il était entré, et il reprit.
-Vous vous occupez de géographie, monsieur ?
+Vous vous occupez de géographie, monsieur ?
 C’est une riche étude, pour vous surtout qui, à ce qu’on assure, avez vu autant de pays qu’il y en a de gravés sur cet atlas.
 Oui, monsieur, répondit le comte, j’ai voulu faire sur l’espèce humaine, prise en masse, ce que vous pratiquez chaque jour sur des exceptions, c’est-à-dire une étude physiologique.
 J’ai pensé qu’il me serait plus facile de descendre ensuite du tout à la partie, que de la partie au tout.
-C’est un axiome algébrique qui veut que l’on procède du connu à l’inconnu, et non de l’inconnu au connu…
-Mais asseyez-vous donc, monsieur, je vous en supplie.
+C’est un axiome algébrique qui veut que l’on procède du connu à l’inconnu, et non de l’inconnu au connu… Mais asseyez-vous donc, monsieur, je vous en supplie.
 Et Monte-Cristo indiqua de la main au procureur du roi un fauteuil que celui-ci fut obligé de prendre la peine d’avancer lui-même, tandis que lui n’eut que celle de se laisser retomber dans celui sur lequel il était agenouillé quand le procureur du roi était entré de cette façon le comte se trouva à demi tourné vers son visiteur, ayant le dos à la fenêtre et le coude appuyé sur la carte géographique qui faisait, pour le moment, l’objet de la conversation.
 Conversation qui prenait, comme elle l’avait fait chez Morcerf et chez Danglars, une tournure tout à fait analogue, sinon à la situation, du moins aux personnages.
-Ah !
-vous philosophez, reprit Villefort après un instant de silence, pendant lequel, comme un athlète qui rencontre un rude adversaire, il avait fait provision de force.
-Eh bien, monsieur, parole d’honneur !
+Ah ! vous philosophez, reprit Villefort après un instant de silence, pendant lequel, comme un athlète qui rencontre un rude adversaire, il avait fait provision de force.
+Eh bien, monsieur, parole d’honneur !
 Si, comme vous, je n’avais rien à faire, je chercherais une moins triste occupation.
-C’est vrai, monsieur, reprit Monte-Cristo, et l’homme est une laide chenille pour celui qui l’étudie au microscope solaire.
-Mais vous venez de dire, je crois, que je n’avais rien à faire.
-Voyons, par hasard, croyez-vous avoir quelque chose à faire, vous, monsieur ?
-ou, pour parler plus clairement, croyez-vous que ce que vous faites vaille la peine de s’appeler quelque chose ?
+C’est vrai, monsieur, reprit Monte-Cristo, et l’homme est une laide chenille pour celui qui l’étudie au microscope solaire. Mais vous venez de dire, je crois, que je n’avais rien à faire.
+Voyons, par hasard, croyez-vous avoir quelque chose à faire, vous, monsieur ? ou, pour parler plus clairement, croyez-vous que ce que vous faites vaille la peine de s’appeler quelque chose ?
 L’étonnement de Villefort redoubla à ce second coup si rudement porté par cet étrange adversaire.
 Il y avait longtemps que le magistrat ne s’était entendu dire un paradoxe de cette force, ou plutôt, pour parler plus exactement, c’était la première fois qu’il l’entendait.
 Le procureur du roi se mit à l’œuvre pour répondre.
@@ -69,17 +64,13 @@ Si cette loi était adoptée, monsieur, dit le procureur du roi, elle simplifier
 Cela viendra peut-être, dit Monte-Cristo, vous savez que les inventions humaines marchent du composé au simple, et que le simple est toujours la perfection.
 En attendant, monsieur, dit le magistrat, nos codes existent avec leurs articles contradictoires, tirés des coutumes gauloises, des lois romaines, des usages francs.
 Or, la connaissance de toutes ces lois-là, vous en conviendrez, ne s’acquiert pas sans de longs travaux, et il faut une longue étude pour acquérir cette connaissance, et une grande puissance de tête, cette connaissance une fois acquise, pour ne pas l’oublier.
-Je suis de cet avis-là, monsieur.
-Mais tout ce que vous savez, vous, à l’égard de ce code français, je le sais moi, non seulement à l’égard du code de toutes les nations.
+Je suis de cet avis-là, monsieur. Mais tout ce que vous savez, vous, à l’égard de ce code français, je le sais moi, non seulement à l’égard du code de toutes les nations.
 les lois anglaises, turques, japonaises, hindoues, me sont aussi familières que les lois françaises.
-Et j’avais donc raison de dire que, relativement (vous savez que tout est relatif, monsieur), que relativement à tout ce que j’ai fait, vous avez bien peu de chose à faire, et que relativement à ce que j’ai appris, vous avez encore bien des choses à apprendre.
-Mais dans quel but avez-vous appris tout cela ?
-reprit Villefort étonné.
+Et j’avais donc raison de dire que, relativement (vous savez que tout est relatif, monsieur), que relativement à tout ce que j’ai fait, vous avez bien peu de chose à faire, et que relativement à ce que j’ai appris, vous avez encore bien des choses à apprendre. Mais dans quel but avez-vous appris tout cela ? reprit Villefort étonné.
 Monte-Cristo sourit.
 Bien, monsieur, dit-il.
 Je vois que, malgré la réputation qu’on vous a faite d’homme supérieur, vous voyez toute chose au point de vue matériel et vulgaire de la société, commençant à l’homme et, finissant à l’homme, c’est-à-dire au point de vue le plus restreint et le plus étroit qu’il ait été permis à l’intelligence humaine d’embrasser.
-Expliquez-vous, monsieur, dit Villefort de plus en plus étonné, je ne vous comprends pas…
-très bien.
+Expliquez-vous, monsieur, dit Villefort de plus en plus étonné, je ne vous comprends pas… très bien.
 Je dis, monsieur, que, les yeux fixés sur l’organisation sociale des nations, vous ne voyez que les ressorts de la machine, et non l’ouvrier sublime qui la fait agir, je dis que vous ne reconnaissez devant vous et autour de vous que les titulaires des places dont les brevets ont été signés par des ministres ou par un roi, et que les hommes que Dieu a mis au-dessus des titulaires, des ministres et des rois, en leur donnant une mission à poursuivre au lieu d’une place à remplir, je dis que ceux-là échappent à votre courte vue.
 C’est le propre de la faiblesse humaine aux organes débiles et incomplets.
 Tobie prenait l’ange qui venait lui rendre la vue pour un jeune homme ordinaire.
@@ -88,27 +79,23 @@ Il a fallu que l’un dit.
 Je suis l’ange du Seigneur.
 Et l’autre.
 Je suis le marteau de Dieu, pour que l’essence divine de tous deux fût révélée.
-Alors, dit Villefort de plus en plus étonné et croyant parler à un illuminé ou à un fou, vous vous regardez comme un de ces êtres extraordinaires que vous venez de citer ?
-Pourquoi pas ?
-dit froidement Monte-Cristo.
+Alors, dit Villefort de plus en plus étonné et croyant parler à un illuminé ou à un fou, vous vous regardez comme un de ces êtres extraordinaires que vous venez de citer ?
+Pourquoi pas ? dit froidement Monte-Cristo.
 Pardon, monsieur, reprit Villefort abasourdi mais vous m’excuserez si, en me présentant chez vous, j’ignorais me présenter chez un homme dont les connaissances et dont l’esprit dépassent de si loin les connaissances ordinaires et l’esprit habituel des hommes.
 Ce n’est point l’usage chez nous, malheureux corrompus de la civilisation, que les gentilshommes possesseurs comme vous d’une fortune immense, du moins à ce qu’on assure, remarquez que je n’interroge pas, que seulement je répète, ce n’est pas l’usage, dis-je, que ces privilégiés des richesses perdent leur temps à des spéculations sociales, à des rêves philosophiques, faits tout au plus pour consoler ceux que le sort a déshérités des biens de la terre.
-Eh !
-monsieur, reprit le comte, en êtes-vous donc arrivé à la situation éminente que vous occupez sans avoir admis, et même sans avoir rencontré des exceptions, et n’exercez-vous jamais votre regard, qui aurait cependant tant besoin de finesse et de sûreté, à deviner d’un seul coup sur quel homme est tombé votre regard ?
-Un magistrat ne devrait-il pas être, non pas le meilleur applicateur de la loi, non pas le plus rusé interprète des obscurités de la chicane, mais une sonde d’acier pour éprouver les cœurs, mais une pierre de touche pour essuyer l’or dont chaque âme est toujours faite avec plus ou moins d’alliage ?
+Eh ! monsieur, reprit le comte, en êtes-vous donc arrivé à la situation éminente que vous occupez sans avoir admis, et même sans avoir rencontré des exceptions, et n’exercez-vous jamais votre regard, qui aurait cependant tant besoin de finesse et de sûreté, à deviner d’un seul coup sur quel homme est tombé votre regard ?
+Un magistrat ne devrait-il pas être, non pas le meilleur applicateur de la loi, non pas le plus rusé interprète des obscurités de la chicane, mais une sonde d’acier pour éprouver les cœurs, mais une pierre de touche pour essuyer l’or dont chaque âme est toujours faite avec plus ou moins d’alliage ?
 Monsieur, dit Villefort, vous me confondez, sur ma parole, et je n’ai jamais entendu parler personne comme vous faites.
 C’est que vous êtes constamment resté enfermé dans le cercle des conditions générales, et que vous n’avez jamais osé vous élever d’un coup d’aile dans les sphères supérieures que Dieu a peuplées d’êtres invisibles ou exceptionnels.
-Et vous admettez, monsieur, que ces sphères existent, et que les êtres exceptionnels et invisibles se mêlent à nous ?
-Pourquoi pas ?
-est-ce que vous voyez l’air que vous respirez et sans lequel vous ne pourriez pas vivre ?
-Alors, nous ne voyons pas ces êtres dont vous parlez ?
+Et vous admettez, monsieur, que ces sphères existent, et que les êtres exceptionnels et invisibles se mêlent à nous ?
+Pourquoi pas ? est-ce que vous voyez l’air que vous respirez et sans lequel vous ne pourriez pas vivre ?
+Alors, nous ne voyons pas ces êtres dont vous parlez ?
 Si fait, vous les voyez quand Dieu permet qu’ils se matérialisent, vous les touchez, vous les coudoyez, vous leur parlez et ils vous répondent.
-Ah !
-dit Villefort en souriant, j’avoue que je voudrais bien être prévenu quand un de ces êtres se trouvera en contact avec moi.
+Ah ! dit Villefort en souriant, j’avoue que je voudrais bien être prévenu quand un de ces êtres se trouvera en contact avec moi.
 Vous avez été servi à votre guise, monsieur.
 Car vous avez été prévenu tout à l’heure, et maintenant.
 encore, je vous préviens.
-Ainsi vous-même ?
+Ainsi vous-même ?
 Je suis un de ces êtres exceptionnels, oui, monsieur, et je crois que, jusqu’à ce jour, aucun homme ne s’est trouvé dans une position semblable à la mienne.
 Les royaumes des rois sont limités, soit par des montagnes, soit par des rivières, soit par un changement de mœurs, soit par une mutation de langage.
 Mon royaume, à moi, est grand comme le monde, car je ne suis ni Italien, ni Français, ni Hindou, ni Américain, ni Espagnol.
@@ -116,8 +103,7 @@ je suis cosmopolite.
 Nul pays ne peut dire qu’il m’a vu naître.
 Dieu seul sait quelle contrée me verra mourir.
 J’adopte tous les usages, je parle toutes les langues.
-Vous me croyez Français, vous, n’est-ce pas, car je parle français avec la même facilité et la même pureté que vous ?
-eh bien !
+Vous me croyez Français, vous, n’est-ce pas, car je parle français avec la même facilité et la même pureté que vous ? eh bien !
 Ali, mon Nubien, me croit Arabe.
 Bertuccio, mon intendant, me croit Romain.
 Haydée, mon esclave, me croit Grec.
@@ -133,46 +119,37 @@ Et si quelques-unes peuvent m’atteindre, aucune ne peut me renverser.
 À moins que je ne meure, je serai toujours ce que je suis.
 Voilà pourquoi je vous dis des choses que vous n’avez jamais entendues, même de la bouche des rois, car les rois ont besoin de vous et les autres hommes en ont peur.
 Qui est-ce qui ne se dit pas, dans une société aussi ridiculement organisée que la nôtre.
-Peut-être un jour aurai-je affaire au procureur du roi !
-Mais vous-même, monsieur, pouvez-vous dire cela, car, du moment où vous habitez la France, vous êtes naturellement soumis aux lois françaises.
+Peut-être un jour aurai-je affaire au procureur du roi ! Mais vous-même, monsieur, pouvez-vous dire cela, car, du moment où vous habitez la France, vous êtes naturellement soumis aux lois françaises.
 Je le sais, monsieur, répondit Monte-Cristo mais quand je dois aller dans un pays, je commence à étudier, par des moyens qui me sont propres, tous les hommes dont je puis avoir quelque chose à espérer ou à craindre, et j’arrive à les connaître aussi bien, et même mieux peut-être qu’ils ne se connaissent eux-mêmes.
 Cela amène ce résultat que le procureur du roi, quel qu’il fût, à qui j’aurais affaire, serait certainement plus embarrassé que moi-même.
-Ce qui veut dire, reprit avec hésitation Villefort, que la nature humaine étant faible, tout homme selon vous, a commis des…
-fautes ?
-Des fautes…
-ou des crimes, répondit négligemment Monte-Cristo.
-Et que vous seul, parmi les hommes que vous ne reconnaissez pas pour vos frères, vous l’avez dit vous-même, reprit Villefort d’une voix légèrement altérée, et que vous seul êtes parfait ?
+Ce qui veut dire, reprit avec hésitation Villefort, que la nature humaine étant faible, tout homme selon vous, a commis des… fautes ?
+Des fautes… ou des crimes, répondit négligemment Monte-Cristo.
+Et que vous seul, parmi les hommes que vous ne reconnaissez pas pour vos frères, vous l’avez dit vous-même, reprit Villefort d’une voix légèrement altérée, et que vous seul êtes parfait ?
 Non point parfait, répondit le comte.
-Impénétrable, voilà tout.
-Mais brisons là-dessus, monsieur, si la conversation vous déplaît.
+Impénétrable, voilà tout. Mais brisons là-dessus, monsieur, si la conversation vous déplaît.
 Je ne suis pas plus menacé de votre justice que vous ne l’êtes de ma double vue.
-Non, non, monsieur !
-dit vivement Villefort, qui sans doute craignait de paraître abandonner le terrain.
-Non !
+Non, non, monsieur ! dit vivement Villefort, qui sans doute craignait de paraître abandonner le terrain.
+Non !
 Par votre brillante et presque sublime conversation, vous m’avez élevé au-dessus des niveaux ordinaires.
 Nous ne causons plus, nous dissertons.
 Or, vous savez combien les théologiens en chaire de Sorbonne, ou les philosophes dans leurs disputes, se disent parfois de cruelles vérités.
 supposons que nous faisons de la théologie sociale et de la philosophie théologique, je vous dirai donc celle-ci, toute rude qu’elle est.
 Mon frère, vous sacrifiez à l’orgueil.
 Vous êtes au-dessus des autres, mais au-dessus de vous il y a Dieu.
-Au-dessus de tous, monsieur !
-répondit Monte-Cristo avec un accent si profond que Villefort frissonna involontairement.
-J’ai mon orgueil pour les hommes, serpents toujours prêts à se dresser contre celui qui les dépasse du front sans les écraser du pied.
-Mais je dépose cet orgueil devant Dieu, qui m’a tiré du néant pour me faire ce que je suis.
+Au-dessus de tous, monsieur ! répondit Monte-Cristo avec un accent si profond que Villefort frissonna involontairement.
+J’ai mon orgueil pour les hommes, serpents toujours prêts à se dresser contre celui qui les dépasse du front sans les écraser du pied. Mais je dépose cet orgueil devant Dieu, qui m’a tiré du néant pour me faire ce que je suis.
 Alors, monsieur le comte, je vous admire, dit Villefort, qui pour la première fois dans cet étrange dialogue venait d’employer cette formule aristocratique vis-à-vis de l’étranger qu’il n’avait jusque-là appelé que monsieur.
 Oui, je vous le dis, si vous êtes réellement fort, réellement supérieur, réellement saint ou impénétrable, ce qui, vous avez raison, revient à peu près au même, soyez superbe, monsieur.
-C’est la loi des dominations.
-Mais vous avez bien cependant une ambition quelconque ?
+C’est la loi des dominations. Mais vous avez bien cependant une ambition quelconque ?
 J’en ai une, monsieur.
-Laquelle ?
+Laquelle ?
 Moi aussi, comme cela est arrivé à tout homme une fois dans sa vie, j’ai été enlevé par Satan sur la plus haute montagne de la terre.
 Arrivé là, il me montra le monde tout entier, et, comme il avait dit autrefois au Christ, il me dit à moi.
-Voyons, enfant des hommes, pour m’adorer que veux-tu ?
+Voyons, enfant des hommes, pour m’adorer que veux-tu ?
 Alors j’ai réfléchi longtemps, car depuis longtemps une terrible ambition dévorait effectivement mon cœur.
 Puis je lui répondis.
 Écoute, j’ai toujours entendu parler de la Providence, et cependant je ne l’ai jamais vue, ni rien qui lui ressemble, ce qui me fait croire qu’elle n’existe pas.
-Je veux être la Providence, car ce que je sais de plus beau, de plus grand et de plus sublime au monde, c’est de récompenser et de punir.
-Mais Satan baissa la tête et poussa un soupir.
+Je veux être la Providence, car ce que je sais de plus beau, de plus grand et de plus sublime au monde, c’est de récompenser et de punir. Mais Satan baissa la tête et poussa un soupir.
 Tu te trompes, dit-il, la Providence existe.
 Seulement tu ne la vois pas, parce que, fille de Dieu, elle est invisible comme son père.
 Tu n’as rien vu qui lui ressemble, parce qu’elle procède par des ressorts cachés et marche par des voies obscures.
@@ -180,17 +157,16 @@ Tout ce que je puis faire pour toi, c’est de te rendre un des agents de cette 
 Le marché fut fait.
 J’y perdrai peut-être mon âme mais n’importe, reprit Monte-Cristo, et le marché serait à refaire que je le ferais encore.
 Villefort regardait Monte-Cristo avec un sublime étonnement.
-Monsieur le comte, dit-il, avez-vous des parents ?
+Monsieur le comte, dit-il, avez-vous des parents ?
 Non, monsieur, je suis seul au monde.
-Tant pis !
-Pourquoi ?
-demanda Monte-Cristo.
+Tant pis !
+Pourquoi ? demanda Monte-Cristo.
 Parce que vous auriez pu voir un spectacle propre à briser votre orgueil.
-Vous ne craignez que la mort, dites-vous ?
+Vous ne craignez que la mort, dites-vous ?
 Je ne dis pas que je la craigne, je dis qu’elle seule peut m’arrêter.
-Et la vieillesse ?
+Et la vieillesse ?
 Ma mission sera remplie avant que je sois vieux.
-Et la folie ?
+Et la folie ?
 J’ai manqué de devenir fou, et vous connaissez l’axiome.
 non bis in idem.
 C’est un axiome criminel, et qui, par conséquent, est de votre ressort.
@@ -199,24 +175,22 @@ il y a, par exemple, l’apoplexie, ce coup de foudre qui vous frappe sans vous 
 C’est toujours vous, et cependant vous n’êtes plus vous.
 Vous qui touchiez, comme Ariel, à l’ange, vous n’êtes plus qu’une masse inerte qui, comme Caliban, touche à la bête.
 Cela s’appelle tout bonnement, comme je vous le disais, dans la langue humaine, une apoplexie.
-Venez, s’il vous plaît, continuer cette conversation chez moi, monsieur le comte, un jour que vous aurez envie de rencontrer un adversaire capable de vous comprendre et avide de vous réfuter, et je vous montrerai mon père, Monsieur Noirtier de Villefort, un des plus fougueux jacobins de la Révolution française, c’est-à-dire la plus brillante audace mise au service de la plus vigoureuse organisation.
+Venez, s’il vous plaît, continuer cette conversation chez moi, monsieur le comte, un jour que vous aurez envie de rencontrer un adversaire capable de vous comprendre et avide de vous réfuter, et je vous montrerai mon père, monsieur Noirtier de Villefort, un des plus fougueux jacobins de la Révolution française, c’est-à-dire la plus brillante audace mise au service de la plus vigoureuse organisation.
 Un homme qui, comme vous, n’avait peut-être pas vu tous les royaumes de la terre, mais avait aidé à bouleverser un des plus puissants.
 Un homme qui, comme vous, se prétendait un des envoyés, non pas de Dieu, mais de l’Être suprême, non pas de la Providence, mais de la Fatalité.
 Eh bien, monsieur, la rupture d’un vaisseau sanguin dans un lobe du cerveau a brisé tout cela, non pas en un jour, non pas en une heure, mais en une seconde.
-La veille, Monsieur Noirtier, ancien jacobin, ancien sénateur, ancien carbonaro, riant de la guillotine, riant du canon, riant du poignard, Monsieur Noirtier, jouant avec les révolutions.
-Monsieur Noirtier, pour qui la France n’était qu’un vaste échiquier duquel pions, tours, cavaliers et reine devaient disparaître pourvu que le roi fût mat, Monsieur Noirtier, si redoutable, était le lendemain ce pauvre monsieur Noirtier vieillard immobile, livré aux volontés de l’être le plus faible de la maison, c’est-à-dire de sa petite-fille Valentine.
+La veille, monsieur Noirtier, ancien jacobin, ancien sénateur, ancien carbonaro, riant de la guillotine, riant du canon, riant du poignard, monsieur Noirtier, jouant avec les révolutions.
+monsieur Noirtier, pour qui la France n’était qu’un vaste échiquier duquel pions, tours, cavaliers et reine devaient disparaître pourvu que le roi fût mat, monsieur Noirtier, si redoutable, était le lendemain ce pauvre monsieur Noirtier vieillard immobile, livré aux volontés de l’être le plus faible de la maison, c’est-à-dire de sa petite-fille Valentine.
 Un cadavre muet et glacé enfin, qui ne vit sans souffrance que pour donner le temps à la matière d’arriver sans secousse à son entière décomposition.
-Hélas !
-monsieur, dit Monte-Cristo, ce spectacle n’est étrange ni à mes yeux ni à ma pensée.
+Hélas ! monsieur, dit Monte-Cristo, ce spectacle n’est étrange ni à mes yeux ni à ma pensée.
 Je suis quelque peu médecin, et j’ai, comme mes confrères, cherché plus d’une fois l’âme dans la matière vivante ou dans la matière morte.
 Et, comme la Providence, elle est restée invisible à mes yeux, quoique présente à mon cœur.
-Cent auteurs, depuis Socrate, depuis Sénèque, depuis saint Augustin, depuis Gall, ont fait en prose ou en vers le rapprochement que vous venez de faire.
-Mais cependant je comprends que les souffrances d’un père puissent opérer de grands changements dans l’esprit de son fils.
+Cent auteurs, depuis Socrate, depuis Sénèque, depuis saint Augustin, depuis Gall, ont fait en prose ou en vers le rapprochement que vous venez de faire. Mais cependant je comprends que les souffrances d’un père puissent opérer de grands changements dans l’esprit de son fils.
 J’irai, monsieur, puisque vous voulez bien m’y engager, contempler au profit de mon humilité ce terrible spectacle qui doit fort attrister votre maison.
 Cela serait sans doute, si Dieu ne m’avait point donné une large compensation.
 En face du vieillard qui descend en se traînant vers la tombe sont deux enfants qui entrent dans la vie.
 Valentine, une fille de mon premier mariage avec mademoiselle de Saint-Méran, et Édouard, ce fils à qui vous avez sauvé la vie.
-Et que concluez-vous de cette compensation, monsieur ?
+Et que concluez-vous de cette compensation, monsieur ?
 Demanda Monte-Cristo.
 Je conclus, monsieur, répondit Villefort, que mon père, égaré par les passions, a commis quelques-unes de ces fautes qui échappent à la justice humaine, mais qui relèvent de la justice de Dieu, et que Dieu, ne voulant punir qu’une seule personne, n’a frappé que lui seul.
 Monte-Cristo, le sourire sur les lèvres, poussa au fond du cœur un rugissement qui eût fait fuir Villefort, si Villefort eût pu l’entendre.
@@ -228,4 +202,4 @@ Allons, dit Monte-Cristo en tirant avec effort un sourire de sa poitrine oppress
 Allons, assez de poison comme cela, et maintenant que mon cœur en est plein, allons chercher l’antidote.
 Et frappant un coup sur le timbre retentissant.
 Je monte chez madame, dit-il à Ali.
-Que dans une demi-heure la voiture soit prête !
+Que dans une demi-heure la voiture soit prête !
