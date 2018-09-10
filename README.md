@@ -1,8 +1,28 @@
-> Provide open and freely reusable dataset of voices for text-to-speech and speech-to-text models training.
->
-> Comes with a CLI that automate and simplify text forced-alignment from audio-books
+`AudioCorp` is an initiative to provide **open and freely reusable dataset** of voices… 
 
-**Contributions are always welcome !** 
+…for speech-to-text models training… 
+
+…on non-english languages… 
+
+…using already available data such as audio-books.
+ 
+
+
+Right now, data are extracted exclusively… 
+
+…from audio-books…
+
+…in French language. 
+
+
+
+## Tooling
+
+`AudioCorp`  comes with a CLI that automate and simplify:
+ - transcript extraction
+ - [forced-alignment](https://github.com/pettarin/forced-alignment-tools#definition-of-forced-alignment)
+ - validation and correction
+
 
 
 ## Common workflow
