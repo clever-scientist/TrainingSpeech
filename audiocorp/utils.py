@@ -24,6 +24,8 @@ EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
 CACHE_DIR = '/tmp/.audiocorp/'
 NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
+DEFAULT_SILENCE_MIN_DURATION = 0.07
+DEFAULT_SILENCE_NOISE_LEVEL = -36
 
 
 if not os.path.isdir(CACHE_DIR):
@@ -47,6 +49,7 @@ def replace_semi_colons(match):
 
 
 NORMALIZATIONS = [
+    [re.compile(r'\n?\[\d+\]\n?'), ''],
     [re.compile(r'^((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
     [re.compile(r'(^| )n(?:°|º)(\s)?'), r'\1numéro\2'],
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
@@ -62,7 +65,6 @@ NORMALIZATIONS = [
     ['Mlles ', 'Mademoiselles '],
     ['%', 'pourcent'],
     ['arr. ', 'arrondissement '],
-    [re.compile('\[\d+\]'), ''],
     ['f’ras', 'feras'],
     ['f’rez', 'ferez'],
     [' ', ' '],  # remove non-breaking space
@@ -212,6 +214,10 @@ def read_epub(path_to_epub, path_to_xhtmls=None):
             with myzip.open(os.path.join('OEBPS', path_to_xhtml)) as f:
                 html_doc = f.read()
             soup = BeautifulSoup(html_doc, 'html.parser')
+            for s in soup('div'):
+                if any(a and a.startswith('note-body-') for a in s.get_attribute_list('id')):
+                    s.extract()
+
             html_txt += '\n' + soup.body.get_text(separator='\n')
 
     return cleanup_document(html_txt)
@@ -291,7 +297,6 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 merge_fragments(closest, fragment)
             else:
                 merge_fragments(fragment, closest)
-
 
     current = alignment[0]
     for next_ in alignment[1:]:
@@ -431,7 +436,10 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
                     if transcript[t_i] != item:
                         t_i += 1
                     assert transcript[t_i] == item
-                    alignment_transcript_mapping[last_deleted_fragment_index].append(t_i)
+                    if last_deleted_fragment_index is None:
+                        alignment_transcript_mapping[f_i].append(t_i)
+                    else:
+                        alignment_transcript_mapping[last_deleted_fragment_index].append(t_i)
                     t_i += 1
                 continue
             elif change == 'context_end_container':

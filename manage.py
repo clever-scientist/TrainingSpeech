@@ -22,8 +22,6 @@ import audiocorp
 from audiocorp import utils, ffmpeg, sox, exceptions
 
 CURRENT_DIR = os.path.dirname(__file__)
-DEFAULT_SILENCE_MIN_DURATION = 0.07
-DEFAULT_SILENCE_NOISE_LEVEL = -45
 
 
 logger = logging.getLogger()
@@ -86,7 +84,7 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str=
 @click.option('-s', '--speed', default=1.3, help='set audio speed')
 @click.option('-ar', '--audio-rate', default=16000)
 @click.option('-nc', '--no-cache', is_flag=True, default=None)
-@click.option('-f', '--fast', is_flag=True, default=None)
+@click.option('-f', '--fast', is_flag=True, default=False)
 def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
     import inquirer
     source = audiocorp.get_source(source_name)
@@ -118,8 +116,8 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
     # detect silences
     silences = ffmpeg.list_silences(
         input_path=path_to_wav,
-        min_duration=DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
     )
 
     if not restart and os.path.isfile(path_to_alignment):
@@ -365,8 +363,10 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
             fragment.pop('disabled', None)
             audio_start: float = alignment[e.start]['begin']
             audio_end: float = alignment[e.end]['end']
+
             with tempfile.NamedTemporaryFile(suffix='.wav') as file_:
                 sox.trim(path_to_wav, file_.name, from_=audio_start, to=audio_end)
+
                 sub_alignment = utils.build_alignment(
                     transcript=e.new_transcript,
                     path_to_audio=file_.name,
@@ -659,8 +659,8 @@ def make_test(source_name, from_id, to_id, audio_rate):
     # detect silences
     silences = ffmpeg.list_silences(
         input_path=path_to_wav,
-        min_duration=DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
     )
 
     alignment = utils.build_alignment(
@@ -685,8 +685,8 @@ def make_test(source_name, from_id, to_id, audio_rate):
         existing_alignment=[],
         silences=ffmpeg.list_silences(
             input_path=path_to_sub_audio,
-            min_duration=DEFAULT_SILENCE_MIN_DURATION,
-            noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+            min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
+            noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
         ),
         generate_labels=True,
     )
@@ -698,8 +698,8 @@ def make_test(source_name, from_id, to_id, audio_rate):
         to=timedelta(seconds=remaining[-1]['end']),
         transcript='\n        '.join(f"'{f['text']}'," for f in new_alignment),
         alignment='\n        '.join("dict(begin={begin}, end={end}, text='{text}'),".format(**f) for f in new_alignment),
-        min_duration=DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
     ))
 
 
@@ -747,8 +747,8 @@ def source_stats(source_name):
     # detect silences
     silences = ffmpeg.list_silences(
         input_path=path_to_wav,
-        min_duration=DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=DEFAULT_SILENCE_NOISE_LEVEL,
+        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
+        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
     )
 
     alignment = utils.build_alignment(

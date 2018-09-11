@@ -214,6 +214,28 @@
     "language": "fr_FR",
     "speaker": "Jean-François Ricou"
   },
+  "LesMysteresDeParisT1Chap2": {
+    "audio_licence": "CC|Art Libre",
+    "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/eugene-sue-les-mysteres-de-paris.html",
+    "audio": "Les-Mysteres-de-Paris_Part01_chap02.mp3",
+    "ebook_licence": "Public domain",
+    "ebook_page": "https://www.atramenta.net/lire/les-mysteres-de-paris-tome-i/11588",
+    "ebook": "Les_mysteres_de_paris_tome_i.epub",
+    "ebook_parts": ["part2.xhtml"],
+    "language": "fr_FR",
+    "speaker": "Jean-François Ricou"
+  },
+  "LesMysteresDeParisT1Chap3": {
+    "audio_licence": "CC|Art Libre",
+    "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/eugene-sue-les-mysteres-de-paris.html",
+    "audio": "Les-Mysteres-de-Paris_Part01_chap03.mp3",
+    "ebook_licence": "Public domain",
+    "ebook_page": "https://www.atramenta.net/lire/les-mysteres-de-paris-tome-i/11588",
+    "ebook": "Les_mysteres_de_paris_tome_i.epub",
+    "ebook_parts": ["part3.xhtml"],
+    "language": "fr_FR",
+    "speaker": "Jean-François Ricou"
+  },
   "LesMysteresDeParisT2": {
     "audio_licence": "CC|Art Libre",
     "audio_page": "https://www.audiocite.net/livres-audio-gratuits-romans/eugene-sue-les-mysteres-de-paris.html",

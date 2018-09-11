@@ -57,6 +57,8 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     ('(foo bar).', ['foo bar']),
     ('foo. Mais bar', ['foo. Mais bar']),
     ('M.Morel', ['Monsieur Morel']),
+    ('Si tu es grinche[15], je ne suis pas ton homme', ['Si tu es grinche, je ne suis pas ton homme']),
+    ('— Bonsoir, Chourineur[1].', ['Bonsoir, Chourineur.']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')
