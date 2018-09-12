@@ -475,23 +475,34 @@ def stats():
     sources = audiocorp.sources()
     sources_data = []
     total_dur = timedelta(seconds=0)
+    total_available = timedelta(seconds=0)
     total_count = 0
     per_language_count = defaultdict(float)
     per_language_dur = defaultdict(timedelta)
+    per_language_available = defaultdict(timedelta)
     for name, metadata in sources.items():
         info = audiocorp.source_info(name)
+        path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
+        if os.path.isfile(path_to_mp3):
+            mp3_duration = timedelta(seconds=ffmpeg.audio_duration(path_to_mp3))
+        else:
+            mp3_duration = None
         sources_data.append([
             name,
             info['status'],
             f'{int(info["progress"] * 100)} %',
             info['approved_count'],
-            info['approved_duration'],
+            utils.format_timedelta(info['approved_duration']),
+            utils.format_timedelta(mp3_duration) if mp3_duration else '?',
             metadata['language'],
         ])
         total_dur += info['approved_duration']
         total_count += info['approved_count']
         per_language_count[metadata['language']] += info['approved_count']
         per_language_dur[metadata['language']] += info['approved_duration']
+        if mp3_duration:
+            per_language_available[metadata['language']] += mp3_duration
+            total_available += mp3_duration
 
     sources_data.append([])
     sources_data.append([
@@ -501,6 +512,7 @@ def stats():
         '',
         total_count,
         utils.format_timedelta(total_dur),
+        utils.format_timedelta(total_available),
     ])
     for language, count in per_language_count.items():
         sources_data.append([
@@ -510,11 +522,12 @@ def stats():
             '',
             count,
             utils.format_timedelta(per_language_dur[language]),
+            utils.format_timedelta(per_language_available[language]),
             language,
         ])
     print('\n' + tabulate(
         sources_data,
-        headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches Duration', 'Language'],
+        headers=['Source', 'Status', 'Progress', '# speeches', 'Speeches duration', 'mp3 duration', 'Language'],
         tablefmt='pipe',
     ))
 

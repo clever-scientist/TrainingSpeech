@@ -40,7 +40,7 @@ SILENCE_START_REG = re.compile(r'^.*?silence_start:\s*(-?\d+\.?\d*)\s*$')
 
 
 def audio_duration(input_path: str) -> float:
-    assert os.path.isfile(input_path)
+    assert os.path.isfile(input_path), f'no such file {input_path}'
     input_path = os.path.abspath(input_path)
 
     duration = subprocess.check_output([
