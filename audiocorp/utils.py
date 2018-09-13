@@ -51,7 +51,7 @@ def replace_semi_colons(match):
 NORMALIZATIONS = [
     [re.compile(r'\n?\[\d+\]\n?'), ''],
     [re.compile(r'^((?:X|V|L|I|C)+)(\.|$)'), replace_chapter_number],
-    [re.compile(r'(^| )n(?:°|º)(\s)?'), r'\1numéro\2'],
+    [re.compile(r'(^| )(n)(?:°|º|°)(\s)?', flags=re.IGNORECASE), r'\1\2uméro\3'],
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
     [re.compile(r'^No '), 'Numéro '],
     ['M.\u00a0', 'Monsieur '],
