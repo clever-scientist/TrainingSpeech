@@ -39,14 +39,14 @@ def read_sources() -> dict:
         return json.load(f)
 
 
-def get_source(name: str) -> dict:
+def get_source(name: str, validate=True) -> dict:
     sources = read_sources()
     if name not in sources:
         raise Exception(f'source "{name}" not found')
     source = sources[name]
     data, errors = SourceSchema().load(source, many=False)
 
-    if errors:
+    if validate and errors:
         raise Exception(f'source "{name}" misconfigured: {errors}')
     return source
 

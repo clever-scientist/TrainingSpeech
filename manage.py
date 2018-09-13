@@ -445,12 +445,12 @@ def download(source_name):
         options = ''
         if source_name:
 
-            source = audiocorp.get_source(source_name)
-            options += f'--exclude \'*\' --include \'{source[key]}\' '
+            source = audiocorp.get_source(source_name, validate=False)
+            options += f' --exclude * --include {source[key]}'
 
-        sync_cmd = f'aws s3 sync {options}{s3} {local}'
+        sync_cmd = f'aws s3 sync {s3} {local}{options}'
         print(sync_cmd)
-        subprocess.call(sync_cmd.split(' '))
+        subprocess.call(sync_cmd.strip().split(' '))
 
 
 @cli.command()
@@ -458,12 +458,14 @@ def download(source_name):
 def upload(source_name):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
-        options = '--exclude .gitkeep --exclude \'*.zip\' '
+        options = '--exclude .gitkeep '
+        if source_name and key == 'releases':
+            continue
+        if key != 'releases':
+            options += ' --exclude *.zip '
         if source_name:
-            if key == 'releases':
-                continue
             source = audiocorp.get_source(source_name)
-            options += f'--exclude \'*\' --include \'{source[key]}\' '
+            options += f'--exclude * --include {source[key]} '
 
         sync_cmd = f'aws s3 sync {options}{local} {s3}'
         print(sync_cmd)
