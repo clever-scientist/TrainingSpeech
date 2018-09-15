@@ -1,18 +1,15 @@
-`AudioCorp` is an initiative to provide **open and freely reusable dataset** of voices… 
+`AudioCorp` is an initiative to provide **open and freely reusable dataset** of voices 
 
-…for speech-to-text models training… 
+ - for speech-to-text models training
 
-…on non-english languages… 
+ - on non-english languages 
 
-…using already available data such as audio-books.
+ - using already available data (such as audio-books).
  
 
+Right now, data are extracted exclusively from audio-books and in French language.
 
-Right now, data are extracted exclusively… 
-
-…from audio-books…
-
-…in French language. 
+Feel free to contribute ! 
 
 
 
@@ -20,7 +17,7 @@ Right now, data are extracted exclusively…
 
 `AudioCorp`  comes with a CLI that automate and simplify:
  - transcript extraction
- - [forced-alignment](https://github.com/pettarin/forced-alignment-tools#definition-of-forced-alignment)
+ - [forced-alignment](https://github.com/pettarin/forced-alignment-tools#definition-of-forced-alignment) (using [aeneas](https://github.com/readbeyond/aeneas))
  - validation and correction
 
 
@@ -56,7 +53,7 @@ $ pytest
 ```
 
 
-## Last releases
+## Last releases & download
 
 | Name                                                                                               |   # speeches |   # speakers | Total Duration   | Language   |
 |:---------------------------------------------------------------------------------------------------|-------------:|-------------:|:-----------------|:-----------|
