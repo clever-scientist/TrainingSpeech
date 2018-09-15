@@ -157,7 +157,7 @@ def filter_numbers(inp):
 
 
 def extract_sentences(full_text):
-    full_text = full_text.replace('… ', '…\n')
+    full_text = full_text.replace('… ', '…\n').replace('... ', '...\n')
     prev_sentence = None
     for line in full_text.split('\n'):
         line = line.strip()
@@ -170,11 +170,8 @@ def extract_sentences(full_text):
 
                 if prev_sentence and (
                         prev_sentence in NO_SPLIT_TOKENS or
-                        prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0] or
-                        sentence.startswith('Mais ') or
-                        sentence.startswith('Voilà tout.') or
-                        prev_sentence.endswith('….') or
-                        prev_sentence.endswith('…')
+                        (prev_sentence[-1] in '?!…' and sentence[0].lower() == sentence[0]) or
+                        sentence.startswith('Voilà tout.')
                 ):
                     prev_sentence = f'{prev_sentence} {sentence}'
                     continue

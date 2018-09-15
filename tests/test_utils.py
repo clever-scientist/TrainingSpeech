@@ -34,7 +34,9 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     ]),
     ('25.000', ['vingt-cinq mille']),
     ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
-        'La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.'
+        'La postérité ne pourra lui faire justice…',
+        'Pas de gloire, Cesare Bordone !…',
+        'Allons, c’est fini.',
     ]),
     ('(foo bar.)', ['foo bar.']),
     ('I\nBicêtre.', ['Chapitre un.', 'Bicêtre.']),
@@ -55,7 +57,6 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     # remove parentheses
     ('(foo bar)', ['foo bar']),
     ('(foo bar).', ['foo bar']),
-    ('foo. Mais bar', ['foo. Mais bar']),
     ('M.Morel', ['Monsieur Morel']),
     ('Si tu es grinche[15], je ne suis pas ton homme', ['Si tu es grinche, je ne suis pas ton homme']),
     ('— Bonsoir, Chourineur[1].', ['Bonsoir, Chourineur.']),
