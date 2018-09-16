@@ -49,14 +49,12 @@ J’ai l’habitude de ne jamais employer que les concierges, toutefois quand il
 Cette proposition, exprimée en termes si flatteurs.
 concierge !… gagna complètement Madame Pipelet.
 Elle répondit.
-Mais certainement, monsieur…
-Je ferai votre ménage…
+Mais certainement, monsieur… Je ferai votre ménage…
 Je m’en honore, et pour six francs par mois vous serez servi comme un prince.
 Va pour les six francs.
 Madame… votre nom ?
 Pomone-Fortunée-Anastasie Pipelet.
-Eh bien !
-Madame Pipelet, je consens aux six francs par mois pour vos gages.
+Eh bien ! Madame Pipelet, je consens aux six francs par mois pour vos gages.
 Et si la chambre me convient… quel est son prix ?
 Avec le cabinet, cent cinquante francs, monsieur.
 Pas un liard à rabattre…
@@ -98,7 +96,9 @@ Après avoir payé, Rodolphe regarda d’abord machinalement les deux lettres qu
 Mais bientôt elles lui semblèrent dignes d’un curieux examen.
 L’une, adressée à Madame Pipelet, exhalait à travers son enveloppe de papier satiné une forte odeur de sachet de peau d’Espagne.
 Sur son cachet de cire rouge, on voyait ces deux lettres.
-Chapitre cent. R., surmontées d’un casque et appuyées sur un support étoilé de la croix de la Légion d’honneur.
+C
+R
+surmontées d’un casque et appuyées sur un support étoilé de la croix de la Légion d’honneur.
 L’adresse était tracée d’une main ferme.
 La prétention héraldique de ce casque et de cette croix fit sourire Rodolphe et le confirma dans l’idée que cette lettre n’était pas écrite par une femme.
 Mais quel était le correspondant musqué, blasonné… de Madame Pipelet ?
@@ -138,10 +138,10 @@ Ah ! bien ! par exemple…
 Quel est donc le polisson qui oserait ?…
 Et si Alfred s’était trouvé là, madame Pipelet ?
 Ne dites pas ça, ou je m’évanouis dans vos bras !
-Je ne le dis plus, madame Pipelet !
-Mais que je suis bête !…
-M’y voilà, dit la portière en haussant les épaules, je sais… je sais… c’est du commandant…
+Je ne le lis plus, madame Pipelet !
+Mais que je suis bête !… M’y voilà, dit la portière en haussant les épaules, je sais… je sais… c’est du commandant…
 Ah ! quelle souleur j’ai eue !
+frayeur subite en ancien français
 Mais ça n’empêche pas de compter.
 voyons, c’est trois sous pour l’autre lettre, n’est-ce pas ?
 Ainsi nous disions, quinze sous de cassis et trois sous de port de lettre que je retiens, ça fait dix-huit.
@@ -156,8 +156,7 @@ Ce sera un à-compte sur le denier à Dieu, si je prends la chambre.
 Comme ça, j’accepte.
 Mais j’en préviendrai Alfred.
 Certainement.
-Mais voici l’autre lettre.
-elle est adressée à monsieur César Bradamanti.
+Mais voici l’autre lettre. elle est adressée à monsieur César Bradamanti.
 Ah ! oui…
 Le dentiste du troisième…
 Je vas la mettre dans la botte aux lettres.
@@ -172,8 +171,7 @@ Cette botte aux lettres surtout me ravit.
 Mon Dieu, c’est bien simple, reprit modestement Madame Pipelet.
 Alfred avait cette vieille botte dépareillée.
 Autant l’utiliser au service des locataires.
-Ce disant, la portière avait décacheté la lettre qui lui était adressée, elle la tournait en tout sens.
-Après quelques moments d’embarras, elle dit à Rodolphe.
+Ce disant, la portière avait décacheté la lettre qui lui était adressée, elle la tournait en tout sens. Après quelques moments d’embarras, elle dit à Rodolphe.
 C’est toujours Alfred qui est chargé de lire, parce que je ne le sais pas.
 Est-ce que vous voudriez bien, monsieur… être pour moi comme est Alfred ?
 Pour lire cette lettre, volontiers, dit Rodolphe, très-curieux de connaître le correspondant de Madame Pipelet.
@@ -195,8 +193,7 @@ Militaire ! reprit Madame Pipelet en haussant les épaules, allons donc ! c’es
 Comment ?
 Il est tout bonnement de la garde nationale, dans l’état-major.
 Le tapissier l’appelait commandant pour le flatter… de même que ça flatte Alfred quand on l’appelle concierge.
-Enfin, quand le commandant (nous ne le connaissons que sous ce nom-là) a eu tout vu, il a dit au tapissier.
-C’est bon, ça me convient, arrangez ça, voyez le propriétaire.
+Enfin, quand le commandant (nous ne le connaissons que sous ce nom-là) a eu tout vu, il a dit au tapissier. C’est bon, ça me convient, arrangez ça, voyez le propriétaire.
 Oui, commandant, qu’a dit l’autre…—Et le lendemain le tapissier a signé le bail en son nom, à lui, tapissier, avec monsieur Bras-Rouge, lui a payé six mois d’avance, parce qu’il paraît que le jeune homme ne veut pas être connu.
 Tout de suite après, les ouvriers sont venus tout démolir au premier.
 Ils ont apporté des essophas, des rideaux en soie, des glaces dorées, des meubles superbes.

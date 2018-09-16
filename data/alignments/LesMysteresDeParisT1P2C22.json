@@ -1,0 +1,833 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 2.27,
+    "text": "Chapitre vingt-deux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 2.408,
+    "end": 4.062,
+    "text": "Inqui\u00e9tudes."
+  },
+  {
+    "approved": true,
+    "begin": 4.712,
+    "end": 23.39,
+    "text": "Pendant que la Goualeuse s\u2019occupait de ces soins champ\u00eatres, Madame Georges et l\u2019abb\u00e9 Laporte, cur\u00e9 de Bouqueval, assis au coin du feu dans le petit salon de la ferme, parlaient de Fleur-de-Marie, sujet d\u2019entretien toujours int\u00e9ressant pour eux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 23.656,
+    "end": 35.678,
+    "text": "Le vieux cur\u00e9, pensif, recueilli, la t\u00eate basse et les coudes appuy\u00e9s sur ses genoux, \u00e9tendait machinalement devant le foyer ses deux mains tremblantes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 35.816,
+    "end": 44.254,
+    "text": "Madame Georges, occup\u00e9e d\u2019un travail de couture, regardait l\u2019abb\u00e9 de temps \u00e0 autre et paraissait attendre qu\u2019il lui r\u00e9pond\u00eet."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 45.032,
+    "end": 47.454,
+    "text": "Apr\u00e8s un moment de silence."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 47.848,
+    "end": 52.574,
+    "text": "Vous avez raison, madame Georges, il faudra pr\u00e9venir monsieur Rodolphe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 52.84,
+    "end": 60.894,
+    "text": "S\u2019il interroge Marie, elle lui est si reconnaissante qu\u2019elle avouera peut-\u00eatre \u00e0 son bienfaiteur ce qu\u2019elle nous cache\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 61.672,
+    "end": 63.838,
+    "text": "N\u2019est-il pas vrai, monsieur le cur\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 63.976,
+    "end": 69.214,
+    "text": "Alors, ce soir m\u00eame j\u2019\u00e9crirai \u00e0 l\u2019adresse qu\u2019il m\u2019a donn\u00e9e, all\u00e9e des Veuves\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 69.736,
+    "end": 72.03,
+    "text": "Pauvre enfant ! reprit l\u2019abb\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 71.912,
+    "end": 74.59,
+    "text": "Elle devrait se trouver si heureuse\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 74.728,
+    "end": 78.174,
+    "text": "Quel chagrin peut donc la miner \u00e0 cette heure ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 78.824,
+    "end": 85.47,
+    "text": "Rien ne la peut distraire de cette tristesse, monsieur le cur\u00e9\u2026 pas m\u00eame l\u2019application qu\u2019elle met \u00e0 l\u2019\u00e9tude\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 86.12,
+    "end": 93.406,
+    "text": "Elle a v\u00e9ritablement fait des progr\u00e8s extraordinaires depuis le peu de temps que nous nous occupons de son \u00e9ducation."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 93.16,
+    "end": 95.07,
+    "text": "N\u2019est-ce pas, monsieur l\u2019abb\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 94.952,
+    "end": 102.622,
+    "text": "Apprendre \u00e0 lire et \u00e0 \u00e9crire presque couramment, et savoir assez compter pour m\u2019aider \u00e0 tenir les livres de la ferme !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 102.632,
+    "end": 110.686,
+    "text": "Et puis cette ch\u00e8re petite me seconde si activement en toutes choses que j\u2019en suis \u00e0 la fois touch\u00e9e et \u00e9merveill\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 110.952,
+    "end": 117.47,
+    "text": "Ne s\u2019est-elle pas, presque malgr\u00e9 moi, fatigu\u00e9e de mani\u00e8re \u00e0 m\u2019inqui\u00e9ter sur sa sant\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 117.864,
+    "end": 123.998,
+    "text": "Heureusement ce m\u00e9decin n\u00e8gre nous a rassur\u00e9s sur les suites de cette toux l\u00e9g\u00e8re qui nous effrayait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 124.52,
+    "end": 127.326,
+    "text": "Il est si bon, ce monsieur David !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 127.208,
+    "end": 129.606,
+    "text": "Il s\u2019int\u00e9ressait tant \u00e0 elle !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 129.28,
+    "end": 132.958,
+    "text": "Mon Dieu, comme tous ceux qui la connaissent."
+  },
+  {
+    "approved": true,
+    "begin": 132.968,
+    "end": 136.414,
+    "text": "Ici, chacun la ch\u00e9rit et la respecte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 136.552,
+    "end": 146.91,
+    "text": "Cela n\u2019est pas \u00e9tonnant, puisque, gr\u00e2ce aux vues g\u00e9n\u00e9reuses et \u00e9lev\u00e9es de monsieur Rodolphe, les gens de cette m\u00e9tairie sont l\u2019\u00e9lite des meilleurs sujets du pays."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 147.048,
+    "end": 158.814,
+    "text": "Mais les \u00eatres les plus grossiers, les plus indiff\u00e9rents, ressentiraient l\u2019attrait de cette douceur \u00e0 la fois ang\u00e9lique et craintive qui a toujours l\u2019air de demander gr\u00e2ce."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 159.208,
+    "end": 161.118,
+    "text": "Malheureuse enfant !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 161.0,
+    "end": 163.55,
+    "text": "Comme si elle \u00e9tait seule coupable !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 163.688,
+    "end": 167.134,
+    "text": "L\u2019abb\u00e9 reprit apr\u00e8s quelques minutes de r\u00e9flexions."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 167.272,
+    "end": 182.238,
+    "text": "Ne m\u2019avez-vous pas dit que la tristesse de Marie datait pour ainsi dire du s\u00e9jour que Madame Dubreuil, la fermi\u00e8re de Monsieur le duc de Lucenay \u00e0 Arnouville, avait fait ici, lors des f\u00eates de la Toussaint ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 182.76,
+    "end": 196.574,
+    "text": "Oui, monsieur le cur\u00e9, j\u2019ai cru le remarquer, et pourtant Madame Dubreuil, et surtout sa fille Clara, mod\u00e8le de candeur et de bont\u00e9, ont subi comme tout le monde le charme de Marie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 196.456,
+    "end": 200.03,
+    "text": "Toutes deux l\u2019accablent journellement de marques d\u2019amiti\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 200.296,
+    "end": 207.198,
+    "text": "Vous le savez, le dimanche nos amis d\u2019Arnouville viennent ici, ou bien nous allons chez eux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 207.336,
+    "end": 216.03,
+    "text": "Eh bien ! l\u2019on dirait que chaque visite augmente la m\u00e9lancolie de notre ch\u00e8re enfant, quoique Clara l\u2019aime d\u00e9j\u00e0 comme une s\u0153ur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 216.04,
+    "end": 219.742,
+    "text": "En v\u00e9rit\u00e9, madame Georges, c\u2019est un myst\u00e8re \u00e9trange."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 219.88,
+    "end": 223.07,
+    "text": "Quelle peut \u00eatre la cause de ce chagrin cach\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 223.336,
+    "end": 226.014,
+    "text": "Elle devrait se trouver si heureuse !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 226.28,
+    "end": 232.286,
+    "text": "Entre sa vie pr\u00e9sente et sa vie pass\u00e9e, il y a la diff\u00e9rence de l\u2019enfer au paradis."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 232.424,
+    "end": 235.486,
+    "text": "On ne saurait l\u2019accuser d\u2019ingratitude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 235.752,
+    "end": 241.63,
+    "text": "Elle ! grand Dieu !\u2026 elle\u2026 si tendrement reconnaissante de nos soins !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 241.896,
+    "end": 247.518,
+    "text": "Elle chez qui nous avons toujours trouv\u00e9 des instincts d\u2019une si rare d\u00e9licatesse !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 247.656,
+    "end": 253.918,
+    "text": "Cette pauvre petite ne fait-elle pas tout ce qu\u2019elle peut afin de gagner pour ainsi dire sa vie ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 254.056,
+    "end": 259.806,
+    "text": "Ne t\u00e2che-t-elle pas de compenser par les services qu\u2019elle rend l\u2019hospitalit\u00e9 qu\u2019on lui donne ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 260.072,
+    "end": 261.342,
+    "text": "Ce n\u2019est pas tout."
+  },
+  {
+    "approved": true,
+    "begin": 261.224,
+    "end": 284.51,
+    "text": "Except\u00e9 le dimanche, o\u00f9 j\u2019exige qu\u2019elle s\u2019habille avec un peu de recherche pour m\u2019accompagner \u00e0 l\u2019\u00e9glise, elle a voulu porter des v\u00eatements aussi grossiers que ceux des filles de campagne, et malgr\u00e9 cela il existe en elle une distinction, une gr\u00e2ce si naturelles, qu\u2019elle est encore charmante sous ces habits, n\u2019est-ce pas, monsieur le cur\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "begin": 285.254,
+    "end": 290.398,
+    "text": "Ah ! que je reconnais bien l\u00e0 l\u2019orgueil maternel ! dit le vieux pr\u00eatre en souriant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 291.048,
+    "end": 295.006,
+    "text": "\u00c0 ces mots, les yeux de Madame Georges se remplirent de larmes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 295.4,
+    "end": 297.566,
+    "text": "elle pensait \u00e0 son fils."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 298.088,
+    "end": 301.79,
+    "text": "L\u2019abb\u00e9 devina la cause de son \u00e9motion et lui dit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 301.544,
+    "end": 302.918,
+    "text": "Courage !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 302.72,
+    "end": 310.622,
+    "text": "Dieu vous a envoy\u00e9 cette pauvre enfant pour vous aider \u00e0 attendre le moment o\u00f9 vous retrouverez votre fils."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 310.888,
+    "end": 315.358,
+    "text": "Et puis un lien sacr\u00e9 vous attachera bient\u00f4t \u00e0 Marie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 315.368,
+    "end": 321.118,
+    "text": "une marraine, lorsqu\u2019elle comprend bien sa mission, c\u2019est presque une m\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 321.128,
+    "end": 330.59,
+    "text": "Quant \u00e0 monsieur Rodolphe, il lui a donn\u00e9, pour ainsi dire, la vie de l\u2019\u00e2me en la retirant de l\u2019ab\u00eeme\u2026 d\u2019avance il a rempli ses devoirs de parrain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 330.6,
+    "end": 337.758,
+    "text": "La trouvez-vous suffisamment instruite pour lui accorder ce sacrement, que l\u2019infortun\u00e9e n\u2019a sans doute pas encore re\u00e7u ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 337.64,
+    "end": 346.206,
+    "text": "Tout \u00e0 l\u2019heure en m\u2019en retournant avec elle au presbyt\u00e8re, je la pr\u00e9viendrai que cette c\u00e9r\u00e9monie se fera probablement dans quinze jours."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 347.112,
+    "end": 354.526,
+    "text": "Peut-\u00eatre, monsieur le cur\u00e9, pr\u00e9siderez-vous un jour une autre c\u00e9r\u00e9monie aussi bien douce et bien grave\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 354.664,
+    "end": 356.446,
+    "text": "Que voulez-vous dire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 356.84,
+    "end": 364.638,
+    "text": "Si Marie \u00e9tait aim\u00e9e autant qu\u2019elle le m\u00e9rite, si elle distinguait un brave et honn\u00eate homme, pourquoi ne se marierait-elle pas ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 365.032,
+    "end": 368.478,
+    "text": "L\u2019abb\u00e9 secoua tristement la t\u00eate et r\u00e9pondit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 368.744,
+    "end": 370.246,
+    "text": "La marier !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 369.92,
+    "end": 377.566,
+    "text": "Songez-y donc, madame Georges, la v\u00e9rit\u00e9 ordonnera de tout dire \u00e0 celui qui voudrait \u00e9pouser Marie\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 377.832,
+    "end": 386.398,
+    "text": "Et quel homme, malgr\u00e9 ma caution et la v\u00f4tre, affronterait le pass\u00e9 qui a souill\u00e9 la jeunesse de cette malheureuse enfant !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 386.664,
+    "end": 388.83,
+    "text": "Personne ne voudra d\u2019elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 389.352,
+    "end": 392.03,
+    "text": "Mais monsieur Rodolphe est si g\u00e9n\u00e9reux !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 391.912,
+    "end": 395.998,
+    "text": "Il fera pour sa prot\u00e9g\u00e9e plus qu\u2019il n\u2019a fait encore\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 395.752,
+    "end": 397.278,
+    "text": "Une dot\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 397.928,
+    "end": 407.774,
+    "text": "H\u00e9las dit le cur\u00e9 en interrompant Madame Georges, malheur \u00e0 Marie, si la cupidit\u00e9 doit seule apaiser les scrupules de celui qui l\u2019\u00e9pousera !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 408.04,
+    "end": 411.23,
+    "text": "Elle serait vou\u00e9e au sort le plus p\u00e9nible."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 411.24,
+    "end": 415.326,
+    "text": "De cruelles r\u00e9criminations suivraient bient\u00f4t une telle union."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 415.464,
+    "end": 419.422,
+    "text": "Vous avez raison, monsieur l\u2019abb\u00e9, cela serait horrible."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 419.304,
+    "end": 423.006,
+    "text": "Ah ! quel malheureux avenir lui est donc r\u00e9serv\u00e9 !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 423.144,
+    "end": 426.462,
+    "text": "Elle a de grandes fautes \u00e0 expier, dit gravement le cur\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 426.856,
+    "end": 440.926,
+    "text": "Mon Dieu ! monsieur l\u2019abb\u00e9, abandonn\u00e9e si jeune, sans ressources, sans appui, presque sans notions du bien et du mal, entra\u00een\u00e9e malgr\u00e9 elle dans la voie du vice comment n\u2019aurait-elle pas failli ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 441.576,
+    "end": 445.278,
+    "text": "Le bon sens moral aurait d\u00fb la soutenir, l\u2019\u00e9clairer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 445.16,
+    "end": 449.094,
+    "text": "Et d\u2019ailleurs a-t-elle t\u00e2ch\u00e9 d\u2019\u00e9chapper \u00e0 cet horrible sort ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 448.768,
+    "end": 452.574,
+    "text": "Les \u00e2mes charitables sont-elles donc si rares \u00e0 Paris ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 452.712,
+    "end": 454.47,
+    "text": "Non, sans doute."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 454.144,
+    "end": 456.03,
+    "text": "Mais o\u00f9 aller les chercher ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 456.168,
+    "end": 460.766,
+    "text": "Avant que d\u2019en d\u00e9couvrir une, que de refus, que d\u2019indiff\u00e9rence !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 461.032,
+    "end": 471.134,
+    "text": "Et puis, pour Marie il ne s\u2019agissait pas d\u2019une aum\u00f4ne passag\u00e8re, mais d\u2019un int\u00e9r\u00eat continu qui l\u2019e\u00fbt mise \u00e0 m\u00eame de gagner honorablement sa vie\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 471.4,
+    "end": 477.79,
+    "text": "Bien des m\u00e8res sans doute auraient eu piti\u00e9 d\u2019elle, mais il fallait avoir le bonheur de les rencontrer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 477.8,
+    "end": 481.118,
+    "text": "Ah ! croyez-moi, j\u2019ai connu la mis\u00e8re\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 481.128,
+    "end": 490.438,
+    "text": "\u00c0 moins d\u2019un hasard providentiel semblable \u00e0 celui qui, h\u00e9las ! trop tard, a fait conna\u00eetre Marie \u00e0 monsieur Rodolphe."
+  },
+  {
+    "approved": true,
+    "begin": 490.112,
+    "end": 512.35,
+    "text": "\u00c0 moins, dis-je, d\u2019un de ces hasards, les malheureux, presque toujours brutalement repouss\u00e9s \u00e0 leurs premi\u00e8res demandes, croient la piti\u00e9 introuvable, et press\u00e9s par la faim\u2026 la faim si imp\u00e9rieuse, ils cherchent souvent dans le vice des ressources qu\u2019ils d\u00e9sesp\u00e8rent d\u2019obtenir dans la commis\u00e9ration."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 512.744,
+    "end": 515.934,
+    "text": "\u00c0 ce moment, la Goualeuse entra dans le salon."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 516.328,
+    "end": 520.286,
+    "text": "D\u2019o\u00f9 venez-vous, mon enfant ? lui demanda Madame Georges avec int\u00e9r\u00eat."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 520.68,
+    "end": 526.046,
+    "text": "De visiter le fruitier, madame, apr\u00e8s avoir ferm\u00e9 les portes de la basse-cour."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 526.056,
+    "end": 530.654,
+    "text": "Les fruits sont tr\u00e8s-bien conserv\u00e9s, sauf quelques-uns que j\u2019ai \u00f4t\u00e9s."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 530.792,
+    "end": 534.726,
+    "text": "Pourquoi n\u2019avez-vous pas dit \u00e0 Claudine de faire cette besogne, Marie ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 534.528,
+    "end": 536.542,
+    "text": "Vous vous serez encore fatigu\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 536.808,
+    "end": 543.582,
+    "text": "Non, non, madame, je me plais tant dans mon fruitier, cette bonne odeur de fruits m\u00fbrs est si douce !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 543.72,
+    "end": 549.086,
+    "text": "Il faudra, monsieur le cur\u00e9, que vous visitiez un jour le fruitier de Marie, dit Madame Georges."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 549.096,
+    "end": 552.926,
+    "text": "Vous ne vous figurez pas avec quel go\u00fbt elle l\u2019a arrang\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 553.192,
+    "end": 563.038,
+    "text": "des guirlandes de raisin s\u00e9parent chaque esp\u00e8ce de fruits, et ceux-ci sont encore divis\u00e9s en compartiments par des bordures de mousse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 563.688,
+    "end": 568.926,
+    "text": "Oh ! monsieur le cur\u00e9, je suis s\u00fbre que vous serez content, dit ing\u00e9nument la Goualeuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 569.064,
+    "end": 576.35,
+    "text": "Vous verrez comme la mousse fait un joli effet autour des pommes bien rouges ou des belles poires couleur d\u2019or."
+  },
+  {
+    "approved": true,
+    "begin": 576.488,
+    "end": 592.862,
+    "text": "Il y a surtout des pommes d\u2019api qui sont si gentilles, qui ont de si charmantes couleurs roses et blanches qu\u2019elles ont l\u2019air de petites t\u00eates de ch\u00e9rubins dans un nid de mousse verte, ajouta la jeune fille avec l\u2019exaltation de l\u2019artiste pour son \u0153uvre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 593.128,
+    "end": 598.238,
+    "text": "Le cur\u00e9 regarda Madame Georges en souriant et dit \u00e0 Fleur-de-Marie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 598.376,
+    "end": 601.694,
+    "text": "J\u2019ai admir\u00e9 la laiterie que vous dirigez, mon enfant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 601.704,
+    "end": 605.278,
+    "text": "Elle ferait l\u2019envie de la m\u00e9nag\u00e8re la plus difficile."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 605.544,
+    "end": 619.23,
+    "text": "Un de ces jours j\u2019irai aussi admirer votre fruitier, et ces belles pommes rouges, et ces belles poires couleur d\u2019or, et surtout ces jolies pommes-ch\u00e9rubins dans leur lit de mousse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 619.496,
+    "end": 622.174,
+    "text": "Mais voici le soleil tout \u00e0 l\u2019heure couch\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 622.184,
+    "end": 627.422,
+    "text": "Vous n\u2019aurez que le temps de me conduire au presbyt\u00e8re et de revenir ici avant la nuit\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 627.688,
+    "end": 630.366,
+    "text": "Prenez votre mante et partons, mon enfant\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 630.504,
+    "end": 634.182,
+    "text": "Mais au fait, j\u2019y songe, le froid est bien vif."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 634.112,
+    "end": 637.406,
+    "text": "Restez, quelqu\u2019un de la ferme m\u2019accompagnera."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 637.672,
+    "end": 645.086,
+    "text": "Ah ! monsieur le cur\u00e9, vous la rendriez malheureuse, dit Madame Georges, elle est si contente de vous reconduire ainsi chaque soir !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 645.608,
+    "end": 658.27,
+    "text": "Monsieur le cur\u00e9, ajouta la Goualeuse en levant sur le pr\u00eatre ses grands yeux bleus et timides, je croirais que vous n\u2019\u00eates pas content de moi, si vous ne me permettiez pas de vous accompagner comme d\u2019habitude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 658.536,
+    "end": 659.55,
+    "text": "Moi ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 659.304,
+    "end": 665.182,
+    "text": "Pauvre enfant\u2026 prenez donc vite, vite, votre mante alors, et enveloppez-vous bien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 665.192,
+    "end": 678.494,
+    "text": "Fleur-de-Marie se h\u00e2ta de jeter sur ses \u00e9paules une sorte de pelisse \u00e0 capuchon en grosse \u00e9toffe de laine blanch\u00e2tre bord\u00e9e d\u2019un ruban de velours noir et offrit son bras au cur\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 679.016,
+    "end": 683.742,
+    "text": "Heureusement, dit celui-ci, qu\u2019il n\u2019y a pas loin et que la route est s\u00fbre\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 683.624,
+    "end": 691.678,
+    "text": "Comme il est un peu plus tard aujourd\u2019hui que les autres jours, reprit Madame Georges, voulez-vous que quelqu\u2019un de la ferme aille avec vous, Marie ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 692.2,
+    "end": 695.774,
+    "text": "On me prendrait pour une peureuse\u2026, dit Marie en souriant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 695.656,
+    "end": 698.846,
+    "text": "Merci, madame, ne d\u00e9rangez personne pour moi."
+  },
+  {
+    "approved": true,
+    "begin": 698.728,
+    "end": 704.862,
+    "text": "Il n\u2019y a pas un quart d\u2019heure de chemin d\u2019ici au presbyt\u00e8re, je serai de retour avant la nuit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 705.512,
+    "end": 711.774,
+    "text": "Je n\u2019insiste pas, car jamais, Dieu merci ! on n\u2019a entendu parler de vagabonds dans ce pays."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 712.168,
+    "end": 719.326,
+    "text": "Sans cela, je n\u2019accepterais pas le bras de cette ch\u00e8re enfant, dit le cur\u00e9, quoiqu\u2019il me soit d\u2019un grand secours."
+  },
+  {
+    "approved": true,
+    "begin": 719.72,
+    "end": 755.36,
+    "text": "Bient\u00f4t l\u2019abb\u00e9 quitta la ferme appuy\u00e9 sur le bras de Fleur-de-Marie, qui r\u00e9glait son pas l\u00e9ger sur la marche lente et p\u00e9nible du vieillard. Quelques minutes apr\u00e8s, le pr\u00eatre et la Goualeuse arriv\u00e8rent aupr\u00e8s du chemin creux o\u00f9 \u00e9taient embusqu\u00e9s le Ma\u00eetre d\u2019\u00e9cole, la Chouette et Tortillard."
+  }
+]

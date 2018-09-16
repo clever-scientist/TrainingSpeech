@@ -306,6 +306,13 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
     # look for warnings
     alignment = [f for f in alignment if not f.get('merged')]
     for prev_fragment, next_fragment in zip(alignment[:-1], alignment[1:]):
+        if '***' in prev_fragment['text']:
+            prev_fragment['warn'] = True
+            continue
+        if '***' in next_fragment['text']:
+            next_fragment['warn'] = True
+            continue
+
         if (next_fragment['begin'] - prev_fragment['end']) > 1:
             continue
 
