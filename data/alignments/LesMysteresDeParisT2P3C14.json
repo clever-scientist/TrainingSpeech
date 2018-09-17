@@ -1,0 +1,734 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 2.526,
+    "text": "Chapitre quatorze."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 3.048,
+    "end": 4.83,
+    "text": "Le chemin creux"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 6.12,
+    "end": 8.39,
+    "text": "Le soleil se couchait \u00e0 l\u2019horizon."
+  },
+  {
+    "approved": true,
+    "begin": 8.39,
+    "end": 11.486,
+    "text": "La plaine \u00e9tait d\u00e9serte, silencieuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 11.752,
+    "end": 26.078,
+    "text": "Fleur-de-Marie approchait de l\u2019entr\u00e9e du chemin creux qu\u2019il lui fallait traverser pour se rendre au presbyt\u00e8re, lorsqu\u2019elle vit sortir de la ravine un petit gar\u00e7on boiteux, v\u00eatu d\u2019une blouse grise et d\u2019une casquette bleue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 26.344,
+    "end": 33.118,
+    "text": "Il semblait \u00e9plor\u00e9, et, du plus loin qu\u2019il aper\u00e7ut la Goualeuse, il accourut pr\u00e8s d\u2019elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 33.64,
+    "end": 40.03,
+    "text": "Oh ! ma bonne dame, ayez piti\u00e9 de moi, s\u2019il vous pla\u00eet ! s\u2019\u00e9cria-t-il en joignant les mains d\u2019un air suppliant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 40.296,
+    "end": 41.566,
+    "text": "Que voulez-vous ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 41.32,
+    "end": 45.534,
+    "text": "Qu\u2019avez-vous, mon enfant ? lui demanda la Goualeuse avec int\u00e9r\u00eat."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 45.288,
+    "end": 53.854,
+    "text": "H\u00e9las ! ma bonne dame, ma pauvre grand\u2019m\u00e8re, qui est bien vieille, bien vieille, est tomb\u00e9e l\u00e0-bas, en descendant le ravin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 53.864,
+    "end": 58.462,
+    "text": "Elle s\u2019est fait beaucoup de mal\u2026 j\u2019ai peur qu\u2019elle se soit cass\u00e9 la jambe\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 58.344,
+    "end": 61.406,
+    "text": "Je suis trop faible pour l\u2019aider \u00e0 se relever\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 61.416,
+    "end": 65.246,
+    "text": "Mon Dieu, comment faire, si vous ne venez pas \u00e0 mon secours ?"
+  },
+  {
+    "approved": true,
+    "begin": 65.256,
+    "end": 68.446,
+    "text": "Pauvre grand\u2019m\u00e8re ! elle va mourir peut-\u00eatre !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 68.456,
+    "end": 72.542,
+    "text": "La Goualeuse, touch\u00e9e de la douleur du petit boiteux, s\u2019\u00e9cria."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 72.552,
+    "end": 79.198,
+    "text": "Je ne suis pas tr\u00e8s-forte non plus, mon enfant, mais je pourrai peut-\u00eatre vous aider \u00e0 secourir votre grand\u2019m\u00e8re\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 79.08,
+    "end": 80.966,
+    "text": "Allons vite pr\u00e8s d\u2019elle\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 80.768,
+    "end": 87.774,
+    "text": "Je demeure \u00e0 cette ferme l\u00e0-bas\u2026 si la pauvre vieille ne peut s\u2019y transporter avec nous, je l\u2019enverrai chercher."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 88.168,
+    "end": 92.23,
+    "text": "Oh ! ma bonne dame, le bon Dieu vous b\u00e9nira, bien s\u00fbr\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 92.032,
+    "end": 96.07,
+    "text": "C\u2019est par ici\u2026 \u00e0 deux pas, dans le chemin creux, comme je vous le disais."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 95.744,
+    "end": 98.758,
+    "text": "C\u2019est en descendant la berge qu\u2019elle a tomb\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 98.432,
+    "end": 104.926,
+    "text": "Vous n\u2019\u00eates donc pas du pays ? demanda la Goualeuse en suivant Tortillard, que l\u2019on a sans doute d\u00e9j\u00e0 reconnu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 104.808,
+    "end": 107.742,
+    "text": "Non, ma bonne dame, nous venons d\u2019\u00c9couen."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 107.752,
+    "end": 109.278,
+    "text": "Et o\u00f9 alliez-vous ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 109.032,
+    "end": 117.47,
+    "text": "Chez un bon cur\u00e9 qui demeure sur la colline l\u00e0-bas\u2026, dit le fils de Bras-Rouge, pour augmenter la confiance de Fleur-de-Marie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 117.608,
+    "end": 120.262,
+    "text": "Chez Monsieur l\u2019abb\u00e9 Laporte, peut-\u00eatre ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 119.936,
+    "end": 126.046,
+    "text": "Oui, ma bonne dame, chez Monsieur l\u2019abb\u00e9 Laporte, ma pauvre grand\u2019m\u00e8re le conna\u00eet beaucoup, beaucoup\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 126.44,
+    "end": 128.35,
+    "text": "J\u2019allais justement chez lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 128.104,
+    "end": 133.854,
+    "text": "Quelle rencontre ! dit Fleur-de-Marie en s\u2019enfon\u00e7ant de plus en plus dans le chemin creux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 133.736,
+    "end": 136.262,
+    "text": "Grand\u2019maman ! me voil\u00e0, me voil\u00e0 !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 136.192,
+    "end": 146.27,
+    "text": "Prends patience, je t\u2019am\u00e8ne du secours ! cria Tortillard pour pr\u00e9venir le Ma\u00eetre d\u2019\u00e9cole et la Chouette de se tenir pr\u00eats \u00e0 saisir leur victime."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 146.408,
+    "end": 150.366,
+    "text": "Votre grand\u2019m\u00e8re n\u2019est donc pas tomb\u00e9e loin d\u2019ici ? demanda la Goualeuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 150.376,
+    "end": 155.614,
+    "text": "Non, ma bonne dame, derri\u00e8re ce gros arbre l\u00e0-bas, o\u00f9 le chemin tourne, \u00e0 vingt pas d\u2019ici."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 155.88,
+    "end": 158.302,
+    "text": "Tout \u00e0 coup Tortillard s\u2019arr\u00eata."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 158.44,
+    "end": 163.294,
+    "text": "Le bruit du galop d\u2019un cheval retentit dans le silence de la plaine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 163.688,
+    "end": 166.75,
+    "text": "Tout est encore perdu, se dit Tortillard."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 167.016,
+    "end": 175.198,
+    "text": "Le chemin faisait un coude tr\u00e8s-prononc\u00e9 \u00e0 quelques toises de l\u2019endroit o\u00f9 le fils de Bras-Rouge se trouvait avec la Goualeuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 175.464,
+    "end": 178.398,
+    "text": "Un cavalier parut \u00e0 ce d\u00e9tour."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 178.536,
+    "end": 181.726,
+    "text": "Lorsqu\u2019il fut aupr\u00e8s de la jeune fille, il s\u2019arr\u00eata."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 181.992,
+    "end": 196.318,
+    "text": "On entendit alors le trot d\u2019un autre cheval, et quelques moments apr\u00e8s survint un domestique v\u00eatu d\u2019une redingote brune \u00e0 boutons d\u2019argent, d\u2019une culotte de peau blanche et de bottes \u00e0 revers."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 196.456,
+    "end": 203.358,
+    "text": "Une \u00e9troite ceinture de cuir fauve serrait derri\u00e8re sa taille le mackintosh de son ma\u00eetre."
+  },
+  {
+    "approved": true,
+    "begin": 203.24,
+    "end": 217.566,
+    "text": "Le ma\u00eetre, v\u00eatu simplement d\u2019une \u00e9paisse redingote bronze et d\u2019un pantalon gris clair, montait avec une gr\u00e2ce parfaite un cheval bai, de pur sang, d\u2019une beaut\u00e9 singuli\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 217.576,
+    "end": 227.806,
+    "text": "Malgr\u00e9 la longue course qu\u2019il venait de faire, le lustre \u00e9clatant de sa robe \u00e0 reflets dor\u00e9s ne se ternissait pas m\u00eame d\u2019une l\u00e9g\u00e8re moiteur."
+  },
+  {
+    "approved": true,
+    "begin": 227.816,
+    "end": 235.742,
+    "text": "Le cheval du groom, qui resta immobile \u00e0 quelques pas de son ma\u00eetre, \u00e9tait aussi plein de race et de distinction."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 235.624,
+    "end": 247.134,
+    "text": "Dans ce cavalier, d\u2019une figure brune et charmante, Tortillard reconnut Monsieur le vicomte de Saint-Remy, que l\u2019on supposait \u00eatre l\u2019amant de Madame la duchesse de Lucenay."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 247.4,
+    "end": 256.35,
+    "text": "Ma jolie fille, dit le vicomte \u00e0 la Goualeuse, dont la beaut\u00e9 le frappa, auriez-vous l\u2019obligeance de m\u2019indiquer la route du village d\u2019Arnouville ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 256.232,
+    "end": 262.11,
+    "text": "Marie, baissant les yeux devant le regard profond et hardi de ce jeune homme, r\u00e9pondit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 262.248,
+    "end": 268.126,
+    "text": "En sortant du chemin creux, monsieur, vous prendrez le premier sentier \u00e0 main droite."
+  },
+  {
+    "approved": true,
+    "begin": 268.136,
+    "end": 274.27,
+    "text": "ce sentier vous conduira \u00e0 une avenue de cerisiers qui m\u00e8ne directement \u00e0 Arnouville."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 274.408,
+    "end": 276.574,
+    "text": "Mille gr\u00e2ces, ma belle enfant\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 276.456,
+    "end": 283.206,
+    "text": "Vous me renseignez mieux qu\u2019une vieille femme que j\u2019ai trouv\u00e9e \u00e0 deux pas d\u2019ici, \u00e9tendue au pied d\u2019un arbre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 282.88,
+    "end": 287.71,
+    "text": "Je n\u2019ai pu en tirer d\u2019elle autre chose que des g\u00e9missements."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 287.464,
+    "end": 292.19,
+    "text": "Ma pauvre grand\u2019m\u00e8re !\u2026 murmura Tortillard d\u2019une voix dolente."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 292.584,
+    "end": 302.558,
+    "text": "Maintenant, encore un mot, reprit Monsieur de Saint-Remy en s\u2019adressant \u00e0 la Goualeuse, pouvez-vous me dire si je trouverai facilement, \u00e0 Arnouville, la ferme de monsieur Dubreuil ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 303.08,
+    "end": 310.11,
+    "text": "La Goualeuse ne put s\u2019emp\u00eacher de tressaillir \u00e0 ces mots qui lui rappelaient la p\u00e9nible sc\u00e8ne de la matin\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 310.12,
+    "end": 311.774,
+    "text": "Elle r\u00e9pondit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 311.784,
+    "end": 317.79,
+    "text": "Les b\u00e2timents de la ferme bordent l\u2019avenue que vous allez suivre pour vous rendre \u00e0 Arnouville, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 318.44,
+    "end": 322.654,
+    "text": "Encore une fois, merci, ma belle enfant ! dit Monsieur de Saint-Remy."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 322.664,
+    "end": 325.982,
+    "text": "Et il partit au galop, suivi de son groom."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 325.992,
+    "end": 332.638,
+    "text": "Les traits charmants du vicomte s\u2019\u00e9taient quelque peu d\u00e9rid\u00e9s pendant qu\u2019il parlait \u00e0 Fleur-de-Marie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 332.648,
+    "end": 339.294,
+    "text": "D\u00e8s qu\u2019il fut seul, ils redevinrent sombres et contract\u00e9s par une inqui\u00e9tude profonde."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 339.304,
+    "end": 353.63,
+    "text": "Fleur-de-Marie, se souvenant de la personne inconnue pour qui l\u2019on pr\u00e9parait \u00e0 la h\u00e2te un pavillon de la ferme d\u2019Arnouville par les ordres de Madame de Lucenay, ne douta pas qu\u2019il ne s\u2019ag\u00eet de ce jeune et beau cavalier."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 354.152,
+    "end": 360.03,
+    "text": "Le galop des chevaux \u00e9branla quelque temps encore la terre durcie par la gel\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 360.424,
+    "end": 363.358,
+    "text": "Il s\u2019amoindrit, cessa\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 363.24,
+    "end": 365.662,
+    "text": "Tout redevint silencieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 366.184,
+    "end": 368.35,
+    "text": "Tortillard respira."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 368.872,
+    "end": 379.614,
+    "text": "Voulant rassurer et avertir ses complices, dont l\u2019un, le Ma\u00eetre d\u2019\u00e9cole, s\u2019\u00e9tait d\u00e9rob\u00e9 \u00e0 la vue des cavaliers, le fils de Bras-Rouge s\u2019\u00e9cria."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 379.496,
+    "end": 384.094,
+    "text": "Grand\u2019m\u00e8re !\u2026 me voil\u00e0\u2026 avec une bonne dame qui vient \u00e0 ton secours !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 384.232,
+    "end": 393.438,
+    "text": "Vite, vite, mon enfant ! Ce monsieur \u00e0 cheval nous a fait perdre quelques minutes, dit la Goualeuse en h\u00e2tant le pas, afin d\u2019atteindre le tournant du chemin creux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 394.216,
+    "end": 400.606,
+    "text": "\u00c0 peine y arriva-t-elle que la Chouette, qui s\u2019y tenait embusqu\u00e9e, dit \u00e0 voix basse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 400.616,
+    "end": 402.526,
+    "text": "\u00c0 moi, Fourline !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 402.536,
+    "end": 417.374,
+    "text": "Puis, sautant sur la Goualeuse, la borgnesse la saisit au cou d\u2019une main, et de l\u2019autre lui comprima les l\u00e8vres, pendant que Tortillard, se jetant aux pieds de la jeune fille, se cramponnait \u00e0 ses jambes pour l\u2019emp\u00eacher de faire un pas."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 417.896,
+    "end": 424.926,
+    "text": "Ceci s\u2019\u00e9tait pass\u00e9 si rapidement que la Chouette n\u2019avait pas eu le temps d\u2019examiner les traits de la Goualeuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 424.936,
+    "end": 436.446,
+    "text": "Mais dans le peu d\u2019instants qu\u2019il fallut au Ma\u00eetre d\u2019\u00e9cole pour sortir du trou o\u00f9 il s\u2019\u00e9tait tapi et pour venir \u00e0 t\u00e2tons avec son manteau, la vieille reconnut son ancienne victime."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 436.84,
+    "end": 440.414,
+    "text": "La P\u00e9griotte !\u2026 s\u2019\u00e9cria-t-elle d\u2019abord stup\u00e9faite."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 440.552,
+    "end": 443.846,
+    "text": "Puis elle ajouta avec une joie f\u00e9roce."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 443.776,
+    "end": 446.776,
+    "text": "C\u2019est encore toi ?\u2026 Ah ! c\u2019est le boulanger qui t\u2019envoie\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 446.696,
+    "end": 450.142,
+    "text": "C\u2019est ton sort de retomber toujours sous ma griffe !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 450.152,
+    "end": 458.696,
+    "text": "J\u2019ai mon vitriol dans le fiacre\u2026 cette fois, ta jolie frimousse y passera\u2026 car tu m\u2019enrhumes avec ta figure de vierge\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 458.728,
+    "end": 464.862,
+    "text": "\u00c0 toi, mon homme ! prends garde qu\u2019elle ne te morde, et tiens-la bien pendant que nous allons l\u2019embaluchonner\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 465.0,
+    "end": 469.726,
+    "text": "De ses deux mains puissantes, le Ma\u00eetre d\u2019\u00e9cole saisit la Goualeuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 469.48,
+    "end": 477.406,
+    "text": "Et, avant qu\u2019elle e\u00fbt pu pousser un cri, la Chouette lui jeta le manteau sur la t\u00eate et l\u2019enveloppa \u00e9troitement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 477.672,
+    "end": 487.39,
+    "text": "En un instant, Fleur-de-Marie, li\u00e9e, b\u00e2illonn\u00e9e, fut mise dans l\u2019impossibilit\u00e9 de faire un mouvement ou d\u2019appeler \u00e0 son secours."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 487.656,
+    "end": 491.846,
+    "text": "Maintenant, \u00e0 toi le paquet, Fourline\u2026, dit la Chouette."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 491.776,
+    "end": 498.27,
+    "text": "Eh ! eh ! eh !\u2026 c\u2019est seulement pas si lourd que la n\u00e9gresse de la femme noy\u00e9e du canal Saint-Martin\u2026 n\u2019est-ce pas, mon homme ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 498.024,
+    "end": 506.078,
+    "text": "Et comme le brigand tressaillait \u00e0 ces mots qui lui rappelaient son \u00e9pouvantable r\u00eave de la nuit, la borgnesse reprit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 505.832,
+    "end": 509.278,
+    "text": "Ah \u00e7\u00e0 ! qu\u2019est-ce que tu as donc, Fourline ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 509.032,
+    "end": 511.07,
+    "text": "On dirait que tu grelottes ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 510.952,
+    "end": 520.03,
+    "text": "Depuis ce matin, par instants, les dents te claquent comme si tu avais la fi\u00e8vre, et alors tu regardes en l\u2019air comme si tu cherchais quelque chose."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 520.424,
+    "end": 524.766,
+    "text": "Gros feignant !\u2026 il regarde les mouches voler, dit Tortillard."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 524.904,
+    "end": 527.046,
+    "text": "Allons, vite, filons, mon homme !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 526.848,
+    "end": 528.606,
+    "text": "Emballe-moi la P\u00e9griotte\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 528.744,
+    "end": 536.798,
+    "text": "\u00c0 la bonne heure ! ajouta la Chouette en voyant le brigand prendre Fleur-de-Marie entre ses bras comme on prend un enfant endormi."
+  },
+  {
+    "approved": true,
+    "begin": 536.552,
+    "end": 538.846,
+    "text": "Vite, au fiacre, vite !\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 538.728,
+    "end": 547.806,
+    "text": "Mais qui est-ce qui va me conduire, moi ?\u2026 demanda le Ma\u00eetre d\u2019\u00e9cole d\u2019une voix sourde, en \u00e9treignant son souple et l\u00e9ger fardeau dans ses bras d\u2019Hercule."
+  },
+  {
+    "approved": true,
+    "begin": 548.422,
+    "end": 551.518,
+    "text": "Vieux t\u00eatard ! il pense \u00e0 tout, dit la Chouette."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 551.784,
+    "end": 564.062,
+    "text": "Et, \u00e9cartant son ch\u00e2le, elle d\u00e9noua un foulard rouge qui couvrait son cou d\u00e9charn\u00e9, tordit \u00e0 moiti\u00e9 ce mouchoir dans sa longueur et dit au Ma\u00eetre d\u2019\u00e9cole."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 564.2,
+    "end": 569.566,
+    "text": "Ouvre la gargoine, prends le bout de ce foulard dans tes quenottes, serre bien\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 569.576,
+    "end": 574.046,
+    "text": "Tortillard prendra l\u2019autre bout \u00e0 la main, tu n\u2019auras qu\u2019\u00e0 le suivre\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 573.928,
+    "end": 576.07,
+    "text": "\u00c0 bon aveugle bon chien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 575.744,
+    "end": 577.502,
+    "text": "Ici, moutard !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 578.024,
+    "end": 593.502,
+    "text": "Le petit boiteux fit une gambade, murmura \u00e0 voix basse un jappement imitatif et grotesque, prit dans sa main l\u2019autre bout du mouchoir et conduisit ainsi le Ma\u00eetre d\u2019\u00e9cole, pendant que la Chouette h\u00e2tait le pas pour pr\u00e9venir Barbillon."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 594.152,
+    "end": 601.95,
+    "text": "Nous avons renonc\u00e9 \u00e0 peindre la terreur de Fleur-de-Marie, lorsqu\u2019elle s\u2019\u00e9tait vue au pouvoir de la Chouette et du Ma\u00eetre d\u2019\u00e9cole."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 602.088,
+    "end": 607.326,
+    "text": "Elle se sentit d\u00e9faillir et ne put opposer la moindre r\u00e9sistance."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 607.72,
+    "end": 613.854,
+    "text": "Quelques minutes apr\u00e8s, la Goualeuse \u00e9tait transport\u00e9e dans le fiacre conduit par Barbillon."
+  },
+  {
+    "approved": true,
+    "begin": 613.992,
+    "end": 628.12,
+    "text": "Quoiqu\u2019il f\u00eet nuit, les stores de cette voiture \u00e9taient soigneusement ferm\u00e9s, et les trois complices se dirig\u00e8rent, avec leur victime presque expirante, vers la plaine Saint-Denis, o\u00f9 Tom les attendait."
+  }
+]

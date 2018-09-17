@@ -1,0 +1,943 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 1.886,
+    "text": "Chapitre vingt."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 2.152,
+    "end": 3.678,
+    "text": "Le jugement"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 4.328,
+    "end": 8.286,
+    "text": "\u00c9tonn\u00e9, le lapidaire se leva et alla ouvrir\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 8.68,
+    "end": 11.742,
+    "text": "Deux hommes entr\u00e8rent dans la mansarde."
+  },
+  {
+    "approved": true,
+    "begin": 11.752,
+    "end": 29.534,
+    "text": "L\u2019un, maigre, grand, la figure ignoble et bourgeonn\u00e9e, encadr\u00e9e d\u2019\u00e9pais favoris noirs grisonnants, tenait \u00e0 la main une grosse canne plomb\u00e9e, portait un chapeau d\u00e9form\u00e9 et une longue redingote verte crott\u00e9e, \u00e9troitement boutonn\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 30.184,
+    "end": 38.75,
+    "text": "Son col de velours noir r\u00e2p\u00e9 laissait voir un cou long, rouge, pel\u00e9 comme celui d\u2019un vautour\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 38.888,
+    "end": 41.566,
+    "text": "Cet homme s\u2019appelait Malicorne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 41.832,
+    "end": 52.702,
+    "text": "L\u2019autre plus petit, et de mine aussi basse, rouge, gros et trapu, \u00e9tait v\u00eatu avec une sorte de somptuosit\u00e9 grotesque."
+  },
+  {
+    "approved": true,
+    "begin": 52.968,
+    "end": 69.598,
+    "text": "Des boutons de brillants attachaient les plis de sa chemise d\u2019une propret\u00e9 douteuse, et une longue cha\u00eene d\u2019or serpentait sur un gilet \u00e9cossais d\u2019\u00e9toffe pass\u00e9e, que laissait voir un paletot de panne d\u2019un gris jaun\u00e2tre\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 69.608,
+    "end": 72.03,
+    "text": "Cet homme s\u2019appelait Bourdin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 72.68,
+    "end": 78.43,
+    "text": "Oh ! que \u00e7a pue la mis\u00e8re et la mort ici ! dit Malicorne en s\u2019arr\u00eatant au seuil."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 79.08,
+    "end": 82.014,
+    "text": "Le fait est que \u00e7a ne sent pas le musc !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 81.896,
+    "end": 87.646,
+    "text": "Quelles pratiques ! reprit Bourdin en faisant un geste de d\u00e9go\u00fbt et de m\u00e9pris."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 88.296,
+    "end": 94.302,
+    "text": "Puis il s\u2019avan\u00e7a vers l\u2019artisan qui le regardait avec autant de surprise que d\u2019indignation."
+  },
+  {
+    "approved": true,
+    "begin": 94.824,
+    "end": 111.454,
+    "text": "\u00c0 travers la porte laiss\u00e9e entreb\u00e2ill\u00e9e, on vit appara\u00eetre la figure m\u00e9chante, attentive et rus\u00e9e de Tortillard, qui, ayant suivi ces inconnus \u00e0 leur insu, regardait, \u00e9piait, \u00e9coutait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 111.976,
+    "end": 117.854,
+    "text": "Que voulez-vous ? dit brusquement le lapidaire, r\u00e9volt\u00e9 de la grossi\u00e8ret\u00e9 des deux hommes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 118.376,
+    "end": 121.414,
+    "text": "J\u00e9r\u00f4me Morel ? lui r\u00e9pondit Bourdin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 121.088,
+    "end": 122.078,
+    "text": "C\u2019est moi\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 122.088,
+    "end": 123.974,
+    "text": "Ouvrier lapidaire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 123.648,
+    "end": 124.638,
+    "text": "C\u2019est moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 124.904,
+    "end": 126.43,
+    "text": "Bien s\u00fbr ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 126.568,
+    "end": 128.222,
+    "text": "Encore une fois, c\u2019est moi\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 127.976,
+    "end": 132.446,
+    "text": "Vous m\u2019impatientez\u2026 que voulez-vous ?\u2026 expliquez-vous ou sortez !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 132.968,
+    "end": 144.606,
+    "text": "Que \u00e7a d\u2019honn\u00eatet\u00e9 ?\u2026 merci !\u2026 dis donc, Malicorne, reprit l\u2019homme en se retournant vers son camarade, il n\u2019y a pas gras\u2026 ici\u2026 c\u2019est pas comme chez le vicomte de Saint-Remy ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 144.744,
+    "end": 151.39,
+    "text": "Oui\u2026 mais quand il y a gras, on trouve visage de bois\u2026 comme nous l\u2019avons trouv\u00e9 rue de Chaillot."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 151.528,
+    "end": 160.606,
+    "text": "Le moineau avait fil\u00e9 la veille\u2026 et roide encore, tandis que des vermines pareilles \u00e7a reste coll\u00e9 \u00e0 son chenil."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 161.0,
+    "end": 162.398,
+    "text": "Je crois bien."
+  },
+  {
+    "approved": true,
+    "begin": 162.152,
+    "disabled": false,
+    "end": 165.726,
+    "text": "\u00c7a ne demande qu\u2019\u00e0 \u00eatre serr\u00e9 pour avoir la p\u00e2t\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 165.48,
+    "end": 167.51799999999997,
+    "text": "Faut encore que le loup"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 167.39999999999998,
+    "end": 168.79799999999997,
+    "text": "le cr\u00e9ancier"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 168.67999999999998,
+    "end": 170.44,
+    "text": "soit bon enfant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 170.21599999999998,
+    "end": 174.42999999999998,
+    "text": "\u00c7a lui co\u00fbtera plus que \u00e7a ne vaut\u2026 mais \u00e7a le regarde."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 174.952,
+    "end": 182.176,
+    "text": "Tenez, dit Morel avec indignation, si vous n\u2019\u00e9tiez pas ivres comme vous en avez l\u2019air, on se mettrait en col\u00e8re\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 182.016,
+    "end": 184.03,
+    "text": "Sortez de chez moi \u00e0 l\u2019instant !"
+  },
+  {
+    "approved": true,
+    "begin": 184.296,
+    "end": 193.758,
+    "text": "Ah ! ah ! il est fameux, le d\u00e9jet\u00e9 ! s\u2019\u00e9cria Bourdin en faisant une allusion insultante \u00e0 la d\u00e9viation de la taille du lapidaire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 194.024,
+    "end": 201.31,
+    "text": "Dis donc, Malicorne, il a le toupet d\u2019appeler \u00e7a un chez soi\u2026 un bouge o\u00f9 je ne voudrais pas mettre mon chien\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 201.96,
+    "end": 211.654,
+    "text": "Mon Dieu ! mon Dieu ! s\u2019\u00e9cria Madeleine, si effray\u00e9e qu\u2019elle n\u2019avait pas jusqu\u2019alors pu dire une parole, appelle donc au secours\u2026 c\u2019est peut-\u00eatre des malfaiteurs\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 211.456,
+    "end": 213.214,
+    "text": "Prends garde \u00e0 tes diamants\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 213.864,
+    "end": 229.726,
+    "text": "En effet, voyant ces deux inconnus de mauvaise mine s\u2019approcher de plus en plus de l\u2019\u00e9tabli o\u00f9 \u00e9taient encore expos\u00e9es les pierreries, Morel craignit quelque mauvais dessein, courut \u00e0 sa table et, de ses deux mains, couvrit les pierres pr\u00e9cieuses."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 229.736,
+    "end": 239.07,
+    "text": "Tortillard, toujours aux \u00e9coutes et aux aguets, retint les paroles de Madeleine, remarqua le mouvement de l\u2019artisan et se dit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 239.08,
+    "end": 243.166,
+    "text": "Tiens\u2026 tiens\u2026 tiens\u2026 on le disait lapidaire en faux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 243.048,
+    "end": 246.622,
+    "text": "Si les pierres \u00e9taient fausses, il n\u2019aurait pas peur d\u2019\u00eatre vol\u00e9\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 246.76,
+    "end": 248.67,
+    "text": "Bon \u00e0 savoir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 248.808,
+    "end": 253.534,
+    "text": "alors la m\u00e8re Mathieu, qui vient souvent ici, est donc aussi courti\u00e8re en vrai\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 253.672,
+    "end": 256.862,
+    "text": "C\u2019est donc de vrais diamants qu\u2019elle a dans son cabas\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 257.0,
+    "end": 263.646,
+    "text": "Bon \u00e0 savoir. Je dirai \u00e7a \u00e0 la Chouette, \u00e0 la Chouette, dit le fils de Bras-Rouge en chantonnant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 264.168,
+    "end": 268.254,
+    "text": "Si vous ne sortez pas de chez moi, je crie \u00e0 la garde, dit Morel."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 268.776,
+    "end": 276.318,
+    "text": "Les enfants, effray\u00e9s de cette sc\u00e8ne, commenc\u00e8rent \u00e0 pleurer, et la vieille idiote se dressa sur son s\u00e9ant\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 276.712,
+    "end": 283.358,
+    "text": "S\u2019il y a quelqu\u2019un qui ait le droit de crier \u00e0 la garde\u2026 c\u2019est nous\u2026 entendez-vous, monsieur le d\u00e9jet\u00e9 ? dit Bourdin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 284.008,
+    "end": 290.014,
+    "text": "Vu que la garde doit nous pr\u00eater main-forte pour vous conduire si vous regimbez, ajouta Malicorne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 290.152,
+    "end": 293.214,
+    "text": "Nous n\u2019avons pas de juge de paix avec nous, c\u2019est vrai."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 293.224,
+    "end": 300.382,
+    "text": "Mais si vous tenez \u00e0 jouir de sa soci\u00e9t\u00e9, on va vous en servir un sortant de son lit, tout chaud, tout bouillant\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 300.52,
+    "end": 302.558,
+    "text": "Bourdin va aller le chercher."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 303.208,
+    "end": 307.422,
+    "text": "En prison\u2026 moi ? s\u2019\u00e9cria Morel frapp\u00e9 de stupeur."
+  },
+  {
+    "approved": true,
+    "begin": 307.56,
+    "end": 309.214,
+    "text": "Oui\u2026 \u00e0 Clichy\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 309.096,
+    "end": 312.798,
+    "text": "\u00c0 Clichy ? r\u00e9p\u00e9ta l\u2019artisan d\u2019un air hagard."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 313.064,
+    "end": 316.382,
+    "text": "A-t-il la boule dure, celui-l\u00e0 ! dit Malicorne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 316.52,
+    "end": 320.734,
+    "text": "\u00c0 la prison pour dettes\u2026 aimez-vous mieux \u00e7a ? reprit Bourdin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 320.872,
+    "end": 325.062,
+    "text": "Vous\u2026 vous\u2026 seriez\u2026 comment\u2026 le notaire\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 324.736,
+    "end": 326.238,
+    "text": "Ah ! mon Dieu !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 326.12,
+    "end": 333.15,
+    "text": "Et l\u2019ouvrier, p\u00e2le comme la mort, retomba sur son escabeau, sans pouvoir ajouter une parole."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 333.672,
+    "end": 338.63,
+    "text": "Nous sommes gardes du commerce pour vous pincer, si nous en \u00e9tions capables\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 338.432,
+    "end": 339.934,
+    "text": "Y \u00eates-vous, pays ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 340.328,
+    "end": 343.902,
+    "text": "Morel\u2026 le billet du ma\u00eetre de Louise !\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 343.656,
+    "end": 347.23,
+    "text": "Nous sommes perdus ! s\u2019\u00e9cria Madeleine d\u2019une voix d\u00e9chirante."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 347.88,
+    "end": 352.862,
+    "text": "Voil\u00e0 le jugement, dit Malicorne en tirant de son portefeuille un acte timbr\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 353.384,
+    "end": 366.174,
+    "text": "Apr\u00e8s avoir psalmodi\u00e9, comme d\u2019habitude, une partie de cette requ\u00eate d\u2019une voix presque inintelligible, il articula nettement les derniers mots, malheureusement trop significatifs pour l\u2019artisan."
+  },
+  {
+    "approved": true,
+    "begin": 366.568,
+    "end": 386.142,
+    "text": "Jugeant en dernier ressort, le tribunal condamne le sieur J\u00e9r\u00f4me Morel \u00e0 payer au sieur Pierre Petit-Jean, n\u00e9gociant, par toutes voies de droit, et m\u00eame par corps, la somme de treize cents francs avec l\u2019int\u00e9r\u00eat \u00e0 dater du jour du prot\u00eat, et le condamne en outre aux d\u00e9pens."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 386.152,
+    "end": 390.878,
+    "text": "Fait et jug\u00e9 \u00e0 Paris, le treize septembre mille huit cent trente-huit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 391.528,
+    "end": 393.798,
+    "text": "Et Louise, alors ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 393.472,
+    "end": 398.558,
+    "text": "Et Louise ? s\u2019\u00e9cria Morel presque \u00e9gar\u00e9 sans para\u00eetre entendre ce grimoire, o\u00f9 est-elle ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 398.44,
+    "end": 402.27,
+    "text": "Elle est donc sortie de chez le notaire, puisqu\u2019il me fait emprisonner ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 402.152,
+    "end": 405.086,
+    "text": "Louise\u2026 mon Dieu ! qu\u2019est-elle devenue ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 405.352,
+    "end": 407.39,
+    "text": "Qui \u00e7a, Louise ? dit Bourdin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 407.656,
+    "end": 412.894,
+    "text": "Laisse-le donc, reprit brutalement Malicorne, est-ce que tu ne vois pas qu\u2019il bat la breloque ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 413.16,
+    "end": 419.294,
+    "text": "Allons, et il s\u2019approcha de Morel, allons, par file \u00e0 gauche\u2026 en avant, marche, d\u00e9canillons."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 419.304,
+    "end": 422.366,
+    "text": "J\u2019ai besoin de prendre l\u2019air, \u00e7a empoisonne ici."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 422.76,
+    "end": 423.878,
+    "text": "Morel, n\u2019y va pas."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 423.808,
+    "end": 426.974,
+    "text": "D\u00e9fends-toi ! s\u2019\u00e9cria Madeleine avec \u00e9garement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 426.728,
+    "end": 428.638,
+    "text": "Tue-les, ces gueux-l\u00e0."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 428.648,
+    "end": 430.534,
+    "text": "Oh ! es-tu poltron !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 430.336,
+    "end": 432.222,
+    "text": "Tu te laisseras emmener ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 432.104,
+    "end": 433.886,
+    "text": "Tu nous abandonneras ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 434.536,
+    "end": 438.238,
+    "text": "Faites comme chez vous, madame, dit Bourdin d\u2019un air sardonique."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 437.992,
+    "end": 441.438,
+    "text": "Mais si votre homme l\u00e8ve la main sur moi, je l\u2019\u00e9tourdis."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 442.088,
+    "end": 447.966,
+    "text": "Seulement pr\u00e9occup\u00e9 de Louise, Morel n\u2019entendait rien de ce qu\u2019on disait autour de lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 448.36,
+    "end": 454.622,
+    "text": "Tout \u00e0 coup une expression de joie am\u00e8re \u00e9claira son visage, il s\u2019\u00e9cria."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 454.76,
+    "end": 460.126,
+    "text": "Louise a quitt\u00e9 la maison du notaire\u2026 j\u2019irai en prison de bon c\u0153ur\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 460.264,
+    "end": 463.582,
+    "text": "Mais, jetant un regard autour de lui, il s\u2019\u00e9cria."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 463.464,
+    "end": 468.958,
+    "text": "Et ma femme et sa m\u00e8re\u2026 et mes autres enfants\u2026 qui les nourrira ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 469.096,
+    "end": 475.614,
+    "text": "On ne voudra pas me confier des pierres pour travailler en prison\u2026 on croira que c\u2019est mon inconduite qui m\u2019y envoie\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 475.88,
+    "end": 480.094,
+    "text": "Mais c\u2019est donc la mort des miens, notre mort \u00e0 tous, qu\u2019il veut, le notaire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 480.744,
+    "end": 485.726,
+    "text": "Une fois ! deux fois ! finirons-nous ? dit Bourdin, \u00e7a nous emb\u00eate, \u00e0 la fin\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 485.48,
+    "end": 487.39,
+    "text": "Habillez-vous, et filons."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 487.912,
+    "end": 493.278,
+    "text": "Mes bons messieurs, pardon de ce que je vous ai dit tout \u00e0 l\u2019heure ! s\u2019\u00e9cria Madeleine toujours couch\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 493.288,
+    "end": 495.966,
+    "text": "Vous n\u2019aurez pas le c\u0153ur d\u2019emmener Morel\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 495.976,
+    "end": 500.702,
+    "text": "Qu\u2019est-ce que vous voulez que je devienne avec mes cinq enfants et ma m\u00e8re qui est folle ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 500.712,
+    "end": 507.486,
+    "text": "Tenez, la voyez-vous ?\u2026 l\u00e0, accroupie sur son matelas ? elle est folle, mes bons messieurs !\u2026 elle est folle\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 507.88,
+    "end": 509.534,
+    "text": "La vieille tondue ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 509.672,
+    "end": 512.862,
+    "text": "Tiens ! c\u2019est vrai, elle est tondue, dit Malicorne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 512.616,
+    "end": 515.294,
+    "text": "Moi, je croyais qu\u2019elle avait un serre-t\u00eate blanc\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 515.56,
+    "end": 524.51,
+    "text": "Mes enfants, jetez-vous aux genoux de ces bons messieurs, s\u2019\u00e9cria Madeleine, voulant, par un dernier effort, attendrir les recors."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 524.52,
+    "end": 529.374,
+    "text": "Priez-les de ne pas emmener votre pauvre p\u00e8re\u2026 notre seul gagne-pain\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 530.152,
+    "end": 536.926,
+    "text": "Malgr\u00e9 les ordres de leur m\u00e8re, les enfants pleuraient effray\u00e9s, n\u2019osant pas sortir de leur grabat."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 537.448,
+    "end": 549.598,
+    "text": "\u00c0 ce bruit inaccoutum\u00e9, \u00e0 l\u2019aspect des deux recors qu\u2019elle ne connaissait pas, l\u2019idiote commen\u00e7a \u00e0 jeter des hurlements sourds en se rencognant contre la muraille."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 549.992,
+    "end": 553.95,
+    "text": "Morel semblait \u00e9tranger \u00e0 ce qui se passait autour de lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 554.344,
+    "end": 564.574,
+    "text": "Ce coup \u00e9tait si affreux, si inattendu, les cons\u00e9quences de cette arrestation lui paraissaient si \u00e9pouvantables, qu\u2019il ne pouvait y croire\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 564.584,
+    "end": 570.078,
+    "text": "D\u00e9j\u00e0 affaibli par des privations de toutes sortes, les forces lui manquaient."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 570.344,
+    "end": 581.726,
+    "text": "Il restait p\u00e2le, hagard, assis sur son escabeau, affaiss\u00e9 sur lui-m\u00eame, les bras pendants, la t\u00eate baiss\u00e9e sur sa poitrine\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 581.992,
+    "end": 587.358,
+    "text": "Ah \u00e7\u00e0 ! mille tonnerres !\u2026 \u00e7a finira-t-il ? s\u2019\u00e9cria Malicorne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 587.24,
+    "end": 590.046,
+    "text": "Est-ce que vous croyez qu\u2019on est \u00e0 la noce ici ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 590.056,
+    "end": 592.35,
+    "text": "Marchons, ou je vous empoigne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 593.0,
+    "end": 597.726,
+    "text": "Le recors mit sa main sur l\u2019\u00e9paule de l\u2019artisan et le secoua rudement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 598.12,
+    "end": 603.87,
+    "text": "Ces menaces, ce geste inspir\u00e8rent une grande frayeur aux enfants."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 603.752,
+    "end": 615.494,
+    "text": "Les trois petits gar\u00e7ons sortirent de leur paillasse \u00e0 moiti\u00e9 nus, et vinrent, \u00e9plor\u00e9s, se jeter aux pieds des gardes du commerce, joignant les mains et criant d\u2019une voix d\u00e9chirante."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 615.168,
+    "end": 616.39,
+    "text": "Gr\u00e2ce !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 616.192,
+    "end": 618.462,
+    "text": "Ne tuez pas notre p\u00e8re !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 618.728,
+    "end": 631.134,
+    "text": "\u00c0 la vue de ces malheureux enfants frissonnant de froid et d\u2019\u00e9pouvante, Bourdin, malgr\u00e9 sa duret\u00e9 naturelle et son habitude de pareilles sc\u00e8nes, se sentit presque \u00e9mu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 631.4,
+    "end": 640.606,
+    "text": "Son camarade, impitoyable, d\u00e9gagea brutalement sa jambe des \u00e9treintes des enfants qui s\u2019y cramponnaient suppliants."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 640.744,
+    "end": 643.294,
+    "text": "Eh ! hue donc, les moutards !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 643.048,
+    "end": 647.902,
+    "text": "Quel chien de m\u00e9tier, si on avait toujours affaire \u00e0 des mendiants pareils !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 648.552,
+    "end": 653.15,
+    "text": "Un \u00e9pisode horrible rendit cette sc\u00e8ne plus affreuse encore."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 653.16,
+    "end": 659.166,
+    "text": "L\u2019a\u00een\u00e9e des petites filles, rest\u00e9e couch\u00e9e dans la paillasse avec sa s\u0153ur malade, s\u2019\u00e9cria tout \u00e0 coup."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 659.304,
+    "end": 661.982,
+    "text": "Maman, maman, je ne sais pas ce qu\u2019elle a\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 661.736,
+    "end": 663.134,
+    "text": "Ad\u00e8le\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 662.888,
+    "end": 664.414,
+    "text": "Elle est toute froide !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 664.168,
+    "end": 667.23,
+    "text": "Elle me regarde toujours\u2026 et elle ne respire plus\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 667.112,
+    "end": 677.854,
+    "text": "La pauvre enfant phtisique venait d\u2019expirer doucement sans une plainte, son regard toujours attach\u00e9 sur celui de sa s\u0153ur qu\u2019elle aimait tendrement\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 677.992,
+    "end": 685.79,
+    "text": "Il est impossible de rendre le cri que jeta la femme du lapidaire \u00e0 cette affreuse r\u00e9v\u00e9lation, car elle comprit tout."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 686.184,
+    "end": 693.47,
+    "text": "Ce fut un de ces cris pantelants, convulsifs, arrach\u00e9s du plus profond des entrailles d\u2019une m\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 693.992,
+    "end": 696.414,
+    "text": "Ma s\u0153ur a l\u2019air d\u2019\u00eatre morte !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 696.296,
+    "end": 706.398,
+    "text": "Mon Dieu ! mon Dieu ! j\u2019en ai peur ! s\u2019\u00e9cria l\u2019enfant en se pr\u00e9cipitant hors de la paillasse et courant \u00e9pouvant\u00e9e se jeter dans les bras de sa m\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 706.792,
+    "end": 718.558,
+    "text": "Celle-ci, oubliant que ses jambes presque paralys\u00e9es ne pouvaient la soutenir, fit un violent effort pour se lever et courir aupr\u00e8s de sa fille morte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 718.824,
+    "end": 725.726,
+    "text": "Mais les forces lui manqu\u00e8rent, elle tomba sur le carreau en poussant un dernier cri de d\u00e9sespoir."
+  },
+  {
+    "approved": true,
+    "begin": 726.12,
+    "disabled": false,
+    "end": 729.822,
+    "text": "Ce cri trouva un \u00e9cho dans le c\u0153ur de Morel."
+  },
+  {
+    "approved": true,
+    "begin": 729.96,
+    "end": 764.6800000000001,
+    "text": "Il sortit de sa stupeur, d\u2019un bond fut \u00e0 la paillasse, y saisit sa fille \u00e2g\u00e9e de quatre ans\u2026 Il la trouva morte. Le froid, le besoin avaient h\u00e2t\u00e9 sa fin\u2026 quoique sa maladie, fruit de la mis\u00e8re, f\u00fbt mortelle. Ses pauvres petits membres \u00e9taient d\u00e9j\u00e0 roidis et glac\u00e9s\u2026"
+  }
+]

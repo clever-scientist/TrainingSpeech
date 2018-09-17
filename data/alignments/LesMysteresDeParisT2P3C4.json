@@ -1,0 +1,633 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 2.014,
+    "text": "Chapitre quatre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 2.408,
+    "end": 3.806,
+    "text": "La veill\u00e9e"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 4.072,
+    "end": 13.662,
+    "text": "Est-il quelque chose de plus r\u00e9jouissant \u00e0 voir que la cuisine d\u2019une grande m\u00e9tairie \u00e0 l\u2019heure du repas du soir, dans l\u2019hiver surtout ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 13.8,
+    "end": 19.55,
+    "text": "Est-il quelque chose qui rappelle davantage le calme et le bien-\u00eatre de la vie rustique !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 19.56,
+    "end": 26.846,
+    "text": "On aurait pu trouver une preuve de ce que nous avan\u00e7ons dans l\u2019aspect de la cuisine de la ferme de Bouqueval."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 26.6,
+    "end": 36.574,
+    "text": "Son immense chemin\u00e9e, haute de six pieds, large de huit, ressemblait \u00e0 une grande baie de pierre ouverte sur une fournaise."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 36.84,
+    "end": 41.95,
+    "text": "dans l\u2019\u00e2tre noir flamboyait un v\u00e9ritable b\u00fbcher de h\u00eatre et de ch\u00eane."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 42.344,
+    "end": 57.054,
+    "text": "Ce brasier \u00e9norme envoyait autant de clart\u00e9 que de chaleur dans toutes les parties de la cuisine et rendait inutile la lumi\u00e8re d\u2019une lampe suspendue \u00e0 la ma\u00eetresse poutre qui traversait le plafond."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 57.832,
+    "end": 65.374,
+    "text": "De grandes marmites et des casseroles de cuivre rouge rang\u00e9es sur des tablettes \u00e9tincelaient de propret\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 65.384,
+    "end": 79.326,
+    "text": "Une antique fontaine du m\u00eame m\u00e9tal brillait comme un miroir ardent non loin d\u2019une huche de noyer, soigneusement cir\u00e9e, d\u2019o\u00f9 s\u2019exhalait une app\u00e9tissante odeur de pain tout chaud."
+  },
+  {
+    "approved": true,
+    "begin": 79.336,
+    "end": 90.206,
+    "text": "Une table longue, massive, recouverte d\u2019une nappe de grosse toile d\u2019une extr\u00eame propret\u00e9, occupait le milieu de la salle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 90.088,
+    "end": 102.622,
+    "text": "La place de chaque convive \u00e9tait marqu\u00e9e par une de ces assiettes de fa\u00efence, brunes au-dehors, blanches au dedans, et par un couvert de fer luisant comme de l\u2019argent."
+  },
+  {
+    "approved": true,
+    "begin": 102.888,
+    "end": 123.102,
+    "text": "Au milieu de la table, une grande soupi\u00e8re remplie de potage aux l\u00e9gumes fumait comme un crat\u00e8re et couvrait de sa vapeur savoureuse un plat formidable de choucroute au jambon et un autre plat non moins formidable de rago\u00fbt de mouton aux pommes de terre."
+  },
+  {
+    "approved": true,
+    "begin": 123.24,
+    "end": 136.158,
+    "text": "Enfin un quartier de veau r\u00f4ti, flanqu\u00e9 de deux salades d\u2019hiver accost\u00e9es de deux corbeilles de pommes et de deux fromages, compl\u00e9tait l\u2019abondante sym\u00e9trie de ce repas."
+  },
+  {
+    "approved": true,
+    "begin": 136.296,
+    "end": 147.678,
+    "text": "Trois ou quatre cruches de cidre p\u00e9tillant, autant de miches de pain bis, grandes comme des meules de moulin, \u00e9taient \u00e0 la discr\u00e9tion des laboureurs."
+  },
+  {
+    "approved": true,
+    "begin": 147.816,
+    "end": 163.806,
+    "text": "Un vieux chien de berger, griffon noir, presque \u00e9dent\u00e9, doyen \u00e9m\u00e9rite de la gent canine de la m\u00e9tairie, devait \u00e0 son grand \u00e2ge et \u00e0 ses anciens services la permission de rester au coin du feu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 164.328,
+    "end": 178.27,
+    "text": "Usant modestement et discr\u00e8tement de ce privil\u00e8ge, le museau allong\u00e9 sur ses deux pattes de devant, il suivait d\u2019un \u0153il attentif les diff\u00e9rentes \u00e9volutions culinaires qui pr\u00e9c\u00e9daient le souper."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 178.28,
+    "end": 183.774,
+    "text": "Ce chien v\u00e9n\u00e9rable r\u00e9pondait au nom quelque peu bucolique de Lysandre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 184.552,
+    "end": 192.094,
+    "text": "Peut-\u00eatre l\u2019ordinaire des gens de cette ferme, quoique fort simple, semblera-t-il un peu somptueux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 192.488,
+    "end": 206.174,
+    "text": "Mais Madame Georges (en cela fid\u00e8le aux vues de Rodolphe) am\u00e9liorait autant que possible le sort de ses serviteurs, exclusivement choisis parmi les gens les plus honn\u00eates et les plus laborieux du pays."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 206.056,
+    "end": 212.062,
+    "text": "On les payait largement, on rendait leur sort tr\u00e8s-heureux, tr\u00e8s-enviable."
+  },
+  {
+    "approved": true,
+    "begin": 211.944,
+    "end": 219.742,
+    "text": "Aussi, entrer comme m\u00e9tayer \u00e0 la ferme de Bouqueval \u00e9tait le but de tous les bons laboureurs de la contr\u00e9e."
+  },
+  {
+    "approved": true,
+    "begin": 220.264,
+    "end": 238.942,
+    "text": "innocente ambition qui entretenait parmi eux une \u00e9mulation d\u2019autant plus louable qu\u2019elle tournait au profit des ma\u00eetres qu\u2019ils servaient, car on ne pouvait se pr\u00e9senter pour obtenir une des places vacantes \u00e0 la m\u00e9tairie qu\u2019avec l\u2019appui des plus excellents ant\u00e9c\u00e9dents."
+  },
+  {
+    "approved": true,
+    "begin": 238.952,
+    "end": 260.83,
+    "text": "Rodolphe cr\u00e9ait ainsi sur une tr\u00e8s-petite \u00e9chelle une sorte de ferme mod\u00e8le, non-seulement destin\u00e9e \u00e0 l\u2019am\u00e9lioration des bestiaux et des proc\u00e9d\u00e9s aratoires, mais surtout \u00e0 l\u2019am\u00e9lioration des hommes, et il atteignait ce but en int\u00e9ressant les hommes \u00e0 \u00eatre probes, actifs, intelligents."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 260.968,
+    "end": 274.014,
+    "text": "Apr\u00e8s avoir termin\u00e9 les appr\u00eats du souper, et pos\u00e9 sur la table un broc de vin vieux destin\u00e9 \u00e0 accompagner le dessert, la cuisini\u00e8re de la ferme alla sonner la cloche."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 274.536,
+    "end": 286.046,
+    "text": "\u00c0 ce joyeux appel, laboureurs, valets de ferme, laiti\u00e8res, filles de basse-cour, au nombre de douze ou quinze, entr\u00e8rent gaiement dans la cuisine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 286.184,
+    "end": 289.118,
+    "text": "Les hommes avaient l\u2019air m\u00e2le et ouvert."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 289.0,
+    "end": 294.75,
+    "text": "Les femmes \u00e9taient avenantes et robustes, les jeunes filles alertes et gaies."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 294.76,
+    "end": 301.662,
+    "text": "Toutes ces physionomies placides respiraient la bonne humeur, la qui\u00e9tude et le contentement de soi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 301.672,
+    "end": 309.47,
+    "text": "Ils s\u2019appr\u00eataient avec une sensibilit\u00e9 na\u00efve \u00e0 faire honneur \u00e0 ce repas bien gagn\u00e9 par les rudes labeurs de la journ\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 310.248,
+    "end": 320.582,
+    "text": "Le haut de la table fut occup\u00e9 par un vieux laboureur \u00e0 cheveux blancs, au visage loyal, au regard franc et hardi, \u00e0 la bouche un peu moqueuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 320.256,
+    "end": 332.254,
+    "text": "V\u00e9ritable type du paysan de bon sens, de ces esprits fermes et droits, nets et lucides, rustiques et malins, qui sentent leur vieux Gaulois d\u2019une lieue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 332.264,
+    "end": 342.622,
+    "text": "Le p\u00e8re Ch\u00e2telain (ainsi se nommait ce Nestor), n\u2019ayant pas quitt\u00e9 la ferme depuis son enfance, \u00e9tait alors employ\u00e9 comme ma\u00eetre laboureur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 343.144,
+    "end": 350.174,
+    "text": "Lorsque Rodolphe acheta la m\u00e9tairie, le vieux serviteur lui fut justement recommand\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 350.44,
+    "end": 359.134,
+    "text": "Il le garda et l\u2019investit, sous les ordres de Madame Georges, d\u2019une sorte de surintendance des travaux de culture."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 359.528,
+    "end": 370.142,
+    "text": "Le p\u00e8re Ch\u00e2telain exer\u00e7ait sur ce personnel de la ferme une haute influence due \u00e0 son \u00e2ge, \u00e0 son savoir, \u00e0 son exp\u00e9rience."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 370.28,
+    "end": 372.702,
+    "text": "Tous les paysans se plac\u00e8rent."
+  },
+  {
+    "approved": true,
+    "begin": 372.968,
+    "end": 389.726,
+    "text": "Apr\u00e8s avoir dit le Benedicite \u00e0 haute voix, le p\u00e8re Ch\u00e2telain, suivant un vieil et saint usage, tra\u00e7a une croix sur un des pains avec la pointe de son couteau et en coupa un morceau repr\u00e9sentant la part de la Vierge ou la part du pauvre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 389.864,
+    "end": 400.606,
+    "text": "il versa ensuite un verre de vin sous la m\u00eame invocation, et pla\u00e7a le tout sur une assiette qui fut pieusement plac\u00e9e au milieu de la table."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 401.384,
+    "end": 405.342,
+    "text": "\u00c0 ce moment les chiens de garde aboy\u00e8rent avec force."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 405.608,
+    "end": 415.454,
+    "text": "Le vieux Lysandre leur r\u00e9pondit par un grognement sourd, retroussa sa l\u00e8vre et laissa voir deux ou trois crocs encore respectables."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 415.72,
+    "end": 419.294,
+    "text": "Il y a quelqu\u2019un le long des murs de la cour, dit le p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 419.688,
+    "end": 424.158,
+    "text": "\u00c0 peine avait-il dit ces paroles que la cloche de la grande porte tinta."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 424.552,
+    "end": 429.406,
+    "text": "Qui peut venir si tard ? dit le vieux laboureur, tout le monde est rentr\u00e9\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 429.544,
+    "end": 431.838,
+    "text": "Va toujours voir, Jean-Ren\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 432.104,
+    "end": 445.662,
+    "text": "Jean-Ren\u00e9, jeune gar\u00e7on de ferme, remit avec regret dans son assiette une \u00e9norme cuiller\u00e9e de soupe br\u00fblante sur laquelle il soufflait d\u2019une force \u00e0 d\u00e9sesp\u00e9rer \u00c9ole, et sortit de la cuisine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 446.312,
+    "end": 456.03,
+    "text": "Voil\u00e0 depuis bien longtemps la premi\u00e8re fois que Madame Georges et Mademoiselle Marie ne viennent pas s\u2019asseoir au coin du feu pour assister \u00e0 notre souper, dit le p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 456.04,
+    "end": 459.87,
+    "text": "J\u2019ai une rude faim, mais je mangerai de moins bon app\u00e9tit."
+  },
+  {
+    "approved": true,
+    "begin": 460.136,
+    "end": 480.734,
+    "text": "Madame Georges est mont\u00e9e dans la chambre de Mademoiselle Marie, car, en revenant de reconduire Monsieur le cur\u00e9, mademoiselle s\u2019est trouv\u00e9e un peu souffrante et s\u2019est couch\u00e9e, r\u00e9pondit Claudine, la robuste fille qui avait ramen\u00e9 la Goualeuse du presbyt\u00e8re, et ainsi renvers\u00e9 sans le savoir les sinistres desseins de la Chouette."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 480.616,
+    "end": 489.798,
+    "text": "Notre bonne Mademoiselle Marie est seulement indispos\u00e9e\u2026 mais elle n\u2019est pas malade, n\u2019est-ce pas ? demanda le vieux laboureur avec inqui\u00e9tude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 489.472,
+    "end": 492.126,
+    "text": "Non, non, Dieu merci ! p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 491.88,
+    "end": 495.454,
+    "text": "Madame Georges a dit que \u00e7a ne serait rien, reprit Claudine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 495.336,
+    "end": 504.414,
+    "text": "Sans cela elle aurait envoy\u00e9 chercher \u00e0 Paris monsieur David, ce m\u00e9decin n\u00e8gre\u2026 qui a d\u00e9j\u00e0 soign\u00e9 Mademoiselle Marie lorsqu\u2019elle a \u00e9t\u00e9 malade."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 504.552,
+    "end": 508.766,
+    "text": "C\u2019est \u00e9gal, c\u2019est tout de m\u00eame bien \u00e9tonnant, un m\u00e9decin noir !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 508.776,
+    "end": 514.654,
+    "text": "Si c\u2019\u00e9tait pour moi, je n\u2019aurais pas du tout de confiance. Un m\u00e9decin blanc, \u00e0 la bonne heure\u2026 c\u2019est chr\u00e9tien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 515.176,
+    "end": 520.67,
+    "text": "Est-ce que monsieur David n\u2019a pas gu\u00e9ri Mademoiselle Marie qui \u00e9tait languissante dans les premiers temps ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 520.424,
+    "end": 522.206,
+    "text": "Si, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 522.216,
+    "end": 523.206,
+    "text": "Eh bien ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 522.88,
+    "end": 527.198,
+    "text": "C\u2019est \u00e9gal, un m\u00e9decin noir, \u00e7a a comme quelque chose d\u2019effrayant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 527.208,
+    "end": 536.414,
+    "text": "Est-ce qu\u2019il n\u2019a pas remis sur pied la vieille Anique, qui, \u00e0 la suite d\u2019une plaie aux jambes, ne pouvait tant seulement bouger de son lit depuis trois ans ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 536.296,
+    "end": 538.462,
+    "text": "Si, si, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 538.216,
+    "end": 539.742,
+    "text": "Eh bien ! ma fille ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 539.496,
+    "end": 541.126,
+    "text": "Oui, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 541.056,
+    "end": 544.99,
+    "text": "Mais un m\u00e9decin noir\u2026 pensez donc\u2026 tout noir, tout noir\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 544.872,
+    "end": 545.478,
+    "text": "\u00c9coute, ma fille."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 545.408,
+    "end": 548.318,
+    "text": "de quelle couleur est ta g\u00e9nisse Musette ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 548.968,
+    "end": 553.542,
+    "text": "Blanche, p\u00e8re Ch\u00e2telain, blanche comme un cygne et fameuse laiti\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 553.344,
+    "end": 556.638,
+    "text": "On peut dire cela sans l\u2019exposer \u00e0 rougir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 557.032,
+    "end": 559.71,
+    "text": "Et ta g\u00e9nisse Rosette ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 559.848,
+    "end": 562.91,
+    "text": "Noire comme un corbeau, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 562.792,
+    "end": 566.75,
+    "text": "Fameuse laiti\u00e8re aussi, faut \u00eatre juste pour tout le monde."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 566.888,
+    "end": 570.846,
+    "text": "Et le lait de cette g\u00e9nisse noire, de quelle couleur est-il ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 570.856,
+    "end": 573.254,
+    "text": "Mais\u2026 blanc, p\u00e8re Ch\u00e2telain\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 572.928,
+    "end": 575.838,
+    "text": "C\u2019est tout simple, blanc comme neige."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 575.592,
+    "end": 578.654,
+    "text": "Aussi blanc et aussi bon que celui de Musette ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 578.792,
+    "end": 580.574,
+    "text": "Mais, oui, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 580.968,
+    "end": 583.006,
+    "text": "Quoique Rosette soit noire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 583.016,
+    "end": 585.054,
+    "text": "Quoique Rosette soit noire\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 584.936,
+    "end": 589.022,
+    "text": "Qu\u2019est-ce que \u00e7a fait au lait que la vache soit noire, rousse ou blanche ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 589.16,
+    "end": 590.558,
+    "text": "\u00c7a ne fait rien ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 590.568,
+    "end": 592.734,
+    "text": "Rien de rien, p\u00e8re Ch\u00e2telain."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 592.872,
+    "end": 597.982,
+    "text": "Eh bien ! alors, ma fille, pourquoi ne veux-tu pas qu\u2019un m\u00e9decin noir soit aussi bon qu\u2019un m\u00e9decin blanc ?"
+  },
+  {
+    "approved": true,
+    "begin": 597.992,
+    "end": 605.662,
+    "text": "Dame\u2026 p\u00e8re Ch\u00e2telain, c\u2019\u00e9tait par rapport \u00e0 la peau, dit la jeune fille apr\u00e8s un moment de cogitation profonde."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 605.672,
+    "end": 612.702,
+    "text": "Mais au fait, puisque Rosette la noire a d\u2019aussi bon lait que Musette la blanche, la peau n\u2019y fait rien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 613.352,
+    "end": 628.318,
+    "text": "Ces r\u00e9flexions physiognomoniques de Claudine sur la diff\u00e9rence des races blanche et noire furent interrompues par le retour de Jean-Ren\u00e9, qui soufflait dans ses doigts avec autant de vigueur qu\u2019il avait souffl\u00e9 sur sa soupe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 628.712,
+    "end": 635.23,
+    "text": "Oh ! quel froid ! quel froid il fait cette nuit\u2026 il g\u00e8le \u00e0 pierre fendre, dit-il en entrant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 635.368,
+    "end": 638.662,
+    "text": "Vaut mieux \u00eatre dedans que dehors par un temps pareil."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 638.464,
+    "end": 639.838,
+    "text": "Quel froid !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 640.104,
+    "end": 644.19,
+    "text": "Gel\u00e9e commenc\u00e9e par un vent d\u2019est sera rude et longue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 643.944,
+    "end": 646.11,
+    "text": "Tu dois savoir \u00e7a, gar\u00e7on."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 646.12,
+    "end": 649.694,
+    "text": "Mais qui a sonn\u00e9 ? demanda le doyen des laboureurs."
+  },
+  {
+    "approved": true,
+    "begin": 649.832,
+    "end": 653.4,
+    "text": "Un pauvre aveugle et un enfant qui le conduit, p\u00e8re Ch\u00e2telain."
+  }
+]
