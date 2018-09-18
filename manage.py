@@ -344,20 +344,6 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
             except:
                 pass
             exit(1)
-        except exceptions.MergeException as e:
-            left = e.left
-            right = e.right
-            right['begin'] = left['begin']
-            left['end'] = right['end']
-            left['text'] = right['text'] = f'{left["text"]} {right["text"]}'
-            cut_fragment_audio(right, input_file=path_to_wav)
-            if fragment is right:
-                alignment = alignment[:i - 1] + alignment[i:]
-                i -= 2
-            else:
-                alignment = alignment[:i] + alignment[i + 1:]
-                i -= 1
-
         except exceptions.SplitException as e:
             fragment.pop('approved', None)
             fragment.pop('disabled', None)
