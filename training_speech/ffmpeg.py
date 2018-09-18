@@ -4,7 +4,7 @@ import re
 import subprocess
 from typing import List, Tuple, Iterator
 
-from audiocorp import sox, utils
+from training_speech import sox, utils
 
 
 def convert(from_: str, to: str, rate: int=None, channels: int=None, loglevel='quiet'):
@@ -55,7 +55,7 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
     with open(input_path, 'rb') as f:
         audio_hash = utils.hash_file(f)
 
-    from audiocorp.utils import file_extension
+    from training_speech.utils import file_extension
     if file_extension(input_path) == '.mp3':
         path_to_wav = os.path.join(utils.CACHE_DIR, f'{audio_hash}.wav')
         convert(input_path, path_to_wav)

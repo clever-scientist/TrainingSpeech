@@ -2,7 +2,7 @@ import os
 from datetime import timedelta
 
 import pytest
-from audiocorp import utils, ffmpeg
+from training_speech import utils, ffmpeg
 
 CURRENT_DIR = os.path.dirname(__file__)
 

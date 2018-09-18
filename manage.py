@@ -18,8 +18,8 @@ import numpy as np
 from tabulate import tabulate
 from termcolor import colored
 
-import audiocorp
-from audiocorp import utils, ffmpeg, sox, exceptions
+import training_speech
+from training_speech import utils, ffmpeg, sox, exceptions
 
 CURRENT_DIR = os.path.dirname(__file__)
 
@@ -37,7 +37,7 @@ def cli():
 @click.option('-y', '--yes', is_flag=True, default=False, help='override existing transcript if any')
 @click.option('--add-to-git/--no-add-to-git', is_flag=True, default=True)
 def build_transcript(source_name, yes, add_to_git):
-    source = audiocorp.get_source(source_name)
+    source = training_speech.get_source(source_name)
     path_to_epub = os.path.join(CURRENT_DIR, 'data/epubs/', source['ebook'])
 
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
@@ -87,7 +87,7 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str=
 @click.option('-f', '--fast', is_flag=True, default=False)
 def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
     import inquirer
-    source = audiocorp.get_source(source_name)
+    source = training_speech.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
@@ -445,7 +445,7 @@ def download(source_name):
         options = ''
         if source_name:
 
-            source = audiocorp.get_source(source_name, validate=False)
+            source = training_speech.get_source(source_name, validate=False)
             options += f' --exclude * --include {source[key]}'
 
         sync_cmd = f'aws s3 sync {s3} {local}{options}'
@@ -464,7 +464,7 @@ def upload(source_name):
         if key != 'releases':
             options += ' --exclude *.zip'
         if source_name:
-            source = audiocorp.get_source(source_name)
+            source = training_speech.get_source(source_name)
             options += f' --exclude * --include {source[key]}'
 
         sync_cmd = f'aws s3 sync {local} {s3}{options}'
@@ -474,7 +474,7 @@ def upload(source_name):
 
 @cli.command()
 def stats():
-    sources = audiocorp.sources()
+    sources = training_speech.sources()
     sources_data = []
     total_dur = timedelta(seconds=0)
     total_available = timedelta(seconds=0)
@@ -483,7 +483,7 @@ def stats():
     per_language_dur = defaultdict(timedelta)
     per_language_available = defaultdict(timedelta)
     for name, metadata in sources.items():
-        info = audiocorp.source_info(name)
+        info = training_speech.source_info(name)
         path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
         if os.path.isfile(path_to_mp3):
             mp3_duration = timedelta(seconds=ffmpeg.audio_duration(path_to_mp3))
@@ -540,8 +540,8 @@ def stats():
 def release(audio_rate, language):
     per_language_sources = defaultdict(list)
     per_language_speakers = defaultdict(set)
-    for name, metadata in audiocorp.sources().items():
-        info = audiocorp.source_info(name)
+    for name, metadata in training_speech.sources().items():
+        info = training_speech.source_info(name)
         if info['status'] in {'DONE', 'WIP'}:
             per_language_sources[metadata['language']].append((name, metadata, info))
             per_language_speakers[metadata['language']].add(metadata['speaker'])
@@ -643,7 +643,7 @@ def release(audio_rate, language):
 @click.argument('to_id', type=int)
 @click.option('-ar', '--audio-rate', default=16000)
 def make_test(source_name, from_id, to_id, audio_rate):
-    source = audiocorp.get_source(source_name)
+    source = training_speech.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])
@@ -731,7 +731,7 @@ BUILD_ALIGNMENT_TEST_TEMPLATE = """
 @cli.command()
 @click.argument('source_name')
 def source_stats(source_name):
-    source = audiocorp.get_source(source_name)
+    source = training_speech.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
     path_to_transcript = os.path.join(CURRENT_DIR, f'data/transcripts/{source_name}.txt')
     path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', source['audio'])

@@ -2,7 +2,7 @@ import subprocess
 
 import pytest
 
-from audiocorp import sox
+from training_speech import sox
 
 
 @pytest.mark.parametrize('kwargs, expected_call', [

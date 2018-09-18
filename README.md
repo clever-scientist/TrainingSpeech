@@ -1,4 +1,4 @@
-`AudioCorp` is an initiative to provide **open and freely reusable dataset** of voices 
+`TrainingSpeech` is an initiative to provide **open and freely reusable dataset** of voices 
 
  - for speech-to-text models training
 
@@ -15,7 +15,7 @@ Feel free to contribute !
 
 ## Tooling
 
-`AudioCorp`  comes with a CLI that automate and simplify:
+`TrainingSpeech`  comes with a CLI that automate and simplify:
  - transcript extraction
  - [forced-alignment](https://github.com/pettarin/forced-alignment-tools#definition-of-forced-alignment) (using [aeneas](https://github.com/readbeyond/aeneas))
  - validation and correction
@@ -43,9 +43,9 @@ Feel free to contribute !
 
 ```sh
 $ sudo apt-get install -y ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox libsqlite3-dev
-$ git clone git@gitlab.com:nicolaspanel/AudioCorp.git
+$ git clone git@gitlab.com:nicolaspanel/TrainingSpeech.git
 $ pip3 install --user pipenv
-$ cd AudioCorp
+$ cd TrainingSpeech
 $ pipenv install --python=3.6.6
 $ pipenv sync
 $ pipenv shell

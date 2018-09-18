@@ -1,7 +1,7 @@
 from datetime import timedelta
 
 import pytest
-from audiocorp import source
+from training_speech import source
 
 
 @pytest.mark.parametrize('data, expected_errors', [

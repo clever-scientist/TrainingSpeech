@@ -1,7 +1,7 @@
 import os
 
 import pytest
-from audiocorp import ffmpeg
+from training_speech import ffmpeg
 
 CURRENT_DIR = os.path.dirname(__file__)
 

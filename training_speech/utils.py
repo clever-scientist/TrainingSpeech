@@ -17,12 +17,12 @@ from aeneas.executetask import ExecuteTask
 from aeneas.task import Task
 from datadiff import diff
 
-from audiocorp import sox
-from audiocorp.exceptions import WrongCutException
+from training_speech import sox
+from training_speech.exceptions import WrongCutException
 
 EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
-CACHE_DIR = '/tmp/.audiocorp/'
+CACHE_DIR = '/tmp/.training_speech/'
 NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
 DEFAULT_SILENCE_MIN_DURATION = 0.07
 DEFAULT_SILENCE_NOISE_LEVEL = -36

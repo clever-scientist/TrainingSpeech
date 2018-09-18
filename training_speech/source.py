@@ -3,7 +3,7 @@ import os
 from datetime import timedelta
 from marshmallow import Schema, fields, ValidationError
 
-from audiocorp import utils
+from training_speech import utils
 
 CURRENT_DIR = os.path.dirname(__file__)
 
