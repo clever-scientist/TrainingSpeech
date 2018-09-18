@@ -399,8 +399,8 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False, l
         return [cleanup_fragment(f) for f in json.load(source)['fragments']]
 
 
-def get_fragment_hash(fragment: dict):
-    hash_ = sha1(fragment['text'].encode()).hexdigest()
+def get_fragment_hash(fragment: dict, salt: str=None):
+    hash_ = sha1(f"{salt or ''}{fragment['text']}".encode()).hexdigest()
     return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'
 
 

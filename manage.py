@@ -55,11 +55,11 @@ def build_transcript(source_name, yes, add_to_git):
 audio_player = None
 
 
-def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str=utils.CACHE_DIR):
+def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str=utils.CACHE_DIR, salt: str=None):
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
 
-    fragment_hash = utils.get_fragment_hash(fragment)
+    fragment_hash = utils.get_fragment_hash(fragment, salt=salt)
     path_to_fragment_audio = os.path.join(output_dir, f'{fragment_hash}.wav')
     if not os.path.isfile(path_to_fragment_audio):
         ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
@@ -593,7 +593,7 @@ def release(audio_rate, language):
 
             def _cut(f: dict):
                 try:
-                    p = cut_fragment_audio(f, f['source_file'])
+                    p = cut_fragment_audio(f, f['source_file'], salt=f['name'])
                     bar.update(1)
                     return p
                 except Exception as e:
