@@ -27,21 +27,25 @@ Il était très pâle.
 Sa figure semblait encore plus sinistre que la veille, et pourtant on le verra feindre une sorte de gaieté bruyante pendant l’entretien suivant.
 Cette scène se passait le lendemain de la querelle de ce bandit avec son frère Martial.
 Ah ! te voilà, bon sujet ! lui dit cordialement le logeur.
-Oui, père Micou.
-Je viens faire affaire avec vous.
+Oui, père Micou. Je viens faire affaire avec vous.
 Ferme donc la porte, alors… ferme donc la porte…
 C’est que mon chien et ma petite charrette sont là… avec la chose.
 Qu’est-ce que c’est que tu m’apportes ? du gras-double ?
+lame de plomb généralement volée sur les toits
 Non, père Micou.
 C’est pas du ravage.
+débris métalique recueuilli par les ravageurs
 T’es trop feignant maintenant.
-Tu ne travailles plus… c’est peut-être du dur ?
+Tu ne travailles plus…
+c’est peut-être du dur ?
+du fer
 Non, père Micou.
-C’est du rouget… quatre saumons…
+C’est du rouget…
+du cuivre
+quatre saumons…
 Il doit y en avoir au moins cent cinquante livres.
 Mon chien en a tout son tirage.
-Va me chercher le rouget.
-Nous allons peser.
+Va me chercher le rouget. Nous allons peser.
 Faut que vous m’aidiez, père Micou.
 J’ai mal au bras.
 Et, au souvenir de sa lutte avec son frère Martial, les traits du bandit exprimèrent à la fois un ressentiment de haine et de joie féroce, comme si déjà sa vengeance eût été satisfaite.
@@ -68,8 +72,7 @@ Barbillon et le gros boiteux me l’ont emmené, il n’est rentré que ce matin
 Il est déjà en course… au grand bureau de la poste, rue Jean-Jacques Rousseau.
 Et ton frère Martial, toujours sauvage ?
 Ma foi, je n’en sais rien.
-Comment !
-Tu n’en sais rien ?
+Comment ! Tu n’en sais rien ?
 Non, dit Nicolas en affectant un air indifférent.
 depuis deux jours nous ne l’avons pas vu…
 Il sera peut-être retourné braconner dans les bois, à moins que son bateau qui était vieux, vieux… n’ait coulé bas au milieu de la rivière, et lui avec…
@@ -105,8 +108,7 @@ Deux fortes charnières et un loquet pour ajuster et fermer à volonté une soup
 Une trappe, tu veux dire ?
 Non, une soupape…
 Je ne comprends pas à quoi ça peut te servir, une soupape.
-C’est possible.
-Moi, je le comprends.
+C’est possible. Moi, je le comprends.
 À la bonne heure.
 Tu n’auras qu’à choisir, j’ai là un tas de charnières.
 Et qu’est-ce qu’il te faudra encore ?
@@ -141,8 +143,7 @@ J’ai un de mes cousins qui tient une belle maison garnie de la rue Saint-Honor
 Dites donc, vieux obstiné, il doit y en avoir de girondes là-dedans ?
 Je crois bien !
 Il y en a deux ou trois que j’ai vues quelquefois apporter leur ouvrage…
-Mille z’yeux !
-Sont-elles gentilles !
+Mille z’yeux ! Sont-elles gentilles !
 Une petite surtout, qui travaille en chambre, qui rit toujours, et qui s’appelle Rigolette…
 Dieu de Dieu, mon fiston, quel dommage de ne plus avoir ses vingt ans !
 Allons, papa, éteignez-vous, ou je crie au feu !
@@ -198,8 +199,7 @@ C’est pas des locataires de nuit, ceux-là, c’est des locataires de plein so
 Quand il en fait dans votre passage, père Micou.
 Farceur !…
 Encore une tournée ?
-Mais la dernière.
-Faut que je file…
+Mais la dernière. Faut que je file…
 À propos, Robin le gros boiteux loge donc encore ici ?
 En haut… la porte à côté de la mère et de la fille…
 Il finit de manger son argent de prison… et je crois qu’il ne lui en reste guère.
@@ -234,8 +234,7 @@ Eh ! non !
 Colas, c’est la bonne de ma rentière, Madame de Saint-Ildefonse.
 Mais monsieur Badinot est son oncle.
 Il est venu hier de la campagne, dit le logeur, qui examinait la lettre.
-Puis il ajouta en lisant l’adresse.
-Vois donc.
+Puis il ajouta en lisant l’adresse. Vois donc.
 que ça de belles connaissances !
 Quand je te dis que c’est des gens calés.
 il écrit à un vicomte.
@@ -252,8 +251,7 @@ Je porterai ce que j’ai à porter à pied…
 Préparez ma marchandise et mon argent, que je n’aie qu’à filer.
 Sois tranquille.
 quatre bonnes plaques de tôle de deux pieds carrés chaque, trois barres de fer de trois pieds et deux charnières pour ta soupape.
-Cette soupape me paraît drôle.
-Enfin c’est égal… est-ce là tout ?
+Cette soupape me paraît drôle. Enfin c’est égal… est-ce là tout ?
 Oui, et mon argent ?
 Et ton argent…
 Mais dis donc, avant de t’en aller, faut que je te dise… depuis que tu es là… je t’examine…
@@ -263,7 +261,8 @@ Moi ?
 Oui.
 Vous êtes fou.
 Si j’ai quelque chose… c’est que… j’ai faim.
-Tu as faim… tu as faim… c’est possible… mais on dirait que tu veux avoir l’air gai, et qu’au fond tu as quelque chose qui te pince et qui te cuit… une puce à la muette, comme dit l’autre… et pour que ça te démange, il faut que ça te gratte fort… car tu n’es pas bégueule.
+Tu as faim… tu as faim… c’est possible…
+mais on dirait que tu veux avoir l’air gai, et qu’au fond tu as quelque chose qui te pince et qui te cuit… une puce à la muette, comme dit l’autre… et pour que ça te démange, il faut que ça te gratte fort… car tu n’es pas bégueule.
 Je vous dis que vous êtes fou, père Micou, dit Nicolas en tressaillant malgré lui.
 On dirait que tu viens de trembler, vois-tu.
 C’est mon bras qui me fait mal.
@@ -278,8 +277,7 @@ Ses bottes devaient avoir été enduites la veille d’un brillant vernis.
 Tel était monsieur Badinot, l’oncle de la rentière, cette Madame de Saint-Ildefonse dont la position sociale faisait l’orgueil et la sécurité du père Micou.
 On se souvient peut-être que monsieur Badinot, ancien avoué, chassé de sa corporation, alors chevalier d’industrie et agent d’affaires équivoques, servait d’espion au baron de Graün et avait donné à ce diplomate des renseignements assez nombreux et très précis sur bon nombre des personnages de cette histoire.
 Madame Charles vient de vous donner une lettre à porter, dit monsieur Badinot au logeur.
-Oui, monsieur…
-Mon neveu va rentrer… dans un moment il partira.
+Oui, monsieur… Mon neveu va rentrer… dans un moment il partira.
 Non, rendez-moi cette lettre… je me suis ravisé, j’irai moi-même chez le vicomte de Saint-Remy, dit monsieur Badinot en appuyant avec intention et fatuité sur cette adresse aristocratique.
 Voici la lettre, monsieur…
 Vous n’avez pas d’autre commission ?
