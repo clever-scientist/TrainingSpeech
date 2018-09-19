@@ -1,605 +1,1287 @@
 [
   {
+    "approved": true,
     "begin": 0.0,
     "end": 7.192,
     "text": "Rodolphe et Cl\u00e9mence causaient ensemble pendant que Monsieur d\u2019Harville lisait par deux fois la lettre de Sarah."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 7.842,
     "end": 10.648,
     "text": "Les traits du marquis rest\u00e8rent calmes."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 10.786,
     "end": 20.76,
     "text": "Un tremblement nerveux presque imperceptible agita seulement sa main, lorsque apr\u00e8s un moment d\u2019h\u00e9sitation il mit le billet dans la poche de son gilet."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 21.666,
-    "end": 37.016,
-    "text": "Au risque de passer encore pour un sauvage, dit-il \u00e0 Rodolphe en souriant, je vous demanderai la permission, monseigneur, d\u2019aller r\u00e9pondre \u00e0 cette lettre\u2026 plus importante que je ne le pensais d\u2019abord\u2026 Ne vous reverrai-je pas ce soir ?"
+    "end": 34.072,
+    "text": "Au risque de passer encore pour un sauvage, dit-il \u00e0 Rodolphe en souriant, je vous demanderai la permission, monseigneur, d\u2019aller r\u00e9pondre \u00e0 cette lettre\u2026 plus importante que je ne le pensais d\u2019abord\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 34.722,
+    "end": 37.016,
+    "text": "Ne vous reverrai-je pas ce soir ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 37.282,
     "end": 42.52,
     "text": "Je ne crois pas avoir cet honneur, monseigneur. J\u2019esp\u00e8re que Votre Altesse voudra bien m\u2019excuser."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 43.17,
     "end": 46.872,
     "text": "Quel homme insaisissable ! dit gaiement Rodolphe."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 46.626,
     "end": 49.944,
     "text": "N\u2019essayerez-vous pas, madame, de le retenir ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 50.338,
     "end": 54.04,
     "text": "Je n\u2019ose tenter ce que Votre Altesse a essay\u00e9 en vain."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 53.922,
-    "end": 65.432,
-    "text": "S\u00e9rieusement, mon cher Albert, t\u00e2chez de nous revenir d\u00e8s que votre lettre sera \u00e9crite\u2026 sinon promettez-moi de m\u2019accorder quelques moments un matin\u2026 J\u2019ai mille choses \u00e0 vous dire."
+    "end": 63.256,
+    "text": "S\u00e9rieusement, mon cher Albert, t\u00e2chez de nous revenir d\u00e8s que votre lettre sera \u00e9crite\u2026 sinon promettez-moi de m\u2019accorder quelques moments un matin\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 63.138,
+    "end": 65.432,
+    "text": "J\u2019ai mille choses \u00e0 vous dire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 65.442,
     "end": 70.04,
     "text": "Votre Altesse me comble, dit le marquis en saluant profond\u00e9ment."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 70.306,
     "end": 74.776,
     "text": "Et il se retira, laissant Cl\u00e9mence avec le prince."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 75.554,
     "end": 79.64,
     "text": "Votre mari est pr\u00e9occup\u00e9, dit Rodolphe \u00e0 la marquise."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 79.394,
-    "end": 87.04,
-    "text": "Son sourire m\u2019a paru contraint\u2026 Lorsque Votre Altesse est arriv\u00e9e, Monsieur d\u2019Harville \u00e9tait profond\u00e9ment \u00e9mu."
+    "end": 82.2,
+    "text": "Son sourire m\u2019a paru contraint\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 82.722,
+    "end": 87.04,
+    "text": "Lorsque Votre Altesse est arriv\u00e9e, Monsieur d\u2019Harville \u00e9tait profond\u00e9ment \u00e9mu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 86.842,
     "end": 89.624,
     "text": "Il a eu grand-peine \u00e0 vous le cacher."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 90.018,
-    "end": 92.16,
+    "end": 92.696,
     "text": "Je suis peut-\u00eatre arriv\u00e9 mal \u00e0 propos ?"
   },
   {
-    "begin": 92.09,
+    "approved": true,
+    "begin": 92.834,
     "end": 97.688,
     "text": "Non, monseigneur. Vous m\u2019avez m\u00eame \u00e9pargn\u00e9 la fin d\u2019un entretien p\u00e9nible."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 97.954,
     "end": 99.224,
     "text": "Comment cela ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 99.362,
     "end": 108.312,
     "text": "J\u2019ai dit \u00e0 Monsieur d\u2019Harville la nouvelle conduite que j\u2019\u00e9tais r\u00e9solue de suivre \u00e0 son \u00e9gard\u2026 en lui promettant soutien et consolation."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 109.09,
     "end": 111.256,
     "text": "Qu\u2019il a d\u00fb \u00eatre heureux !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 111.01,
+    "end": 118.68,
+    "text": "D\u2019abord il l\u2019a \u00e9t\u00e9 autant que moi, car ses larmes, sa joie, m\u2019ont caus\u00e9 une \u00e9motion que je ne connaissais pas encore\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 119.074,
+    "end": 124.952,
+    "text": "Autrefois, je croyais me venger en lui adressant un reproche ou un sarcasme\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 125.09,
     "end": 127.128,
-    "text": "D\u2019abord il l\u2019a \u00e9t\u00e9 autant que moi, car ses larmes, sa joie, m\u2019ont caus\u00e9 une \u00e9motion que je ne connaissais pas encore\u2026 Autrefois, je croyais me venger en lui adressant un reproche ou un sarcasme\u2026 Triste vengeance !"
+    "text": "Triste vengeance !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 127.266,
-    "end": 134.04,
-    "text": "Mon chagrin n\u2019en \u00e9tait ensuite que plus amer\u2026 Tandis que tout \u00e0 l\u2019heure\u2026 quelle diff\u00e9rence !"
+    "end": 130.712,
+    "text": "Mon chagrin n\u2019en \u00e9tait ensuite que plus amer\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 130.85,
+    "end": 134.04,
+    "text": "Tandis que tout \u00e0 l\u2019heure\u2026 quelle diff\u00e9rence !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 134.306,
     "end": 137.24,
     "text": "J\u2019avais demand\u00e9 \u00e0 mon mari s\u2019il sortait."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 137.25,
     "end": 143.0,
     "text": "Il m\u2019avait r\u00e9pondu tristement qu\u2019il passerait la soir\u00e9e seul, comme cela lui arrivait souvent."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 143.522,
     "end": 149.656,
     "text": "Quand je lui ai offert de rester aupr\u00e8s de lui\u2026 si vous aviez vu son \u00e9tonnement, monseigneur !"
   },
   {
+    "approved": true,
     "begin": 149.41,
+    "end": 154.264,
+    "text": "Combien ses traits, toujours sombres, sont tout \u00e0 coup devenus radieux\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 154.402,
+    "end": 160.92,
+    "text": "Ah ! vous aviez bien raison\u2026 rien de plus charmant \u00e0 m\u00e9nager que ces surprises de bonheur !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 161.57,
     "end": 168.088,
-    "text": "Combien ses traits, toujours sombres, sont tout \u00e0 coup devenus radieux\u2026 Ah ! vous aviez bien raison\u2026 rien de plus charmant \u00e0 m\u00e9nager que ces surprises de bonheur !\u2026 Mais comment ces preuves de bont\u00e9 de votre part ont-elles amen\u00e9 cet entretien p\u00e9nible dont vous me parliez ?"
+    "text": "Mais comment ces preuves de bont\u00e9 de votre part ont-elles amen\u00e9 cet entretien p\u00e9nible dont vous me parliez ?"
   },
   {
+    "approved": true,
     "begin": 168.226,
+    "end": 187.032,
+    "text": "H\u00e9las ! monseigneur, dit Cl\u00e9mence en rougissant, \u00e0 des esp\u00e9rances que j\u2019avais fait na\u00eetre, parce que je pouvais les r\u00e9aliser\u2026 ont succ\u00e9d\u00e9 chez Monsieur d\u2019Harville des esp\u00e9rances plus tendres\u2026 que je m\u2019\u00e9tais bien gard\u00e9e de provoquer, parce qu\u2019il me sera toujours impossible de les satisfaire\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 187.554,
+    "end": 191.872,
+    "text": "Je comprends\u2026 il vous aime si tendrement\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 191.802,
+    "end": 201.368,
+    "text": "Autant j\u2019avais d\u2019abord \u00e9t\u00e9 touch\u00e9e de sa reconnaissance\u2026 autant je me suis sentie glac\u00e9e, effray\u00e9e, d\u00e8s que son langage est devenu passionn\u00e9\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 201.634,
+    "end": 212.12,
+    "text": "Enfin, lorsque dans son exaltation il a pos\u00e9 ses l\u00e8vres sur ma main\u2026 un froid mortel m\u2019a saisie, je n\u2019ai pu dissimuler ma frayeur\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 212.002,
+    "end": 219.544,
+    "text": "Je lui portai un coup douloureux\u2026 en manifestant ainsi l\u2019invincible \u00e9loignement que me causait son amour\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 219.426,
+    "end": 221.08,
+    "text": "Je le regrette\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 220.962,
+    "end": 230.04,
+    "text": "Mais au moins Monsieur d\u2019Harville est maintenant \u00e0 jamais convaincu, malgr\u00e9 mon retour vers lui, qu\u2019il ne doit attendre de moi que l\u2019amiti\u00e9 la plus d\u00e9vou\u00e9e\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 230.306,
     "end": 233.368,
-    "text": "H\u00e9las ! monseigneur, dit Cl\u00e9mence en rougissant, \u00e0 des esp\u00e9rances que j\u2019avais fait na\u00eetre, parce que je pouvais les r\u00e9aliser\u2026 ont succ\u00e9d\u00e9 chez Monsieur d\u2019Harville des esp\u00e9rances plus tendres\u2026 que je m\u2019\u00e9tais bien gard\u00e9e de provoquer, parce qu\u2019il me sera toujours impossible de les satisfaire\u2026 Je comprends\u2026 il vous aime si tendrement\u2026 Autant j\u2019avais d\u2019abord \u00e9t\u00e9 touch\u00e9e de sa reconnaissance\u2026 autant je me suis sentie glac\u00e9e, effray\u00e9e, d\u00e8s que son langage est devenu passionn\u00e9\u2026 Enfin, lorsque dans son exaltation il a pos\u00e9 ses l\u00e8vres sur ma main\u2026 un froid mortel m\u2019a saisie, je n\u2019ai pu dissimuler ma frayeur\u2026 Je lui portai un coup douloureux\u2026 en manifestant ainsi l\u2019invincible \u00e9loignement que me causait son amour\u2026 Je le regrette\u2026 Mais au moins Monsieur d\u2019Harville est maintenant \u00e0 jamais convaincu, malgr\u00e9 mon retour vers lui, qu\u2019il ne doit attendre de moi que l\u2019amiti\u00e9 la plus d\u00e9vou\u00e9e\u2026 Je le plains\u2026 sans pouvoir vous bl\u00e2mer."
+    "text": "Je le plains\u2026 sans pouvoir vous bl\u00e2mer."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 233.378,
+    "end": 237.464,
+    "text": "Il est des susceptibilit\u00e9s pour ainsi dire sacr\u00e9es\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 237.602,
     "end": 245.4,
-    "text": "Il est des susceptibilit\u00e9s pour ainsi dire sacr\u00e9es\u2026 Pauvre Albert, si bon, si loyal pourtant !!! d\u2019un c\u0153ur si vaillant, d\u2019une \u00e2me si ardente !"
+    "text": "Pauvre Albert, si bon, si loyal pourtant !!! d\u2019un c\u0153ur si vaillant, d\u2019une \u00e2me si ardente !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 245.538,
+    "end": 253.592,
+    "text": "Si vous saviez combien j\u2019ai \u00e9t\u00e9 longtemps pr\u00e9occup\u00e9 de la tristesse qui le d\u00e9vorait, quoique j\u2019en ignorasse la cause\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 253.858,
     "end": 256.664,
-    "text": "Si vous saviez combien j\u2019ai \u00e9t\u00e9 longtemps pr\u00e9occup\u00e9 de la tristesse qui le d\u00e9vorait, quoique j\u2019en ignorasse la cause\u2026 Attendons tout du temps, de la raison."
+    "text": "Attendons tout du temps, de la raison."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 256.674,
-    "end": 273.688,
-    "text": "Peu \u00e0 peu il reconna\u00eetra le prix de l\u2019affection que vous lui offrez, et il se r\u00e9signera comme il s\u2019\u00e9tait r\u00e9sign\u00e9 jusqu\u2019ici sans avoir les touchantes consolations que vous lui offrez\u2026 Et qui ne lui manqueront jamais, je vous le jure, monseigneur."
+    "end": 269.464,
+    "text": "Peu \u00e0 peu il reconna\u00eetra le prix de l\u2019affection que vous lui offrez, et il se r\u00e9signera comme il s\u2019\u00e9tait r\u00e9sign\u00e9 jusqu\u2019ici sans avoir les touchantes consolations que vous lui offrez\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 270.114,
+    "end": 273.688,
+    "text": "Et qui ne lui manqueront jamais, je vous le jure, monseigneur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 274.338,
     "end": 277.4,
     "text": "Maintenant, songeons \u00e0 d\u2019autres infortunes."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 277.154,
-    "end": 284.568,
-    "text": "Je vous ai promis une bonne \u0153uvre, ayant tout le charme d\u2019un roman en action\u2026 Je viens remplir mon engagement."
+    "end": 282.136,
+    "text": "Je vous ai promis une bonne \u0153uvre, ayant tout le charme d\u2019un roman en action\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 282.146,
+    "end": 284.568,
+    "text": "Je viens remplir mon engagement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 284.706,
     "end": 286.08,
     "text": "D\u00e9j\u00e0, monseigneur ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 286.01,
     "end": 287.256,
     "text": "Quel bonheur !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 287.138,
+    "end": 293.784,
+    "text": "Ah ! que j\u2019ai \u00e9t\u00e9 bien inspir\u00e9 en louant cette pauvre chambre de la rue du Temple, dont je vous ai parl\u00e9\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 293.922,
+    "end": 298.52,
+    "text": "Vous n\u2019imaginez pas tout ce que j\u2019ai trouv\u00e9 l\u00e0 de curieux, d\u2019int\u00e9ressant !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 298.658,
     "end": 304.792,
-    "text": "Ah ! que j\u2019ai \u00e9t\u00e9 bien inspir\u00e9 en louant cette pauvre chambre de la rue du Temple, dont je vous ai parl\u00e9\u2026 Vous n\u2019imaginez pas tout ce que j\u2019ai trouv\u00e9 l\u00e0 de curieux, d\u2019int\u00e9ressant !\u2026 D\u2019abord vos prot\u00e9g\u00e9s de la mansarde jouissent du bonheur que votre pr\u00e9sence leur avait promis."
+    "text": "D\u2019abord vos prot\u00e9g\u00e9s de la mansarde jouissent du bonheur que votre pr\u00e9sence leur avait promis."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 304.674,
+    "end": 308.376,
+    "text": "Ils ont cependant encore \u00e0 subir de rudes \u00e9preuves."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 308.258,
+    "end": 310.68,
+    "text": "Mais je ne veux pas vous attrister\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 310.562,
+    "end": 315.672,
+    "text": "Un jour vous saurez combien d\u2019horribles maux peuvent accabler une seule famille\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 316.194,
     "end": 319.384,
-    "text": "Ils ont cependant encore \u00e0 subir de rudes \u00e9preuves. Mais je ne veux pas vous attrister\u2026 Un jour vous saurez combien d\u2019horribles maux peuvent accabler une seule famille\u2026 Quelle doit \u00eatre leur reconnaissance envers vous !"
+    "text": "Quelle doit \u00eatre leur reconnaissance envers vous !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 319.522,
+    "end": 321.816,
+    "text": "C\u2019est votre nom qu\u2019ils b\u00e9nissent\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 322.082,
     "end": 325.144,
-    "text": "C\u2019est votre nom qu\u2019ils b\u00e9nissent\u2026 Vous les avez secourus en mon nom, monseigneur ?"
+    "text": "Vous les avez secourus en mon nom, monseigneur ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 325.538,
-    "end": 331.672,
-    "text": "Pour leur rendre l\u2019aum\u00f4ne plus douce\u2026 D\u2019ailleurs, je n\u2019ai fait que r\u00e9aliser vos promesses."
+    "end": 328.192,
+    "text": "Pour leur rendre l\u2019aum\u00f4ne plus douce\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 327.994,
+    "end": 331.672,
+    "text": "D\u2019ailleurs, je n\u2019ai fait que r\u00e9aliser vos promesses."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 331.426,
     "end": 335.256,
     "text": "Oh ! j\u2019irai les d\u00e9tromper\u2026 leur dire ce qu\u2019ils vous doivent."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 335.138,
     "end": 336.664,
     "text": "Ne faites pas cela !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 336.546,
-    "end": 349.592,
-    "text": "Vous le savez, j\u2019ai une chambre dans cette maison, redoutez de nouvelles l\u00e2chet\u00e9s anonymes de vos ennemis\u2026 ou des miens\u2026 et puis les Morel sont maintenant \u00e0 l\u2019abri du besoin\u2026 Songeons \u00e0 notre intrigue."
+    "end": 347.288,
+    "text": "Vous le savez, j\u2019ai une chambre dans cette maison, redoutez de nouvelles l\u00e2chet\u00e9s anonymes de vos ennemis\u2026 ou des miens\u2026 et puis les Morel sont maintenant \u00e0 l\u2019abri du besoin\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 347.298,
+    "end": 349.592,
+    "text": "Songeons \u00e0 notre intrigue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 349.474,
     "end": 361.752,
     "text": "Il s\u2019agit d\u2019une pauvre m\u00e8re et de sa fille, qui, autrefois dans l\u2019aisance, sont aujourd\u2019hui, par suite d\u2019une spoliation inf\u00e2me\u2026 r\u00e9duites au sort le plus affreux."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 362.018,
+    "end": 364.032,
+    "text": "Malheureuses femmes !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 363.706,
     "end": 366.104,
-    "text": "Malheureuses femmes !\u2026 Et o\u00f9 demeurent-elles, monseigneur ?"
+    "text": "Et o\u00f9 demeurent-elles, monseigneur ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 366.37,
+    "end": 367.768,
+    "text": "Je l\u2019ignore."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 368.162,
     "end": 370.712,
-    "text": "Je l\u2019ignore. Mais comment avez-vous connu leur mis\u00e8re ?"
+    "text": "Mais comment avez-vous connu leur mis\u00e8re ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 370.978,
+    "end": 373.144,
+    "text": "Hier je vais au Temple\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 372.898,
     "end": 376.344,
-    "text": "Hier je vais au Temple\u2026 Vous ne savez pas ce que c\u2019est que le Temple, madame la marquise ?"
+    "text": "Vous ne savez pas ce que c\u2019est que le Temple, madame la marquise ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 376.226,
+    "end": 377.752,
+    "text": "Non, monseigneur\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 377.506,
     "end": 380.312,
-    "text": "Non, monseigneur\u2026 C\u2019est un bazar tr\u00e8s amusant \u00e0 voir."
+    "text": "C\u2019est un bazar tr\u00e8s amusant \u00e0 voir."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 380.322,
+    "end": 384.536,
+    "text": "J\u2019allais donc faire l\u00e0 quelques emplettes avec ma voisine du quatri\u00e8me\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 384.546,
+    "end": 386.072,
+    "text": "Votre voisine ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 386.082,
     "end": 388.632,
-    "text": "J\u2019allais donc faire l\u00e0 quelques emplettes avec ma voisine du quatri\u00e8me\u2026 Votre voisine ?\u2026 N\u2019ai-je pas ma chambre, rue du Temple ?"
+    "text": "N\u2019ai-je pas ma chambre, rue du Temple ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 388.514,
-    "end": 395.648,
-    "text": "Je l\u2019oubliais, monseigneur\u2026 Cette voisine est une ravissante petite grisette, elle s\u2019appelle Rigolette."
+    "end": 390.424,
+    "text": "Je l\u2019oubliais, monseigneur\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 390.434,
+    "end": 395.648,
+    "text": "Cette voisine est une ravissante petite grisette, elle s\u2019appelle Rigolette."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 395.45,
     "end": 398.104,
     "text": "Elle rit toujours, et n\u2019a jamais eu d\u2019amant."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 398.37,
-    "end": 401.92,
+    "end": 401.176,
     "text": "Quelle vertu\u2026 pour une grisette !"
   },
   {
-    "begin": 401.85,
+    "approved": true,
+    "approved_auto": true,
+    "begin": 401.314,
     "end": 408.088,
     "text": "Ce n\u2019est pas absolument par vertu qu\u2019elle est sage, mais parce qu\u2019elle n\u2019a pas, dit-elle, le loisir d\u2019\u00eatre amoureuse."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 408.098,
-    "end": 419.352,
-    "text": "Cela lui prendrait trop de temps, car il lui faut travailler douze \u00e0 quinze heures par jour pour gagner vingt-cinq sous, avec lesquels elle vit !\u2026 Elle peut vivre de si peu ?"
+    "end": 416.92,
+    "text": "Cela lui prendrait trop de temps, car il lui faut travailler douze \u00e0 quinze heures par jour pour gagner vingt-cinq sous, avec lesquels elle vit !\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 417.314,
+    "end": 419.352,
+    "text": "Elle peut vivre de si peu ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 419.234,
     "end": 420.888,
     "text": "Comment donc !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 420.642,
     "end": 425.24,
     "text": "Elle a m\u00eame comme objet de luxe deux oiseaux qui mangent plus qu\u2019elle."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 425.122,
     "end": 429.976,
     "text": "Sa chambrette est des plus proprettes, et sa mise des plus coquettes."
   },
   {
+    "approved": true,
     "begin": 429.858,
-    "end": 441.472,
-    "text": "Vivre avec vingt-cinq sous par jour ! C\u2019est un prodige\u2026 Un vrai prodige d\u2019ordre, de travail, d\u2019\u00e9conomie et de philosophie pratique, je vous assure."
+    "end": 433.944,
+    "text": "Vivre avec vingt-cinq sous par jour ! C\u2019est un prodige\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 433.954,
+    "end": 441.472,
+    "text": "Un vrai prodige d\u2019ordre, de travail, d\u2019\u00e9conomie et de philosophie pratique, je vous assure."
+  },
+  {
+    "approved": true,
     "begin": 441.274,
     "end": 443.672,
     "text": "Aussi je vous la recommande."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 443.554,
-    "end": 466.84,
-    "text": "elle est, dit-elle, tr\u00e8s habile couturi\u00e8re\u2026 En tout cas, vous ne seriez pas oblig\u00e9e de porter les robes qu\u2019elle vous ferait\u2026 D\u00e8s demain je lui enverrai de l\u2019ouvrage\u2026 Pauvre fille !\u2026 Vivre avec une somme si minime et pour ainsi dire si inconnue \u00e0 nous autres riches, que le prix du moindre de nos caprices a cent fois cette valeur !"
+    "end": 446.616,
+    "text": "elle est, dit-elle, tr\u00e8s habile couturi\u00e8re\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 446.626,
+    "end": 451.224,
+    "text": "En tout cas, vous ne seriez pas oblig\u00e9e de porter les robes qu\u2019elle vous ferait\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 451.618,
+    "end": 454.144,
+    "text": "D\u00e8s demain je lui enverrai de l\u2019ouvrage\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 454.074,
+    "end": 455.448,
+    "text": "Pauvre fille !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 455.33,
+    "end": 466.84,
+    "text": "Vivre avec une somme si minime et pour ainsi dire si inconnue \u00e0 nous autres riches, que le prix du moindre de nos caprices a cent fois cette valeur !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 467.49,
     "end": 471.32,
     "text": "Vous vous int\u00e9ressez donc \u00e0 ma petite prot\u00e9g\u00e9e, c\u2019est convenu."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 471.074,
     "end": 473.368,
     "text": "Revenons \u00e0 notre aventure."
   },
   {
+    "approved": true,
     "begin": 473.122,
     "end": 497.944,
     "text": "J\u2019\u00e9tais donc all\u00e9 au Temple, avec Mademoiselle Rigolette, pour quelques achats destin\u00e9s \u00e0 vos pauvres gens de la mansarde, lorsque, fouillant par hasard dans un vieux secr\u00e9taire \u00e0 vendre, je trouvai un brouillon de lettre, \u00e9crite par une femme qui se plaignait \u00e0 un tiers d\u2019\u00eatre r\u00e9duite \u00e0 la mis\u00e8re, elle et sa fille, par l\u2019infid\u00e9lit\u00e9 d\u2019un d\u00e9positaire."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 497.826,
     "end": 501.272,
     "text": "Je demandai au marchand d\u2019o\u00f9 lui venait ce meuble."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 501.154,
-    "end": 518.296,
-    "text": "Il faisait partie d\u2019un modeste mobilier qu\u2019une femme, jeune encore, lui avait vendu, \u00e9tant sans doute \u00e0 bout de ressources\u2026 Cette femme et sa fille, me dit le marchand, semblaient \u00eatre des bourgeoises et supporter fi\u00e8rement leur d\u00e9tresse."
+    "end": 510.104,
+    "text": "Il faisait partie d\u2019un modeste mobilier qu\u2019une femme, jeune encore, lui avait vendu, \u00e9tant sans doute \u00e0 bout de ressources\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 510.242,
+    "end": 518.296,
+    "text": "Cette femme et sa fille, me dit le marchand, semblaient \u00eatre des bourgeoises et supporter fi\u00e8rement leur d\u00e9tresse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 518.562,
     "end": 521.624,
     "text": "Et vous ne savez pas leur demeure, monseigneur ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 521.89,
-    "end": 533.272,
-    "text": "Malheureusement, non\u2026 jusqu\u2019\u00e0 pr\u00e9sent\u2026 Mais j\u2019ai donn\u00e9 ordre \u00e0 Monsieur de Gra\u00fcn de t\u00e2cher de la d\u00e9couvrir, en s\u2019adressant, s\u2019il le faut, \u00e0 la pr\u00e9fecture de police."
+    "end": 524.824,
+    "text": "Malheureusement, non\u2026 jusqu\u2019\u00e0 pr\u00e9sent\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 524.706,
+    "end": 533.272,
+    "text": "Mais j\u2019ai donn\u00e9 ordre \u00e0 Monsieur de Gra\u00fcn de t\u00e2cher de la d\u00e9couvrir, en s\u2019adressant, s\u2019il le faut, \u00e0 la pr\u00e9fecture de police."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 533.538,
     "end": 542.104,
     "text": "Il est probable que, d\u00e9nu\u00e9es de tout, la m\u00e8re et la fille auront \u00e9t\u00e9 chercher un refuge dans quelque mis\u00e9rable h\u00f4tel garni."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 542.626,
     "end": 546.072,
     "text": "S\u2019il en est ainsi, nous avons bon espoir."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 545.954,
     "end": 552.344,
     "text": "Car les ma\u00eetres de ces maisons y inscrivent chaque soir les \u00e9trangers qui y sont venus dans la journ\u00e9e."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 553.122,
     "end": 558.232,
     "text": "Quel singulier concours de circonstances ! dit Madame d\u2019Harville avec \u00e9tonnement."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 558.242,
     "end": 560.664,
     "text": "Combien cela est attachant !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 560.93,
-    "end": 567.96,
-    "text": "Ce n\u2019est pas tout\u2026 Dans un coin du brouillon de la lettre rest\u00e9e dans le vieux meuble, se trouvaient ces mots."
+    "end": 562.304,
+    "text": "Ce n\u2019est pas tout\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 561.978,
+    "end": 567.96,
+    "text": "Dans un coin du brouillon de la lettre rest\u00e9e dans le vieux meuble, se trouvaient ces mots."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 567.97,
     "end": 570.264,
     "text": "\u00c9crire \u00e0 Madame de Lucenay."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 570.402,
     "end": 571.904,
     "text": "Quel bonheur !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 571.578,
     "end": 576.792,
     "text": "Peut-\u00eatre saurons-nous quelque chose par la duchesse, s\u2019\u00e9cria vivement Madame d\u2019Harville."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 576.93,
     "end": 579.608,
     "text": "Puis elle reprit avec un soupir."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 579.49,
     "end": 584.088,
     "text": "Mais, ignorant le nom de cette femme, comment la d\u00e9signer \u00e0 Madame de Lucenay ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 584.098,
-    "end": 597.272,
-    "text": "Il faudra lui demander si elle ne conna\u00eet pas une veuve, jeune encore, d\u2019une physionomie distingu\u00e9e, et dont la fille, \u00e2g\u00e9e de seize ou dix-sept ans, se nomme Claire\u2026 Je me souviens du nom."
+    "end": 595.736,
+    "text": "Il faudra lui demander si elle ne conna\u00eet pas une veuve, jeune encore, d\u2019une physionomie distingu\u00e9e, et dont la fille, \u00e2g\u00e9e de seize ou dix-sept ans, se nomme Claire\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 595.49,
+    "end": 597.272,
+    "text": "Je me souviens du nom."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 597.666,
     "end": 599.576,
     "text": "Le nom de ma fille !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 599.33,
     "end": 603.8,
     "text": "Il me semble que c\u2019est un motif de plus de s\u2019int\u00e9resser \u00e0 ces infortun\u00e9es."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 604.194,
     "end": 609.176,
     "text": "J\u2019oubliais de vous dire que le fr\u00e8re de cette veuve s\u2019est suicid\u00e9 il y a quelques mois."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 609.698,
     "end": 618.264,
     "text": "Si Madame de Lucenay conna\u00eet cette famille, reprit Madame d\u2019Harville en r\u00e9fl\u00e9chissant, de tels renseignements suffiront pour la mettre sur la voie."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 618.274,
     "end": 625.56,
     "text": "Dans ce cas encore, le triste genre de mort de ce malheureux aura d\u00fb frapper la duchesse."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 625.57,
     "end": 628.248,
     "text": "Mon Dieu ! que j\u2019ai h\u00e2te d\u2019aller la voir !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 628.002,
     "end": 633.368,
     "text": "Je lui \u00e9crirai un mot ce soir pour avoir la certitude de la rencontrer demain matin."
   },
   {
+    "approved": true,
     "begin": 633.506,
     "end": 635.52,
     "text": "Quelles peuvent \u00eatre ces femmes ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 635.194,
-    "end": 650.392,
-    "text": "D\u2019apr\u00e8s ce que vous savez d\u2019elles, monseigneur, elles paraissent appartenir \u00e0 une classe distingu\u00e9e de la soci\u00e9t\u00e9\u2026 Et se voir r\u00e9duites \u00e0 une telle d\u00e9tresse !\u2026 Ah ! pour elles la mis\u00e8re doit \u00eatre doublement affreuse."
+    "end": 642.2,
+    "text": "D\u2019apr\u00e8s ce que vous savez d\u2019elles, monseigneur, elles paraissent appartenir \u00e0 une classe distingu\u00e9e de la soci\u00e9t\u00e9\u2026"
   },
   {
+    "approved": true,
+    "begin": 642.21,
+    "end": 646.168,
+    "text": "Et se voir r\u00e9duites \u00e0 une telle d\u00e9tresse !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 646.05,
+    "end": 650.392,
+    "text": "Ah ! pour elles la mis\u00e8re doit \u00eatre doublement affreuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 650.914,
     "end": 660.12,
     "text": "Et cela par la volerie d\u2019un notaire, abominable coquin dont je savais d\u00e9j\u00e0 d\u2019autres m\u00e9faits\u2026 un certain Jacques Ferrand."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 660.514,
+    "end": 665.624,
+    "text": "Le notaire de mon mari ! s\u2019\u00e9cria Cl\u00e9mence, le notaire de ma belle-m\u00e8re !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 665.506,
     "end": 670.232,
-    "text": "Le notaire de mon mari ! s\u2019\u00e9cria Cl\u00e9mence, le notaire de ma belle-m\u00e8re ! Mais vous vous trompez, monseigneur. On le regarde comme le plus honn\u00eate homme du monde."
+    "text": "Mais vous vous trompez, monseigneur. On le regarde comme le plus honn\u00eate homme du monde."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 670.626,
-    "end": 679.704,
-    "text": "J\u2019ai les preuves du contraire\u2026 Mais veuillez ne dire \u00e0 personne mes doutes ou plut\u00f4t mes certitudes au sujet de ce mis\u00e9rable."
+    "end": 672.92,
+    "text": "J\u2019ai les preuves du contraire\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 672.802,
+    "end": 679.704,
+    "text": "Mais veuillez ne dire \u00e0 personne mes doutes ou plut\u00f4t mes certitudes au sujet de ce mis\u00e9rable."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 679.842,
     "end": 687.896,
     "text": "Il est aussi adroit que criminel, et, pour le d\u00e9masquer, j\u2019ai besoin qu\u2019il croie encore quelques jours \u00e0 l\u2019impunit\u00e9."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 688.162,
     "end": 698.52,
     "text": "Oui, c\u2019est lui qui a d\u00e9pouill\u00e9 ces infortun\u00e9es, en niant un d\u00e9p\u00f4t qui, selon toute apparence, lui avait \u00e9t\u00e9 remis par le fr\u00e8re de cette veuve."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 699.042,
     "end": 700.824,
     "text": "Et cette somme ?"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 701.218,
     "end": 703.384,
     "text": "\u00c9tait toutes leurs ressources !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 703.522,
-    "end": 732.696,
-    "text": "Oh ! voil\u00e0 de ces crimes\u2026 De ces crimes, s\u2019\u00e9cria Rodolphe, de ces crimes que rien n\u2019excuse, ni le besoin, ni la passion\u2026 Souvent la faim pousse au vol, la vengeance au meurtre\u2026 Mais ce notaire d\u00e9j\u00e0 riche, mais cet homme rev\u00eatu par la soci\u00e9t\u00e9 d\u2019un caract\u00e8re presque sacerdotal, d\u2019un caract\u00e8re qui impose, qui force la confiance\u2026 cet homme est pouss\u00e9 au crime, lui, par une cupidit\u00e9 froide et implacable."
+    "end": 705.944,
+    "text": "Oh ! voil\u00e0 de ces crimes\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 705.954,
+    "end": 711.704,
+    "text": "De ces crimes, s\u2019\u00e9cria Rodolphe, de ces crimes que rien n\u2019excuse, ni le besoin, ni la passion\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 711.842,
+    "end": 715.928,
+    "text": "Souvent la faim pousse au vol, la vengeance au meurtre\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 715.938,
+    "end": 732.696,
+    "text": "Mais ce notaire d\u00e9j\u00e0 riche, mais cet homme rev\u00eatu par la soci\u00e9t\u00e9 d\u2019un caract\u00e8re presque sacerdotal, d\u2019un caract\u00e8re qui impose, qui force la confiance\u2026 cet homme est pouss\u00e9 au crime, lui, par une cupidit\u00e9 froide et implacable."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 732.834,
     "end": 737.304,
     "text": "L\u2019assassin ne vous tue qu\u2019une fois\u2026 et vite\u2026 avec son couteau."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 737.442,
-    "end": 753.176,
-    "text": "Lui vous tue lentement, par toutes les formules du d\u00e9sespoir et de la mis\u00e8re o\u00f9 il vous plonge\u2026 Pour un homme comme ce Ferrand, le patrimoine de l\u2019orphelin, les deniers du pauvre si laborieusement amass\u00e9s\u2026 rien n\u2019est sacr\u00e9 !"
+    "end": 743.704,
+    "text": "Lui vous tue lentement, par toutes les formules du d\u00e9sespoir et de la mis\u00e8re o\u00f9 il vous plonge\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 743.97,
+    "end": 753.176,
+    "text": "Pour un homme comme ce Ferrand, le patrimoine de l\u2019orphelin, les deniers du pauvre si laborieusement amass\u00e9s\u2026 rien n\u2019est sacr\u00e9 !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 753.314,
     "end": 757.784,
     "text": "Vous lui confiez de l\u2019or, cet or le tente\u2026 il le vole."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 757.922,
+    "end": 763.672,
+    "text": "De riche et d\u2019heureux, la volont\u00e9 de cet homme vous fait mendiant et d\u00e9sol\u00e9 !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 764.066,
+    "end": 775.576,
+    "text": "\u00c0 force de privations et de travaux, vous avez assur\u00e9 le pain et l\u2019abri de votre vieillesse\u2026 la volont\u00e9 de cet homme arrache \u00e0 votre vieillesse ce pain et cet abri\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 775.458,
     "end": 776.856,
-    "text": "De riche et d\u2019heureux, la volont\u00e9 de cet homme vous fait mendiant et d\u00e9sol\u00e9 !\u2026 \u00c0 force de privations et de travaux, vous avez assur\u00e9 le pain et l\u2019abri de votre vieillesse\u2026 la volont\u00e9 de cet homme arrache \u00e0 votre vieillesse ce pain et cet abri\u2026 Ce n\u2019est pas tout."
+    "text": "Ce n\u2019est pas tout."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 776.738,
+    "end": 781.464,
+    "text": "Voyez les effrayantes cons\u00e9quences de ces spoliations inf\u00e2mes\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 781.474,
     "end": 799.512,
-    "text": "Voyez les effrayantes cons\u00e9quences de ces spoliations inf\u00e2mes\u2026 Que cette veuve dont nous parlons, madame, meure de chagrin et de d\u00e9tresse, sa fille, jeune et belle, sans appui, sans ressource, habitu\u00e9e \u00e0 l\u2019aisance, inapte, par son \u00e9ducation, \u00e0 gagner sa vie, se trouve bient\u00f4t entre le d\u00e9shonneur et la faim !"
+    "text": "Que cette veuve dont nous parlons, madame, meure de chagrin et de d\u00e9tresse, sa fille, jeune et belle, sans appui, sans ressource, habitu\u00e9e \u00e0 l\u2019aisance, inapte, par son \u00e9ducation, \u00e0 gagner sa vie, se trouve bient\u00f4t entre le d\u00e9shonneur et la faim !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 799.778,
-    "end": 816.664,
-    "text": "Qu\u2019elle s\u2019\u00e9gare, qu\u2019elle succombe\u2026 la voil\u00e0 perdue, avilie, d\u00e9shonor\u00e9e !\u2026 Par sa spoliation, Jacques Ferrand est donc cause de la mort de la m\u00e8re, de la prostitution de la fille !\u2026 Il a tu\u00e9 le corps de l\u2019une, tu\u00e9 l\u2019\u00e2me de l\u2019autre."
+    "end": 805.528,
+    "text": "Qu\u2019elle s\u2019\u00e9gare, qu\u2019elle succombe\u2026 la voil\u00e0 perdue, avilie, d\u00e9shonor\u00e9e !\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 805.794,
+    "end": 812.696,
+    "text": "Par sa spoliation, Jacques Ferrand est donc cause de la mort de la m\u00e8re, de la prostitution de la fille !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 812.706,
+    "end": 816.664,
+    "text": "Il a tu\u00e9 le corps de l\u2019une, tu\u00e9 l\u2019\u00e2me de l\u2019autre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 816.802,
     "end": 824.984,
     "text": "Et cela, encore une fois, non pas tout d\u2019un coup, comme les autres homicides, mais avec lenteur et cruaut\u00e9."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 825.25,
     "end": 832.024,
     "text": "Cl\u00e9mence n\u2019avait pas encore entendu Rodolphe parler avec autant d\u2019indignation et d\u2019amertume."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 832.29,
     "end": 842.52,
     "text": "Elle l\u2019\u00e9coutait en silence, frapp\u00e9e de ces paroles d\u2019une \u00e9loquence sans doute morose, mais qui r\u00e9v\u00e9laient une haine vigoureuse contre le mal."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 843.042,
-    "end": 861.336,
-    "text": "Pardon, madame, lui dit Rodolphe apr\u00e8s quelques instants de silence, je n\u2019ai pu contenir mon indignation en songeant aux malheurs horribles qui pourraient atteindre vos futures prot\u00e9g\u00e9es\u2026 Ah ! croyez-moi, on n\u2019exag\u00e8re jamais les cons\u00e9quences qu\u2019entra\u00eenent souvent la ruine et la mis\u00e8re."
+    "end": 854.68,
+    "text": "Pardon, madame, lui dit Rodolphe apr\u00e8s quelques instants de silence, je n\u2019ai pu contenir mon indignation en songeant aux malheurs horribles qui pourraient atteindre vos futures prot\u00e9g\u00e9es\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 854.818,
+    "end": 861.336,
+    "text": "Ah ! croyez-moi, on n\u2019exag\u00e8re jamais les cons\u00e9quences qu\u2019entra\u00eenent souvent la ruine et la mis\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 861.346,
     "end": 871.704,
     "text": "Oh ! merci, au contraire, monseigneur, d\u2019avoir, par ces terribles paroles, encore augment\u00e9, s\u2019il est possible, la tendre piti\u00e9 que m\u2019inspire cette m\u00e8re infortun\u00e9e."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 871.586,
-    "end": 880.92,
-    "text": "H\u00e9las ! c\u2019est surtout pour sa fille qu\u2019elle doit souffrir\u2026 Oh ! c\u2019est affreux\u2026 Mais nous les sauverons, nous assurerons leur avenir, n\u2019est-ce pas, monseigneur !"
+    "end": 875.032,
+    "text": "H\u00e9las ! c\u2019est surtout pour sa fille qu\u2019elle doit souffrir\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 874.786,
+    "end": 876.44,
+    "text": "Oh ! c\u2019est affreux\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 876.45,
+    "end": 880.92,
+    "text": "Mais nous les sauverons, nous assurerons leur avenir, n\u2019est-ce pas, monseigneur !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 880.674,
     "end": 882.712,
     "text": "Dieu merci, je suis riche."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 882.466,
     "end": 888.088,
     "text": "Pas autant que je le voudrais, maintenant que j\u2019entrevois un nouvel usage de la richesse."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 887.97,
     "end": 899.608,
     "text": "Mais, s\u2019il le faut, je m\u2019adresserai \u00e0 Monsieur d\u2019Harville, je le rendrai si heureux qu\u2019il ne pourra se refuser \u00e0 aucun de mes nouveaux caprices, et je pr\u00e9vois que j\u2019en aurai beaucoup de ce genre."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 899.746,
     "end": 903.064,
     "text": "Nos prot\u00e9g\u00e9es sont fi\u00e8res, m\u2019avez-vous dit, monseigneur."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 902.946,
     "end": 904.96,
     "text": "Je les en aime davantage."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 904.89,
+    "end": 908.312,
+    "text": "La fiert\u00e9 dans l\u2019infortune prouve toujours une \u00e2me \u00e9lev\u00e9e\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 908.45,
+    "end": 914.328,
+    "text": "Je trouverai le moyen de les sauver sans qu\u2019elles croient devoir mes secours \u00e0 un bienfait\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 914.338,
+    "disabled": false,
     "end": 917.144,
-    "text": "La fiert\u00e9 dans l\u2019infortune prouve toujours une \u00e2me \u00e9lev\u00e9e\u2026 Je trouverai le moyen de les sauver sans qu\u2019elles croient devoir mes secours \u00e0 un bienfait\u2026 Cela sera difficile\u2026 tant mieux !"
+    "text": "Cela sera difficile\u2026 tant mieux !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 917.026,
-    "end": 922.904,
-    "text": "Oh ! j\u2019ai d\u00e9j\u00e0 mon projet. Vous verrez, monseigneur\u2026 vous verrez que l\u2019adresse et la finesse ne me manqueront pas."
+    "end": 920.064,
+    "text": "Oh ! j\u2019ai d\u00e9j\u00e0 mon projet. Vous verrez, monseigneur\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 919.7379999999999,
+    "end": 922.866,
+    "text": "vous verrez que l\u2019adresse et la finesse ne me manqueront pas."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 923.682,
-    "end": 931.608,
-    "text": "J\u2019entrevois d\u00e9j\u00e0 les combinaisons les plus machiav\u00e9liques, dit Rodolphe en souriant. Mais il faut d\u2019abord les d\u00e9couvrir."
+    "end": 928.7919999999999,
+    "text": "J\u2019entrevois d\u00e9j\u00e0 les combinaisons les plus machiav\u00e9liques, dit Rodolphe en souriant."
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 929.058,
+    "end": 931.602,
+    "text": "Mais il faut d\u2019abord les d\u00e9couvrir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 931.49,
     "end": 933.376,
     "text": "Que j\u2019ai h\u00e2te d\u2019\u00eatre \u00e0 demain !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 933.306,
     "end": 942.872,
     "text": "En sortant de chez Madame de Lucenay, j\u2019irai \u00e0 leur ancienne demeure, j\u2019interrogerai leurs voisins, je verrai par moi-m\u00eame, je demanderai des renseignements \u00e0 tout le monde."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 942.882,
     "end": 945.304,
     "text": "Je me compromettrai s\u2019il le faut !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 945.314,
-    "end": 954.904,
-    "text": "Je serais si fi\u00e8re d\u2019obtenir par moi-m\u00eame et par moi seule le r\u00e9sultat que je d\u00e9sire\u2026 Oh ! j\u2019y parviendrai\u2026 cette aventure est si touchante !"
+    "end": 951.32,
+    "text": "Je serais si fi\u00e8re d\u2019obtenir par moi-m\u00eame et par moi seule le r\u00e9sultat que je d\u00e9sire\u2026"
   },
   {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 951.202,
+    "end": 954.904,
+    "text": "Oh ! j\u2019y parviendrai\u2026 cette aventure est si touchante !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
     "begin": 954.914,
     "end": 956.44,
     "text": "Pauvres femmes !"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 956.194,
     "end": 961.176,
     "text": "Il me semble que je m\u2019int\u00e9resse encore davantage \u00e0 elles quand je songe \u00e0 ma fille."
   },
   {
+    "approved": true,
     "begin": 961.698,
     "end": 977.304,
     "text": "Rodolphe, \u00e9mu de ce charitable empressement, souriait avec m\u00e9lancolie en voyant cette femme de vingt ans, si belle, si aimante, t\u00e2chant d\u2019oublier dans de nobles distractions les malheurs domestiques qui la frappaient."
   },
   {
+    "approved": true,
     "begin": 977.57,
     "end": 995.44,
     "text": "Les yeux de Cl\u00e9mence brillaient d\u2019un vif \u00e9clat, ses joues \u00e9taient l\u00e9g\u00e8rement color\u00e9es, l\u2019animation de son geste, de sa parole, donnait un nouvel attrait \u00e0 sa ravissante physionomie."

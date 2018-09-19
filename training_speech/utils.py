@@ -49,6 +49,7 @@ def replace_semi_colons(match):
 
 
 NORMALIZATIONS = [
+    [re.compile(r'(?:!|\?)(?:—|-)([A-Z])'), r'!\n\1'],
     [re.compile(r'\n?\[\d+\]\n?'), ''],
     [re.compile(r'^((?:X|V|L|I|C)+)(\s–|\.|$)'), replace_chapter_number],
     [re.compile(r'(^| )(n)(?:°|º|°)(\s)?', flags=re.IGNORECASE), r'\1\2uméro\3'],
@@ -69,7 +70,7 @@ NORMALIZATIONS = [
     ['f’rez', 'ferez'],
     [' ', ' '],  # remove non-breaking space
     [re.compile(r'\s?:\s?'), '.\n'],
-    [re.compile(r'^\s?(-|—|–)\s?'), ''],
+    [re.compile(r'^\s?(-|—|–|—)\s?'), ''],
     [re.compile(r'("|«)\s?'), ''],
     [re.compile(r'\s?("|»)'), ''],
     [re.compile(r'(\d{2})\.(\d{3})'), r'\1\2'],

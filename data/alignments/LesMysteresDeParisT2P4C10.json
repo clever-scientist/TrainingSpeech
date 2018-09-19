@@ -1,0 +1,1553 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 3.55,
+    "text": "Chapitre dix."
+  },
+  {
+    "approved": true,
+    "begin": 3.816,
+    "end": 5.342,
+    "text": "Le crime"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 6.12,
+    "end": 10.846,
+    "text": "Rodolphe restait confondu de l\u2019effroyable hypocrisie de monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 11.24,
+    "end": 17.758,
+    "text": "Ainsi, dit-il \u00e0 Louise, vous n\u2019avez pas os\u00e9 vous plaindre \u00e0 votre p\u00e8re de l\u2019odieux attentat du notaire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 18.024,
+    "end": 19.398,
+    "text": "Non, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 19.072,
+    "end": 22.238,
+    "text": "Il m\u2019aurait crue sans doute la complice de monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 22.376,
+    "end": 31.454,
+    "text": "Et puis je craignais que dans sa col\u00e8re mon p\u00e8re n\u2019oubli\u00e2t que sa libert\u00e9, que l\u2019existence de notre famille d\u00e9pendaient toujours de mon ma\u00eetre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 32.104,
+    "end": 46.046,
+    "text": "Et probablement, reprit Rodolphe, pour \u00e9viter \u00e0 Louise une partie de ces p\u00e9nibles aveux, c\u00e9dant \u00e0 la contrainte, \u00e0 la frayeur de perdre votre p\u00e8re par un refus, vous avez continu\u00e9 d\u2019\u00eatre la victime de ce mis\u00e9rable ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 46.568,
+    "end": 49.374,
+    "text": "Louise baissa les yeux en rougissant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 49.896,
+    "end": 53.854,
+    "text": "Et ensuite sa conduite fut-elle moins brutale envers vous ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 54.376,
+    "end": 55.646,
+    "text": "Non, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 55.656,
+    "end": 65.246,
+    "text": "Pour \u00e9loigner les soup\u00e7ons, lorsque par hasard il avait le cur\u00e9 de Bonne-Nouvelle et son vicaire \u00e0 d\u00eener, mon ma\u00eetre m\u2019adressait devant eux de durs reproches."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 65.128,
+    "end": 68.19,
+    "text": "Il priait Monsieur le cur\u00e9 de m\u2019admonester."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 67.944,
+    "end": 82.014,
+    "text": "Il lui disait que t\u00f4t ou tard je me perdrais, que j\u2019avais des mani\u00e8res trop libres avec les clercs de l\u2019\u00e9tude, que j\u2019\u00e9tais fain\u00e9ante, qu\u2019il me gardait par charit\u00e9 pour mon p\u00e8re, un honn\u00eate p\u00e8re de famille qu\u2019il avait oblig\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 82.152,
+    "end": 85.982,
+    "text": "Sauf le service rendu \u00e0 mon p\u00e8re, tout cela \u00e9tait faux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 85.992,
+    "end": 88.798,
+    "text": "Jamais je ne voyais les clercs de l\u2019\u00e9tude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 88.552,
+    "end": 92.382,
+    "text": "Ils travaillaient dans un corps de logis s\u00e9par\u00e9 du n\u00f4tre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 92.648,
+    "end": 99.294,
+    "text": "Et quand vous vous trouviez seule avec monsieur Ferrand, comment expliquait-il sa conduite \u00e0 votre \u00e9gard devant le cur\u00e9 ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 99.816,
+    "end": 101.982,
+    "text": "Il m\u2019assurait qu\u2019il plaisantait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 101.992,
+    "end": 105.158,
+    "text": "Mais le cur\u00e9 prenait ces accusations au s\u00e9rieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 104.832,
+    "end": 115.806,
+    "text": "Il me disait s\u00e9v\u00e8rement qu\u2019il faudrait \u00eatre doublement vicieuse pour se perdre dans une sainte maison o\u00f9 j\u2019avais continuellement sous les yeux de religieux exemples."
+  },
+  {
+    "approved": true,
+    "begin": 115.944,
+    "end": 121.182,
+    "text": "\u00c0 cela je ne savais que r\u00e9pondre, je baissais la t\u00eate en rougissant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 121.192,
+    "end": 125.918,
+    "text": "Mon silence, ma confusion, tournaient encore contre moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 126.056,
+    "end": 131.55,
+    "text": "La vie m\u2019\u00e9tait si \u00e0 charge que bien des fois j\u2019ai \u00e9t\u00e9 sur le point de me d\u00e9truire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 131.816,
+    "end": 138.718,
+    "text": "Mais je pensais \u00e0 mon p\u00e8re, \u00e0 ma m\u00e8re, \u00e0 mes fr\u00e8res et s\u0153urs que je soutenais un peu, je me r\u00e9signais."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 139.112,
+    "end": 143.198,
+    "text": "Au milieu de mon avilissement, je trouvais une consolation."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 143.208,
+    "end": 146.27,
+    "text": "au moins mon p\u00e8re \u00e9tait sauv\u00e9 de la prison."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 146.28,
+    "end": 152.03,
+    "text": "Un nouveau malheur m\u2019accabla, je devins m\u00e8re\u2026 je me vis perdue tout \u00e0 fait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 152.296,
+    "end": 163.678,
+    "text": "Je ne sais pourquoi je pressentis que monsieur Ferrand, en apprenant un \u00e9v\u00e9nement qui aurait pourtant d\u00fb le rendre moins cruel pour moi, redoublerait de mauvais traitements \u00e0 mon \u00e9gard."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 163.688,
+    "end": 168.03,
+    "text": "J\u2019\u00e9tais pourtant loin encore de supposer ce qui allait arriver."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 168.04,
+    "end": 180.574,
+    "text": "Morel, revenu de son aberration momentan\u00e9e, regarda autour de lui avec \u00e9tonnement, passa sa main sur son front, rassembla ses souvenirs et dit \u00e0 sa fille."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 180.712,
+    "end": 184.158,
+    "text": "Il me semble que j\u2019ai eu un moment d\u2019absence."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 184.168,
+    "end": 186.974,
+    "text": "La fatigue, le chagrin\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 186.856,
+    "end": 188.382,
+    "text": "Que disais-tu ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 189.288,
+    "end": 192.35,
+    "text": "Lorsque monsieur Ferrand apprit que j\u2019\u00e9tais m\u00e8re\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 192.488,
+    "end": 195.934,
+    "text": "Le lapidaire fit un geste de d\u00e9sespoir."
+  },
+  {
+    "approved": true,
+    "begin": 195.816,
+    "end": 198.494,
+    "text": "Rodolphe le calma d\u2019un regard."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 198.888,
+    "end": 202.182,
+    "text": "Allons, j\u2019\u00e9couterai jusqu\u2019au bout, dit Morel."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 201.984,
+    "end": 202.718,
+    "text": "Va, va."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 203.112,
+    "end": 204.766,
+    "text": "Louise reprit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 204.904,
+    "end": 212.19,
+    "text": "Je demandai \u00e0 monsieur Ferrand par quels moyens je cacherais ma honte et les suites d\u2019une faute dont il \u00e9tait l\u2019auteur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 212.584,
+    "end": 216.414,
+    "text": "H\u00e9las ! c\u2019est \u00e0 peine si vous me croirez, mon p\u00e8re\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 216.424,
+    "end": 217.566,
+    "text": "Eh bien ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 217.576,
+    "end": 224.35,
+    "text": "M\u2019interrompant avec indignation et une feinte surprise, il eut l\u2019air de ne pas me comprendre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 224.232,
+    "end": 226.654,
+    "text": "Il me demanda si j\u2019\u00e9tais folle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 226.92,
+    "end": 229.19,
+    "text": "Effray\u00e9e, je m\u2019\u00e9criai."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 228.864,
+    "end": 232.542,
+    "text": "Mais, mon Dieu ! que voulez-vous donc que je devienne maintenant ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 232.296,
+    "end": 236.766,
+    "text": "Si vous n\u2019avez pas piti\u00e9 de moi, ayez au moins piti\u00e9 de votre enfant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 237.16,
+    "end": 240.99,
+    "text": "Quelle horreur ! s\u2019\u00e9cria monsieur Ferrand en levant les mains au ciel."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 240.872,
+    "end": 248.926,
+    "text": "Comment, mis\u00e9rable ! tu as l\u2019audace de m\u2019accuser d\u2019\u00eatre assez bassement corrompu pour descendre jusqu\u2019\u00e0 une fille de ton esp\u00e8ce !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 248.68,
+    "end": 260.19,
+    "text": "Tu es assez effront\u00e9e pour m\u2019attribuer les suites de tes d\u00e9bordements, moi qui t\u2019ai cent fois r\u00e9p\u00e9t\u00e9 devant les t\u00e9moins les plus respectables que tu te perdais, vile d\u00e9bauch\u00e9e !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 259.944,
+    "end": 262.878,
+    "text": "Sors de chez moi \u00e0 l\u2019instant. Je te chasse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 263.656,
+    "end": 267.23,
+    "text": "Rodolphe et Morel restaient frapp\u00e9s d\u2019\u00e9pouvante."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 267.624,
+    "end": 271.07,
+    "text": "Une hypocrisie si infernale les foudroyait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 271.72,
+    "end": 276.446,
+    "text": "Oh ! je l\u2019avoue, dit Rodolphe, cela passe les pr\u00e9visions les plus horribles."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 276.968,
+    "end": 278.75,
+    "text": "Morel ne dit rien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 278.888,
+    "end": 285.79,
+    "text": "Ses yeux s\u2019agrandirent d\u2019une mani\u00e8re effrayante, un spasme convulsif contracta ses traits."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 286.312,
+    "end": 300.254,
+    "text": "Il descendit de l\u2019\u00e9tabli o\u00f9 il \u00e9tait assis, ouvrit brusquement un tiroir, y prit une forte lime tr\u00e8s-longue, tr\u00e8s-ac\u00e9r\u00e9e, emmanch\u00e9e dans une poign\u00e9e de bois et s\u2019\u00e9lan\u00e7a vers la porte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 301.16,
+    "end": 306.142,
+    "text": "Rodolphe devina sa pens\u00e9e, le saisit par le bras et l\u2019arr\u00eata."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 306.408,
+    "end": 307.934,
+    "text": "Morel, o\u00f9 allez-vous ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 307.944,
+    "end": 309.854,
+    "text": "Vous vous perdez, malheureux !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 310.12,
+    "end": 315.614,
+    "text": "Prenez garde ! s\u2019\u00e9cria l\u2019artisan furieux en se d\u00e9battant, je ferais deux malheurs au lieu d\u2019un."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 316.136,
+    "end": 319.07,
+    "text": "Et l\u2019insens\u00e9 mena\u00e7a Rodolphe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 319.208,
+    "end": 322.398,
+    "text": "Mon p\u00e8re, c\u2019est notre sauveur ! s\u2019\u00e9cria Louise."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 322.536,
+    "end": 325.446,
+    "text": "Il se moque bien de nous ! bah ! bah !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 325.12,
+    "end": 331.486,
+    "text": "Il veut sauver le notaire ! r\u00e9pondit Morel compl\u00e8tement \u00e9gar\u00e9 en luttant contre Rodolphe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 332.008,
+    "end": 339.294,
+    "text": "Au bout d\u2019une seconde, celui-ci le d\u00e9sarma avec m\u00e9nagement, ouvrit la porte et jeta la lime sur l\u2019escalier."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 340.072,
+    "end": 344.798,
+    "text": "Louise courut au lapidaire, le serra dans ses bras et lui dit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 344.808,
+    "end": 347.358,
+    "text": "Mon p\u00e8re, c\u2019est notre bienfaiteur !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 347.112,
+    "end": 350.174,
+    "text": "Tu as lev\u00e9 la main sur lui, reviens donc \u00e0 toi !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 350.312,
+    "end": 359.134,
+    "text": "Ces mots rappel\u00e8rent Morel \u00e0 lui-m\u00eame, il cacha sa figure dans ses mains, et, muet, il tomba aux genoux de Rodolphe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 359.016,
+    "end": 363.486,
+    "text": "Relevez-vous, pauvre p\u00e8re, reprit Rodolphe avec bont\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 363.496,
+    "end": 369.118,
+    "text": "Patience\u2026 patience\u2026 je comprends votre fureur, je partage votre haine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 369.0,
+    "end": 372.83,
+    "text": "Mais au nom de votre vengeance, ne la compromettez pas\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 373.48,
+    "end": 377.566,
+    "text": "Mon Dieu ! Mon Dieu ! s\u2019\u00e9cria le lapidaire en se relevant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 377.448,
+    "end": 381.022,
+    "text": "Mais que peut la justice\u2026 la loi\u2026 contre cela ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 381.032,
+    "end": 383.326,
+    "text": "Pauvres gens que nous sommes !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 383.208,
+    "end": 389.83,
+    "text": "Quand nous irons accuser cet homme riche, puissant, respect\u00e9, on nous rira au nez, ah ! ah ! ah !"
+  },
+  {
+    "approved": true,
+    "begin": 389.76,
+    "end": 392.67,
+    "text": "Et il se prit \u00e0 rire d\u2019un rire convulsif."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 392.552,
+    "end": 394.334,
+    "text": "Et on aura raison\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 394.344,
+    "end": 397.534,
+    "text": "O\u00f9 seront nos preuves ? oui, nos preuves ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 397.416,
+    "end": 399.07,
+    "text": "On ne nous croira pas."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 399.208,
+    "end": 407.774,
+    "text": "Aussi, je vous dis, moi, s\u2019\u00e9cria-t-il dans un redoublement de folle fureur, je vous dis que je n\u2019ai confiance que dans l\u2019impartialit\u00e9 du couteau\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 408.296,
+    "end": 413.022,
+    "text": "Silence, Morel, la douleur vous \u00e9gare, lui dit tristement Rodolphe\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 413.032,
+    "end": 420.83,
+    "text": "Laissez parler votre fille\u2026 les moments sont pr\u00e9cieux, le magistrat l\u2019attend, il faut que je sache tout\u2026 vous dis-je\u2026 tout\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 420.712,
+    "end": 422.366,
+    "text": "Continuez, mon enfant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 423.4,
+    "end": 426.974,
+    "text": "Morel retomba sur son escabeau avec accablement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 427.368,
+    "end": 432.222,
+    "text": "Il est inutile, monsieur, reprit Louise, de vous dire mes larmes, mes pri\u00e8res."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 432.104,
+    "end": 434.014,
+    "text": "J\u2019\u00e9tais an\u00e9antie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 434.024,
+    "end": 442.078,
+    "text": "Ceci s\u2019\u00e9tait pass\u00e9 \u00e0 dix heures du matin dans le cabinet de monsieur Ferrand, le cur\u00e9 devait venir d\u00e9jeuner avec lui ce jour-l\u00e0."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 442.728,
+    "end": 451.038,
+    "text": "Il entra au moment o\u00f9 mon ma\u00eetre m\u2019accablait de reproches et d\u2019outrages\u2026 il parut vivement contrari\u00e9 \u00e0 la vue du pr\u00eatre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 451.304,
+    "end": 453.214,
+    "text": "Et que dit-il alors ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 453.48,
+    "end": 455.622,
+    "text": "Il eut bient\u00f4t pris son parti."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 455.296,
+    "end": 457.414,
+    "text": "Il s\u2019\u00e9cria, en me montrant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 457.088,
+    "end": 461.918,
+    "text": "Eh bien ! monsieur l\u2019abb\u00e9, je le disais bien, que cette malheureuse se perdrait\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 461.8,
+    "end": 464.35,
+    "text": "Elle est perdue\u2026 \u00e0 tout jamais perdue."
+  },
+  {
+    "approved": true,
+    "begin": 464.36,
+    "disabled": false,
+    "end": 468.702,
+    "text": "Elle vient de m\u2019avouer sa faute et sa honte\u2026 en me priant de la sauver."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 468.712,
+    "end": 473.694,
+    "text": "Et penser que j\u2019ai, par piti\u00e9, re\u00e7u dans ma maison une telle mis\u00e9rable !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 474.216,
+    "end": 484.552,
+    "text": "Comment ! me dit Monsieur l\u2019abb\u00e9 avec indignation, malgr\u00e9 les conseils salutaires que votre ma\u00eetre vous a donn\u00e9s maintes fois devant moi\u2026 vous vous \u00eates avilie \u00e0 ce point !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 484.584,
+    "end": 487.00600000000003,
+    "text": "Oh ! cela est impardonnable\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 486.76,
+    "end": 495.184,
+    "text": "Mon ami, apr\u00e8s les bont\u00e9s que vous avez eues pour cette malheureuse et pour sa famille, de la piti\u00e9 serait faiblesse\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 495.336,
+    "end": 501.086,
+    "text": "Soyez inexorable, dit l\u2019abb\u00e9, dupe comme tout le monde de l\u2019hypocrisie de monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 502.12,
+    "end": 506.462,
+    "text": "Et vous n\u2019avez pas \u00e0 cet instant d\u00e9masqu\u00e9 l\u2019inf\u00e2me ? dit Rodolphe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 506.6,
+    "end": 514.014,
+    "text": "Mon Dieu ! monsieur, j\u2019\u00e9tais terrifi\u00e9e, ma t\u00eate se perdait, je n\u2019osais, je ne pouvais prononcer une parole."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 514.024,
+    "end": 516.83,
+    "text": "Pourtant je voulus parler, me d\u00e9fendre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 516.712,
+    "end": 524.254,
+    "text": "Mais, monsieur\u2026 m\u2019\u00e9criai-je\u2026\u2014Pas un mot de plus, indigne cr\u00e9ature, me dit monsieur Ferrand en m\u2019interrompant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 524.264,
+    "end": 526.174,
+    "text": "Tu as entendu Monsieur l\u2019abb\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 526.056,
+    "end": 528.734,
+    "text": "De la piti\u00e9 serait de la faiblesse\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 528.616,
+    "end": 531.166,
+    "text": "Dans une heure tu auras quitt\u00e9 ma maison !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 531.432,
+    "end": 536.798,
+    "text": "Puis, sans me laisser le temps de r\u00e9pondre, il emmena l\u2019abb\u00e9 dans une autre pi\u00e8ce."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 537.704,
+    "end": 543.582,
+    "text": "Apr\u00e8s le d\u00e9part de monsieur Ferrand, reprit Louise, je fus un moment comme en d\u00e9lire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 543.464,
+    "end": 554.718,
+    "text": "Je me voyais chass\u00e9e de chez lui, ne pouvant me replacer ailleurs, \u00e0 cause de l\u2019\u00e9tat o\u00f9 je me trouvais et des mauvais renseignements que mon ma\u00eetre donnerait sur moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 555.112,
+    "end": 560.734,
+    "text": "Je ne doutais pas non plus que dans sa col\u00e8re il ne f\u00eet emprisonner mon p\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 560.744,
+    "end": 562.886,
+    "text": "Je ne savais que devenir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 562.56,
+    "end": 565.47,
+    "text": "J\u2019allai me r\u00e9fugier dans ma chambre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 565.736,
+    "end": 568.67,
+    "text": "Au bout de deux heures, monsieur Ferrand y parut."
+  },
+  {
+    "approved": true,
+    "begin": 568.68,
+    "end": 571.23,
+    "text": "Ton paquet est-il fait ? me dit-il."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 571.368,
+    "end": 577.246,
+    "text": "Gr\u00e2ce ! lui dis-je en tombant \u00e0 ses pieds, ne me renvoyez pas de chez vous dans l\u2019\u00e9tat o\u00f9 je suis."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 577.0,
+    "end": 578.758,
+    "text": "Que vais-je devenir ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 578.432,
+    "end": 586.206,
+    "text": "Je ne puis me placer nulle part !\u2014Tant mieux, Dieu te punira de ton libertinage et de tes mensonges."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 586.472,
+    "end": 600.414,
+    "text": "Vous osez dire que je mens ? m\u2019\u00e9criai-je indign\u00e9e, vous osez dire que ce n\u2019est pas vous qui m\u2019avez perdue ?\u2014Sors \u00e0 l\u2019instant de chez moi, inf\u00e2me, puisque tu persistes dans tes calomnies, s\u2019\u00e9cria-t-il d\u2019une voix terrible."
+  },
+  {
+    "approved": true,
+    "begin": 600.296,
+    "end": 604.638,
+    "text": "Et pour te punir, demain je ferai emprisonner ton p\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 605.288,
+    "end": 612.702,
+    "text": "Eh bien ! non, non, lui dis-je \u00e9pouvant\u00e9e, je ne vous accuserai plus, monsieur\u2026 je vous le promets, mais ne me chassez pas\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 612.456,
+    "end": 614.494,
+    "text": "Ayez piti\u00e9 de mon p\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 614.504,
+    "end": 617.438,
+    "text": "Le peu que je gagne ici soutient ma famille\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 617.32,
+    "end": 628.83,
+    "text": "Gardez-moi chez vous\u2026 je ne dirai rien\u2026 je t\u00e2cherai qu\u2019on ne s\u2019aper\u00e7oive de rien, et quand je ne pourrai plus cacher ma triste position, eh bien ! alors seulement vous me renverrez."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 628.84,
+    "end": 634.974,
+    "text": "Apr\u00e8s de nouvelles supplications de ma part, monsieur Ferrand consentit \u00e0 me garder chez lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 635.24,
+    "end": 640.222,
+    "text": "Je regardai cela comme un grand service, tant mon sort \u00e9tait affreux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 640.488,
+    "end": 648.03,
+    "text": "Pourtant, pendant les cinq mois qui suivirent cette sc\u00e8ne cruelle, je fus bien malheureuse, bien maltrait\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 648.296,
+    "end": 655.686,
+    "text": "Quelquefois, seulement, monsieur Germain, que je voyais rarement, m\u2019interrogeait avec bont\u00e9 au sujet de mes chagrins."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 655.36,
+    "end": 658.526,
+    "text": "Mais la honte m\u2019emp\u00eachait de lui rien avouer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 658.92,
+    "end": 663.262,
+    "text": "N\u2019est-ce pas \u00e0 peu pr\u00e8s \u00e0 cette \u00e9poque qu\u2019il vint habiter ici ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 663.528,
+    "end": 668.382,
+    "text": "Oui, monsieur, il cherchait une chambre du c\u00f4t\u00e9 de la rue du Temple ou de l\u2019Arsenal."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 668.648,
+    "end": 674.142,
+    "text": "Il y en avait une \u00e0 louer ici, je lui ai enseign\u00e9 celle que vous occupez maintenant, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 674.152,
+    "end": 675.934,
+    "text": "Elle lui a convenu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 675.944,
+    "end": 683.742,
+    "text": "Lorsqu\u2019il l\u2019a quitt\u00e9e, il y a pr\u00e8s de deux mois, il m\u2019a pri\u00e9e de ne pas dire ici sa nouvelle adresse, que l\u2019on savait chez monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 684.648,
+    "end": 692.83,
+    "text": "L\u2019obligation o\u00f9 \u00e9tait Germain d\u2019\u00e9chapper aux poursuites dont il \u00e9tait l\u2019objet expliquait ces pr\u00e9cautions aux yeux de Rodolphe\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 693.352,
+    "end": 698.59,
+    "text": "Et vous n\u2019avez jamais song\u00e9 \u00e0 faire vos confidences \u00e0 Germain ? demanda-t-il \u00e0 Louise."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 698.984,
+    "end": 700.23,
+    "text": "Non, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 699.904,
+    "end": 703.326,
+    "text": "Il \u00e9tait aussi dupe de l\u2019hypocrisie de monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 703.336,
+    "end": 705.886,
+    "text": "Il le disait dur, exigeant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 705.768,
+    "end": 709.086,
+    "text": "Mais il le croyait le plus honn\u00eate homme de la terre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 709.352,
+    "end": 717.534,
+    "text": "Germain, lorsqu\u2019il logeait ici, n\u2019entendait-il pas votre p\u00e8re accuser quelquefois le notaire d\u2019avoir voulu vous s\u00e9duire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 717.8,
+    "end": 721.63,
+    "text": "Mon p\u00e8re ne parlait jamais de ses craintes devant les \u00e9trangers."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 721.64,
+    "end": 725.702,
+    "text": "Et d\u2019ailleurs, \u00e0 cette \u00e9poque, je trompais ses inqui\u00e9tudes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 725.376,
+    "end": 729.566,
+    "text": "je le rassurais en lui disant que monsieur Ferrand ne songeait plus \u00e0 moi\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 729.96,
+    "end": 735.71,
+    "text": "H\u00e9las ! mon pauvre p\u00e8re maintenant, vous me pardonnerez ces mensonges."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 735.592,
+    "end": 738.398,
+    "text": "Je ne les faisais que pour vous tranquilliser."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 738.152,
+    "end": 740.038,
+    "text": "Vous le voyez bien, n\u2019est-ce pas ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 739.712,
+    "end": 741.854,
+    "text": "Morel ne r\u00e9pondit rien."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 742.12,
+    "end": 746.974,
+    "text": "le front appuy\u00e9 \u00e0 ses deux bras crois\u00e9s sur son \u00e9tabli, il sanglotait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 747.624,
+    "end": 752.734,
+    "text": "Rodolphe fit signe \u00e0 Louise de ne pas adresser de nouveau la parole \u00e0 son p\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 753.0,
+    "end": 754.398,
+    "text": "Elle continua."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 754.408,
+    "end": 759.262,
+    "text": "Je passai ces cinq mois dans des larmes, dans des angoisses continuelles."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 759.4,
+    "end": 764.126,
+    "text": "\u00c0 force de pr\u00e9cautions, j\u2019\u00e9tais parvenue \u00e0 cacher mon \u00e9tat \u00e0 tous les yeux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 764.136,
+    "end": 771.166,
+    "text": "Mais je ne pouvais esp\u00e9rer de le dissimuler ainsi pendant les deux derniers mois qui me s\u00e9paraient du terme fatal\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 771.56,
+    "end": 774.75,
+    "text": "L\u2019avenir \u00e9tait pour moi de plus en plus effrayant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 775.016,
+    "end": 778.974,
+    "text": "Monsieur Ferrand m\u2019avait d\u00e9clar\u00e9 qu\u2019il ne voulait plus me garder chez lui\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 779.368,
+    "end": 784.99,
+    "text": "J\u2019allais \u00eatre ainsi priv\u00e9e du peu de ressources qui aidaient notre famille \u00e0 vivre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 784.872,
+    "end": 797.662,
+    "text": "Maudite, chass\u00e9e par mon p\u00e8re, car, d\u2019apr\u00e8s les mensonges que je lui avais faits jusqu\u2019alors pour le rassurer, il me croirait complice et non victime de monsieur Ferrand\u2026 que devenir ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 797.672,
+    "end": 802.91,
+    "text": "O\u00f9 me r\u00e9fugier, o\u00f9 me placer\u2026 dans la position o\u00f9 j\u2019\u00e9tais ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 803.432,
+    "end": 806.366,
+    "text": "J\u2019eus alors une id\u00e9e bien criminelle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 806.504,
+    "end": 809.694,
+    "text": "Heureusement j\u2019ai recul\u00e9 devant son ex\u00e9cution."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 809.832,
+    "end": 820.83,
+    "text": "Je vous fais cet aveu, monsieur, parce que je ne veux rien cacher, m\u00eame de ce qui peut m\u2019accuser, et aussi pour vous montrer \u00e0 quelles extr\u00e9mit\u00e9s m\u2019a r\u00e9duite la cruaut\u00e9 de monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 820.968,
+    "end": 826.974,
+    "text": "Si j\u2019avais c\u00e9d\u00e9 \u00e0 une funeste pens\u00e9e, n\u2019aurait-il pas \u00e9t\u00e9 le complice de mon crime ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 827.88,
+    "end": 833.246,
+    "text": "Apr\u00e8s un moment de silence, Louise reprit avec effort, et d\u2019une voix tremblante."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 833.512,
+    "end": 839.262,
+    "text": "J\u2019avais entendu dire par la porti\u00e8re qu\u2019un charlatan demeurait dans la maison\u2026 et\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 839.656,
+    "end": 841.438,
+    "text": "Elle ne put achever."
+  },
+  {
+    "approved": true,
+    "begin": 841.704,
+    "end": 859.358,
+    "text": "Rodolphe se rappela qu\u2019\u00e0 sa premi\u00e8re entrevue avec Madame Pipelet il avait re\u00e7u du facteur, en l\u2019absence de la porti\u00e8re, une lettre \u00e9crite sur gros papier d\u2019une \u00e9criture contrefaite, et sur laquelle il avait remarqu\u00e9 les traces de quelques larmes\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 860.264,
+    "end": 865.246,
+    "text": "Et vous lui avez \u00e9crit, malheureuse enfant\u2026 il y a de cela trois jours !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 865.256,
+    "end": 869.726,
+    "text": "Sur cette lettre vous aviez pleur\u00e9, votre \u00e9criture \u00e9tait d\u00e9guis\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 870.248,
+    "end": 873.054,
+    "text": "Louise regardait Rodolphe avec effroi\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 873.192,
+    "end": 875.358,
+    "text": "Comment savez-vous, monsieur ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 875.624,
+    "end": 876.87,
+    "text": "Rassurez-vous."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 876.672,
+    "end": 883.422,
+    "text": "J\u2019\u00e9tais seul dans la loge de Madame Pipelet quand on a apport\u00e9 cette lettre, et, par hasard, je l\u2019ai remarqu\u00e9e\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 883.816,
+    "end": 894.558,
+    "text": "Eh bien ! oui, monsieur. Dans cette lettre sans signature j\u2019\u00e9crivais \u00e0 monsieur Bradamanti que, n\u2019osant pas aller chez lui, je le priais de se trouver le soir pr\u00e8s du Ch\u00e2teau-d\u2019Eau\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 894.568,
+    "end": 896.734,
+    "text": "J\u2019avais la t\u00eate perdue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 896.616,
+    "end": 899.678,
+    "text": "Je voulais lui demander ses affreux conseils\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 900.072,
+    "end": 903.774,
+    "text": "Je sortis de chez mon ma\u00eetre dans l\u2019intention de les suivre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 903.784,
+    "end": 910.302,
+    "text": "Mais au bout d\u2019un instant la raison me revint, je compris quel crime j\u2019allais commettre\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 910.44,
+    "end": 913.502,
+    "text": "Je regagnai la maison et je manquai ce rendez-vous."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 913.64,
+    "end": 919.902,
+    "text": "Ce soir-l\u00e0 se passa une sc\u00e8ne dont les suites ont caus\u00e9 le dernier malheur qui m\u2019accable."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 920.424,
+    "end": 927.71,
+    "text": "Monsieur Ferrand me croyait sortie pour deux heures, tandis qu\u2019au bout de tr\u00e8s-peu de temps j\u2019\u00e9tais de retour."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 927.848,
+    "end": 934.494,
+    "text": "En passant devant la petite porte du jardin, \u00e0 mon grand \u00e9tonnement je la vis entr\u2019ouverte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 934.248,
+    "end": 941.662,
+    "text": "J\u2019entrai par l\u00e0 et je rapportai la clef dans le cabinet de monsieur Ferrand, o\u00f9 on la d\u00e9posait ordinairement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 941.416,
+    "end": 947.294,
+    "text": "Cette pi\u00e8ce pr\u00e9c\u00e9dait sa chambre \u00e0 coucher, le lieu le plus retir\u00e9 de la maison."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 947.56,
+    "end": 954.462,
+    "text": "C\u2019\u00e9tait l\u00e0 qu\u2019il donnait ses audiences secr\u00e8tes, traitant ses affaires courantes dans le bureau de son \u00e9tude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 954.856,
+    "end": 958.43,
+    "text": "Vous allez savoir, monsieur, pourquoi je vous donne ces d\u00e9tails."
+  },
+  {
+    "approved": true,
+    "begin": 958.44,
+    "end": 971.102,
+    "text": "connaissant tr\u00e8s-bien les \u00eatres du logis, apr\u00e8s avoir travers\u00e9 la salle \u00e0 manger, qui \u00e9tait \u00e9clair\u00e9e, j\u2019entrai sans lumi\u00e8re dans le salon, puis dans le cabinet qui pr\u00e9c\u00e9dait sa chambre \u00e0 coucher."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 971.496,
+    "end": 977.118,
+    "text": "La porte de cette derni\u00e8re pi\u00e8ce s\u2019ouvrit au moment o\u00f9 je posais la clef sur une table."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 977.256,
+    "end": 988.126,
+    "text": "\u00c0 peine mon ma\u00eetre m\u2019eut-il aper\u00e7ue \u00e0 la clart\u00e9 de la lampe qui br\u00fblait dans sa chambre qu\u2019il referma brusquement la porte sur une personne que je ne pus voir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 988.392,
+    "end": 999.9,
+    "text": "Puis, malgr\u00e9 l\u2019obscurit\u00e9, il se pr\u00e9cipita sur moi, me saisit au cou comme s\u2019il e\u00fbt voulu m\u2019\u00e9trangler et me dit \u00e0 voix basse\u2026 d\u2019un ton \u00e0 la fois furieux et effray\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 999.91,
+    "end": 1003.72,
+    "text": "Tu espionnais, tu \u00e9coutais \u00e0 la porte ! qu\u2019as-tu entendu ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1003.65,
+    "end": 1004.258,
+    "text": "R\u00e9ponds !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1004.14,
+    "end": 1005.916,
+    "text": "R\u00e9ponds ! ou je t\u2019\u00e9touffe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1006.31,
+    "end": 1013.09,
+    "text": "Mais, changeant d\u2019id\u00e9e, sans me donner le temps de dire un mot, il me fit reculer dans la salle \u00e0 manger."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1013.1,
+    "end": 1017.826,
+    "text": "l\u2019office \u00e9tait ouverte, il m\u2019y jeta brutalement et la referma."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1018.86,
+    "end": 1022.05,
+    "text": "Et vous n\u2019aviez rien entendu de sa conversation ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1022.06,
+    "end": 1023.586,
+    "text": "Rien, monsieur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1023.34,
+    "end": 1028.96,
+    "text": "Si je l\u2019avais su dans sa chambre avec quelqu\u2019un, je me serais bien gard\u00e9e d\u2019entrer dans le cabinet."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1028.97,
+    "end": 1031.778,
+    "text": "Il le d\u00e9fendait m\u00eame \u00e0 Madame S\u00e9raphin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1032.3,
+    "end": 1036.254,
+    "text": "Et lorsque vous \u00eates sortie de l\u2019office, que vous a-t-il dit ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1036.52,
+    "end": 1042.398,
+    "text": "C\u2019est la femme de charge qui est venue me d\u00e9livrer, et je n\u2019ai pas revu monsieur Ferrand ce soir-l\u00e0."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1042.92,
+    "end": 1047.904,
+    "text": "Le saisissement, l\u2019effroi que j\u2019avais eus me rendirent tr\u00e8s-souffrante."
+  },
+  {
+    "approved": true,
+    "begin": 1048.17,
+    "end": 1053.152,
+    "text": "Le lendemain, au moment o\u00f9 je descendais, je rencontrai monsieur Ferrand."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1053.29,
+    "end": 1057.25,
+    "text": "Je frissonnai en songeant \u00e0 ses menaces de la veille\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1057.26,
+    "end": 1059.426,
+    "text": "Quelle fut ma surprise !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1059.18,
+    "end": 1061.34,
+    "text": "Il me dit presque avec calme."
+  },
+  {
+    "approved": true,
+    "begin": 1061.35,
+    "end": 1066.082,
+    "text": "Tu sais pourtant que je d\u00e9fends d\u2019entrer dans mon cabinet quand j\u2019ai quelqu\u2019un dans ma chambre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1066.22,
+    "end": 1072.354,
+    "text": "Mais pour le peu de temps que tu as \u00e0 rester ici, il est inutile que je te gronde davantage."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1072.62,
+    "end": 1075.038,
+    "text": "Et il se rendit \u00e0 son \u00e9tude."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1075.56,
+    "end": 1079.522,
+    "text": "Cette mod\u00e9ration m\u2019\u00e9tonna apr\u00e8s ses violences de la veille."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1079.66,
+    "end": 1086.176,
+    "text": "Je continuai mon service, selon mon habitude, et j\u2019allai mettre en ordre sa chambre \u00e0 coucher\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1086.57,
+    "end": 1088.99,
+    "text": "J\u2019avais beaucoup souffert toute la nuit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1089.0,
+    "end": 1091.802,
+    "text": "je me trouvais faible, abattue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1091.94,
+    "end": 1101.786,
+    "text": "En rangeant quelques habits dans mon cabinet tr\u00e8s-obscur situ\u00e9 pr\u00e8s de l\u2019alc\u00f4ve, je fus tout \u00e0 coup prise d\u2019un \u00e9tourdissement douloureux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1102.18,
+    "end": 1104.986,
+    "text": "Je sentis que je perdais connaissance\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1105.38,
+    "end": 1118.426,
+    "text": "En tombant, je voulus machinalement me retenir en saisissant un manteau suspendu \u00e0 la cloison, et dans ma chute j\u2019entra\u00eenai ce v\u00eatement, dont je fus presque enti\u00e8rement couverte."
+  },
+  {
+    "approved": true,
+    "begin": 1118.18,
+    "end": 1126.6,
+    "text": "Quand je revins \u00e0 moi, la porte vitr\u00e9e de ce cabinet d\u2019alc\u00f4ve \u00e9tait ferm\u00e9e\u2026 j\u2019entendis la voix de monsieur Ferrand\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1126.272,
+    "end": 1127.65,
+    "text": "Il parlait tr\u00e8s-haut\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1128.3,
+    "end": 1134.042,
+    "text": "Me souvenant de la sc\u00e8ne de la veille, je me crus morte si je faisais un mouvement."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1134.18,
+    "end": 1144.026,
+    "text": "Je supposais que, cach\u00e9e sous le manteau qui \u00e9tait tomb\u00e9 sur moi, mon ma\u00eetre, en fermant la porte de ce vestiaire obscur, ne m\u2019avait pas aper\u00e7ue."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1144.42,
+    "end": 1149.792,
+    "text": "S\u2019il me d\u00e9couvrait, comment lui faire croire \u00e0 ce hasard presque inexplicable ?"
+  },
+  {
+    "approved": true,
+    "begin": 1149.93,
+    "end": 1158.84,
+    "text": "Je retins donc ma respiration, et malgr\u00e9 moi j\u2019entendis la fin de cet entretien sans doute commenc\u00e9 depuis quelque temps."
+  }
+]

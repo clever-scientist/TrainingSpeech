@@ -15,54 +15,55 @@ def test_file_extension(filename, expected):
 
 
 @pytest.mark.parametrize('paragraph, expected_sentences', [
-    ("""
-I. Marseille. – L’arrivée.
-
-Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.
-Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.
-""", [
-        'Chapitre un.',
-        'Marseille.',
-        'L’arrivée.',
-        'Le vingt-quatre février mille huit cent quinze, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.',
-        'Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.',
-    ]),
-    ('XXIV. Éblouissement.', ['Chapitre vingt-quatre.', 'Éblouissement.']),
-    ('Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.', [
-        'Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux.',
-        'Car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.',
-    ]),
-    ('25.000', ['vingt-cinq mille']),
-    ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
-        'La postérité ne pourra lui faire justice…',
-        'Pas de gloire, Cesare Bordone !…',
-        'Allons, c’est fini.',
-    ]),
-    ('(foo bar.)', ['foo bar.']),
-    ('I\nBicêtre.', ['Chapitre un.', 'Bicêtre.']),
-    ('LXCVII.', ['Chapitre quatre-vingt-dix-sept.']),
-    ('LIV. La hausse et la baisse.', ['Chapitre cinquante-quatre.', 'La hausse et la baisse.']),
-    ('XLVI.', ['Chapitre quarante-six.']),
-    ('qui appartient à MM. Morrel et fils.', ['qui appartient à monsieur Morrel et fils.']),
-    ('M. Panel.', ['monsieur Panel.']),
-    # n° => numéro
-    ('No 10', ['Numéro dix']),
-    ('rue Coq-Héron, nº treize', ['rue Coq-Héron, numéro treize']),
-    # test no split
-    ('Ah ! c’est vous, Dantès ! cria l’homme à la barque.', ['Ah ! c’est vous, Dantès ! cria l’homme à la barque.']),
-    ('Ah ! Foo bar', ['Ah ! Foo bar']),
-    ('Et… demanda', ['Et… demanda']),
-    # test split
-    ('bord ?\n— Un', ['bord ?', 'Un']),
-    # remove parentheses
-    ('(foo bar)', ['foo bar']),
-    ('(foo bar).', ['foo bar']),
-    ('M.Morel', ['Monsieur Morel']),
-    ('Si tu es grinche[15], je ne suis pas ton homme', ['Si tu es grinche, je ne suis pas ton homme']),
-    ('— Bonsoir, Chourineur[1].', ['Bonsoir, Chourineur.']),
-    ('N° 13', ['Numéro treize']),
-    ('c\'est au n° 13', ['c\'est au numéro treize']),
-    ('XVI – Préparatifs.', ['Chapitre seize.', 'Préparatifs.']),
+#     ("""
+# I. Marseille. – L’arrivée.
+#
+# Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.
+# Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.
+# """, [
+#         'Chapitre un.',
+#         'Marseille.',
+#         'L’arrivée.',
+#         'Le vingt-quatre février mille huit cent quinze, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.',
+#         'Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.',
+#     ]),
+#     ('XXIV. Éblouissement.', ['Chapitre vingt-quatre.', 'Éblouissement.']),
+#     ('Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.', [
+#         'Aussitôt la plate-forme du fort Saint-Jean s’était couverte de curieux.',
+#         'Car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment.',
+#     ]),
+#     ('25.000', ['vingt-cinq mille']),
+#     ('La postérité ne pourra lui faire justice… Pas de gloire, Cesare Bordone !… Allons, c’est fini.', [
+#         'La postérité ne pourra lui faire justice…',
+#         'Pas de gloire, Cesare Bordone !…',
+#         'Allons, c’est fini.',
+#     ]),
+#     ('(foo bar.)', ['foo bar.']),
+#     ('I\nBicêtre.', ['Chapitre un.', 'Bicêtre.']),
+#     ('LXCVII.', ['Chapitre quatre-vingt-dix-sept.']),
+#     ('LIV. La hausse et la baisse.', ['Chapitre cinquante-quatre.', 'La hausse et la baisse.']),
+#     ('XLVI.', ['Chapitre quarante-six.']),
+#     ('qui appartient à MM. Morrel et fils.', ['qui appartient à monsieur Morrel et fils.']),
+#     ('M. Panel.', ['monsieur Panel.']),
+#     # n° => numéro
+#     ('No 10', ['Numéro dix']),
+#     ('rue Coq-Héron, nº treize', ['rue Coq-Héron, numéro treize']),
+#     # test no split
+#     ('Ah ! c’est vous, Dantès ! cria l’homme à la barque.', ['Ah ! c’est vous, Dantès ! cria l’homme à la barque.']),
+#     ('Ah ! Foo bar', ['Ah ! Foo bar']),
+#     ('Et… demanda', ['Et… demanda']),
+#     # test split
+#     ('bord ?\n— Un', ['bord ?', 'Un']),
+#     # remove parentheses
+#     ('(foo bar)', ['foo bar']),
+#     ('(foo bar).', ['foo bar']),
+#     ('M.Morel', ['Monsieur Morel']),
+#     ('Si tu es grinche[15], je ne suis pas ton homme', ['Si tu es grinche, je ne suis pas ton homme']),
+#     ('— Bonsoir, Chourineur[1].', ['Bonsoir, Chourineur.']),
+#     ('N° 13', ['Numéro treize']),
+#     ('c\'est au n° 13', ['c\'est au numéro treize']),
+#     ('XVI – Préparatifs.', ['Chapitre seize.', 'Préparatifs.']),
+    ('!—Comment !', ['!', 'Comment !']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')

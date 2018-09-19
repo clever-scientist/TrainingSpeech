@@ -6,7 +6,7 @@ Le second de ces fils était déjà condamné aux galères à perpétuité…
 De cette nombreuse famille il restait donc à l’île du Ravageur (nom que dans le pays on donnait à ce repaire, nous dirons pourquoi), il restait, disons-nous.
 La mère Martial.
 Trois fils.
-l’aîné (l’amant de la Louve) avait vingt-cinq ans.
+l’aîné, l’amant de la Louve, avait vingt-cinq ans.
 L’autre vingt ans.
 Le plus jeune douze ans.
 Deux filles, l’une de dix-huit ans, la seconde de neuf ans.
@@ -119,7 +119,7 @@ On loue des bachots (bateaux) pour la promenade
 On le voit, à ses métiers patents ou occultes le chef de cette famille maudite avait joint ceux de cabaretier, de pêcheur et de loueur de bateaux.
 La veuve de ce supplicié continuait de tenir la maison.
 des gens sans aveu, des vagabonds en rupture de ban, des montreurs d’animaux, des charlatans nomades venaient y passer le dimanche et d’autres jours non fériés en parties de plaisir.
-Martial (l’amant de la Louve), fils aîné de la famille, le moins coupable de tous, pêchait en fraude et, au besoin, prenait, en véritable bravo, et moyennant salaire, le parti des faibles contre les forts.
+Martial, l’amant de la Louve, fils aîné de la famille, le moins coupable de tous, pêchait en fraude et, au besoin, prenait, en véritable bravo, et moyennant salaire, le parti des faibles contre les forts.
 Un de ses autres frères, Nicolas, le futur complice de Barbillon pour le meurtre de la courtière en diamants, était en apparence ravageur, mais de fait il se livrait à la piraterie d’eau douce sur la Seine et sur ses rives.
 Enfin François, le plus jeune des fils du supplicié, conduisait les curieux qui voulaient se promener en bateau.
 Nous parlerons pour mémoire d’Ambroise Martial, condamné aux galères pour vol de nuit avec effraction et tentative de meurtre.
@@ -199,8 +199,7 @@ Le jeune raccommodeur de filets défendus regarda derrière le pilier de la chem
 Il n’y en a plus là…
 Va au bûcher, reprit Calebasse.
 François murmura quelques paroles inintelligibles et ne bougea pas.
-Ah çà !
-François, m’entends-tu ? dit aigrement Calebasse.
+Ah çà ! François, m’entends-tu ? dit aigrement Calebasse.
 La veuve du supplicié posa sur ses genoux une serviette, qu’elle démarquait aussi et jeta les yeux sur son fils.
 Celui-ci avait la tête baissée, mais il devina, mais il sentit pour ainsi dire le terrible regard de sa mère peser sur lui…
 Craignant de rencontrer ce visage redoutable, l’enfant restait immobile.
@@ -226,8 +225,7 @@ Et pourquoi ça ? reprit Calebasse avec impatience.
 J’ai peur dans le bûcher… moi…, répondit l’enfant en frissonnant malgré lui.
 Tu as peur… imbécile… et de quoi ?
 François hocha la tête sans répondre.
-Parleras-tu ?…
-De quoi as-tu peur ?
+Parleras-tu ?… De quoi as-tu peur ?
 Je ne sais pas… mais j’ai peur…
 Tu es allé là cent fois, et encore hier soir ?
 Je ne veux plus y aller maintenant…
@@ -251,7 +249,9 @@ Est-il bête ! dit Calebasse en faisant un signe d’intelligence à la veuve, c
 Ce n’était pas un os de mouton, reprit l’enfant avec épouvante, c’étaient des os enterrés… des os de mort… un pied qui sortait de terre… je l’ai bien vu.
 Et tu as tout de suite raconté cette belle trouvaille-là… à ton frère… à ton bon ami Martial, n’est-ce pas ? dit Calebasse avec une ironie sauvage.
 François ne répondit pas.
-Méchant petit raille ! s’écria Calebasse furieuse, parce qu’il est poltron comme une vache, il serait capable de nous faire faucher comme on a fauché notre père !
+Méchant petit raille !
+mouchard
+s’écria Calebasse furieuse, parce qu’il est poltron comme une vache, il serait capable de nous faire faucher comme on a fauché notre père !
 Puisque tu m’appelles raille, s’écria François exaspéré, je dirai tout à mon frère Martial.
 Je ne lui avais pas dit encore, car je ne l’ai pas vu depuis tantôt…
 Mais quand il reviendra ce soir… je…
@@ -260,7 +260,4 @@ Sa mère s’avançait vers lui, calme, mais inexorable.
 Quoiqu’elle se tînt habituellement un peu courbée, sa taille était très haute pour une femme.
 Tenant sa baguette d’une main, de l’autre la veuve prit son fils par le bras et, malgré la terreur, la résistance, les prières, les pleurs de l’enfant, l’entraînant après elle, elle le força de monter l’escalier du fond de la cuisine.
 Au bout d’un instant, on entendit au-dessus du plafond des trépignements sourds, mêlés de cris et de sanglots.
-Quelques minutes après ce bruit cessa.
-Une porte se referma violemment.
-Et la veuve du supplicié redescendit.
-Puis, toujours impassible, elle remit la baguette de saule à sa place, se rassit auprès du foyer et reprit son travail de couture sans prononcer une parole.
+Quelques minutes après ce bruit cessa. Une porte se referma violemment. Et la veuve du supplicié redescendit. Puis, toujours impassible, elle remit la baguette de saule à sa place, se rassit auprès du foyer et reprit son travail de couture sans prononcer une parole.
