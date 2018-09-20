@@ -1,8 +1,5 @@
 Chapitre neuf.
 Gringalet et Coupe-en-Deux
-…Rien de plus doux, de plus salutaire, de plus précieux que vos paroles.
-Elles charment, elles encouragent, elles améliorent…
-WOLFGANG, livre quatre
 Avant d’entamer le récit de Pique-Vinaigre, nous rappellerons au lecteur que, par un contraste bizarre, la majorité des détenus, malgré leur cynique perversité, affectionnent presque toujours les récits naïfs, nous ne voudrions pas dire puérils, où l’on voit, selon les lois d’une inexorable fatalité, l’opprimé vengé de son tyran, après des épreuves et des traverses sans nombre.
 Loin de nous la pensée d’établir d’ailleurs le moindre parallèle entre des gens corrompus et la masse honnête et pauvre.
 Mais ne sait-on pas avec quels applaudissements frénétiques le populaire des théâtres du boulevard accueille la délivrance de la victime, et de quelles malédictions passionnées il poursuit le méchant ou le traître ?
@@ -64,8 +61,7 @@ On ne jurait que par lui dans la Petite-Pologne.
 Quand il disait.
 C’est bien, tout le monde disait.
 C’est très-bien.
-C’est mal, tout le monde disait.
-C’est mal.
+C’est mal, tout le monde disait. C’est mal.
 Il était brave homme au fond, mais terrible.
 Quand, par exemple, des gens forts faisaient la misère à de plus faibles qu’eux… alors, gare dessous !
 Comme le doyen était voisin de Coupe-en-Deux, il avait dans le commencement entendu les enfants crier, à cause des coups que le montreur de bêtes leur donnait.
@@ -275,8 +271,7 @@ Quand on a des dents pour mordre, alors c’est différent…
 Ma foi… tu as des crocs ? eh bien ! montre-les et défends ta queue, mon cadet !
 C’est vrai ! dirent plusieurs détenus.
 Ah çà ! s’écria le Squelette, ne pouvant plus dissimuler sa rage et s’adressant au bonnet bleu, est-ce que tu ne te tairas pas, toi ?
-Est-ce que je n’ai pas dit.
-Silence dans la pègre…
+Est-ce que je n’ai pas dit. Silence dans la pègre…
 Suis-je ou non le prévôt ici ?…
 Pour toute réponse, le bonnet bleu regarda le Squelette en face, puis il fit ce geste gouailleur parfaitement connu des gamins, qui consiste à appuyer sur le bout du nez le pouce de la main droite ouverte en éventail, et à appuyer son petit doigt sur le pouce de la main gauche, étendue de la même manière.
 Le bonnet bleu accompagna cette réponse muette d’une mine si grotesque que plusieurs détenus rirent aux éclats, tandis que d’autres, au contraire, restèrent stupéfaits de l’audace du nouveau prisonnier, tant le Squelette était redouté.
@@ -286,7 +281,5 @@ Et je ferai l’addition sur ta frimousse… je poserai dix-sept calottes, et je
 De crainte que le gardien n’eût une nouvelle raison de rester afin de prévenir une rixe possible, le Squelette répondit avec calme.
 Il ne s’agit pas de ça.
 j’ai la police du chauffoir, et l’on doit m’écouter, n’est-ce pas, gardien ?
-C’est vrai, dit le surveillant.
-N’interrompez pas.
-Et toi, continue, Pique-Vinaigre.
-Mais dépêche-toi, mon garçon.
+C’est vrai, dit le surveillant. N’interrompez pas.
+Et toi, continue, Pique-Vinaigre. Mais dépêche-toi, mon garçon.
