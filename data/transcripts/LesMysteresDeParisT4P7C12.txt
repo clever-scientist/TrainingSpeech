@@ -1,7 +1,7 @@
 Chapitre douze.
 L’étude
 Plusieurs jours s’étaient passés depuis que Jacques Ferrand avait pris Cecily à son service.
-Nous conduirons le lecteur (qui connaît déjà ce lieu) dans l’étude du notaire à l’heure du déjeuner des clercs.
+Nous conduirons le lecteur, qui connaît déjà ce lieu, dans l’étude du notaire à l’heure du déjeuner des clercs.
 Chose inouïe, exorbitante, merveilleuse ! au lieu du maigre et peu attrayant ragoût apporté chaque matin à ces jeunes gens par feu Madame Séraphin, un énorme dindon froid, servi dans le fond d’un vieux carton à dossier, trônait au milieu d’une des tables de l’étude, accosté de deux pains tendres, d’un fromage de Hollande et de trois bouteilles de vin cacheté.
 Une vieille écritoire de plomb, remplie d’un mélange de poivre et de sel, servait de salière.
 Tel était le menu du repas.
@@ -40,6 +40,7 @@ Et puis c’est le portier qui range l’étude maintenant.
 comment la verrait-on, cette donzelle ?
 Eh bien ! moi, je l’ai vue.
 Toi ?
+oui
 Où cela ?
 Comment est-elle ?
 Grande ou petite ?
@@ -55,8 +56,7 @@ C’est tout simple, puisqu’elle est alsacienne.
 Tiens, tiens, tiens…
 Parbleu ! qu’est-ce qui vous étonne là-dedans ?
 Chat échaudé craint l’eau froide.
-Ah çà !
-Chalamel, quel rapport ton proverbe a-t-il avec ce bonnet d’Alsacienne ?
+Ah çà ! Chalamel, quel rapport ton proverbe a-t-il avec ce bonnet d’Alsacienne ?
 Il n’en a aucun.
 Pourquoi le dis-tu alors ?
 Parce qu’un bienfait n’est jamais perdu, et que le lézard est l’ami de l’homme.
@@ -107,8 +107,7 @@ Ma servante n’a pas le temps de s’occuper de votre déjeuner.
 Mais, monsieur, il est convenu que vous nous devez notre repas du matin.
 Eh bien ! vous ferez venir votre déjeuner du dehors, et je le payerai.
 Combien vous faut-il, quarante sous chacun ? a-t-il ajouté en ayant l’air de penser de plus en plus à autre chose, et de dire quarante sous comme il aurait dit vingt sous ou cent sous.
-Oui, monsieur, quarante sous nous suffiront, m’écriai-je en prenant la balle au bond.
-Soit.
+Oui, monsieur, quarante sous nous suffiront, m’écriai-je en prenant la balle au bond. Soit.
 le maître clerc se chargera de cette dépense, je compterai avec lui.
 Et là-dessus le patron m’a fermé la porte au nez.
 Avouez, messieurs, que Germain serait furieusement étonné des libéralités du patron.
@@ -162,8 +161,7 @@ Eh bien ! que vois-tu ?
 Des larmes…
 Ah ! quelle farce !
 En voilà une de sévère !
-Le patron pleurer ?
-Allons donc !
+Le patron pleurer ? Allons donc !
 Quand on verra ça… les hannetons joueront du cornet à piston.
 Et les poules porteront des bottes à revers.
 Ta ta ta ta, vos bêtises n’empêcheront pas que je l’aie vu comme je vous vois.
@@ -182,8 +180,7 @@ Je ne l’ai pas attendu, j’ai filé et renvoyé les clients, qui n’avaient 
 Cet intéressant entretien fut interrompu par Monsieur le premier clerc qui entra tout affairé.
 Sa venue fut saluée par une acclamation générale, et tous les yeux se tournèrent sympathiquement vers le dindon avec une impatiente convoitise.
 Sans reproche, seigneur, vous nous faites diablement attendre, dit Chalamel.
-Prenez garde.
-une autre fois… notre appétit ne sera pas aussi subordonné.
+Prenez garde. une autre fois… notre appétit ne sera pas aussi subordonné.
 Eh ! messieurs, ce n’est pas ma faute… je me faisais plus de mauvais sang que vous…
 Ma parole d’honneur, il faut que le patron soit devenu fou !
 Quand je vous le disais !
@@ -199,8 +196,7 @@ Ah bah !
 Ah çà ! est-ce que ce malheureux-là deviendrait assez insensé pour nous forcer d’aller dîner tous les jours à ses frais au Cadran-Bleu ?
 Et ensuite au spectacle ?
 Et ensuite au café, finir la soirée par un punch ?
-Et ensuite…
-Messieurs, riez tant que vous voudrez, mais la scène à laquelle je viens d’assister est plutôt effrayante que plaisante.
+Et ensuite… Messieurs, riez tant que vous voudrez, mais la scène à laquelle je viens d’assister est plutôt effrayante que plaisante.
 Eh bien ! racontez-nous-la donc, cette scène.
 Oui, c’est ça, ne vous occupez pas de déjeuner, dit Chalamel, nous voilà tout oreilles.
 Et tout mâchoires, mes gaillards !
@@ -256,13 +252,9 @@ C’est possible, ça n’empêche pas que dans ce moment sa voix était si plai
 Monsieur, lui dis-je, croyez que…
 Laisse-moi !
 Laisse-moi ! me répondit-il en m’interrompant, cela soulage tant de pouvoir dire à quelqu’un ce que l’on souffre…
-Évidemment il me prenait pour un autre.
-Il vous a tutoyé ?
-Alors vous nous devez deux bouteilles de Bordeaux.
+Évidemment il me prenait pour un autre. Il vous a tutoyé ? Alors vous nous devez deux bouteilles de Bordeaux.
 Quand le patron vous a tutoyé,
-À boire, vous devez payer.
-C’est le proverbe qui le dit, c’est sacré.
-les proverbes sont la sagesse des nations.
+À boire, vous devez payer. C’est le proverbe qui le dit, c’est sacré. les proverbes sont la sagesse des nations.
 Voyons, Chalamel, laissez là vos rébus.
 Vous comprenez bien, messieurs, qu’en entendant le patron me tutoyer, j’ai tout de suite compris qu’il se méprenait ou qu’il avait une fièvre chaude.
 Je me suis dégagé en lui disant.
@@ -277,8 +269,7 @@ Qui est là ?…
 Que me voulez-vous ?…
 Et il passait, à chaque question, sa main sur son front, comme pour écarter le nuage qui obscurcissait sa pensée.
 Qui obscurcissait sa pensée…
-Comme c’est écrit…
-Bravo ! maître clerc, nous ferons un mélodrame ensemble.
+Comme c’est écrit… Bravo ! maître clerc, nous ferons un mélodrame ensemble.
 Quand on parle si bien, sur mon âme !
 On doit écrire un mélodrâââme.
 Mais tais-toi donc, Chalamel.
@@ -289,8 +280,7 @@ Il a froncé les sourcils d’un air terrible et m’a dit vivement, sans me don
 Que venez-vous faire ici ?
 Y a-t-il longtemps que vous êtes là ?…
 Je ne puis donc pas rester chez moi sans être environné d’espions ?
-Qu’ai-je dit ?
-Qu’avez-vous entendu ?
+Qu’ai-je dit ? Qu’avez-vous entendu ?
 Répondez… répondez.
 Ma foi, il avait l’air si méchant que j’ai repris.
 Je n’ai rien entendu, monsieur, j’entre ici à l’instant même.
@@ -331,8 +321,7 @@ Il a l’air de s’intéresser joliment à sa santé.
 Il faut être juste, c’est la seule chose sur laquelle il n’ait pas l’air abruti…
 Hier encore, il m’a dit d’aller m’informer de l’état de Madame Mac-Gregor.
 Eh bien ?
-C’est toujours la même chose.
-un jour on espère, le lendemain on désespère.
+C’est toujours la même chose. un jour on espère, le lendemain on désespère.
 On ne sait jamais si elle passera la journée.
 Avant-hier on en désespérait, mais hier il y avait, a-t-on dit, une lueur d’espoir.
 Ce qui complique la chose, c’est qu’elle a eu une fièvre cérébrale.

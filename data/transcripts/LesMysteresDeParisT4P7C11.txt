@@ -3,7 +3,7 @@ Punition
 Rodolphe continua la lecture de la lettre de Madame d’Harville.
 Après un entretien en allemand qui dura quelques minutes entre sir Walter Murph et Polidori, sir Walter dit à ce dernier.
 Maintenant, répondez.
-N’est-ce pas madame—et il désigna ma belle-mère—qui, lors de la maladie de la première femme de Monsieur le comte, vous a introduit chez lui comme médecin ?
+N’est-ce pas madame, et il désigna ma belle-mère, qui, lors de la maladie de la première femme de Monsieur le comte, vous a introduit chez lui comme médecin ?
 Oui, c’est elle…, répondit Polidori.
 Afin de servir les affreux projets de… madame… n’avez-vous pas été assez criminel pour rendre mortelle par vos prescriptions homicides la maladie d’abord légère de Madame la comtesse d’Orbigny ?
 Oui, dit Polidori.
@@ -13,7 +13,7 @@ Tout cela est faux.
 Ils s’entendent pour me perdre.
 Silence, madame ! dit sir Walter Murph d’une voix imposante.
 Puis, continuant de s’adresser à Polidori.
-Est-il vrai qu’il y a trois jours madame a été vous chercher rue du Temple, numérodix-sept, où vous habitez, caché sous le faux nom de Bradamanti ?
+Est-il vrai qu’il y a trois jours madame a été vous chercher rue du Temple, numéro dix-sept, où vous habitez, caché sous le faux nom de Bradamanti ?
 Cela est vrai.
 Madame ne vous a-t-elle pas proposé de venir ici assassiner le comte d’Orbigny, comme vous aviez assassiné sa femme ?
 Hélas ! je ne puis le nier, dit Polidori.
@@ -140,8 +140,7 @@ Je devais prévoir que la comtesse ne serait jamais qu’une mère dénaturée�
 C’est ma faute, vois-tu, c’est ma faute…
 Monseigneur, la douleur vous égare.
 Pouviez-vous, après l’événement si funeste que vous savez… différer d’un jour le long voyage qui vous était imposé… comme…
-Comme une expiation !…
-Tu as raison, mon ami, dit Rodolphe avec accablement.
+Comme une expiation !… Tu as raison, mon ami, dit Rodolphe avec accablement.
 Vous n’avez pas entendu parler de la comtesse Sarah depuis mon départ, monseigneur ?
 Non, depuis ces infâmes délations qui, par deux fois, ont failli perdre Madame d’Harville, je n’ai eu d’elle aucune nouvelle…
 Sa présence ici me pèse, m’obsède.

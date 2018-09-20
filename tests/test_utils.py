@@ -65,6 +65,7 @@ Comme d’habitude, un pilote côtier partit aussitôt du port, rasa le château
     ('XVI – Préparatifs.', ['Chapitre seize.', 'Préparatifs.']),
     ('!—Comment !', ['!', 'Comment !']),
     ('homme (et je déclare celle-ci usurpée), c’est', ['homme, et je déclare celle-ci usurpée, c’est']),
+    ('n°17', ['numéro dix-sept']),
 ])
 def test_cleanup_document(paragraph, expected_sentences):
     assert expected_sentences == utils.cleanup_document(paragraph).split('\n')

@@ -52,7 +52,7 @@ NORMALIZATIONS = [
     [re.compile(r'(?:!|\?)(?:—|-)([A-Z])'), r'!\n\1'],
     [re.compile(r'\n?\[\d+\]\n?'), ''],
     [re.compile(r'^((?:X|V|L|I|C)+)(\s–|\.|$)'), replace_chapter_number],
-    [re.compile(r'(^| )(n)(?:°|º|°)(\s)?', flags=re.IGNORECASE), r'\1\2uméro\3'],
+    [re.compile(r'(^| )(n)(?:°|º|°)(\s)?', flags=re.IGNORECASE), r'\1\2uméro '],
     [re.compile(r'(^| )MM?\. ([A-Z]{1})'), r'\1monsieur \2'],
     [re.compile(r'^No '), 'Numéro '],
     ['M.\u00a0', 'Monsieur '],
