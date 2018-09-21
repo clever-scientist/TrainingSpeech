@@ -57,6 +57,6 @@ $ pytest
 
 | Name                                                                                                    |   # speeches |   # speakers | Total Duration   | Language   |
 |:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:-----------------|:-----------|
-| [2018-09-20_fr_FR (latest)](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-20_fr_FR.zip) |        57023 |            4 | 88:48:35         | fr_FR      |
+| [2018-09-20_fr_FR (latest)](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-20_fr_FR.zip) |        64243 |            4 | 100:32:44.000    | fr_FR      |
 | [2018-09-18_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-18_fr_FR.zip)          |        44439 |            4 | 69:20:14         | fr_FR      |
 | [2018-09-05_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-05_fr_FR.zip)          |        10292 |            3 | 15:55:12         | fr_FR      |
