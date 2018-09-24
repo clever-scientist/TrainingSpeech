@@ -444,7 +444,7 @@ def download(source_name):
 def upload(source_name):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
-        options = ' --exclude .gitkeep'
+        options = ' --exclude .gitkeep --acl public-read'
         if source_name and key == 'releases':
             continue
         if key != 'releases':
@@ -531,6 +531,7 @@ def release(audio_rate, language):
         if info['status'] in {'DONE', 'WIP'}:
             per_language_sources[metadata['language']].append((name, metadata, info))
             per_language_speakers[metadata['language']].add(metadata['speaker'])
+
     today_str = datetime.now().isoformat()[:10]
     releases_data = []
 
