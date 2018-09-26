@@ -52,6 +52,13 @@ $ pytest
 
 
 ## Last releases & download
+Releases are ready-to-use `zip` archives containing :
+ - short 16kHz 16bit wav audio speeches (0-15s)
+ - a single `data.csv` file with following columns:
+   - `path`: path to the audio file inside the archive
+   - `duration`: audio duration in second
+   - `text`: transcript
+
 
 | Name                                                                                                    |   # speeches |   # speakers | Total Duration   | Language   |
 |:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:-----------------|:-----------|
