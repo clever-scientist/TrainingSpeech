@@ -55,13 +55,13 @@ def build_transcript(source_name, yes, add_to_git):
 audio_player = None
 
 
-def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str=utils.CACHE_DIR, salt: str=None):
+def cut_fragment_audio(fragment: dict, input_file: str, output_dir: str=utils.CACHE_DIR, salt: str=None, force=False):
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
 
     fragment_hash = utils.get_fragment_hash(fragment, salt=salt)
     path_to_fragment_audio = os.path.join(output_dir, f'{fragment_hash}.wav')
-    if not os.path.isfile(path_to_fragment_audio):
+    if force or not os.path.isfile(path_to_fragment_audio):
         ffmpeg.cut(input_file, path_to_fragment_audio, from_=fragment['begin'], to=fragment['end'])
     return path_to_fragment_audio
 
@@ -425,12 +425,11 @@ MAPPINGS = [
 @click.option('-s', '--source_name', default=None)
 def download(source_name):
     for s3, local, key in MAPPINGS:
-        if key == 'releases':
+        if key in {'releases'}:
             continue
         local = os.path.abspath(local)
         options = ''
         if source_name:
-
             source = training_speech.get_source(source_name, validate=False)
             options += f' --exclude * --include {source[key]}'
 
@@ -445,7 +444,7 @@ def upload(source_name):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
         options = ' --exclude .gitkeep'
-        if source_name and key == 'releases':
+        if source_name and key in {'releases'}:
             continue
         if key != 'releases':
             options += ' --exclude *.zip'
@@ -542,7 +541,7 @@ def release(audio_rate, language):
         path_to_release = os.path.join(CURRENT_DIR, 'data/releases', f'{release_name}.zip')
         print(f'start building {release_name}')
         # generate fragments
-        p_label = f'convert mp3 files to mono {audio_rate}Hz wav'
+        p_label = f'convert mp3 files to mono 16bits {audio_rate}Hz wav'
         with click.progressbar(length=len(sources), show_eta=True, label=p_label) as bar:
             with ThreadPoolExecutor() as executor:
                 def _process_source(source_data: Tuple[str, dict, dict]):
@@ -572,41 +571,42 @@ def release(audio_rate, language):
                 fragments = []
                 for source_fragments in executor.map(_process_source, sources):
                     # skip speeches longer than 15s
-                    fragments += [f for f in source_fragments if fragment['end'] - fragment['begin'] <= 15]
+                    fragments += [f for f in source_fragments if f['end'] - f['begin'] <= 15]
 
         # generate fragments
         p_label = f'cut audio fragments'
-        with click.progressbar(length=len(fragments), show_eta=True, label=p_label) as bar, ThreadPoolExecutor() as executor:
+        with click.progressbar(length=len(fragments), show_eta=True, label=p_label) as bar:
+            with ThreadPoolExecutor() as executor:
+                def _cut(f: dict):
+                    try:
+                        p = cut_fragment_audio(f, f['source_file'], salt=f['name'])
+                        bar.update(1)
+                        return p
+                    except Exception as e:
+                        print(f'cannot extract fragment {fragment["name"]}. {e}')
 
-            def _cut(f: dict):
-                try:
-                    p = cut_fragment_audio(f, f['source_file'], salt=f['name'])
-                    bar.update(1)
-                    return p
-                except Exception as e:
-                    print(f'cannot extract fragment {fragment["name"]}. {e}')
-
-            audio_fragments_pathes = executor.map(_cut, fragments)
+                audio_fragments_pathes = executor.map(_cut, fragments)
 
         p_label = f'generate {release_name}.zip file'
-        with click.progressbar(length=len(fragments) + 1, show_eta=True, label=p_label) as bar, zipfile.ZipFile(path_to_release, 'w') as zip_file:
-            # create CSV
-            string_buffer = io.StringIO()
-            writer = csv.DictWriter(string_buffer, delimiter=';', fieldnames=['path', 'duration', 'text'])
-            writer.writeheader()
+        with click.progressbar(length=len(fragments) + 1, show_eta=True, label=p_label) as bar:
+            with zipfile.ZipFile(path_to_release, 'w') as zip_file:
+                # create CSV
+                string_buffer = io.StringIO()
+                writer = csv.DictWriter(string_buffer, delimiter=',', fieldnames=['path', 'duration', 'text'])
+                writer.writeheader()
 
-            for fragment, tmp_audio in zip(fragments, audio_fragments_pathes):
-                archive_audio_path = f'{fragment["name"]}.wav'
-                zip_file.write(tmp_audio, arcname=archive_audio_path, compress_type=zipfile.ZIP_DEFLATED)
-                writer.writerow(dict(
-                    path=archive_audio_path,
-                    duration=round(fragment['end'] - fragment['begin'], 3),
-                    text=fragment['text']
-                ))
-                bar.update(1)
-                os.unlink(tmp_audio)
+                for fragment, tmp_audio in zip(fragments, audio_fragments_pathes):
+                    archive_audio_path = f'{fragment["name"]}.wav'
+                    zip_file.write(tmp_audio, arcname=archive_audio_path, compress_type=zipfile.ZIP_DEFLATED)
+                    writer.writerow(dict(
+                        path=archive_audio_path,
+                        duration=round(fragment['end'] - fragment['begin'], 3),
+                        text=fragment['text']
+                    ))
+                    bar.update(1)
+                    os.unlink(tmp_audio)
 
-            zip_file.writestr('data.csv', string_buffer.getvalue())
+                zip_file.writestr('data.csv', string_buffer.getvalue())
             bar.update(1)
 
         releases_data.append([
