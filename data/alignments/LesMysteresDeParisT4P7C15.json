@@ -1198,36 +1198,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1389.29,
+    "disabled": false,
     "end": 1394.012,
     "text": "Ils disaient qu\u2019en province il avait coqu\u00e9 quelqu\u2019un de leur bande."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1394.15,
-    "end": 1396.04,
-    "text": "J\u2019en \u00e9tais s\u00fbr\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1395.842,
+    "begin": 1394.1499999999999,
     "end": 1397.34,
-    "text": "Germain est un mouton."
+    "text": "Il avait d\u00e9nonc\u00e9 quelqu'un de leur bande."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1397.35,
+    "end": 1400.27,
+    "text": "J\u2019en \u00e9tais s\u00fbr\u2026 Germain est un mouton."
+  },
+  {
+    "approved": true,
+    "begin": 1400.17,
+    "disabled": false,
     "end": 1402.85,
     "text": "Eh bien ! on en mangera, du mouton."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1402.86,
+    "disabled": false,
     "end": 1406.92,
     "text": "Je vas dire \u00e7a aux amis\u2026 \u00e7a leur donnera de l\u2019app\u00e9tit."
   },

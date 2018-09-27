@@ -85,7 +85,8 @@ def cut_fragments_audio(fragments: List[dict], input_file: str, output_dir: str=
 @click.option('-ar', '--audio-rate', default=16000)
 @click.option('-nc', '--no-cache', is_flag=True, default=None)
 @click.option('-f', '--fast', is_flag=True, default=False)
-def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
+@click.option('--start', type=int, default=0)
+def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast, start):
     import inquirer
     source = training_speech.get_source(source_name)
     path_to_alignment = os.path.join(CURRENT_DIR, f'data/alignments/{source_name}.json')
@@ -311,12 +312,12 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast):
     cut_fragments_audio(alignment, input_file=path_to_wav)
 
     # iterate over successive fragments
-    i = 0
+    i = start
     done = False
     while i < len(alignment) and not done:
         fragment = alignment[i]
 
-        if fragment.get('approved') or fragment.get('disabled'):
+        if start != i and (fragment.get('approved') or fragment.get('disabled')):
             click.echo(f'skip fragment#{i} {fragment["text"]}')
             i += 1
             continue
