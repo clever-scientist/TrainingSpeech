@@ -1104,9 +1104,8 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 993.28,
-    "end": 997.19,
+    "end": 997.16,
     "text": "Vous savez le reste, le scandale de ses aventures."
   },
   {
@@ -1215,29 +1214,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1062.63,
+    "disabled": false,
     "end": 1064.03,
     "text": "\u00c0 ce soir ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1064.04,
-    "end": 1069.918,
-    "text": "Avez-vous donc oubli\u00e9 qu\u2019il y a grand bal \u00e0 l\u2019ambassade de ***, et que Son Altesse doit y aller ?"
+    "begin": 1064.0400000000002,
+    "end": 1069.88,
+    "text": "Avez-vous donc oubli\u00e9 qu\u2019il y a grand bal \u00e0 l\u2019ambassade de\u2026 et que Son Altesse doit y aller ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1069.8,
+    "disabled": false,
     "end": 1071.05,
     "text": "C\u2019est juste."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1070.98,
+    "disabled": false,
     "end": 1079.258,
     "text": "Depuis l\u2019absence du colonel Warner et du comte d\u2019Harneim, j\u2019oublie toujours que je remplis les fonctions de chambellan et d\u2019aide de camp."
   },
