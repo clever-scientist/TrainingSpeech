@@ -52,9 +52,17 @@ $ pytest
 
 
 ## Last releases & download
+Releases are ready-to-use `zip` archives containing :
+ - short 16kHz 16bit wav audio speeches (0-15s)
+ - a single `data.csv` file with following columns:
+   - `path`: path to the audio file inside the archive
+   - `duration`: audio duration in second
+   - `text`: transcript
 
-| Name                                                                                                    |   # speeches |   # speakers | Total Duration   | Language   |
-|:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:-----------------|:-----------|
-| [2018-09-20_fr_FR (latest)](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-20_fr_FR.zip) |        64243 |            4 | 100:32:44.000    | fr_FR      |
-| [2018-09-18_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-18_fr_FR.zip)          |        44439 |            4 | 69:20:14         | fr_FR      |
-| [2018-09-05_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-05_fr_FR.zip)          |        10292 |            3 | 15:55:12         | fr_FR      |
+
+| Name                                                                                                    |   # speeches |   # speakers | Total Duration | Language   |
+|:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:---------------|:-----------|
+| [2018-09-28_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-28_fr_FR.zip) (latest) |        61664 |            4 | 86:23:05       | fr_FR      |
+| [2018-09-27_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-27_fr_FR.zip)          |        61658 |            4 | 86:22:43       | fr_FR      |
+| [2018-09-18_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-18_fr_FR.zip)          |        44439 |            4 | 69:20:14       | fr_FR      |
+| [2018-09-05_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-05_fr_FR.zip)          |        10292 |            3 | 15:55:12       | fr_FR      |

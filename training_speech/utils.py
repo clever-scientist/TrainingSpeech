@@ -561,3 +561,14 @@ def format_timedelta(td: timedelta):
     seconds = int(s - (minutes * 60))
     milliseconds = int(round(td.microseconds / 1000, 3))
     return f'{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}'
+
+
+PUNCTUATIONS_REG = re.compile(r"[°\-,;!?.()\[\]*…—]")
+MULTIPLE_SPACES_REG = re.compile(r'\s{2,}')
+
+
+def cleanup_transcript(text: str) -> str:
+    text = text.replace('’', "'")
+    text = PUNCTUATIONS_REG.sub(' ', text)
+    text = MULTIPLE_SPACES_REG.sub(' ', text)
+    return text.strip().lower()

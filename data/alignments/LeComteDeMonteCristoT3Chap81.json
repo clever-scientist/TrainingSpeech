@@ -439,27 +439,33 @@
   {
     "approved": true,
     "begin": 496.616,
+    "disabled": false,
     "end": 499.678,
     "text": "Non ! il voulait parler \u00e0 Votre Excellence."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 499.688,
-    "end": 508.766,
-    "text": "J\u2019ai r\u00e9pondu que vous \u00e9tiez sorti. Il a insist\u00e9. Mais enfin il a paru se laisser convaincre, et m\u2019a donn\u00e9 cette lettre qu\u2019il avait apport\u00e9e toute cachet\u00e9e."
+    "end": 502.62199999999996,
+    "text": "J\u2019ai r\u00e9pondu que vous \u00e9tiez sorti. Il a insist\u00e9."
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 503.01599999999996,
+    "end": 508.728,
+    "text": "Mais enfin il a paru se laisser convaincre, et m\u2019a donn\u00e9 cette lettre qu\u2019il avait apport\u00e9e toute cachet\u00e9e."
+  },
+  {
+    "approved": true,
     "begin": 509.16,
+    "disabled": false,
     "end": 510.942,
     "text": "Voyons, dit Andrea."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 511.336,
+    "disabled": false,
     "end": 513.502,
     "text": "Il lut \u00e0 la lanterne de son pha\u00e9ton."
   },

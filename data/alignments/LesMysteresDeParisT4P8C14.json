@@ -208,28 +208,40 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 246.05,
+    "disabled": false,
     "end": 249.496,
     "text": "Il agit ainsi pour le repos de sa conscience."
   },
   {
     "approved": true,
-    "begin": 249.634,
-    "end": 267.136,
-    "text": "D\u2019apr\u00e8s ses v\u0153ux, j\u2019ai d\u00fb vous confier cette somme, et vous prier de la remettre \u00e0 Madame veuve de Fermont, n\u00e9e de Renneville (la voix du notaire trembla l\u00e9g\u00e8rement en pronon\u00e7ant ces noms), lorsque cette dame se pr\u00e9senterait chez vous en justifiant de sa possession d\u2019\u00e9tat. J\u2019accomplirai la mission dont vous me chargez, dit le pr\u00eatre."
+    "begin": 249.63400000000001,
+    "end": 256.536,
+    "text": "D\u2019apr\u00e8s ses v\u0153ux, j\u2019ai d\u00fb vous confier cette somme, et vous prier de la remettre \u00e0 Madame veuve de Fermont,"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 267.066,
-    "end": 268.568,
-    "text": "Ce n\u2019est pas la derni\u00e8re, monsieur l\u2019abb\u00e9."
+    "begin": 256.546,
+    "end": 258.584,
+    "text": "n\u00e9e de Renneville"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 258.594,
+    "disabled": false,
+    "end": 263.192,
+    "text": "la voix du notaire trembla l\u00e9g\u00e8rement en pronon\u00e7ant ces noms"
+  },
+  {
+    "approved": true,
+    "begin": 262.94599999999997,
+    "end": 268.546,
+    "text": "lorsque cette dame se pr\u00e9senterait chez vous en justifiant de sa premi\u00e8re, monsieur l\u2019abb\u00e9."
+  },
+  {
+    "approved": true,
     "begin": 268.578,
+    "disabled": false,
     "end": 272.024,
     "text": "Tant mieux, si les autres ressemblent \u00e0 celle-ci."
   },

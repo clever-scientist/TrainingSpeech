@@ -246,9 +246,8 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 288.104,
-    "end": 289.56,
+    "end": 289.544,
     "text": "Oui !\u2026 Oui !"
   },
   {
@@ -350,57 +349,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 320.36,
+    "disabled": false,
     "end": 321.886,
     "text": "Tombons dessus !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 321.768,
-    "end": 323.398,
-    "text": "Soutenons le Squelette !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 323.2,
-    "end": 323.782,
-    "text": "Oui !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 323.584,
-    "end": 323.782,
-    "text": "Oui !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 323.584,
+    "begin": 321.76800000000003,
     "end": 326.75,
-    "text": "Charivari pour le bonnet bleu !"
+    "text": "Soutenons le Squelette ! Oui ! Oui ! Charivari pour le bonnet bleu !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 326.632,
-    "end": 326.75,
-    "text": "Non\u2026"
+    "end": 329.00800000000004,
+    "text": "Non\u2026 Soutenons le bonnet bleu !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 326.632,
-    "end": 329.03,
-    "text": "Soutenons le bonnet bleu !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 328.832,
+    "disabled": false,
     "end": 333.254,
     "text": "Charivari pour le Squelette ! riposta le parti du Chourineur."
   },

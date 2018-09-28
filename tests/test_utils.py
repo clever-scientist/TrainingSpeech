@@ -411,3 +411,11 @@ def test_transition_silences(left_fragment, right_fragment, silences, expected):
 ])
 def test_format_timedelta(td, expected):
     assert expected == utils.format_timedelta(td)
+
+
+@pytest.mark.parametrize('text, expected', [
+    ('Chapitre un, Marseille. L’arrivée.', 'chapitre un marseille l\'arrivée'),
+    (' foo   bar ', 'foo bar'),
+])
+def test_cleanup_transcript(text, expected):
+    assert expected == utils.cleanup_transcript(text)

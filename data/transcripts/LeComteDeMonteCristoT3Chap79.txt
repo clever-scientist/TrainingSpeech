@@ -82,7 +82,8 @@ Les traits du visage, altérés par les mouvements convulsifs des muscles de la 
 Noirtier, voyant Barrois ainsi troublé, multipliait ses regards dans lesquels se peignaient, intelligibles et palpitantes, toutes les émotions qui agitent le cœur de l’homme.
 Barrois fit quelques pas vers son maître.
 Ah ! mon Dieu ! mon Dieu !
-Seigneur, dit-il, mais qu’ai-je donc ?… Je souffre… je n’y vois plus.
+Seigneur, dit-il, mais qu’ai-je donc ?…
+Je souffre… je n’y vois plus.
 Mille pointes de feu me traversent le crâne.
 Oh ! ne me touchez pas, ne me touchez pas !
 En effet, les yeux devenaient saillants et hagards, et la tête se renversait en arrière, tandis que le reste du corps se raidissait.
@@ -156,13 +157,11 @@ Monsieur d’Avrigny sourit d’un air sombre.
 Comment vous sentez-vous, Barrois ? demanda le docteur.
 Un peu mieux, monsieur.
 Pouvez-vous boire ce verre d’eau éthérée ?
-Je vais essayer, mais ne me touchez pas.
-Pourquoi ?
+Je vais essayer, mais ne me touchez pas. Pourquoi ?
 Parce qu’il me semble que si vous me touchiez, ne fût-ce que du bout du doigt, l’accès me reprendrait.
 Buvez.
 Barrois prit le verre, l’approcha de ses lèvres violettes et le vida à moitié à peu près.
-Où souffrez-vous ? demanda le docteur. Partout.
-J’éprouve comme d’effroyables crampes.
+Où souffrez-vous ? demanda le docteur. Partout. J’éprouve comme d’effroyables crampes.
 Avez-vous des éblouissements ?
 Oui.
 Des tintements d’oreille ?
@@ -170,7 +169,8 @@ Affreux.
 Quand cela vous a-t-il pris ?
 Tout à l’heure.
 Rapidement ?
-Comme la foudre. Rien hier ? rien avant-hier ?
+Comme la foudre.
+Rien hier ? rien avant-hier ?
 Rien.
 Pas de somnolence ? pas de pesanteurs ?
 Non.
@@ -182,7 +182,7 @@ Dans la carafe, en bas.
 Où cela, en bas !
 Dans la cuisine.
 Voulez-vous que j’aille la chercher, docteur ? demanda Villefort.
-Non, restez ici, et tâchez de faire boire au malade le reste de ce verre d’eau. Mais cette limonade… J’y vais moi-même.
+Non, non, restez ici, et tâchez de faire boire au malade le reste de ce verre d’eau. Mais cette limonade… J’y vais moi-même.
 D’Avrigny fit un bond, ouvrit la porte, s’élança dans l’escalier de service et faillit renverser madame de Villefort, qui, elle aussi, descendait à la cuisine.
 Elle poussa un cri.
 D’Avrigny n’y fit même pas attention.
@@ -194,8 +194,7 @@ Est-ce bien cette carafe qui était ici ? demanda d’Avrigny.
 Oui, monsieur le docteur.
 Cette limonade est la même que vous avez bue ?
 Je le crois.
-Quel goût lui avez-vous trouvé ?
-Un goût amer.
+Quel goût lui avez-vous trouvé ? Un goût amer.
 Le docteur versa quelques gouttes de limonade dans le creux de sa main, les aspira avec ses lèvres, et, après s’en être rincé la bouche comme on fait avec le vin que l’on veut goûter, il cracha la liqueur dans la cheminée.
 C’est bien la même, dit-il.
 Et vous en avez bu aussi, monsieur Noirtier ?
@@ -213,27 +212,24 @@ La terreur la plus profonde régnait dans la maison.
 Si j’avais un moyen de lui insuffler de l’air dans les poumons, dit d’Avrigny en regardant autour de lui, peut-être y aurait-il possibilité de prévenir l’asphyxie. Mais non, rien, rien !
 Oh ! monsieur, criait Barrois, me laisserez-vous mourir ainsi sans secours ?
 Oh ! je me meurs, mon Dieu ! je me meurs !
-Une plume ! une plume ! demanda le docteur.
+plume ! une plume ! demanda le docteur.
 Il en aperçut une sur la table.
 Il essaya d’introduire la plume dans la bouche du malade, qui faisait, au milieu de ses convulsions d’inutiles efforts pour vomir. Mais les mâchoires étaient tellement serrées, que la plume ne put passer.
 Barrois était atteint d’une attaque nerveuse encore plus intense que la première.
 Il avait glissé de la chaise longue à terre, et se raidissait sur le parquet.
 Le docteur le laissa en proie à cet accès, auquel il ne pouvait apporter aucun soulagement, et alla à Noirtier.
 Comment vous trouvez-vous ? lui dit-il précipitamment et à voix basse.
-Bien ?
-Oui.
+Bien ? Oui.
 Léger d’estomac ou lourd ? léger ?
 Oui.
 Comme lorsque vous avez pris la pilule que je fais donner chaque dimanche ?
 Oui.
-Est-ce Barrois qui a fait votre limonade ?
-Oui.
+Est-ce Barrois qui a fait votre limonade ? Oui.
 Est-ce vous qui l’avez engagé à en boire ?
 Non.
 Est-ce Monsieur de Villefort ?
 Non.
-Madame ?
-Non.
+Madame ? Non.
 C’est donc Valentine, alors ?
 Oui.
 Un soupir de Barrois, un bâillement qui faisait craquer des os de sa mâchoire, appelèrent l’attention de d’Avrigny.
