@@ -307,29 +307,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 393.064,
+    "disabled": false,
     "end": 396.638,
     "text": "Il ne put dire un mot ou faire un pas de plus."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 396.904,
-    "end": 400.99,
-    "text": "Jamais de Lucenay ne s\u2019\u00e9tait montr\u00e9e \u00e0 lui sous cet aspect."
+    "end": 400.98400000000004,
+    "text": "Jamais Madame de Lucenay ne s\u2019\u00e9tait montr\u00e9e \u00e0 lui sous cet aspect."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 401.512,
+    "disabled": false,
     "end": 410.078,
     "text": "Il ne pouvait croire que ce f\u00fbt la m\u00eame femme qu\u2019il avait toujours trouv\u00e9e douce, tendre, passionn\u00e9ment soumise."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 409.96,
+    "disabled": false,
     "end": 417.35,
     "text": "Car rien n\u2019est plus humble, plus timide qu\u2019une femme r\u00e9solue, devant l\u2019homme qu\u2019elle aime et qui la domine."
   },

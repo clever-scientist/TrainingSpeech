@@ -1212,36 +1212,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 820.072,
+    "disabled": false,
     "end": 823.774,
     "text": "Oh ! quand je la retrouverai au tapis-franc, son compte sera bon\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 824.168,
-    "end": 825.542,
-    "text": "Ah \u00e7\u00e0 !"
+    "end": 828.488,
+    "text": "Ah \u00e7\u00e0 ! Finette, nous parlons, nous parlons, et les affaires ne marchent pas."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 825.472,
-    "end": 828.51,
-    "text": "Finette, nous parlons, nous parlons, et les affaires ne marchent pas."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 828.904,
+    "disabled": false,
     "end": 832.35,
     "text": "On peut jaspiner devant elle ? demanda Rodolphe."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 832.616,
+    "disabled": false,
     "end": 834.398,
     "text": "En toute confiance."
   },
