@@ -441,17 +441,17 @@ def download(source_name):
 
 @cli.command()
 @click.option('-s', '--source_name', default=None)
-def upload(source_name):
+@click.option('-r', '--releases', is_flag=True, default=False, help='releases only')
+def upload(source_name, releases):
     for s3, local, key in MAPPINGS:
         local = os.path.abspath(local)
         options = ' --exclude .gitkeep'
-        if source_name and key in {'releases'}:
+        if (source_name and key in {'releases'}) or (releases and key != 'releases'):
             continue
         if key == 'releases':
             options += ' --acl public-read'
         else:
             options += ' --exclude *.zip'
-       	
         if source_name:
             source = training_speech.get_source(source_name)
             options += f' --exclude * --include {source[key]}'
