@@ -240,7 +240,7 @@ def cleanup_fragment(original: dict) -> dict:
     return data
 
 
-def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]], separator=' ') -> List[dict]:
+def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]], separator=None) -> List[dict]:
     alignment = deepcopy(alignment)
 
     def get_silences(fragment, margin=0) -> List[Tuple[float, float, int]]:
@@ -258,7 +258,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]], se
         left['merged'] = True  # may have been `right`
         left['end'] = right['end']
         right['begin'] = left['begin']
-        full_text = left['text'] + separator + right['text']
+        full_text = left['text'] + (separator or ' ') + right['text']
         right['text'] = left['text'] = full_text
         return right
 
@@ -408,13 +408,14 @@ def get_fragment_hash(fragment: dict, salt: str=None):
     return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'
 
 
-def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: str, language: str, separator: str=None):
-    if fragment['end'] - fragment['begin'] < 15:
+def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: str, language: str, separator: str=None, depth=0):
+    if fragment['end'] - fragment['begin'] < 15 or depth > 3:
         return [fragment]
     possible_silences = [s for s in silences if s[0] > fragment['begin'] and s[1] < fragment['end']]
     if not possible_silences:
         return [fragment]
 
+    print(f"{fragment['text']} ({separator})")
     if separator is None:
         options = [
             smart_cut(
@@ -423,8 +424,10 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
                 path_to_wav=path_to_wav,
                 language=language,
                 separator=sep,
+                depth=depth,
             )
             for sep in ['… ', '... ', '. ', ', ', ' ']
+            if sep in fragment['text']
         ]
         sorted_options = sorted(options, key=lambda x: max(f['end'] - f['begin'] for f in x))
         return sorted_options[0]
@@ -454,7 +457,8 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
             ],
             generate_labels=True,
             language=language,
-            separator=separator
+            separator=separator,
+            depth=depth + 1,
         )
 
     if separator != ' ':
@@ -496,11 +500,11 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
     right_fragment.pop('approved', None)
     if fragment['text'] != f"{left_fragment['text']}{separator}{right_fragment['text']}":
         print(f"WARN: \n{fragment['text']}\n{left_fragment['text']}{separator}{right_fragment['text']}")
-    return smart_cut(left_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator) + \
-           smart_cut(right_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator)
+    return smart_cut(left_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator, depth=depth + 1) + \
+           smart_cut(right_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator, depth=depth + 1)
 
 
-def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR', separator=' '):
+def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR', separator=None, depth=0):
 
     if any(f.get('approved') or f.get('disabled') for f in existing_alignment):
         # remove approved but deprecated alignments
@@ -581,6 +585,7 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
                     ],
                     generate_labels=False,
                     language=language,
+                    separator=separator,
                 )
             for fragment in sub_alignment:
                 fragment['begin'] = round(fragment['begin'] + group_start, 3)
@@ -597,7 +602,7 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
 
     result = []
     for i, fragment in enumerate(alignment):
-        result += smart_cut(fragment, silences=silences, path_to_wav=path_to_audio, language=language)
+        result += smart_cut(fragment, silences=silences, path_to_wav=path_to_audio, language=language, depth=depth)
 
     if generate_labels:
         # Generate Audacity labels for DEBUG purpose
