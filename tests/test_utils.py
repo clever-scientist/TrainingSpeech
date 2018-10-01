@@ -285,9 +285,9 @@ BUILD_ALIGNMENT_TESTS = [
         'Lorsqu’elle avait repris ses sens, son père était devant elle.',
         'Tous les serviteurs l’entouraient, lui portant des secours.',
     ], [], [
-        dict(begin=0.0, end=10.145, text='Un jeune paysan s’était élancé dans l’appartement, l’avait prise dans ses bras, et, avec une force et une adresse surhumaines l’avait transportée sur le gazon de la pelouse, où elle s’était évanouie.'),
-        dict(begin=10.15, end=13.535, text='Lorsqu’elle avait repris ses sens, son père était devant elle.'),
-        dict(begin=13.48, end=16.8, text='Tous les serviteurs l’entouraient, lui portant des secours.'),
+        {'begin': 0.0, 'end': 3.065, 'text': 'Un jeune paysan s’était élancé dans l’appartement'},
+        {'begin': 2.725, 'end': 10.12, 'text': 'l’avait prise dans ses bras, et, avec une force et une adresse surhumaines l’avait transportée sur le gazon de la pelouse, où elle s’était évanouie.', 'warn': True}, {'begin': 10.15, 'end': 13.535, 'text': 'Lorsqu’elle avait repris ses sens, son père était devant elle.'},
+        {'begin': 13.48, 'end': 16.8, 'text': 'Tous les serviteurs l’entouraient, lui portant des secours.'},
     ]),
     # LeComteDeMonteCristoT2Chap34 @@ 0:12:48.616000 0:13:03.198000 @@
     ('8d4d6e06.wav', 3, 30, [
@@ -305,10 +305,10 @@ BUILD_ALIGNMENT_TESTS = [
         'Franz était trop préoccupé pour bien dormir.',
         'Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée, et qui tendaient à faire de ces deux personnages le même individu.',
     ], [], [
-        dict(begin=0.0, end=11.69, text='Il l’avait donc laissé s’éloigner, comme on l’a vu, mais en se promettant, s’il le rencontrait une autre fois, de ne pas laisser échapper cette seconde occasion comme il avait fait de la première.'),
+        dict(begin=0.0, end=6.605, text='Il l’avait donc laissé s’éloigner, comme on l’a vu, mais en se promettant, s’il le rencontrait une autre fois'),
+        dict(warn=True, begin=6.52, end=11.68, text='de ne pas laisser échapper cette seconde occasion comme il avait fait de la première.'),
         dict(begin=12.16, end=16.235, text='Franz était trop préoccupé pour bien dormir.'),
-        dict(begin=16.585, end=26.45, text='Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée'),
-        dict(warn=True, begin=26.395, end=31.705, text='et qui tendaient à faire de ces deux personnages le même individu.'),
+        dict(begin=16.585, end=31.720, text='Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée, et qui tendaient à faire de ces deux personnages le même individu.'),
     ]),
 
     # LeComteDeMonteCristoT2Chap34 @@ 0:29:32.520000 0:29:55.780000 @@
@@ -349,24 +349,18 @@ BUILD_ALIGNMENT_TESTS = [
     ('4a4ae727.wav', 3, 30, [
         'Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres !… moi qui méprise et exècre les hommes… moi qui n’avais vécu que pour les tromper et les dépouiller… moi fonder des établissements philanthropiques… m’y forcer… par des moyens infernaux !',
     ], [], [
-        dict(begin=0.0, end=6.165, text='Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux'),
-        dict(warn=True, begin=6.0, end=10.385, text='ma fortune entière engloutie dans ces stupides bonnes œuvres!'),
+        dict(begin=0.0, end=10.385, text='Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres!'),
         dict(warn=True, begin=10.075, end=13.16, text='moi qui méprise et exècre les hommes'),
-        dict(warn=True, begin=12.835, end=16.445, text='moi qui n’avais vécu que pour les tromper et les dépouiller'),
-        dict(warn=True, begin=16.3, end=19.85, text='moi fonder des établissements philanthropiques'),
-        dict(warn=True, begin=19.66, end=21.185, text='m’y forcer'),
-        dict(warn=True, begin=20.935, end=23.08, text='par des moyens infernaux !'),
+        dict(warn=True, begin=12.835, end=23.08, text='moi qui n’avais vécu que pour les tromper et les dépouiller… moi fonder des établissements philanthropiques… m’y forcer… par des moyens infernaux !'),
     ]),
 
     # LesMysteresDeParisT2P3C15 @@ 0:00:16.488000 0:00:36.300000 @@
     ('cb4f185e.wav', 3, 20, [
         'Les exigences de ce récit multiple, malheureusement trop varié dans son unité, nous forcent de passer incessamment d’un personnage à un autre, afin de faire, autant qu’il est en nous, marcher et progresser l’intérêt général de l’œuvre si toutefois il y a de l’intérêt dans cette œuvre',
     ], [], [
-        dict(begin=0.0, end=3.04, text='Les exigences de ce récit multiple'),
-        dict(warn=True, begin=2.87, end=6.07, text='malheureusement trop varié dans son unité'),
-        dict(warn=True, begin=6.02, end=10.21, text='nous forcent de passer incessamment d’un personnage à un autre'),
-        dict(warn=True, begin=10.03, end=12.94, text='afin de faire, autant qu’il est en nous'),
-        dict(warn=True, begin=12.71, end=19.8, text='marcher et progresser l’intérêt général de l’œuvre si toutefois il y a de l’intérêt dans cette œuvre'),
+        dict(begin=0.0, end=6.07, text='Les exigences de ce récit multiple, malheureusement trop varié dans son unité'),
+        dict(warn=True, begin=6.02, end=10.2, text='nous forcent de passer incessamment d’un personnage à un autre'),
+        dict(warn=True, begin=10.03, end=19.8, text='afin de faire, autant qu’il est en nous, marcher et progresser l’intérêt général de l’œuvre si toutefois il y a de l’intérêt dans cette œuvre'),
     ]),
 
     # LeComteDeMonteCristoT3Chap72 @@ 0:00:10.088000 0:00:31.198000 @@
@@ -375,9 +369,8 @@ BUILD_ALIGNMENT_TESTS = [
     ], [
         dict(approved=True, begin=0.0, end=21.08, text='Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner le procureur du roi s’était, selon sa coutume, enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine à satisfaire son robuste appétit de travailleur.'),
     ], [
-         dict(approved=True, begin=0.0, end=7.21, text='Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner'),
-         dict(warn=True, begin=7.07, end=16.64, text='le procureur du roi s’était, selon sa coutume, enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine'),
-         dict(warn=True, begin=16.64, end=21.08, text='à satisfaire son robuste appétit de travailleur.'),
+         dict(approved=True, begin=0.0, end=10.22, text='Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner le procureur du roi s’était, selon sa coutume'),
+         dict(warn=True, begin=9.89, end=21.08, text='enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine à satisfaire son robuste appétit de travailleur.'),
      ]),
 ]
 

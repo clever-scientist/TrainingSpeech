@@ -409,9 +409,12 @@ def get_fragment_hash(fragment: dict, salt: str=None):
 
 
 def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: str, language: str, separator: str=None, depth=0):
-    if fragment['end'] - fragment['begin'] < 15 or depth > 3:
+    if fragment['end'] - fragment['begin'] < 10 or depth > 3:
         return [fragment]
-    possible_silences = [s for s in silences if s[0] > fragment['begin'] and s[1] < fragment['end']]
+    possible_silences = [
+        s for s in silences
+        if s[0] > fragment['begin'] and s[1] < fragment['end'] and s[1] - s[0] > 0.3
+    ]
     if not possible_silences:
         return [fragment]
 
@@ -425,11 +428,11 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
                 separator=sep,
                 depth=depth,
             )
-            for sep in ['… ', '... ', '. ', ', ', ' ']
+            for sep in ['… ', '... ', '. ', ', ']
             if sep in fragment['text']
         ]
         sorted_options = sorted(options, key=lambda x: max(f['end'] - f['begin'] for f in x))
-        return sorted_options[0]
+        return sorted_options[0] if sorted_options else [fragment]
 
     def cleanup(text: str) -> str:
         text = re.sub(CLEANUP_REG, r'\1', text)
@@ -437,11 +440,6 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
 
     words = [w for w in cleanup(fragment['text']).split(separator)]
     if len(words) == 1:
-        return [fragment]
-
-    bigest_silence_start, bigest_silence_end = sorted(possible_silences, key=lambda x: -(x[1] - x[0]))[0]
-    bigest_silence_dur = bigest_silence_end - bigest_silence_start
-    if bigest_silence_dur < 0.35:
         return [fragment]
 
     with tempfile.NamedTemporaryFile(suffix='.wav') as file_:
@@ -459,48 +457,38 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
             separator=separator,
             depth=depth + 1,
         )
-
-    if separator != ' ':
-        for i, f in enumerate(sub_alignment):
-            f['begin'] = round(f['begin'] + fragment['begin'], 3)
-            f['end'] = round(f['end'] + fragment['begin'], 3)
-            if i == 0 and fragment.get('approved'):
-                f['approved'] = True
-            if i > 0:
-                f['warn'] = True
-        return sub_alignment
-
-    # make sure cuts are in given silences
-    if not all(
-            (
-                any(s_start <= f['begin'] <= s_end for s_start, s_end in possible_silences) and
-                any(s_start <= f['end'] <= s_end for s_start, s_end in possible_silences)
-            )
-            for f in sub_alignment[1:-1]
-    ):
+    if len(sub_alignment) == 1:
         return [fragment]
-    left_fragments = [f for f in sub_alignment if f['begin'] < bigest_silence_start and f['end'] <= bigest_silence_end]
-    right_fragments = sub_alignment[len(left_fragments):]
-    if not left_fragments or not right_fragments:
+
+    options = []
+    for silence_start, silence_end in possible_silences:
+
+        left_fragments = [f for f in sub_alignment if f['begin'] < silence_start and f['end'] <= silence_end]
+        right_fragments = [f for f in sub_alignment if f['begin'] >= silence_start and f['end'] > silence_end]
+        if not left_fragments or not right_fragments or len(left_fragments) + len(right_fragments) != len(sub_alignment):
+            continue
+        left = deepcopy(fragment)
+        left.update(
+            text=separator.join(f['text'] for f in left_fragments),
+            begin=left_fragments[0]['begin'] + fragment['begin'],
+            end=left_fragments[-1]['end'] + fragment['begin'],
+        )
+        right = deepcopy(fragment)
+        right.update(
+            text=separator.join(f['text'] for f in right_fragments),
+            begin=right_fragments[0]['begin'] + fragment['begin'],
+            end=right_fragments[-1]['end'] + fragment['begin'],
+            warn=True,
+        )
+        right.pop('approved', None)
+        options.append(
+            smart_cut(left, silences=possible_silences, path_to_wav=path_to_wav, language=language, depth=depth + 1) + \
+            smart_cut(right, silences=possible_silences, path_to_wav=path_to_wav, language=language, depth=depth + 1)
+        )
+    if not options:
         return [fragment]
-    left_fragment = deepcopy(fragment)
-    left_fragment.update(
-        text=separator.join(f['text'] for f in left_fragments),
-        begin=left_fragments[0]['begin'] + fragment['begin'],
-        end=left_fragments[-1]['end'] + fragment['begin'],
-    )
-    right_fragment = deepcopy(fragment)
-    right_fragment.update(
-        text=separator.join(f['text'] for f in right_fragments),
-        begin=right_fragments[0]['begin'] + fragment['begin'],
-        end=right_fragments[-1]['end'] + fragment['begin'],
-        warn=True,
-    )
-    right_fragment.pop('approved', None)
-    if fragment['text'] != f"{left_fragment['text']}{separator}{right_fragment['text']}":
-        print(f"WARN: \n{fragment['text']}\n{left_fragment['text']}{separator}{right_fragment['text']}")
-    return smart_cut(left_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator, depth=depth + 1) + \
-           smart_cut(right_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator, depth=depth + 1)
+    sorted_options = sorted(options, key=lambda x: max(f['end'] - f['begin'] for f in x))
+    return sorted_options[0]
 
 
 def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR', separator=None, depth=0):
