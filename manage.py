@@ -19,7 +19,7 @@ from tabulate import tabulate
 from termcolor import colored
 
 import training_speech
-from training_speech import utils, ffmpeg, sox, exceptions
+from training_speech import utils, ffmpeg, sox, exceptions, vad
 
 CURRENT_DIR = os.path.dirname(__file__)
 
@@ -114,12 +114,8 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast, sta
         transcript = [l.strip() for l in f.readlines()]
     transcript = [l for l in transcript if l]  # rm empty lines
 
-    # detect silences
-    silences = ffmpeg.list_silences(
-        input_path=path_to_wav,
-        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
-    )
+    # detect silences through VAD
+    silences = vad.list_silences(path_to_wav=path_to_wav, frame_duration=20)
 
     if not restart and os.path.isfile(path_to_alignment):
         with open(path_to_alignment) as f:
@@ -660,11 +656,7 @@ def make_test(source_name, from_id, to_id, audio_rate):
         existing_alignment = []
 
     # detect silences
-    silences = ffmpeg.list_silences(
-        input_path=path_to_wav,
-        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
-    )
+    silences = vad.list_silences(path_to_wav=path_to_wav, frame_duration=20)
 
     alignment = utils.build_alignment(
         transcript=transcript,
@@ -686,11 +678,7 @@ def make_test(source_name, from_id, to_id, audio_rate):
         transcript=[f['text'] for f in remaining],
         path_to_audio=path_to_sub_audio,
         existing_alignment=[],
-        silences=ffmpeg.list_silences(
-            input_path=path_to_sub_audio,
-            min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
-            noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
-        ),
+        silences=vad.list_silences(path_to_wav=path_to_sub_audio, frame_duration=20),
         generate_labels=True,
     )
 
@@ -701,14 +689,14 @@ def make_test(source_name, from_id, to_id, audio_rate):
         to=timedelta(seconds=remaining[-1]['end']),
         transcript='\n        '.join(f"'{f['text']}'," for f in new_alignment),
         alignment='\n        '.join("dict(begin={begin}, end={end}, text='{text}'),".format(**f) for f in new_alignment),
-        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
+        vad_mode=utils.DEFAULT_VAD_MODE,
+        vad_frame_duration=utils.DEFAULT_VAD_FRAME_DURATION,
     ))
 
 
 BUILD_ALIGNMENT_TEST_TEMPLATE = """
     # {source_name} @@ {from_} {to} @@
-    ('{file_hash}.wav', {noise_level}, {min_duration}, [
+    ('{file_hash}.wav', {vad_mode}, {vad_frame_duration}, [
         {transcript}
     ], [], [
         {alignment}
@@ -748,11 +736,7 @@ def source_stats(source_name):
         existing_alignment = []
 
     # detect silences
-    silences = ffmpeg.list_silences(
-        input_path=path_to_wav,
-        min_duration=utils.DEFAULT_SILENCE_MIN_DURATION,
-        noise_level=utils.DEFAULT_SILENCE_NOISE_LEVEL,
-    )
+    silences = vad.list_silences(path_to_wav=path_to_wav, frame_duration=utils.DEFAULT_VAD_FRAME_DURATION)
 
     alignment = utils.build_alignment(
         transcript=transcript,

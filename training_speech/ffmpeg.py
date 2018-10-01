@@ -55,13 +55,13 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
     with open(input_path, 'rb') as f:
         audio_hash = utils.hash_file(f)
 
-    from training_speech.utils import file_extension
-    if file_extension(input_path) == '.mp3':
+
+    if utils.file_extension(input_path) == '.mp3':
         path_to_wav = os.path.join(utils.CACHE_DIR, f'{audio_hash}.wav')
         convert(input_path, path_to_wav)
         input_path = path_to_wav
 
-    cached_path = os.path.join(utils.CACHE_DIR, f'{audio_hash}_{noise_level}_{min_duration}.json')
+    cached_path = os.path.join(utils.CACHE_DIR, f'silences_{audio_hash}_{noise_level}_{min_duration}.json')
     if not force and os.path.isfile(cached_path):
         with open(cached_path) as f:
             return json.load(f)
@@ -92,32 +92,13 @@ def list_silences(input_path: str, noise_level: int=-50, min_duration: float=0.0
         if last_silence_start:
             yield round(last_silence_start, 3), round(audio_duration(input_path), 3)
 
-    def merge_overlaps(silences: Iterator[Tuple[float, float]]) -> Iterator[Tuple[float, float]]:
-        silences = list(silences)
-        current_group = None
-        for silence in silences:
-            if current_group is None:
-                current_group = silence
-                continue
-            current_group_start, current_group_end = current_group
-            silence_start, silence_end = silence
-            assert current_group_start < current_group_end
-            assert silence_start < silence_end
-            if silence_start - current_group_end <= 0.06:
-                current_group = min(silence_start, current_group_start), max(current_group_end, silence_end)
-                continue
-            yield current_group
-            current_group = silence
-
-        if current_group:
-            yield current_group
-
     original = list(parse_lines(p.stderr.readlines()))
 
     result = [
-        [round(s, 3), round(e, 3)]
-        for s, e in (merge_overlaps(original) if merge else original)
+        (round(s, 3), round(e, 3))
+        for s, e in (utils.merge_overlaps(original) if merge else original)
     ]
     with open(cached_path, 'w') as f:
         json.dump(result, f)
+
     return result

@@ -10,7 +10,7 @@ from itertools import groupby
 from zipfile import ZipFile
 import roman
 from bs4 import BeautifulSoup
-from typing import Pattern, List, Tuple
+from typing import Pattern, List, Tuple, Iterator
 from num2words import num2words
 from nltk.tokenize import sent_tokenize
 from aeneas.executetask import ExecuteTask
@@ -24,8 +24,9 @@ EPS = 1e-3
 CURRENT_DIR = os.path.dirname(__file__)
 CACHE_DIR = '/tmp/.training_speech/'
 NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
-DEFAULT_SILENCE_MIN_DURATION = 0.07
-DEFAULT_SILENCE_NOISE_LEVEL = -36
+DEFAULT_VAD_MODE = 3
+DEFAULT_VAD_FRAME_DURATION = 20
+CLEANUP_REG = re.compile(r'\s(!?.…)')
 
 
 if not os.path.isdir(CACHE_DIR):
@@ -239,7 +240,7 @@ def cleanup_fragment(original: dict) -> dict:
     return data
 
 
-def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) -> List[dict]:
+def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]], separator=' ') -> List[dict]:
     alignment = deepcopy(alignment)
 
     def get_silences(fragment, margin=0) -> List[Tuple[float, float, int]]:
@@ -257,7 +258,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
         left['merged'] = True  # may have been `right`
         left['end'] = right['end']
         right['begin'] = left['begin']
-        full_text = left['text'] + ' ' + right['text']
+        full_text = left['text'] + separator + right['text']
         right['text'] = left['text'] = full_text
         return right
 
@@ -288,9 +289,10 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
                 # No silence detected => merge with next
                 merge_fragments(fragment, alignment[i+1])
 
-        if fragment['begin'] >= fragment['end']:
+        if fragment['begin'] >= fragment['end'] and not fragment.get('merged'):
             # impossible => merge with closest
-            closest = get_closest_fragment(fragment, alignment[i-1:i] + alignment[i+1:i+2])
+            others = alignment[i - 1:i] + alignment[i + 1:i + 2]
+            closest = get_closest_fragment(fragment, [o for o in others if not o.get('merged')])
             closest_index = alignment.index(closest)
             if closest_index < i:
                 merge_fragments(closest, fragment)
@@ -328,7 +330,7 @@ def fix_alignment(alignment: List[dict], silences: List[Tuple[float, float]]) ->
 
         if (
                 silence_before and silence_before[1] - silence_before[0] > 0.1 and
-                silence_between[0] - silence_before[1] < 0.5 and
+                silence_between[0] - silence_before[1] <= 0.54001 and
                 silence_between[1] - silence_between[0] < 0.95
         ):
             next_fragment['warn'] = True
@@ -375,7 +377,7 @@ def get_alignment(path_to_audio_file: str, transcript: List[str], force=False, l
         'fr_FR': 'fra',
         'en_US': 'eng',
     }[language]
-    full_transcript = ' '.join(transcript)
+    full_transcript = '\t'.join(transcript)
     full_transcript_hash = sha1(full_transcript.encode()).hexdigest()
     path_to_transcript = os.path.join(CACHE_DIR, f'{full_transcript_hash}.txt')
 
@@ -406,7 +408,99 @@ def get_fragment_hash(fragment: dict, salt: str=None):
     return f'{hash_}_{fragment["begin"]}_{fragment["end"]}'
 
 
-def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR'):
+def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: str, language: str, separator: str=None):
+    if fragment['end'] - fragment['begin'] < 15:
+        return [fragment]
+    possible_silences = [s for s in silences if s[0] > fragment['begin'] and s[1] < fragment['end']]
+    if not possible_silences:
+        return [fragment]
+
+    if separator is None:
+        options = [
+            smart_cut(
+                fragment=fragment,
+                silences=possible_silences,
+                path_to_wav=path_to_wav,
+                language=language,
+                separator=sep,
+            )
+            for sep in ['… ', '... ', '. ', ', ', ' ']
+        ]
+        sorted_options = sorted(options, key=lambda x: max(f['end'] - f['begin'] for f in x))
+        return sorted_options[0]
+
+    def cleanup(text: str) -> str:
+        text = re.sub(CLEANUP_REG, r'\1', text)
+        return text
+
+    words = [w for w in cleanup(fragment['text']).split(separator)]
+    if len(words) == 1:
+        return [fragment]
+
+    bigest_silence_start, bigest_silence_end = sorted(possible_silences, key=lambda x: -(x[1] - x[0]))[0]
+    bigest_silence_dur = bigest_silence_end - bigest_silence_start
+    if bigest_silence_dur < 0.35:
+        return [fragment]
+
+    with tempfile.NamedTemporaryFile(suffix='.wav') as file_:
+        sox.trim(path_to_wav, file_.name, from_=fragment['begin'], to=fragment['end'])
+        sub_alignment = build_alignment(
+            transcript=words,
+            path_to_audio=file_.name,
+            existing_alignment=[],
+            silences=[
+                (s_start - fragment['begin'], s_end - fragment['begin'])
+                for s_start, s_end in possible_silences
+            ],
+            generate_labels=True,
+            language=language,
+            separator=separator
+        )
+
+    if separator != ' ':
+        for i, f in enumerate(sub_alignment):
+            f['begin'] = round(f['begin'] + fragment['begin'], 3)
+            f['end'] = round(f['end'] + fragment['begin'], 3)
+            if i == 0 and fragment.get('approved'):
+                f['approved'] = True
+            if i > 0:
+                f['warn'] = True
+        return sub_alignment
+
+    # make sure cuts are in given silences
+    if not all(
+            (
+                any(s_start <= f['begin'] <= s_end for s_start, s_end in possible_silences) and
+                any(s_start <= f['end'] <= s_end for s_start, s_end in possible_silences)
+            )
+            for f in sub_alignment[1:-1]
+    ):
+        return [fragment]
+    left_fragments = [f for f in sub_alignment if f['begin'] < bigest_silence_start and f['end'] <= bigest_silence_end]
+    right_fragments = sub_alignment[len(left_fragments):]
+    if not left_fragments or not right_fragments:
+        return [fragment]
+    left_fragment = deepcopy(fragment)
+    left_fragment.update(
+        text=separator.join(f['text'] for f in left_fragments),
+        begin=left_fragments[0]['begin'] + fragment['begin'],
+        end=left_fragments[-1]['end'] + fragment['begin'],
+    )
+    right_fragment = deepcopy(fragment)
+    right_fragment.update(
+        text=separator.join(f['text'] for f in right_fragments),
+        begin=right_fragments[0]['begin'] + fragment['begin'],
+        end=right_fragments[-1]['end'] + fragment['begin'],
+        warn=True,
+    )
+    right_fragment.pop('approved', None)
+    if fragment['text'] != f"{left_fragment['text']}{separator}{right_fragment['text']}":
+        print(f"WARN: \n{fragment['text']}\n{left_fragment['text']}{separator}{right_fragment['text']}")
+    return smart_cut(left_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator) + \
+           smart_cut(right_fragment, silences=possible_silences, path_to_wav=path_to_wav, language=language, separator=separator)
+
+
+def build_alignment(transcript: List[str], path_to_audio: str, existing_alignment: List[dict], silences: List[Tuple[float, float]], generate_labels=False, language='fr_FR', separator=' '):
 
     if any(f.get('approved') or f.get('disabled') for f in existing_alignment):
         # remove approved but deprecated alignments
@@ -495,11 +589,15 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
     else:
         existing_alignment = get_alignment(path_to_audio_file=path_to_audio, transcript=transcript, language=language)
 
-        alignment = fix_alignment(existing_alignment, silences)
+        alignment = fix_alignment(existing_alignment, silences, separator=separator)
 
         if any(f['end'] - f['begin'] <= 0 for f in alignment):
             lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] <= 0])
             raise Exception(f'lines {lines} led to empty or negative alignment')
+
+    result = []
+    for i, fragment in enumerate(alignment):
+        result += smart_cut(fragment, silences=silences, path_to_wav=path_to_audio, language=language)
 
     if generate_labels:
         # Generate Audacity labels for DEBUG purpose
@@ -510,13 +608,13 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
                 for i, (s, e) in enumerate(silences)
             ] + [
                 f'{f["begin"]}\t{f["end"]}\tf#{i+1:03d}:{f["text"]}'
-                for i, f in enumerate(alignment)
+                for i, f in enumerate(result)
             ] + [
                 f'{f["begin"]}\t{f["end"]}\to#{i+1:03d}:{f["text"]}'
                 for i, f in enumerate(existing_alignment)
             ]) + '\n')
 
-    return alignment
+    return result
 
 
 def transition_silences(left_fragment, right_fragment, silences):
@@ -572,3 +670,24 @@ def cleanup_transcript(text: str) -> str:
     text = PUNCTUATIONS_REG.sub(' ', text)
     text = MULTIPLE_SPACES_REG.sub(' ', text)
     return text.strip().lower()
+
+
+def merge_overlaps(silences: Iterator[Tuple[float, float]], margin=0.06001) -> Iterator[Tuple[float, float]]:
+    silences = list(silences)
+    current_group = None
+    for silence in silences:
+        if current_group is None:
+            current_group = silence
+            continue
+        current_group_start, current_group_end = current_group
+        silence_start, silence_end = silence
+        assert current_group_start < current_group_end
+        assert silence_start < silence_end
+        if silence_start - current_group_end <= margin:
+            current_group = (min(silence_start, current_group_start), max(current_group_end, silence_end))
+            continue
+        yield current_group
+        current_group = silence
+
+    if current_group:
+        yield current_group

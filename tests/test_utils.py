@@ -2,7 +2,7 @@ import os
 from datetime import timedelta
 
 import pytest
-from training_speech import utils, ffmpeg
+from training_speech import utils, ffmpeg, vad
 
 CURRENT_DIR = os.path.dirname(__file__)
 
@@ -173,15 +173,15 @@ def test_get_alignment(filename):
 
 BUILD_ALIGNMENT_TESTS = [
     # baseline
-    ('speech.wav', -45, 0.08, [
+    ('speech.wav', 3, 30, [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [], [
-         dict(begin=0., end=5.854, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
-         dict(begin=6.002, end=9.32, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=0., end=5.795, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.'),
+         dict(begin=5.98, end=9.32, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # with existing alignment
-    ('speech.wav', -45, 0.08, [
+    ('speech.wav', 3, 30, [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir, Fernand, répondit Mercédès.',
         'Vous n’avez pas une seule coquetterie à me reprocher à votre égard.',
     ], [
@@ -192,7 +192,7 @@ BUILD_ALIGNMENT_TESTS = [
          dict(begin=5.852, end=9.212, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # with deprecated alignment
-    ('speech.wav', -45, 0.08, [
+    ('speech.wav', 3, 30, [
         'Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir',
         'Fernand',
         'répondit Mercédès',
@@ -203,28 +203,28 @@ BUILD_ALIGNMENT_TESTS = [
          dict(begin=5.852, end=9.22, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ], [
          dict(begin=0, end=3., approved=True, text='Ce n’est pas moi du moins qui vous ai jamais encouragé dans cet espoir'),
-         dict(begin=3., end=3.934, text='Fernand'),
-         dict(begin=4.082, end=5.854, text='répondit Mercédès'),
-         dict(begin=6.002, end=9.2, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
+         dict(begin=3., end=3.995, text='Fernand'),
+         dict(begin=4.12, end=5.795, text='répondit Mercédès'),
+         dict(begin=5.98, end=9.2, text='Vous n’avez pas une seule coquetterie à me reprocher à votre égard.'),
      ]),
     # warnings
-    ('wrong_cut0.wav', -45, 0.08, [
+    ('wrong_cut0.wav', 3, 30, [
         'À dix pas en mer la barque se balançait gracieusement sur son ancre.',
         'Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.',
     ], [], [
-         dict(begin=0., end=6.366, text='À dix pas en mer la barque se balançait gracieusement sur son ancre.'),
-         dict(warn=True, begin=6.13, end=10.28, text='Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.'),
+         dict(begin=0., end=6.425, text='À dix pas en mer la barque se balançait gracieusement sur son ancre.'),
+         dict(warn=True, begin=6.145, end=10.28, text='Alors il savoura quelque temps cette brise fraîche qui lui passait sur le front.'),
      ]),
-    ('wrong_cut1.wav', -45, 0.08, [
+    ('wrong_cut1.wav', 3, 30, [
         'Chapitre trente-deux.',
         'Réveil.',
         'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.',
         'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.',
     ], [], [
-         {'begin': 0., 'end': 1.934, 'text': 'Chapitre trente-deux.'},
-         {'begin': 1.954, 'end': 3.214, 'text': 'Réveil.'},
-         {'begin': 3.874, 'end': 9.998, 'text': 'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.'},
-         {'begin': 10.146, 'end': 17.24, 'text': 'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.'},
+         {'begin': 0., 'end': 2.075, 'text': 'Chapitre trente-deux.'},
+         {'begin': 1.99, 'end': 3.32, 'text': 'Réveil.'},
+         {'begin': 3.91, 'end': 10.1, 'text': 'Lorsque Franz revint à lui, les objets extérieurs semblaient une seconde partie de son rêve.'},
+         {'begin': 10.24, 'end': 17.24, 'text': 'Il se crut dans un sépulcre où pénétrait à peine, comme un regard de pitié, un rayon de soleil.'},
     ]),
     # # LeComteDeMonteCristoT2Chap33 @@ 0:03:56.114000 0:04:10.228000 @@
     # ('8e9ec633.wav', -45, 0.07, [
@@ -237,7 +237,7 @@ BUILD_ALIGNMENT_TESTS = [
     #      dict(begin=6.738, end=14.08, text='c’était un modeste fiacre que, vu la solennité de la circonstance, on avait élevé au rang de calèche.'),
     #  ]),
     # # LeComteDeMonteCristoT2Chap33 @@ 0:15:55.986000 0:16:09.286000 @@
-    # ('ba896654.wav', -45, 0.07, [
+    # ('ba896654.wav', 3, 30, [
     #     'Ah çà, fit Franz, arrêtant maître Pastrini au moment où il ouvrait la bouche, vous dites que vous avez connu Luigi Vampa tout enfant.',
     #     'C’est donc encore un jeune homme ?',
     #     'Comment, un jeune homme ! je crois bien.',
@@ -247,117 +247,149 @@ BUILD_ALIGNMENT_TESTS = [
     #     dict(begin=9.984, end=13.28, warn=True, text='Comment, un jeune homme ! je crois bien.'),
     # ]),
     # LeComteDeMonteCristoT2Chap33 @@ 0:52:56.150000 0:53:08.984000 @@
-    ('e3eb48ec.wav', -45, 0.07, [
+    ('e3eb48ec.wav', 3, 30, [
         'Le désires-tu aussi ardemment que tu le dis ? Oui.',
         'Eh bien tu l’auras !',
         'La jeune fille, étonnée, leva la tête pour le questionner. Mais son visage était si sombre et si terrible que la parole se glaça sur ses lèvres.',
     ], [], [
-         dict(begin=0.0, end=3.55, text='Le désires-tu aussi ardemment que tu le dis ? Oui.'),
-         dict(begin=3.816, end=5.086, text='Eh bien tu l’auras !'),
-         dict(begin=5.352, end=12.8, text='La jeune fille, étonnée, leva la tête pour le questionner. Mais son visage était si sombre et si terrible que la parole se glaça sur ses lèvres.'),
+         dict(begin=0.0, end=3.665, text='Le désires-tu aussi ardemment que tu le dis ? Oui.'),
+         dict(begin=3.805, end=5.135, text='Eh bien tu l’auras !', warn=True),
+         dict(begin=5.29, end=12.8, text='La jeune fille, étonnée, leva la tête pour le questionner. Mais son visage était si sombre et si terrible que la parole se glaça sur ses lèvres.'),
+     ]),
+    # LeComteDeMonteCristoT2Chap33 @@ 0:52:56.150000 0:53:08.984000 @@
+    ('e3eb48ec.wav', 3, 30, [
+        'Le désires-tu aussi ardemment que tu le dis ?',
+        'Oui.',
+        'Eh bien tu l’auras !',
+        'La jeune fille, étonnée, leva la tête pour le questionner.',
+        'Mais son visage était si sombre et si terrible que la parole se glaça sur ses lèvres.',
+    ], [], [
+         dict(begin=0.0, end=3.665, text='Le désires-tu aussi ardemment que tu le dis ? Oui.'),
+         dict(begin=3.805, end=5.135, text='Eh bien tu l’auras !', warn=True),
+         dict(begin=5.29, end=8.21, text='La jeune fille, étonnée, leva la tête pour le questionner.'),
+         dict(begin=8.305, end=12.8, text='Mais son visage était si sombre et si terrible que la parole se glaça sur ses lèvres.'),
      ]),
     # LeComteDeMonteCristoT2Chap33 @@ 0:53:08.950000 0:53:20.880000 @@
-    ('39a9d8af.wav', -45, 0.07, [
+    ('39a9d8af.wav', 3, 30, [
         'D’ailleurs, en disant ces paroles, Luigi s’était éloigné.',
         'Teresa le suivit des yeux dans la nuit tant qu’elle put l’apercevoir.',
         'Puis, lorsqu’il eut disparu, elle rentra chez elle en soupirant.',
     ], [], [
-         dict(begin=0.0, end=5.214, text='D’ailleurs, en disant ces paroles, Luigi s’était éloigné.'),
-         dict(warn=True, begin=4.968, end=8.286, text='Teresa le suivit des yeux dans la nuit tant qu’elle put l’apercevoir.'),
-         dict(begin=8.296, end=11.92, text='Puis, lorsqu’il eut disparu, elle rentra chez elle en soupirant.'),
+         dict(begin=0.0, end=5.27, text='D’ailleurs, en disant ces paroles, Luigi s’était éloigné.'),
+         dict(warn=True, begin=4.975, end=8.285, text='Teresa le suivit des yeux dans la nuit tant qu’elle put l’apercevoir.'),
+         dict(begin=8.275, end=11.92, text='Puis, lorsqu’il eut disparu, elle rentra chez elle en soupirant.'),
      ]),
     # LeComteDeMonteCristoT2Chap33 @@ 0:53:54.770000 0:54:11.570000 @@
-    ('ce69d5cb.wav', -45, 0.07, [
+    ('ce69d5cb.wav', 3, 30, [
         'Un jeune paysan s’était élancé dans l’appartement, l’avait prise dans ses bras, et, avec une force et une adresse surhumaines l’avait transportée sur le gazon de la pelouse, où elle s’était évanouie.',
         'Lorsqu’elle avait repris ses sens, son père était devant elle.',
         'Tous les serviteurs l’entouraient, lui portant des secours.',
     ], [], [
-        dict(begin=0.0, end=10.206, text='Un jeune paysan s’était élancé dans l’appartement, l’avait prise dans ses bras, et, avec une force et une adresse surhumaines l’avait transportée sur le gazon de la pelouse, où elle s’était évanouie.'),
-        dict(begin=10.088, end=13.534, text='Lorsqu’elle avait repris ses sens, son père était devant elle.'),
-        dict(begin=13.544, end=16.8, text='Tous les serviteurs l’entouraient, lui portant des secours.'),
+        dict(begin=0.0, end=10.145, text='Un jeune paysan s’était élancé dans l’appartement, l’avait prise dans ses bras, et, avec une force et une adresse surhumaines l’avait transportée sur le gazon de la pelouse, où elle s’était évanouie.'),
+        dict(begin=10.15, end=13.535, text='Lorsqu’elle avait repris ses sens, son père était devant elle.'),
+        dict(begin=13.48, end=16.8, text='Tous les serviteurs l’entouraient, lui portant des secours.'),
     ]),
     # LeComteDeMonteCristoT2Chap34 @@ 0:12:48.616000 0:13:03.198000 @@
-    ('8d4d6e06.wav', -45, 0.07, [
+    ('8d4d6e06.wav', 3, 30, [
         'Laissez-moi donc faire.',
         'À merveille. Mais si vous échouez, nous nous tiendrons toujours prêts.',
         'Tenez-vous toujours prêts, si c’est votre plaisir mais soyez certain que j’aurai sa grâce.',
     ], [], [
-         dict(begin=0.0, end=3.806, text='Laissez-moi donc faire.'),
-         dict(begin=3.688, end=8.286, text='À merveille. Mais si vous échouez, nous nous tiendrons toujours prêts.'),
-         dict(begin=8.68, end=14.56, text='Tenez-vous toujours prêts, si c’est votre plaisir mais soyez certain que j’aurai sa grâce.'),
+         dict(begin=0.0, end=3.83, text='Laissez-moi donc faire.'),
+         dict(begin=3.73, end=8.375, text='À merveille. Mais si vous échouez, nous nous tiendrons toujours prêts.'),
+         dict(begin=8.74, end=14.56, text='Tenez-vous toujours prêts, si c’est votre plaisir mais soyez certain que j’aurai sa grâce.'),
      ]),
     # LeComteDeMonteCristoT2Chap34 @@ 0:17:51.210000 0:18:22.946000 @@
-    ('0095e8cf.wav', -45, 0.07, [
+    ('0095e8cf.wav', 3, 30, [
         'Il l’avait donc laissé s’éloigner, comme on l’a vu, mais en se promettant, s’il le rencontrait une autre fois, de ne pas laisser échapper cette seconde occasion comme il avait fait de la première.',
         'Franz était trop préoccupé pour bien dormir.',
         'Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée, et qui tendaient à faire de ces deux personnages le même individu.',
     ], [], [
-        dict(begin=0.0, end=11.544, text='Il l’avait donc laissé s’éloigner, comme on l’a vu, mais en se promettant, s’il le rencontrait une autre fois, de ne pas laisser échapper cette seconde occasion comme il avait fait de la première.'),
-        dict(begin=12.066, end=16.152, text='Franz était trop préoccupé pour bien dormir.'),
-        dict(begin=16.418, end=31.72, text='Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée, et qui tendaient à faire de ces deux personnages le même individu.'),
+        dict(begin=0.0, end=11.69, text='Il l’avait donc laissé s’éloigner, comme on l’a vu, mais en se promettant, s’il le rencontrait une autre fois, de ne pas laisser échapper cette seconde occasion comme il avait fait de la première.'),
+        dict(begin=12.16, end=16.235, text='Franz était trop préoccupé pour bien dormir.'),
+        dict(begin=16.585, end=26.45, text='Sa nuit fut employée à passer et repasser dans son esprit toutes les circonstances qui se rattachaient à l’homme de la grotte et à l’inconnu du Colisée'),
+        dict(warn=True, begin=26.395, end=31.705, text='et qui tendaient à faire de ces deux personnages le même individu.'),
     ]),
 
     # LeComteDeMonteCristoT2Chap34 @@ 0:29:32.520000 0:29:55.780000 @@
-    # ('88296de3.wav', -45, 0.07, [
-    #     'Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.',
-    #     'Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.',
-    #     'Non, dit-elle.',
-    # ], [], [
-    #      dict(begin=0.0, end=8.926, text='Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.'),
-    #      dict(warn=True, begin=8.808, end=20.702, text='Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.'),
-    #      dict(begin=21.224, end=23.24, text='Non, dit-elle.'),
-    #  ]),
+    ('88296de3.wav', 3, 30, [
+        'Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.',
+        'Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.',
+        'Non, dit-elle.',
+    ], [], [
+         dict(begin=0.0, end=8.87, text='Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.'),
+         dict(warn=True, begin=8.815, end=20.765, text='Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.'),
+         dict(begin=21.205, end=23.24, text='Non, dit-elle.'),
+     ]),
 
     # LeComteDeMonteCristoT2Chap34 @@ 0:35:44.490000 0:36:00.864000 @@
-    ('37bfa0dc.wav', -45, 0.07, [
+    ('37bfa0dc.wav', 3, 30, [
         'Il faut que je sache qui il est, dit Franz en se levant.',
         'Oh ! non, s’écria la comtesse.',
         'Non, ne me quittez pas, je compte sur vous pour me reconduire, et je vous garde.',
         'Comment ! véritablement, lui dit Franz en se penchant à son oreille, vous avez peur ?',
     ], [], [
-         dict(begin=0.0, end=3.678, text='Il faut que je sache qui il est, dit Franz en se levant.'),
-         dict(warn=True, begin=3.816, end=10.206, text='Oh ! non, s’écria la comtesse. Non, ne me quittez pas, je compte sur vous pour me reconduire, et je vous garde.'),
-         dict(warn=True, begin=10.344, end=16.36, text='Comment ! véritablement, lui dit Franz en se penchant à son oreille, vous avez peur ?'),
+         dict(begin=0.0, end=3.725, text='Il faut que je sache qui il est, dit Franz en se levant.'),
+         dict(begin=3.775, end=10.235, text='Oh ! non, s’écria la comtesse. Non, ne me quittez pas, je compte sur vous pour me reconduire, et je vous garde.'),
+         dict(warn=True, begin=10.375, end=16.36, text='Comment ! véritablement, lui dit Franz en se penchant à son oreille, vous avez peur ?'),
      ]),
 
     # LeComteDeMonteCristoT2Chap34 @@ 0:44:54.760000 0:45:05.502000 @@
-    ('5a8da8cc.wav', -45, 0.07, [
+    ('5a8da8cc.wav', 3, 30, [
         'Il aura l’honneur de s’informer auprès de ces messieurs à quelle heure ils seront visibles.',
         'Ma foi, dit Albert à Franz, il n’y a rien à y reprendre, tout y est.',
         'Dites au comte, répondit Franz, que c’est nous qui aurons l’honneur de lui faire notre visite.',
     ], [], [
-         dict(begin=0.0, end=3.014, text='Il aura l’honneur de s’informer auprès de ces messieurs à quelle heure ils seront visibles.'),
-         dict(begin=2.688, end=4.83, text='Ma foi, dit Albert à Franz, il n’y a rien à y reprendre, tout y est.'),
-         dict(begin=5.736, end=10.72,
-              text='Dites au comte, répondit Franz, que c’est nous qui aurons l’honneur de lui faire notre visite.'),
+         dict(begin=0.0, end=2.99, text='Il aura l’honneur de s’informer auprès de ces messieurs à quelle heure ils seront visibles.'),
+         dict(begin=2.665, end=4.835, text='Ma foi, dit Albert à Franz, il n’y a rien à y reprendre, tout y est.'),
+         dict(begin=5.725, end=10.72, text='Dites au comte, répondit Franz, que c’est nous qui aurons l’honneur de lui faire notre visite.'),
      ]),
 
-    # # LeComteDeMonteCristoT2Chap35 @@ 0:02:42.850000 0:02:56.920000 @@
-    # ('ab6fdc52.wav', -45, 0.07, [
-    #     'Oui, répondit Franz, voyant qu’il venait de lui-même où il voulait l’amener.',
-    #     'Attendez, attendez, je crois avoir dit hier à mon intendant de s’occuper de cela.',
-    #     'Peut-être pourrai-je vous rendre encore ce petit service.',
-    # ], [], [
-    #      dict(begin=0.0, end=3.934, text='Oui, répondit Franz, voyant qu’il venait de lui-même où il voulait l’amener.'),
-    #      dict(begin=3.688, end=11.334, text='Attendez, attendez, je crois avoir dit hier à mon intendant de s’occuper de cela.'),
-    #      dict(begin=11.264, end=14.04, text='Peut-être pourrai-je vous rendre encore ce petit service.'),
-    #  ]),
+    # LesMysteresDeParisT5P9C1 @@ 0:00:29.940000 0:00:53.020000 @@
+    ('4a4ae727.wav', 3, 30, [
+        'Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres !… moi qui méprise et exècre les hommes… moi qui n’avais vécu que pour les tromper et les dépouiller… moi fonder des établissements philanthropiques… m’y forcer… par des moyens infernaux !',
+    ], [], [
+        dict(begin=0.0, end=6.165, text='Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux'),
+        dict(warn=True, begin=6.0, end=10.385, text='ma fortune entière engloutie dans ces stupides bonnes œuvres!'),
+        dict(warn=True, begin=10.075, end=13.16, text='moi qui méprise et exècre les hommes'),
+        dict(warn=True, begin=12.835, end=16.445, text='moi qui n’avais vécu que pour les tromper et les dépouiller'),
+        dict(warn=True, begin=16.3, end=19.85, text='moi fonder des établissements philanthropiques'),
+        dict(warn=True, begin=19.66, end=21.185, text='m’y forcer'),
+        dict(warn=True, begin=20.935, end=23.08, text='par des moyens infernaux !'),
+    ]),
 
+    # LesMysteresDeParisT2P3C15 @@ 0:00:16.488000 0:00:36.300000 @@
+    ('cb4f185e.wav', 3, 20, [
+        'Les exigences de ce récit multiple, malheureusement trop varié dans son unité, nous forcent de passer incessamment d’un personnage à un autre, afin de faire, autant qu’il est en nous, marcher et progresser l’intérêt général de l’œuvre si toutefois il y a de l’intérêt dans cette œuvre',
+    ], [], [
+        dict(begin=0.0, end=3.04, text='Les exigences de ce récit multiple'),
+        dict(warn=True, begin=2.87, end=6.07, text='malheureusement trop varié dans son unité'),
+        dict(warn=True, begin=6.02, end=10.21, text='nous forcent de passer incessamment d’un personnage à un autre'),
+        dict(warn=True, begin=10.03, end=12.94, text='afin de faire, autant qu’il est en nous'),
+        dict(warn=True, begin=12.71, end=19.8, text='marcher et progresser l’intérêt général de l’œuvre si toutefois il y a de l’intérêt dans cette œuvre'),
+    ]),
+
+    # LeComteDeMonteCristoT3Chap72 @@ 0:00:10.088000 0:00:31.198000 @@
+    ('1a94a5e4.wav', 3, 20, [
+        'Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner le procureur du roi s’était, selon sa coutume, enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine à satisfaire son robuste appétit de travailleur.',
+    ], [
+        dict(approved=True, begin=0.0, end=21.08, text='Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner le procureur du roi s’était, selon sa coutume, enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine à satisfaire son robuste appétit de travailleur.'),
+    ], [
+         dict(approved=True, begin=0.0, end=7.21, text='Après le départ des deux dames pour le bal, où toutes les instances de Madame de Villefort n’avaient pu déterminer son mari à l’accompagner'),
+         dict(warn=True, begin=7.07, end=16.64, text='le procureur du roi s’était, selon sa coutume, enfermé dans son cabinet avec une pile de dossiers qui eussent effrayé tout autre, mais qui, dans les temps ordinaires de sa vie suffisaient à peine'),
+         dict(warn=True, begin=16.64, end=21.08, text='à satisfaire son robuste appétit de travailleur.'),
+     ]),
 ]
 
 
-@pytest.mark.parametrize('filename, noise_level, min_duration, transcript, existing_alignment, expected', BUILD_ALIGNMENT_TESTS)
-def test_build_alignment(filename, noise_level, min_duration, transcript, existing_alignment, expected):
+@pytest.mark.parametrize('filename, vad_mode, vad_frame_duration, transcript, existing_alignment, expected', BUILD_ALIGNMENT_TESTS)
+def test_build_alignment(filename, vad_mode, vad_frame_duration, transcript, existing_alignment, expected):
     path_to_audio = os.path.join(CURRENT_DIR, './assets/', filename)
     generated = utils.build_alignment(
         transcript=transcript,
         path_to_audio=path_to_audio,
         existing_alignment=existing_alignment,
-        silences=ffmpeg.list_silences(
-            path_to_audio,
-            noise_level=noise_level,
-            min_duration=min_duration,
-            force=True),
+        silences=vad.list_silences(path_to_audio, mode=vad_mode, frame_duration=vad_frame_duration, force=True),
         generate_labels=True
     )
     assert generated == expected
