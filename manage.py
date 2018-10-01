@@ -458,7 +458,8 @@ def upload(source_name, releases):
 
 
 @cli.command()
-def stats():
+@click.option('-f', '--full', is_flag=True, default=False, help='display additionnal info')
+def stats(full):
     sources = training_speech.sources()
     sources_data = []
     total_dur = timedelta(seconds=0)
@@ -470,7 +471,7 @@ def stats():
     for name, metadata in sources.items():
         info = training_speech.source_info(name)
         path_to_mp3 = os.path.join(CURRENT_DIR, 'data/mp3', metadata['audio'])
-        if os.path.isfile(path_to_mp3):
+        if full and os.path.isfile(path_to_mp3):
             mp3_duration = timedelta(seconds=ffmpeg.audio_duration(path_to_mp3))
         else:
             mp3_duration = None
