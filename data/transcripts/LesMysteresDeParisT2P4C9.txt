@@ -5,7 +5,11 @@ Au milieu de la mansarde, telle que nous l’avons dépeinte, reposait, sur la c
 Un lambeau de drap la recouvrait.
 La rare et vive clarté filtrée par l’étroite lucarne jetait sur les figures des trois acteurs de cette scène des lumières et des ombres durement tranchées.
 Rodolphe, debout et adossé au mur, était péniblement ému.
-Morel, assis sur le bord de son établi, la tête baissée, les mains pendantes, le regard fixe, farouche, ne quittait pas des yeux le matelas où étaient déposés les restes de la petite Adèle.
+Morel
+assis sur le bord de son établi
+la tête baissée
+les mains pendantes, le regard fixe, farouche
+ne quittait pas des yeux le matelas où étaient déposés les restes de la petite Adèle.
 À cette vue, le courroux, l’indignation du lapidaire s’affaiblirent et se changèrent en une tristesse d’une amertume inexprimable.
 Son énergie l’abandonnait, il s’affaissait sous ce nouveau coup.
 Louise, d’une pâleur mortelle, se sentait défaillir.
@@ -61,7 +65,9 @@ Madame Burette connaissait la femme de charge du notaire.
 Elle m’a donné pour elle une lettre où elle lui recommandait Louise comme un excellent sujet.
 Maudite… maudite soit cette lettre !… elle est la cause de tous nos malheurs…
 Enfin, monsieur, voilà comment ma fille est entrée chez le notaire.
-Quoique je sois instruit de quelques-uns des faits qui ont causé la haine de monsieur Ferrand contre votre père, dit Rodolphe à Louise, je vous prie, racontez-moi en peu de mots ce qui s’est passé entre vous et le notaire depuis votre entrée à son service… cela pourra servir à vous défendre.
+Quoique je sois instruit de quelques-uns des faits qui ont causé la haine de monsieur Ferrand contre votre père, dit Rodolphe à Louise
+je vous prie, racontez-moi en peu de mots ce qui s’est passé entre vous et le notaire depuis votre entrée à son service
+cela pourra servir à vous défendre.
 Pendant les premiers temps de mon séjour chez monsieur Ferrand, reprit Louise, je n’ai pas eu à me plaindre de lui.
 J’avais beaucoup de travail, la femme de charge me rudoyait souvent, la maison était triste, mais j’endurais avec patience.
 Le service est le service.
@@ -230,7 +236,10 @@ N’accusez personne…
 Que toutes les malédictions, que toutes les haines retombent sur un seul homme… sur ce monstre d’hypocrisie, qui plaçait une fille entre le déshonneur et la ruine… la mort peut-être de son père et de sa famille.
 Sur ce maître qui abusait d’une manière infâme de son pouvoir de maître…
 Mais patience, je vous l’ai dit, la Providence réserve souvent au crime des vengeances surprenantes et épouvantables.
-Les paroles de Rodolphe étaient, pour ainsi dire, empreintes d’un tel caractère de certitude et de conviction en parlant de cette vengeance providentielle, que Louise regarda son sauveur avec surprise, presque avec crainte.
+Les paroles de Rodolphe étaient, pour ainsi dire
+empreintes d’un tel caractère de certitude et de conviction en parlant de cette vengeance providentielle
+que Louise regarda son sauveur avec surprise
+presque avec crainte.
 Continuez, mon enfant, reprit Rodolphe en s’adressant à Louise, ne nous cachez rien… cela est plus important que vous ne le pensez.
 Je commençais donc à me rassurer un peu, dit Louise, lorsqu’un soir monsieur Ferrand et la femme de charge sortirent chacun de leur côté.
 Ils ne dînèrent pas à la maison, je restai seule.
