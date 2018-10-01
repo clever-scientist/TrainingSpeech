@@ -415,7 +415,6 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
     if not possible_silences:
         return [fragment]
 
-    print(f"{fragment['text']} ({separator})")
     if separator is None:
         options = [
             smart_cut(
