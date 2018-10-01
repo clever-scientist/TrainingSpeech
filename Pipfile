@@ -12,7 +12,7 @@ typing = "*"
 roman = "*"
 nltk = "*"
 inquirer = "*"
-marshmallow = "*"
+marshmallow = "==2.15.6"
 "beautifulsoup4" = "*"
 lxml = "*"
 tabulate = "*"
@@ -21,11 +21,17 @@ pytest-cov = "*"
 pytest-mock = "*"
 termcolor = "*"
 datadiff = "*"
+webrtcvad = "*"
 
 [dev-packages]
 ipython = "*"
-ipdb = "*"
 diff-highlight = "*"
+prompt-toolkit = ">=2.0.4"
+jupyter = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true

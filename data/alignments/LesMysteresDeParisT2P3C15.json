@@ -14,27 +14,40 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 5.48,
+    "disabled": false,
     "end": 15.838,
     "text": "Le lecteur nous excusera d\u2019abandonner une de nos h\u00e9ro\u00efnes dans une situation si critique, situation dont nous dirons plus tard le d\u00e9no\u00fbment."
   },
   {
     "approved": true,
     "begin": 16.488,
-    "end": 39.646,
-    "text": "Les exigences de ce r\u00e9cit multiple, malheureusement trop vari\u00e9 dans son unit\u00e9, nous forcent de passer incessamment d\u2019un personnage \u00e0 un autre, afin de faire, autant qu\u2019il est en nous, marcher et progresser l\u2019int\u00e9r\u00eat g\u00e9n\u00e9ral de l\u2019\u0153uvre (si toutefois il y a de l\u2019int\u00e9r\u00eat dans cette \u0153uvre, aussi difficile que consciencieuse et impartiale)."
+    "end": 22.56,
+    "text": "Les exigences de ce r\u00e9cit multiple, malheureusement trop vari\u00e9 dans son unit\u00e9,"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 22.51,
+    "end": 36.288,
+    "text": "nous forcent de passer incessamment d\u2019un personnage \u00e0 un autre, afin de faire, autant qu\u2019il est en nous, marcher et progresser l\u2019int\u00e9r\u00eat g\u00e9n\u00e9ral de l\u2019\u0153uvre si toutefois il y a de l\u2019int\u00e9r\u00eat dans cette \u0153uvre"
+  },
+  {
+    "approved": true,
+    "begin": 36.04,
+    "end": 39.599999999999994,
+    "text": "aussi difficile que consciencieuse et impartiale"
+  },
+  {
+    "approved": true,
     "begin": 39.912,
+    "disabled": false,
     "end": 53.342,
     "text": "Nous avons encore \u00e0 suivre quelques-uns des acteurs de ce r\u00e9cit dans ces mansardes o\u00f9 frissonne de froid et de faim une mis\u00e8re timide, r\u00e9sign\u00e9e, probe et laborieuse\u2026"
   },
   {
     "approved": true,
     "begin": 53.992,
+    "disabled": false,
     "end": 79.966,
     "text": "Dans ces prisons d\u2019hommes et de femmes, prisons souvent coquettes et fleuries, souvent noires et fun\u00e8bres, mais toujours vastes \u00e9coles de perdition, atmosph\u00e8re naus\u00e9abonde et vici\u00e9e, o\u00f9 l\u2019innocence s\u2019\u00e9tiole et se fl\u00e9trit\u2026 sombres pand\u00e9moniums o\u00f9 un pr\u00e9venu peut entrer pur, mais d\u2019o\u00f9 il sort presque toujours corrompu\u2026"
   },

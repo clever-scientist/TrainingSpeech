@@ -157,30 +157,33 @@
   {
     "approved": true,
     "begin": 197.586,
+    "disabled": false,
     "end": 203.526,
     "text": "Eh\u00a0! laissez ces enfants, marquise, reprit le vieillard qui avait port\u00e9 le toast."
   },
   {
     "approved": true,
     "begin": 203.21800000000002,
-    "end": 209.39800000000002,
+    "end": 209.54000000000002,
     "text": "Ces enfants vont s\u2019\u00e9pouser, et tout naturellement ils ont \u00e0 parler d\u2019autre chose que de politique."
   },
   {
     "approved": true,
-    "begin": 210.002,
-    "end": 217.204,
+    "begin": 210.20000000000002,
+    "end": 217.178,
     "text": "Je vous demande pardon, ma m\u00e8re, dit une jeune et belle personne aux blonds cheveux, \u00e0 l\u2019\u0153il de velours nageant dans un fluide nacr\u00e9."
   },
   {
     "approved": true,
     "begin": 216.914,
+    "disabled": false,
     "end": 220.788,
     "text": "Je vous rends Monsieur de Villefort, que j\u2019avais accapar\u00e9 pour un instant."
   },
   {
     "approved": true,
     "begin": 220.498,
+    "disabled": false,
     "end": 223.348,
     "text": "Monsieur de Villefort, ma m\u00e8re vous parle."
   },
@@ -1147,14 +1150,8 @@
   {
     "approved": true,
     "begin": 1072.21,
-    "end": 1074.5,
-    "text": "Ren\u00e9e le regarda avec amour."
-  },
-  {
-    "approved": true,
-    "begin": 1074.046,
-    "end": 1084.662,
-    "text": "Car, vu ainsi, avec ses yeux bleus, son teint mat et ses favoris noirs qui encadraient son visage, c\u2019\u00e9tait v\u00e9ritablement un \u00e9l\u00e9gant et beau jeune homme."
+    "end": 1084.65,
+    "text": "Ren\u00e9e le regarda avec amour. Car, vu ainsi, avec ses yeux bleus, son teint mat et ses favoris noirs qui encadraient son visage, c\u2019\u00e9tait v\u00e9ritablement un \u00e9l\u00e9gant et beau jeune homme."
   },
   {
     "approved": true,

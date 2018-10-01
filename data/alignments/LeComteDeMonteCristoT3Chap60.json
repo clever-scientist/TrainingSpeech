@@ -22,19 +22,27 @@
   {
     "approved": true,
     "begin": 13.696,
-    "end": 40.798,
-    "text": "Madame de Villefort, trop \u00e9motionn\u00e9e pour entrer ainsi tout \u00e0 coup, passa par sa chambre \u00e0 coucher, tandis que le procureur du roi, plus s\u00fbr de lui-m\u00eame, s\u2019avan\u00e7a directement vers le salon. Mais si ma\u00eetre qu\u2019il f\u00fbt de ses sensations, si bien qu\u2019il s\u00fbt composer son visage, Monsieur de Villefort ne put si bien \u00e9carter le nuage de son front que le comte, dont le sourire brillait radieux, ne remarqu\u00e2t cet air sombre et r\u00eaveur."
+    "disabled": false,
+    "end": 24.990000000000002,
+    "text": "Madame de Villefort, trop \u00e9motionn\u00e9e pour entrer ainsi tout \u00e0 coup, passa par sa chambre \u00e0 coucher, tandis que le procureur du roi, plus s\u00fbr de lui-m\u00eame, s\u2019avan\u00e7a directement vers le salon"
+  },
+  {
+    "approved": true,
+    "begin": 24.82,
+    "end": 40.74,
+    "text": "Monsieur de Villefort si ma\u00eetre qu\u2019il f\u00fbt de ses sensations, si bien qu\u2019il s\u00fbt composer son visage, Monsieur de Villefort ne put si bien \u00e9carter le nuage de son front que le comte, dont le sourire brillait radieux, ne remarqu\u00e2t cet air sombre et r\u00eaveur."
   },
   {
     "approved": true,
     "begin": 40.808,
+    "disabled": false,
     "end": 50.91,
     "text": "Oh ! mon Dieu ! dit Monte-Cristo apr\u00e8s les premiers compliments, qu\u2019avez-vous donc, monsieur de Villefort ? et suis-je arriv\u00e9 au moment o\u00f9 vous dressiez quelque accusation un peu trop capitale ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 51.304,
+    "disabled": false,
     "end": 53.446,
     "text": "Villefort essaya de sourire."
   },

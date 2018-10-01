@@ -1,19 +1,26 @@
 [
   {
+    "begin": 0.0,
+    "end": 2.61,
+    "text": "Tome un Chapitre cinq,"
+  },
+  {
     "approved": true,
-    "begin": 0,
-    "end": 5.016,
-    "text": "Tome un Chapitre cinq, Le repas des fian\u00e7ailles."
+    "begin": 3.01,
+    "end": 5.0,
+    "text": "Le repas des fian\u00e7ailles."
   },
   {
     "approved": true,
     "begin": 5.522,
+    "disabled": false,
     "end": 8.098,
     "text": "Le lendemain fut un beau jour."
   },
   {
     "approved": true,
     "begin": 7.795,
+    "disabled": false,
     "end": 17.046,
     "text": "Le soleil se leva pur et brillant, et les premiers rayons d\u2019un rouge pourpre diapr\u00e8rent de leurs rubis les pointes \u00e9cumeuses des vagues."
   },
