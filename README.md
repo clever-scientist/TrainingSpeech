@@ -26,14 +26,14 @@ Right now, data are extracted exclusively from audio-books and in French languag
 
 1. pick a source that have NOT been validated yet: see `python manage.py stats` and `./sources.json` for more info
 2. download assets (ie epub and mp3 files): `python manage.py download -s <SOURCE_NAME>`
-3. check alignment: `python manage.py check_alignment <SOURCE_NAME>` (may require multiple iterations)
+3. check alignment: `python manage.py check-alignment <SOURCE_NAME>` (may require multiple iterations)
 4. send a pull request with generated transcript and alignment
 
 ### 2. Add New source (team members only)
 
 1. retrieve epub and corresponding mp3 file and store them into `./data/epubs` and `./data/mp3` (respectively)
 2. create new source into `./sources.json` (NB: all fields are mandatory)
-3. generate initial transcript using `python manage.py build_transcript <SOURCE_NAME>`
+3. generate initial transcript using `python manage.py build-transcript <SOURCE_NAME>`
 4. upload epub and mp3 files on S3 `python manage.py upload -s <SOURCE_NAME>` 
 
 
