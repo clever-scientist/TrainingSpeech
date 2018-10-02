@@ -62,7 +62,8 @@ Releases are ready-to-use `zip` archives containing :
 
 | Name                                                                                                    |   # speeches |   # speakers | Total Duration | Language   |
 |:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:---------------|:-----------|
-| [2018-09-28_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-28_fr_FR.zip) (latest) |        61664 |            4 | 86:23:05       | fr_FR      |
+| [2018-10-02_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-10-02_fr_FR.zip) (latest) |        62657 |            4 | 87:23:34       | fr_FR      |
+| [2018-09-28_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-28_fr_FR.zip)          |        61664 |            4 | 86:23:05       | fr_FR      |
 | [2018-09-27_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-27_fr_FR.zip)          |        61658 |            4 | 86:22:43       | fr_FR      |
 | [2018-09-18_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-18_fr_FR.zip)          |        44439 |            4 | 69:20:14       | fr_FR      |
 | [2018-09-05_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-05_fr_FR.zip)          |        10292 |            3 | 15:55:12       | fr_FR      |
