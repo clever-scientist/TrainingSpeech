@@ -349,7 +349,7 @@ BUILD_ALIGNMENT_TESTS = [
     ('4a4ae727.wav', 3, 30, [
         'Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres !… moi qui méprise et exècre les hommes… moi qui n’avais vécu que pour les tromper et les dépouiller… moi fonder des établissements philanthropiques… m’y forcer… par des moyens infernaux !',
     ], [], [
-        dict(begin=0.0, end=10.385, text='Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres!'),
+        dict(begin=0.0, end=10.385, text='Tonnerre et sang ! s’écria enfin Jacques Ferrand d’une voix éclatante de courroux, ma fortune entière engloutie dans ces stupides bonnes œuvres !'),
         dict(warn=True, begin=10.075, end=13.16, text='moi qui méprise et exècre les hommes'),
         dict(warn=True, begin=12.835, end=23.08, text='moi qui n’avais vécu que pour les tromper et les dépouiller… moi fonder des établissements philanthropiques… m’y forcer… par des moyens infernaux !'),
     ]),

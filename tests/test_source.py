@@ -43,8 +43,8 @@ def test_all():
 
 def test_source_info():
     assert source.source_info('LeComteDeMonteCristoT1Chap1') == {
-        'approved_count': 235,
-        'approved_duration': timedelta(0, 1197, 613000),
+        'approved_count': 236,
+        'approved_duration': timedelta(0, 1197, 835000),
         'progress': 1.,
         'status': 'DONE',
     }

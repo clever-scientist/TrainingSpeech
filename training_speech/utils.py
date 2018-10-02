@@ -26,7 +26,7 @@ CACHE_DIR = '/tmp/.training_speech/'
 NO_SPLIT_TOKENS = {'Ah !', 'Oh !', 'Eh !', 'Mais….', 'Mais…', 'Mais', 'Mais.'}
 DEFAULT_VAD_MODE = 3
 DEFAULT_VAD_FRAME_DURATION = 20
-CLEANUP_REG = re.compile(r'\s(!?.…)')
+CLEANUP_REG = re.compile(r'\s(!?\.,…)')
 
 
 if not os.path.isdir(CACHE_DIR):
@@ -418,6 +418,10 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
     if not possible_silences:
         return [fragment]
 
+    def cleanup(text: str) -> str:
+        text = re.sub(CLEANUP_REG, r'\1', text)
+        return text
+
     if separator is None:
         options = [
             smart_cut(
@@ -428,15 +432,13 @@ def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: 
                 separator=sep,
                 depth=depth,
             )
-            for sep in ['… ', '... ', '. ', ', ']
+            for sep in ['… ', '... ', '? ', '! ', '. ', ', ']
             if sep in fragment['text']
         ]
         sorted_options = sorted(options, key=lambda x: max(f['end'] - f['begin'] for f in x))
         return sorted_options[0] if sorted_options else [fragment]
 
-    def cleanup(text: str) -> str:
-        text = re.sub(CLEANUP_REG, r'\1', text)
-        return text
+
 
     words = [w for w in cleanup(fragment['text']).split(separator)]
     if len(words) == 1:
@@ -584,8 +586,12 @@ def build_alignment(transcript: List[str], path_to_audio: str, existing_alignmen
         alignment = fix_alignment(existing_alignment, silences, separator=separator)
 
         if any(f['end'] - f['begin'] <= 0 for f in alignment):
-            lines = ', '.join([str(i + 1) for i, f in enumerate(alignment) if f['end'] - f['begin'] <= 0])
-            raise Exception(f'lines {lines} led to empty or negative alignment')
+            lines = '\n'.join([
+                f'  #{i + 1}: {f["text"][:100]}'
+                for i, f in enumerate(alignment) if
+                f['end'] - f['begin'] <= 0
+            ])
+            raise Exception(f'following lines led to empty or negative alignment:\n{lines}')
 
     result = []
     for i, fragment in enumerate(alignment):
