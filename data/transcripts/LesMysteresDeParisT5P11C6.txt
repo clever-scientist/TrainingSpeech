@@ -13,7 +13,8 @@ Tu ne nous as avoué que la moitié de tes chagrins, pauvre enfant.
 Soyez assez bon pour vous expliquer, mon père, dit Fleur-de-Marie en rougissant.
 Maintenant je le puis, je n’ai pu le faire plus tôt, ignorant que tu désespérais à ce point de ton sort.
 Écoute, ma fille chérie, tu te crois, ou plutôt tu es bien malheureuse.
-Lorsqu’au commencement de notre entretien tu m’as parlé des espérances qui te restaient, j’ai compris… mon cœur a été brisé… car il s’agissait pour moi de te perdre à jamais, de te voir t’enfermer dans un cloître, de te voir descendre vivante dans un tombeau.
+Lorsqu’au commencement de notre entretien tu m’as parlé des espérances qui te restaient
+j’ai compris… mon cœur a été brisé… car il s’agissait pour moi de te perdre à jamais, de te voir t’enfermer dans un cloître, de te voir descendre vivante dans un tombeau.
 Tu voudrais entrer au couvent…
 Mon père…
 Mon enfant, est-ce vrai ?
@@ -67,8 +68,7 @@ Il me semblait qu’un tel amour était seul digne d’un cœur qui vous apparte
 Mais pardonnez-moi ces tristes enfantillages.
 Rien de plus touchant, au contraire, pauvre enfant ! dit Clémence profondément émue.
 Maintenant, reprit Rodolphe, je comprends pourquoi tu m’as reproché un jour, d’un air chagrin, de t’avoir trompée sur ce portrait.
-Hélas ! oui, mon père…
-Jugez de ma confusion, lorsque plus tard la supérieure m’apprit que ce portrait était celui de son neveu, l’un de nos parents…
+Hélas ! oui, mon père… Jugez de ma confusion, lorsque plus tard la supérieure m’apprit que ce portrait était celui de son neveu, l’un de nos parents…
 Alors, mon trouble fut extrême, je tâchai d’oublier mes premières impressions, mais, plus j’y tâchais, plus elles s’enracinaient dans mon cœur, par suite même de la persévérance de mes efforts…
 Malheureusement encore, souvent je vous entendis, mon père, vanter le cœur, l’esprit, le caractère du prince Henri…
 Tu l’aimais déjà, mon enfant chérie, alors que tu n’avais encore vu que son portrait et entendu parler que de ses rares qualités.
@@ -88,14 +88,18 @@ Ah ! de grâce, mon père… ne le louez pas ainsi…
 Je suis déjà si malheureuse !…
 Et moi, je tiens à te bien convaincre de toutes les rares qualités de ton cousin…
 Ce que je te dis t’étonne…
-Je le conçois, mon enfant…
-Continue…
+Je le conçois, mon enfant… Continue…
 Je sentais le danger que je courais en voyant le prince Henri chaque jour, et je ne pouvais me soustraire à ce danger.
 Malgré mon aveugle confiance en vous, mon père, je n’osais vous exprimer mes craintes.
 Je mis tout mon courage à cacher cet amour.
-Pourtant, je vous l’avoue, mon père, malgré mes remords, souvent, dans cette fraternelle intimité de chaque jour, oubliant le passé, j’éprouvai des éclairs de bonheur inconnu jusqu’alors, mais bientôt suivis, hélas ! de sombres désespoirs, dès que je retombais sous l’influence de mes tristes souvenirs…
-Car, hélas ! s’ils me poursuivaient au milieu des hommages et des respects de personnes presque indifférentes, jugez, jugez… mon père, de mes tortures, lorsque le prince Henri me prodiguait les louanges les plus délicates… m’entourait d’une adoration candide et pieuse, mettant, disait-il, l’attachement fraternel qu’il ressentait pour moi sous la sainte protection de sa mère, qu’il avait perdue bien jeune.
-Du moins, ce doux nom de sœur qu’il me donnait, je tâchais de le mériter, en conseillant mon cousin sur son avenir, selon mes faibles lumières, en m’intéressant à tout ce qui le touchait, en me promettant de toujours vous demander pour lui votre bienveillant appui…
+Pourtant, je vous l’avoue, mon père, malgré mes remords, souvent, dans cette fraternelle intimité de chaque jour
+oubliant le passé, j’éprouvai des éclairs de bonheur inconnu jusqu’alors, mais bientôt suivis, hélas ! de sombres désespoirs, dès que je retombais sous l’influence de mes tristes souvenirs…
+Car, hélas ! s’ils me poursuivaient au milieu des hommages et des respects de personnes presque indifférentes, jugez
+jugez… mon père, de mes tortures, lorsque le prince Henri me prodiguait les louanges les plus délicates
+m’entourait d’une adoration candide et pieuse
+mettant, disait-il, l’attachement fraternel qu’il ressentait pour moi sous la sainte protection de sa mère, qu’il avait perdue bien jeune.
+Du moins, ce doux nom de sœur qu’il me donnait, je tâchais de le mériter
+en conseillant mon cousin sur son avenir, selon mes faibles lumières, en m’intéressant à tout ce qui le touchait, en me promettant de toujours vous demander pour lui votre bienveillant appui…
 Mais souvent, aussi, que de tourments, que de pleurs dévorés, lorsque par hasard le prince Henri m’interrogeait sur mon enfance, sur ma première jeunesse…
 Oh ! tromper… toujours tromper… toujours craindre… toujours mentir, toujours trembler devant le regard de celui qu’on aime et qu’on respecte, comme le criminel tremble devant le regard inexorable de son juge !…
 Oh ! mon père ! j’étais coupable, je le sais, je n’avais pas le droit d’aimer.
@@ -113,8 +117,7 @@ Au bout de quelques jours, je fus certain qu’il t’aimait, plus encore peut-�
 Mon père… non… non… c’est impossible, il ne m’aime pas à ce point.
 Il t’aime, te dis-je…
 Il t’aime avec passion, avec délire.
-Ô mon Dieu !
-Mon Dieu !
+Ô mon Dieu ! Mon Dieu !
 Écoute encore… lorsque je t’ai fait cette plaisanterie du portrait, j’ignorais qu’Henri dût venir bientôt voir sa tante à Gerolstein.
 Lorsqu’il y vint, je cédai au penchant qu’il m’a toujours inspiré.
 Je l’invitai à nous voir souvent…
@@ -131,21 +134,19 @@ En admettant même que cet amour dût être brisé plus tard… tu aurais au moi
 Et puis, enfin… cet amour pouvait assurer ton repos à venir…
 Mon repos ?
 Écoute encore…
-Le père d’Henri, le prince Paul, vient de m’écrire.
-Voici sa lettre…
+Le père d’Henri, le prince Paul, vient de m’écrire. Voici sa lettre…
 Quoiqu’il regarde cette alliance comme une faveur inespérée… il me demande ta main pour son fils, qui, me dit-il, éprouve pour toi l’amour le plus respectueux et le plus passionné.
 Ô mon Dieu !
 Mon Dieu ! dit Fleur-de-Marie, en cachant son visage dans ses mains, j’aurais pu être si heureuse !
 Courage, ma fille bien-aimée !
 Si tu le veux, ce bonheur est à toi ! s’écria tendrement Rodolphe.
-Oh ! jamais !…
-Jamais !…
-Oubliez-vous ?…
+Oh ! jamais !… Jamais !… Oubliez-vous ?…
 Je n’oublie rien…
 Mais que demain tu entres au couvent, non-seulement je te perds à jamais… mais tu me quittes pour une vie de larmes et d’austérités…
 Eh bien ! te perdre pour te perdre… qu’au moins je te sache heureuse et mariée à celui que tu aimes… et qui t’adore.
 Mariée avec lui… moi, mon père !…
-Oui… mais à la condition que, sitôt après votre mariage, contracté ici la nuit, sans d’autres témoins que Murph pour toi et que le baron de Graün pour Henri, vous partirez tous deux pour aller dans quelque tranquille retraite de Suisse ou d’Italie, vivre inconnus, en riches bourgeois.
+Oui… mais à la condition que, sitôt après votre mariage, contracté ici la nuit, sans d’autres témoins que Murph pour moi et que le baron de Graün pour Henri
+vous partirez tous deux pour aller dans quelque tranquille retraite de Suisse ou d’Italie, vivre inconnus, en riches bourgeois.
 Maintenant, ma fille chérie, sais-tu pourquoi je me résigne à t’éloigner de moi ?
 Sais-tu pourquoi je désire qu’Henri quitte son titre une fois hors de l’Allemagne ?
 C’est que je suis sûr qu’au milieu d’un bonheur solitaire, concentrée dans une existence dépouillée de tout faste, peu à peu tu oublieras cet odieux passé, qui t’est surtout pénible parce qu’il contraste amèrement avec les cérémonieux hommages dont à chaque instant tu es entourée.
@@ -157,14 +158,16 @@ L’oubli dans le bonheur !… murmura Fleur-de-Marie qui, malgré elle, se lais
 Oui… oui, mon enfant, reprit Clémence, lorsqu’à chaque instant du jour vous vous verrez bénie, respectée, adorée par l’époux de votre choix, par l’homme dont votre père vous a mille fois vanté le cœur noble et généreux… aurez-vous le loisir de songer au passé ?
 Et, lors même que vous y songeriez… comment ce passé vous attristerait-il ?
 Comment vous empêcherait-il de croire à la radieuse félicité de votre mari ?
-Enfin c’est vrai… car dis-moi, mon enfant, reprit Rodolphe, qui pouvait à peine contenir des larmes de joie en voyant sa fille ébranlée, en présence de l’idolâtrie de ton mari pour toi… lorsque tu auras la conscience et la preuve du bonheur qu’il te doit… quels reproches pourras-tu te faire ?
+Enfin c’est vrai… car dis-moi, mon enfant, reprit Rodolphe, qui pouvait à peine contenir des larmes de joie en voyant sa fille ébranlée, en présence de l’idolâtrie de ton mari pour toi…
+lorsque tu auras la conscience et la preuve du bonheur qu’il te doit… quels reproches pourras-tu te faire ?
 Mon père…, dit Fleur-de-Marie, oubliant le passé pour cette espérance ineffable, tant de bonheur me serait-il encore réservé ?
 Ah ! j’en étais bien sûr ! s’écria Rodolphe dans un élan de joie triomphante, est-ce qu’après tout un père qui le veut… ne peut pas rendre au bonheur son enfant adorée ?…
 Elle mérite tant… que nous devions être exaucés, mon ami, dit Clémence en partageant le ravissement du prince.
 Épouser Henri… et un jour… passer ma vie entre lui… ma seconde mère… et mon père…, répéta Fleur-de-Marie, subissant de plus en plus la douce ivresse de ces pensées.
 Oui, mon ange aimé, nous serons tous heureux !…
 Je vais répondre au père d’Henri que je consens au mariage, s’écria Rodolphe en serrant Fleur-de-Marie dans ses bras avec une émotion indicible.
-Rassure-toi, notre séparation sera passagère… les nouveaux devoirs que le mariage va t’imposer raffermiront encore tes pas dans cette voie d’oubli et de félicité où tu vas marcher désormais… car, enfin, si un jour tu es mère, ce ne sera pas seulement pour toi qu’il te faudra être heureuse…
+Rassure-toi, notre séparation sera passagère…
+les nouveaux devoirs que le mariage va t’imposer raffermiront encore tes pas dans cette voie d’oubli et de félicité où tu vas marcher désormais… car, enfin, si un jour tu es mère, ce ne sera pas seulement pour toi qu’il te faudra être heureuse…
 Ah ! s’écria Fleur-de-Marie avec un cri déchirant, car ce mot de mère la réveilla du songe enchanteur qui la berçait, mère !… moi ?
 Oh ! jamais !
 Je suis indigne de ce saint nom…
@@ -184,7 +187,8 @@ Mais il saura aussi quelle irrésistible fatalité t’a jetée dans l’abîme�
 Et il sentira enfin, reprit Clémence en serrant Fleur-de-Marie dans ses bras, que lorsque je vous appelle ma fille… il peut sans honte vous appeler sa femme…
 Et moi… ma mère… j’aime trop… j’estime trop le prince Henri pour jamais lui donner une main qui a été touchée par les bandits de la Cité…
 Peu de temps après cette scène douloureuse, on lisait dans la Gazette officielle de Gerolstein.
-Hier a eu lieu, en l’abbaye grand-ducale de Sainte-Hermangilde, en présence de Son Altesse Royale le grand-duc régnant et de toute la cour, la prise de voile de très haute et très puissante princesse Son Altesse Amélie de Gerolstein.
+Hier a eu lieu, en l’abbaye grand-ducale de Sainte-Hermangilde, en présence de Son Altesse Royale le grand-duc régnant et de toute la cour
+la prise de voile de très haute et très puissante princesse Son Altesse Amélie de Gerolstein.
 Le noviciat a été reçu par l’illustrissime et révérendissime seigneur monseigneur Charles-Maxime, archevêque duc d’Oppenheim.
 Monseigneur Annibal-André Montano, des princes de Delphes, évêque de Ceuta in partibus infidelium et nonce apostolique, y a donné le salut et la bénédiction papale.
 Le sermon a été prononcé par le révérendissime seigneur Pierre d’Asfeld, chanoine du chapitre de Cologne, comte du Saint-Empire romain.

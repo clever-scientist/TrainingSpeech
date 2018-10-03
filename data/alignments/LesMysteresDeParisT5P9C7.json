@@ -1,0 +1,1599 @@
+[
+  {
+    "approved": true,
+    "begin": 0.0,
+    "end": 3.05,
+    "text": "Chapitre sept."
+  },
+  {
+    "approved": true,
+    "begin": 2.91,
+    "end": 4.65,
+    "text": "La visite"
+  },
+  {
+    "approved": true,
+    "begin": 5.08,
+    "end": 10.76,
+    "text": "Jeanne Duport, \u00e0 la pens\u00e9e de sa fille, s\u2019\u00e9tait mise \u00e0 pleurer am\u00e8rement."
+  },
+  {
+    "approved": true,
+    "begin": 11.24,
+    "end": 19.22,
+    "text": "Pardon, lui dit la Lorraine attrist\u00e9e, pardon, si je vous ai fait de la peine sans le vouloir en vous parlant de vos enfants\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 19.18,
+    "end": 21.52,
+    "text": "Ils sont peut-\u00eatre malades aussi ?"
+  },
+  {
+    "approved": true,
+    "begin": 21.86,
+    "end": 28.08,
+    "text": "H\u00e9las ! mon Dieu\u2026 je ne sais pas ce qu\u2019ils vont devenir si je reste ici plus de huit jours."
+  },
+  {
+    "approved": true,
+    "begin": 28.34,
+    "end": 30.0,
+    "text": "Et votre mari ?"
+  },
+  {
+    "approved": true,
+    "begin": 30.44,
+    "end": 35.99,
+    "text": "Apr\u00e8s un moment de silence, Jeanne reprit en essuyant ses larmes."
+  },
+  {
+    "approved": true,
+    "begin": 36.42,
+    "end": 44.95,
+    "text": "Puisque nous sommes amies ensemble, la Lorraine, je peux vous dire mes peines, comme vous m\u2019avez dit les v\u00f4tres\u2026 cela me soulagera\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 45.01,
+    "end": 47.56,
+    "text": "Mon mari \u00e9tait un bon ouvrier."
+  },
+  {
+    "approved": true,
+    "begin": 47.59,
+    "disabled": false,
+    "end": 55.75,
+    "text": "Il s\u2019est d\u00e9rang\u00e9, puis il m\u2019a abandonn\u00e9e, moi et mes enfants, apr\u00e8s avoir vendu tout ce que nous poss\u00e9dions."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 56.02,
+    "end": 59.81,
+    "text": "Je me suis remise au travail, de bonnes \u00e2mes m\u2019ont aid\u00e9e,"
+  },
+  {
+    "approved": true,
+    "begin": 59.790000000000006,
+    "end": 66.25,
+    "text": "je commen\u00e7ais \u00e0 \u00eatre un peu \u00e0 flot, j\u2019\u00e9levais ma petite famille du mieux que je pouvais"
+  },
+  {
+    "approved": true,
+    "begin": 66.30000000000001,
+    "end": 77.51,
+    "text": "quand mon mari est revenu, avec une mauvaise femme qui \u00e9tait sa ma\u00eetresse, me reprendre le peu que je poss\u00e9dais, et \u00e7\u2019a \u00e9t\u00e9 encore \u00e0 recommencer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 78.26,
+    "end": 82.44,
+    "text": "Pauvre Jeanne, vous ne pouviez pas emp\u00eacher cela ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 82.42,
+    "end": 85.42,
+    "text": "Il aurait fallu me s\u00e9parer devant la loi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 85.28,
+    "end": 88.88,
+    "text": "Mais la loi est trop ch\u00e8re, comme dit mon fr\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 88.96,
+    "end": 95.55,
+    "text": "H\u00e9las ! mon Dieu, vous allez voir ce que \u00e7a fait que la loi soit trop ch\u00e8re pour nous, pauvres gens."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 95.6,
+    "end": 103.78,
+    "text": "Il y a quelques jours je retourne voir mon fr\u00e8re, il me donne trois francs qu\u2019il avait ramass\u00e9s \u00e0 conter des histoires aux autres prisonniers."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 104.44,
+    "end": 117.49,
+    "text": "On voit que vous \u00eates bien bons c\u0153urs dans votre famille, dit la Lorraine qui, par une rare d\u00e9licatesse d\u2019instinct, n\u2019interrogea pas Jeanne sur la cause de l\u2019emprisonnement de son fr\u00e8re."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 117.8,
+    "end": 127.48,
+    "text": "Je reprends donc courage, je croyais que mon mari ne reviendrait pas de longtemps, car il avait pris chez nous tout ce qu\u2019il pouvait prendre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 127.56,
+    "end": 131.49,
+    "text": "Non, je me trompe, ajouta la malheureuse en frissonnant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 131.28,
+    "end": 136.26,
+    "text": "Il lui restait \u00e0 prendre ma fille\u2026 ma pauvre Catherine\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 136.16,
+    "end": 137.92,
+    "text": "Votre fille ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 138.06,
+    "end": 140.7,
+    "text": "Vous allez voir\u2026 vous allez voir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 140.48,
+    "end": 144.73,
+    "text": "Il y a trois jours, j\u2019\u00e9tais \u00e0 travailler avec mes enfants autour de moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 144.76,
+    "end": 146.62,
+    "text": "Mon mari entre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 146.62,
+    "end": 150.29,
+    "text": "Rien qu\u2019\u00e0 son air, je m\u2019aper\u00e7ois tout de suite qu\u2019il a bu."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 150.32,
+    "end": 152.94,
+    "text": "Je viens chercher Catherine, qu\u2019il me dit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 153.09,
+    "end": 157.87,
+    "text": "Malgr\u00e9 moi je prends le bras de ma fille et je r\u00e9ponds \u00e0 Duport."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 157.56,
+    "end": 159.22,
+    "text": "O\u00f9 veux-tu l\u2019emmener ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 159.06,
+    "end": 161.9,
+    "text": "\u00c7a ne te regarde pas, c\u2019est ma fille."
+  },
+  {
+    "approved": true,
+    "begin": 161.57,
+    "disabled": false,
+    "end": 164.52,
+    "text": "Qu\u2019elle fasse son paquet et qu\u2019elle me suive."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 164.94,
+    "end": 168.16,
+    "text": "\u00c0 ces mots-l\u00e0, mon sang ne fait qu\u2019un tour"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 167.91,
+    "end": 182.5,
+    "text": "car figurez-vous, la Lorraine, que cette mauvaise femme qui est avec mon mari\u2026 \u00e7a fait fr\u00e9mir \u00e0 dire, mais enfin\u2026 c\u2019est ainsi\u2026 elle le pousse depuis longtemps \u00e0 tirer parti de notre fille \u2014 qui est jeune et jolie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 182.51,
+    "end": 185.39999999999998,
+    "text": "Dites, quel monstre de femme !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 185.63,
+    "end": 188.19,
+    "text": "Ah ! oui, c\u2019est un vrai monstre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 188.42,
+    "end": 191.76,
+    "text": "Emmener Catherine ! que je r\u00e9ponds \u00e0 Duport, jamais."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 191.55,
+    "end": 194.72,
+    "text": "Je sais ce que ta mauvaise femme voudrait en faire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 194.88,
+    "end": 202.7,
+    "text": "Tiens, me dit mon mari, dont les l\u00e8vres \u00e9taient d\u00e9j\u00e0 toutes blanches de col\u00e8re, ne m\u2019obstine pas ou je t\u2019assomme."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 203.0,
+    "end": 207.04,
+    "text": "L\u00e0-dessus il prend ma fille par le bras en lui disant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 206.77,
+    "end": 208.57,
+    "text": "En route ! Catherine."
+  },
+  {
+    "approved": true,
+    "begin": 209.17,
+    "end": 214.8,
+    "text": "La pauvre petite me saute au cou en fondant en larmes et criant. Je veux rester avec maman !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 215.0,
+    "end": 218.58,
+    "text": "Voyant \u00e7a, Duport devient furieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 218.32,
+    "end": 228.88,
+    "text": "il arrache ma fille d\u2019apr\u00e8s moi, me donne un coup de poing dans l\u2019estomac qui me renverse par terre, et une fois par terre\u2026 une fois par terre\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 229.01,
+    "end": 242.58,
+    "text": "Mais voyez-vous, la Lorraine, dit la malheureuse femme en s\u2019interrompant, bien s\u00fbr il n\u2019a \u00e9t\u00e9 si m\u00e9chant que parce qu\u2019il avait bu\u2026 enfin il tr\u00e9pigne sur moi\u2026 en m\u2019accablant de sottises\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 242.91,
+    "end": 245.93,
+    "text": "Faut-il \u00eatre m\u00e9chant, mon Dieu !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 246.3,
+    "end": 250.92,
+    "text": "Mes pauvres enfants se jettent \u00e0 ses genoux en demandant gr\u00e2ce."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 250.68,
+    "end": 252.35,
+    "text": "Catherine aussi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 252.25,
+    "end": 255.67,
+    "text": "Alors il dit \u00e0 ma fille en jurant comme un furieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 255.43,
+    "end": 259.03,
+    "text": "Si tu ne viens pas avec moi, j\u2019ach\u00e8ve ta m\u00e8re !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 259.12,
+    "end": 267.46,
+    "text": "Je vomissais le sang\u2026 je me sentais \u00e0 moiti\u00e9 morte\u2026 je ne pouvais pas faire un mouvement\u2026 mais je crie \u00e0 Catherine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 267.34,
+    "end": 272.02,
+    "text": "Laisse-moi tuer plut\u00f4t ! mais ne suis pas ton p\u00e8re !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 271.86,
+    "end": 279.44,
+    "text": "Tu ne te tairas donc pas, me dit Duport en me donnant un nouveau coup de pied qui me fit perdre connaissance."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 279.88,
+    "end": 281.63,
+    "text": "Quelle mis\u00e8re !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 281.55,
+    "end": 283.4,
+    "text": "Quelle mis\u00e8re !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 283.54,
+    "end": 288.68,
+    "text": "Quand je suis revenue \u00e0 moi, j\u2019ai retrouv\u00e9 mes deux petits gar\u00e7ons qui pleuraient."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 288.91,
+    "end": 290.66,
+    "text": "Et votre fille ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 290.86,
+    "end": 298.84,
+    "text": "Partie !\u2026 s\u2019\u00e9cria la malheureuse m\u00e8re, avec un accent et des sanglots d\u00e9chirants, oui\u2026 partie\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 298.54,
+    "end": 305.72,
+    "text": "Mes autres enfants m\u2019ont dit que leur p\u00e8re l\u2019avait battue\u2026 la mena\u00e7ant, en outre, de m\u2019achever sur la place."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 305.42,
+    "end": 318.54,
+    "text": "Alors, que voulez-vous ? la pauvre enfant a perdu la t\u00eate\u2026 elle s\u2019est jet\u00e9e sur moi pour m\u2019embrasser\u2026 elle a aussi embrass\u00e9 ses petits fr\u00e8res en pleurant\u2026 et puis mon mari l\u2019a entra\u00een\u00e9e !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 318.65,
+    "end": 324.0,
+    "text": "Ah ! sa mauvaise femme l\u2019attendait dans l\u2019escalier\u2026 j\u2019en suis bien s\u00fbre !\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 324.6,
+    "end": 328.14,
+    "text": "Et vous ne pouviez pas vous plaindre au commissaire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 328.47,
+    "end": 338.74,
+    "text": "Dans le premier moment, je n\u2019\u00e9tais qu\u2019au chagrin de savoir Catherine partie\u2026 mais j\u2019ai senti bient\u00f4t de grandes douleurs dans tout le corps, je ne pouvais pas marcher."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 338.64,
+    "end": 342.96,
+    "text": "H\u00e9las ! mon Dieu ! ce que j\u2019avais tant redout\u00e9 \u00e9tait arriv\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 342.84,
+    "end": 351.7,
+    "text": "Oui, je l\u2019avais dit \u00e0 mon fr\u00e8re, un jour mon mari me battra si fort\u2026 si fort\u2026 que je serai oblig\u00e9e d\u2019aller \u00e0 l\u2019hospice."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 351.95,
+    "end": 355.98,
+    "text": "Alors\u2026 mes enfants\u2026 qu\u2019est-ce qu\u2019ils deviendront ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 356.1,
+    "end": 359.7,
+    "text": "Et aujourd\u2019hui m\u2019y voil\u00e0, \u00e0 l\u2019hospice, et\u2026 je dis."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 359.61,
+    "end": 362.24,
+    "text": "Qu\u2019est-ce qu\u2019ils deviendront, mes enfants ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 362.79,
+    "end": 366.78,
+    "text": "Mais il n\u2019y a donc pas de justice, mon Dieu ! pour les pauvres gens ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 367.12,
+    "end": 374.05,
+    "text": "Trop cher, trop cher pour nous, comme dit mon fr\u00e8re, reprit Jeanne Duport avec amertume."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 373.9,
+    "end": 384.24,
+    "text": "Les voisins avaient \u00e9t\u00e9 chercher le commissaire\u2026 son greffier est venu, \u00e7a me r\u00e9pugnait de d\u00e9noncer Duport\u2026 mais, \u00e0 cause de ma fille, il l\u2019a fallu."
+  },
+  {
+    "approved": true,
+    "begin": 384.27,
+    "end": 401.94,
+    "text": "Seulement j\u2019ai dit que dans une querelle que je lui faisais, parce qu\u2019il voulait emmener ma fille, il m\u2019avait pouss\u00e9e\u2026 que cela ne serait rien\u2026 mais que je voulais revoir Catherine, parce que je craignais qu\u2019une mauvaise femme, avec qui vivait mon mari, ne la d\u00e9bauch\u00e2t."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 402.42,
+    "end": 405.18,
+    "text": "Et qu\u2019est-ce qu\u2019il vous a dit, le greffier ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 405.37,
+    "end": 411.14,
+    "text": "Que mon mari \u00e9tait dans son droit d\u2019emmener sa fille, n\u2019\u00e9tant pas s\u00e9par\u00e9 d\u2019avec moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 411.18,
+    "end": 423.05,
+    "text": "Que ce serait un malheur si ma fille tournait mal par de mauvais conseils, mais que ce n\u2019\u00e9taient que des suppositions et que \u00e7a ne suffisait pas pour porter plainte contre mon mari."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 422.78,
+    "end": 425.63,
+    "text": "Vous n\u2019avez qu\u2019un moyen, m\u2019a dit le greffier."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 425.34,
+    "end": 440.76,
+    "text": "Plaidez au civil, demandez une s\u00e9paration de corps et alors les coups que vous a donn\u00e9s votre mari, sa conduite avec une vilaine femme, seront en votre faveur, et on le forcera de vous rendre votre fille."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 440.41,
+    "end": 444.68,
+    "text": "Sans cela, il est dans son droit de la garder avec lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 445.08,
+    "end": 449.89,
+    "text": "Mais plaider ! je n\u2019ai pas de quoi, mon Dieu ! j\u2019ai mes enfants \u00e0 nourrir."
+  },
+  {
+    "approved": true,
+    "begin": 450.08,
+    "disabled": false,
+    "end": 454.17,
+    "text": "Que voulez-vous que j\u2019y fasse ? a dit le greffier, c\u2019est comme \u00e7a."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 454.51,
+    "end": 458.87,
+    "text": "Oui, reprit Jeanne en sanglotant, il avait raison\u2026 c\u2019est comme \u00e7a\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 458.81,
+    "end": 470.11,
+    "text": "dans trois mois ma fille sera peut-\u00eatre une cr\u00e9ature des rues ! tandis que si j\u2019avais eu de quoi plaider pour me s\u00e9parer de mon mari, cela ne serait pas arriv\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 470.59999999999997,
+    "end": 474.41999999999996,
+    "text": "Mais cela n\u2019arrivera pas. Votre fille doit tant vous aimer !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 474.88,
+    "end": 476.91999999999996,
+    "text": "Mais elle est si jeune !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 476.75,
+    "end": 480.02,
+    "text": "\u00c0 cet \u00e2ge-l\u00e0 on n\u2019a pas de d\u00e9fense."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 479.82,
+    "end": 488.88,
+    "text": "Et puis la peur, les mauvais traitements, les mauvais conseils, les mauvais exemples, l\u2019acharnement qu\u2019on mettra peut-\u00eatre \u00e0 lui faire faire mal !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 489.14,
+    "end": 492.99,
+    "text": "Mon pauvre fr\u00e8re avait pr\u00e9vu tout ce qui arrive, lui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 492.78,
+    "end": 494.43,
+    "text": "Il me disait."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 494.22,
+    "end": 502.79,
+    "text": "Est-ce que tu crois que si cette mauvaise femme et ton mari s\u2019acharnent \u00e0 perdre cette enfant, il ne faudra pas qu\u2019elle y passe ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 502.9,
+    "end": 509.08,
+    "text": "Mon Dieu mon Dieu ! pauvre Catherine, si douce, si aimante !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 509.08,
+    "end": 514.21,
+    "text": "Et moi qui, cette ann\u00e9e encore, lui voulais faire renouveler sa premi\u00e8re communion !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 514.91,
+    "end": 517.79,
+    "text": "Ah ! vous avez bien de la peine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 517.52,
+    "end": 521.74,
+    "text": "Et moi qui me plaignais, dit la Lorraine en essuyant ses yeux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 521.85,
+    "end": 523.85,
+    "text": "Et vos autres enfants ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 523.82,
+    "end": 532.6,
+    "text": "\u00c0 cause d\u2019eux j\u2019ai fait ce que j\u2019ai pu pour vaincre la douleur et ne pas entrer \u00e0 l\u2019h\u00f4pital, mais je n\u2019ai pu r\u00e9sister."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 532.51,
+    "end": 541.9,
+    "text": "Je vomis le sang trois ou quatre fois par jour, j\u2019ai une fi\u00e8vre qui me casse les bras et les jambes, je suis hors d\u2019\u00e9tat de travailler."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 542.11,
+    "end": 551.83,
+    "text": "Au moins en \u00e9tant vite gu\u00e9rie, je pourrai retourner aupr\u00e8s de mes enfants, si avant ils ne sont pas morts de faim ou emprisonn\u00e9s comme mendiants."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 552.02,
+    "end": 557.01,
+    "text": "Moi ici, qui voulez-vous qui prenne soin d\u2019eux, qui les nourrisse ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 557.48,
+    "end": 559.81,
+    "text": "Oh ! c\u2019est terrible."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 559.52,
+    "end": 562.3,
+    "text": "Vous n\u2019avez donc pas de bons voisins ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 562.64,
+    "end": 567.88,
+    "text": "Ils sont aussi pauvres que moi, et ils ont cinq enfants d\u00e9j\u00e0."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 567.9,
+    "end": 571.45,
+    "text": "Aussi deux enfants de plus ! c\u2019est lourd."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 571.42,
+    "end": 583.76,
+    "text": "Pourtant ils m\u2019ont promis de les nourrir\u2026 un peu, pendant huit jours, c\u2019est tout ce qu\u2019ils peuvent, et encore en prenant sur leur pain, et ils n\u2019en ont pas d\u00e9j\u00e0 de trop."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 583.8,
+    "end": 590.02,
+    "text": "Il faut donc que je sois gu\u00e9rie dans huit jours. Oh ! oui, gu\u00e9rie ou non, je sortirai tout de m\u00eame."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 590.48,
+    "end": 602.66,
+    "text": "Mais, j\u2019y pense, comment n\u2019avez-vous pas song\u00e9 \u00e0 cette bonne petite ouvri\u00e8re, Mademoiselle Rigolette, que vous avez rencontr\u00e9e en prison ? elle les aurait gard\u00e9s, bien s\u00fbr, elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 603.14,
+    "end": 612.52,
+    "text": "J\u2019y ai pens\u00e9, et quoique la pauvre petite ait peut-\u00eatre aussi bien du mal \u00e0 vivre, je lui ai fait dire ma peine par une voisine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 612.54,
+    "end": 618.71,
+    "text": "malheureusement elle est \u00e0 la campagne o\u00f9 elle va se marier, a-t-on dit chez la porti\u00e8re de sa maison."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 619.23,
+    "end": 623.44,
+    "text": "Ainsi dans huit jours\u2026 vos pauvres enfants\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 623.27,
+    "end": 626.96,
+    "text": "Mais non, vos voisins n\u2019auront pas le c\u0153ur de les renvoyer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 627.47,
+    "end": 630.23,
+    "text": "Mais que voulez-vous qu\u2019ils fassent ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 630.05,
+    "end": 636.55,
+    "text": "Ils ne mangent pas d\u00e9j\u00e0 selon leur faim, et il faudra encore qu\u2019ils retirent aux leurs pour donner aux miens."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 636.41,
+    "end": 640.9,
+    "text": "Non, non, voyez-vous, il faut que je sois gu\u00e9rie dans huit jours."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 641.06,
+    "end": 648.45,
+    "text": "Je l\u2019ai demand\u00e9 \u00e0 tous les m\u00e9decins qui m\u2019ont interrog\u00e9e depuis hier, mais ils me r\u00e9pondaient en riant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 648.11,
+    "end": 651.61,
+    "text": "C\u2019est au m\u00e9decin en chef qu\u2019il faut s\u2019adresser pour cela."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 651.76,
+    "end": 655.47,
+    "text": "Quand viendra-t-il donc, le m\u00e9decin en chef, la Lorraine ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 655.64,
+    "end": 658.3,
+    "text": "Chut ! je crois que le voil\u00e0."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 658.12,
+    "end": 663.02,
+    "text": "Il ne faut pas parler pendant qu\u2019il fait sa visite, r\u00e9pondit tout bas la Lorraine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 663.55,
+    "end": 669.06,
+    "text": "En effet, pendant l\u2019entretien des deux femmes, le jour \u00e9tait venu peu \u00e0 peu."
+  },
+  {
+    "approved": true,
+    "begin": 669.37,
+    "end": 690.46,
+    "text": "Un mouvement tumultueux annon\u00e7a l\u2019arriv\u00e9e du docteur Griffon, qui entra bient\u00f4t dans la salle, accompagn\u00e9 de son ami le comte de Saint-Remy, qui, portant, on le sait, un vif int\u00e9r\u00eat \u00e0 Madame de Fermont et \u00e0 sa fille, \u00e9tait loin de s\u2019attendre \u00e0 trouver cette malheureuse jeune fille \u00e0 l\u2019h\u00f4pital."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 690.43,
+    "end": 698.09,
+    "text": "En entrant dans la salle, les traits froids et s\u00e9v\u00e8res du docteur Griffon sembl\u00e8rent s\u2019\u00e9panouir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 698.24,
+    "end": 708.5,
+    "text": "jetant autour de lui un regard de satisfaction et d\u2019autorit\u00e9, il r\u00e9pondit d\u2019un signe de t\u00eate protecteur \u00e0 l\u2019accueil empress\u00e9 des s\u0153urs."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 708.31,
+    "end": 716.86,
+    "text": "La rude et aust\u00e8re physionomie du vieux comte de Saint-Remy \u00e9tait empreinte d\u2019une profonde tristesse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 717.02,
+    "end": 731.47,
+    "text": "La vanit\u00e9 de ses tentatives pour retrouver les traces de Madame de Fermont, l\u2019ignominieuse l\u00e2chet\u00e9 du vicomte, qui avait pr\u00e9f\u00e9r\u00e9 \u00e0 la mort une vie inf\u00e2me, l\u2019\u00e9crasaient de chagrin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 731.42,
+    "end": 738.45,
+    "text": "Eh bien ! dit au comte le docteur Griffon d\u2019un air triomphant, que pensez-vous de mon h\u00f4pital ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 739.09,
+    "end": 745.85,
+    "text": "En v\u00e9rit\u00e9, r\u00e9pondit Monsieur de Saint-Remy, je ne sais pourquoi j\u2019ai c\u00e9d\u00e9 \u00e0 votre d\u00e9sir."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 745.73,
+    "end": 751.29,
+    "text": "Rien n\u2019est plus navrant que l\u2019aspect de ces salles remplies de malades."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 751.26,
+    "end": 755.62,
+    "text": "Depuis mon entr\u00e9e ici, mon c\u0153ur est cruellement serr\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 755.86,
+    "end": 759.7,
+    "text": "Bah ! bah ! dans un quart d\u2019heure vous n\u2019y penserez plus."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 759.52,
+    "end": 764.67,
+    "text": "Vous qui \u00eates philosophe, vous trouverez ample mati\u00e8re \u00e0 observations."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 764.54,
+    "end": 776.73,
+    "text": "Et puis enfin il \u00e9tait honteux que vous, un de mes plus vieux amis, vous ne connussiez pas le th\u00e9\u00e2tre de ma gloire, de mes travaux, et que vous ne m\u2019eussiez pas encore vu \u00e0 l\u2019\u0153uvre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 776.57,
+    "end": 779.44,
+    "text": "Je mets mon orgueil dans ma profession."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 779.36,
+    "end": 780.74,
+    "text": "Est-ce un tort ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 780.8,
+    "end": 782.86,
+    "text": "Non, certes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 782.54,
+    "end": 789.49,
+    "text": "Et apr\u00e8s vos excellents soins pour Fleur-de-Marie, que vous avez sauv\u00e9e, je ne pouvais rien vous refuser."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 789.53,
+    "end": 795.71,
+    "text": "Pauvre enfant ! quel charme touchant ses traits ont conserv\u00e9 malgr\u00e9 la maladie !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 796.08,
+    "end": 801.95,
+    "text": "Elle m\u2019a fourni un fait m\u00e9dical fort curieux, je suis enchant\u00e9 d\u2019elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 801.7,
+    "end": 805.04,
+    "text": "\u00c0 propos, comment a-t-elle pass\u00e9 cette nuit ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 804.82,
+    "end": 808.34,
+    "text": "L\u2019avez-vous vue ce matin avant de partir d\u2019Asni\u00e8res ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 808.07,
+    "end": 808.88,
+    "text": "Non."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 808.77,
+    "end": 815.47,
+    "text": "Mais la Louve, qui la soigne avec un d\u00e9vouement sans pareil, m\u2019a dit qu\u2019elle avait parfaitement dormi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 815.64,
+    "end": 819.12,
+    "text": "Pourrait-on aujourd\u2019hui lui permettre d\u2019\u00e9crire ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 819.26,
+    "end": 823.41,
+    "text": "Apr\u00e8s un moment d\u2019h\u00e9sitation, le docteur r\u00e9pondit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 823.54,
+    "end": 824.65,
+    "text": "Oui\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 824.43,
+    "end": 832.79,
+    "text": "Tant que le sujet n\u2019a pas \u00e9t\u00e9 compl\u00e8tement r\u00e9tabli, j\u2019ai craint pour lui la moindre \u00e9motion, la moindre tension d\u2019esprit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 832.7,
+    "end": 836.98,
+    "text": "Mais maintenant je ne vois aucun inconv\u00e9nient \u00e0 ce qu\u2019elle \u00e9crive."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 837.32,
+    "end": 841.6,
+    "text": "Au moins elle pourra pr\u00e9venir les personnes qui s\u2019int\u00e9ressent \u00e0 elle\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 841.42,
+    "end": 842.79,
+    "text": "Sans doute\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 842.53,
+    "end": 848.28,
+    "text": "Ah \u00e7\u00e0 ! vous n\u2019avez rien appris de nouveau sur le sort de Madame de Fermont et de sa fille ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 848.44,
+    "end": 851.57,
+    "text": "Rien, dit Monsieur de Saint-Remy en soupirant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 851.39,
+    "end": 855.42,
+    "text": "Mes constantes recherches n\u2019ont eu aucun r\u00e9sultat."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 855.45,
+    "end": 864.11,
+    "text": "Je n\u2019ai plus d\u2019espoir que dans Madame la marquise d\u2019Harville, qui, m\u2019a-t-on dit, s\u2019int\u00e9resse vivement aussi \u00e0 ces deux infortun\u00e9es."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 864.31,
+    "end": 868.67,
+    "text": "Peut-\u00eatre a-t-elle quelques renseignements qui pourront me mettre sur la voie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 868.81,
+    "end": 871.65,
+    "text": "Il y a trois jours je suis all\u00e9 chez elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 871.39,
+    "end": 874.69,
+    "text": "On m\u2019a dit qu\u2019elle arriverait d\u2019un moment \u00e0 l\u2019autre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 874.67,
+    "end": 879.8,
+    "text": "Je lui ai \u00e9crit \u00e0 ce sujet, la priant de me r\u00e9pondre le plus t\u00f4t possible."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 880.44,
+    "end": 891.61,
+    "text": "Pendant l\u2019entretien de Monsieur de Saint-Remy et du docteur Griffon, plusieurs groupes s\u2019\u00e9taient peu \u00e0 peu form\u00e9s autour d\u2019une grande table occupant le milieu de la salle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 891.9,
+    "end": 904.19,
+    "text": "Sur cette table \u00e9tait un registre o\u00f9 les \u00e9l\u00e8ves attach\u00e9s \u00e0 l\u2019h\u00f4pital, et que l\u2019on reconnaissait \u00e0 leurs longs tabliers blancs, venaient tour \u00e0 tour signer la feuille de pr\u00e9sence."
+  },
+  {
+    "approved": true,
+    "begin": 904.39,
+    "end": 922.81,
+    "text": "Un grand nombre de jeunes \u00e9tudiants studieux et empress\u00e9s arrivaient successivement du dehors pour grossir le cort\u00e8ge scientifique du docteur Griffon, qui, ayant devanc\u00e9 de quelques minutes l\u2019heure habituelle de sa visite, attendait qu\u2019elle sonn\u00e2t."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 922.98,
+    "end": 935.63,
+    "text": "Vous voyez, mon cher Saint-Remy, que mon \u00e9tat-major est assez consid\u00e9rable, dit le docteur Griffon avec orgueil en montrant la foule qui venait assister \u00e0 ses enseignements pratiques."
+  },
+  {
+    "approved": true,
+    "begin": 935.9,
+    "end": 939.87,
+    "text": "Et ces jeunes gens vous suivent au lit de chaque malade ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 940.13,
+    "end": 942.58,
+    "text": "Ils ne viennent que pour cela."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 942.78,
+    "end": 946.2,
+    "text": "Mais tous ces lits sont occup\u00e9s par des femmes."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 946.46,
+    "end": 947.7,
+    "text": "Eh bien ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 947.57,
+    "end": 952.56,
+    "text": "La pr\u00e9sence de tant d\u2019hommes doit leur inspirer une confusion p\u00e9nible."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 952.63,
+    "end": 956.21,
+    "text": "Allons donc, un malade n\u2019a pas de sexe."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 956.4,
+    "end": 961.28,
+    "text": "\u00c0 vos yeux peut-\u00eatre. Mais aux siens, la pudeur, la honte\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 961.37,
+    "end": 965.83,
+    "text": "Il faut laisser ces belles choses-l\u00e0 \u00e0 la porte, mon cher Alceste."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 965.57,
+    "end": 973.35,
+    "text": "Ici nous commen\u00e7ons sur le vivant des exp\u00e9riences et des \u00e9tudes que nous finissons \u00e0 l\u2019amphith\u00e9\u00e2tre sur le cadavre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 973.86,
+    "end": 981.81,
+    "text": "Tenez, docteur, vous \u00eates le meilleur et le plus honn\u00eate des hommes. Je vous dois la vie, je reconnais vos excellentes qualit\u00e9s."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 981.57,
+    "end": 988.29,
+    "text": "Mais l\u2019habitude et l\u2019amour de votre art vous font envisager certaines questions d\u2019une mani\u00e8re qui me r\u00e9volte\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 988.13,
+    "end": 994.27,
+    "text": "Je vous laisse\u2026, dit Monsieur de Saint-Remy en faisant un pas pour quitter la salle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 994.13,
+    "end": 998.47,
+    "text": "Quel enfantillage ! s\u2019\u00e9cria le docteur Griffon en le retenant."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 998.22,
+    "end": 1001.92,
+    "text": "Non, non, il est des choses qui me navrent et m\u2019indignent."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1001.89,
+    "end": 1006.9,
+    "text": "Je pr\u00e9vois que ce serait un supplice pour moi que d\u2019assister \u00e0 votre visite."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1006.85,
+    "end": 1011.48,
+    "text": "Je ne m\u2019en irai pas, soit. Mais je vous attends ici, pr\u00e8s de cette table."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1011.94,
+    "end": 1015.21,
+    "text": "Quel homme vous \u00eates avec vos scrupules !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1015.08,
+    "end": 1017.51,
+    "text": "Mais je ne vous tiens pas quitte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1017.19,
+    "end": 1021.04,
+    "text": "J\u2019admets qu\u2019il serait fastidieux pour vous d\u2019aller de lit en lit."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1020.76,
+    "end": 1025.32,
+    "text": "Restez donc l\u00e0, je vous appellerai pour deux ou trois cas assez curieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1025.04,
+    "end": 1027.72,
+    "text": "Soit, puisque vous y tenez absolument."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1027.49,
+    "end": 1030.55,
+    "text": "Cela me suffira, et de reste."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1030.76,
+    "end": 1033.4,
+    "text": "Sept heures et demie sonn\u00e8rent."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1033.35,
+    "end": 1036.15,
+    "text": "Allons, messieurs, dit le docteur Griffon."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1035.95,
+    "end": 1040.62,
+    "text": "Et il commen\u00e7a sa visite, suivi d\u2019un nombreux auditoire."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1040.96,
+    "end": 1048.36,
+    "text": "En arrivant au premier lit de la rang\u00e9e droite, dont les rideaux \u00e9taient ferm\u00e9s, la s\u0153ur dit au docteur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1048.2,
+    "end": 1052.96,
+    "text": "Monsieur, le num\u00e9ro un est mort cette nuit \u00e0 quatre heures et demie du matin."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1053.24,
+    "end": 1056.07,
+    "text": "Si tard ? cela m\u2019\u00e9tonne."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1055.79,
+    "end": 1059.2,
+    "text": "Hier matin je ne lui aurais pas donn\u00e9 la journ\u00e9e."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1059.06,
+    "end": 1061.26,
+    "text": "A-t-on r\u00e9clam\u00e9 le corps ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1061.37,
+    "end": 1063.4,
+    "text": "Non, monsieur le docteur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1063.09,
+    "end": 1064.23,
+    "text": "Tant mieux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1064.01,
+    "end": 1067.14,
+    "text": "Il est beau, on ne pratiquera pas d\u2019autopsie."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1066.86,
+    "end": 1068.78,
+    "text": "Je vais faire un heureux."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1068.81,
+    "end": 1072.93,
+    "text": "Puis, s\u2019adressant \u00e0 un des \u00e9l\u00e8ves de sa suite."
+  },
+  {
+    "approved": true,
+    "begin": 1072.61,
+    "end": 1076.63,
+    "text": "Mon cher Dunoyer, il y a longtemps que vous d\u00e9sirez un sujet."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1076.5,
+    "end": 1079.81,
+    "text": "Vous \u00eates inscrit le premier, celui-ci est \u00e0 vous."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1079.76,
+    "end": 1082.5,
+    "text": "Ah ! monsieur, que de bont\u00e9s !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1082.5,
+    "end": 1086.44,
+    "text": "Je voudrais plus souvent r\u00e9compenser votre z\u00e8le, mon cher ami."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1086.13,
+    "end": 1092.6,
+    "text": "Mais marquez le sujet, prenez possession\u2026 il y a tant de gaillards \u00e2pres \u00e0 la cur\u00e9e\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1093.1,
+    "end": 1095.85,
+    "text": "Et le docteur passa outre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1096.09,
+    "end": 1111.13,
+    "text": "L\u2019\u00e9l\u00e8ve, \u00e0 l\u2019aide d\u2019un scalpel, incisa tr\u00e8s d\u00e9licatement un F et un D (Fran\u00e7ois Dunoyer) sur le bras de l\u2019actrice d\u00e9funte, pour prendre possession, comme disait le docteur."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1111.53,
+    "end": 1113.7,
+    "text": "Et la visite continua."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1114.09,
+    "end": 1121.89,
+    "text": "La Lorraine, dit tout bas Jeanne Duport \u00e0 sa voisine, qu\u2019est-ce donc que tout ce monde qui suit le m\u00e9decin ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1122.26,
+    "end": 1124.73,
+    "text": "Ce sont des \u00e9l\u00e8ves et des \u00e9tudiants."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1124.94,
+    "end": 1130.88,
+    "text": "Oh ! mon Dieu, est-ce que tous ces jeunes gens seront l\u00e0 lorsque le m\u00e9decin va m\u2019interroger et me regarder ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1131.24,
+    "end": 1132.83,
+    "text": "H\u00e9las ! oui."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1132.93,
+    "end": 1135.67,
+    "text": "Mais c\u2019est \u00e0 la poitrine que j\u2019ai mal\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1135.41,
+    "end": 1138.91,
+    "text": "On ne m\u2019examinera pas devant tous ces hommes ?"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1139.1,
+    "end": 1141.98,
+    "text": "Si, si, il le faut, ils le veulent."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1141.83,
+    "end": 1145.61,
+    "text": "J\u2019ai assez pleur\u00e9 la premi\u00e8re fois, je mourais de honte."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1145.27,
+    "end": 1149.24,
+    "text": "Je r\u00e9sistais, on m\u2019a menac\u00e9e de me renvoyer."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1149.19,
+    "end": 1151.48,
+    "text": "Il a bien fallu me d\u00e9cider."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1151.52,
+    "end": 1157.36,
+    "text": "Mais cela m\u2019a fait une telle r\u00e9volution, que j\u2019en ai \u00e9t\u00e9 bien plus malade."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1157.19,
+    "end": 1162.62,
+    "text": "Jugez donc, presque nue devant tant de monde, c\u2019est bien p\u00e9nible, allez !"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1162.29,
+    "end": 1169.22,
+    "text": "Devant le m\u00e9decin lui seul, je comprends \u00e7a, si c\u2019est n\u00e9cessaire, et encore \u00e7a co\u00fbte beaucoup."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1169.12,
+    "end": 1172.31,
+    "text": "Mais, pourquoi devant tous ces jeunes gens ?\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1172.62,
+    "end": 1176.03,
+    "text": "Ils apprennent et on leur enseigne sur nous\u2026"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1175.9,
+    "end": 1182.82,
+    "text": "Que voulez-vous ? nous sommes ici pour \u00e7a\u2026 c\u2019est \u00e0 cette condition qu\u2019on nous re\u00e7oit \u00e0 l\u2019hospice."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1182.71,
+    "end": 1190.81,
+    "text": "Ah ! je comprends, dit Jeanne Duport avec amertume, on ne nous donne rien pour rien, \u00e0 nous autres."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1190.67,
+    "end": 1194.98,
+    "text": "Mais pourtant, il y a des occasions o\u00f9 \u00e7a ne peut pas \u00eatre."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1194.8,
+    "end": 1204.16,
+    "text": "Ainsi ma pauvre fille Catherine, qui a quinze ans, viendrait \u00e0 l\u2019hospice, est-ce qu\u2019on oserait vouloir que devant tous ces jeunes gens\u2026 ?"
+  },
+  {
+    "approved": true,
+    "begin": 1203.9,
+    "end": 1208.05,
+    "text": "Oh ! non, je crois que j\u2019aimerais mieux la voir mourir chez nous."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1208.56,
+    "end": 1215.5,
+    "text": "Si elle venait ici, il faudrait bien qu\u2019elle se r\u00e9sign\u00e2t comme les autres, comme vous, comme moi."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1215.45,
+    "end": 1218.31,
+    "text": "Mais taisons-nous, dit la Lorraine."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1218.03,
+    "end": 1230.55,
+    "text": "Si cette pauvre demoiselle qui est l\u00e0 en face vous entendait, elle qui, dit-on, \u00e9tait riche, elle qui n\u2019a peut-\u00eatre jamais quitt\u00e9 sa m\u00e8re, \u00e7a va \u00eatre son tour."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1230.63,
+    "end": 1234.47,
+    "text": "Jugez comme elle va \u00eatre confuse et malheureuse."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1234.74,
+    "end": 1237.11,
+    "text": "C\u2019est vrai, mon Dieu ! c\u2019est vrai."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1236.84,
+    "end": 1240.49,
+    "text": "Je frissonne rien que d\u2019y penser, pour elle."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1240.49,
+    "end": 1242.47,
+    "text": "Pauvre enfant !"
+  },
+  {
+    "approved": true,
+    "begin": 1242.56,
+    "end": 1246.16,
+    "text": "Silence, Jeanne, voil\u00e0 le m\u00e9decin ! dit la Lorraine."
+  }
+]

@@ -18,10 +18,12 @@ Puis, désignant Alfred et Anastasie, elle reprit.
 Monsieur et madame sont les portiers de notre maison… ils avaient aussi bien des fois aidé notre famille dans son malheur autant qu’ils le pouvaient.
 Je vous remercie, monsieur, dit le docteur à Alfred, de vous être dérangé pour venir ici.
 Mais, d’après ce qu’on me dit, je vois que cette visite ne doit pas vous coûter ?
-Môssieur, dit Pipelet en s’inclinant gravement, l’homme doit s’entraider ici-bas… il est frère… sans compter que le père Morel était la crème des honnêtes gens… avant qu’il n’ait perdu la raison par suite de son arrestation et celle de cette chère Mademoiselle Louise.
-Et même, reprit Anastasie, et même que je regrette toujours que l’écuellée de soupe brûlante que j’ai jetée sur le dos des recors n’aurait pas été du plomb fondu… n’est-ce pas, vieux chéri, du pur plomb fondu ?
-C’est vrai.
-Je dois rendre ce juste hommage à l’affection que mon épouse avait vouée aux Morel.
+Môssieur, dit Pipelet en s’inclinant gravement,
+l’homme doit s’entraider ici-bas… il est frère…
+sans compter que le père Morel était la crème des honnêtes gens… avant qu’il n’ait perdu la raison par suite de son arrestation et celle de cette chère Mademoiselle Louise.
+Et même, reprit Anastasie, et même que je regrette toujours que l’écuellée de soupe brûlante que j’ai jetée sur le dos des recors n’aurait pas été du plomb fondu
+n’est-ce pas, vieux chéri, du pur plomb fondu ?
+C’est vrai. Je dois rendre ce juste hommage à l’affection que mon épouse avait vouée aux Morel.
 Si vous ne craignez pas, madame, dit le docteur Herbin à la mère de Germain, la vue des aliénés, nous traverserons plusieurs cours pour nous rendre au bâtiment extérieur où j’ai jugé à propos de faire conduire Morel et j’ai donné l’ordre ce matin qu’on ne le menât pas à la ferme comme à l’ordinaire.
 À la ferme, monsieur ? dit Madame Georges, il y a une ferme ici ?
 Cela vous surprend, madame ? je le conçois.
@@ -215,5 +217,6 @@ tu es audacieux et cruel parce que tu es fort, tu seras doux et humble parce que
 Ton cœur est fermé au repentir… un jour tu pleureras tes victimes…
 D’homme tu t’es fait bête féroce…
 Un jour ton intelligence se relèvera par l’expiation.
-Tu n’as pas même respecté ce que respectent les bêtes sauvages, leur femelle et leurs petits… après une longue vie consacrée à la rédemption de tes crimes, ta dernière prière sera pour supplier Dieu de t’accorder le bonheur inespéré de mourir entre ta femme et ton fils…
-Nous allons passer devant la cour des idiots, et nous arriverons au bâtiment où se trouve Morel, dit le docteur en sortant de la cour où était le Maître d’école.
+Tu n’as pas même respecté ce que respectent les bêtes sauvages, leur femelle et leurs petits… après une longue vie consacrée à la rédemption de tes crimes
+ta dernière prière sera pour supplier Dieu de t’accorder le bonheur inespéré de mourir entre ta femme et ton fils…
+Nous allons passer dans la cour des idiots, et nous arriverons au bâtiment où se trouve Morel, dit le docteur en sortant de la cour où était le Maître d’école.

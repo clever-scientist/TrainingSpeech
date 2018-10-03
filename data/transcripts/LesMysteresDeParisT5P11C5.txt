@@ -9,17 +9,16 @@ C’est un cœur d’or, et notre chère enfant l’apprécie comme nous, ajouta
 Puis, frappé de sa pâleur et de son accablement, il s’écria.
 Mais qu’as-tu donc ?
 Hélas !… quel douloureux contraste entre ma position et celle de Rigolette…
-Travail et sagesse.
-Honneur et bonheur, ces quatre mots disent tout ce qu’a été… tout ce que doit être sa vie…
+Travail et sagesse. Honneur et bonheur, ces quatre mots disent tout ce qu’a été… tout ce que doit être sa vie…
 Jeune fille laborieuse et sage, épouse chérie, heureuse mère, femme honorée… telle est sa destinée ! tandis que moi…
-Grand dieu !
-Que dis-tu ?
-Grâce… mon bon père.
-Ne m’accusez pas d’ingratitude… mais, malgré votre ineffable tendresse, malgré celle de ma seconde mère, malgré les respects et les splendeurs dont je suis entourée… malgré votre puissance souveraine, ma honte est incurable…
+Grand dieu ! Que dis-tu ?
+Grâce… mon bon père. Ne m’accusez pas d’ingratitude…
+mais, malgré votre ineffable tendresse, malgré celle de ma seconde mère, malgré les respects et les splendeurs dont je suis entourée… malgré votre puissance souveraine, ma honte est incurable…
 Rien ne peut anéantir le passé…
 Encore une fois, pardonnez-moi, mon père… je vous l’ai caché jusqu’à présent… mais le souvenir de ma dégradation première me désespère et me tue…
 Clémence, vous l’entendez !… s’écria Rodolphe avec désespoir.
-Mais, malheureuse enfant ! dit Clémence en prenant affectueusement la main de Fleur-de-Marie dans les siennes, notre tendresse, l’affection de ceux qui vous entourent, et que vous méritez, tout ne vous prouve-t-il pas que ce passé ne doit plus être pour vous qu’un vain et mauvais songe ?
+Mais, malheureuse enfant ! dit Clémence en prenant affectueusement la main de Fleur-de-Marie dans les siennes
+notre tendresse, l’affection de ceux qui vous entourent, et que vous méritez, tout ne vous prouve-t-il pas que ce passé ne doit plus être pour vous qu’un vain et mauvais songe ?
 Oh ! fatalité… fatalité ! reprit Rodolphe.
 Maintenant je maudis mes craintes, mon silence.
 cette funeste idée, depuis longtemps enracinée dans son esprit, y a fait à notre insu d’affreux ravages, et il est trop tard pour combattre cette déplorable erreur…
@@ -50,8 +49,7 @@ L’avenir m’éblouissait.
 un père à adorer, une seconde mère à chérir doublement, car elle devait remplacer la mienne… que je n’avais jamais connue…
 Et puis… je dois tout avouer, mon orgueil s’exaltait malgré moi, tant j’étais honorée de vous appartenir.
 Lorsque le petit nombre de personnes de votre maison qui, à Paris, avaient occasion de me parler, m’appelaient Altesse… je ne pouvais m’empêcher d’être fière de ce titre.
-Si alors je pensais quelquefois vaguement au passé, c’était pour me dire.
-Moi, jadis, si avilie, je suis la fille chérie d’un prince souverain que chacun bénit et révère.
+Si alors je pensais quelquefois vaguement au passé, c’était pour me dire. Moi, jadis, si avilie, je suis la fille chérie d’un prince souverain que chacun bénit et révère.
 Moi, jadis si misérable, je jouis de toutes les splendeurs du luxe et d’une existence presque royale !
 Hélas ! que voulez-vous, mon père, ma fortune était si imprévue… votre puissance m’entourait d’un si splendide éclat, que j’étais excusable, peut-être de me laisser aveugler ainsi.
 Excusable !… mais rien de plus naturel, pauvre ange aimé.
@@ -66,14 +64,12 @@ Mais dites-nous donc, mon enfant, reprit Clémence, qui a pu changer en tristess
 Hélas ! une circonstance bien funeste et bien imprévue !…
 Quelle circonstance ?…
 Vous vous rappelez, mon père…, dit Fleur-de-Marie, ne pouvant vaincre un frémissement d’horreur, vous vous rappelez la scène terrible qui a précédé notre départ de Paris… lorsque votre voiture a été arrêtée près de la barrière ?
-Oui…, répondit tristement Rodolphe.
-Brave Chourineur !…
+Oui…, répondit tristement Rodolphe. Brave Chourineur !…
 Après m’avoir encore une fois sauvé la vie, il est mort là… devant nous… en disant.
 Le ciel est juste… j’ai tué, on me tue !…
 Eh bien !… mon père, au moment où ce malheureux expirait, savez-vous qui j’ai vu… me regarder fixement ?…
 Oh ! ce regard… ce regard… il m’a toujours poursuivie depuis, ajouta Fleur-de-Marie en frissonnant.
-Quel regard ?
-De qui parles-tu ? s’écria Rodolphe.
+Quel regard ? De qui parles-tu ? s’écria Rodolphe.
 De l’ogresse du tapis-franc…, murmura Fleur-de-Marie.
 Ce monstre ! tu l’as revu ?
 Et où cela ?
@@ -95,7 +91,8 @@ Il a fallu, pour t’en arracher, le hasard qui t’a placée sur mon chemin.
 Et puis enfin, mon enfant, votre père vous le dit, vous étiez victime et non complice de cette infamie ! s’écria Clémence.
 Mais cette infamie… je l’ai subie… ma mère, reprit douloureusement Fleur-de-Marie.
 Rien ne peut anéantir ces affreux souvenirs…
-Sans cesse ils me poursuivent, non plus comme autrefois au milieu des paisibles habitants d’une ferme, ou des femmes dégradées, mes compagnes de Saint-Lazare… mais ils me poursuivront jusque dans ce palais… peuplé de l’élite de l’Allemagne…
+Sans cesse ils me poursuivent, non plus comme autrefois au milieu des paisibles habitants d’une ferme, ou des femmes dégradées, mes compagnes de Saint-Lazare…
+mais ils me poursuivront jusque dans ce palais… peuplé de l’élite de l’Allemagne…
 Ils me poursuivent enfin jusque dans les bras de mon père, jusque sur les marches de son trône.
 Et Fleur-de-Marie fondit en larmes.
 Rodolphe et Clémence restèrent muets devant cette effrayante expression d’un remords invincible.
@@ -107,7 +104,11 @@ Aux yeux de toute une cour, la sœur d’un empereur a daigné rattacher mon ban
 Oh ! mon père, pardonnez-moi.
 Mais plus ma position s’est élevée… plus j’ai été frappée de la dégradation profonde où j’étais tombée.
 À chaque hommage qu’on me rend, je me sens coupable d’une profanation.
-Songez-y donc, mon Dieu ! après avoir été ce que j’ai été… souffrir que des vieillards s’inclinent devant moi… souffrir que de nobles jeunes filles, que des femmes justement respectées se trouvent flattées de m’entourer… souffrir enfin que des princesses, doublement augustes et par l’âge et par leur caractère sacerdotal, me comblent de prévenances et d’éloges… cela n’est-il pas impie et sacrilège !
+Songez-y donc, mon Dieu ! après avoir été ce que j’ai été…
+souffrir que des vieillards s’inclinent devant moi…
+souffrir que de nobles jeunes filles, que des femmes justement respectées se trouvent flattées de m’entourer…
+souffrir enfin que des princesses, doublement augustes et par l’âge et par leur caractère sacerdotal, me comblent de prévenances et d’éloges
+cela n’est-il pas impie et sacrilège !
 Et puis, si vous saviez, mon père, ce que j’ai souffert, ce que je souffre encore chaque jour en me disant.
 Si Dieu voulait que le passé fût connu… avec quel mépris mérité on traiterait celle qu’à cette heure on élève si haut !…
 Quelle juste et effrayante punition !
@@ -131,24 +132,30 @@ D’après l’excessive délicatesse de ton cœur, j’aurais dû les deviner�
 Et pourtant… que pouvais-je faire ?…
 Il était de mon devoir de te reconnaître solennellement pour ma fille… alors ces respects, dont l’hommage t’est si douloureux, venaient nécessairement t’entourer…
 Oui, mais j’ai eu un tort… j’ai été, vois-tu, trop orgueilleux de toi… j’ai trop voulu jouir du charme que ta beauté, que ton esprit, que ton caractère inspiraient à tous ceux qui t’approchaient…
-J’aurais dû cacher mon trésor… vivre presque dans la retraite avec Clémence et toi… renoncer à ces fêtes, à ces réceptions nombreuses où j’aimais tant à te voir briller… croyant follement t’élever si haut… si haut… que le passé disparaîtrait entièrement à tes yeux…
+J’aurais dû cacher mon trésor…
+vivre presque dans la retraite avec Clémence et toi…
+renoncer à ces fêtes, à ces réceptions nombreuses où j’aimais tant à te voir briller… croyant follement t’élever si haut… si haut… que le passé disparaîtrait entièrement à tes yeux…
 Mais hélas ! le contraire est arrivé… et, comme tu me l’as dit, plus tu t’es élevée, plus l’abîme dont je t’ai retirée t’a paru sombre et profond…
 Encore une fois, c’est ma faute… j’avais pourtant cru bien faire !… dit Rodolphe en essuyant ses larmes, mais je me suis trompé…
 Et puis, je me suis cru pardonné trop tôt… la vengeance de Dieu n’est pas satisfaite… elle me poursuit encore dans le bonheur de ma fille !…
 Quelques coups discrètement frappés à la porte du salon qui précédait l’oratoire de Fleur-de-Marie interrompirent ce triste entretien.
 Rodolphe se leva et entr’ouvrit la porte.
 Il vit Murph, qui lui dit.
-Je demande pardon à Votre Altesse Royale de venir la déranger.
-Mais un courrier du prince d’Herkaüsen-Oldenzaal vient d’apporter cette lettre qui, dit-il, est très importante et doit être sur-le-champ remise à Votre Altesse Royale.
+Je demande pardon à Votre Altesse Royale de venir la déranger. Mais un courrier du prince d’Herkaüsen-Oldenzaal vient d’apporter cette lettre qui, dit-il, est très importante et doit être sur-le-champ remise à Votre Altesse Royale.
 Merci, mon bon Murph.
 Ne t’éloigne pas, lui dit Rodolphe avec un soupir.
 Tout à l’heure j’aurai besoin de causer avec toi.
 Et le prince, ayant fermé la porte, resta un moment dans le salon pour y lire la lettre que Murph venait de lui remettre.
 Elle était ainsi conçue.
 Monseigneur,
-Puis-je espérer que les liens de parenté qui m’attachent à Votre Altesse Royale et que l’amitié dont elle a toujours daigné m’honorer excuseront une démarche qui serait d’une grande témérité si elle ne m’était pas imposée par une conscience d’honnête homme ?
-Il y a quinze mois, monseigneur, vous reveniez de France, ramenant avec vous une fille d’autant plus chérie que vous l’aviez crue perdue pour toujours, tandis qu’au contraire elle n’avait jamais quitté sa mère, que vous avez épousée à Paris in extremis, afin de légitimer la naissance de la princesse Amélie, qui est ainsi l’égale des autres Altesses de la Confédération germanique.
-Sa naissance est donc souveraine, sa beauté incomparable, son cœur est aussi digne de sa naissance que son esprit est digne de sa beauté, ainsi que me l’a écrit ma sœur l’abbesse de Sainte-Hermangilde, qui a souvent l’honneur de voir la fille bien-aimée de Votre Altesse Royale.
+Puis-je espérer que les liens de parenté qui m’attachent à Votre Altesse Royale et que l’amitié dont elle a toujours daigné m’honorer excuseront une démarche qui serait d’une grande témérité
+si elle ne m’était pas imposée par une conscience d’honnête homme ?
+Il y a quinze mois, monseigneur, vous reveniez de France, ramenant avec vous une fille d’autant plus chérie que vous l’aviez crue perdue pour toujours
+tandis qu’au contraire elle n’avait jamais quitté sa mère, que vous avez épousée à Paris in extremis, afin de légitimer la naissance de la princesse Amélie
+qui est ainsi l’égale des autres Altesses de la Confédération germanique.
+Sa naissance est donc souveraine
+sa beauté incomparable
+son cœur est aussi digne de sa naissance que son esprit est digne de sa beauté, ainsi que me l’a écrit ma sœur l’abbesse de Sainte-Hermangilde, qui a souvent l’honneur de voir la fille bien-aimée de Votre Altesse Royale.
 Maintenant, monseigneur, j’aborderai franchement le sujet de cette lettre, puisque malheureusement une maladie grave me retient à Oldenzaal, et m’empêche de se rendre auprès de Votre Altesse Royale.
 Pendant le temps que mon fils a passé à Gerolstein, il a vu presque chaque jour la princesse Amélie, il l’aime éperdument, mais il lui a toujours caché son amour.
 J’ai cru devoir, monseigneur, vous en instruire.
