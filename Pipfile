@@ -24,11 +24,7 @@ datadiff = "*"
 webrtcvad = "*"
 
 [dev-packages]
-ipython = "*"
 diff-highlight = "*"
-prompt-toolkit = ">=2.0.4"
-jupyter = "*"
-seaborn = "*"
 
 [requires]
 python_version = "3.6"

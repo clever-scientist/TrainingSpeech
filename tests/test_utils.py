@@ -317,8 +317,8 @@ BUILD_ALIGNMENT_TESTS = [
         'Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.',
         'Non, dit-elle.',
     ], [], [
-         dict(begin=0.0, end=8.87, text='Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.'),
-         dict(warn=True, begin=8.815, end=20.765, text='Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.'),
+         dict(begin=0.0, end=7.61, text='Derrière elle, dans l’ombre, se dessinait la forme d’un homme dont il était impossible de distinguer le visage.'),
+         dict(warn=True, begin=7.765, end=20.765, text='Franz interrompit la conversation d’Albert et de la comtesse pour demander à cette dernière si elle connaissait la belle Albanaise qui était si digne d’attirer non seulement l’attention des hommes, mais encore des femmes.'),
          dict(begin=21.205, end=23.24, text='Non, dit-elle.'),
      ]),
 
