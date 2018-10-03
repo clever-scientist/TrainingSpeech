@@ -572,8 +572,8 @@ def release(audio_rate, language):
 
                 fragments = []
                 for source_fragments in executor.map(_process_source, sources):
-                    # skip speeches longer than 15s
-                    fragments += [f for f in source_fragments if f['end'] - f['begin'] <= 15]
+                    # skip empty speeches and longer than 15s
+                    fragments += [f for f in source_fragments if 0.1 <= f['end'] - f['begin'] <= 15]
 
         # generate fragments
         p_label = f'cut audio fragments'
