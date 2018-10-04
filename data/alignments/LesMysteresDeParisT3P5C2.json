@@ -764,15 +764,15 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 669.16,
+    "disabled": false,
     "end": 677.854,
     "text": "Soyez tranquille, nous renouerons bient\u00f4t quelque myst\u00e9rieuse entreprise, et le marquis sera bien fin s\u2019il la d\u00e9couvre."
   },
   {
     "approved": true,
-    "begin": 678.248,
-    "end": 686.96,
-    "text": "Apr\u00e8s avoir accompagn\u00e9 Rodolphe jusqu\u2019\u00e0 sa voiture pour le remercier encore, le marquis rentra chez lui sans revoir Cl\u00e9mence."
+    "begin": 678.2479999999999,
+    "end": 686.928,
+    "text": "Apr\u00e8s avoir accompagn\u00e9 Rodolphe jusqu\u2019\u00e0 sa voiture pour le remercier encore, le mari rentra chez lui sans revoir Cl\u00e9mence."
   }
 ]

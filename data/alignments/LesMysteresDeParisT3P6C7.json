@@ -1844,29 +1844,35 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1678.31,
-    "end": 1689.182,
-    "text": "Aveugl\u00e9ment prodigue, parce qu\u2019il est confiant et g\u00e9n\u00e9reux, en tout, partout et toujours tr\u00e8s grand seigneur, je crains qu\u2019on n\u2019abuse de sa bont\u00e9."
+    "disabled": false,
+    "end": 1683.6299999999999,
+    "text": "Aveugl\u00e9ment prodigue, parce qu\u2019il est confiant et g\u00e9n\u00e9reux, en tout"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 1683.61,
+    "disabled": false,
+    "end": 1689.1499999999999,
+    "text": "partout et toujours tr\u00e8s grand seigneur, je crains qu\u2019on n\u2019abuse de sa bont\u00e9."
+  },
+  {
+    "approved": true,
     "begin": 1689.7,
-    "end": 1693.538,
-    "text": "Si vous saviez ce qu\u2019il y a de noblesse dans ce c\u0153ur !"
+    "end": 1693.5,
+    "text": "Si vous saviez ce qu\u2019il y a de noblesse dans son c\u0153ur !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1693.42,
+    "disabled": false,
     "end": 1704.65,
     "text": "Je n\u2019ai jamais os\u00e9 le sermonner au sujet de ses d\u00e9penses et de son d\u00e9sordre, d\u2019abord parce que je suis au moins aussi folle que lui, et puis\u2026 pour d\u2019autres raisons."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1704.324,
+    "disabled": false,
     "end": 1707.362,
     "text": "Mais vous, au contraire, vous pourriez\u2026"
   },

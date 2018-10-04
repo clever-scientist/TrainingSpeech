@@ -699,29 +699,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 705.512,
+    "disabled": false,
     "end": 716.638,
     "text": "Et quand un homme comme lui vient trouver un autre homme, lui rappelle la parole donn\u00e9e, et que cet homme manque \u00e0 sa parole, il a le droit d\u2019exiger en place qu\u2019on lui donne au moins une bonne raison."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 717.672,
-    "end": 721.886,
-    "text": "Danglars \u00e9tait l\u00e2che, mais il ne le voulait point para\u00eetre."
+    "begin": 717.6719999999999,
+    "end": 721.872,
+    "text": "Danglars \u00e9tait l\u00e2che, mais il ne voulait point le para\u00eetre."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 721.896,
+    "disabled": false,
     "end": 724.678,
     "text": "il fut piqu\u00e9 du ton que Morcerf venait de prendre."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 724.48,
+    "disabled": false,
     "end": 728.542,
     "text": "Aussi n\u2019est-ce pas la bonne raison qui me manque, r\u00e9pliqua-t-il."
   },
@@ -1529,10 +1528,9 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1317.99,
-    "end": 1324.13,
-    "text": "Tous deux mont\u00e8rent dans le coup\u00e9 de Monte-Cristo qui, au bout de quelques instants, les eut d\u00e9pos\u00e9s \u00e0 la porte du num\u00e9rotrente."
+    "end": 1324.11,
+    "text": "Tous deux mont\u00e8rent dans le coup\u00e9 de Monte-Cristo qui, au bout de quelques instants, les eut d\u00e9pos\u00e9s \u00e0 la porte du num\u00e9ro trente."
   },
   {
     "approved": true,

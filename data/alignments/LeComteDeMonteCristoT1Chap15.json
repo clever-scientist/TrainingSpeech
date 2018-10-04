@@ -72,36 +72,33 @@
   {
     "approved": true,
     "begin": 66.642,
-    "end": 69.62,
-    "text": "Rien de tout cela ne lui fut accord\u00e9."
+    "disabled": false,
+    "end": 72.6,
+    "text": "Rien de tout cela ne lui fut accord\u00e9. Mais n\u2019importe, il demandait toujours."
   },
   {
     "approved": true,
-    "begin": 69.714,
-    "end": 72.82,
-    "text": "Mais n\u2019importe, il demandait toujours."
-  },
-  {
-    "approved": true,
-    "begin": 73.17,
-    "end": 80.372,
+    "begin": 73.31,
+    "end": 80.25999999999999,
     "text": "Il s\u2019\u00e9tait habitu\u00e9 \u00e0 parler \u00e0 son nouveau ge\u00f4lier, quoiqu\u2019il f\u00fbt encore, s\u2019il \u00e9tait possible, plus muet que l\u2019ancien."
   },
   {
     "approved": true,
-    "begin": 80.338,
-    "end": 85.236,
+    "begin": 80.47999999999999,
+    "end": 85.19,
     "text": "Mais parler \u00e0 un homme, m\u00eame \u00e0 un muet, \u00e9tait encore un plaisir."
   },
   {
     "approved": true,
     "begin": 85.458,
+    "disabled": false,
     "end": 89.588,
     "text": "Dant\u00e8s parlait pour entendre le son de sa propre voix."
   },
   {
     "approved": true,
     "begin": 89.81,
+    "disabled": false,
     "end": 94.836,
     "text": "il avait essay\u00e9 de parler lorsqu\u2019il \u00e9tait seul, mais alors il se faisait peur."
   },
@@ -156,14 +153,20 @@
   {
     "approved": true,
     "begin": 159.57,
-    "end": 163.526,
-    "text": "Il transmit la demande du num\u00e9ro trente-quatre au gouverneur."
+    "end": 163.02,
+    "text": "Il transmit la demande du num\u00e9ro trente-quatre au gouverneur"
   },
   {
     "approved": true,
-    "begin": 163.328,
-    "end": 175.686,
-    "text": "Mais celui-ci, prudent comme s\u2019il e\u00fbt \u00e9t\u00e9 un homme politique, se figura que Dant\u00e8s voulait ameuter les prisonniers, tramer quelque complot, s\u2019aider d\u2019un ami dans quelque tentative d\u2019\u00e9vasion, et il refusa."
+    "begin": 163.2,
+    "end": 169.97,
+    "text": "Mais celui-ci, prudent comme s\u2019il e\u00fbt \u00e9t\u00e9 un homme politique, se figura que Dant\u00e8s voulait ameuter les prisonniers"
+  },
+  {
+    "approved": true,
+    "begin": 169.7,
+    "end": 175.65,
+    "text": "tramer quelque complot, s\u2019aider d\u2019un ami dans quelque tentative d\u2019\u00e9vasion, et il refusa."
   },
   {
     "approved": true,
@@ -234,12 +237,12 @@
   {
     "approved": true,
     "begin": 244.864,
-    "end": 249.67,
+    "end": 249.07,
     "text": "Malgr\u00e9 ses pri\u00e8res ferventes, Dant\u00e8s demeura prisonnier."
   },
   {
     "approved": true,
-    "begin": 249.216,
+    "begin": 249.07,
     "end": 254.662,
     "text": "Alors son esprit devint sombre, un nuage s\u2019\u00e9paissit devant ses yeux."
   },
@@ -446,13 +449,13 @@
   {
     "approved": true,
     "begin": 517.97,
-    "end": 526.708,
-    "text": "Je faisais tous mes efforts pour y \u00e9chapper, et je r\u00e9unissais toutes les forces de l\u2019homme et toute l\u2019intelligence du marin pour lutter avec Dieu !\u2026"
+    "end": 527.47,
+    "text": "Je faisais tous mes efforts pour y \u00e9chapper, et je r\u00e9unissais toutes les forces de l\u2019homme et toute l\u2019intelligence du marin pour lutter avec Dieu !"
   },
   {
     "approved": true,
-    "begin": 526.546,
-    "end": 532.724,
+    "begin": 527.13,
+    "end": 532.69,
     "text": "C\u2019est que j\u2019\u00e9tais heureux alors, c\u2019est que revenir \u00e0 la vie, c\u2019\u00e9tait revenir au bonheur."
   },
   {
@@ -470,26 +473,20 @@
   {
     "approved": true,
     "begin": 541.312,
-    "end": 549.62,
-    "text": "C\u2019est que je m\u2019indignais, moi qui me croyais une cr\u00e9ature faite \u00e0 l\u2019image de Dieu de servir, apr\u00e8s ma mort, de p\u00e2ture aux go\u00e9lands et aux vautours."
+    "end": 549.54,
+    "text": "C\u2019est que je m\u2019indignais, moi qui me croyais une cr\u00e9ature faite \u00e0 l\u2019image de Dieu de servir, apr\u00e8s ma mort, de p\u00e2ture aux go\u00e9lands et aux vautours"
   },
   {
     "approved": true,
-    "begin": 549.33,
-    "end": 552.262,
+    "begin": 549.43,
+    "end": 552.192,
     "text": "Mais aujourd\u2019hui c\u2019est autre chose."
   },
   {
     "approved": true,
-    "begin": 551.808,
-    "end": 559.348,
-    "text": "j\u2019ai perdu tout ce qui pouvait me faire aimer la vie, aujourd\u2019hui la mort me sourit comme une nourrice \u00e0 l\u2019enfant qu\u2019elle va bercer."
-  },
-  {
-    "approved": true,
-    "begin": 559.058,
-    "end": 574.836,
-    "text": "Mais aujourd\u2019hui je meurs \u00e0 ma guise, et je m\u2019endors las et bris\u00e9, comme je m\u2019endormais apr\u00e8s un de ces soirs de d\u00e9sespoir et de rage pendant lesquels j\u2019avais compt\u00e9 trois mille tours dans ma chambre, c\u2019est-\u00e0-dire trente mille pas, c\u2019est-\u00e0-dire \u00e0 peu pr\u00e8s dix lieues."
+    "begin": 551.86,
+    "end": 574.832,
+    "text": "j\u2019ai perdu tout ce qui pouvait me faire aimer la vie, aujourd\u2019hui la mort me sourit comme une nourrice \u00e0 l\u2019enfant qu\u2019elle va bercer. Mais aujourd\u2019hui je meurs \u00e0 ma guise, et je m\u2019endors las et bris\u00e9, comme je m\u2019endormais apr\u00e8s un de ces soirs de d\u00e9sespoir et de rage pendant lesquels j\u2019avais compt\u00e9 trois mille tours dans ma chambre, c\u2019est-\u00e0-dire trente mille pas, c\u2019est-\u00e0-dire \u00e0 peu pr\u00e8s dix lieues."
   },
   {
     "approved": true,
@@ -644,14 +641,20 @@
   {
     "approved": true,
     "begin": 732.672,
-    "end": 739.444,
-    "text": "Alors, il approchait ses dents du repas que, Tantale volontaire, il \u00e9loignait lui-m\u00eame de sa bouche."
+    "end": 739.34,
+    "text": "Alors, il approchait ses dents du repas que, Tantale volontaire, il \u00e9loignait lui-m\u00eame de sa bouche"
   },
   {
     "approved": true,
-    "begin": 739.282,
-    "end": 748.788,
-    "text": "Mais alors le souvenir de son serment lui revenait \u00e0 l\u2019esprit, et cette g\u00e9n\u00e9reuse nature avait trop peur de se m\u00e9priser soi-m\u00eame pour manquer \u00e0 son serment."
+    "begin": 739.44,
+    "end": 742.912,
+    "text": "Mais alors le souvenir de son serment lui revenait \u00e0 l\u2019esprit"
+  },
+  {
+    "approved": true,
+    "begin": 742.62,
+    "end": 748.752,
+    "text": "et cette g\u00e9n\u00e9reuse nature avait trop peur de se m\u00e9priser soi-m\u00eame pour manquer \u00e0 son serment."
   },
   {
     "approved": true,
@@ -716,20 +719,34 @@
   {
     "approved": true,
     "begin": 797.184,
+    "disabled": false,
     "end": 803.956,
     "text": "Tout \u00e0 coup le soir, vers neuf heures il entendit un bruit sourd \u00e0 la paroi du mur contre lequel il \u00e9tait couch\u00e9."
   },
   {
     "approved": true,
     "begin": 803.794,
-    "end": 813.172,
-    "text": "Tant d\u2019animaux immondes \u00e9taient venus faire leur bruit dans cette prison que, peu \u00e0 peu, Edmond avait habitu\u00e9 son sommeil \u00e0 ne pas se troubler de si peu de chose."
+    "disabled": false,
+    "end": 808.8199999999999,
+    "text": "Tant d\u2019animaux immondes \u00e9taient venus faire leur bruit dans cette prison que peu \u00e0 peu"
   },
   {
     "approved": true,
-    "begin": 812.754,
-    "end": 827.334,
-    "text": "Mais cette fois, soit que ses sens fussent exalt\u00e9s par l\u2019abstinence, soit que r\u00e9ellement le bruit f\u00fbt plus fort que de coutume, soit que dans ce moment supr\u00eame tout acqu\u00eet de l\u2019importance, Edmond souleva sa t\u00eate pour mieux entendre."
+    "begin": 808.5699999999999,
+    "end": 813.06,
+    "text": "Edmond avait habitu\u00e9 son sommeil \u00e0 ne pas se troubler de si peu de chose."
+  },
+  {
+    "approved": true,
+    "begin": 812.9,
+    "end": 821.73,
+    "text": "Mais cette fois soit que ses sens fussent exalt\u00e9s par l\u2019abstinence soit que r\u00e9ellement le bruit f\u00fbt plus fort que de coutume"
+  },
+  {
+    "approved": true,
+    "begin": 821.67,
+    "end": 827.31,
+    "text": "soit que dans ce moment supr\u00eame tout acqu\u00eet de l\u2019importance, Edmond souleva sa t\u00eate pour mieux entendre."
   },
   {
     "approved": true,
@@ -758,13 +775,13 @@
   {
     "approved": true,
     "begin": 860.242,
-    "end": 873.716,
-    "text": "Qui pouvait savoir si un de ses amis, un de ces \u00eatres bien-aim\u00e9s auxquels il avait song\u00e9 si souvent qu\u2019il y avait us\u00e9 sa pens\u00e9e, ne s\u2019occupait pas de lui en ce moment et ne cherchait pas \u00e0 rapprocher la distance qui les s\u00e9parait ?"
+    "end": 873.6,
+    "text": "Qui pouvait savoir si un de ses amis, un de ces \u00eatres bien-aim\u00e9s auxquels il avait song\u00e9 si souvent qu\u2019il y avait us\u00e9 sa pens\u00e9e, ne s\u2019occupait pas de lui en ce moment et ne cherchait pas \u00e0 rapprocher la distance qui les s\u00e9parait"
   },
   {
     "approved": true,
-    "begin": 873.554,
-    "end": 879.86,
+    "begin": 873.7,
+    "end": 879.842,
     "text": "Mais non, sans doute Edmond se trompait, et c\u2019\u00e9tait un de ces r\u00eaves qui flottent \u00e0 la porte de la mort."
   },
   {
@@ -800,14 +817,26 @@
   {
     "approved": true,
     "begin": 902.098,
-    "end": 922.996,
-    "text": "Depuis huit jours \u00e0 peu pr\u00e8s qu\u2019il avait r\u00e9solu de mourir, quatre jours qu\u2019il avait commenc\u00e9 de mettre ce projet \u00e0 ex\u00e9cution, Edmond n\u2019avait point adress\u00e9 la parole \u00e0 cet homme, ne lui r\u00e9pondant pas quand il lui avait parl\u00e9 pour lui demander de quelle maladie il croyait \u00eatre atteint, et se retournant du c\u00f4t\u00e9 du mur quand il en \u00e9tait regard\u00e9 trop attentivement."
+    "end": 912.7,
+    "text": "Depuis huit jours \u00e0 peu pr\u00e8s qu\u2019il avait r\u00e9solu de mourir, quatre jours qu\u2019il avait commenc\u00e9 de mettre ce projet \u00e0 ex\u00e9cution, Edmond n\u2019avait point adress\u00e9 la parole \u00e0 cet homme"
   },
   {
     "approved": true,
-    "begin": 923.218,
-    "end": 935.238,
-    "text": "Mais aujourd\u2019hui, le ge\u00f4lier pouvait entendre ce bruissement sourd, s\u2019en alarmer, y mettre fin, et d\u00e9ranger ainsi peut-\u00eatre ce je ne sais quoi d\u2019esp\u00e9rance, dont l\u2019id\u00e9e seule charmait les derniers moments de Dant\u00e8s."
+    "begin": 912.38,
+    "end": 922.858,
+    "text": "ne lui r\u00e9pondant pas quand il lui avait parl\u00e9 pour lui demander de quelle maladie il croyait \u00eatre atteint, et se retournant du c\u00f4t\u00e9 du mur quand il en \u00e9tait regard\u00e9 trop attentivement"
+  },
+  {
+    "approved": true,
+    "begin": 923.35,
+    "end": 928.858,
+    "text": "Mais aujourd\u2019hui, le ge\u00f4lier pouvait entendre ce bruissement sourd, s\u2019en alarmer, y mettre fin"
+  },
+  {
+    "approved": true,
+    "begin": 928.6,
+    "end": 935.218,
+    "text": "et d\u00e9ranger ainsi peut-\u00eatre ce je ne sais quoi d\u2019esp\u00e9rance, dont l\u2019id\u00e9e seule charmait les derniers moments de Dant\u00e8s."
   },
   {
     "approved": true,
@@ -874,14 +903,8 @@
   {
     "approved": true,
     "begin": 1009.87,
-    "end": 1012.04,
-    "text": "Il \u00e9tait facile de s\u2019en assurer."
-  },
-  {
-    "approved": true,
-    "begin": 1011.714,
-    "end": 1014.898,
-    "text": "Mais comment risquer une question ?"
+    "end": 1014.87,
+    "text": "Il \u00e9tait facile de s\u2019en assurer. Mais comment risquer une question ?"
   },
   {
     "approved": true,
@@ -973,13 +996,19 @@
   {
     "approved": true,
     "begin": 1111.934,
-    "end": 1122.63,
-    "text": "Si le travailleur est un ouvrier ordinaire, je n\u2019ai qu\u2019\u00e0 frapper contre mon mur, aussit\u00f4t il cessera sa besogne pour t\u00e2cher de deviner quel est celui qui frappe et dans quel but il frappe."
+    "end": 1116.86,
+    "text": "Si le travailleur est un ouvrier ordinaire, je n\u2019ai qu\u2019\u00e0 frapper contre mon mur"
   },
   {
     "approved": true,
-    "begin": 1122.432,
-    "end": 1129.458,
+    "begin": 1116.73,
+    "end": 1123.054,
+    "text": "aussit\u00f4t il cessera sa besogne pour t\u00e2cher de deviner quel est celui qui frappe et dans quel but il frappe"
+  },
+  {
+    "approved": true,
+    "begin": 1122.98,
+    "end": 1129.454,
     "text": "Mais comme son travail sera non seulement licite, mais encore command\u00e9, il reprendra bient\u00f4t son travail."
   },
   {
@@ -1237,14 +1266,14 @@
   {
     "approved": true,
     "begin": 1408.21,
-    "end": 1410.928,
-    "text": "Edmond avait toute la nuit pour travailler."
+    "end": 1413.92,
+    "text": "Edmond avait toute la nuit pour travailler. Mais dans l\u2019obscurit\u00e9, la besogne allait mal"
   },
   {
     "approved": true,
-    "begin": 1410.51,
-    "end": 1420.152,
-    "text": "Mais dans l\u2019obscurit\u00e9, la besogne allait mal, car il lui fallait travailler \u00e0 t\u00e2tons, et il sentit bient\u00f4t qu\u2019il \u00e9moussait l\u2019instrument informe contre un gr\u00e8s plus dur."
+    "begin": 1413.6,
+    "end": 1420.13,
+    "text": "car il lui fallait travailler \u00e0 t\u00e2tons, et il sentit bient\u00f4t qu\u2019il \u00e9moussait l\u2019instrument informe contre un gr\u00e8s plus dur."
   },
   {
     "approved": true,
@@ -1315,14 +1344,8 @@
   {
     "approved": true,
     "begin": 1491.54,
-    "end": 1495.408,
-    "text": "Ces fragments \u00e9taient presque des atomes, c\u2019est vrai."
-  },
-  {
-    "approved": true,
-    "begin": 1494.99,
-    "end": 1500.53,
-    "text": "Mais au bout d\u2019une demi-heure, cependant, Dant\u00e8s en avait d\u00e9tach\u00e9 une poign\u00e9e \u00e0 peu pr\u00e8s."
+    "end": 1500.5,
+    "text": "Ces fragments \u00e9taient presque des atomes, c\u2019est vrai. Mais au bout d\u2019une demi-heure, cependant, Dant\u00e8s en avait d\u00e9tach\u00e9 une poign\u00e9e \u00e0 peu pr\u00e8s."
   },
   {
     "approved": true,
@@ -1699,14 +1722,8 @@
   {
     "approved": true,
     "begin": 1868.88,
-    "end": 1874.25,
-    "text": "Cependant, il ne se d\u00e9couragea point et continua de travailler toute la nuit."
-  },
-  {
-    "approved": true,
-    "begin": 1873.924,
-    "end": 1878.73,
-    "text": "Mais apr\u00e8s deux ou trois heures de labeur, il rencontra un obstacle."
+    "end": 1878.72,
+    "text": "Cependant, il ne se d\u00e9couragea point et continua de travailler toute la nuit. Mais apr\u00e8s deux ou trois heures de labeur, il rencontra un obstacle."
   },
   {
     "approved": true,
@@ -1867,14 +1884,8 @@
   {
     "approved": true,
     "begin": 1994.07,
-    "end": 1995.762,
-    "text": "Je suis innocent."
-  },
-  {
-    "approved": true,
-    "begin": 1995.6,
-    "end": 1997.552,
-    "text": "Mais de quoi vous accuse-t-on ?"
+    "end": 1997.55,
+    "text": "Je suis innocent. Mais de quoi vous accuse-t-on ?"
   },
   {
     "approved": true,
@@ -1891,14 +1902,8 @@
   {
     "approved": true,
     "begin": 2004.82,
-    "end": 2009.59,
-    "text": "Il a abdiqu\u00e9 \u00e0 Fontainebleau en mille huit cent quatorze et a \u00e9t\u00e9 rel\u00e9gu\u00e9 \u00e0 l\u2019\u00eele d\u2019Elbe."
-  },
-  {
-    "approved": true,
-    "begin": 2009.3,
-    "end": 2013.812,
-    "text": "Mais vous-m\u00eame, depuis quel temps \u00eates-vous donc ici, que vous ignorez tout cela ?"
+    "end": 2013.78,
+    "text": "Il a abdiqu\u00e9 \u00e0 Fontainebleau en mille huit cent quatorze et a \u00e9t\u00e9 rel\u00e9gu\u00e9 \u00e0 l\u2019\u00eele d\u2019Elbe. Mais vous-m\u00eame, depuis quel temps \u00eates-vous donc ici, que vous ignorez tout cela ?"
   },
   {
     "approved": true,
@@ -1934,18 +1939,20 @@
   {
     "approved": true,
     "begin": 2028.75,
-    "end": 2030.33,
+    "end": 2030.31,
     "text": "Au ras de terre."
   },
   {
     "approved": true,
     "begin": 2030.55,
+    "disabled": false,
     "end": 2032.2479999999998,
     "text": "Comment est-elle cach\u00e9e ?"
   },
   {
     "approved": true,
     "begin": 2031.83,
+    "disabled": false,
     "end": 2033.29,
     "text": "Derri\u00e8re mon lit."
   },
@@ -2000,24 +2007,32 @@
   {
     "approved": true,
     "begin": 2048.98,
-    "end": 2063.94,
-    "text": "Il y a que je me suis tromp\u00e9, que l\u2019imperfection de mes dessins m\u2019a abus\u00e9, que le d\u00e9faut d\u2019un compas m\u2019a perdu, qu\u2019une ligne d\u2019erreur sur mon plan a \u00e9quivalu \u00e0 quinze pieds en r\u00e9alit\u00e9, et que j\u2019ai pris le mur que vous creusez pour celui de la citadelle !"
+    "end": 2055.56,
+    "text": "Il y a que je me suis tromp\u00e9, que l\u2019imperfection de mes dessins m\u2019a abus\u00e9, que le d\u00e9faut d\u2019un compas m\u2019a perdu"
   },
   {
     "approved": true,
-    "begin": 2063.486,
-    "end": 2066.552,
+    "begin": 2055.47,
+    "end": 2064.4199999999996,
+    "text": "qu\u2019une ligne d\u2019erreur sur mon plan a \u00e9quivalu \u00e0 quinze pieds en r\u00e9alit\u00e9 et que j\u2019ai pris le mur que vous creusez pour celui de la citadelle!"
+  },
+  {
+    "approved": true,
+    "begin": 2064.3599999999997,
+    "end": 2066.5099999999998,
     "text": "Mais alors vous aboutissiez \u00e0 la mer ?"
   },
   {
     "approved": true,
     "begin": 2066.39,
+    "disabled": false,
     "end": 2068.592,
     "text": "C\u2019\u00e9tait ce que je voulais."
   },
   {
     "approved": true,
     "begin": 2068.43,
+    "disabled": false,
     "end": 2070.52,
     "text": "Et si vous aviez r\u00e9ussi !"
   },
@@ -2158,14 +2173,8 @@
   {
     "approved": true,
     "begin": 2169.086,
-    "end": 2173.682,
-    "text": "Vous avez bien fait de me prier, car j\u2019allais former un autre plan et m\u2019\u00e9loigner de vous."
-  },
-  {
-    "approved": true,
-    "begin": 2173.52,
-    "end": 2177.86,
-    "text": "Mais votre \u00e2ge me rassure, je vous rejoindrai, attendez-moi."
+    "end": 2177.846,
+    "text": "Vous avez bien fait de me prier, car j\u2019allais former un autre plan et m\u2019\u00e9loigner de vous. Mais votre \u00e2ge me rassure, je vous rejoindrai, attendez-moi."
   },
   {
     "approved": true,
@@ -2182,14 +2191,8 @@
   {
     "approved": true,
     "begin": 2180.82,
-    "end": 2183.03,
-    "text": "Laissez-moi vous donner le signal."
-  },
-  {
-    "approved": true,
-    "begin": 2183.38,
-    "end": 2190.068,
-    "text": "Mais vous ne m\u2019abandonnerez pas, vous ne me laisserez pas seul, vous viendrez \u00e0 moi, ou vous me permettrez d\u2019aller \u00e0 vous ?"
+    "end": 2190.06,
+    "text": "Laissez-moi vous donner le signal. Mais vous ne m\u2019abandonnerez pas, vous ne me laisserez pas seul, vous viendrez \u00e0 moi, ou vous me permettrez d\u2019aller \u00e0 vous ?"
   },
   {
     "approved": true,
@@ -2352,14 +2355,8 @@
   {
     "approved": true,
     "begin": 2295.76,
-    "end": 2298.868,
-    "text": "On le condamnerait \u00e0 mort, il le savait bien."
-  },
-  {
-    "approved": true,
-    "begin": 2298.45,
-    "end": 2304.504,
-    "text": "Mais n\u2019allait-il pas mourir d\u2019ennui et de d\u00e9sespoir au moment o\u00f9 ce bruit miraculeux l\u2019avait rendu \u00e0 la vie ?"
+    "end": 2304.48,
+    "text": "On le condamnerait \u00e0 mort, il le savait bien. Mais n\u2019allait-il pas mourir d\u2019ennui et de d\u00e9sespoir au moment o\u00f9 ce bruit miraculeux l\u2019avait rendu \u00e0 la vie ?"
   },
   {
     "approved": true,
@@ -2406,14 +2403,14 @@
   {
     "approved": true,
     "begin": 2340.31,
-    "end": 2344.13,
-    "text": "La nuit s\u2019\u00e9coula sans qu\u2019aucun bruit r\u00e9pond\u00eet \u00e0 sa fi\u00e9vreuse attente."
+    "end": 2347.6,
+    "text": "La nuit s\u2019\u00e9coula sans qu\u2019aucun bruit r\u00e9pond\u00eet \u00e0 sa fi\u00e9vreuse attente. Mais le lendemain, apr\u00e8s la visite du matin"
   },
   {
     "approved": true,
-    "begin": 2344.06,
+    "begin": 2347.37,
     "end": 2353.27,
-    "text": "Mais le lendemain, apr\u00e8s la visite du matin, et comme il venait d\u2019\u00e9carter son lit de la muraille, il entendit frapper trois coups \u00e0 intervalles \u00e9gaux."
+    "text": "et comme il venait d\u2019\u00e9carter son lit de la muraille, il entendit frapper trois coups \u00e0 intervalles \u00e9gaux."
   },
   {
     "approved": true,

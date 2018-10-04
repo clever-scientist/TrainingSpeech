@@ -9,8 +9,14 @@
     "approved": true,
     "approved_auto": true,
     "begin": 3.432,
-    "end": 15.71,
-    "text": "Dans cet h\u00f4tel de la rue Saint-Germain-des-Pr\u00e9s qu\u2019avait choisi pour sa m\u00e8re et pour lui Albert de Morcerf, le premier \u00e9tage, compos\u00e9 d\u2019un petit appartement complet, \u00e9tait lou\u00e9 \u00e0 un personnage fort myst\u00e9rieux."
+    "end": 12.790000000000001,
+    "text": "Dans cet h\u00f4tel de la rue Saint-Germain-des-Pr\u00e9s qu\u2019avait choisi pour sa m\u00e8re et pour lui Albert de Morcerf, le premier \u00e9tage, compos\u00e9 d\u2019un petit appartement complet"
+  },
+  {
+    "approved": true,
+    "begin": 12.62,
+    "end": 15.66,
+    "text": "\u00e9tait lou\u00e9 \u00e0 un personnage fort myst\u00e9rieux."
   },
   {
     "approved": true,
@@ -1419,29 +1425,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1315.074,
+    "disabled": false,
     "end": 1322.59,
     "text": "Nous les acceptons d\u2019autant plus que nous ne les avons pas, car ils sont, comme vous le savez, enterr\u00e9s dans le jardin de cette petite maison des All\u00e9es de Meilhan \u00e0 Marseille."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1323.24,
-    "end": 1325.28,
-    "text": "Avec deux cents francs."
+    "end": 1325.43,
+    "text": "Avez-vous deux cents francs, dit Albert"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1325.03,
-    "end": 1326.946,
-    "text": "Dit Albert, nous irons tous deux \u00e0 Marseille."
+    "begin": 1325.1100000000001,
+    "end": 1326.92,
+    "text": "nous irons tous deux \u00e0 Marseille."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1327.98,
+    "disabled": false,
     "end": 1331.294,
     "text": "Avec deux cents francs ! dit Merc\u00e9d\u00e8s, y songez-vous, Albert ?"
   },
