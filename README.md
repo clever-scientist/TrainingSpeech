@@ -7,7 +7,7 @@
  - using already available data (such as audio-books).
  
 
-Right now, data are extracted exclusively from audio-books and in French language. Let me know if you are intersted to contribute.
+Right now, data are extracted exclusively from audio-books and in French language. Let me know if you are intersted to contribute [by creating an issue](https://github.com/nicolaspanel/TrainingSpeech/issues/new).
 
 
 
