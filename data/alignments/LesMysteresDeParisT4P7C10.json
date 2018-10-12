@@ -1479,63 +1479,54 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1275.52,
+    "disabled": false,
     "end": 1281.506,
     "text": "Il y a trois jours, Madame d\u2019Orbigny est all\u00e9e te chercher pour t\u2019emmener ici empoisonner son mari."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1281.9,
-    "end": 1282.63,
-    "text": "S."
+    "end": 1286.74,
+    "text": "Son Altesse Royale est \u00e0 Paris, elle a les preuves de tout ce que j\u2019avance."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1282.56,
-    "end": 1286.752,
-    "text": "A. R. est \u00e0 Paris, elle a les preuves de tout ce que j\u2019avance."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1286.89,
-    "end": 1297.882,
-    "text": "Si tu avoues la v\u00e9rit\u00e9, afin de confondre cette mis\u00e9rable femme, tu peux esp\u00e9rer, non ta gr\u00e2ce, mais un adoucissement au ch\u00e2timent que tu m\u00e9rites."
+    "disabled": false,
+    "end": 1291.67,
+    "text": "Si tu avoues la v\u00e9rit\u00e9, afin de confondre cette mis\u00e9rable femme"
   },
   {
     "approved": true,
-    "begin": 1298.02,
-    "end": 1304.284,
-    "text": "Tu me suivras \u00e0 Paris, o\u00f9 je te d\u00e9poserai en lieu s\u00fbr jusqu\u2019\u00e0 ce que S."
+    "begin": 1291.5900000000001,
+    "disabled": false,
+    "end": 1297.8500000000001,
+    "text": "tu peux esp\u00e9rer, non ta gr\u00e2ce, mais un adoucissement au ch\u00e2timent que tu m\u00e9rites."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1304.04,
-    "end": 1305.954,
-    "text": "A. ait d\u00e9cid\u00e9 de toi."
+    "begin": 1298.0200000000002,
+    "disabled": false,
+    "end": 1306.0600000000002,
+    "text": "Tu me suivras \u00e0 Paris, o\u00f9 je te d\u00e9poserai en lieu s\u00fbr jusqu\u2019\u00e0 ce que Son Altesse ait d\u00e9cid\u00e9 de toi."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1306.22,
-    "end": 1308.898,
-    "text": "Sinon, de deux choses l\u2019une, ou S."
+    "begin": 1306.2000000000003,
+    "end": 1313.1600000000003,
+    "text": "Sinon, de deux choses l\u2019une, ou Son Altesse Royale fait demander et obtient ton extradition"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1308.78,
-    "end": 1317.73,
-    "text": "A. R. fait demander et obtient ton extradition, ou bien \u00e0 l\u2019instant m\u00eame j\u2019envoie chercher \u00e0 la ville voisine un magistrat."
+    "begin": 1313.2600000000002,
+    "end": 1317.6600000000003,
+    "text": "ou bien \u00e0 l\u2019instant m\u00eame j\u2019envoie chercher \u00e0 la ville voisine un magistrat."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1317.86,
+    "disabled": false,
     "end": 1327.452,
     "text": "Ce flacon renfermant du poison lui sera remis, on t\u2019arr\u00eatera sur-le-champ, on fera des perquisitions chez toi, rue du Temple."
   },
