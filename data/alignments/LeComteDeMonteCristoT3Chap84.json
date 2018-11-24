@@ -689,36 +689,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 701.288,
+    "disabled": false,
     "end": 705.094,
     "text": "Il y a, dit Albert, que j\u2019ai quelque chose de bris\u00e9 dans le c\u0153ur."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 704.768,
-    "end": 713.926,
+    "end": 713.888,
     "text": "\u00c9coutez, Beauchamp, on ne se s\u00e9pare pas ainsi en une seconde de ce respect, de cette confiance et de cet orgueil qu\u2019inspire \u00e0 un fils le nom sans tache de son p\u00e8re."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 713.728,
-    "end": 713.926,
-    "text": "Oh !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 713.728,
-    "end": 718.174,
+    "begin": 713.7280000000001,
+    "end": 718.168,
     "text": "Beauchamp, Beauchamp ! comment \u00e0 pr\u00e9sent vais-je aborder le mien ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 718.312,
+    "disabled": false,
     "end": 727.39,
     "text": "Reculerai-je donc mon front dont il approchera ses l\u00e8vres, ma main dont il approchera sa main ?\u2026 Tenez Beauchamp, je suis le plus malheureux des hommes."
   },

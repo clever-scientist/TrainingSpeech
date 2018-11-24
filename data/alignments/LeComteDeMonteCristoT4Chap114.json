@@ -15,8 +15,15 @@
     "approved": true,
     "approved_auto": true,
     "begin": 3.432,
-    "end": 15.814,
-    "text": "Au moment m\u00eame o\u00f9 le bateau \u00e0 vapeur du comte disparaissait derri\u00e8re le cap Morgiou, un homme, courant la poste sur la route de Florence \u00e0 Rome, venait de d\u00e9passer la petite ville d\u2019Aquapendente."
+    "end": 11.77,
+    "text": "Au moment m\u00eame o\u00f9 le bateau \u00e0 vapeur du comte disparaissait derri\u00e8re le cap Morgiou, un homme, courant la poste sur la route de Florence \u00e0 Rome"
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 11.46,
+    "end": 15.792,
+    "text": "venait de d\u00e9passer la petite ville d\u2019Aquapendente."
   },
   {
     "approved": true,
@@ -521,29 +528,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 397.928,
+    "disabled": false,
     "end": 399.838,
     "text": "Nous n\u2019en aurons jamais autant."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 399.72,
-    "end": 404.446,
-    "text": "Au moins, r\u00e9pondit philosophiquement Peppino, en aurons-nous quelques bribes."
+    "begin": 399.71999999999997,
+    "end": 404.44,
+    "text": "Au moins, r\u00e9pondit philosophiquement Peppino, en aurons-nous quelques bribes. Chut !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 404.2,
-    "end": 404.446,
-    "text": "Chut !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 404.2,
+    "disabled": false,
     "end": 405.982,
     "text": "Voici notre homme."
   },

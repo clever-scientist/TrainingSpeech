@@ -889,43 +889,35 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1248.87,
+    "disabled": false,
     "end": 1251.14,
     "text": "Mais comment veux-tu que je fasse, aussi ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1250.942,
-    "end": 1257.058,
+    "begin": 1250.9419999999998,
+    "disabled": false,
+    "end": 1257.022,
     "text": "Je ne puis pas laisser ta m\u00e8re toucher \u00e0 mes pierres, pour qu\u2019elle me perde encore un diamant, comme il y a un an."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1256.94,
-    "end": 1257.058,
-    "text": "Et Dieu sait\u2026"
+    "begin": 1256.9399999999998,
+    "end": 1263.0599999999997,
+    "text": "Et Dieu sait ce qu\u2019il nous co\u00fbte, ce diamant, et ce qu\u2019il nous co\u00fbtera peut-\u00eatre encore."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1256.94,
-    "end": 1263.066,
-    "text": "Dieu sait ce qu\u2019il nous co\u00fbte, ce diamant, et ce qu\u2019il nous co\u00fbtera peut-\u00eatre encore."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1263.46,
+    "disabled": false,
     "end": 1267.674,
     "text": "Et le lapidaire porta sa main \u00e0 son front d\u2019un air sombre."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1267.94,
+    "disabled": false,
     "end": 1271.648,
     "text": "Puis il ajouta, en s\u2019adressant \u00e0 un de ses enfants."
   },

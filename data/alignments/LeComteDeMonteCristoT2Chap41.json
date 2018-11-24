@@ -1,29 +1,21 @@
 [
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 0.0,
-    "end": 0.35,
-    "text": "Chapitre quarante et un."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 0.232,
-    "end": 1.758,
+    "end": 1.72,
     "text": "La pr\u00e9sentation."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2.28,
+    "disabled": false,
     "end": 5.598,
     "text": "Quand Albert se trouva en t\u00eate-\u00e0-t\u00eate avec Monte-Cristo."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6.376,
+    "disabled": false,
     "end": 15.198,
     "text": "Monsieur le comte, lui dit-il, permettez-moi de commencer avec vous mon m\u00e9tier de cic\u00e9rone en vous donnant le sp\u00e9cimen d\u2019un appartement de gar\u00e7on."
   },

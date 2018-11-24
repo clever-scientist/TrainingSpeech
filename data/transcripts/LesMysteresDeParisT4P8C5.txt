@@ -80,10 +80,10 @@ Enfin, quant à la prison, nous n’avons rien à nous reprocher, toujours !…
 C’est plutôt moi qui suis une ambitieuse… car, dans mon état, je ne devrais penser qu’à me marier avec un ouvrier.
 Je suis un enfant trouvé… je ne possède rien que ma petite chambre et mon bon courage… pourtant je viens hardiment vous proposer de me prendre pour femme !
 Hélas ! autrefois ce sort eût été le rêve, le bonheur de ma vie !
-Mais à cette heure, moi, sous le coup d’une accusation infamante, j’abuserais de votre admirable générosité, de votre pitié qui vous égare peut-être !
-Non, non.
-Mais, mon Dieu !
-Mon Dieu ! s’écria Rigolette avec une impatience douloureuse, je vous dis que ce n’est pas de la pitié que j’ai pour vous ! c’est de l’amour.
+Mais à cette heure, moi, sous le coup d’une accusation infamante
+j’abuserais de votre admirable générosité, de votre pitié qui vous égare peut-être ! Non, non.
+Mais, mon Dieu ! Mon Dieu ! s’écria Rigolette avec une impatience douloureuse,
+je vous dis que ce n’est pas de la pitié que j’ai pour vous ! c’est de l’amour.
 Je ne songe qu’à vous !
 Je ne dors plus, je ne mange plus.
 Votre triste et doux visage me suit partout.
@@ -164,8 +164,7 @@ Enfin vous acceptez… vous ne vous dédirez pas ?…
 Oh ! jamais, jamais, mon amie, ma femme.
 Oui, le courage me revient, il me semble sortir d’un songe, je ne doute plus de moi-même, je m’abusais, heureusement je m’abusais.
 Mon cœur ne battrait pas comme il bat, s’il avait perdu de sa noble énergie.
-Oh !
-Germain, que vous êtes beau en parlant ainsi !
+Oh ! Germain, que vous êtes beau en parlant ainsi !
 Combien vous me rassurez, non pour moi, mais pour vous-même !
 Ainsi, vous me le promettez, n’est-ce pas, maintenant que vous avez mon amour pour vous défendre, vous ne craindrez plus de parler à ces méchants hommes, afin de ne pas exciter leur colère contre vous ?
 Rassurez-vous.

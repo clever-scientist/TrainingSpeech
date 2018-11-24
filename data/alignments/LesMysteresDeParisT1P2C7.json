@@ -1310,29 +1310,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1152.51,
+    "disabled": false,
     "end": 1157.856,
     "text": "Mais cette beaut\u00e9-l\u00e0 l\u2019emp\u00eache justement d\u2019avoir l\u2019air excessivement spirituel."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1157.61,
-    "end": 1157.856,
-    "text": "Eh bien !"
+    "end": 1165.01,
+    "text": "Eh bien ! Monseigneur dit que, gr\u00e2ce au colonel, il s\u2019est habitu\u00e9 \u00e0 trouver tol\u00e9rables les gens les plus pesants du monde."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1157.61,
-    "end": 1165.024,
-    "text": "Monseigneur dit que, gr\u00e2ce au colonel, il s\u2019est habitu\u00e9 \u00e0 trouver tol\u00e9rables les gens les plus pesants du monde."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1165.29,
+    "disabled": false,
     "end": 1176.29,
     "text": "Avant certaines audiences mortelles, il s\u2019enferme une petite demi-heure avec le colonel, et il sort de l\u00e0 tout cr\u00e2ne, tout gaillard, et pr\u00eat \u00e0 d\u00e9fier l\u2019ennui en personne."
   },

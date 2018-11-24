@@ -914,36 +914,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1034.22,
+    "disabled": false,
     "end": 1039.33,
     "text": "Caderousse s\u2019\u00e9tranglait avec sa cravate, il cherchait un angle o\u00f9 se cacher, un trou par o\u00f9 dispara\u00eetre."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1039.59,
-    "end": 1040.71,
-    "text": "Allons, dit le comte, je vois que vous \u00eates toujours le m\u00eame, monsieur l\u2019assassin."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1040.64,
-    "end": 1044.576,
+    "end": 1044.55,
     "text": "Monsieur l\u2019abb\u00e9, puisque vous savez tout, vous savez que ce n\u2019est pas moi, que c\u2019est la Carconte."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1044.33,
+    "disabled": false,
     "end": 1047.646,
     "text": "\u00c7\u2019a \u00e9t\u00e9 reconnu au proc\u00e8s, puisqu\u2019ils ne m\u2019ont condamn\u00e9 qu\u2019aux gal\u00e8res."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1048.04,
+    "disabled": false,
     "end": 1052.122,
     "text": "Vous avez donc fini votre temps, que je vous retrouve en train de vous y faire ramener ?"
   },
@@ -1631,8 +1623,8 @@
   {
     "approved": true,
     "begin": 1456.07,
-    "end": 1459.802,
-    "text": "Il portait le num\u00e9rocinquante-neuf et moi le num\u00e9rocinquante-huit."
+    "end": 1459.79,
+    "text": "Il portait le num\u00e9ro cinquante-neuf et moi le num\u00e9ro cinquante-huit."
   },
   {
     "approved": true,

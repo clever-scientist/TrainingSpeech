@@ -1101,28 +1101,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 907.368,
+    "disabled": false,
     "end": 911.686,
     "text": "Soit, je lui parlerai de toi. Mais en attendant que vas-tu faire ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 911.36,
-    "end": 911.686,
-    "text": "Moi ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 911.36,
-    "end": 913.094,
-    "text": "Oui, toi."
+    "end": 913.08,
+    "text": "Moi ? Oui, toi."
   },
   {
     "approved": true,
     "begin": 913.024,
+    "disabled": false,
     "end": 916.958,
     "text": "Tu es bien bon de t\u2019occuper de cela, dit Caderousse."
   },

@@ -1131,43 +1131,41 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 780.136,
+    "disabled": false,
     "end": 781.278,
     "text": "Rien\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 781.288,
-    "end": 783.198,
+    "disabled": false,
+    "end": 783.168,
     "text": "Absolument rien ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 782.952,
-    "end": 783.198,
-    "text": "Non\u2026"
+    "end": 788.1800000000001,
+    "text": "Non\u2026 C\u2019est-\u00e0-dire, entendons-nous, ma garniture de chemin\u00e9e\u2026 et je l\u2019aurai\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 782.952,
-    "end": 792.414,
-    "text": "C\u2019est-\u00e0-dire, entendons-nous, ma garniture de chemin\u00e9e\u2026 et je l\u2019aurai\u2026 je ne sais pas quand\u2026 mais j\u2019ai mis dans ma t\u00eate de l\u2019avoir, et ce sera."
+    "begin": 787.88,
+    "end": 792.392,
+    "text": "je ne sais pas quand\u2026 mais j\u2019ai mis dans ma t\u00eate de l\u2019avoir, et ce sera."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 792.424,
+    "disabled": false,
     "end": 794.718,
     "text": "Je prendrai plut\u00f4t sur mes nuits\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 794.6,
+    "disabled": false,
     "end": 797.278,
     "text": "Et sauf cette garniture ?\u2026"
   },

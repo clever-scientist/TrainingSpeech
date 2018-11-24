@@ -722,29 +722,20 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 530.536,
     "end": 533.19,
     "text": "Me direz-vous o\u00f9 est votre fils ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 532.992,
-    "end": 533.19,
-    "text": "Oui, oui\u2026"
+    "end": 535.352,
+    "text": "Oui, oui\u2026 Je vous dirai tout ce que j\u2019en sais."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 532.992,
-    "end": 535.39,
-    "text": "Je vous dirai tout ce que j\u2019en sais."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 535.656,
+    "disabled": false,
     "end": 541.254,
     "text": "Me direz-vous quels sont les parents de cette jeune fille dont l\u2019enfance a \u00e9t\u00e9 tortur\u00e9e par la Chouette ?"
   },
@@ -833,49 +824,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 577.768,
+    "disabled": false,
     "end": 580.062,
     "text": "Des conditions, mis\u00e9rable !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 580.072,
-    "end": 581.83,
-    "text": "Eh bien ! non, non."
+    "disabled": false,
+    "end": 585.552,
+    "text": "Eh bien ! non, non. Mais piti\u00e9. Faites-moi seulement arr\u00eater comme coupable du crime d\u2019aujourd\u2019hui."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 581.632,
-    "end": 581.83,
-    "text": "Mais piti\u00e9."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 581.632,
-    "end": 585.566,
-    "text": "Faites-moi seulement arr\u00eater comme coupable du crime d\u2019aujourd\u2019hui."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 585.448,
-    "end": 586.31,
-    "text": "Ne parlez pas de l\u2019autre."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 586.24,
-    "end": 589.278,
-    "text": "Laissez-moi la chance de sauver ma t\u00eate."
+    "end": 589.248,
+    "text": "Ne parlez pas de l\u2019autre. Laissez-moi la chance de sauver ma t\u00eate."
   },
   {
     "approved": true,
     "begin": 589.672,
+    "disabled": false,
     "end": 591.198,
     "text": "Tu veux donc vivre ?"
   },

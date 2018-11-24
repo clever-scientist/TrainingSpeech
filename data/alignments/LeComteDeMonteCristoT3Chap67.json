@@ -1776,29 +1776,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1570.92,
+    "disabled": false,
     "end": 1576.928,
     "text": "Vous n\u2019avez point l\u2019habitude d\u2019\u00e9crire le soir ce qui s\u2019est pass\u00e9 dans la matin\u00e9e ? vous ne faites pas de journal ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1576.81,
-    "end": 1576.928,
-    "text": "Non !"
+    "begin": 1576.8100000000002,
+    "end": 1580.73,
+    "text": "Non ! H\u00e9las ! ma vie passe emport\u00e9e par la frivolit\u00e9."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1576.81,
-    "end": 1580.74,
-    "text": "H\u00e9las ! ma vie passe emport\u00e9e par la frivolit\u00e9."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1580.67,
+    "disabled": false,
     "end": 1581.916,
     "text": "Moi-m\u00eame, je l\u2019oublie."
   },

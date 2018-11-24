@@ -3444,35 +3444,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 3135.21,
+    "disabled": false,
     "end": 3137.25,
     "text": "Moi ! dit une voix."
   },
   {
     "approved": true,
     "begin": 3137.26,
-    "end": 3138.398,
+    "end": 3138.5,
     "text": "Qui, vous ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 3138.28,
-    "end": 3138.398,
-    "text": "Et pardieu !"
+    "begin": 3138.3,
+    "end": 3140.42,
+    "text": "Et pardieu ! Joann\u00e8s le bijoutier."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 3138.28,
-    "end": 3140.442,
-    "text": "Joann\u00e8s le bijoutier."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 3141.22,
+    "disabled": false,
     "end": 3149.79,
     "text": "Eh bien, que disais-tu donc, reprit la Carconte avec un effroyable sourire, que j\u2019offensais le Bon Dieu !\u2026 Voil\u00e0 le Bon Dieu qui nous le renvoie."
   },

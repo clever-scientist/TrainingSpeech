@@ -690,29 +690,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 672.36,
+    "disabled": false,
     "end": 673.63,
     "text": "En doutiez-vous ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 673.512,
-    "end": 673.63,
-    "text": "Non."
+    "begin": 673.5120000000001,
+    "end": 676.672,
+    "text": "Non. L\u2019offense a \u00e9t\u00e9 publique, et chacun en parlait d\u00e9j\u00e0."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 673.512,
-    "end": 676.702,
-    "text": "L\u2019offense a \u00e9t\u00e9 publique, et chacun en parlait d\u00e9j\u00e0."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 676.584,
+    "disabled": false,
     "end": 677.726,
     "text": "Eh bien ?"
   },

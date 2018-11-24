@@ -359,35 +359,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 233.064,
+    "disabled": false,
     "end": 236.126,
     "text": "Il me navre le c\u0153ur avec sa nonchalance, dit Julie."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 236.008,
-    "end": 236.126,
-    "text": "Oh !"
+    "begin": 236.00799999999998,
+    "end": 237.57,
+    "text": "Oh ! Maximilien,"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 236.008,
-    "end": 241.246,
-    "text": "Maximilien, Maximilien, tu nous caches quelque chose."
+    "begin": 237.97,
+    "end": 241.208,
+    "text": "Maximilien, tu nous caches quelque chose."
   },
   {
     "approved": true,
     "begin": 241.384,
+    "disabled": false,
     "end": 246.238,
     "text": "Bah ! dit Monte-Cristo, vous le verrez revenir gai, riant et joyeux."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 246.888,
+    "disabled": false,
     "end": 251.87,
     "text": "Maximilien lan\u00e7a \u00e0 Monte-Cristo un regard presque d\u00e9daigneux, presque irrit\u00e9."
   },

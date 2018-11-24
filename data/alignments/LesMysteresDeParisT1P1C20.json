@@ -558,36 +558,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 385.186,
+    "disabled": false,
     "end": 388.888,
     "text": "Mais, pardon, monsieur Rodolphe, je bavarde\u2026 et vous \u00eates curieux\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 388.642,
-    "end": 388.888,
-    "text": "Non."
+    "end": 391.282,
+    "text": "Non j\u2019aime entendre \u00e0 parler ainsi."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 388.642,
-    "end": 391.296,
-    "text": "J\u2019aime \u00e0 entendre parler ainsi."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 390.97,
+    "disabled": false,
     "end": 398.616,
     "text": "Et puis je ne saurai que trop t\u00f4t comment est arriv\u00e9 l\u2019horrible malheur dont mon pauvre Murph a \u00e9t\u00e9 la victime\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 398.754,
+    "disabled": false,
     "end": 407.168,
     "text": "Je me croyais certain de ne pas quitter le Ma\u00eetre d\u2019\u00e9cole d\u2019un pas, d\u2019une minute, durant cette dangereuse entreprise\u2026"
   },
@@ -1218,29 +1210,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 819.64,
-    "end": 819.864,
-    "text": "Je me dis."
+    "end": 826.64,
+    "text": "Je me dis. Le Ma\u00eetre d\u2019\u00e9cole peut assassiner monsieur Murph, l\u2019ami \u00e0 Rodolphe, qui ne s\u2019attend \u00e0 rien."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 820.258,
-    "end": 826.648,
-    "text": "Le Ma\u00eetre d\u2019\u00e9cole peut assassiner monsieur Murph, l\u2019ami \u00e0 Rodolphe, qui ne s\u2019attend \u00e0 rien."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 826.658,
+    "disabled": false,
     "end": 829.208,
     "text": "C\u2019est l\u00e0 o\u00f9 \u00e7a chauffe d\u2019abord."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 829.346,
+    "disabled": false,
     "end": 833.176,
     "text": "Je saute de mon arbre, je tombe sur la Chouette."
   },
@@ -2216,29 +2200,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1382.204,
-    "end": 1382.53,
-    "text": "Eh bien !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1382.204,
     "end": 1384.604,
-    "text": "David\u2026 et Murph\u2026 ?"
+    "text": "Eh bien ! David\u2026 et Murph\u2026 ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1384.87,
+    "disabled": false,
     "end": 1388.188,
     "text": "Il sommeille, monseigneur, dit tristement le m\u00e9decin."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1388.07,
+    "disabled": false,
     "end": 1391.254,
     "text": "La respiration est toujours\u2026 oppress\u00e9e\u2026"
   },

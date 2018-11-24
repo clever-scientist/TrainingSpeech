@@ -1796,29 +1796,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1566.31,
+    "disabled": false,
     "end": 1571.808,
     "text": "Puisque Monsieur d\u2019Orbigny est tr\u00e8s riche, dans une grande maison il y a toujours de l\u2019emploi\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1571.69,
-    "end": 1571.808,
-    "text": "Oui."
+    "end": 1575.25,
+    "text": "Oui. Mais nous avons si peu de droits \u00e0 son int\u00e9r\u00eat !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1571.69,
-    "end": 1575.266,
-    "text": "Mais nous avons si peu de droits \u00e0 son int\u00e9r\u00eat !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1575.66,
+    "disabled": false,
     "end": 1577.824,
     "text": "Nous sommes si malheureuses !"
   },

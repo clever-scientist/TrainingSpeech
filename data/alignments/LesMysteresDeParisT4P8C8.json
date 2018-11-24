@@ -256,36 +256,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 268.52,
+    "disabled": false,
     "end": 270.046,
     "text": "Mon argent !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 270.312,
-    "end": 271.302,
-    "text": "Comment ?\u2026"
+    "begin": 270.31199999999995,
+    "end": 274.472,
+    "text": "Comment ?\u2026 Quoi ?\u2026 Monsieur\u2026 vous m\u2019\u00e9tranglez\u2026 je\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 271.104,
-    "end": 271.302,
-    "text": "Quoi ?\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 271.104,
-    "end": 274.502,
-    "text": "Monsieur\u2026 vous m\u2019\u00e9tranglez\u2026 je\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 274.304,
+    "disabled": false,
     "end": 275.678,
     "text": "Mon argent !\u2026"
   },

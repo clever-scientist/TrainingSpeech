@@ -1134,29 +1134,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 835.432,
+    "disabled": false,
     "end": 838.494,
     "text": "Quand sera-ce donc notre tour de nous occuper de ces d\u00e9tails ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 838.248,
-    "end": 838.494,
-    "text": "Oh !"
+    "end": 843.008,
+    "text": "Oh ! Valentine, vous qui pouvez tant de choses sur notre bon papa, t\u00e2chez qu\u2019il vous r\u00e9ponde. bient\u00f4t !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 838.248,
-    "end": 843.04,
-    "text": "Valentine, vous qui pouvez tant de choses sur notre bon papa, t\u00e2chez qu\u2019il vous r\u00e9ponde. bient\u00f4t !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 843.04,
+    "disabled": false,
     "end": 849.758,
     "text": "Ainsi, demanda Valentine, vous comptez sur moi pour stimuler la lenteur et r\u00e9veiller la m\u00e9moire de bon papa ?"
   },

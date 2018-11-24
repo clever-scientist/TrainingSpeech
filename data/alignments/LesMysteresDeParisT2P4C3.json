@@ -1430,43 +1430,41 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1091.43,
+    "disabled": false,
     "end": 1092.42,
     "text": "\u00c7a va !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1092.222,
-    "end": 1092.42,
-    "text": "Chaud !\u2026"
+    "disabled": false,
+    "end": 1094.03,
+    "text": "Chaud !\u2026 Chaud !\u2026 Tiens\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1092.222,
-    "end": 1093.978,
-    "text": "Chaud !\u2026"
+    "begin": 1093.92,
+    "end": 1096.4,
+    "text": "faut bien que jeunesse se passe !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1093.86,
-    "end": 1100.386,
-    "text": "Tiens\u2026 faut bien que jeunesse se passe !\u2026 \u00e0 jolie fille beau gar\u00e7on\u2026 vive l\u2019amour ! Et alllllez donc !"
+    "begin": 1096.11,
+    "end": 1100.36,
+    "text": "\u00e0 jolie fille beau gar\u00e7on\u2026 vive l\u2019amour ! Et alllllez donc !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1100.78,
+    "disabled": false,
     "end": 1104.736,
     "text": "Et la vieille disparut dans les profondeurs de l\u2019all\u00e9e en criant."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1105.13,
+    "disabled": false,
     "end": 1111.518,
     "text": "Alfred ! ne geins pas, vieux ch\u00e9ri\u2026 voil\u00e0 ta Stasie qui t\u2019apporte du nanan, gros friand !"
   },

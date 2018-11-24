@@ -2,8 +2,13 @@
   {
     "approved": true,
     "begin": 0.0,
-    "end": 13.208,
-    "text": "Le d\u00e9tenu qui se trouvait \u00e0 c\u00f4t\u00e9 de Barbillon \u00e9tait un homme de quarante-cinq ans environ, gr\u00eale, ch\u00e9tif, et d\u2019une physionomie fine, intelligente, joviale et railleuse."
+    "end": 5.98,
+    "text": "Le d\u00e9tenu qui se trouvait \u00e0 c\u00f4t\u00e9 de Barbillon \u00e9tait un homme de quarante-cinq ans environ"
+  },
+  {
+    "begin": 5.96,
+    "end": 13.2,
+    "text": "gr\u00eale, ch\u00e9tif, et d\u2019une physionomie fine, intelligente, joviale et railleuse."
   },
   {
     "approved": true,
@@ -1264,36 +1269,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 988.706,
+    "disabled": false,
     "end": 991.896,
     "text": "\u00catre l\u00e0 expos\u00e9 au m\u00e9pris de tout le monde\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 991.778,
-    "end": 993.408,
-    "text": "Oh ! mon Dieu !"
+    "end": 994.698,
+    "text": "Oh ! mon Dieu ! Mon Dieu ! Mon pauvre fr\u00e8re !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 993.21,
-    "end": 993.408,
-    "text": "Mon Dieu !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 993.21,
-    "end": 994.712,
-    "text": "Mon pauvre fr\u00e8re !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 994.594,
+    "disabled": false,
     "end": 997.528,
     "text": "Et l\u2019infortun\u00e9e se reprit \u00e0 pleurer."
   },

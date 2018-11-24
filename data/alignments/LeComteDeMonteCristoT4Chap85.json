@@ -1380,29 +1380,20 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 854.248,
     "end": 857.566,
     "text": "Vous tournez dans un cercle vicieux, celui des probabilit\u00e9s."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 857.448,
-    "end": 857.566,
-    "text": "Oh ! non pas."
+    "begin": 857.4480000000001,
+    "end": 859.9680000000001,
+    "text": "Oh ! non pas. Je suis dans les certitudes."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 857.448,
-    "end": 859.998,
-    "text": "Je suis dans les certitudes."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 859.88,
+    "disabled": false,
     "end": 863.71,
     "text": "Le bon serviteur pour moi, c\u2019est celui sur lequel j\u2019ai droit de vie ou de mort."
   },

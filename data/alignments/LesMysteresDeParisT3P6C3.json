@@ -369,29 +369,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 384.488,
+    "disabled": false,
     "end": 394.95,
     "text": "Dis donc, Amandine, s\u2019il savait que, l\u2019autre jour, Calebasse t\u2019a fait prendre ce fichu \u00e0 carreaux dans la balle du colporteur pendant qu\u2019il avait le dos tourn\u00e9 ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 394.624,
-    "end": 394.95,
-    "text": "Oh !"
+    "end": 400.304,
+    "text": "Oh ! Fran\u00e7ois, ne dis pas cela ! dit la pauvre enfant dont les yeux se mouill\u00e8rent de larmes."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 394.624,
-    "end": 400.326,
-    "text": "Fran\u00e7ois, ne dis pas cela ! dit la pauvre enfant dont les yeux se mouill\u00e8rent de larmes."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 400.0,
+    "disabled": false,
     "end": 406.238,
     "text": "Mon fr\u00e8re Martial serait capable de ne plus nous aimer\u2026 vois-tu\u2026 de nous laisser tout seuls ici\u2026"
   },

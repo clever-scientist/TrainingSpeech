@@ -549,49 +549,47 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 505.064,
+    "disabled": false,
     "end": 510.534,
     "text": "H\u00e9las ! autrefois ce sort e\u00fbt \u00e9t\u00e9 le r\u00eave, le bonheur de ma vie !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 510.208,
-    "end": 519.878,
-    "text": "Mais \u00e0 cette heure, moi, sous le coup d\u2019une accusation infamante, j\u2019abuserais de votre admirable g\u00e9n\u00e9rosit\u00e9, de votre piti\u00e9 qui vous \u00e9gare peut-\u00eatre !"
+    "end": 514.45,
+    "text": "Mais \u00e0 cette heure, moi, sous le coup d\u2019une accusation infamante"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 519.808,
-    "end": 521.438,
-    "text": "Non, non."
+    "begin": 514.32,
+    "disabled": false,
+    "end": 521.408,
+    "text": "j\u2019abuserais de votre admirable g\u00e9n\u00e9rosit\u00e9, de votre piti\u00e9 qui vous \u00e9gare peut-\u00eatre ! Non, non."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 521.192,
-    "end": 521.438,
-    "text": "Mais, mon Dieu !"
+    "end": 526.47,
+    "text": "Mais, mon Dieu ! Mon Dieu ! s\u2019\u00e9cria Rigolette avec une impatience douloureuse,"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 521.192,
-    "end": 530.654,
-    "text": "Mon Dieu ! s\u2019\u00e9cria Rigolette avec une impatience douloureuse, je vous dis que ce n\u2019est pas de la piti\u00e9 que j\u2019ai pour vous ! c\u2019est de l\u2019amour."
+    "begin": 526.22,
+    "end": 530.6320000000001,
+    "text": "je vous dis que ce n\u2019est pas de la piti\u00e9 que j\u2019ai pour vous ! c\u2019est de l\u2019amour."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 530.408,
+    "disabled": false,
     "end": 532.166,
     "text": "Je ne songe qu\u2019\u00e0 vous !"
   },
   {
     "approved": true,
     "begin": 532.166,
+    "disabled": false,
     "end": 534.494,
     "text": "Je ne dors plus, je ne mange plus."
   },
@@ -1128,29 +1126,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 929.92,
+    "disabled": false,
     "end": 934.726,
     "text": "Mon c\u0153ur ne battrait pas comme il bat, s\u2019il avait perdu de sa noble \u00e9nergie."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 934.4,
-    "end": 934.726,
-    "text": "Oh !"
+    "end": 938.1999999999999,
+    "text": "Oh ! Germain, que vous \u00eates beau en parlant ainsi !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 934.4,
-    "end": 938.206,
-    "text": "Germain, que vous \u00eates beau en parlant ainsi !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 937.96,
+    "disabled": false,
     "end": 942.046,
     "text": "Combien vous me rassurez, non pour moi, mais pour vous-m\u00eame !"
   },

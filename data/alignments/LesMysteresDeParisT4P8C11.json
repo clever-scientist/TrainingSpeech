@@ -375,22 +375,14 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 333.056,
-    "end": 333.254,
-    "text": "Non !\u2026"
+    "end": 334.896,
+    "text": "Non !\u2026 \u00c0 bas le bonnet bleu !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 333.056,
-    "end": 334.918,
-    "text": "\u00c0 bas le bonnet bleu !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 334.72,
+    "disabled": false,
     "end": 336.478,
     "text": "\u00c0 bas le Squelette !"
   },

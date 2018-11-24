@@ -659,40 +659,40 @@
   {
     "approved": true,
     "begin": 586.728,
+    "disabled": false,
     "end": 592.606,
     "text": "Bon ! pensa Monte-Cristo en se retirant j\u2019en suis arriv\u00e9 o\u00f9 j\u2019en voulais venir."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 592.36,
-    "end": 600.798,
+    "begin": 592.3599999999999,
+    "disabled": false,
+    "end": 601.05,
     "text": "Voil\u00e0 que je tiens dans mes mains la paix du m\u00e9nage et que je vais gagner d\u2019un seul coup le c\u0153ur de monsieur et le c\u0153ur de madame."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 600.68,
-    "end": 600.798,
-    "text": "Quel bonheur !"
+    "begin": 600.9099999999999,
+    "end": 602.5999999999999,
+    "text": "Quel bonheur"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 600.68,
-    "end": 611.166,
-    "text": "Mais, ajouta-t-il, dans tout cela, je n\u2019ai point \u00e9t\u00e9 pr\u00e9sent\u00e9 \u00e0 Mademoiselle Eug\u00e9nie Danglars, que j\u2019eusse \u00e9t\u00e9 cependant fort aise de conna\u00eetre."
+    "begin": 602.3999999999999,
+    "end": 611.1499999999999,
+    "text": "Mais ajouta-t-il, dans tout cela, je n\u2019ai point \u00e9t\u00e9 pr\u00e9sent\u00e9 \u00e0 Mademoiselle Eug\u00e9nie Danglars, que j\u2019eusse \u00e9t\u00e9 cependant fort aise de conna\u00eetre."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 611.176,
+    "disabled": false,
     "end": 626.142,
     "text": "Mais, reprit-il avec ce sourire qui lui \u00e9tait particulier, nous voici \u00e0 Paris, et nous avons du temps devant nous\u2026 Ce sera pour plus tard !\u2026 Sur cette r\u00e9flexion, le comte monta en voiture et rentra chez lui."
   },
   {
     "approved": true,
     "begin": 626.152,
+    "disabled": false,
     "end": 642.27,
     "text": "Deux heures apr\u00e8s, Madame Danglars re\u00e7ut une lettre charmante du comte de Monte-Cristo, dans laquelle il lui d\u00e9clarait que, ne voulant pas commencer ses d\u00e9buts dans le monde parisien en d\u00e9sesp\u00e9rant une jolie femme, il la suppliait de reprendre ses chevaux."
   },

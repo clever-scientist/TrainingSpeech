@@ -1243,29 +1243,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1050.22,
+    "disabled": false,
     "end": 1057.37,
     "text": "Aussi, comme je vous l\u2019ai d\u00e9j\u00e0 dit, mon affection pour lui est-elle tout instinctive et n\u2019a-t-elle rien de raisonn\u00e9."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1057.38,
-    "end": 1059.91,
-    "text": "Est-ce que le soleil m\u2019a fait quelque chose ?"
+    "end": 1059.9,
+    "text": "Est-ce que le soleil m\u2019a fait quelque chose ? Non."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1059.584,
-    "end": 1059.91,
-    "text": "Non."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1059.584,
+    "disabled": false,
     "end": 1063.13,
     "text": "Il me r\u00e9chauffe, et \u00e0 sa lumi\u00e8re je vous vois, voil\u00e0 tout."
   },

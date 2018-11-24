@@ -1107,28 +1107,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 835.56,
+    "disabled": false,
     "end": 839.646,
     "text": "Monseigneur, de gr\u00e2ce\u2026 j\u2019ai eu tort\u2026 j\u2019ai eu tort\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 839.528,
-    "end": 839.646,
-    "text": "Non\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 839.528,
-    "end": 843.742,
-    "text": "Je le con\u00e7ois, les apparences ont pu te tromper\u2026"
+    "begin": 839.5279999999999,
+    "end": 843.728,
+    "text": "Non\u2026 Je le con\u00e7ois, les apparences ont pu te tromper\u2026"
   },
   {
     "approved": true,
     "begin": 843.752,
+    "disabled": false,
     "end": 858.974,
     "text": "Seulement, comme tu connais ma vie\u2026 comme tu m\u2019aides avec autant de fid\u00e9lit\u00e9 que de courage dans la t\u00e2che que j\u2019ai entreprise\u2026 il est de ton devoir ou, si tu l\u2019aimes mieux, de ma reconnaissance, de te convaincre que je n\u2019agis pas l\u00e9g\u00e8rement\u2026"
   },

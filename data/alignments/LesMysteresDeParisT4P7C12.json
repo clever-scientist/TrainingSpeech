@@ -1772,31 +1772,22 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1141.22,
+    "disabled": false,
     "end": 1143.75,
     "text": "Je me suis d\u00e9gag\u00e9 en lui disant."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1143.424,
-    "end": 1145.186,
+    "end": 1145.184,
     "text": "Monsieur, calmez-vous !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1144.94,
-    "end": 1145.186,
-    "text": "Calmez-vous !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1144.94,
-    "end": 1146.844,
-    "text": "C\u2019est moi."
+    "end": 1146.82,
+    "text": "Calmez-vous !\u2026 C\u2019est moi."
   },
   {
     "approved": true,

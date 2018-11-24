@@ -1787,29 +1787,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1477.86,
+    "disabled": false,
     "end": 1484.506,
     "text": "Cela veut-il donc dire que si je te quittais, Hayd\u00e9e\u2026 Je mourrais, mon seigneur, oui ! Mais tu m\u2019aimes donc ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1484.26,
-    "end": 1484.506,
-    "text": "Oh !"
+    "end": 1487.1799999999998,
+    "text": "Oh ! Valentine, il demande si je l\u2019aime !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1484.26,
-    "end": 1487.198,
-    "text": "Valentine, il demande si je l\u2019aime !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1487.08,
+    "disabled": false,
     "end": 1489.754,
     "text": "Valentine, dis-lui donc si tu aimes Maximilien !"
   },
