@@ -308,6 +308,7 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast, sta
     cut_fragments_audio(alignment, input_file=path_to_wav)
 
     # iterate over successive fragments
+    start = start - 1
     i = start
     done = False
     while i < len(alignment) and not done:
@@ -399,16 +400,6 @@ def check_alignment(source_name, restart, speed, audio_rate, no_cache, fast, sta
             f.writelines('\n'.join(f['text'] for f in alignment) + '\n')
 
         i += 1
-    click.confirm(
-        text=colored(
-            text=f'Done with {source_name}. Add changes to git ?',
-            color='yellow',
-            attrs=['bold'],
-        ),
-        default=True,
-        abort=True
-    )
-    subprocess.call(f'git add {path_to_alignment} {path_to_transcript}'.split(' '))
 
 
 MAPPINGS = [
