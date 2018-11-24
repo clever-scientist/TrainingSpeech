@@ -7,21 +7,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2.152,
+    "disabled": false,
     "end": 5.086,
     "text": "Le progr\u00e8s de Cavalcanti fils."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 6.504,
-    "end": 19.55,
-    "text": "Cependant monsieur Cavalcanti p\u00e8re \u00e9tait parti pour aller reprendre son service, non pas dans l\u2019arm\u00e9e de S. Monsieur l\u2019empereur d\u2019Autriche, mais \u00e0 la roulette des bains de Lucques, dont il \u00e9tait l\u2019un des plus assidus courtisans."
+    "begin": 6.5040000000000004,
+    "end": 14.783999999999999,
+    "text": "Cependant monsieur Cavalcanti p\u00e8re \u00e9tait parti pour aller reprendre son service, non pas dans l\u2019arm\u00e9e de Sa Magest\u00e9e l\u2019empereur d\u2019Autriche"
+  },
+  {
+    "approved": true,
+    "begin": 14.73,
+    "end": 19.53,
+    "text": "mais \u00e0 la roulette des bains de Lucques, dont il \u00e9tait l\u2019un des plus assidus courtisans."
   },
   {
     "approved": true,
     "begin": 20.072,
+    "disabled": false,
     "end": 36.19,
     "text": "Il va sans dire qu\u2019il avait emport\u00e9 avec la plus scrupuleuse exactitude jusqu\u2019au dernier paul de la somme qui lui avait \u00e9t\u00e9 allou\u00e9e pour son voyage, et pour la r\u00e9compense de la fa\u00e7on majestueuse et solennelle avec laquelle il avait jou\u00e9 son r\u00f4le de p\u00e8re."
   },
