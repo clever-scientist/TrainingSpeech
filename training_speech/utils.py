@@ -410,7 +410,7 @@ def get_fragment_hash(fragment: dict, salt: str=None):
 
 
 def smart_cut(fragment: dict, silences: List[Tuple[float, float]], path_to_wav: str, language: str, separator: str=None, depth=0):
-    if fragment['end'] - fragment['begin'] < 10 or depth > 3:
+    if fragment['end'] - fragment['begin'] < 10 or depth > 0:
         return [fragment]
     possible_silences = [
         s for s in silences

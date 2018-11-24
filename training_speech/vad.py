@@ -35,7 +35,11 @@ def list_silences(path_to_wav: str, force: bool = False, mode=utils.DEFAULT_VAD_
 
             for _ in range(int(nframes / vad_frame_len)):
                 frame = wave_f.readframes(vad_frame_len)
-                yield vad_.is_speech(frame, framerate)
+                try:
+                    yield vad_.is_speech(frame, framerate)
+                except Exception as e:
+                    print(e, path_to_wav)
+                    yield False
 
     silences = []
     current_speech = None
