@@ -684,29 +684,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 611.002,
-    "end": 614.08,
-    "text": "Tout \u00e0 coup on entend frapper \u00e0 la porte. Pan !\u2026 Pan !\u2026"
+    "end": 614.6419999999999,
+    "text": "Tout \u00e0 coup on entend frapper \u00e0 la porte. Pan !\u2026 Pan !\u2026 Pan !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 614.08,
-    "end": 614.68,
-    "text": "Pan !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 615.202,
+    "disabled": false,
     "end": 618.52,
     "text": "Ah ! le doyen ! s\u2019\u00e9cri\u00e8rent les prisonniers avec joie."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 618.786,
+    "disabled": false,
     "end": 621.208,
     "text": "Oui, cette fois, c\u2019\u00e9tait lui, mes amis."
   },
@@ -2336,28 +2328,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1984.8,
-    "end": 1987.2,
+    "disabled": false,
+    "end": 1988.03,
     "text": "Il venait de voir le surveillant quitter la cour."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1987.002,
-    "end": 1987.988,
-    "text": "\u00c0 moi !"
+    "begin": 1987.93,
+    "end": 1990.73,
+    "text": "\u00c0 moi Gringalet\u2026 je serai ton araign\u00e9e"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1987.87,
-    "end": 1999.23,
-    "text": "Gringalet\u2026 je serai ton araign\u00e9e, s\u2019\u00e9cria aussit\u00f4t le Squelette en se pr\u00e9cipitant si brusquement sur Germain que celui-ci ne put faire un mouvement ni pousser un cri."
+    "begin": 1990.62,
+    "end": 1999.1699999999998,
+    "text": "s\u2019\u00e9cria aussit\u00f4t le Squelette en se pr\u00e9cipitant si brusquement sur Germain que celui-ci ne put faire un mouvement ni pousser un cri."
   },
   {
     "approved": true,
     "begin": 1999.23,
+    "disabled": false,
     "end": 2004.6,
     "text": "Sa voix expira sous la formidable \u00e9treinte des longs doigts de fer du Squelette."
   }

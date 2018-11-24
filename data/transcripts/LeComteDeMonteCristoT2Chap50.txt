@@ -113,11 +113,10 @@ Oh ! Nous voudrions pouvoir. La publier dans tout l’univers, pour qu’un tres
 Ah ! vraiment ! fit Monte-Cristo d’une voix étouffée.
 Monsieur, dit Maximilien en soulevant le globe de cristal et en baisant religieusement la bourse de soie, ceci a touché la main d’un homme par lequel mon père a été sauvé de la mort, nous de la ruine, et notre nom de la honte.
 D’un homme grâce auquel nous autres, pauvres enfants voués à la misère et aux larmes, nous pouvons entendre aujourd’hui des gens s’extasier sur notre bonheur.
-Cette lettre-et Maximilien tirant un billet de la bourse le présenta au comte-cette lettre fut écrite par lui un jour où mon père avait pris une résolution bien désespérée, et ce diamant fut donné en dot à ma sœur par ce généreux inconnu.
-Monte-Cristo ouvrit la lettre et la lut avec une indéfinissable expression de bonheur, c’était le billet que nos lecteurs connaissent, adressé à Julie et signé Simbad le marin.
-Inconnu, dites-vous ?
-Ainsi l’homme qui vous a rendu ce service est resté inconnu pour vous ?
-Oui, monsieur, jamais nous n’avons eu le bonheur de serrer sa main.
+Cette lettre-et Maximilien tirant un billet de la bourse le présenta au comte-cette lettre fut écrite par lui un jour où mon père avait pris une résolution bien désespérée
+et ce diamant fut donné en dot à ma sœur par ce généreux inconnu.
+Monte-Cristo ouvrit la lettre et la lut avec une indéfinissable expression de bonheur, c’était le billet que nos lecteurs connaissent, adressé à Julie
+et signé Simbad le marin. Oui, monsieur, jamais nous n’avons eu le bonheur de serrer sa main.
 Ce n’est pas faute cependant d’avoir demandé à Dieu cette faveur, reprit Maximilien. Mais il y a eu dans toute cette aventure une mystérieuse direction que nous ne pouvons comprendre encore.
 Tout a été conduit par une main invisible, puissante comme celle d’un enchanteur.
 Oh ! dit Julie, je n’ai pas encore perdu tout espoir de baiser un jour cette main comme je baise la bourse qu’elle a touchée.
@@ -167,7 +166,8 @@ Non, Lord Wilmore n’est probablement pas l’homme que vous cherchez.
 il était mon ami, je connaissais tous ses secrets, il m’eût raconté celui-là.
 Et il ne vous en a rien dit ? s’écria Julie.
 Rien.
-Jamais un mot qui pût vous faire supposer ?… Jamais.
+Jamais un mot qui pût vous faire supposer ?…
+Jamais.
 Cependant vous l’avez nommé tout de suite.
 Ah ! vous savez… en pareil cas, on suppose.
 Ma sœur, ma sœur, dit Maximilien venant en aide au comte, monsieur a raison.

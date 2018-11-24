@@ -2,8 +2,7 @@ Chapitre cinq.
 Les victimes d’un abus de confiance
 Lorsque l’abus de confiance est puni, terme moyen de punition.
 deux mois de prison et vingt-cinq francs d’amende.
-Art.
-quatre cent six et quatre cent huit du Code pénal
+Article quatre cent six et quatre cent huit du Code pénal
 Que le lecteur se figure un cabinet situé au quatrième étage de la triste maison du passage de la Brasserie.
 Un jour pâle et sombré pénètre à peine dans cette pièce étroite par une petite fenêtre à un seul vantail, garnie de trois vitres fêlées, sordides.
 Un papier délabré, d’une couleur jaunâtre, couvre les murailles.
@@ -73,7 +72,8 @@ Ma tête se fend…
 Ces symptômes sont plus graves que je ne veux me l’avouer à moi-même…
 Mon Dieu… si j’allais tomber… tout à fait malade… si j’allais mourir !…
 Non !
-Non ! s’écria Madame de Fermont avec exaltation, je ne veux pas… je ne veux pas mourir…
+Non ! s’écria Madame de Fermont avec exaltation,
+je ne veux pas… je ne veux pas mourir…
 Laisser Claire… à seize ans… sans ressources, seule, abandonnée au milieu de Paris… est-ce que cela est possible ?…
 Non ! je ne suis pas malade, après tout… qu’est-ce que j’éprouve ? un peu de chaleur à la poitrine, quelque pesanteur à la tête.
 C’est la suite du chagrin, des insomnies, du froid, des inquiétudes.
@@ -344,8 +344,8 @@ Oh ! monsieur, merci… donnez… donnez vite ! dit Madame de Fermont en dérang
 C’est vingt sous, madame, dit le receleur en montrant la lettre si impatiemment désirée.
 Je vais vous payer, monsieur.
 Ah ! madame, par exemple… il n’y a pas de presse…
-Je monte aux combles.
-Dans dix minutes je redescends, je prendrai l’argent en passant.
+Je monte aux combles. Dans dix minutes je redescends,
+je prendrai l’argent en passant.
 Le revendeur remit la lettre à Madame de Fermont et disparut.
 La lettre est de Normandie…
 Sur le timbre il y a Les Aubiers… c’est de Monsieur d’Orbigny ! s’écria Madame de Fermont en examinant l’adresse.

@@ -1850,29 +1850,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1626.47,
+    "disabled": false,
     "end": 1631.066,
     "text": "Monsieur le duc de Lucenay est en bas\u2026 il vient de chez vous, madame\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1630.82,
-    "end": 1632.58,
-    "text": "Mon Dieu, vous m\u2019effrayez."
+    "end": 1633.34,
+    "text": "Mon Dieu, vous m\u2019effrayez. Qu\u2019y a-t-il ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1632.51,
-    "end": 1633.374,
-    "text": "Qu\u2019y a-t-il ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1633.64,
+    "disabled": false,
     "end": 1641.18,
     "text": "Je l\u2019ignore, madame. Mais Monsieur de Lucenay est charg\u00e9 pour vous, dit-il, d\u2019une nouvelle\u2026 aussi triste qu\u2019impr\u00e9vue\u2026"
   },

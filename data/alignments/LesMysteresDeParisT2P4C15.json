@@ -971,28 +971,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 881.698,
+    "disabled": false,
     "end": 885.528,
     "text": "Je ne m\u2019int\u00e9resse pas du tout \u00e0 vous, reprit brutalement le notaire."
   },
   {
     "approved": true,
     "begin": 885.41,
-    "end": 890.496,
-    "text": "Votre p\u00e8re \u00e9tant l\u2019honneur m\u00eame, je n\u2019aurais pas voulu voir son nom \u00e0 la cour d\u2019assises."
+    "end": 891.01,
+    "text": "Votre p\u00e8re \u00e9tant l\u2019honneur m\u00eame, je n\u2019aurais pas voulu voir son nom \u00e0 la cour d\u2019assises. voil\u00e0 tout."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 890.426,
-    "end": 891.032,
-    "text": "voil\u00e0 tout."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 891.298,
+    "disabled": false,
     "end": 895.768,
     "text": "Je vous r\u00e9p\u00e8te, monsieur, que je suis incapable de l\u2019infamie dont on m\u2019accuse."
   },

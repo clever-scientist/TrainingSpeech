@@ -1434,24 +1434,20 @@
   {
     "approved": true,
     "begin": 1249.35,
+    "disabled": false,
     "end": 1250.614,
     "text": "Espoir\u00a0!"
   },
   {
     "approved": true,
-    "begin": 1250.614,
-    "end": 1251.294,
-    "text": "r\u00e9p\u00e9ta Danglars."
-  },
-  {
-    "approved": true,
-    "begin": 1251.294,
-    "end": 1254.636,
-    "text": "Espoir, essaya de murmurer Fernand."
+    "begin": 1250.6139999999998,
+    "end": 1254.6139999999998,
+    "text": "r\u00e9p\u00e9ta Danglars. Espoir, essaya de murmurer Fernand."
   },
   {
     "approved": true,
     "begin": 1254.31,
+    "disabled": false,
     "end": 1256.309,
     "text": "Mais ce mot l\u2019\u00e9touffait."
   },

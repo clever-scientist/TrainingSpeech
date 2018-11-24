@@ -512,29 +512,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 509.032,
+    "disabled": false,
     "end": 513.118,
     "text": "Ici ! s\u2019\u00e9cria la Louve, mais on assassine ici !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 513.256,
-    "end": 514.246,
-    "text": "Tais-toi !"
+    "end": 515.656,
+    "text": "Tais-toi ! Tais-toi ! dit Martial."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 514.048,
-    "end": 515.678,
-    "text": "Tais-toi ! dit Martial."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 515.688,
+    "disabled": false,
     "end": 519.646,
     "text": "Le comte et le docteur regard\u00e8rent la Louve avec surprise."
   },

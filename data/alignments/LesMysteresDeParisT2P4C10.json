@@ -250,27 +250,26 @@
   {
     "approved": true,
     "begin": 195.816,
+    "disabled": false,
     "end": 198.494,
     "text": "Rodolphe le calma d\u2019un regard."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 198.888,
-    "end": 202.182,
-    "text": "Allons, j\u2019\u00e9couterai jusqu\u2019au bout, dit Morel."
+    "end": 202.17000000000002,
+    "text": "Allons, j\u2019\u00e9couterai jusqu\u2019au bout, dit Morel. Va\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 201.984,
-    "end": 202.718,
-    "text": "Va, va."
+    "begin": 202.02,
+    "end": 202.688,
+    "text": "va."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 203.112,
+    "disabled": false,
     "end": 204.766,
     "text": "Louise reprit."
   },
@@ -1343,29 +1342,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 988.392,
-    "end": 999.9,
-    "text": "Puis, malgr\u00e9 l\u2019obscurit\u00e9, il se pr\u00e9cipita sur moi, me saisit au cou comme s\u2019il e\u00fbt voulu m\u2019\u00e9trangler et me dit \u00e0 voix basse\u2026 d\u2019un ton \u00e0 la fois furieux et effray\u00e9."
+    "disabled": false,
+    "end": 990.82,
+    "text": "Puis, malgr\u00e9 l\u2019obscurit\u00e9"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 999.91,
-    "end": 1003.72,
-    "text": "Tu espionnais, tu \u00e9coutais \u00e0 la porte ! qu\u2019as-tu entendu ?\u2026"
+    "begin": 990.62,
+    "disabled": false,
+    "end": 999.8720000000001,
+    "text": "il se pr\u00e9cipita sur moi, me saisit au cou comme s\u2019il e\u00fbt voulu m\u2019\u00e9trangler et me dit \u00e0 voix basse\u2026 d\u2019un ton \u00e0 la fois furieux et effray\u00e9."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1003.65,
-    "end": 1004.258,
-    "text": "R\u00e9ponds !"
+    "begin": 999.9100000000001,
+    "end": 1004.23,
+    "text": "Tu espionnais, tu \u00e9coutais \u00e0 la porte ! qu\u2019as-tu entendu ?\u2026 R\u00e9ponds !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1004.14,
+    "disabled": false,
     "end": 1005.916,
     "text": "R\u00e9ponds ! ou je t\u2019\u00e9touffe."
   },

@@ -128,9 +128,7 @@ Cela recommence, comte ! s’écria Morrel, et voilà pourquoi j’accours chez 
 Eh bien, que voulez-vous que j’y fasse, Morrel ?
 Voudriez-vous, par hasard, que je prévinsse Monsieur le procureur du roi ?
 Monte-Cristo articula ces dernières paroles avec tant de clarté et avec une accentuation si vibrante, que Morrel, se levant tout à coup, s’écria.
-Comte !
-Comte !
-Vous savez de qui je veux parler, n’est-ce pas ?
+Comte ! Comte ! Vous savez de qui je veux parler, n’est-ce pas ?
 Eh ! Parfaitement, mon bon ami, et je vais vous le prouver en mettant les points sur les i, ou plutôt les noms sur les hommes.
 Vous vous êtes promené un soir dans le jardin de Monsieur de Villefort.
 D’après ce que vous m’avez dit, je présume que c’est le soir de la mort de Madame de Saint-Méran.
@@ -252,7 +250,7 @@ Non.
 Maintenant pensez-vous que ce soit la même main qui a frappé Barrois, en voulant frapper un autre, qui frappe aujourd’hui Valentine ?
 Oui.
 Elle va donc succomber aussi ? demanda d’Avrigny en fixant son regard profond sur Noirtier.
-Et il attendit l’effet de cette phrase sur le vieillard.
+il attendit l’effet de cette phrase sur le vieillard.
 Non, répondit-il avec un air de triomphe qui eût pu dérouter toutes les conjectures du plus habile devin.
 Alors vous espérez ? dit d’Avrigny avec surprise.
 Oui.

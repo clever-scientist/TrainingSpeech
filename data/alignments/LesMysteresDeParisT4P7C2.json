@@ -192,29 +192,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 171.88,
-    "end": 174.278,
-    "text": "Mais tes mains, tes pauvres mains !"
+    "end": 175.16,
+    "text": "Mais tes mains, tes pauvres mains ! Ces coupures !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 174.208,
-    "end": 175.198,
-    "text": "Ces coupures !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 174.952,
+    "disabled": false,
     "end": 177.758,
     "text": "Qu\u2019est-ce qu\u2019ils t\u2019ont donc fait, mon Dieu ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 178.024,
+    "disabled": false,
     "end": 186.974,
     "text": "Nicolas et Calebasse, n\u2019osant pas m\u2019attaquer en face une seconde fois, m\u2019avaient mur\u00e9 dans ma chambre pour m\u2019y laisser mourir de faim."
   },

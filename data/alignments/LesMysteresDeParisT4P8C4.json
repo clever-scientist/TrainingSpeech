@@ -813,29 +813,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 704.546,
-    "end": 716.416,
-    "text": "\u00c0 force de vivre dans ces horribles lieux, notre esprit finit par s\u2019habituer aux pens\u00e9es criminelles, comme notre oreille s\u2019habitue aux paroles grossi\u00e8res qui retentissent continuellement autour de nous."
+    "disabled": false,
+    "end": 712.0300000000001,
+    "text": "\u00c0 force de vivre dans ces horribles lieux, notre esprit finit par s\u2019habituer aux pens\u00e9es criminelles"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 716.346,
-    "end": 717.336,
-    "text": "Mon Dieu !"
+    "begin": 711.7,
+    "end": 717.5300000000001,
+    "text": "comme notre oreille s\u2019habitue aux paroles grossi\u00e8res qui retentissent continuellement autour de nous."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 717.73,
-    "end": 726.808,
-    "text": "Mon Dieu ! Je comprends maintenant que l\u2019on puisse entrer ici innocent, quoique accus\u00e9, et que l\u2019on en sorte perverti\u2026"
+    "begin": 717.75,
+    "end": 726.7800000000001,
+    "text": "Mon Dieu Mon Dieu! Je comprends maintenant que l\u2019on puisse entrer ici innocent, quoique accus\u00e9, et que l\u2019on en sorte perverti\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 726.946,
+    "disabled": false,
     "end": 729.368,
     "text": "Oui, mais pas vous, pas vous !"
   },

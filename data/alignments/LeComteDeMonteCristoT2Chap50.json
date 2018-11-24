@@ -794,49 +794,42 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 847.592,
-    "end": 861.662,
-    "text": "Cette lettre-et Maximilien tirant un billet de la bourse le pr\u00e9senta au comte-cette lettre fut \u00e9crite par lui un jour o\u00f9 mon p\u00e8re avait pris une r\u00e9solution bien d\u00e9sesp\u00e9r\u00e9e, et ce diamant fut donn\u00e9 en dot \u00e0 ma s\u0153ur par ce g\u00e9n\u00e9reux inconnu."
+    "disabled": false,
+    "end": 857.89,
+    "text": "Cette lettre-et Maximilien tirant un billet de la bourse le pr\u00e9senta au comte-cette lettre fut \u00e9crite par lui un jour o\u00f9 mon p\u00e8re avait pris une r\u00e9solution bien d\u00e9sesp\u00e9r\u00e9e"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 857.76,
+    "disabled": false,
+    "end": 861.632,
+    "text": "et ce diamant fut donn\u00e9 en dot \u00e0 ma s\u0153ur par ce g\u00e9n\u00e9reux inconnu."
+  },
+  {
+    "approved": true,
     "begin": 862.312,
-    "end": 871.878,
-    "text": "Monte-Cristo ouvrit la lettre et la lut avec une ind\u00e9finissable expression de bonheur, c\u2019\u00e9tait le billet que nos lecteurs connaissent, adress\u00e9 \u00e0 Julie et sign\u00e9 Simbad le marin."
+    "disabled": false,
+    "end": 871.8299999999999,
+    "text": "Monte-Cristo ouvrit la lettre et la lut avec une ind\u00e9finissable expression de bonheur, c\u2019\u00e9tait le billet que nos lecteurs connaissent, adress\u00e9 \u00e0 Julie"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 871.68,
-    "end": 872.646,
-    "text": "Inconnu, dites-vous ?"
+    "begin": 871.69,
+    "end": 878.29,
+    "text": "et sign\u00e9 Simbad le marin. Oui, monsieur, jamais nous n\u2019avons eu le bonheur de serrer sa main."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 872.32,
-    "end": 874.078,
-    "text": "Ainsi l\u2019homme qui vous a rendu ce service est rest\u00e9 inconnu pour vous ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 874.472,
-    "end": 878.302,
-    "text": "Oui, monsieur, jamais nous n\u2019avons eu le bonheur de serrer sa main."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 878.184,
+    "disabled": false,
     "end": 889.798,
     "text": "Ce n\u2019est pas faute cependant d\u2019avoir demand\u00e9 \u00e0 Dieu cette faveur, reprit Maximilien. Mais il y a eu dans toute cette aventure une myst\u00e9rieuse direction que nous ne pouvons comprendre encore."
   },
   {
     "approved": true,
     "begin": 889.728,
+    "disabled": false,
     "end": 893.534,
     "text": "Tout a \u00e9t\u00e9 conduit par une main invisible, puissante comme celle d\u2019un enchanteur."
   },
@@ -1159,25 +1152,33 @@
   {
     "approved": true,
     "begin": 1167.87,
+    "disabled": false,
     "end": 1168.862,
     "text": "Rien."
   },
   {
     "approved": true,
     "begin": 1169.0,
-    "end": 1173.09,
-    "text": "Jamais un mot qui p\u00fbt vous faire supposer ?\u2026 Jamais."
+    "end": 1172.12,
+    "text": "Jamais un mot qui p\u00fbt vous faire supposer ?\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 1172.02,
+    "end": 1173.08,
+    "text": "Jamais."
   },
   {
     "approved": true,
     "begin": 1173.1,
+    "disabled": false,
     "end": 1175.394,
     "text": "Cependant vous l\u2019avez nomm\u00e9 tout de suite."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1175.66,
+    "disabled": false,
     "end": 1178.594,
     "text": "Ah ! vous savez\u2026 en pareil cas, on suppose."
   },

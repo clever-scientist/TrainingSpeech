@@ -14,8 +14,14 @@
   {
     "approved": true,
     "begin": 6.76,
-    "end": 25.182,
-    "text": "Les sc\u00e8nes suivantes vont se passer pendant la soir\u00e9e du jour o\u00f9 Madame S\u00e9raphin, suivant les ordres du notaire Jacques Ferrand, s\u2019est rendue chez les Martial, pirates d\u2019eau douce, \u00e9tablis \u00e0 la pointe d\u2019une petite \u00eele de la Seine, non loin du pont d\u2019Asni\u00e8res."
+    "end": 19.4,
+    "text": "Les sc\u00e8nes suivantes vont se passer pendant la soir\u00e9e du jour o\u00f9 Madame S\u00e9raphin, suivant les ordres du notaire Jacques Ferrand, s\u2019est rendue chez les Martial, pirates d\u2019eau douce"
+  },
+  {
+    "approved": true,
+    "begin": 19.08,
+    "end": 25.159999999999997,
+    "text": "\u00e9tablis \u00e0 la pointe d\u2019une petite \u00eele de la Seine, non loin du pont d\u2019Asni\u00e8res."
   },
   {
     "approved": true,
@@ -203,29 +209,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 159.72,
+    "disabled": false,
     "end": 167.518,
     "text": "Qu\u2019il soit d\u00e9montr\u00e9 qu\u2019un criminel l\u00e8gue presque toujours \u00e0 son fils le germe d\u2019une perversit\u00e9 pr\u00e9coce\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 167.784,
-    "end": 176.35,
-    "text": "Fera-t-on pour le salut de cette jeune \u00e2me ce que le m\u00e9decin fait pour le corps lorsqu\u2019il s\u2019agit de lutter contre un vice h\u00e9r\u00e9ditaire ?"
+    "end": 176.344,
+    "text": "Fait-on pour le salut de cette jeune \u00e2me ce que le m\u00e9decin fait pour le corps lorsqu\u2019il s\u2019agit de lutter contre un vice h\u00e9r\u00e9ditaire ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 176.616,
+    "disabled": false,
     "end": 177.502,
     "text": "Non\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 177.896,
+    "disabled": false,
     "end": 183.774,
     "text": "Au lieu de gu\u00e9rir ce malheureux, on le laissera se gangrener jusqu\u2019\u00e0 la mort\u2026"
   },

@@ -885,31 +885,16 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 607.976,
+    "disabled": false,
     "end": 616.158,
     "text": "Monte-Cristo articula ces derni\u00e8res paroles avec tant de clart\u00e9 et avec une accentuation si vibrante, que Morrel, se levant tout \u00e0 coup, s\u2019\u00e9cria."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 616.68,
-    "end": 617.822,
-    "text": "Comte !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 618.6,
-    "end": 619.334,
-    "text": "Comte !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 619.136,
-    "end": 621.406,
-    "text": "Vous savez de qui je veux parler, n\u2019est-ce pas ?"
+    "end": 621.4,
+    "text": "Comte ! Comte ! Vous savez de qui je veux parler, n\u2019est-ce pas ?"
   },
   {
     "approved": true,
@@ -1740,29 +1725,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1291.62,
+    "disabled": false,
     "end": 1296.864,
     "text": "Elle va donc succomber aussi ? demanda d\u2019Avrigny en fixant son regard profond sur Noirtier."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1296.87,
-    "end": 1299.674,
-    "text": "Et il attendit l\u2019effet de cette phrase sur le vieillard."
+    "end": 1299.6699999999998,
+    "text": "il attendit l\u2019effet de cette phrase sur le vieillard."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1299.94,
+    "disabled": false,
     "end": 1305.946,
     "text": "Non, r\u00e9pondit-il avec un air de triomphe qui e\u00fbt pu d\u00e9router toutes les conjectures du plus habile devin."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1306.34,
+    "disabled": false,
     "end": 1309.408,
     "text": "Alors vous esp\u00e9rez ? dit d\u2019Avrigny avec surprise."
   },

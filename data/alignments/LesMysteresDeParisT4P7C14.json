@@ -1635,28 +1635,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1556.86,
+    "disabled": false,
     "end": 1558.11,
     "text": "frappe\u2026 je frapperais\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1558.12,
-    "end": 1559.11,
-    "text": "Tu m\u2019aimes donc bien ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1559.04,
-    "end": 1562.722,
-    "text": "Veux-tu\u2026 de l\u2019or\u2026 tout mon or ?\u2026"
+    "end": 1562.7199999999998,
+    "text": "Tu m\u2019aimes donc bien ? Veux-tu\u2026 de l\u2019or\u2026 tout mon or ?\u2026"
   },
   {
     "approved": true,
     "begin": 1562.86,
+    "disabled": false,
     "end": 1564.64,
     "text": "Non\u2026 j\u2019en ai\u2026"
   },
@@ -2101,35 +2094,20 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1824.23,
     "end": 1825.372,
     "text": "Jacques !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1825.38,
-    "end": 1826.25,
-    "text": "Jacques !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1826.18,
-    "end": 1830.98,
-    "text": "Ne parle pas ainsi ! dit Cecily d\u2019une voix stridente et le sein palpitant."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1830.91,
-    "end": 1832.922,
-    "text": "Tu me rendrais folle\u2026"
+    "end": 1832.9,
+    "text": "Jacques !\u2026 Ne parle pas ainsi ! dit Cecily d\u2019une voix stridente et le sein palpitant. Tu me rendrais folle\u2026"
   },
   {
     "approved": true,
     "begin": 1833.06,
+    "disabled": false,
     "end": 1835.874,
     "text": "Ma t\u00eate pour tes caresses\u2026 veux-tu ?"
   },
@@ -2510,36 +2488,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2037.48,
-    "end": 2039.75,
-    "text": "Voil\u00e0-t-il assez de d\u00e9tails ?"
+    "disabled": false,
+    "end": 2040.28,
+    "text": "Voil\u00e0-t-il assez de d\u00e9tails ? Me croiras-tu ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 2039.68,
-    "end": 2040.282,
-    "text": "Me croiras-tu ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 2040.42,
-    "end": 2047.708,
-    "text": "Oh ! d\u00e9mon\u2026 d\u2019enfer\u2026 tu m\u2019\u00e9pouvantes, et pourtant tu m\u2019attires\u2026 tu me passionnes\u2026"
+    "end": 2044.82,
+    "text": "Oh ! d\u00e9mon\u2026 d\u2019enfer\u2026 tu m\u2019\u00e9pouvantes\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 2044.63,
+    "end": 2047.7,
+    "text": "et pourtant tu m\u2019attires\u2026 tu me passionnes\u2026"
+  },
+  {
+    "approved": true,
     "begin": 2047.59,
+    "disabled": false,
     "end": 2049.762,
     "text": "Quel est donc ton pouvoir ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2049.9,
+    "disabled": false,
     "end": 2051.552,
     "text": "\u00c9coute encore\u2026"
   },

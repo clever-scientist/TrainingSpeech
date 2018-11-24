@@ -3840,25 +3840,20 @@
   {
     "approved": true,
     "begin": 3129.79,
+    "disabled": false,
     "end": 3130.75,
     "text": "Et par qui\u00a0?"
   },
   {
     "approved": true,
     "begin": 3130.552,
-    "end": 3131.52,
-    "text": "et pourquoi\u00a0?"
-  },
-  {
-    "approved": true,
-    "begin": 3131.322,
-    "disabled": false,
-    "end": 3133.098,
-    "text": "et comment\u00a0?"
+    "end": 3133.072,
+    "text": "et pourquoi\u00a0? et comment\u00a0?"
   },
   {
     "approved": true,
     "begin": 3132.6800000000003,
+    "disabled": false,
     "end": 3135.23,
     "text": "Il est impossible qu\u2019on me fasse gr\u00e2ce."
   },
@@ -4569,14 +4564,8 @@
   {
     "approved": true,
     "begin": 3502.81,
-    "end": 3503.53,
-    "text": "la mort\u00a0!"
-  },
-  {
-    "approved": true,
-    "begin": 3503.53,
-    "end": 3509.12,
-    "text": "Quand je pense que je suis venu tout enfant, ici, \u00e0 Bic\u00eatre, voir le grand puits et les fous\u00a0!"
+    "end": 3509.09,
+    "text": "la mort\u00a0! Quand je pense que je suis venu tout enfant, ici, \u00e0 Bic\u00eatre, voir le grand puits et les fous\u00a0!"
   },
   {
     "approved": true,
@@ -4588,6 +4577,7 @@
   {
     "approved": true,
     "begin": 3511.356,
+    "disabled": false,
     "end": 3519.016,
     "text": "Pendant que j\u2019\u00e9crivais tout cela, ma lampe a p\u00e2li, le jour est venu, l\u2019horloge de la chapelle a sonn\u00e9 six heures."
   },
@@ -9243,29 +9233,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6183.07,
+    "disabled": false,
     "end": 6183.98,
     "text": "Elle pleurait."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6183.82,
-    "end": 6184.63,
-    "text": "Je disais."
+    "end": 6184.62,
+    "text": "et je disais."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6184.52,
     "end": 6185.7,
     "text": "C\u2019est bien fait\u00a0!"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6185.43,
+    "disabled": false,
     "end": 6191.33,
     "text": "et nous allions tous deux nous plaindre ensemble \u00e0 nos m\u00e8res, qui nous donnaient tort tout haut et raison tout bas."
   },
@@ -9660,29 +9648,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6408.65,
-    "end": 6419.74,
-    "text": "mourir dans quelques heures, et penser qu\u2019il y a un an, \u00e0 pareil jour, j\u2019\u00e9tais libre et pur que je faisais mes promenades d\u2019automne, que j\u2019errais sous les arbres, et que je marchais dans les feuilles\u00a0!"
+    "disabled": false,
+    "end": 6412.99,
+    "text": "mourir dans quelques heures, et penser qu\u2019il y a un an, \u00e0 pareil jour"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 6419.52,
-    "end": 6421.3,
-    "text": "Chapitre trente-quatre"
+    "begin": 6412.799999999999,
+    "disabled": false,
+    "end": 6419.73,
+    "text": "j\u2019\u00e9tais libre et pur que je faisais mes promenades d\u2019automne, que j\u2019errais sous les arbres, et que je marchais dans les feuilles\u00a0!"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 6419.5199999999995,
+    "end": 6421.299999999999,
+    "text": "Chapitre trente-cinq"
+  },
+  {
+    "approved": true,
     "begin": 6421.37,
-    "end": 6435.35,
-    "text": "En ce moment m\u00eame, il y a tout aupr\u00e8s de moi, dans ces maisons qui font cercle autour du Palais et de la Gr\u00e8ve, et partout dans Paris, des hommes qui vont et viennent, causent et rient, lisent le journal, pensent \u00e0 leurs affaires."
+    "end": 6435.32,
+    "text": "en ce moment m\u00eame, il y a tout aupr\u00e8s de moi, dans ces maisons qui font cercle autour du Palais et de la Gr\u00e8ve, et partout dans Paris, des hommes qui vont et viennent, causent et rient, lisent le journal, pensent \u00e0 leurs affaires."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 6435.02,
+    "disabled": false,
     "end": 6436.69,
     "text": "Des marchands qui vendent."
   },
@@ -11219,28 +11212,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 7362.83,
+    "disabled": false,
     "end": 7364.88,
     "text": "J\u2019avais failli la laisser tomber."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 7364.67,
-    "end": 7364.88,
-    "text": "Mort\u00a0!"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 7364.67,
-    "end": 7366.22,
-    "text": "disais-je."
+    "end": 7366.19,
+    "text": "Mort\u00a0! disais-je."
   },
   {
     "approved": true,
     "begin": 7365.95,
+    "disabled": false,
     "end": 7369.36,
     "text": "Marie, sais-tu ce que c\u2019est qu\u2019\u00eatre mort\u00a0?"
   },

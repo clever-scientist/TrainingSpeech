@@ -306,29 +306,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 364.776,
+    "disabled": false,
     "end": 366.174,
     "text": "Martial."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 366.184,
-    "end": 367.582,
-    "text": "P. L."
+    "end": 367.64,
+    "text": "P L V"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 367.464,
-    "end": 368.44,
-    "text": "cinq. pour la vie"
+    "begin": 367.40000000000003,
+    "end": 368.42400000000004,
+    "text": "pour la vie"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 368.44,
+    "disabled": false,
     "end": 371.934,
     "text": "Voyez-vous cela ? s\u2019\u00e9cria la Louve."
   },
@@ -491,28 +489,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 477.16,
+    "disabled": false,
     "end": 478.686,
     "text": "Vous offenser ?"
   },
   {
     "approved": true,
     "begin": 478.696,
-    "end": 482.758,
-    "text": "Oui\u2026 vous demandez qui veut votre pain\u2026 la premi\u00e8re, je r\u00e9ponds."
+    "end": 483.656,
+    "text": "Oui\u2026 vous demandez qui veut votre pain\u2026 la premi\u00e8re, je r\u00e9ponds. Moi !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 482.688,
-    "end": 483.678,
-    "text": "Moi !\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 483.816,
+    "disabled": false,
     "end": 489.054,
     "text": "Mont-Saint-Jean ne vous le demande qu\u2019ensuite\u2026 et vous lui donnez la pr\u00e9f\u00e9rence\u2026"
   },

@@ -1921,29 +1921,20 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1433.402,
     "end": 1434.62,
     "text": "Caci\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1434.294,
-    "end": 1435.65,
-    "text": "Cecily."
+    "end": 1436.294,
+    "text": "Cecily. Bon, m\u2019y voil\u00e0."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1435.452,
-    "end": 1436.31,
-    "text": "Bon, m\u2019y voil\u00e0."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1436.58,
+    "disabled": false,
     "end": 1442.582,
     "text": "Maintenant, je monte chez Mademoiselle Rigolette, dit Rodolphe \u00e0 Madame Pipelet, en sortant de sa loge."
   },

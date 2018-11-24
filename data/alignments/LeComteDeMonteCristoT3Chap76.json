@@ -552,26 +552,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 625.512,
+    "disabled": false,
     "end": 629.598,
     "text": "Hier matin, \u00e0 ce qu\u2019il para\u00eet, Franz leur a rendu leur parole."
   },
   {
     "approved": true,
     "begin": 629.736,
-    "end": 633.822,
-    "text": "Ah ! vraiment\u2026 Et conna\u00eet-on les causes de cette rupture ?"
+    "end": 630.93,
+    "text": "Ah ! vraiment\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 631.3699999999999,
+    "end": 633.8159999999999,
+    "text": "Et conna\u00eet-on les causes de cette rupture ?"
   },
   {
     "approved": true,
     "begin": 634.31,
+    "disabled": false,
     "end": 634.846,
     "text": "Non."
   },
   {
     "approved": true,
     "begin": 635.206,
+    "disabled": false,
     "end": 641.886,
     "text": "Que m\u2019annoncez-vous l\u00e0, bon Dieu ! madame\u2026 et Monsieur de Villefort, comment accepte-t-il tous ces malheurs ?"
   },

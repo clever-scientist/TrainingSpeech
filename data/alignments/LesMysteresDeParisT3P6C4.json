@@ -1071,35 +1071,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 643.432,
-    "end": 646.47,
-    "text": "Mais c\u2019est tous amis de la p\u00e8gre ceux qui n\u2019ont pas de papiers !"
+    "disabled": false,
+    "end": 647.3000000000001,
+    "text": "Mais c\u2019est tous amis de la p\u00e8gre ceux qui n\u2019ont pas de papiers"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 646.4,
-    "end": 647.262,
-    "text": "Eh ! non !"
+    "begin": 647.28,
+    "end": 653.44,
+    "text": "Eh! non! Tiens, justement, \u00e0 propos de \u00e7a, mon cousin m\u2019a envoy\u00e9 il y a quelques jours une pratique\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 647.272,
-    "end": 656.222,
-    "text": "Tiens, justement, \u00e0 propos de \u00e7a, mon cousin m\u2019a envoy\u00e9 il y a quelques jours une pratique\u2026 que le diable me br\u00fble si j\u2019y comprends rien\u2026"
+    "begin": 653.23,
+    "end": 656.16,
+    "text": "que le diable me br\u00fble si j\u2019y comprends rien\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 656.232,
+    "disabled": false,
     "end": 657.758,
     "text": "Encore une tourn\u00e9e !"
   },
   {
     "approved": true,
     "begin": 657.896,
+    "disabled": false,
     "end": 659.782,
     "text": "\u00c7a va\u2026 le liquide est bon\u2026"
   },

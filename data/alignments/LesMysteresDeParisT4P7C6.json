@@ -289,29 +289,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 238.056,
+    "disabled": false,
     "end": 242.91,
     "text": "Ah bien ! non, il fait trop noir dans la cave, dit Tortillard en hochant la t\u00eate."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 243.176,
-    "end": 244.166,
-    "text": "Comment !"
+    "begin": 243.17600000000002,
+    "end": 244.936,
+    "text": "Comment ! Comment !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 243.968,
-    "end": 244.958,
-    "text": "Comment !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 244.712,
+    "disabled": false,
     "end": 248.542,
     "text": "Toi qui es mauvais comme un d\u00e9mon, tu serais poltron ?\u2026"
   },
@@ -480,29 +472,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 413.8,
-    "end": 414.79,
-    "text": "Rien qu\u2019un petit peu."
+    "end": 417.36,
+    "text": "Rien qu\u2019un petit peu. Laissez-moi seulement le faire \u00e9cumer\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 414.72,
-    "end": 417.374,
-    "text": "Laissez-moi seulement le faire \u00e9cumer\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 417.64,
+    "disabled": false,
     "end": 419.142,
     "text": "Une autre fois\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 418.816,
+    "disabled": false,
     "end": 421.854,
     "text": "Je te dis qu\u2019il faut que je remonte tout de suite."
   },

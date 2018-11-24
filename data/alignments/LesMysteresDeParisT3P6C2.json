@@ -1720,29 +1720,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1228.71,
-    "end": 1229.82,
-    "text": "Me charger !"
+    "end": 1230.5900000000001,
+    "text": "Me charger ! Pourquoi ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1229.75,
-    "end": 1230.62,
-    "text": "Pourquoi ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1230.63,
+    "disabled": false,
     "end": 1234.196,
     "text": "Pour te r\u00e9compenser d\u2019avoir voulu rester ici malgr\u00e9 nous."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1234.59,
+    "disabled": false,
     "end": 1239.576,
     "text": "Tout \u00e0 l\u2019heure vous vouliez me faire peur d\u2019une fa\u00e7on, maintenant c\u2019est d\u2019une autre."
   },

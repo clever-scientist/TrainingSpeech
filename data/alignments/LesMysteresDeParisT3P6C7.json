@@ -1304,29 +1304,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1338.47,
+    "disabled": false,
     "end": 1343.2,
     "text": "La veuve dont vous parlez est jeune encore, n\u2019est-ce pas ? Sa figure est tr\u00e8s noble ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1343.21,
-    "end": 1344.2,
-    "text": "Sans doute."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1344.13,
     "end": 1346.01,
-    "text": "Mais comment savez-vous\u2026"
+    "text": "Sans doute. Mais comment savez-vous\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1346.02,
+    "disabled": false,
     "end": 1350.09,
     "text": "Sa fille, belle comme un ange, a seize ans au plus ?"
   },

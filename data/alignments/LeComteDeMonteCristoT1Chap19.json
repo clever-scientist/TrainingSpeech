@@ -18,6 +18,8 @@
     "text": "Maintenant que ce tr\u00e9sor, qui avait \u00e9t\u00e9 si longtemps l\u2019objet des m\u00e9ditations de l\u2019abb\u00e9, pouvait assurer le bonheur \u00e0 venir de celui que Faria aimait v\u00e9ritablement comme son fils"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 15.19,
     "end": 17.87,
     "text": "il avait encore doubl\u00e9 de valeur \u00e0 ses yeux."
@@ -59,16 +61,21 @@
     "text": "C\u2019est un rocher de forme presque conique, qui semble avoir \u00e9t\u00e9 pouss\u00e9 par quelque cataclysme volcanique du fond de l\u2019ab\u00eeme \u00e0 la surface de la mer."
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 77.138,
     "end": 84.79,
     "text": "Dant\u00e8s faisait le plan de l\u2019\u00eele \u00e0 Faria, et Faria donnait des conseils \u00e0 Dant\u00e8s sur les moyens \u00e0 employer pour retrouver le tr\u00e9sor"
   },
   {
+    "approved": true,
+    "approved_auto": true,
     "begin": 86.36,
     "end": 91.24,
     "text": "Mais Dant\u00e8s \u00e9tait loin d\u2019\u00eatre aussi enthousiaste et surtout aussi confiant que le vieillard."
   },
   {
+    "approved": true,
     "begin": 91.33,
     "end": 115.698,
     "text": "Certes, il \u00e9tait bien certain maintenant que Faria n\u2019\u00e9tait pas fou, et la fa\u00e7on dont il \u00e9tait arriv\u00e9 \u00e0 la d\u00e9couverte qui avait fait croire \u00e0 sa folie redoublait encore son admiration pour lui. Mais aussi il ne pouvait croire que ce d\u00e9p\u00f4t en supposant qu\u2019il e\u00fbt exist\u00e9, exist\u00e2t encore, et, quand il ne regardait pas le tr\u00e9sor comme chim\u00e9rique, il le regardait du moins comme absent."
@@ -426,6 +433,7 @@
     "text": "Et il souleva le pied du lit et en tira le flacon encore au tiers plein de la liqueur rouge."
   },
   {
+    "approved": true,
     "begin": 550.226,
     "end": 553.026,
     "text": "Tenez, dit-il. Il en reste encore, de ce breuvage sauveur."
@@ -445,23 +453,31 @@
   {
     "approved": true,
     "begin": 558.08,
+    "disabled": false,
     "end": 559.86,
     "text": "Parlez, mon ami, j\u2019\u00e9coute."
   },
   {
     "begin": 560.21,
+    "end": 563.6,
+    "text": "Il n\u2019y a pas d\u2019espoir, r\u00e9pondit Faria en secouant la t\u00eate."
+  },
+  {
+    "begin": 563.84,
     "end": 565.21,
-    "text": "Il n\u2019y a pas d\u2019espoir, r\u00e9pondit Faria en secouant la t\u00eate. Mais n\u2019importe."
+    "text": "Mais n\u2019importe."
   },
   {
     "approved": true,
     "begin": 564.818,
+    "disabled": false,
     "end": 576.756,
     "text": "Dieu veut que l\u2019homme qu\u2019il a cr\u00e9\u00e9, et dans le c\u0153ur duquel il a si profond\u00e9ment enracin\u00e9 l\u2019amour de la vie, fasse tout ce qu\u2019il pourra pour conserver cette existence si p\u00e9nible parfois, si ch\u00e8re toujours."
   },
   {
     "approved": true,
     "begin": 576.594,
+    "disabled": false,
     "end": 579.828,
     "text": "Oh ! oui, oui, s\u2019\u00e9cria Dant\u00e8s, et je vous sauverai, vous dis-je !"
   },

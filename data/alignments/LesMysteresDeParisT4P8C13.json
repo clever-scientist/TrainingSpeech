@@ -276,29 +276,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 179.816,
+    "disabled": false,
     "end": 181.854,
     "text": "C\u2019est que c\u2019est un secret\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 181.736,
-    "end": 182.726,
-    "text": "Raison de plus\u2026"
+    "end": 184.536,
+    "text": "Raison de plus\u2026 Ce secret ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 182.656,
-    "end": 184.542,
-    "text": "Ce secret ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 184.68,
+    "disabled": false,
     "end": 187.358,
     "text": "Votre parole d\u2019honneur que vous n\u2019en direz rien ?\u2026"
   },
@@ -1174,29 +1166,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 699.112,
+    "disabled": false,
     "end": 700.23,
     "text": "\u00c0 vous !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 700.032,
-    "end": 700.998,
-    "text": "\u00c0 vous !\u2026"
+    "begin": 700.0319999999999,
+    "end": 701.752,
+    "text": "\u00c0 vous !\u2026 C\u2019est lui !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 700.8,
-    "end": 701.79,
-    "text": "C\u2019est lui !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 702.184,
+    "disabled": false,
     "end": 712.414,
     "text": "Et tous les clercs, se courbant sur leurs pupitres, se mirent \u00e0 griffonner avec une ardeur apparente, faisant bruyamment crier leurs plumes sur le papier."
   },

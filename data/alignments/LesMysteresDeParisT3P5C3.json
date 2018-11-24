@@ -298,43 +298,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 288.36,
+    "disabled": false,
     "end": 290.142,
     "text": "Autre infamie."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 290.28,
-    "end": 294.982,
-    "text": "Mais que faire alors ? Car je l\u2019aime, moi ! je l\u2019aime comme un insens\u00e9\u2026"
+    "begin": 290.28000000000003,
+    "end": 293.05,
+    "text": "Mais que faire alors ? Car je l\u2019aime, moi !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 294.784,
-    "end": 296.006,
-    "text": "Je n\u2019aime qu\u2019elle\u2026"
+    "begin": 292.77000000000004,
+    "end": 296.76,
+    "text": "je l\u2019aime comme un insens\u00e9\u2026 Je n\u2019aime qu\u2019elle\u2026 Je ne veux qu\u2019elle\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 295.808,
-    "end": 296.798,
-    "text": "Je ne veux qu\u2019elle\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 296.552,
+    "disabled": false,
     "end": 300.638,
     "text": "Je veux son amour, et non sa ti\u00e8de affection de s\u0153ur."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 300.52,
+    "disabled": false,
     "end": 306.526,
     "text": "Oh ! \u00e0 la fin il faudra bien qu\u2019elle ait piti\u00e9\u2026 elle est si bonne, elle me verra si malheureux !"
   },

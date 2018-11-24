@@ -14,8 +14,14 @@
   {
     "approved": true,
     "begin": 6.76,
-    "end": 20.702,
-    "text": "Quelques jours apr\u00e8s le meurtre de Madame S\u00e9raphin, la mort de la Chouette et l\u2019arrestation de la bande de malfaiteurs surpris chez Bras-Rouge, Rodolphe se rendit \u00e0 la maison de la rue du Temple."
+    "end": 16.84,
+    "text": "Quelques jours apr\u00e8s le meurtre de Madame S\u00e9raphin, la mort de la Chouette et l\u2019arrestation de la bande de malfaiteurs surpris chez Bras-Rouge"
+  },
+  {
+    "approved": true,
+    "begin": 16.72,
+    "end": 20.68,
+    "text": "Rodolphe se rendit \u00e0 la maison de la rue du Temple."
   },
   {
     "approved": true,
@@ -642,29 +648,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 563.816,
-    "end": 579.294,
-    "text": "Il m\u2019a dit apr\u00e8s qu\u2019il ne savait pas comment \u00e7a se faisait, mais que le regard de Cecily lui avait rappel\u00e9 toutes les histoires de cet effront\u00e9 de Bradamanti sur les sauvagesses qui le faisaient tant rougir, ma vieille b\u00e9gueule d\u2019Alfred\u2026"
+    "disabled": false,
+    "end": 567.5,
+    "text": "Il m\u2019a dit apr\u00e8s qu\u2019il ne savait pas comment \u00e7a se faisait"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 567.22,
+    "disabled": false,
+    "end": 579.2560000000001,
+    "text": "mais que le regard de Cecily lui avait rappel\u00e9 toutes les histoires de cet effront\u00e9 de Bradamanti sur les sauvagesses qui le faisaient tant rougir, ma vieille b\u00e9gueule d\u2019Alfred\u2026"
+  },
+  {
+    "approved": true,
     "begin": 579.816,
-    "end": 581.446,
-    "text": "Mais le notaire ?"
+    "end": 582.336,
+    "text": "Mais le notaire ? Le notaire ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 581.376,
-    "end": 582.366,
-    "text": "Le notaire ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 582.632,
+    "disabled": false,
     "end": 584.926,
     "text": "M\u2019y voil\u00e0, monsieur Rodolphe."
   },

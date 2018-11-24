@@ -1,7 +1,7 @@
 [
   {
     "begin": 0.0,
-    "end": 2.782,
+    "end": 2.76,
     "text": "Chapitre dix."
   },
   {
@@ -1076,29 +1076,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1092.97,
+    "disabled": false,
     "end": 1099.618,
     "text": "Une si am\u00e8re douleur \u00e9clatait sur la figure de Mont-Saint-Jean que sa laideur disparaissait."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1100.14,
-    "end": 1101.13,
-    "text": "Mon Dieu !\u2026"
+    "end": 1103.42,
+    "text": "Mon Dieu !\u2026 Qu\u2019avez-vous ? lui dit la Goualeuse."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1101.06,
-    "end": 1103.43,
-    "text": "Qu\u2019avez-vous ? lui dit la Goualeuse."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1103.104,
+    "disabled": false,
     "end": 1104.738,
     "text": "Comme vous pleurez !"
   },

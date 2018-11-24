@@ -1094,43 +1094,41 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 913.28,
+    "disabled": false,
     "end": 914.142,
     "text": "Dame !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 913.896,
-    "end": 919.56,
-    "text": "Fortun\u00e9, tu penses, ce n\u2019est pas l\u2019envie de bien faire pour toi qui nous manque. De quoi ?"
+    "disabled": false,
+    "end": 918.9599999999999,
+    "text": "Fortun\u00e9, tu penses, ce n\u2019est pas l\u2019envie de bien faire pour toi qui nous manque."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 919.56,
-    "end": 920.262,
-    "text": "De quoi ?"
+    "begin": 919.0999999999999,
+    "end": 921.5899999999999,
+    "text": "De quoi ? De quoi ? Des hardes ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 920.192,
-    "end": 923.358,
-    "text": "Des hardes ? mais j\u2019en ai plein mes malles."
+    "begin": 921.3299999999999,
+    "end": 923.3,
+    "text": "mais j\u2019en ai plein mes malles."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 923.24,
+    "disabled": false,
     "end": 927.198,
     "text": "D\u00e8s qu\u2019elles vont arriver, j\u2019aurai de quoi m\u2019habiller comme un prince."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 927.08,
+    "disabled": false,
     "end": 929.094,
     "text": "Allons, ris donc un peu !"
   },

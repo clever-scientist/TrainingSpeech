@@ -217,29 +217,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 309.736,
-    "end": 310.726,
-    "text": "Il \u00e9coutait."
+    "end": 311.256,
+    "text": "Il \u00e9coutait. voil\u00e0 tout."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 310.4,
-    "end": 311.262,
-    "text": "voil\u00e0 tout."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 312.296,
+    "disabled": false,
     "end": 315.998,
     "text": "Monsieur, reprit Villefort, nous marions Valentine."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 316.264,
+    "disabled": false,
     "end": 322.398,
     "text": "Une figure de cire ne f\u00fbt pas rest\u00e9e plus froide \u00e0 cette nouvelle que ne resta la figure du vieillard."
   },

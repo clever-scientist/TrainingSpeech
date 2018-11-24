@@ -332,28 +332,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 354.048,
-    "end": 356.55,
-    "text": "Dieu m\u2019en pr\u00e9serve ! r\u00e9pondit le comte."
+    "end": 357.048,
+    "text": "Dieu m\u2019en pr\u00e9serve ! r\u00e9pondit le comte. Non."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 356.352,
-    "end": 357.062,
-    "text": "Non."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 356.864,
+    "disabled": false,
     "end": 359.902,
     "text": "Je regretterais seulement que le cheval ne f\u00fbt pas bon."
   },
   {
     "approved": true,
     "begin": 360.04,
+    "disabled": false,
     "end": 377.95,
     "text": "Il est si bon, mon cher comte, que Monsieur de Ch\u00e2teau-Renaud, l\u2019homme le plus connaisseur de France, et monsieur Debray, qui monte les arabes du minist\u00e8re, courent apr\u00e8s moi en ce moment, et sont un peu distanc\u00e9s, comme vous voyez, et encore sont-ils talonn\u00e9s par les chevaux de la baronne Danglars, qui vont d\u2019un trot \u00e0 faire tout bonnement leurs six lieues \u00e0 l\u2019heure."
   },

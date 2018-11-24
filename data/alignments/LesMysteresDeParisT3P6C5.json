@@ -21,36 +21,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 11.496,
+    "disabled": false,
     "end": 14.686,
     "text": "deux mois de prison et vingt-cinq francs d\u2019amende."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 14.824,
-    "end": 15.43,
-    "text": "Art."
+    "end": 18.904,
+    "text": "Article quatre cent six et quatre cent huit du Code p\u00e9nal"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 15.36,
-    "end": 18.91,
-    "text": "quatre cent six et quatre cent huit du Code p\u00e9nal"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 19.048,
+    "disabled": false,
     "end": 26.59,
     "text": "Que le lecteur se figure un cabinet situ\u00e9 au quatri\u00e8me \u00e9tage de la triste maison du passage de la Brasserie."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 27.368,
+    "disabled": false,
     "end": 38.878,
     "text": "Un jour p\u00e2le et sombr\u00e9 p\u00e9n\u00e8tre \u00e0 peine dans cette pi\u00e8ce \u00e9troite par une petite fen\u00eatre \u00e0 un seul vantail, garnie de trois vitres f\u00eal\u00e9es, sordides."
   },
@@ -507,28 +499,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 586.112,
+    "disabled": false,
     "end": 586.822,
     "text": "Non !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 586.752,
-    "end": 593.118,
-    "text": "Non ! s\u2019\u00e9cria Madame de Fermont avec exaltation, je ne veux pas\u2026 je ne veux pas mourir\u2026"
+    "end": 590.54,
+    "text": "Non ! s\u2019\u00e9cria Madame de Fermont avec exaltation,"
+  },
+  {
+    "approved": true,
+    "begin": 590.24,
+    "end": 593.112,
+    "text": "je ne veux pas\u2026 je ne veux pas mourir\u2026"
   },
   {
     "approved": true,
     "begin": 592.872,
+    "disabled": false,
     "end": 600.67,
     "text": "Laisser Claire\u2026 \u00e0 seize ans\u2026 sans ressources, seule, abandonn\u00e9e au milieu de Paris\u2026 est-ce que cela est possible ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 600.68,
+    "disabled": false,
     "end": 607.942,
     "text": "Non ! je ne suis pas malade, apr\u00e8s tout\u2026 qu\u2019est-ce que j\u2019\u00e9prouve ? un peu de chaleur \u00e0 la poitrine, quelque pesanteur \u00e0 la t\u00eate."
   },
@@ -2379,36 +2377,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2005.86,
+    "disabled": false,
     "end": 2009.566,
     "text": "Ah ! madame, par exemple\u2026 il n\u2019y a pas de presse\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2009.32,
-    "end": 2010.31,
-    "text": "Je monte aux combles."
+    "end": 2012.59,
+    "text": "Je monte aux combles. Dans dix minutes je redescends,"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 2010.24,
-    "end": 2014.556,
-    "text": "Dans dix minutes je redescends, je prendrai l\u2019argent en passant."
+    "begin": 2012.3899999999999,
+    "end": 2014.52,
+    "text": "je prendrai l\u2019argent en passant."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2014.95,
+    "disabled": false,
     "end": 2018.908,
     "text": "Le revendeur remit la lettre \u00e0 Madame de Fermont et disparut."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 2019.43,
+    "disabled": false,
     "end": 2021.466,
     "text": "La lettre est de Normandie\u2026"
   },

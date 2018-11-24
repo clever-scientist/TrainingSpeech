@@ -1,9 +1,13 @@
 [
   {
-    "approved": true,
-    "begin": 0,
-    "end": 3.316,
-    "text": "Chapitre dix-sept. La chambre de l\u2019abb\u00e9."
+    "begin": 0.0,
+    "end": 1.72,
+    "text": "Chapitre dix-sept."
+  },
+  {
+    "begin": 1.4,
+    "end": 3.28,
+    "text": "La chambre de l\u2019abb\u00e9."
   },
   {
     "approved": true,
@@ -264,14 +268,8 @@
   {
     "approved": true,
     "begin": 284.498,
-    "end": 285.684,
-    "text": "Non."
-  },
-  {
-    "approved": true,
-    "begin": 285.266,
-    "end": 289.78,
-    "text": "Mais Dieu a donn\u00e9 \u00e0 l\u2019homme l\u2019intelligence pour venir en aide \u00e0 la pauvret\u00e9 de ses sens."
+    "end": 289.778,
+    "text": "Non. Mais Dieu a donn\u00e9 \u00e0 l\u2019homme l\u2019intelligence pour venir en aide \u00e0 la pauvret\u00e9 de ses sens."
   },
   {
     "approved": true,
@@ -294,42 +292,46 @@
   {
     "approved": true,
     "begin": 300.626,
+    "disabled": false,
     "end": 302.836,
     "text": "Tenez, voil\u00e0 ma bougie."
   },
   {
     "approved": true,
-    "begin": 303.954,
-    "end": 310.004,
+    "begin": 303.95399999999995,
+    "end": 310.23999999999995,
     "text": "Et l\u2019abb\u00e9 montra \u00e0 Dant\u00e8s une esp\u00e8ce de lampion, pareil \u00e0 ceux qui servent dans les illuminations publiques."
   },
   {
     "approved": true,
-    "begin": 309.842,
-    "end": 311.796,
+    "begin": 310.03999999999996,
+    "disabled": false,
+    "end": 311.674,
     "text": "Mais du feu ?"
   },
   {
     "approved": true,
-    "begin": 311.634,
-    "end": 314.1,
+    "begin": 311.91999999999996,
+    "end": 314.17999999999995,
     "text": "Voici deux cailloux et du linge br\u00fbl\u00e9."
   },
   {
     "approved": true,
-    "begin": 313.682,
-    "end": 315.892,
+    "begin": 313.92999999999995,
+    "end": 315.84,
     "text": "Mais des allumettes ?"
   },
   {
     "approved": true,
     "begin": 315.474,
+    "disabled": false,
     "end": 320.244,
     "text": "J\u2019ai feint une maladie de peau, et j\u2019ai demand\u00e9 du souffre, que l\u2019on m\u2019a accord\u00e9."
   },
   {
     "approved": true,
     "begin": 320.338,
+    "disabled": false,
     "end": 328.18,
     "text": "Dant\u00e8s posa les objets qu\u2019il tenait sur la table et baissa la t\u00eate, \u00e9cras\u00e9 sous la pers\u00e9v\u00e9rance et la force de cet esprit."
   },
@@ -408,14 +410,8 @@
   {
     "approved": true,
     "begin": 383.826,
-    "end": 386.548,
-    "text": "Ici, j\u2019ai continu\u00e9 la besogne."
-  },
-  {
-    "approved": true,
-    "begin": 386.642,
-    "end": 391.156,
-    "text": "Mais ne s\u2019apercevait-on pas que les draps de votre lit n\u2019avaient plus d\u2019ourlet ?"
+    "end": 391.146,
+    "text": "Ici, j\u2019ai continu\u00e9 la besogne. Mais ne s\u2019apercevait-on pas que les draps de votre lit n\u2019avaient plus d\u2019ourlet ?"
   },
   {
     "approved": true,
@@ -438,24 +434,32 @@
   {
     "approved": true,
     "begin": 395.346,
+    "disabled": false,
     "end": 404.724,
     "text": "Et l\u2019abb\u00e9, ouvrant un lambeau de ses v\u00eatements, montra \u00e0 Dant\u00e8s une ar\u00eate longue, aigu\u00eb et encore enfil\u00e9e, qu\u2019il portait sur lui."
   },
   {
     "approved": true,
     "begin": 405.074,
-    "end": 417.78,
-    "text": "Oui, continua Faria, j\u2019avais d\u2019abord song\u00e9 \u00e0 desceller ces barreaux et \u00e0 fuir par cette fen\u00eatre, qui est un peu plus large que la v\u00f4tre, comme vous voyez, et que j\u2019eusse \u00e9largie encore au moment de mon \u00e9vasion."
+    "end": 415.074,
+    "text": "oui continua\u2026 Oui, continua Faria, j\u2019avais d\u2019abord song\u00e9 \u00e0 desceller ces barreaux et \u00e0 fuir par cette fen\u00eatre, qui est un peu plus large que la v\u00f4tre, comme vous voyez"
   },
   {
     "approved": true,
-    "begin": 418.386,
-    "end": 425.204,
+    "begin": 414.83,
+    "end": 418.22,
+    "text": "et que j\u2019eusse \u00e9largie encore au moment de mon \u00e9vasion"
+  },
+  {
+    "approved": true,
+    "begin": 418.51,
+    "end": 425.19,
     "text": "Mais je me suis aper\u00e7u que cette fen\u00eatre donnait sur une cour int\u00e9rieure, et j\u2019ai renonc\u00e9 \u00e0 mon projet comme trop chanceux."
   },
   {
     "approved": true,
     "begin": 425.298,
+    "disabled": false,
     "end": 433.652,
     "text": "Cependant, j\u2019ai conserv\u00e9 l\u2019\u00e9chelle pour une circonstance impr\u00e9vue, pour une de ces \u00e9vasions dont je vous parlais, et que le hasard procure."
   },
@@ -1179,8 +1183,14 @@
   {
     "approved": true,
     "begin": 955.986,
-    "end": 959.606,
-    "text": "J\u2019ai observ\u00e9 une chose, continua l\u2019abb\u00e9. Laquelle ?"
+    "end": 958.75,
+    "text": "J\u2019ai observ\u00e9 une chose, continua l\u2019abb\u00e9."
+  },
+  {
+    "approved": true,
+    "begin": 958.69,
+    "end": 959.586,
+    "text": "Laquelle ?"
   },
   {
     "approved": true,
@@ -1319,32 +1329,14 @@
   {
     "approved": true,
     "begin": 1017.17,
-    "end": 1018.608,
-    "text": "Attendez\u2026."
+    "end": 1020.77,
+    "text": "Attendez\u2026. Danglars connaissait-il Fernand ?"
   },
   {
     "approved": true,
-    "begin": 1018.19,
-    "end": 1020.912,
-    "text": "Danglars connaissait-il Fernand ?"
-  },
-  {
-    "approved": true,
-    "begin": 1020.75,
-    "end": 1023.222,
-    "text": "Non\u2026 si\u2026."
-  },
-  {
-    "approved": true,
-    "begin": 1023.31,
-    "end": 1025.008,
-    "text": "Je me rappelle\u2026."
-  },
-  {
-    "approved": true,
-    "begin": 1024.59,
-    "end": 1025.78,
-    "text": "Quoi ?"
+    "begin": 1021.08,
+    "end": 1025.77,
+    "text": "Non\u2026 si\u2026. Je me rappelle\u2026. Quoi ?"
   },
   {
     "approved": true,
@@ -1367,29 +1359,20 @@
   {
     "approved": true,
     "begin": 1036.88,
-    "disabled": false,
-    "end": 1046.264,
-    "text": "Non, ils avaient avec eux un troisi\u00e8me compagnon, bien connu de moi, qui sans doute leur avait fait faire connaissance, un tailleur nomm\u00e9 Caderousse."
+    "end": 1044.22,
+    "text": "Non, ils avaient avec eux un troisi\u00e8me compagnon, bien connu de moi, qui sans doute leur avait fait faire connaissance"
   },
   {
     "approved": true,
-    "begin": 1045.8400000000001,
-    "end": 1048.3120000000001,
-    "text": "Mais celui-ci \u00e9tait d\u00e9j\u00e0 ivre."
+    "begin": 1043.99,
+    "end": 1048.2,
+    "text": "un tailleur nomm\u00e9 Caderousse. Mais celui-ci \u00e9tait d\u00e9j\u00e0 ivre."
   },
   {
     "approved": true,
-    "begin": 1048.15,
-    "end": 1051.72,
-    "end_forced": true,
-    "text": "Attendez\u2026 attendez\u2026."
-  },
-  {
-    "approved": true,
-    "begin": 1051.394,
-    "begin_forced": true,
-    "end": 1053.942,
-    "text": "Comment ne me suis-je pas rappel\u00e9 cela ?"
+    "begin": 1048.28,
+    "end": 1053.92,
+    "text": "Attendez\u2026 attendez\u2026. Comment ne me suis-je pas rappel\u00e9 cela ?"
   },
   {
     "approved": true,
@@ -1476,24 +1459,26 @@
     "approved": true,
     "begin": 1107.204,
     "disabled": false,
-    "end": 1109.904,
+    "end": 1109.88,
     "text": "Jeune. vingt-sept ou vingt-huit ans."
   },
   {
     "approved": true,
-    "begin": 1109.59,
-    "end": 1114.25,
+    "begin": 1109.84,
+    "end": 1114.24,
     "text": "Bien ! pas connu encore, mais ambitieux d\u00e9j\u00e0, dit l\u2019abb\u00e9."
   },
   {
     "approved": true,
     "begin": 1113.94,
+    "disabled": false,
     "end": 1117.6879999999999,
     "text": "Quelles furent ses mani\u00e8res avec vous ?"
   },
   {
     "approved": true,
     "begin": 1117.27,
+    "disabled": false,
     "end": 1118.96,
     "text": "Douces plut\u00f4t que s\u00e9v\u00e8res."
   },
@@ -1760,36 +1745,45 @@
   {
     "approved": true,
     "begin": 1244.5,
-    "end": 1249.528,
-    "text": "Oui. Ce digne substitut a br\u00fbl\u00e9, an\u00e9anti la lettre ?"
+    "end": 1245.56,
+    "text": "Oui."
+  },
+  {
+    "approved": true,
+    "begin": 1245.73,
+    "end": 1249.5,
+    "text": "Ce digne substitut a br\u00fbl\u00e9, an\u00e9anti la lettre ?"
   },
   {
     "approved": true,
     "begin": 1249.11,
+    "disabled": false,
     "end": 1250.29,
     "text": "Oui."
   },
   {
     "approved": true,
-    "begin": 1250.64,
-    "end": 1256.01,
+    "begin": 1250.6399999999999,
+    "end": 1256.56,
     "text": "Cet honn\u00eate pourvoyeur du bourreau vous a fait jurer de ne jamais prononcer de nom de Noirtier ?"
   },
   {
     "approved": true,
-    "begin": 1255.94,
-    "end": 1257.716,
+    "begin": 1256.6999999999998,
+    "end": 1257.6799999999998,
     "text": "Oui."
   },
   {
     "approved": true,
     "begin": 1258.07,
+    "disabled": false,
     "end": 1263.858,
     "text": "Ce Noirtier, pauvre aveugle que vous \u00eates, savez-vous ce que c\u2019\u00e9tait que ce Noirtier ?"
   },
   {
     "approved": true,
     "begin": 1264.72,
+    "disabled": false,
     "end": 1267.44,
     "text": "Ce Noirtier, c\u2019\u00e9tait son p\u00e8re !"
   },
@@ -1948,13 +1942,13 @@
   {
     "approved": true,
     "begin": 1424.47,
-    "end": 1433.588,
-    "text": "Le vieux prisonnier \u00e9tait un de ces hommes dont la conversation, comme celle des gens qui ont beaucoup souffert, contient des enseignements nombreux et renferme un int\u00e9r\u00eat soutenu."
+    "end": 1433.59,
+    "text": "Le vieux prisonnier \u00e9tait un de ces hommes dont la conversation, comme celle des gens qui ont beaucoup souffert, contient des enseignements nombreux et renferme un int\u00e9r\u00eat soutenu"
   },
   {
     "approved": true,
-    "begin": 1433.17,
-    "end": 1438.192,
+    "begin": 1433.52,
+    "end": 1438.19,
     "text": "Mais elle n\u2019\u00e9tait pas \u00e9go\u00efste, et ce malheureux ne parlait jamais de ses malheurs."
   },
   {
@@ -2047,15 +2041,8 @@
   {
     "approved": true,
     "begin": 1524.82,
-    "begin_forced": true,
-    "end": 1529.592,
-    "text": "c\u2019est la m\u00e9moire qui fait les uns, c\u2019est la philosophie qui fait les autres."
-  },
-  {
-    "approved": true,
-    "begin": 1529.43,
-    "end": 1532.658,
-    "text": "Mais ne peut-on apprendre la philosophie ?"
+    "end": 1532.62,
+    "text": "c\u2019est la m\u00e9moire qui fait les uns, c\u2019est la philosophie qui fait les autres. Mais ne peut-on apprendre la philosophie ?"
   },
   {
     "approved": true,
@@ -2085,8 +2072,14 @@
   {
     "approved": true,
     "begin": 1548.37,
-    "end": 1552.79,
-    "text": "J\u2019ai h\u00e2te de commencer, j\u2019ai soif de science. Tout ! dit l\u2019abb\u00e9."
+    "end": 1551.58,
+    "text": "J\u2019ai h\u00e2te de commencer, j\u2019ai soif de science."
+  },
+  {
+    "approved": true,
+    "begin": 1551.42,
+    "end": 1552.77,
+    "text": "Tout ! dit l\u2019abb\u00e9."
   },
   {
     "approved": true,
@@ -2213,9 +2206,15 @@
   {
     "approved": true,
     "begin": 1685.33,
-    "end": 1694.192,
-    "end_forced": true,
-    "text": "Elle sera aveugle, elle sera sourde, r\u00e9pondit le jeune homme avec un accent de r\u00e9solution qui \u00e9pouvanta l\u2019abb\u00e9. Non, non ! s\u2019\u00e9cria-t-il. Impossible."
+    "end": 1691.68,
+    "text": "Elle sera aveugle, elle sera sourde, r\u00e9pondit le jeune homme avec un accent de r\u00e9solution qui \u00e9pouvanta l\u2019abb\u00e9."
+  },
+  {
+    "approved": true,
+    "approved_auto": true,
+    "begin": 1691.54,
+    "end": 1694.17,
+    "text": "Non, non ! s\u2019\u00e9cria-t-il. Impossible."
   },
   {
     "approved": true,
@@ -2268,15 +2267,10 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 1727.31,
-    "end": 1729.528,
-    "text": "Un an, au moins."
-  },
-  {
-    "approved": true,
-    "begin": 1729.11,
-    "end": 1731.318,
-    "text": "Mais nous pourrions nous mettre au travail ?"
+    "end": 1731.31,
+    "text": "Un an, au moins. Mais nous pourrions nous mettre au travail ?"
   },
   {
     "approved": true,
@@ -2486,15 +2480,10 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 1972.56,
-    "end": 1976.822,
-    "text": "Et, d\u2019\u00e9pouvante, il laissa tomber \u00e0 terre le ciseau qu\u2019il tenait \u00e0 la main."
-  },
-  {
-    "approved": true,
-    "begin": 1976.66,
-    "end": 1979.126,
-    "text": "Mais qu\u2019y a-t-il donc ? s\u2019\u00e9cria Edmond."
+    "end": 1979.12,
+    "text": "Et, d\u2019\u00e9pouvante, il laissa tomber \u00e0 terre le ciseau qu\u2019il tenait \u00e0 la main. Mais qu\u2019y a-t-il donc ? s\u2019\u00e9cria Edmond."
   },
   {
     "approved": true,
@@ -2576,15 +2565,10 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 2038.87,
-    "end": 2044.662,
-    "text": "Peut-\u00eatre ne ferai-je pas un mouvement, peut-\u00eatre ne jetterai-je pas une plainte."
-  },
-  {
-    "approved": true,
-    "begin": 2044.5,
-    "end": 2048.248,
-    "text": "Mais peut-\u00eatre aussi j\u2019\u00e9cumerai, je me raidirai, je crierai."
+    "end": 2048.23,
+    "text": "Peut-\u00eatre ne ferai-je pas un mouvement, peut-\u00eatre ne jetterai-je pas une plainte. Mais peut-\u00eatre aussi j\u2019\u00e9cumerai, je me raidirai, je crierai."
   },
   {
     "approved": true,
@@ -2606,15 +2590,15 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 2071.38,
-    "end": 2075.378,
-    "text": "\u00c0 moi ! \u00e0 moi ! s\u2019\u00e9cria l\u2019abb\u00e9, je me\u2026 je me m\u2026"
+    "end": 2075.48,
+    "text": "\u00c0 moi ! \u00e0 moi ! s\u2019\u00e9cria l\u2019abb\u00e9, je me\u2026 je me m"
   },
   {
     "approved": true,
-    "begin": 2076.24,
-    "end": 2082.808,
-    "end_forced": true,
+    "begin": 2076.44,
+    "end": 2082.78,
     "text": "L\u2019acc\u00e8s fut si subit et si violent que le malheureux prisonnier ne put m\u00eame achever le mot commenc\u00e9."
   },
   {
@@ -2632,15 +2616,10 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 2092.37,
-    "end": 2095.862,
-    "text": "Il s\u2019agita, \u00e9cuma, rugit."
-  },
-  {
-    "approved": true,
-    "begin": 2095.7,
-    "end": 2101.752,
-    "text": "Mais ainsi qu\u2019il l\u2019avait recommand\u00e9 lui-m\u00eame, Dant\u00e8s \u00e9touffa ses cris sous sa couverture."
+    "end": 2101.73,
+    "text": "Il s\u2019agita, \u00e9cuma, rugit. Mais ainsi qu\u2019il l\u2019avait recommand\u00e9 lui-m\u00eame, Dant\u00e8s \u00e9touffa ses cris sous sa couverture."
   },
   {
     "approved": true,
@@ -2758,15 +2737,10 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 2223.7,
-    "end": 2225.142,
-    "text": "Non."
-  },
-  {
-    "approved": true,
-    "begin": 2224.98,
-    "end": 2228.722,
-    "text": "Mais tout est pr\u00eat pour votre fuite, et je comptais que vous fuiriez."
+    "end": 2228.7,
+    "text": "Non. Mais tout est pr\u00eat pour votre fuite, et je comptais que vous fuiriez."
   },
   {
     "approved": true,
@@ -3000,9 +2974,16 @@
   },
   {
     "approved": true,
+    "approved_auto": true,
     "begin": 2381.65,
-    "end": 2385.79,
-    "text": "C\u2019est bien, dit Dant\u00e8s. Eh bien, alors, moi aussi, je resterai."
+    "end": 2383.55,
+    "text": "C\u2019est bien, dit Dant\u00e8s."
+  },
+  {
+    "approved": true,
+    "begin": 2383.37,
+    "end": 2385.77,
+    "text": "Eh bien, alors, moi aussi, je resterai."
   },
   {
     "approved": true,
@@ -3031,24 +3012,26 @@
   {
     "approved": true,
     "begin": 2410.58,
+    "disabled": false,
     "end": 2412.792,
     "text": "Puis, lui tendant la main."
   },
   {
     "approved": true,
     "begin": 2412.63,
-    "end": 2417.14,
-    "text": "Vous serez peut-\u00eatre r\u00e9compens\u00e9 de ce d\u00e9vouement si d\u00e9sint\u00e9ress\u00e9, lui dit-il."
+    "end": 2416.98,
+    "text": "Vous serez peut-\u00eatre r\u00e9compens\u00e9 de ce d\u00e9vouement si d\u00e9sint\u00e9ress\u00e9 lui dit-il."
   },
   {
     "approved": true,
-    "begin": 2417.75,
-    "end": 2425.072,
+    "begin": 2418.1,
+    "end": 2425.0699999999997,
     "text": "Mais comme je ne puis et que vous ne voulez pas partir, il importe que nous bouchions le souterrain fait sous la galerie."
   },
   {
     "approved": true,
     "begin": 2424.91,
+    "disabled": false,
     "end": 2433.522,
     "text": "le soldat peut d\u00e9couvrir en marchant la sonorit\u00e9 de l\u2019endroit min\u00e9, appeler l\u2019attention d\u2019un inspecteur, et alors nous serions d\u00e9couverts et s\u00e9par\u00e9s."
   },

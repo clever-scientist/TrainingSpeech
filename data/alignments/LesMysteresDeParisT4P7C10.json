@@ -293,29 +293,28 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 198.272,
-    "end": 210.526,
-    "text": "Je commencerai donc ou plut\u00f4t vous voudrez bien lire d\u2019abord cette lettre de Madame la marquise d\u2019Harville, qui vous instruira de tout ce qui s\u2019est pass\u00e9 avant que mon arriv\u00e9e ait confondu Polidori."
+    "disabled": false,
+    "end": 205.16,
+    "text": "Je commencerai donc ou plut\u00f4t vous voudrez bien lire d\u2019abord cette lettre de Madame la marquise d\u2019Harville"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 204.94,
+    "disabled": false,
+    "end": 210.512,
+    "text": "qui vous instruira de tout ce qui s\u2019est pass\u00e9 avant que mon arriv\u00e9e ait confondu Polidori."
+  },
+  {
+    "approved": true,
     "begin": 210.792,
-    "end": 212.422,
-    "text": "Une lettre ?\u2026"
+    "end": 212.952,
+    "text": "Une lettre ?\u2026 Donne vite."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 212.224,
-    "end": 212.958,
-    "text": "Donne vite."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 213.224,
+    "disabled": false,
     "end": 217.822,
     "text": "Murph, remettant \u00e0 Rodolphe la lettre de la marquise, ajouta."
   },

@@ -14,20 +14,66 @@
   {
     "approved": true,
     "begin": 6.562,
-    "end": 36.632,
-    "text": "Imaginez-vous donc, monsieur l\u2019abb\u00e9, reprit Polidori en s\u2019adressant au cur\u00e9, mais en accentuant, pour ainsi dire, chaque phrase par un coup d\u2019\u0153il ironique jet\u00e9 \u00e0 Jacques Ferrand, imaginez-vous que mon ami trouva dans sa nouvelle servante, qui, je vous l\u2019ai d\u00e9j\u00e0 dit, s\u2019appelait Cecily, les meilleures qualit\u00e9s\u2026 une grande modestie\u2026 une douceur ang\u00e9lique\u2026 et surtout beaucoup de pi\u00e9t\u00e9."
+    "disabled": false,
+    "end": 13.260000000000002,
+    "text": "Imaginez-vous donc, monsieur l\u2019abb\u00e9, reprit Polidori en s\u2019adressant au cur\u00e9"
   },
   {
     "approved": true,
-    "approved_auto": true,
+    "begin": 13.07,
+    "disabled": false,
+    "end": 19.962,
+    "text": "mais en accentuant, pour ainsi dire, chaque phrase par un coup d\u2019\u0153il ironique jet\u00e9 \u00e0 Jacques Ferrand"
+  },
+  {
+    "approved": true,
+    "begin": 20.03,
+    "disabled": false,
+    "end": 24.9,
+    "text": "imaginez-vous que mon ami trouva dans sa nouvelle servante,"
+  },
+  {
+    "approved": true,
+    "begin": 24.700000000000003,
+    "end": 28.32,
+    "text": "qui je vous l\u2019ai d\u00e9j\u00e0 dit, s\u2019appelait Cecily\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 28.25,
+    "disabled": false,
+    "end": 30.18,
+    "text": "les meilleures qualit\u00e9s\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 29.91,
+    "end": 32.04,
+    "text": "une grande modestie\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 31.86,
+    "end": 34.21,
+    "text": "une douceur ang\u00e9lique\u2026"
+  },
+  {
+    "approved": true,
+    "begin": 34.019999999999996,
+    "end": 36.59,
+    "text": "et surtout beaucoup de pi\u00e9t\u00e9."
+  },
+  {
+    "approved": true,
     "begin": 37.282,
+    "disabled": false,
     "end": 38.68,
     "text": "Ce n\u2019est pas tout."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 38.69,
+    "disabled": false,
     "end": 45.464,
     "text": "Jacques, vous le savez, doit \u00e0 sa longue pratique des affaires une p\u00e9n\u00e9tration extr\u00eame."
   },
@@ -1355,29 +1401,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1603.11,
+    "disabled": false,
     "end": 1607.45,
     "text": "Il sera du moins aussi ardent que votre charit\u00e9 est intarissable."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1607.46,
-    "end": 1608.83,
-    "text": "Mais qu\u2019avez-vous ?"
+    "begin": 1607.4599999999998,
+    "end": 1609.6999999999998,
+    "text": "Mais qu\u2019avez-vous ? Vous p\u00e2lissez\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1608.76,
-    "end": 1609.73,
-    "text": "Vous p\u00e2lissez\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1609.532,
+    "disabled": false,
     "end": 1610.776,
     "text": "Souffrez-vous ?"
   },

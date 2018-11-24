@@ -568,29 +568,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 456.808,
-    "end": 459.68,
-    "text": "Monsieur Franz est son ami, comme vous savez. Oui."
+    "end": 459.59999999999997,
+    "text": "Monsieur Franz est son ami, comme vous savez."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 459.68,
-    "end": 460.51,
-    "text": "Eh bien ?"
+    "begin": 459.38,
+    "end": 460.488,
+    "text": "Oui. Eh bien ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 460.904,
+    "disabled": false,
     "end": 465.374,
     "text": "Eh bien, il a re\u00e7u une lettre de Franz, qui lui annonce son prochain retour."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 466.024,
+    "disabled": false,
     "end": 469.342,
     "text": "Valentine p\u00e2lit et appuya sa main contre la grille."
   },

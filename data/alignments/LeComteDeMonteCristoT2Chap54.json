@@ -1267,29 +1267,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 943.848,
+    "disabled": false,
     "end": 946.118,
     "text": "Nous parlerons italien, espagnol."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 945.92,
-    "end": 946.758,
-    "text": "Voyons, acceptez."
+    "end": 948.28,
+    "text": "Voyons, acceptez. Ma m\u00e8re vous remerciera."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 946.688,
-    "end": 948.318,
-    "text": "Ma m\u00e8re vous remerciera."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 948.84,
+    "disabled": false,
     "end": 951.006,
     "text": "Mille gr\u00e2ces, dit le comte."
   },

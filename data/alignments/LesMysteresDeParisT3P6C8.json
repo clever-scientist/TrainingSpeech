@@ -387,29 +387,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 325.224,
+    "disabled": false,
     "end": 329.31,
     "text": "Mon cher Badinot, trouvez moyen de me les n\u00e9gocier\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 329.704,
-    "end": 330.566,
-    "text": "Eh bien !\u2026"
+    "end": 331.06399999999996,
+    "text": "Eh bien !\u2026 Ensuite ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 330.496,
-    "end": 331.102,
-    "text": "Ensuite ?\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 331.368,
+    "disabled": false,
     "end": 335.326,
     "text": "Attendez\u2026 je vous ai demand\u00e9 \u00e0 voir ces valeurs\u2026"
   },
@@ -2086,29 +2078,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1921.13,
+    "disabled": false,
     "end": 1925.984,
     "text": "Je ne veux pas que mon nom soit d\u00e9shonor\u00e9, dit-il froidement \u00e0 Florestan."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1926.25,
-    "end": 1927.11,
-    "text": "Ah ! mon p\u00e8re !\u2026"
+    "end": 1930.69,
+    "text": "Ah ! mon p\u00e8re !\u2026 Mon sauveur, s\u2019\u00e9cria chaleureusement le vicomte."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1927.04,
-    "end": 1930.72,
-    "text": "Mon sauveur, s\u2019\u00e9cria chaleureusement le vicomte."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1930.73,
+    "disabled": false,
     "end": 1938.146,
     "text": "Et il allait se pr\u00e9cipiter dans les bras de son p\u00e8re, lorsque celui-ci, d\u2019un geste glacial, calma cet entra\u00eenement."
   },

@@ -1558,29 +1558,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1290.34,
+    "disabled": false,
     "end": 1293.666,
     "text": "\u00c7a lui apprendra \u00e0 venir se m\u00ealer aux honn\u00eates gens !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1293.42,
-    "end": 1294.92,
-    "text": "Oui, oui\u2026"
+    "begin": 1293.4199999999998,
+    "end": 1295.82,
+    "text": "Oui, oui\u2026 \u00c0 l\u2019eau ! \u00e0 l\u2019eau !"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1294.85,
-    "end": 1295.838,
-    "text": "\u00c0 l\u2019eau ! \u00e0 l\u2019eau !"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1295.72,
+    "disabled": false,
     "end": 1298.908,
     "text": "Justement on a cass\u00e9 la glace ce matin."
   },

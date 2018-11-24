@@ -349,29 +349,27 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 438.76,
+    "disabled": false,
     "end": 443.23,
     "text": "Je m\u2019en honore, et pour six francs par mois vous serez servi comme un prince."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 443.624,
-    "end": 445.638,
-    "text": "Va pour les six francs."
+    "begin": 443.62399999999997,
+    "end": 445.68,
+    "text": "Va pour les six francs. Madame\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 445.568,
-    "end": 446.558,
-    "text": "Madame\u2026 votre nom ?"
+    "begin": 445.57,
+    "end": 446.544,
+    "text": "votre nom ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 446.952,
+    "disabled": false,
     "end": 450.014,
     "text": "Pomone-Fortun\u00e9e-Anastasie Pipelet."
   },
@@ -447,29 +445,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 483.688,
+    "disabled": false,
     "end": 485.214,
     "text": "Et il demeure ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 485.224,
-    "end": 486.726,
-    "text": "Rue aux F\u00e8ves."
+    "end": 487.584,
+    "text": "Rue aux F\u00e8ves. Num\u00e9ro treize."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 486.656,
-    "end": 487.622,
-    "text": "Num\u00e9ro treize."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 487.296,
+    "disabled": false,
     "end": 490.974,
     "text": "Il tient aussi un estaminet dans les foss\u00e9s des Champs-\u00c9lys\u00e9es."
   },

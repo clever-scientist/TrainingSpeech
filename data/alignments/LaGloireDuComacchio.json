@@ -751,26 +751,15 @@
   {
     "approved": true,
     "begin": 579.026,
+    "disabled": false,
     "end": 582.854,
     "text": "Je veux qu\u2019on m\u2019ob\u00e9isse, chez moi, entends-tu\u00a0?"
   },
   {
     "approved": true,
     "begin": 582.4,
-    "end": 583.622,
-    "text": "Vip\u00e8re\u00a0!"
-  },
-  {
-    "approved": true,
-    "begin": 583.552,
-    "end": 584.39,
-    "text": "Mauvais gamin\u00a0!"
-  },
-  {
-    "approved": true,
-    "begin": 584.192,
-    "end": 585.03,
-    "text": "Judas\u00a0!"
+    "end": 585.0,
+    "text": "Vip\u00e8re\u00a0! Mauvais gamin\u00a0! Judas\u00a0!"
   },
   {
     "approved": true,

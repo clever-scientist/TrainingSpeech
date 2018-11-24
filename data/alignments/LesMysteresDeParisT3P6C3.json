@@ -264,29 +264,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 335.848,
+    "disabled": false,
     "end": 339.166,
     "text": "Avec \u00e7a qu\u2019ils s\u2019en g\u00eanent de nous appeler voleurs !"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 339.56,
-    "end": 341.83,
-    "text": "Quand c\u2019est pas vrai\u2026 c\u2019est \u00e9gal\u2026"
+    "end": 342.36,
+    "text": "Quand c\u2019est pas vrai\u2026 c\u2019est \u00e9gal\u2026 Mais maintenant\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 341.76,
-    "end": 342.366,
-    "text": "Mais maintenant\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 342.888,
+    "disabled": false,
     "end": 348.126,
     "text": "Puisque Nicolas nous les a donn\u00e9s, ces deux mouchoirs, nous ne les avons pas vol\u00e9s."
   },
@@ -693,31 +685,35 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 611.8,
+    "disabled": false,
     "end": 613.342,
     "text": "Est-elle mauvaise !\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 613.096,
-    "end": 622.534,
-    "text": "Oh ! je la hais\u2026 je la hais\u2026 que je voudrais \u00eatre grand pour lui rendre tous les coups qu\u2019elle nous a donn\u00e9s\u2026 \u00e0 toi, surtout, qui est bien moins dure que moi\u2026"
+    "disabled": false,
+    "end": 616.0,
+    "text": "Oh ! je la hais\u2026 je la hais\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 622.464,
-    "end": 623.198,
-    "text": "Oh !"
+    "begin": 615.78,
+    "end": 623.3,
+    "text": "que je voudrais \u00eatre grand pour lui rendre tous les coups qu\u2019elle nous a donn\u00e9s\u2026 \u00e0 toi, surtout, qui est bien moins dure que moi\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 623.592,
-    "end": 636.766,
-    "text": "Fran\u00e7ois, tais-toi\u2026 \u00e7a me fait peur de t\u2019entendre dire que tu voudrais battre notre m\u00e8re ! s\u2019\u00e9cria la pauvre petite en pleurant et en jetant ses bras autour du cou de son fr\u00e8re, qu\u2019elle embrassa tendrement."
+    "begin": 623.5600000000001,
+    "end": 629.46,
+    "text": "Oh ! Fran\u00e7ois, tais-toi\u2026 \u00e7a me fait peur de t\u2019entendre dire que tu voudrais battre notre m\u00e8re"
+  },
+  {
+    "approved": true,
+    "begin": 629.18,
+    "end": 636.74,
+    "text": "s\u2019\u00e9cria la pauvre petite en pleurant et en jetant ses bras autour du cou de son fr\u00e8re, qu\u2019elle embrassa tendrement."
   },
   {
     "approved": true,
@@ -1063,29 +1059,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 855.912,
-    "end": 856.902,
-    "text": "Mais pour toi ?\u2026"
+    "end": 857.792,
+    "text": "Mais pour toi ?\u2026 Pour toi ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 856.832,
-    "end": 857.822,
-    "text": "Pour toi ?\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 858.088,
+    "disabled": false,
     "end": 869.47,
     "text": "J\u2019aimerais bien un petit J\u00e9sus en cire avec son mouton et sa croix, comme ce marchand de figures de pl\u00e2tre en avait dimanche\u2026 tu sais, sous le porche de l\u2019\u00e9glise d\u2019Asni\u00e8res ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 869.864,
+    "disabled": false,
     "end": 875.87,
     "text": "\u00c0 propos, pourvu qu\u2019on ne dise pas \u00e0 ma m\u00e8re ou \u00e0 Calebasse qu\u2019on nous a vus dans l\u2019\u00e9glise !"
   },

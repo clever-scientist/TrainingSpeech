@@ -431,29 +431,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 541.056,
+    "disabled": false,
     "end": 544.99,
     "text": "Mais un m\u00e9decin noir\u2026 pensez donc\u2026 tout noir, tout noir\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 544.872,
-    "end": 545.478,
-    "text": "\u00c9coute, ma fille."
+    "begin": 544.8720000000001,
+    "end": 548.312,
+    "text": "\u00c9coute, ma fille. de quelle couleur est ta g\u00e9nisse Musette ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 545.408,
-    "end": 548.318,
-    "text": "de quelle couleur est ta g\u00e9nisse Musette ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 548.968,
+    "disabled": false,
     "end": 553.542,
     "text": "Blanche, p\u00e8re Ch\u00e2telain, blanche comme un cygne et fameuse laiti\u00e8re."
   },

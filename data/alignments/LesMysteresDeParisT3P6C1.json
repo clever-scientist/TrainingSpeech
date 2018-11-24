@@ -2,8 +2,13 @@
   {
     "approved": true,
     "begin": 0.0,
-    "end": 13.208,
-    "text": "SIXI\u00c8ME PARTIE. un \u2013 Le pirate d\u2019eau douce Apr\u00e8s quelques moments de silence, la veuve du supplici\u00e9 dit \u00e0 sa fille. Va chercher du bois. Cette nuit, nous rangerons le b\u00fbcher\u2026 au retour de Nicolas et de Martial."
+    "end": 10.32,
+    "text": "SIXI\u00c8ME PARTIE. un \u2013 Le pirate d\u2019eau douce Apr\u00e8s quelques moments de silence, la veuve du supplici\u00e9 dit \u00e0 sa fille. Va chercher du bois. Cette nuit, nous rangerons le b\u00fbcher"
+  },
+  {
+    "begin": 10.1,
+    "end": 13.18,
+    "text": "au retour de Nicolas et de Martial."
   },
   {
     "approved": true,
@@ -211,29 +216,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 208.802,
+    "disabled": false,
     "end": 213.4,
     "text": "\u00c7a veut dire\u2026 prendre\u2026, r\u00e9pondit l\u2019enfant sans lever les yeux."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 213.666,
-    "end": 215.936,
-    "text": "\u00c7a veut dire voler, petite sotte."
+    "end": 216.546,
+    "text": "\u00c7a veut dire voler, petite sotte. Entends-tu ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 215.866,
-    "end": 216.576,
-    "text": "Entends-tu ?\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 216.506,
+    "disabled": false,
     "end": 217.624,
     "text": "Voler\u2026"
   },
@@ -906,36 +903,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 700.834,
-    "end": 702.208,
-    "text": "Allons, vite ! vite !\u2026"
+    "end": 705.1139999999999,
+    "text": "Allons, vite ! vite !\u2026 Au bateau\u2026 O\u00f9 est donc Fran\u00e7ois, la m\u00e8re ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 702.01,
-    "end": 702.976,
-    "text": "Au bateau\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 702.65,
-    "end": 705.152,
-    "text": "O\u00f9 est donc Fran\u00e7ois, la m\u00e8re ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 705.082,
+    "disabled": false,
     "end": 706.2,
     "text": "Il nous aiderait."
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 706.594,
+    "disabled": false,
     "end": 709.656,
     "text": "Ma m\u00e8re l\u2019a enferm\u00e9 l\u00e0-haut apr\u00e8s l\u2019avoir rinc\u00e9."
   },

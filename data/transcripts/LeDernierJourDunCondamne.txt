@@ -634,8 +634,7 @@ C’est comme si le couteau de la guillotine mettait six semaines à tomber.
 Si j’avais ma grâce ?
 Avoir ma grâce !
 Et par qui ?
-et pourquoi ?
-et comment ?
+et pourquoi ? et comment ?
 Il est impossible qu’on me fasse grâce.
 L’exemple ! comme ils disent.
 Je n’ai plus que trois pas à faire.
@@ -753,8 +752,7 @@ Il me demande mon passeport…
 Je suis perdu !
 Ah ! malheureux rêveur brise donc d’abord le mur épais de trois pieds qui t’emprisonne !
 La mort !
-la mort !
-Quand je pense que je suis venu tout enfant, ici, à Bicêtre, voir le grand puits et les fous !
+la mort ! Quand je pense que je suis venu tout enfant, ici, à Bicêtre, voir le grand puits et les fous !
 Chapitre dix-huit
 Pendant que j’écrivais tout cela, ma lampe a pâli, le jour est venu, l’horloge de la chapelle a sonné six heures.
 Qu’est-ce que cela veut dire ?
@@ -1467,7 +1465,7 @@ Pourtant, il n’y a encore qu’un an, nous courions, nous luttions ensemble.
 Je disputais à Pepita la plus belle pomme du pommier.
 Je la frappais pour un nid d’oiseau.
 Elle pleurait.
-Je disais.
+et je disais.
 C’est bien fait !
 et nous allions tous deux nous plaindre ensemble à nos mères, qui nous donnaient tort tout haut et raison tout bas.
 Maintenant elle s’appuie sur mon bras et je suis tout fier et tout ému.
@@ -1527,9 +1525,10 @@ Si on lit un jour mon histoire, après tant d’années d’innocence et de bonh
 Elle aura l’air dépareillée.
 Et pourtant, misérables lois et misérables hommes, je n’étais pas un méchant !
 Oh !
-mourir dans quelques heures, et penser qu’il y a un an, à pareil jour, j’étais libre et pur que je faisais mes promenades d’automne, que j’errais sous les arbres, et que je marchais dans les feuilles !
-Chapitre trente-quatre
-En ce moment même, il y a tout auprès de moi, dans ces maisons qui font cercle autour du Palais et de la Grève, et partout dans Paris, des hommes qui vont et viennent, causent et rient, lisent le journal, pensent à leurs affaires.
+mourir dans quelques heures, et penser qu’il y a un an, à pareil jour
+j’étais libre et pur que je faisais mes promenades d’automne, que j’errais sous les arbres, et que je marchais dans les feuilles !
+Chapitre trente-cinq
+en ce moment même, il y a tout auprès de moi, dans ces maisons qui font cercle autour du Palais et de la Grève, et partout dans Paris, des hommes qui vont et viennent, causent et rient, lisent le journal, pensent à leurs affaires.
 Des marchands qui vendent.
 Des jeunes filles qui préparent leurs robes de bal pour ce soir.
 Des mères qui jouent avec leurs enfants !
@@ -1756,8 +1755,7 @@ vous ne savez donc pas ?
 il est mort.
 Puis elle a crié.
 J’avais failli la laisser tomber.
-Mort !
-disais-je.
+Mort ! disais-je.
 Marie, sais-tu ce que c’est qu’être mort ?
 Oui, monsieur, a-t-elle répondu.
 Il est dans la terre et dans le ciel.

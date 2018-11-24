@@ -1537,28 +1537,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1509.6,
+    "disabled": false,
     "end": 1514.36,
     "text": "Adieu, adieu, tout \u00e0 vous de c\u0153ur et \u00e0 toujours."
   },
   {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1514.07,
-    "end": 1516.01,
-    "text": "HENRI D\u2019H."
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
-    "begin": 1515.79,
-    "end": 1516.61,
-    "text": "O."
+    "disabled": true,
+    "end": 1516.59,
+    "text": "HENRI D\u2019 H O"
   },
   {
     "approved": true,
     "begin": 1517.18,
+    "disabled": false,
     "end": 1525.36,
     "text": "Maintenant nous conduirons le lecteur au palais de Gerolstein, habit\u00e9 par Fleur-de-Marie depuis son retour de France."
   }

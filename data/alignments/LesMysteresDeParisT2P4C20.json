@@ -109,10 +109,9 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 171.624,
-    "end": 178.91,
-    "text": "Si vous doutez de ces faits, si bizarres qu\u2019ils vous paraissent, allez rue du Temple, num\u00e9rodix-sept."
+    "end": 178.904,
+    "text": "Si vous doutez de ces faits, si bizarres qu\u2019ils vous paraissent, allez rue du Temple, num\u00e9ro dix-sept."
   },
   {
     "approved": true,
@@ -1165,29 +1164,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1025.024,
+    "disabled": false,
     "end": 1032.794,
     "text": "Pourtant, je vous l\u2019avoue, en ce moment, je suis si troubl\u00e9 que j\u2019aurais pr\u00e9f\u00e9r\u00e9 recevoir sa visite un autre jour\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1033.06,
-    "end": 1034.57,
-    "text": "Je le comprends\u2026"
+    "end": 1035.4599999999998,
+    "text": "Je le comprends\u2026 Mais que faire ?\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1034.5,
-    "end": 1035.46,
-    "text": "Mais que faire ?\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1035.262,
+    "disabled": false,
     "end": 1036.386,
     "text": "Le voici\u2026"
   },

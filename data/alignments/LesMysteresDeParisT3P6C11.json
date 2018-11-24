@@ -681,35 +681,34 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 712.424,
+    "disabled": false,
     "end": 713.822,
     "text": "Tu as des chagrins ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 713.96,
-    "end": 714.694,
-    "text": "Moi ?"
+    "begin": 713.9599999999999,
+    "end": 715.66,
+    "text": "Moi ? Ah bien ! oui,"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 714.624,
-    "end": 718.43,
-    "text": "Ah bien ! oui, tu me connais\u2026 un vrai Roger-Bontemps\u2026"
+    "begin": 715.3299999999999,
+    "end": 718.4,
+    "text": "tu me connais\u2026 un vrai Roger-Bontemps\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 718.312,
+    "disabled": false,
     "end": 723.294,
     "text": "Je ne suis pas chang\u00e9e\u2026 mais malheureusement tout le monde n\u2019est pas comme moi\u2026"
   },
   {
     "approved": true,
     "begin": 723.304,
+    "disabled": false,
     "end": 726.75,
     "text": "Et comme les autres ont des chagrins, \u00e7a fait que j\u2019en ai."
   },
@@ -1348,29 +1347,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1364.07,
+    "disabled": false,
     "end": 1366.242,
     "text": "Ce n\u2019est peut-\u00eatre pas le m\u00eame."
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1366.38,
-    "end": 1368.52,
-    "text": "Voyons, voyons le tien."
+    "begin": 1366.3799999999999,
+    "end": 1369.3,
+    "text": "Voyons, voyons le tien. Comment est-il ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1368.45,
-    "end": 1369.312,
-    "text": "Comment est-il ?"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1369.45,
+    "disabled": false,
     "end": 1370.586,
     "text": "Jeune !\u2026"
   },

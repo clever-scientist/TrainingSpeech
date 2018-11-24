@@ -2227,29 +2227,21 @@
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1489.51,
+    "disabled": false,
     "end": 1491.682,
     "text": "Qu\u2019est-ce que le temps fait \u00e0 cela ?"
   },
   {
     "approved": true,
-    "approved_auto": true,
     "begin": 1491.82,
-    "end": 1493.32,
-    "text": "Ce que \u00e7a fait ?"
+    "end": 1493.82,
+    "text": "Ce que \u00e7a fait ? Mais tout\u2026"
   },
   {
     "approved": true,
-    "approved_auto": true,
-    "begin": 1493.25,
-    "end": 1493.83,
-    "text": "Mais tout\u2026"
-  },
-  {
-    "approved": true,
-    "approved_auto": true,
     "begin": 1493.504,
+    "disabled": false,
     "end": 1498.97,
     "text": "D\u2019abord je serais jalouse comme un tigre, je me ferais sans cesse des peines de c\u0153ur."
   },
